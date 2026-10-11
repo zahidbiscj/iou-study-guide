@@ -408,6 +408,50 @@ h1, h2, h3, .q .qtext { text-wrap: balance; }
 .chooser-card span { display: block; font-size: 14px; color: var(--muted); margin-top: 4px; }
 #bibs101 .qbody ol { list-style: none; padding-left: 0; }
 #bibs101 .qbody ol li { margin: 0 0 10px; padding-left: 12px; border-left: 3px solid var(--brand-soft); }
+
+/* Inline quick-check quizzes, ISGS menu and assignment wizard */
+.sidebar a.on { background: var(--brand-soft); border-left-color: var(--brand-2); color: var(--brand); font-weight: 600; }
+.miniquiz { background: var(--gold-soft); border: 1px solid color-mix(in srgb, var(--gold) 45%, var(--line)); border-radius: 16px; padding: 16px 18px 14px; margin: 20px 0; }
+.mq-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; flex-wrap: wrap; font-weight: 700; color: var(--gold-ink); }
+.mq-range { font-size: 13px; font-weight: 600; color: var(--muted); }
+.mq-item { margin-top: 14px; padding-top: 14px; border-top: 1px dashed color-mix(in srgb, var(--gold) 40%, var(--line)); }
+.mq-q { font-weight: 600; line-height: 1.5; }
+.mq-bn { color: var(--gold-ink); }
+.mq-q .mq-bn { font-weight: 500; font-size: 15px; }
+.mq-opts { display: grid; gap: 8px; margin-top: 10px; }
+.mq-opt { text-align: left; border: 1.5px solid var(--line); background: var(--paper); border-radius: 10px; padding: 9px 12px; cursor: pointer; font: inherit; font-size: 15px; color: var(--ink); line-height: 1.4; }
+.mq-opt:hover:not([disabled]) { border-color: var(--brand-2); background: var(--brand-soft); }
+.mq-opt[disabled] { cursor: default; }
+.mq-opt.correct { border-color: #1a9c50; background: var(--brand-soft); }
+.mq-opt.wrong { border-color: var(--red); background: var(--red-soft); }
+.mq-fb { margin-top: 10px; padding: 10px 12px; border-radius: 10px; background: var(--paper); border: 1px solid var(--line); font-size: 14.5px; line-height: 1.55; }
+.mq-fb .ok { color: #1a9c50; font-weight: 700; }
+.mq-fb .no { color: var(--red); font-weight: 700; }
+.mq-foot { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 14px; font-weight: 700; color: var(--brand); }
+.mq-msg { margin-top: 10px; font-weight: 600; }
+body.lang-en .mq-bn { display: none !important; }
+body.lang-bn .mq-en { display: none !important; }
+.back-link { display: inline-block; margin: 0 0 8px; font-size: 14px; color: var(--brand); text-decoration: none; font-weight: 600; }
+.back-link:hover { text-decoration: underline; }
+.wiz-top { position: sticky; top: var(--header); z-index: 20; background: var(--bg); padding: 10px 0 8px; border-bottom: 1px solid var(--line); }
+.wiz-chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.wiz-chip { border: 1px solid var(--line); background: var(--paper); border-radius: 999px; padding: 5px 12px; font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; color: var(--muted); }
+.wiz-chip.done { background: var(--brand-soft); color: var(--brand); }
+.wiz-chip.cur { background: var(--brand); color: #fff; border-color: var(--brand); }
+.wiz-bar { height: 6px; border-radius: 3px; background: var(--line); margin-top: 8px; overflow: hidden; }
+.wiz-bar i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--gold), var(--brand-2)); transition: width .3s; }
+.wiz-meta { font-size: 13px; color: var(--muted); margin-top: 6px; }
+.wiz-head { margin-top: 14px; }
+.wiz-head .chapter { margin-top: 0; padding-top: 0; border-top: 0; font-size: 22px; }
+.wstep > h2:first-child, .wstep > h3:first-child { margin-top: 8px; }
+.wiz-nav { display: flex; justify-content: space-between; gap: 10px; margin: 22px 0 6px; }
+.wiz-nav .btn[disabled] { opacity: .45; cursor: not-allowed; }
+.wiz-nav .wiz-next { background: var(--brand); color: #fff; border-color: var(--brand); }
+.wiz-topics { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 12px; margin-top: 14px; }
+.wiz-topic { text-align: left; font: inherit; cursor: pointer; background: var(--paper); border: 1.5px solid var(--line); border-radius: var(--radius); padding: 16px; color: var(--ink); box-shadow: var(--shadow); }
+.wiz-topic b { display: block; color: var(--brand); font-size: 16px; }
+.wiz-topic span { display: block; color: var(--gold-ink); font-size: 14.5px; margin-top: 4px; }
+.wiz-topic:hover, .wiz-topic.sel { border-color: var(--brand-2); background: var(--brand-soft); }
 </style>
 
 <div class="progress" id="progress"></div>
@@ -443,19 +487,20 @@ h1, h2, h3, .q .qtext { text-wrap: balance; }
       </section>
 
       <div data-subject="isgs">
-      <section class="hero">
+      <section class="hero" data-part="menu">
         <div class="kicker">Islamic Studies 1 · ISGS 101 · Fall 2026</div>
         <h1>Learn it step by step</h1>
         <div class="bn-title">ধাপে ধাপে, সহজ ইংরেজি ও বাংলায়</div>
         <p>Your private-tutor notes for the assignment and the midterm. Every idea is explained simply, with examples and evidence, in English and Bangla.</p>
         <p class="bn-only">অ্যাসাইনমেন্ট ও মিডটার্মের জন্য তোমার প্রাইভেট টিউটরের নোট। প্রতিটি ধারণা সহজভাবে, উদাহরণ ও দলিলসহ, ইংরেজি ও বাংলায় ব্যাখ্যা করা হয়েছে।</p>
         <div class="cards">
-          <a class="card" href="#assignment"><b>Part 1 · Assignment guide</b><span>Tawheed or Messengers — concepts, examples, essay plan, APA</span></a>
-          <a class="card" href="#midterm"><b>Part 2 · Midterm Q&amp;A</b><span>All 40 study questions answered in English &amp; বাংলা</span></a>
+          <a class="card" href="#isgs-assignment"><b>Assignment guide</b><span>Step by step: choose Tawheed or Messengers, then plan, write and submit · ধাপে ধাপে</span></a>
+          <a class="card" href="#isgs-midterm"><b>Midterm Q&amp;A</b><span>40 study questions, with a quick check after every 4 · প্রতি ৪টি প্রশ্ন পর কুইজ</span></a>
         </div>
       </section>
 
-<section id="midterm" class="part">
+<section id="midterm" class="part" data-part="midterm">
+<a class="back-link" href="#subject-isgs">← ISGS 101 menu · মেনুতে ফিরে যাও</a>
 <h1 class="chapter">Part 2 — Midterm Study Questions (1–40)</h1>
 <div class="chapter-bn">পর্ব ২ — মিডটার্মের প্রশ্ন ও উত্তর (১–৪০)</div>
 
@@ -1200,7 +1245,7 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>2–4 points</
 
 
 
-      <section id="assignment" class="part">
+      <section id="assignment" class="part" data-part="assignment">
         <span class="part-label">Part 1 · Assignment</span>
 <!-- ================= LESSON 1 ================= -->
 <h1 class="chapter">Lesson 1 — Understanding Your Assignment</h1>
@@ -2368,61 +2413,6 @@ For every Economics answer: (1) Give a clear <b>definition</b>, (2) Draw a <b>di
 প্রতিটি ইকোনমিক্স উত্তরে: (১) স্পষ্ট <b>সংজ্ঞা</b>, (২) প্রযোজ্য হলে <b>ডায়াগ্রাম</b> আঁকো, (৩) <b>৩–৪টি সংগঠিত পয়েন্টে</b> ব্যাখ্যা করো, (৪) <b>বাস্তব উদাহরণ</b> দাও, (৫) <b>সীমাবদ্ধতা</b> বা নীতি প্রভাব উল্লেখ করো। ডায়াগ্রাম নম্বর দেয়!</div>
 </section>
 
-<!-- ==================== QUIZ SECTION ==================== -->
-</div>
-<div data-subject="isgs fpec bibs">
-<section id="quiz" class="section-wrap">
-<div class="section-hd">
-  <span class="section-badge">📝 Quiz</span>
-  <h1 id="s-quiz">Self-Test Quiz · স্ব-পরীক্ষা</h1>
-  <p class="lead">MCQ দিয়ে নিজেকে পরীক্ষা করো — বোঝা গেছে কিনা দেখো! · Test your understanding with multiple-choice questions.</p>
-</div>
-
-<div class="quiz-controls">
-  <div class="quiz-tabs">
-    <button class="qtab active" data-set="isgs" type="button">🕌 ISGS 101</button>
-    <button class="qtab" data-set="fpec" type="button">📊 FPEC 101</button>
-    <button class="qtab" data-set="bibs" type="button">💼 BIBS 101</button>
-    <button class="qtab" data-set="all" type="button">🌐 All · সব</button>
-  </div>
-  <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
-    <button class="btn-quiz-start" id="quizStart" type="button">▶ Quiz শুরু করো</button>
-    <span class="quiz-score-display" id="scoreDisplay" hidden></span>
-  </div>
-</div>
-
-<div id="quizArea" hidden>
-  <div class="quiz-progress-wrap">
-    <div class="quiz-prog-bar"><div id="quizBar" class="quiz-prog-fill" style="width:0%"></div></div>
-    <span id="quizCount" class="quiz-count">Q 1 / 10</span>
-  </div>
-  <div id="quizCard" class="quiz-card">
-    <div class="qnum-badge" id="qNumBadge">Q1</div>
-    <div class="quiz-q-text" id="quizQText"></div>
-    <div class="quiz-q-bn" id="quizQBn"></div>
-    <div class="quiz-options" id="quizOptions"></div>
-    <div class="quiz-feedback" id="quizFeedback" style="display:none">
-      <div class="fb-icon" id="fbIcon"></div>
-      <div class="fb-text">
-        <div class="fb-verdict" id="fbVerdict"></div>
-        <div class="fb-explain" id="fbExplain"></div>
-        <div class="fb-explain-bn" id="fbExplainBn"></div>
-      </div>
-      <button class="btn-next" id="btnNext" type="button">Next →</button>
-    </div>
-  </div>
-</div>
-
-<div id="quizResult" class="quiz-result" style="display:none">
-  <div class="result-icon" id="resultIcon">🎉</div>
-  <div class="result-score" id="resultScore"></div>
-  <div class="result-msg" id="resultMsg"></div>
-  <div class="result-breakdown" id="resultBreakdown"></div>
-  <button class="btn-quiz-start" id="quizRetry" type="button">🔄 আবার চেষ্টা করো</button>
-</div>
-</section>
-<!-- ==================== END QUIZ ==================== -->
-
 </div>
 <div data-subject="enes"><section class="part"><span class="part-label">ENES 101</span><h1 class="chapter">English Language Studies (ENES 101)</h1><p>Study notes for this subject are coming soon.</p><p class="bn-only">এই বিষয়ের স্টাডি নোট শীঘ্রই আসছে।</p></section></div>
 <div data-subject="bibs">
@@ -2434,7 +2424,7 @@ For every Economics answer: (1) Give a clear <b>definition</b>, (2) Draw a <b>di
   <p class="bn-only">৫১টি স্টাডি প্রশ্নের জন্য শিক্ষকের মতো করে লেখা নোট। প্রতিটি উত্তর সহজ উদাহরণসহ ধাপে ধাপে ইংরেজি ও বাংলায় ব্যাখ্যা করা। তারপর কুইজ দিয়ে নিজেকে যাচাই করো।</p>
   <div class="cards">
     <a class="card" href="#bibs101"><b>Study Questions</b><span>51 questions · Units 1–15 · step-by-step answers</span></a>
-    <a class="card" href="#s-quiz"><b>Self-Test Quiz</b><span>51 MCQs with explanations in English &amp; বাংলা</span></a>
+    <a class="card" href="#bibs101"><b>Quick checks</b><span>A short quiz after every few questions · প্রতি কয়েকটি প্রশ্ন পর কুইজ</span></a>
   </div>
 </section>
 
@@ -3279,27 +3269,169 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
     empty.style.display = shown ? 'none' : 'block';
   });
 
+  /* ---------- Assignment wizard (one step at a time) ---------- */
+  var wiz = (function () {
+    var sec = $('#assignment');
+    var lessons = [], cur = null, step = null;
+    function newStep(title, bnTitle) { step = { title: title, bn: bnTitle, nodes: [] }; cur.steps.push(step); return step; }
+    Array.prototype.slice.call(sec.children).forEach(function (el) {
+      if (el.classList.contains('part-label')) return;
+      if (el.tagName === 'H1') {
+        cur = { key: 'L' + (lessons.length + 1), title: el.textContent.trim(), bn: '', steps: [] };
+        lessons.push(cur); step = null; return;
+      }
+      if (!cur) return;
+      if (el.classList.contains('chapter-bn')) { cur.bn = el.textContent.trim(); return; }
+      if (el.tagName === 'H2' || el.tagName === 'H3') {
+        var b = $('.bn', el);
+        newStep(el.childNodes[0].textContent.trim(), b ? b.textContent.replace(/^[\s·]+/, '') : '').nodes.push(el);
+        return;
+      }
+      if (!step) newStep('Overview', 'ভূমিকা');
+      step.nodes.push(el);
+    });
+    var GROUPS = [
+      { n: 1, en: 'Understand', bn: 'বোঝো', keys: ['L1'] },
+      { n: 2, en: 'Topic', bn: 'টপিক', keys: ['choose', 'L2', 'L3'] },
+      { n: 3, en: 'Write', bn: 'লেখো', keys: ['L4'] },
+      { n: 4, en: 'Submit', bn: 'জমা', keys: ['L5'] }
+    ];
+    function lessonOf(key) { return lessons.filter(function (l) { return l.key === key; })[0]; }
+    var topic = store.get('isgs-topic', null);
+    if (topic !== 'L2' && topic !== 'L3') topic = null;
+
+    sec.innerHTML = '';
+    var root = document.createElement('div'); root.className = 'wiz';
+    root.innerHTML =
+      '<a class="back-link" href="#subject-isgs">← ISGS 101 menu · মেনুতে ফিরে যাও</a>' +
+      '<div class="wiz-top"><div class="wiz-chips"></div><div class="wiz-bar"><i></i></div><div class="wiz-meta"></div></div>' +
+      '<div class="wiz-head"></div><div class="wiz-body"></div>' +
+      '<div class="wiz-nav"><button class="btn wiz-back" type="button">← Back · পেছনে</button><button class="btn wiz-next" type="button">Next · পরবর্তী →</button></div>';
+    sec.appendChild(root);
+    var chipsEl = $('.wiz-chips', root), barEl = $('.wiz-bar i', root), metaEl = $('.wiz-meta', root);
+    var headEl = $('.wiz-head', root), bodyEl = $('.wiz-body', root);
+    var backBtn = $('.wiz-back', root), nextBtn = $('.wiz-next', root);
+
+    var stepEls = {};
+    lessons.forEach(function (L) {
+      L.steps.forEach(function (s, i) {
+        var d = document.createElement('div'); d.className = 'wstep'; d.hidden = true;
+        s.nodes.forEach(function (n) { d.appendChild(n); });
+        s.id = L.key + '-' + i; stepEls[s.id] = d; bodyEl.appendChild(d);
+      });
+    });
+    var chooser = document.createElement('div'); chooser.className = 'wstep'; chooser.hidden = true;
+    chooser.innerHTML =
+      '<h2>Choose your topic <span class="bn">তোমার টপিক বেছে নাও</span></h2>' +
+      '<p>You write about <b>one topic only</b>. Pick the one you chose for your assignment — you will then see only that topic.</p>' +
+      '<p class="bn-only">তুমি <b>শুধু একটি টপিকে</b> লিখবে। অ্যাসাইনমেন্টে যেটা বেছেছ সেটা নাও — তখন শুধু সেই টপিকের পাঠ দেখাবে।</p>' +
+      '<div class="wiz-topics"></div>';
+    bodyEl.appendChild(chooser); stepEls.choose = chooser;
+    [['L2', 'A'], ['L3', 'B']].forEach(function (t) {
+      var L = lessonOf(t[0]); if (!L) return;
+      var b = document.createElement('button'); b.type = 'button'; b.className = 'wiz-topic'; b.setAttribute('data-topic', t[0]);
+      b.innerHTML = '<b></b><span></span>'; $('b', b).textContent = L.title.replace(/^Lesson \d+\s*—\s*/, ''); $('span', b).textContent = L.bn.replace(/^[^—]*—\s*/, '');
+      b.addEventListener('click', function () { setTopic(t[0]); });
+      $('.wiz-topics', chooser).appendChild(b);
+    });
+
+    function path() {
+      var p = [];
+      lessons.forEach(function (L) {
+        if ((L.key === 'L2' || L.key === 'L3') && topic !== L.key) return;
+        L.steps.forEach(function (s) { p.push({ id: s.id, key: L.key, lesson: L, step: s }); });
+        if (L.key === 'L1') p.push({ id: 'choose', key: 'choose', chooser: true });
+      });
+      return p;
+    }
+    var idx = 0, P = path();
+
+    function groupOf(key) { return GROUPS.filter(function (g) { return g.keys.indexOf(key) !== -1; })[0]; }
+    function paintChips(curGroup) {
+      chipsEl.innerHTML = '';
+      GROUPS.forEach(function (g) {
+        var b = document.createElement('button'); b.type = 'button'; b.className = 'wiz-chip' + (g.n === curGroup.n ? ' cur' : g.n < curGroup.n ? ' done' : '');
+        var name = g.n === 2 && topic ? (topic === 'L2' ? 'Tawheed' : 'Messengers') : g.en;
+        b.textContent = (g.n < curGroup.n ? '✓ ' : g.n + ' · ') + name;
+        b.addEventListener('click', function () { goTo(g.n === 2 ? 'choose' : g.keys[0]); });
+        chipsEl.appendChild(b);
+      });
+    }
+    function show(i, scroll) {
+      idx = Math.max(0, Math.min(P.length - 1, i));
+      var item = P[idx];
+      Object.keys(stepEls).forEach(function (k) { stepEls[k].hidden = true; });
+      stepEls[item.id].hidden = false;
+      var g = groupOf(item.key);
+      paintChips(g);
+      var inGroup = P.filter(function (x) { return groupOf(x.key).n === g.n; });
+      var pos = inGroup.indexOf(item) + 1;
+      metaEl.textContent = 'Part ' + g.n + ' of 4 · Step ' + pos + ' of ' + inGroup.length + ' · ' + g.bn;
+      barEl.style.width = Math.round(((idx + 1) / P.length) * 100) + '%';
+      if (item.chooser) {
+        headEl.innerHTML = '';
+        $$('.wiz-topic', chooser).forEach(function (b) { b.classList.toggle('sel', b.getAttribute('data-topic') === topic); });
+      } else {
+        headEl.innerHTML = '<h1 class="chapter"></h1><div class="chapter-bn"></div>';
+        $('.chapter', headEl).textContent = item.lesson.title; $('.chapter-bn', headEl).textContent = item.lesson.bn;
+      }
+      backBtn.disabled = idx === 0;
+      var last = idx === P.length - 1;
+      nextBtn.textContent = last ? 'Done · শেষ ✓' : 'Next · পরবর্তী →';
+      nextBtn.disabled = !!item.chooser && !topic;
+      $$('[data-wiz]').forEach(function (a) { var k = a.getAttribute('data-wiz'); a.classList.toggle('on', k === item.key); });
+      store.set('isgs-wiz', item.id);
+      if (scroll) window.scrollTo({ top: Math.max(0, root.getBoundingClientRect().top + window.pageYOffset - 70), behavior: 'auto' });
+    }
+    function setTopic(key) {
+      topic = key; store.set('isgs-topic', key); P = path();
+      var first = P.filter(function (x) { return x.key === key; })[0];
+      show(P.indexOf(first), true);
+    }
+    function goTo(key) {
+      if (key === 'L2' || key === 'L3') {
+        if (topic !== key) { topic = key; store.set('isgs-topic', key); P = path(); }
+      }
+      var target = P.filter(function (x) { return x.key === key; })[0];
+      if (!target) target = P.filter(function (x) { return x.key === 'choose'; })[0];
+      show(P.indexOf(target), true);
+    }
+    backBtn.addEventListener('click', function () { show(idx - 1, true); });
+    nextBtn.addEventListener('click', function () {
+      if (idx === P.length - 1) { location.hash = '#subject-isgs'; return; }
+      show(idx + 1, true);
+    });
+    var saved = store.get('isgs-wiz', null), start = 0;
+    P.forEach(function (x, i) { if (x.id === saved) start = i; });
+    show(start, false);
+    return { goTo: goTo };
+  })();
+
   /* ---------- Sidebar ---------- */
   var nav = $('#toc');
   function slug(s, i) { return 's' + i + '-' + s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 40); }
   var spyTargets = [];
-  var h2 = document.createElement('h4'); h2.textContent = 'Part 2 · ISGS Q&A'; nav.appendChild(tag(h2, 'isgs'));
+  function sideHead(text, subj, part) {
+    var h = document.createElement('h4'); h.textContent = text; nav.appendChild(tag(h, subj)); if (part) h.setAttribute('data-part', part); return h;
+  }
+  function sideLink(text, href, subj, part) {
+    var a = document.createElement('a'); a.href = href; a.textContent = text; nav.appendChild(tag(a, subj)); if (part) a.setAttribute('data-part', part); return a;
+  }
+  sideHead('ISGS 101 · Menu', 'isgs');
+  sideLink('Assignment guide · অ্যাসাইনমেন্ট', '#isgs-assignment', 'isgs').setAttribute('data-menu', 'assignment');
+  sideLink('Midterm Q&A · মিডটার্ম', '#isgs-midterm', 'isgs').setAttribute('data-menu', 'midterm');
+  sideHead('Assignment · steps', 'isgs', 'assignment');
+  [['L1', '1 · Understand the assignment'], ['choose', '2 · Choose your topic'], ['L2', 'A · Tawheed essay'], ['L3', 'B · Messengers essay'], ['L4', '3 · Write the essay'], ['L5', '4 · Submission checklist']].forEach(function (l) {
+    sideLink(l[1], '#wiz-' + l[0], 'isgs', 'assignment').setAttribute('data-wiz', l[0]);
+  });
+  sideHead('Midterm Q&A', 'isgs', 'midterm');
   var grid = document.createElement('div'); grid.className = 'qgrid';
   cards.filter(function(c){return c.id.charAt(0)==='q';}).forEach(function (c) {
     var a = document.createElement('a'); a.href = '#' + c.id; a.textContent = c.id.replace('q', '');
     a.title = $('.qtext', c).childNodes[0].textContent.trim();
     grid.appendChild(a); spyTargets.push(c);
   });
-  nav.appendChild(tag(grid, 'isgs'));
-  var h = document.createElement('h4'); h.textContent = 'Part 1 · Assignment'; nav.appendChild(tag(h, 'isgs'));
-  $$('#assignment h1.chapter, #assignment h2').forEach(function (el, i) {
-    if (!el.id) el.id = slug(el.childNodes[0].textContent, i);
-    var a = document.createElement('a');
-    a.href = '#' + el.id;
-    a.textContent = el.childNodes[0].textContent.trim();
-    if (el.tagName === 'H2') a.className = 'sub';
-    nav.appendChild(tag(a, 'isgs')); spyTargets.push(el);
-  });
+  nav.appendChild(tag(grid, 'isgs')); grid.setAttribute('data-part', 'midterm');
   var h3 = document.createElement('h4'); h3.textContent = 'Part 3 · Economics Q&A'; nav.appendChild(tag(h3, 'fpec'));
   var grid2 = document.createElement('div'); grid2.className = 'qgrid';
   cards.filter(function(c){return c.id.charAt(0)==='e';}).forEach(function (c) {
@@ -3319,8 +3451,6 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
     });
     nav.appendChild(tag(g, 'bibs'));
   });
-  var hQuiz = document.createElement('h4'); hQuiz.textContent = '📝 Quiz · স্ব-পরীক্ষা'; nav.appendChild(tag(hQuiz, 'isgs fpec bibs'));
-  var quizLink = document.createElement('a'); quizLink.href = '#s-quiz'; quizLink.textContent = 'Start Quiz'; nav.appendChild(tag(quizLink, 'isgs fpec bibs')); spyTargets.push(document.getElementById('s-quiz'));
   updateCounter();
 
   /* ---------- Subject switcher ---------- */
@@ -3330,7 +3460,7 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
     { key: 'isgs', code: 'ISGS 101', name: 'Islamic Studies 1' },
     { key: 'fpec', code: 'FPEC 101', name: 'Principles of Economics' }
   ];
-  var current = null;
+  var current = null, part = 'menu';
   function tag(el, keys) { el.setAttribute('data-subject', keys); return el; }
   var rail = document.createElement('div'); rail.className = 'rail';
   var railHome = document.createElement('a'); railHome.href = '#'; railHome.setAttribute('data-rail', 'home'); railHome.textContent = '⌂ All subjects · সব বিষয়';
@@ -3342,6 +3472,16 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
   });
   nav.insertBefore(rail, nav.firstChild);
 
+  function applyPart() {
+    $$('[data-part]').forEach(function (el) {
+      var partOk = el.getAttribute('data-part').split(' ').indexOf(part) !== -1;
+      if (el.hasAttribute('data-subject')) {
+        var subjOk = el.getAttribute('data-subject').split(' ').indexOf(current) !== -1;
+        el.hidden = !subjOk || !partOk;
+      } else { el.hidden = !partOk; }
+    });
+    $$('[data-menu]').forEach(function (a) { a.classList.toggle('on', current === 'isgs' && a.getAttribute('data-menu') === part); });
+  }
   function applySubject(key) {
     var known = SUBJECTS.some(function (s) { return s.key === key; });
     if (!known) key = 'home';
@@ -3353,6 +3493,7 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
     var s = SUBJECTS.filter(function (x) { return x.key === key; })[0];
     $('#brandName').textContent = s ? s.code + ' Study Guide' : 'IOU Study Guide';
     $('#brandSub').textContent = s ? s.name : 'Choose a subject';
+    applyPart();
     document.body.classList.remove('selftest');
     $$('#selfTest, #bSelfTest').forEach(function (b) { b.classList.remove('on'); });
     document.dispatchEvent(new CustomEvent('subjectchange', { detail: key }));
@@ -3360,13 +3501,19 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
   function route() {
     var id = decodeURIComponent(location.hash.slice(1));
     var m = /^subject-(\w+)$/.exec(id);
-    if (m) { applySubject(m[1]); window.scrollTo(0, 0); return; }
-    if (!id) { applySubject('home'); window.scrollTo(0, 0); return; }
+    if (m) { part = 'menu'; applySubject(m[1]); window.scrollTo(0, 0); return; }
+    var mp = /^isgs-(assignment|midterm)$/.exec(id);
+    if (mp) { part = mp[1]; applySubject('isgs'); window.scrollTo(0, 0); return; }
+    var mw = /^wiz-(\w+)$/.exec(id);
+    if (mw) { part = 'assignment'; applySubject('isgs'); wiz.goTo(mw[1]); return; }
+    if (!id) { part = 'menu'; applySubject('home'); window.scrollTo(0, 0); return; }
     var el = document.getElementById(id);
     var owner = el && el.closest('[data-subject]');
     if (!owner) return;
     var keys = owner.getAttribute('data-subject').split(' ');
     if (keys.indexOf(current) === -1) applySubject(keys[0]);
+    var po = el.closest('[data-part]');
+    if (po && current === 'isgs' && po.getAttribute('data-part') !== part) { part = po.getAttribute('data-part'); applyPart(); }
   }
 
   function openFromHash() {
@@ -3415,246 +3562,57 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
   window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
   top.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
 
-  /* ═══════════════════════ QUIZ ENGINE ═══════════════════════ */
-  var QUIZ_DB = {
-    bibs: [
-      { q: "Which best describes a business?", qbn: "ব্যবসা বলতে কোনটি সবচেয়ে ভালো বোঝায়?", opts: ["An organization that provides goods or services to customers in exchange for money", "A government office that collects taxes", "Only a company that makes physical products", "A group of friends who meet regularly"], ans: 0, exp: "A business is an organization that provides goods or services in exchange for money. It can sell products or services, and usually aims to earn a profit.", expbn: "ব্যবসা হলো এমন প্রতিষ্ঠান যা অর্থের বিনিময়ে পণ্য বা সেবা দেয়। এটি পণ্য বা সেবা – দুটোই বিক্রি করতে পারে এবং সাধারণত মুনাফা করতে চায়।" },
-      { q: "What is the key difference between a for-profit and a nonprofit organization?", qbn: "মুনাফাভিত্তিক ও অলাভজনক প্রতিষ্ঠানের মূল পার্থক্য কী?", opts: ["Nonprofits are never allowed to earn any money", "For-profits share surplus with owners; nonprofits use surplus for their mission", "For-profits never pay taxes", "Nonprofits have no employees"], ans: 1, exp: "For-profits distribute profit to owners or shareholders. Nonprofits may earn a surplus but must reinvest it in their mission.", expbn: "মুনাফাভিত্তিক প্রতিষ্ঠান মুনাফা মালিক বা শেয়ারহোল্ডারদের দেয়। অলাভজনক প্রতিষ্ঠান উদ্বৃত্ত করতে পারে, কিন্তু তা মিশনেই ফিরিয়ে দিতে হয়।" },
-      { q: "Which of the following is NOT one of the four factors of production?", qbn: "নিচের কোনটি উৎপাদনের চার উপাদানের মধ্যে পড়ে না?", opts: ["Land", "Labor", "Advertising", "Entrepreneurship"], ans: 2, exp: "The four factors are land (natural resources), labor, capital and entrepreneurship. Advertising is a marketing activity, not a factor of production.", expbn: "চার উপাদান হলো ভূমি (প্রাকৃতিক সম্পদ), শ্রম, মূলধন ও উদ্যোক্তা। বিজ্ঞাপন একটি মার্কেটিং কাজ, উৎপাদনের উপাদান নয়।" },
-      { q: "Which functional area is mainly responsible for recruiting, training and motivating employees?", qbn: "কর্মী নিয়োগ, প্রশিক্ষণ ও অনুপ্রেরণার প্রধান দায়িত্ব কোন বিভাগের?", opts: ["Finance", "Human Resources", "Operations", "Accounting"], ans: 1, exp: "Human Resources (HR) hires, trains, pays and motivates employees. Finance manages money, operations produces goods, and accounting records transactions.", expbn: "মানবসম্পদ (HR) কর্মী নিয়োগ, প্রশিক্ষণ, বেতন ও অনুপ্রেরণা দেয়। ফাইন্যান্স অর্থ সামলায়, অপারেশনস উৎপাদন করে, অ্যাকাউন্টিং লেনদেন লিখে রাখে।" },
-      { q: "A bank that lends money to a company is which type of stakeholder?", qbn: "যে ব্যাংক কোনো কোম্পানিকে ঋণ দেয়, সে কোন ধরনের স্টেকহোল্ডার?", opts: ["Customer", "Creditor (lender)", "Employee", "Competitor"], ans: 1, exp: "A lender or creditor provides money and expects it back with interest, so the bank is a creditor stakeholder.", expbn: "ঋণদাতা বা পাওনাদার টাকা দেয় এবং সুদসহ ফেরত চায়, তাই ব্যাংক একটি ঋণদাতা স্টেকহোল্ডার।" },
-      { q: "A new law that raises business taxes is an example of which external force?", qbn: "ব্যবসায়িক কর বাড়ানোর নতুন আইন কোন বাহ্যিক শক্তির উদাহরণ?", opts: ["Technological force", "Political and legal force", "Social force", "Natural force"], ans: 1, exp: "Laws, taxes and regulations come from government, so they are political and legal forces.", expbn: "আইন, কর ও বিধিবিধান সরকারের কাছ থেকে আসে, তাই এগুলো রাজনৈতিক ও আইনি শক্তি।" },
-      { q: "What problem does economics mainly address?", qbn: "অর্থনীতি মূলত কোন সমস্যা নিয়ে কাজ করে?", opts: ["Unlimited resources and limited wants", "Scarce resources and unlimited wants", "Too much money in the economy", "Only government spending"], ans: 1, exp: "Economics studies how we make choices because resources are scarce while human wants are unlimited.", expbn: "সম্পদ দুর্লভ কিন্তু চাহিদা অসীম — তাই আমরা কীভাবে বেছে নিই, অর্থনীতি তা নিয়ে আলোচনা করে।" },
-      { q: "In which economic system does the government own most resources and make most decisions?", qbn: "কোন অর্থনৈতিক ব্যবস্থায় সরকার বেশির ভাগ সম্পদের মালিক এবং বেশির ভাগ সিদ্ধান্ত নেয়?", opts: ["Market economy", "Command economy", "Mixed economy", "Traditional economy"], ans: 1, exp: "In a command (planned) economy the government owns resources and decides what, how and for whom to produce.", expbn: "নির্দেশিত (পরিকল্পিত) অর্থনীতিতে সরকার সম্পদের মালিক এবং কী, কীভাবে ও কার জন্য উৎপাদন হবে তা ঠিক করে।" },
-      { q: "According to the law of demand, if the price of a good rises (ceteris paribus), what happens?", qbn: "চাহিদার সূত্র অনুযায়ী (অন্য সব স্থির), কোনো পণ্যের দাম বাড়লে কী হয়?", opts: ["Quantity demanded rises", "Quantity demanded falls", "Supply falls", "Nothing changes"], ans: 1, exp: "The law of demand states an inverse relationship: higher price means lower quantity demanded.", expbn: "চাহিদার সূত্র বিপরীত সম্পর্ক বোঝায়: দাম বাড়লে চাহিদার পরিমাণ কমে।" },
-      { q: "The supply curve normally slopes upward because:", qbn: "জোগান রেখা সাধারণত ঊর্ধ্বমুখী হয় কারণ:", opts: ["Higher prices give producers more incentive to supply more", "Consumers buy more at higher prices", "Costs always fall when prices rise", "Governments control supply"], ans: 0, exp: "A higher price increases profit, so producers are willing to supply a greater quantity.", expbn: "দাম বাড়লে মুনাফা বাড়ে, তাই উৎপাদকরা বেশি পরিমাণ জোগান দিতে রাজি হয়।" },
-      { q: "If the market price is set below the equilibrium price, what results?", qbn: "বাজারদাম ভারসাম্য দামের নিচে হলে কী হয়?", opts: ["A surplus", "A shortage", "Equilibrium", "A fall in demand curve"], ans: 1, exp: "At a price below equilibrium, quantity demanded exceeds quantity supplied, which creates a shortage.", expbn: "ভারসাম্য দামের নিচে চাহিদার পরিমাণ জোগানের চেয়ে বেশি হয়, ফলে ঘাটতি দেখা দেয়।" },
-      { q: "Which indicator measures the total value of all final goods and services produced in a country in a year?", qbn: "এক বছরে একটি দেশে উৎপাদিত সব চূড়ান্ত পণ্য ও সেবার মোট মূল্য কোন সূচক মাপে?", opts: ["CPI", "Unemployment rate", "GDP", "Interest rate"], ans: 2, exp: "GDP (Gross Domestic Product) measures the total value of final goods and services produced within a country in a year.", expbn: "GDP (মোট দেশজ উৎপাদন) এক বছরে দেশের ভেতরে উৎপাদিত সব চূড়ান্ত পণ্য ও সেবার মোট মূল্য মাপে।" },
-      { q: "During which stage of the business cycle do GDP and employment fall?", qbn: "ব্যবসা চক্রের কোন পর্যায়ে GDP ও কর্মসংস্থান কমে?", opts: ["Expansion", "Peak", "Contraction", "Trough"], ans: 2, exp: "In a contraction (recession), GDP falls, unemployment rises and spending drops. The trough is the lowest point at the end of it.", expbn: "সংকোচন (মন্দা) পর্যায়ে GDP কমে, বেকারত্ব বাড়ে ও খরচ কমে। তলানি হলো এর শেষের সর্বনিম্ন বিন্দু।" },
-      { q: "Why do countries specialize in what they produce best and trade with others?", qbn: "কেন দেশগুলো যা সবচেয়ে ভালো বানাতে পারে তাতে বিশেষায়ন করে এবং অন্যদের সাথে বাণিজ্য করে?", opts: ["So that everyone gets more goods at lower cost", "To stop imports completely", "To make every country identical", "To reduce the variety of goods"], ans: 0, exp: "Specialization based on comparative advantage lets countries produce efficiently, and trade gives everyone more goods at lower prices.", expbn: "তুলনামূলক সুবিধার ভিত্তিতে বিশেষায়ন দেশগুলোকে দক্ষভাবে উৎপাদনে সাহায্য করে; বাণিজ্যে সবাই কম দামে বেশি পণ্য পায়।" },
-      { q: "A country has exports of $400 billion and imports of $550 billion. What is its balance of trade?", qbn: "একটি দেশের রপ্তানি ৪০০ বিলিয়ন ডলার এবং আমদানি ৫৫০ বিলিয়ন ডলার। এর বাণিজ্য ভারসাম্য কত?", opts: ["Surplus of $150 billion", "Deficit of $150 billion", "Surplus of $950 billion", "Balanced"], ans: 1, exp: "Balance of trade = exports − imports = 400 − 550 = −150, which is a trade deficit of $150 billion.", expbn: "বাণিজ্য ভারসাম্য = রপ্তানি − আমদানি = ৪০০ − ৫৫০ = −১৫০, অর্থাৎ ১৫০ বিলিয়ন ডলার বাণিজ্য ঘাটতি।" },
-      { q: "Which global market strategy involves the HIGHEST level of investment and risk?", qbn: "কোন বৈশ্বিক বাজার কৌশলে বিনিয়োগ ও ঝুঁকি সবচেয়ে বেশি?", opts: ["Exporting", "Licensing", "Foreign direct investment", "Contract manufacturing"], ans: 2, exp: "FDI means building or buying your own operations abroad, giving the most control but the highest cost and risk. Exporting is the lowest-risk strategy.", expbn: "FDI মানে বিদেশে নিজস্ব কার্যক্রম গড়া বা কেনা — নিয়ন্ত্রণ সবচেয়ে বেশি, কিন্তু খরচ ও ঝুঁকিও সবচেয়ে বেশি। রপ্তানি সবচেয়ে কম ঝুঁকির কৌশল।" },
-      { q: "A government tax placed on imported goods is called a:", qbn: "আমদানি করা পণ্যের ওপর সরকারের আরোপিত করকে কী বলে?", opts: ["Quota", "Tariff", "Subsidy", "Embargo"], ans: 1, exp: "A tariff is a tax on imports. A quota limits quantity, an embargo bans trade, and a subsidy is government financial help to local producers.", expbn: "শুল্ক (tariff) হলো আমদানির ওপর কর। কোটা পরিমাণ সীমিত করে, নিষেধাজ্ঞা বাণিজ্য বন্ধ করে, ভর্তুকি স্থানীয় উৎপাদককে সরকারি সহায়তা।" },
-      { q: "Which organization is mainly responsible for setting global trade rules and settling trade disputes between countries?", qbn: "কোন সংগঠন প্রধানত বৈশ্বিক বাণিজ্যের নিয়ম তৈরি ও দেশগুলোর মধ্যে বাণিজ্য বিরোধ নিষ্পত্তি করে?", opts: ["International Monetary Fund (IMF)", "World Bank", "World Trade Organization (WTO)", "United Nations Children's Fund"], ans: 2, exp: "The WTO sets and enforces global trade rules and settles disputes. The IMF focuses on monetary stability and the World Bank on development loans.", expbn: "WTO বৈশ্বিক বাণিজ্যের নিয়ম তৈরি, কার্যকর ও বিরোধ নিষ্পত্তি করে। IMF আর্থিক স্থিতিশীলতা এবং বিশ্বব্যাংক উন্নয়ন ঋণ নিয়ে কাজ করে।" },
-      { q: "Which U.S. law makes it illegal for U.S. companies to bribe foreign officials?", qbn: "কোন মার্কিন আইন মার্কিন কোম্পানির বিদেশি কর্মকর্তাকে ঘুষ দেওয়া বেআইনি করেছে?", opts: ["Sherman Antitrust Act", "Foreign Corrupt Practices Act (FCPA)", "Clayton Act", "Consumer Product Safety Act"], ans: 1, exp: "The Foreign Corrupt Practices Act (FCPA) prohibits U.S. companies from bribing foreign officials, even where bribery is common.", expbn: "Foreign Corrupt Practices Act (FCPA) মার্কিন কোম্পানিকে বিদেশি কর্মকর্তাকে ঘুষ দিতে নিষেধ করে, এমনকি যেখানে ঘুষ প্রচলিত সেখানেও।" },
-      { q: "Which of the following is NOT a function of money?", qbn: "নিচের কোনটি অর্থের কাজ নয়?", opts: ["Medium of exchange", "Store of value", "Unit of account", "Creating scarcity"], ans: 3, exp: "Money works as a medium of exchange, a store of value and a unit of account. Creating scarcity is not a function of money.", expbn: "অর্থ বিনিময়ের মাধ্যম, মূল্য সংরক্ষণ ও হিসাবের একক হিসেবে কাজ করে। দুর্লভতা সৃষ্টি করা অর্থের কাজ নয়।" },
-      { q: "What is the central bank of the United States called?", qbn: "যুক্তরাষ্ট্রের কেন্দ্রীয় ব্যাংকের নাম কী?", opts: ["The FDIC", "The Federal Reserve", "The World Bank", "The Treasury Department"], ans: 1, exp: "The Federal Reserve (the Fed) is the U.S. central bank. The FDIC only insures deposits.", expbn: "ফেডারেল রিজার্ভ (ফেড) যুক্তরাষ্ট্রের কেন্দ্রীয় ব্যাংক। FDIC শুধু আমানত বিমা করে।" },
-      { q: "Selling shares of stock to investors is an example of:", qbn: "বিনিয়োগকারীদের কাছে স্টকের শেয়ার বিক্রি কিসের উদাহরণ?", opts: ["Debt financing", "Equity financing", "Trade credit", "A bank loan"], ans: 1, exp: "Selling stock gives investors ownership in return for money, which is equity financing. No repayment is required.", expbn: "স্টক বিক্রি করলে বিনিয়োগকারী টাকার বিনিময়ে মালিকানা পায় — এটি ইক্যুইটি অর্থায়ন। শোধ করতে হয় না।" },
-      { q: "Which is NOT a main purpose of law?", qbn: "নিচের কোনটি আইনের প্রধান উদ্দেশ্য নয়?", opts: ["Maintain order", "Protect rights", "Resolve disputes", "Guarantee every business a profit"], ans: 3, exp: "Law maintains order, protects rights and resolves disputes. It cannot guarantee profit to any business.", expbn: "আইন শৃঙ্খলা রক্ষা করে, অধিকার রক্ষা করে ও বিরোধ মেটায়। কোনো ব্যবসাকে মুনাফার নিশ্চয়তা দেওয়া আইনের কাজ নয়।" },
-      { q: "Common law is primarily created by:", qbn: "কমন ল প্রধানত কে তৈরি করে?", opts: ["Congress", "Judges through court decisions", "The president", "Business owners"], ans: 1, exp: "Common law develops from judges' decisions and precedent. Statutory law is created by legislatures.", expbn: "কমন ল বিচারকদের রায় ও নজির থেকে গড়ে ওঠে। স্ট্যাচুটরি আইন আইনসভা তৈরি করে।" },
-      { q: "A company sells a toy with a design that is unsafe for children. This is most closely related to:", qbn: "একটি কোম্পানি এমন খেলনা বিক্রি করে যার নকশা শিশুদের জন্য অনিরাপদ। এটি সবচেয়ে বেশি কিসের সাথে সম্পর্কিত?", opts: ["Statutory copyright", "Product liability (tort law)", "Antitrust law", "Contract breach"], ans: 1, exp: "An unsafe product design is a design defect, which falls under product liability, a part of tort law.", expbn: "অনিরাপদ নকশা একটি নকশা ত্রুটি, যা টর্ট আইনের অংশ পণ্য দায়বদ্ধতার আওতায় পড়ে।" },
-      { q: "Which form of intellectual property protects a company's logo and brand name?", qbn: "কোন মেধাস্বত্ব কোম্পানির লোগো ও ব্র্যান্ড নাম রক্ষা করে?", opts: ["Patent", "Copyright", "Trademark", "Warranty"], ans: 2, exp: "A trademark protects names, logos and slogans that identify a brand. Patents protect inventions and copyrights protect creative works.", expbn: "ট্রেডমার্ক ব্র্যান্ডের নাম, লোগো ও স্লোগান রক্ষা করে। পেটেন্ট আবিষ্কার ও কপিরাইট সৃজনশীল রচনা রক্ষা করে।" },
-      { q: "A warranty that exists automatically under the law, even if the seller says nothing, is called:", qbn: "বিক্রেতা কিছু না বললেও আইন অনুযায়ী স্বয়ংক্রিয়ভাবে থাকে এমন ওয়ারেন্টিকে বলে:", opts: ["Express warranty", "Implied warranty", "Limited warranty", "Extended warranty"], ans: 1, exp: "An implied warranty, such as merchantability, arises by law without any statement from the seller.", expbn: "অন্তর্নিহিত ওয়ারেন্টি (যেমন merchantability) বিক্রেতার কথা ছাড়াই আইন অনুযায়ী তৈরি হয়।" },
-      { q: "Which of the following is NOT an element of a legally enforceable contract?", qbn: "নিচের কোনটি আইনত বাধ্যতামূলক চুক্তির উপাদান নয়?", opts: ["Offer and acceptance", "Consideration", "Legal purpose", "A guarantee of profit for both parties"], ans: 3, exp: "A valid contract needs offer, acceptance, consideration, capacity, legality and genuine consent. A profit guarantee is not required.", expbn: "বৈধ চুক্তিতে প্রস্তাব, গ্রহণ, বিনিময়, সামর্থ্য, বৈধতা ও প্রকৃত সম্মতি লাগে। উভয়ের মুনাফার নিশ্চয়তা লাগে না।" },
-      { q: "Which law, passed in 1890, was the first major U.S. antitrust law?", qbn: "১৮৯০ সালে পাস হওয়া কোন আইনটি যুক্তরাষ্ট্রের প্রথম বড় অ্যান্টিট্রাস্ট আইন?", opts: ["Clayton Act", "Sherman Act", "Truth in Lending Act", "Consumer Product Safety Act"], ans: 1, exp: "The Sherman Act of 1890 outlawed monopolization and agreements that restrain trade. The Clayton Act came in 1914.", expbn: "১৮৯০ সালের শারম্যান অ্যাক্ট একচেটিয়া দখল ও বাণিজ্য সীমিতকারী চুক্তি নিষিদ্ধ করে। ক্লেটন অ্যাক্ট এসেছে ১৯১৪ সালে।" },
-      { q: "Which statement is correct?", qbn: "কোন বিবৃতিটি সঠিক?", opts: ["Everything legal is automatically ethical", "Some actions can be legal but still unethical", "Ethics are enforced by courts", "Laws and ethics are identical"], ans: 1, exp: "An action can follow the law yet still be unfair or dishonest, so it is legal but unethical.", expbn: "কোনো কাজ আইন মেনেও অন্যায্য বা অসৎ হতে পারে — তখন তা আইনি কিন্তু অনৈতিক।" },
-      { q: "A written document that states a company's values and rules of conduct is called a:", qbn: "কোম্পানির মূল্যবোধ ও আচরণের নিয়ম লেখা দলিলকে কী বলে?", opts: ["Balance sheet", "Code of ethics", "Business plan", "Warranty"], ans: 1, exp: "A code of ethics sets out the values and rules employees should follow. It is a basic step to encourage ethical behavior.", expbn: "আচরণবিধি (code of ethics) কর্মীদের অনুসরণীয় মূল্যবোধ ও নিয়ম নির্ধারণ করে। নৈতিক আচরণ উৎসাহিত করার এটি একটি প্রাথমিক পদক্ষেপ।" },
-      { q: "Which of the following is an example of a conflict of interest?", qbn: "নিচের কোনটি স্বার্থের দ্বন্দ্বের উদাহরণ?", opts: ["A manager gives a contract to a firm owned by her brother instead of a better, cheaper supplier", "An employee attends ethics training", "A company publishes its code of ethics", "A worker reports fraud"], ans: 0, exp: "A conflict of interest happens when personal interests, like family ties, interfere with a professional duty to choose the best option for the company.", expbn: "ব্যক্তিগত স্বার্থ (যেমন পারিবারিক সম্পর্ক) যখন কোম্পানির জন্য সেরা সিদ্ধান্ত নেওয়ার পেশাদার দায়িত্বে বাধা দেয়, তখন স্বার্থের দ্বন্দ্ব হয়।" },
-      { q: "The 'triple bottom line' measures a company's success using:", qbn: "'ট্রিপল বটম লাইন' কোম্পানির সাফল্য মাপে কোনগুলো দিয়ে?", opts: ["Price, product, place", "People, planet, profit", "Sales, stock, savings", "Law, license, loan"], ans: 1, exp: "The triple bottom line looks at social (people), environmental (planet) and financial (profit) results.", expbn: "ট্রিপল বটম লাইন সামাজিক (people), পরিবেশগত (planet) ও আর্থিক (profit) ফলাফল দেখে।" },
-      { q: "Which factor concerns whether the owner's personal assets can be taken to pay business debts?", qbn: "ব্যবসার ঋণ শোধে মালিকের ব্যক্তিগত সম্পদ নেওয়া যাবে কি না — কোন বিষয়টি এটি নিয়ে?", opts: ["Continuity", "Liability", "Taxation", "Number of owners"], ans: 1, exp: "Liability describes how much personal risk the owner bears for the business's debts and legal problems.", expbn: "দায় (liability) বোঝায় ব্যবসার ঋণ ও আইনি সমস্যায় মালিক কতটা ব্যক্তিগত ঝুঁকি বহন করে।" },
-      { q: "A major disadvantage of a sole proprietorship is:", qbn: "একক মালিকানার একটি প্রধান অসুবিধা হলো:", opts: ["Complex taxes", "Unlimited personal liability", "Owner must share profit with shareholders", "Strict corporate regulation"], ans: 1, exp: "The owner is personally responsible for all business debts, so personal assets are at risk.", expbn: "মালিক ব্যবসার সব ঋণের জন্য ব্যক্তিগতভাবে দায়ী, তাই ব্যক্তিগত সম্পদ ঝুঁকিতে থাকে।" },
-      { q: "In a general partnership, the partners:", qbn: "সাধারণ অংশীদারিতে অংশীদাররা:", opts: ["Have limited liability", "Share management and have unlimited liability", "Cannot share profits", "Are never taxed"], ans: 1, exp: "General partners share management and are personally liable for the partnership's debts.", expbn: "সাধারণ অংশীদাররা পরিচালনা ভাগ করে এবং অংশীদারির ঋণের জন্য ব্যক্তিগতভাবে দায়ী।" },
-      { q: "'Double taxation' is a disadvantage of which business form?", qbn: "'দ্বৈত কর' কোন ধরনের ব্যবসার অসুবিধা?", opts: ["Sole proprietorship", "General partnership", "C corporation", "Franchise agreement"], ans: 2, exp: "A regular (C) corporation pays tax on profits, and shareholders pay tax again on dividends — double taxation.", expbn: "সাধারণ (C) কর্পোরেশন মুনাফার ওপর কর দেয়, আবার শেয়ারহোল্ডার লভ্যাংশে কর দেয় — এটিই দ্বৈত কর।" },
-      { q: "What is a key advantage of an LLC?", qbn: "LLC-র একটি মূল সুবিধা কী?", opts: ["Unlimited liability for owners", "Limited liability with pass-through taxation", "Ability to have unlimited shareholders on public markets", "Double taxation"], ans: 1, exp: "An LLC combines limited liability protection with pass-through taxation and flexible management.", expbn: "LLC সীমিত দায়ের সুরক্ষা, pass-through কর এবং নমনীয় ব্যবস্থাপনা একসাথে দেয়।" },
-      { q: "In a franchise, the party that owns the brand and sells the right to use it is called the:", qbn: "ফ্র্যাঞ্চাইজিতে যে পক্ষ ব্র্যান্ডের মালিক এবং ব্যবহারের অধিকার বিক্রি করে তাকে বলে:", opts: ["Franchisee", "Franchisor", "Shareholder", "Creditor"], ans: 1, exp: "The franchisor owns the brand and licenses it to the franchisee, who pays fees and royalties.", expbn: "ফ্র্যাঞ্চাইজর ব্র্যান্ডের মালিক এবং ফ্র্যাঞ্চাইজিকে লাইসেন্স দেয়; ফ্র্যাঞ্চাইজি ফি ও রয়্যালটি দেয়।" },
-      { q: "When one company buys another and takes control, it is called a(n):", qbn: "এক কোম্পানি আরেকটি কিনে নিয়ন্ত্রণ নিলে তাকে কী বলে?", opts: ["Merger of equals", "Acquisition", "Franchise", "Partnership"], ans: 1, exp: "In an acquisition one company buys and controls another. In a merger two companies agree to combine into one.", expbn: "অ্যাকুইজিশনে এক কোম্পানি আরেকটি কিনে নিয়ন্ত্রণ নেয়। মার্জারে দুটি কোম্পানি একত্র হয়ে একটি হয়।" },
-      { q: "Small businesses make up approximately what share of all U.S. firms?", qbn: "মার্কিন প্রতিষ্ঠানের মধ্যে ক্ষুদ্র ব্যবসার আনুমানিক অংশ কত?", opts: ["About 10%", "About 50%", "About 75%", "About 99.9%"], ans: 3, exp: "Small businesses are about 99.9% of U.S. firms and employ roughly half of private-sector workers.", expbn: "মার্কিন প্রতিষ্ঠানের প্রায় ৯৯.৯% ক্ষুদ্র ব্যবসা এবং বেসরকারি খাতের প্রায় অর্ধেক কর্মী সেখানে কাজ করে।" },
-      { q: "Which trait best describes an entrepreneur who learns from failure and keeps trying?", qbn: "যে উদ্যোক্তা ব্যর্থতা থেকে শিখে চেষ্টা চালিয়ে যান, তার জন্য কোন বৈশিষ্ট্যটি সবচেয়ে প্রযোজ্য?", opts: ["Resilience", "Procrastination", "Risk avoidance", "Dependence"], ans: 0, exp: "Resilience means recovering from setbacks and continuing, a key trait of successful entrepreneurs.", expbn: "Resilience মানে বাধা কাটিয়ে ওঠা ও এগিয়ে যাওয়া — সফল উদ্যোক্তাদের একটি মূল বৈশিষ্ট্য।" },
-      { q: "Which is a common disadvantage of starting a small business?", qbn: "ক্ষুদ্র ব্যবসা শুরুর একটি প্রচলিত অসুবিধা কোনটি?", opts: ["Being your own boss", "Risk of financial loss and long hours", "Unlimited profit potential", "Flexibility"], ans: 1, exp: "Business owners often face financial risk and long working hours. The other options are advantages.", expbn: "ব্যবসার মালিকদের প্রায়ই আর্থিক ঝুঁকি ও দীর্ঘ কাজের সময়ের মুখোমুখি হতে হয়। অন্য অপশনগুলো সুবিধা।" },
-      { q: "Which step should come BEFORE writing a business plan?", qbn: "ব্যবসা পরিকল্পনা লেখার আগে কোন ধাপটি আসা উচিত?", opts: ["Hiring employees", "Researching the market to test the idea", "Opening the doors to customers", "Buying equipment"], ans: 1, exp: "You should develop the idea and research the market first, so the business plan is based on real information.", expbn: "আগে আইডিয়া তৈরি ও বাজার গবেষণা করা উচিত, যাতে ব্যবসা পরিকল্পনা বাস্তব তথ্যের ওপর দাঁড়ায়।" },
-      { q: "Which section of a business plan is a short overview of the entire plan and is usually written last?", qbn: "ব্যবসা পরিকল্পনার কোন অংশটি পুরো পরিকল্পনার সংক্ষিপ্ত সারাংশ এবং সাধারণত শেষে লেখা হয়?", opts: ["Financial plan", "Executive summary", "Appendix", "Market analysis"], ans: 1, exp: "The executive summary gives a one-page overview of the whole plan. It appears first but is written last.", expbn: "নির্বাহী সারসংক্ষেপ পুরো পরিকল্পনার এক পৃষ্ঠার সারাংশ। এটি প্রথমে বসে কিন্তু লেখা হয় শেষে।" },
-      { q: "Which level of management focuses on long-term strategic planning?", qbn: "ম্যানেজমেন্টের কোন স্তর দীর্ঘমেয়াদি কৌশলগত পরিকল্পনায় মনোযোগ দেয়?", opts: ["First-line managers", "Middle managers", "Top-level managers", "Employees"], ans: 2, exp: "Top-level managers such as the CEO set the company's strategy and long-term goals.", expbn: "CEO-র মতো শীর্ষ স্তরের ম্যানেজাররা কোম্পানির কৌশল ও দীর্ঘমেয়াদি লক্ষ্য ঠিক করেন।" },
-      { q: "Which of the following is NOT one of the four functions of management?", qbn: "নিচের কোনটি ম্যানেজমেন্টের চারটি কার্যাবলির একটি নয়?", opts: ["Planning", "Organizing", "Advertising", "Controlling"], ans: 2, exp: "The four functions are planning, organizing, leading and controlling. Advertising is a marketing activity.", expbn: "চারটি কার্যাবলি হলো পরিকল্পনা, সংগঠন, নেতৃত্ব ও নিয়ন্ত্রণ। বিজ্ঞাপন মার্কেটিংয়ের কাজ।" },
-      { q: "A backup plan used when something goes wrong, such as a crisis, is called:", qbn: "কিছু ভুল হলে (যেমন সংকটে) ব্যবহারের জন্য রাখা বিকল্প পরিকল্পনাকে বলে:", opts: ["Strategic plan", "Operational plan", "Contingency plan", "Business plan"], ans: 2, exp: "Contingency planning prepares alternative actions in case the original plan fails or a crisis occurs.", expbn: "আকস্মিক (contingency) পরিকল্পনা মূল পরিকল্পনা ব্যর্থ হলে বা সংকট এলে বিকল্প পদক্ষেপ প্রস্তুত রাখে।" },
-      { q: "In which organizational structure do employees report to both a functional manager and a project manager?", qbn: "কোন সাংগঠনিক কাঠামোতে কর্মী ফাংশনাল ম্যানেজার ও প্রকল্প ম্যানেজার — উভয়ের কাছে রিপোর্ট করে?", opts: ["Functional", "Divisional", "Matrix", "Flat"], ans: 2, exp: "In a matrix structure, employees have two bosses: a functional manager and a project manager.", expbn: "ম্যাট্রিক্স কাঠামোতে কর্মীর দুজন বস থাকে: ফাংশনাল ম্যানেজার ও প্রকল্প ম্যানেজার।" },
-      { q: "During an emergency when a quick decision is needed, which leadership style is usually most effective?", qbn: "জরুরি অবস্থায় দ্রুত সিদ্ধান্ত দরকার হলে কোন নেতৃত্ব শৈলী সাধারণত সবচেয়ে কার্যকর?", opts: ["Laissez-faire", "Democratic", "Autocratic", "No leadership"], ans: 2, exp: "Autocratic leadership allows fast, decisive action, which suits emergencies. Democratic and laissez-faire styles are slower or less directive.", expbn: "স্বৈরতান্ত্রিক নেতৃত্ব দ্রুত ও দৃঢ় পদক্ষেপ নিতে দেয়, যা জরুরি অবস্থায় মানানসই। গণতান্ত্রিক ও লেসে-ফেয়ার শৈলী ধীর বা কম নির্দেশমূলক।" },
-      { q: "What is the step that comes right AFTER measuring actual performance in the control process?", qbn: "নিয়ন্ত্রণ প্রক্রিয়ায় প্রকৃত কর্মক্ষমতা মাপার ঠিক পরের ধাপ কোনটি?", opts: ["Setting standards", "Comparing performance against the standards", "Planning strategy", "Hiring staff"], ans: 1, exp: "The control process: set standards, measure performance, compare with standards, then take corrective action.", expbn: "নিয়ন্ত্রণ প্রক্রিয়া: মান ঠিক করা, কর্মক্ষমতা মাপা, মানের সাথে তুলনা, তারপর সংশোধনমূলক পদক্ষেপ।" }
-    ],
-    isgs: [
-      { q: "What is Tawheed?", qbn: "তাওহীদ কী?", opts: ["Believing in multiple gods","Oneness of Allah (Monotheism)","Islamic Law","Prophethood"], ans: 1, exp: "Tawheed means affirming that Allah alone is One — in His existence, attributes, and right to worship. It is the foundation of Islamic faith.", expbn: "তাওহীদ মানে আল্লাহর একত্ব — সত্তায়, গুণাবলিতে এবং ইবাদতের অধিকারে একমাত্র আল্লাহ। এটি ইসলামের মূল ভিত্তি।" },
-      { q: "What is Shirk?", qbn: "শিরক কী?", opts: ["Praying five times","Associating partners with Allah","Fasting in Ramadan","Giving charity"], ans: 1, exp: "Shirk means associating partners with Allah in worship or attributes — it is the greatest sin in Islam that Allah does not forgive if one dies in that state.", expbn: "শিরক হলো ইবাদতে বা গুণাবলিতে আল্লাহর সাথে কাউকে শরিক করা। এটি ইসলামের সবচেয়ে বড় গুনাহ।" },
-      { q: "What is Nubuwwah (Prophethood)?", qbn: "নবুওয়াত কী?", opts: ["Belief in Angels","Divine institution of Prophethood through which Allah guides humanity","The Day of Judgment","The Holy Quran"], ans: 1, exp: "Nubuwwah is the divine institution through which Allah selected Prophets to receive revelation and guide humanity to the truth.", expbn: "নবুওয়াত হলো আল্লাহর সেই ব্যবস্থা যার মাধ্যমে তিনি নির্বাচিত মানুষদের কাছে ওহি পাঠান মানবজাতিকে সঠিক পথে পরিচালনার জন্য।" },
-      { q: "What is Risalah?", qbn: "রিসালাত কী?", opts: ["The message/mission carried by the Prophets","The physical body of the Prophet","The mosque","Prayer times"], ans: 0, exp: "Risalah refers to the message, mission, or prophethood that Allah entrusted to the Prophets to deliver to their people.", expbn: "রিসালাত হলো সেই বার্তা বা মিশন যা আল্লাহ নবীদের তাদের জাতির কাছে পৌঁছে দেওয়ার জন্য অর্পণ করেছেন।" },
-      { q: "What is Akhirah?", qbn: "আখিরাত কী?", opts: ["This worldly life","The Hereafter — eternal life after death","Angels","The Quran"], ans: 1, exp: "Akhirah is the belief in the life after death — the Hereafter — including resurrection, judgment, Paradise and Hellfire. It is a pillar of Islamic faith.", expbn: "আখিরাত হলো মৃত্যুর পরের জীবনে বিশ্বাস — কিয়ামত, হিসাব, জান্নাত ও জাহান্নাম সহ। এটি ঈমানের একটি মূল স্তম্ভ।" },
-      { q: "What are the Five Pillars of Islam?", qbn: "ইসলামের পাঁচ স্তম্ভ কী কী?", opts: ["Quran, Hadith, Fiqh, Aqeedah, Seerah","Shahada, Salah, Zakah, Sawm, Hajj","Tawheed, Shirk, Nubuwwah, Risalah, Akhirah","Iman, Ihsan, Islam, Tawbah, Tawakkul"], ans: 1, exp: "The Five Pillars are: 1) Shahada (declaration of faith), 2) Salah (prayer), 3) Zakah (charity), 4) Sawm (fasting), 5) Hajj (pilgrimage).", expbn: "পাঁচ স্তম্ভ হলো: ১) শাহাদাহ (ঈমানের সাক্ষ্য), ২) সালাহ (নামাজ), ৩) যাকাত, ৪) সওম (রোজা), ৫) হজ্ব।" },
-      { q: "What does 'Iman' mean in Islamic theology?", qbn: "ইসলামী আকীদায় 'ঈমান' মানে কী?", opts: ["Only verbal declaration","Only good deeds","Belief in the heart, confession by tongue, and action by limbs","Only ritual prayer"], ans: 2, exp: "Iman (faith) in Islam has three components: belief in the heart (Tasdiq), verbal declaration (Iqrar), and righteous action (Amal) — all three together constitute complete Iman.", expbn: "ঈমান তিনটি উপাদান নিয়ে গঠিত: অন্তরে বিশ্বাস (তাসদীক), মুখে স্বীকৃতি (ইকরার), এবং অঙ্গ-প্রত্যঙ্গে আমল।" },
-      { q: "What is Seerah?", qbn: "সীরাহ কী?", opts: ["Islamic law derived from Quran","The biography and life of Prophet Muhammad ﷺ","The science of Hadith","Quranic commentary"], ans: 1, exp: "Seerah refers to the biography, life story, and conduct of Prophet Muhammad ﷺ. It is a key source for understanding how to implement Islamic teachings.", expbn: "সীরাহ হলো নবী মুহাম্মাদ ﷺ-এর জীবনী ও আচরণের বিবরণ। ইসলামী শিক্ষা বাস্তবে কীভাবে প্রয়োগ হয় তা বোঝার মূল উৎস।" },
-      { q: "What is Hadith?", qbn: "হাদীস কী?", opts: ["The Quran in Arabic","Recorded sayings, actions, and tacit approvals of the Prophet ﷺ","Islamic history before the Prophet","Rulings derived by scholars"], ans: 1, exp: "Hadith refers to the recorded sayings (qawl), actions (fi'l), and tacit approvals (taqrir) of Prophet Muhammad ﷺ. It is the second primary source of Islamic law after the Quran.", expbn: "হাদীস হলো নবী ﷺ-এর বাণী (কওল), কর্ম (ফি'ল) এবং নীরব সম্মতির (তাকরীর) নথিভুক্ত বিবরণ। কুরআনের পরে ইসলামী আইনের দ্বিতীয় মূল উৎস।" },
-      { q: "What are the Six Pillars of Iman (Faith)?", qbn: "ঈমানের ছয় স্তম্ভ কী কী?", opts: ["Allah, Angels, Books, Prophets, Last Day, Divine Decree","Salah, Zakah, Sawm, Hajj, Shahada, Jihad","Quran, Hadith, Seerah, Fiqh, Aqeedah, Tawheed","Tawheed, Shirk, Nubuwwah, Risalah, Akhirah, Ihsan"], ans: 0, exp: "The Six Pillars of Iman: 1) Belief in Allah, 2) Angels, 3) Revealed Books, 4) Prophets & Messengers, 5) The Last Day, 6) Divine Decree (Qadar).", expbn: "ঈমানের ছয় স্তম্ভ: ১) আল্লাহ, ২) ফেরেশতাগণ, ৩) কিতাবসমূহ, ৪) নবী-রাসূল, ৫) আখিরাত, ৬) তাকদীর।" },
-      { q: "What is Zakah?", qbn: "যাকাত কী?", opts: ["Voluntary charity","Obligatory annual alms-giving on wealth above a minimum threshold (Nisab)","Daily prayer","Fasting in Ramadan"], ans: 1, exp: "Zakah is the obligatory annual charity (2.5% of qualifying wealth above Nisab) — one of the Five Pillars. It purifies wealth and supports the poor.", expbn: "যাকাত হলো নিসাবের উপরে থাকা সম্পদের উপর বার্ষিক বাধ্যতামূলক দান (২.৫%)। এটি পাঁচ স্তম্ভের একটি। এটি সম্পদ পবিত্র করে এবং দরিদ্রদের সহায়তা করে।" },
-      { q: "What is Ijtihad?", qbn: "ইজতিহাদ কী?", opts: ["Copying the rulings of an earlier scholar blindly","Independent legal reasoning by a qualified scholar on new issues","Consensus of scholars","The literal text of the Quran"], ans: 1, exp: "Ijtihad is independent scholarly reasoning used to derive legal rulings for new situations not explicitly covered by Quran or Hadith. Only qualified scholars (mujtahideen) can perform it.", expbn: "ইজতিহাদ হলো যোগ্য আলেমের স্বাধীন আইনী চিন্তা-গবেষণা, যা কুরআন-হাদীসে সরাসরি উত্তর না পাওয়া নতুন বিষয়ে শরীয়তের বিধান বের করতে ব্যবহৃত হয়।" },
-      { q: "What is Ijma?", qbn: "ইজমা কী?", opts: ["The Quran","Consensus (agreement) of Islamic scholars of an era on a legal ruling","Individual scholar's opinion","The Sunnah of the Prophet"], ans: 1, exp: "Ijma is the consensus of qualified Islamic scholars of a particular era on a legal ruling. It is the third source of Islamic law after Quran and Sunnah.", expbn: "ইজমা হলো কোনো যুগের যোগ্য ইসলামী আলেমদের কোনো বিধানে ঐকমত্য। কুরআন ও সুন্নাহর পরে এটি ইসলামী আইনের তৃতীয় উৎস।" },
-      { q: "What is Fiqh?", qbn: "ফিকহ কী?", opts: ["The Arabic language","Islamic jurisprudence — the detailed study of Islamic law","Quranic recitation","Islamic history"], ans: 1, exp: "Fiqh is Islamic jurisprudence — the detailed legal rulings derived from the Quran, Sunnah, Ijma, and Qiyas on matters of worship, transactions, and conduct.", expbn: "ফিকহ হলো ইসলামী আইনশাস্ত্র — কুরআন, সুন্নাহ, ইজমা ও কিয়াস থেকে ইবাদত, লেনদেন ও আচরণের বিস্তারিত বিধান প্রণয়নের বিজ্ঞান।" },
-      { q: "What is the Quran?", qbn: "কুরআন কী?", opts: ["The words of Prophet Muhammad ﷺ","The direct word of Allah revealed to Prophet Muhammad ﷺ through Jibreel","A book written by scholars","The biography of the Prophet"], ans: 1, exp: "The Quran is the direct Word of Allah revealed to Prophet Muhammad ﷺ through the Angel Jibreel over 23 years. It is the primary source of Islamic guidance.", expbn: "কুরআন হলো আল্লাহর সরাসরি বাণী যা জিব্রাঈল (আ:)-এর মাধ্যমে নবী ﷺ-এর কাছে ২৩ বছরে নাযিল হয়েছে। এটি ইসলামী জীবনের প্রথম ও প্রধান উৎস।" }
-    ],
-    fpec: [
-      { q: "What is the key difference between Micro and Macro Economics?", qbn: "মাইক্রো ও ম্যাক্রো ইকোনমিক্সের মূল পার্থক্য কী?", opts: ["Micro studies export/import; Macro studies local markets","Micro studies individual firms/households; Macro studies the entire economy","Micro is about government spending; Macro is about savings","Micro uses graphs; Macro uses only tables"], ans: 1, exp: "Microeconomics is a ZOOM lens — studying individual consumers, firms, and markets. Macroeconomics is a WIDE-ANGLE lens — studying the whole economy (GDP, inflation, unemployment).", expbn: "মাইক্রো হলো ব্যক্তিগত (গৃহস্থালি, ফার্ম, বাজার) এবং ম্যাক্রো হলো সামষ্টিক অর্থনীতি (GDP, মূল্যস্ফীতি, বেকারত্ব)।" },
-      { q: "What is a Production Possibility Curve (PPC)?", qbn: "উৎপাদন সম্ভাবনা রেখা (PPC) কী?", opts: ["A graph showing how prices change over time","A curve showing maximum combination of two goods an economy can produce with fixed resources","A graph of a firm's profits","A line showing consumer demand"], ans: 1, exp: "The PPC shows all possible combinations of two goods (e.g., guns vs. butter) that an economy can produce using its resources fully and efficiently. Points inside = inefficiency; points outside = unattainable.", expbn: "PPC বা উৎপাদন সম্ভাবনা রেখা দেখায় নির্দিষ্ট সম্পদ ব্যবহার করে একটি অর্থনীতি সর্বোচ্চ কতটুকু দুটো পণ্য উৎপাদন করতে পারে।" },
-      { q: "What is Price Elasticity of Demand (PED)?", qbn: "চাহিদার মূল্য স্থিতিস্থাপকতা (PED) কী?", opts: ["How supply changes when income rises","How much quantity demanded changes when the price changes (% change in Qd ÷ % change in P)","How government taxes affect prices","How firms set their prices"], ans: 1, exp: "PED = % change in Quantity Demanded ÷ % change in Price. If |PED| > 1 = elastic (demand is sensitive to price); |PED| < 1 = inelastic (demand barely changes with price).", expbn: "PED = চাহিদার পরিমাণের % পরিবর্তন ÷ মূল্যের % পরিবর্তন। |PED| > ১ হলে স্থিতিস্থাপক; < ১ হলে অস্থিতিস্থাপক।" },
-      { q: "What is the Law of Demand?", qbn: "চাহিদার সূত্র কী?", opts: ["As price rises, demand also rises","As price rises, quantity demanded falls (inverse relationship)","As income rises, demand always falls","As supply increases, demand increases"], ans: 1, exp: "The Law of Demand states that, ceteris paribus (all else equal), when the price of a good rises, the quantity demanded falls, and vice versa — an inverse (negative) relationship.", expbn: "চাহিদার সূত্র: অন্যান্য বিষয় অপরিবর্তিত থাকলে, মূল্য বাড়লে চাহিদার পরিমাণ কমে এবং মূল্য কমলে চাহিদার পরিমাণ বাড়ে।" },
-      { q: "What is Market Failure?", qbn: "বাজার ব্যর্থতা কী?", opts: ["When a market is too competitive","When the free market fails to allocate resources efficiently, leading to welfare loss","When a government controls all prices","When consumers stop buying goods"], ans: 1, exp: "Market failure occurs when the free market fails to allocate resources efficiently — examples: externalities (pollution), public goods, information failure, monopolies.", expbn: "বাজার ব্যর্থতা তখন ঘটে যখন মুক্তবাজার দক্ষভাবে সম্পদ বরাদ্দ করতে পারে না — যেমন বাহ্যিকতা (দূষণ), পাবলিক পণ্য, তথ্য ব্যর্থতা।" },
-      { q: "What is Perfect Competition?", qbn: "পরিপূর্ণ প্রতিযোগিতা কী?", opts: ["A market with one seller controlling everything","A market structure with many small firms selling identical products and no barriers to entry","A market where the government sets prices","A market with just 2-3 large firms"], ans: 1, exp: "Perfect Competition: many sellers, identical products (homogeneous), no barriers to entry/exit, perfect information, price takers. Result: firms earn zero economic profit in the long run.", expbn: "পরিপূর্ণ প্রতিযোগিতায়: অনেক বিক্রেতা, একই পণ্য, প্রবেশে কোনো বাধা নেই, সবাই price-taker। দীর্ঘমেয়াদে অর্থনৈতিক মুনাফা শূন্য।" },
-      { q: "What is a Monopoly?", qbn: "একচেটিয়া বাজার কী?", opts: ["Many small sellers with identical goods","A single seller controlling an entire market with high barriers to entry","Two firms sharing a market","A market where buyers control price"], ans: 1, exp: "Monopoly: one seller, unique product, very high barriers to entry. The monopolist is a price-MAKER — sets its own price. Outcome: higher prices, lower output, market failure.", expbn: "একচেটিয়া বাজার: একটিমাত্র বিক্রেতা, অনন্য পণ্য, উচ্চ প্রবেশ বাধা। একচেটিয়া বিক্রেতা নিজেই মূল্য নির্ধারণ করে।" },
-      { q: "What is Opportunity Cost?", qbn: "সুযোগ ব্যয় কী?", opts: ["The total amount of money spent on a good","The value of the next best alternative given up when making a choice","The cost of producing an extra unit","The average cost per unit produced"], ans: 1, exp: "Opportunity cost is the value of the next best alternative foregone when you make a choice. Example: choosing to study means giving up time you could spend working — that lost wage is the opportunity cost.", expbn: "সুযোগ ব্যয় হলো কোনো পছন্দ করার সময় যে সবচেয়ে ভালো বিকল্পটি ছেড়ে দেওয়া হয় তার মূল্য।" },
-      { q: "What is GDP (Gross Domestic Product)?", qbn: "জিডিপি (মোট দেশজ উৎপাদন) কী?", opts: ["Total exports of a country","Total market value of all final goods and services produced in a country in a given period","Total government spending","Total population × average income"], ans: 1, exp: "GDP is the total market value of all final goods and services produced within a country's borders in a specific time period (usually 1 year). It measures the size of an economy.", expbn: "জিডিপি হলো কোনো দেশের সীমার মধ্যে নির্দিষ্ট সময়কালে উৎপাদিত সকল চূড়ান্ত পণ্য ও সেবার মোট বাজার মূল্য।" },
-      { q: "What is Inflation?", qbn: "মুদ্রাস্ফীতি কী?", opts: ["A fall in the general price level","A sustained rise in the general price level, reducing purchasing power of money","An increase in a single good's price","Economic growth above trend"], ans: 1, exp: "Inflation is a sustained, general rise in the price level over time — meaning your money buys less than before. Measured by CPI (Consumer Price Index). Causes: demand-pull, cost-push, monetary.", expbn: "মুদ্রাস্ফীতি হলো দীর্ঘ সময় ধরে সাধারণ মূল্যস্তরের ক্রমাগত বৃদ্ধি — ফলে অর্থের ক্রয়ক্ষমতা কমে।" },
-      { q: "What is Comparative Advantage?", qbn: "তুলনামূলক সুবিধা কী?", opts: ["When a country produces everything more efficiently than others","When a country can produce a good at a lower opportunity cost than another country","When exports are higher than imports","When government subsidizes production"], ans: 1, exp: "Comparative Advantage: a country should produce and export the goods for which it has the LOWER opportunity cost, even if it is absolutely less efficient. This is the basis of international trade.", expbn: "তুলনামূলক সুবিধা: কোনো দেশ সেই পণ্য উৎপাদন ও রপ্তানি করবে যেখানে তার সুযোগ ব্যয় তুলনামূলকভাবে কম।" },
-      { q: "What is the difference between a Normal Good and an Inferior Good?", qbn: "স্বাভাবিক পণ্য ও নিম্নমানের পণ্যের পার্থক্য কী?", opts: ["Normal goods are expensive; inferior goods are cheap","When income rises: demand for normal goods rises; demand for inferior goods falls","Normal goods are taxed; inferior goods are subsidized","Normal goods have elastic demand; inferior goods have inelastic demand"], ans: 1, exp: "Normal good: demand rises when income rises (positive income elasticity). Inferior good: demand FALLS when income rises (negative income elasticity) — e.g., cheap noodles vs. restaurant meals.", expbn: "স্বাভাবিক পণ্য: আয় বাড়লে চাহিদা বাড়ে। নিম্নমানের পণ্য: আয় বাড়লে চাহিদা কমে। যেমন: সস্তা নুডলস (inferior) বনাম রেস্তোরাঁর খাবার (normal)।" },
-      { q: "What is an Externality?", qbn: "বাহ্যিকতা কী?", opts: ["A firm's internal cost structure","A cost or benefit that falls on a third party not involved in the market transaction","The price a consumer pays","The government's tax revenue"], ans: 1, exp: "An externality is a cost (negative) or benefit (positive) experienced by a third party who did not choose to be involved. Example: factory pollution (negative externality) harms nearby residents.", expbn: "বাহ্যিকতা হলো লেনদেনে অংশগ্রহণ না করা তৃতীয় পক্ষের উপর পড়া ব্যয় বা সুবিধা। যেমন কারখানার দূষণ (নেতিবাচক বাহ্যিকতা)।" },
-      { q: "What does 'Ceteris Paribus' mean in economics?", qbn: "অর্থনীতিতে 'সেটেরিস প্যারিবাস' মানে কী?", opts: ["Everything changes simultaneously","All other things being equal/held constant","Markets are always efficient","Supply always equals demand"], ans: 1, exp: "'Ceteris Paribus' is a Latin phrase meaning 'all other things being equal'. In economics, it means we change ONE variable and hold everything else constant to isolate its effect.", expbn: "'সেটেরিস প্যারিবাস' একটি ল্যাটিন বাক্যাংশ যার অর্থ 'অন্য সব কিছু সমান রেখে'। একটি চলক পরিবর্তন করে বাকি সবকিছু স্থির রাখা হয়।" },
-      { q: "What is the difference between a Subsidy and a Tax in economics?", qbn: "ভর্তুকি ও করের মধ্যে পার্থক্য কী?", opts: ["A subsidy increases costs; a tax decreases costs","A subsidy is government money given to producers/consumers to lower price/costs; a tax is money charged to raise price/reduce consumption","Subsidies are only for agriculture; taxes are only for industry","Both are the same government tool"], ans: 1, exp: "Subsidy: government pays producers/consumers → lowers cost → increases supply/consumption (used for positive externalities, merit goods). Tax: raises cost → reduces supply/consumption (used for negative externalities, demerit goods).", expbn: "ভর্তুকি: সরকার প্রযোজক/ভোক্তাকে অর্থ দেয় → ব্যয় কমে → সরবরাহ/ব্যবহার বাড়ে। কর: ব্যয় বাড়ে → সরবরাহ/ব্যবহার কমে।" }
-    ]
-  };
-
-  // Current quiz state
-  var qState = {
-    set: 'isgs',
-    questions: [],
-    idx: 0,
-    score: 0,
-    answered: false
-  };
-
-  function shuffleArr(arr) {
-    var a = arr.slice();
-    for (var i = a.length - 1; i > 0; i--) {
-      var j = Math.floor(Math.random() * (i + 1));
-      var tmp = a[i]; a[i] = a[j]; a[j] = tmp;
-    }
-    return a;
-  }
-
-  function buildQuizSet(set) {
-    if (set === 'all') {
-      return shuffleArr(QUIZ_DB.isgs.concat(QUIZ_DB.fpec, QUIZ_DB.bibs));
-    }
-    return shuffleArr(QUIZ_DB[set] || QUIZ_DB.isgs);
-  }
-
-  var quizArea = $$('#quizArea')[0];
-  var quizResult = $$('#quizResult')[0];
-  var quizStart = $$('#quizStart')[0];
-  var quizRetry = $$('#quizRetry')[0];
-  var btnNext = $$('#btnNext')[0];
-  var scoreDisplay = $$('#scoreDisplay')[0];
-  var quizFeedback = $$('#quizFeedback')[0];
-
-  if (quizStart) {
-    quizStart.addEventListener('click', startQuiz);
-    quizRetry.addEventListener('click', startQuiz);
-
-    $$('.qtab').forEach(function(btn) {
-      btn.addEventListener('click', function() {
-        $$('.qtab').forEach(function(b) { b.classList.remove('active'); });
-        btn.classList.add('active');
-        qState.set = btn.getAttribute('data-set');
+  /* ═══════════════════════ INLINE QUICK CHECKS ═══════════════════════ */
+  var MINIQ = {"q4":{"t":"Questions 1–4","tb":"প্রশ্ন ১–৪","items":[{"q":"In the linguistic sense, tawheed means:","qbn":"ভাষাগত অর্থে তাওহীদ মানে:","opts":["Making something one / declaring something to be one","Fearing something","Writing something down","Dividing something into parts"],"ans":0,"exp":"Tawheed comes from 'wahhada', meaning to make something one or to declare it one.","expbn":"তাওহীদ এসেছে 'ওয়াহহাদা' থেকে, যার অর্থ কোনো কিছুকে এক করা বা এক বলে ঘোষণা করা।"},{"q":"Why is the knowledge of Tawhid the most honourable knowledge?","qbn":"কেন তাওহীদের জ্ঞান সবচেয়ে সম্মানিত জ্ঞান?","opts":["Because it is the oldest subject","Because its subject is Allah, the greatest subject of all","Because it is the easiest to learn","Because it has the most books"],"ans":1,"exp":"The honour of knowledge depends on the honour of what it is about. Tawhid is about Allah, so nothing is nobler.","expbn":"জ্ঞানের মর্যাদা নির্ভর করে তার বিষয়বস্তুর মর্যাদার ওপর। তাওহীদের বিষয় আল্লাহ, তাই এর চেয়ে মহৎ কিছু নেই।"},{"q":"How many categories of Tawheed are there, and how did scholars arrive at this number?","qbn":"তাওহীদের কয়টি প্রকার এবং আলেমরা কীভাবে এই সংখ্যায় পৌঁছেছেন?","opts":["Two, by personal opinion","Three, by carefully studying all the Qur'an and Sunnah texts (istiqra')","Five, by studying the Torah","Four, by voting"],"ans":1,"exp":"There are three: Rububiyyah, Uluhiyyah and Asma' wa Sifat. Scholars found them by complete study (istiqra') of the texts.","expbn":"তিনটি: রুবুবিয়্যাহ, উলুহিয়্যাহ ও আসমা ওয়াস সিফাত। আলেমরা কুরআন-সুন্নাহর সব টেক্সট পুঙ্খানুপুঙ্খ অধ্যয়ন (ইসতিকরা) করে এটি পেয়েছেন।"},{"q":"Which statement about Tawhid and Aqeedah is correct?","qbn":"তাওহীদ ও আকীদা সম্পর্কে কোন বিবৃতিটি সঠিক?","opts":["They are exactly the same thing","Aqeedah is broader; Tawhid is its core and most important part","Tawhid is broader than Aqeedah","They are unrelated"],"ans":1,"exp":"Aqeedah covers all firm beliefs; Tawhid, about Allah's oneness, is its foundation.","expbn":"আকীদা সব দৃঢ় বিশ্বাস নিয়ে; তাওহীদ (আল্লাহর একত্ব) তার ভিত্তি ও সবচেয়ে গুরুত্বপূর্ণ অংশ।"}]},"q8":{"t":"Questions 5–8","tb":"প্রশ্ন ৫–৮","items":[{"q":"Which category of Tawheed is about Allah's actions as Creator, Owner and Controller?","qbn":"কোন প্রকার তাওহীদ আল্লাহর কাজ — স্রষ্টা, মালিক ও নিয়ন্ত্রক হিসেবে — নিয়ে?","opts":["Tawheed ar-Rububiyyah","Tawheed al-Uluhiyyah","Tawheed al-Asma' wa as-Sifat","None of them"],"ans":0,"exp":"Rububiyyah means Allah's Lordship: He alone creates, owns and controls everything.","expbn":"রুবুবিয়্যাহ মানে আল্লাহর প্রভুত্ব: তিনিই একমাত্র সৃষ্টি করেন, মালিক এবং নিয়ন্ত্রণ করেন।"},{"q":"Making du'a and giving sacrifice only for Allah is an example of which category?","qbn":"শুধু আল্লাহর জন্য দু'আ ও কুরবানি করা কোন প্রকারের উদাহরণ?","opts":["Rububiyyah","Uluhiyyah (Tawheed of worship)","Asma' wa Sifat","Qada' and Qadar"],"ans":1,"exp":"Directing all worship, such as du'a, sacrifice and vows, to Allah alone is Tawheed al-Uluhiyyah.","expbn":"দু'আ, কুরবানি, মানতসহ সব ইবাদত শুধু আল্লাহর জন্য নির্দিষ্ট করা তাওহীদুল উলুহিয়্যাহ।"},{"q":"Which type of Tawhid is the most important, and why?","qbn":"কোন প্রকার তাওহীদ সবচেয়ে গুরুত্বপূর্ণ এবং কেন?","opts":["Rububiyyah, because pagans never believed in it","Uluhiyyah, because it is the purpose of creation and the first call of every messenger","Asma' wa Sifat, because it is the shortest","All are equal and none is required"],"ans":1,"exp":"Uluhiyyah is the meaning of 'La ilaha illallah', the purpose of creation (51:56) and the first call of every messenger.","expbn":"উলুহিয়্যাহ 'লা ইলাহা ইল্লাল্লাহ'-র অর্থ, সৃষ্টির উদ্দেশ্য (৫১:৫৬) এবং প্রত্যেক রাসূলের প্রথম আহ্বান।"},{"q":"The Makkan mushriks affirmed which type of Tawhid?","qbn":"মক্কার মুশরিকরা কোন প্রকার তাওহীদ স্বীকার করত?","opts":["Tawhid ar-Rububiyyah","Tawhid al-Uluhiyyah","Both fully","None"],"ans":0,"exp":"They believed Allah is the Creator (43:87), but they worshipped others besides Him, so the Prophet ﷺ fought them.","expbn":"তারা আল্লাহকে স্রষ্টা মানত (৪৩:৮৭), কিন্তু তাঁর পাশাপাশি অন্যের ইবাদত করত, তাই নবী ﷺ তাদের বিরুদ্ধে যুদ্ধ করেছেন।"}]},"q12":{"t":"Questions 9–12","tb":"প্রশ্ন ৯–১২","items":[{"q":"The word 'Aqeedah' comes from 'aqd', which means:","qbn":"'আকীদা' শব্দটি 'আকদ' থেকে এসেছে, যার অর্থ:","opts":["To tie a knot firmly","To forget","To travel","To write"],"ans":0,"exp":"Aqeedah is a belief 'tied' firmly to the heart, with certainty and no doubt.","expbn":"আকীদা এমন বিশ্বাস যা হৃদয়ে দৃঢ়ভাবে 'বাঁধা', সন্দেহহীন ও নিশ্চিত।"},{"q":"Which Qur'anic argument gives three options for how things began: from nothing, self-created, or created by a Creator?","qbn":"কোন কুরআনি যুক্তি সবকিছুর শুরু নিয়ে তিনটি সম্ভাবনা দেয়: শূন্য থেকে, নিজে নিজে, নাকি স্রষ্টার দ্বারা?","opts":["Surah at-Tur 52:35–36","Surah al-Ikhlas 112:1","Surah al-Fatihah 1:1","Surah an-Nas 114:1"],"ans":0,"exp":"Qur'an 52:35–36 shows the first two options are impossible, so the universe must have an uncreated Creator: Allah.","expbn":"কুরআন ৫২:৩৫–৩৬ দেখায় প্রথম দুটি সম্ভাবনা অসম্ভব, তাই মহাবিশ্বের একজন অসৃষ্ট স্রষ্টা আছেন: আল্লাহ।"},{"q":"Which of the following is a way to know Allah?","qbn":"নিচের কোনটি আল্লাহকে জানার একটি উপায়?","opts":["Reflecting on creation and studying His revealed names and attributes","Guessing His shape","Copying other religions","Ignoring revelation"],"ans":0,"exp":"We know Allah through reflection on His creation and through His revelation, His names and attributes.","expbn":"আমরা আল্লাহকে জানি তাঁর সৃষ্টি নিয়ে চিন্তা এবং তাঁর ওহী, নাম ও গুণাবলির মাধ্যমে।"},{"q":"The four matters learned in Surah al-'Asr are:","qbn":"সূরা আল-আসরে শেখা চারটি বিষয় হলো:","opts":["Knowledge, action, da'wah, patience","Wealth, power, fame, travel","Prayer, fasting, zakah, Hajj","Birth, life, death, judgment"],"ans":0,"exp":"Surah al-'Asr teaches knowledge, action on it, calling others (da'wah) and patience.","expbn":"সূরা আল-আসর শেখায়: জ্ঞান, আমল, দাওয়াত ও সবর।"}]},"q16":{"t":"Questions 13–16","tb":"প্রশ্ন ১৩–১৬","items":[{"q":"'Ashhadu' in the shahadah means:","qbn":"শাহাদায় 'আশহাদু' মানে:","opts":["I bear witness (know, believe, declare and act)","I wish","I fear","I forget"],"ans":0,"exp":"A witness knows the truth, believes it, declares it and stands by it.","expbn":"সাক্ষী সত্য জানে, বিশ্বাস করে, ঘোষণা করে এবং তাতে অটল থাকে।"},{"q":"The general meaning of 'La ilaha illallah' is:","qbn":"'লা ইলাহা ইল্লাল্লাহ'-র সাধারণ অর্থ:","opts":["There is no deity worthy of worship except Allah","There is no king except Allah","There is no teacher except Allah","There is no food except Allah"],"ans":0,"exp":"It means no one is truly worthy of worship except Allah.","expbn":"এর অর্থ আল্লাহ ছাড়া আর কেউ ইবাদতের যোগ্য নয়।"},{"q":"How many conditions does 'La ilaha illallah' have in the notes, like the 'teeth of a key'?","qbn":"নোট অনুযায়ী 'লা ইলাহা ইল্লাল্লাহ'-র শর্ত কয়টি (চাবির দাঁতের মতো)?","opts":["Three","Five","Seven","Ten"],"ans":2,"exp":"The seven conditions are knowledge, certainty, acceptance, submission, truthfulness, sincerity and love.","expbn":"সাতটি শর্ত: ইলম, ইয়াকীন, কবুল, ইনকিয়াদ, সিদক, ইখলাস ও মহব্বত।"},{"q":"When Allah is called 'One' (Wahid), it means:","qbn":"আল্লাহকে 'এক' (ওয়াহিদ) বলার অর্থ:","opts":["One in number like one apple among many","Unique: one in essence, names, actions and worship, with no partner","He has one son","He is divided in parts"],"ans":1,"exp":"It means unique: no partner, equal, son or parent (112:3–4). It does not mean 'one in number'.","expbn":"অর্থ অদ্বিতীয়: কোনো শরিক, সমকক্ষ, সন্তান বা পিতা-মাতা নেই (১১২:৩–৪)। এটি সংখ্যাগত 'এক' নয়।"}]},"q20":{"t":"Questions 17–20","tb":"প্রশ্ন ১৭–২০","items":[{"q":"'Allah does whatever He wills' means:","qbn":"'আল্লাহ যা ইচ্ছা করেন তাই করেন' এর অর্থ:","opts":["His will is complete, but always with wisdom and justice","He acts randomly and unfairly","He needs helpers","His will can be stopped"],"ans":0,"exp":"Nothing can stop His will, yet it is always based on wisdom and justice (4:40).","expbn":"কেউ তাঁর ইচ্ছা রোধ করতে পারে না, তবু তা সবসময় প্রজ্ঞা ও ন্যায়বিচারের ভিত্তিতে (৪:৪০)।"},{"q":"'Whatever Allah willed shall be, and whatever He did not will shall not be' teaches which belief?","qbn":"'আল্লাহ যা চেয়েছেন তা হবে, যা চাননি তা হবে না' — কোন বিশ্বাস শেখায়?","opts":["Belief in Qadar and Allah's complete will","Belief that humans have no choice at all","Belief in luck","Belief in many gods"],"ans":0,"exp":"It affirms Allah's complete will within Qadar, while humans still have choice and responsibility.","expbn":"এটি কদরের মধ্যে আল্লাহর পূর্ণ ইচ্ছা প্রতিষ্ঠা করে, আর মানুষেরও পছন্দ ও দায়িত্ব থাকে।"},{"q":"'There is nothing like unto Him' (42:11) teaches:","qbn":"'তাঁর মতো কিছুই নেই' (৪২:১১) শেখায়:","opts":["Allah's attributes are not like the creation's","Allah has no attributes","Allah looks like humans","Allah is hidden from knowledge"],"ans":0,"exp":"We affirm Allah's attributes as revealed, without comparing them to creation and without denying them.","expbn":"আমরা আল্লাহর গুণাবলি যেমন এসেছে তেমন স্বীকার করি — সৃষ্টির সাথে তুলনা না করে এবং অস্বীকার না করে।"},{"q":"What is the first pillar (rukn) of Islam?","qbn":"ইসলামের প্রথম রুকন কী?","opts":["Salah","The Shahadatayn (two testimonies)","Zakah","Hajj"],"ans":1,"exp":"Islam is built on five, beginning with testifying that there is no god but Allah and that Muhammad ﷺ is His Messenger.","expbn":"ইসলাম পাঁচটি ভিত্তির ওপর; প্রথমটি আল্লাহ ছাড়া কোনো ইলাহ নেই এবং মুহাম্মদ ﷺ তাঁর রাসূল — এই সাক্ষ্য।"}]},"q24":{"t":"Questions 21–24","tb":"প্রশ্ন ২১–২৪","items":[{"q":"In Islamic terms, 'Iman' means:","qbn":"ইসলামী পরিভাষায় 'ঈমান' মানে:","opts":["Belief in the heart, statement of the tongue and action of the limbs","Only a feeling","Only words","Only rituals"],"ans":0,"exp":"Iman is belief in the heart, declaration by the tongue and deeds of the body.","expbn":"ঈমান হলো অন্তরের বিশ্বাস, মুখের স্বীকৃতি এবং অঙ্গপ্রত্যঙ্গের আমল।"},{"q":"Belief in Allah includes belief in:","qbn":"আল্লাহর প্রতি ঈমানের মধ্যে আছে:","opts":["His existence, Lordship, right to be worshipped, and names and attributes","Only His existence","Only His names","Only His rewards"],"ans":0,"exp":"It includes four things: existence, Lordship, worship (Uluhiyyah) and names and attributes.","expbn":"এতে চারটি বিষয়: তাঁর অস্তিত্ব, প্রভুত্ব, ইবাদতের একক হকদার হওয়া এবং নাম ও গুণাবলি।"},{"q":"Which is part of belief in angels?","qbn":"ফেরেশতাদের প্রতি ঈমানের অংশ কোনটি?","opts":["Believing they exist, are created from light, and obey Allah","Worshipping them","Believing they are Allah's daughters","Denying they exist"],"ans":0,"exp":"Angels are real, created from light, and perfectly obey Allah. They are never to be worshipped.","expbn":"ফেরেশতারা বাস্তব, নূর থেকে সৃষ্ট এবং আল্লাহর পূর্ণ অনুগত। তাদের ইবাদত করা যাবে না।"},{"q":"Which is the name of an angel?","qbn":"কোনটি একজন ফেরেশতার নাম?","opts":["Jibril","Iblis","Fir'awn (Pharaoh)","Qarun"],"ans":0,"exp":"Jibril, Mika'il, Israfil and Malik are among the angels established in the texts. Iblis is of the jinn.","expbn":"জিবরীল, মিকাঈল, ইসরাফীল ও মালিক — প্রমাণিত ফেরেশতাদের অন্যতম। ইবলিস জিনদের একজন।"}]},"q28":{"t":"Questions 25–28","tb":"প্রশ্ন ২৫–২৮","items":[{"q":"Belief in Qada' and Qadar is which pillar of Iman?","qbn":"কাযা ও কদরে বিশ্বাস ঈমানের কোন স্তম্ভ?","opts":["The sixth","The first","The third","The second"],"ans":0,"exp":"In the Hadith of Jibril, belief in Qadar, good and bad, is the sixth pillar of Iman.","expbn":"হাদীসে জিবরীলে ভালো-মন্দ কদরে বিশ্বাস ঈমানের ষষ্ঠ স্তম্ভ।"},{"q":"What is the majority view about Rasool and Nabi?","qbn":"রাসূল ও নবীর ব্যাপারে অধিকাংশ আলেমের মত কী?","opts":["There is a difference between them","They are always exactly the same","Nabi is higher than Rasool","Neither exists"],"ans":0,"exp":"Most scholars say there is a difference. Qur'an 22:52 mentions both separately.","expbn":"অধিকাংশ আলেমের মতে পার্থক্য আছে। কুরআন ২২:৫২ দুটিকে আলাদাভাবে উল্লেখ করেছে।"},{"q":"'Ismah (infallibility) of messengers means:","qbn":"রাসূলদের 'ইসমাহ' মানে:","opts":["Protection in conveying the message and from shirk and major sins","They never do anything human at all","They are divine","They know the unseen on their own"],"ans":0,"exp":"They are protected in delivering the message and from shirk and major sins, but they are still human.","expbn":"তাঁরা বার্তা পৌঁছানোয় এবং শিরক ও কবীরা গুনাহ থেকে সুরক্ষিত, তবু তাঁরা মানুষ।"},{"q":"Which is a unique feature of the Qur'an?","qbn":"কোনটি কুরআনের একটি অনন্য বৈশিষ্ট্য?","opts":["It is Allah's word, preserved from change","It was changed by scholars","It was written by Muhammad ﷺ from his own thoughts","It is only for Arabs"],"ans":0,"exp":"The Qur'an is the word of Allah, preserved from change (15:9) and challenging all of mankind.","expbn":"কুরআন আল্লাহর কালাম, পরিবর্তন থেকে সুরক্ষিত (১৫:৯) এবং সমগ্র মানবজাতির প্রতি চ্যালেঞ্জ।"}]},"q32":{"t":"Questions 29–32","tb":"প্রশ্ন ২৯–৩২","items":[{"q":"Can the word 'rasul' be used for angels?","qbn":"'রাসূল' শব্দটি কি ফেরেশতাদের জন্য ব্যবহার করা যায়?","opts":["Yes, in its general meaning 'one who is sent'","No, never","Only for Iblis","Only for animals"],"ans":0,"exp":"The Qur'an calls angels 'messengers' (22:75; 35:1) in the general sense of 'one sent with a task'.","expbn":"কুরআন ফেরেশতাদের 'রাসূল' বলেছে (২২:৭৫; ৩৫:১) 'কাজে প্রেরিত' এই সাধারণ অর্থে।"},{"q":"Which is a name of the Day of Judgment?","qbn":"কোনটি কিয়ামতের একটি নাম?","opts":["Al-Qari'ah (the Striking Calamity)","Al-Fatihah","Al-Ikhlas","Al-Kawthar"],"ans":0,"exp":"Names of the Day include as-Sa'ah, al-Qari'ah, al-Haqqah and Yawm ad-Din; each shows a different side of it.","expbn":"কিয়ামতের নামের মধ্যে আছে আস-সা'আহ, আল-কারি'আহ, আল-হাক্কাহ ও ইয়াওমুদ্দীন; প্রতিটি একেকটি দিক দেখায়।"},{"q":"Which is NOT one of the four levels of Qadar?","qbn":"কদরের চারটি স্তরের মধ্যে কোনটি নয়?","opts":["Knowledge","Writing (record)","Will","Inheritance"],"ans":3,"exp":"The four levels are Knowledge, Writing, Will and Creation.","expbn":"চারটি স্তর: ইলম (জ্ঞান), কিতাবাহ (লিপিবদ্ধ), মাশী'আহ (ইচ্ছা) ও খালক (সৃষ্টি)।"},{"q":"Shirk means:","qbn":"শিরক মানে:","opts":["Giving a partner or equal to Allah in what belongs only to Him","Missing a prayer","Being sad","Doing business"],"ans":0,"exp":"Shirk is associating partners with Allah in His Lordship, worship or names and attributes. It has major and minor types.","expbn":"শিরক হলো আল্লাহর প্রভুত্ব, ইবাদত বা নাম-গুণাবলিতে কাউকে শরিক করা। এর বড় ও ছোট প্রকার আছে।"}]},"q36":{"t":"Questions 33–36","tb":"প্রশ্ন ৩৩–৩৬","items":[{"q":"Why is shirk the worst sin?","qbn":"কেন শিরক সবচেয়ে বড় গুনাহ?","opts":["It is the greatest injustice and is not forgiven if one dies on it","It is the most common sin","It is easy to repent from after death","It only affects others"],"ans":0,"exp":"'Indeed, shirk is a great injustice' (31:13), and Allah does not forgive it if one dies on it (4:48).","expbn":"'নিশ্চয়ই শিরক বড় জুলুম' (৩১:১৩) এবং শিরকের ওপর মারা গেলে আল্লাহ ক্ষমা করেন না (৪:৪৮)।"},{"q":"Which statement about shirk and kufr is correct?","qbn":"শিরক ও কুফর সম্পর্কে কোন বিবৃতিটি সঠিক?","opts":["Every shirk is kufr, but not every kufr is shirk","Every kufr is shirk","They are opposites","Neither is serious"],"ans":0,"exp":"Iblis showed kufr by arrogance without worshipping another god. So kufr is wider than shirk.","expbn":"ইবলিস অহংকারে কুফর করেছিল, অন্য ইলাহের ইবাদত না করেও। তাই কুফর শিরকের চেয়ে ব্যাপক।"},{"q":"A fortuneteller is someone who:","qbn":"গণক (fortuneteller) এমন ব্যক্তি যে:","opts":["Claims to know the unseen, such as the future","Teaches the Qur'an","Leads prayer","Treats patients with medicine"],"ans":0,"exp":"Kahin and 'arraf claim knowledge of the unseen. Modern examples include astrology, palm reading and tarot.","expbn":"কাহিন ও আর্রাফ গায়েবের জ্ঞান দাবি করে। আধুনিক উদাহরণ: জ্যোতিষ, হাত দেখা, ট্যারো।"},{"q":"Why is fortunetelling considered a form of shirk?","qbn":"কেন গণকবৃত্তিকে শিরকের একটি রূপ ধরা হয়?","opts":["Because it claims a knowledge only Allah has — knowledge of the unseen","Because it is expensive","Because it is old","Because it uses numbers"],"ans":0,"exp":"Only Allah knows the unseen (27:65). Claiming it or believing such a claim associates others with Allah.","expbn":"গায়েব শুধু আল্লাহ জানেন (২৭:৬৫)। তা দাবি করা বা বিশ্বাস করা আল্লাহর সাথে অন্যকে শরিক করা।"}]},"q40":{"t":"Questions 37–40","tb":"প্রশ্ন ৩৭–৪০","items":[{"q":"Grave worshipping violates which type of Tawhid?","qbn":"কবর পূজা কোন প্রকার তাওহীদ লঙ্ঘন করে?","opts":["Tawhid al-Uluhiyyah","Only Tawhid al-Asma'","None","Only Rububiyyah"],"ans":0,"exp":"Making du'a to or sacrificing for the dead directs worship to someone other than Allah, violating Uluhiyyah.","expbn":"মৃতের কাছে দু'আ বা কুরবানি করা আল্লাহ ছাড়া অন্যের প্রতি ইবাদত নিবেদন — তাই উলুহিয়্যাহ লঙ্ঘিত হয়।"},{"q":"What made it easier for the Sahabah to understand Islam?","qbn":"কী সাহাবীদের জন্য ইসলাম বোঝা সহজ করেছিল?","opts":["The Qur'an was in their own language and they learned directly from the Prophet ﷺ","They avoided practising","They had no teacher","They read translations only"],"ans":0,"exp":"They knew the Arabic language, witnessed revelation, learned directly from the Prophet ﷺ and had pure hearts.","expbn":"কুরআন তাদের নিজ ভাষায় ছিল, তারা ওহী প্রত্যক্ষ করেছেন, নবী ﷺ-এর কাছ থেকে সরাসরি শিখেছেন এবং তাদের হৃদয় ছিল নির্মল।"},{"q":"Ihsan means to worship Allah:","qbn":"ইহসান মানে আল্লাহর ইবাদত করা:","opts":["As if you see Him, and if you do not see Him, know that He sees you","Only on Fridays","Without thinking","Only in public"],"ans":0,"exp":"Ihsan is the highest quality of worship with constant awareness of Allah (Hadith of Jibril).","expbn":"ইহসান ইবাদতের সর্বোচ্চ মান, আল্লাহর সদা সচেতনতাসহ (হাদীসে জিবরীল)।"},{"q":"Angel Jibril is known as:","qbn":"ফেরেশতা জিবরীল পরিচিত:","opts":["Ar-Ruh al-Amin (the Trustworthy Spirit), who brought revelation to the prophets","The angel of rain","The keeper of Hell","The angel who blows the Trumpet"],"ans":0,"exp":"Jibril is the greatest of the angels, bringing revelation to all the prophets including the Qur'an to Muhammad ﷺ.","expbn":"জিবরীল ফেরেশতাদের মধ্যে শ্রেষ্ঠ; সব নবীর কাছে এবং মুহাম্মদ ﷺ-এর কাছে কুরআন নিয়ে আসেন।"}]},"e4":{"t":"Questions 1–4","tb":"প্রশ্ন ১–৪","items":[{"q":"Which question belongs to Macroeconomics?","qbn":"কোন প্রশ্নটি ম্যাক্রোইকোনমিক্সের?","opts":["Why does the price of one brand of rice rise?","What causes unemployment across a whole country?","How does one firm choose its output?","Why does one consumer buy tea?"],"ans":1,"exp":"Macroeconomics studies the economy as a whole (GDP, inflation, unemployment). Micro studies individual units.","expbn":"ম্যাক্রোইকোনমিক্স সামগ্রিক অর্থনীতি (GDP, মুদ্রাস্ফীতি, বেকারত্ব) নিয়ে; মাইক্রো একক ইউনিট নিয়ে।"},{"q":"'The government should raise the minimum wage' is a:","qbn":"'সরকারের ন্যূনতম মজুরি বাড়ানো উচিত' একটি:","opts":["Positive statement","Normative statement","Fact tested with data","Law of demand"],"ans":1,"exp":"It contains a value judgement ('should'), so it is normative. Positive statements can be tested with facts.","expbn":"এতে মূল্যবোধের বিচার ('উচিত') আছে, তাই এটি নরমেটিভ। পজিটিভ বক্তব্য তথ্য দিয়ে যাচাই করা যায়।"},{"q":"A point INSIDE the production possibility curve (PPC) shows:","qbn":"উৎপাদন সম্ভাবনা রেখার (PPC) ভেতরের একটি বিন্দু দেখায়:","opts":["Efficient use of all resources","Unemployed or underused resources","An impossible output","Perfect competition"],"ans":1,"exp":"Points on the curve are efficient; points inside mean resources are unemployed or not fully used; points outside are unattainable.","expbn":"রেখার ওপরের বিন্দু দক্ষ; ভেতরের বিন্দু মানে সম্পদ বেকার বা পুরো ব্যবহৃত নয়; বাইরের বিন্দু অর্জনযোগ্য নয়।"},{"q":"In a market economy, resources are mainly allocated by:","qbn":"বাজার অর্থনীতিতে সম্পদ প্রধানত বণ্টিত হয়:","opts":["Government orders","Prices, supply and demand","Tradition only","Random chance"],"ans":1,"exp":"Market economies rely on the price mechanism, with private ownership and little government control.","expbn":"বাজার অর্থনীতিতে দামের ব্যবস্থা, ব্যক্তিমালিকানা ও কম সরকারি নিয়ন্ত্রণ কাজ করে।"}]},"e8":{"t":"Questions 5–8","tb":"প্রশ্ন ৫–৮","items":[{"q":"Which of these is a LEAKAGE from the circular flow of income?","qbn":"আয়ের চক্রাকার প্রবাহ থেকে কোনটি একটি লিকেজ (leakage)?","opts":["Government spending","Investment","Savings","Exports"],"ans":2,"exp":"Leakages are savings, taxes and imports. Injections are investment, government spending and exports.","expbn":"লিকেজ: সঞ্চয়, কর ও আমদানি। ইনজেকশন: বিনিয়োগ, সরকারি ব্যয় ও রপ্তানি।"},{"q":"A change in the price of a good causes:","qbn":"কোনো পণ্যের দাম বদলালে ঘটে:","opts":["A shift of the demand curve","A movement along the demand curve","A shift of the supply curve only","No change"],"ans":1,"exp":"A price change moves you along the curve. Changes in income, tastes or related-goods' prices shift the whole curve.","expbn":"দাম বদলালে রেখা বরাবর সরণ হয়। আয়, রুচি বা সম্পর্কিত পণ্যের দাম বদলালে পুরো রেখা সরে যায়।"},{"q":"If the price is above equilibrium, there is:","qbn":"দাম ভারসাম্যের ওপরে থাকলে হয়:","opts":["A shortage","A surplus","Perfect equilibrium","Zero supply"],"ans":1,"exp":"Price above equilibrium means quantity supplied exceeds quantity demanded: a surplus.","expbn":"ভারসাম্যের ওপরে দাম মানে জোগানের পরিমাণ চাহিদার চেয়ে বেশি: উদ্বৃত্ত।"},{"q":"If price elasticity of demand is greater than 1, demand is:","qbn":"চাহিদার মূল্য স্থিতিস্থাপকতা ১-এর বেশি হলে চাহিদা:","opts":["Inelastic","Elastic","Perfectly inelastic","Unitary"],"ans":1,"exp":"PED > 1 means quantity demanded changes by a larger percentage than the price: elastic demand.","expbn":"PED > ১ মানে দামের চেয়ে বেশি শতাংশে চাহিদার পরিমাণ বদলায়: স্থিতিস্থাপক চাহিদা।"}]},"e12":{"t":"Questions 9–12","tb":"প্রশ্ন ৯–১২","items":[{"q":"Which factor makes supply MORE elastic?","qbn":"কোন বিষয় জোগানকে বেশি স্থিতিস্থাপক করে?","opts":["Long time period and spare capacity","Very short time period","No spare capacity","Scarce inputs"],"ans":0,"exp":"Supply is more elastic when firms have spare capacity, can store stock and have more time to adjust.","expbn":"প্রতিষ্ঠানের অতিরিক্ত সক্ষমতা থাকলে, মজুত রাখতে পারলে এবং মানিয়ে নেওয়ার সময় থাকলে জোগান বেশি স্থিতিস্থাপক।"},{"q":"Cross elasticity of demand is positive for:","qbn":"চাহিদার ক্রস স্থিতিস্থাপকতা ধনাত্মক হয়:","opts":["Substitutes","Complements","Unrelated goods","Inferior goods only"],"ans":0,"exp":"If the price of tea rises and demand for coffee (a substitute) rises, cross elasticity is positive. For complements it is negative.","expbn":"চায়ের দাম বাড়লে কফির (বিকল্প পণ্য) চাহিদা বাড়ে, তাই ক্রস স্থিতিস্থাপকতা ধনাত্মক। পরিপূরক পণ্যে তা ঋণাত্মক।"},{"q":"Economic cost equals:","qbn":"অর্থনৈতিক ব্যয় সমান:","opts":["Explicit costs only","Explicit costs + implicit (opportunity) costs","Profit minus revenue","Fixed costs only"],"ans":1,"exp":"Economic costs include actual payments (explicit) plus the opportunity cost of owner-supplied resources (implicit).","expbn":"অর্থনৈতিক ব্যয়ে প্রকৃত পরিশোধ (explicit) এবং মালিকের নিজের সম্পদের সুযোগ ব্যয় (implicit) — দুটোই থাকে।"},{"q":"The law of diminishing returns says that, with a fixed factor, adding more of a variable input eventually:","qbn":"ক্রমহ্রাসমান প্রতিদানের সূত্র: স্থির উপাদানের সাথে পরিবর্তনশীল ইনপুট বাড়ালে শেষ পর্যন্ত:","opts":["Gives each extra unit a smaller extra output","Doubles output each time","Reduces fixed costs to zero","Makes the firm a monopoly"],"ans":0,"exp":"After a point each extra worker adds less to total output, because the factory (fixed factor) is limited.","expbn":"একটি সীমার পর প্রতিটি অতিরিক্ত শ্রমিক কম অতিরিক্ত উৎপাদন দেয়, কারণ কারখানা (স্থির উপাদান) সীমিত।"}]},"e16":{"t":"Questions 13–16","tb":"প্রশ্ন ১৩–১৬","items":[{"q":"Economies of scale mean:","qbn":"মাত্রাজনিত সুবিধা (economies of scale) মানে:","opts":["Long-run average cost falls as output rises","Costs rise as output rises","Prices are fixed","Fewer workers are needed"],"ans":0,"exp":"Economies of scale occur when long-run average cost falls as the firm expands output.","expbn":"উৎপাদন বাড়ালে দীর্ঘমেয়াদি গড় ব্যয় কমলে তাকে মাত্রাজনিত সুবিধা বলে।"},{"q":"A firm merging with a competitor at the same production stage is:","qbn":"একই উৎপাদন পর্যায়ের প্রতিযোগীর সাথে মার্জ করা কী?","opts":["Vertical integration","Horizontal integration","Organic growth","Conglomerate diversification"],"ans":1,"exp":"Horizontal integration joins competitors. Vertical integration joins suppliers or distributors.","expbn":"হরাইজন্টাল ইন্টিগ্রেশনে প্রতিযোগী মেলে। ভার্টিকালে সরবরাহকারী বা পরিবেশক মেলে।"},{"q":"Which market structure has one seller, unique product and very high barriers to entry?","qbn":"কোন বাজার কাঠামোতে এক বিক্রেতা, অনন্য পণ্য ও প্রবেশে অত্যন্ত উঁচু বাধা?","opts":["Perfect competition","Monopolistic competition","Oligopoly","Monopoly"],"ans":3,"exp":"A monopoly has one firm, no close substitutes and blocked entry, so it is a price maker.","expbn":"মনোপলিতে একটিই প্রতিষ্ঠান, কাছাকাছি বিকল্প নেই ও প্রবেশ বন্ধ; তাই সে দাম নির্ধারক (price maker)।"},{"q":"Anti-trust (competition) laws aim to:","qbn":"অ্যান্টিট্রাস্ট (প্রতিযোগিতা) আইনের লক্ষ্য:","opts":["Promote competition and prevent monopolisation and price fixing","Guarantee profits to big firms","Stop all mergers","Set all prices"],"ans":0,"exp":"Laws like the Sherman Act (1890) prevent anti-competitive behaviour so consumers get fair prices and choice.","expbn":"শারম্যান অ্যাক্ট (১৮৯০)-এর মতো আইন প্রতিযোগিতা-বিরোধী আচরণ ঠেকায়, যাতে ক্রেতা ন্যায্য দাম ও পছন্দ পায়।"}]},"e20":{"t":"Questions 17–20","tb":"প্রশ্ন ১৭–২০","items":[{"q":"If prices rise faster than nominal wages, real wages:","qbn":"দাম নামমাত্র মজুরির চেয়ে দ্রুত বাড়লে প্রকৃত মজুরি:","opts":["Rise","Fall","Stay the same","Double"],"ans":1,"exp":"Real wage = nominal wage ÷ price level × 100. Faster price rises cut purchasing power, so real wages fall.","expbn":"প্রকৃত মজুরি = নামমাত্র মজুরি ÷ দামস্তর × ১০০। দাম দ্রুত বাড়লে ক্রয়ক্ষমতা কমে, তাই প্রকৃত মজুরি কমে।"},{"q":"Why do doctors usually earn more than cleaners?","qbn":"ডাক্তাররা সাধারণত পরিচ্ছন্নতাকর্মীর চেয়ে বেশি আয় করেন কেন?","opts":["Human capital: education and training raise productivity","Because cleaners are lazy","Because of random luck only","Because doctors work fewer hours always"],"ans":0,"exp":"Years of education and training (human capital) raise productivity and the scarcity of the skill, so wages are higher.","expbn":"বছরের পর বছর শিক্ষা-প্রশিক্ষণ (human capital) উৎপাদনশীলতা বাড়ায় এবং দক্ষতা দুর্লভ, তাই মজুরি বেশি।"},{"q":"The Gini coefficient of 0 represents:","qbn":"জিনি সহগ ০ মানে:","opts":["Perfect equality","Perfect inequality","No income","High poverty"],"ans":0,"exp":"The Gini coefficient ranges from 0 (perfect equality) to 1 (perfect inequality).","expbn":"জিনি সহগ ০ (পূর্ণ সমতা) থেকে ১ (পূর্ণ বৈষম্য) পর্যন্ত।"},{"q":"A factory polluting a river is an example of:","qbn":"কারখানা নদী দূষিত করা কিসের উদাহরণ?","opts":["A positive externality","A negative externality (market failure)","Perfect competition","A public good"],"ans":1,"exp":"Pollution imposes costs on third parties not paid by the factory: a negative externality, so the market overproduces.","expbn":"দূষণ তৃতীয় পক্ষের ওপর ব্যয় চাপায় যা কারখানা দেয় না: নেতিবাচক বহির্ভূত প্রভাব, তাই বাজার বেশি উৎপাদন করে।"}]},"b1-3":{"t":"Questions 1.1–1.3","tb":"প্রশ্ন ১.১–১.৩","items":[{"q":"Which best describes a business?","qbn":"ব্যবসা বলতে কোনটি সবচেয়ে ভালো বোঝায়?","opts":["An organization that provides goods or services to customers in exchange for money","A government office that collects taxes","Only a company that makes physical products","A group of friends who meet regularly"],"ans":0,"exp":"A business is an organization that provides goods or services in exchange for money. It can sell products or services, and usually aims to earn a profit.","expbn":"ব্যবসা হলো এমন প্রতিষ্ঠান যা অর্থের বিনিময়ে পণ্য বা সেবা দেয়। এটি পণ্য বা সেবা – দুটোই বিক্রি করতে পারে এবং সাধারণত মুনাফা করতে চায়।"},{"q":"What is the key difference between a for-profit and a nonprofit organization?","qbn":"মুনাফাভিত্তিক ও অলাভজনক প্রতিষ্ঠানের মূল পার্থক্য কী?","opts":["Nonprofits are never allowed to earn any money","For-profits share surplus with owners; nonprofits use surplus for their mission","For-profits never pay taxes","Nonprofits have no employees"],"ans":1,"exp":"For-profits distribute profit to owners or shareholders. Nonprofits may earn a surplus but must reinvest it in their mission.","expbn":"মুনাফাভিত্তিক প্রতিষ্ঠান মুনাফা মালিক বা শেয়ারহোল্ডারদের দেয়। অলাভজনক প্রতিষ্ঠান উদ্বৃত্ত করতে পারে, কিন্তু তা মিশনেই ফিরিয়ে দিতে হয়।"},{"q":"Which of the following is NOT one of the four factors of production?","qbn":"নিচের কোনটি উৎপাদনের চার উপাদানের মধ্যে পড়ে না?","opts":["Land","Labor","Advertising","Entrepreneurship"],"ans":2,"exp":"The four factors are land (natural resources), labor, capital and entrepreneurship. Advertising is a marketing activity, not a factor of production.","expbn":"চার উপাদান হলো ভূমি (প্রাকৃতিক সম্পদ), শ্রম, মূলধন ও উদ্যোক্তা। বিজ্ঞাপন একটি মার্কেটিং কাজ, উৎপাদনের উপাদান নয়।"}]},"b1-6":{"t":"Questions 1.4–1.6","tb":"প্রশ্ন ১.৪–১.৬","items":[{"q":"Which functional area is mainly responsible for recruiting, training and motivating employees?","qbn":"কর্মী নিয়োগ, প্রশিক্ষণ ও অনুপ্রেরণার প্রধান দায়িত্ব কোন বিভাগের?","opts":["Finance","Human Resources","Operations","Accounting"],"ans":1,"exp":"Human Resources (HR) hires, trains, pays and motivates employees. Finance manages money, operations produces goods, and accounting records transactions.","expbn":"মানবসম্পদ (HR) কর্মী নিয়োগ, প্রশিক্ষণ, বেতন ও অনুপ্রেরণা দেয়। ফাইন্যান্স অর্থ সামলায়, অপারেশনস উৎপাদন করে, অ্যাকাউন্টিং লেনদেন লিখে রাখে।"},{"q":"A bank that lends money to a company is which type of stakeholder?","qbn":"যে ব্যাংক কোনো কোম্পানিকে ঋণ দেয়, সে কোন ধরনের স্টেকহোল্ডার?","opts":["Customer","Creditor (lender)","Employee","Competitor"],"ans":1,"exp":"A lender or creditor provides money and expects it back with interest, so the bank is a creditor stakeholder.","expbn":"ঋণদাতা বা পাওনাদার টাকা দেয় এবং সুদসহ ফেরত চায়, তাই ব্যাংক একটি ঋণদাতা স্টেকহোল্ডার।"},{"q":"A new law that raises business taxes is an example of which external force?","qbn":"ব্যবসায়িক কর বাড়ানোর নতুন আইন কোন বাহ্যিক শক্তির উদাহরণ?","opts":["Technological force","Political and legal force","Social force","Natural force"],"ans":1,"exp":"Laws, taxes and regulations come from government, so they are political and legal forces.","expbn":"আইন, কর ও বিধিবিধান সরকারের কাছ থেকে আসে, তাই এগুলো রাজনৈতিক ও আইনি শক্তি।"}]},"b2-4":{"t":"Questions 2.1–2.4","tb":"প্রশ্ন ২.১–২.৪","items":[{"q":"What problem does economics mainly address?","qbn":"অর্থনীতি মূলত কোন সমস্যা নিয়ে কাজ করে?","opts":["Unlimited resources and limited wants","Scarce resources and unlimited wants","Too much money in the economy","Only government spending"],"ans":1,"exp":"Economics studies how we make choices because resources are scarce while human wants are unlimited.","expbn":"সম্পদ দুর্লভ কিন্তু চাহিদা অসীম — তাই আমরা কীভাবে বেছে নিই, অর্থনীতি তা নিয়ে আলোচনা করে।"},{"q":"In which economic system does the government own most resources and make most decisions?","qbn":"কোন অর্থনৈতিক ব্যবস্থায় সরকার বেশির ভাগ সম্পদের মালিক এবং বেশির ভাগ সিদ্ধান্ত নেয়?","opts":["Market economy","Command economy","Mixed economy","Traditional economy"],"ans":1,"exp":"In a command (planned) economy the government owns resources and decides what, how and for whom to produce.","expbn":"নির্দেশিত (পরিকল্পিত) অর্থনীতিতে সরকার সম্পদের মালিক এবং কী, কীভাবে ও কার জন্য উৎপাদন হবে তা ঠিক করে।"},{"q":"According to the law of demand, if the price of a good rises (ceteris paribus), what happens?","qbn":"চাহিদার সূত্র অনুযায়ী (অন্য সব স্থির), কোনো পণ্যের দাম বাড়লে কী হয়?","opts":["Quantity demanded rises","Quantity demanded falls","Supply falls","Nothing changes"],"ans":1,"exp":"The law of demand states an inverse relationship: higher price means lower quantity demanded.","expbn":"চাহিদার সূত্র বিপরীত সম্পর্ক বোঝায়: দাম বাড়লে চাহিদার পরিমাণ কমে।"},{"q":"The supply curve normally slopes upward because:","qbn":"জোগান রেখা সাধারণত ঊর্ধ্বমুখী হয় কারণ:","opts":["Higher prices give producers more incentive to supply more","Consumers buy more at higher prices","Costs always fall when prices rise","Governments control supply"],"ans":0,"exp":"A higher price increases profit, so producers are willing to supply a greater quantity.","expbn":"দাম বাড়লে মুনাফা বাড়ে, তাই উৎপাদকরা বেশি পরিমাণ জোগান দিতে রাজি হয়।"}]},"b2-7":{"t":"Questions 2.5–2.7","tb":"প্রশ্ন ২.৫–২.৭","items":[{"q":"If the market price is set below the equilibrium price, what results?","qbn":"বাজারদাম ভারসাম্য দামের নিচে হলে কী হয়?","opts":["A surplus","A shortage","Equilibrium","A fall in demand curve"],"ans":1,"exp":"At a price below equilibrium, quantity demanded exceeds quantity supplied, which creates a shortage.","expbn":"ভারসাম্য দামের নিচে চাহিদার পরিমাণ জোগানের চেয়ে বেশি হয়, ফলে ঘাটতি দেখা দেয়।"},{"q":"Which indicator measures the total value of all final goods and services produced in a country in a year?","qbn":"এক বছরে একটি দেশে উৎপাদিত সব চূড়ান্ত পণ্য ও সেবার মোট মূল্য কোন সূচক মাপে?","opts":["CPI","Unemployment rate","GDP","Interest rate"],"ans":2,"exp":"GDP (Gross Domestic Product) measures the total value of final goods and services produced within a country in a year.","expbn":"GDP (মোট দেশজ উৎপাদন) এক বছরে দেশের ভেতরে উৎপাদিত সব চূড়ান্ত পণ্য ও সেবার মোট মূল্য মাপে।"},{"q":"During which stage of the business cycle do GDP and employment fall?","qbn":"ব্যবসা চক্রের কোন পর্যায়ে GDP ও কর্মসংস্থান কমে?","opts":["Expansion","Peak","Contraction","Trough"],"ans":2,"exp":"In a contraction (recession), GDP falls, unemployment rises and spending drops. The trough is the lowest point at the end of it.","expbn":"সংকোচন (মন্দা) পর্যায়ে GDP কমে, বেকারত্ব বাড়ে ও খরচ কমে। তলানি হলো এর শেষের সর্বনিম্ন বিন্দু।"}]},"b3-3":{"t":"Questions 3.1–3.3","tb":"প্রশ্ন ৩.১–৩.৩","items":[{"q":"Why do countries specialize in what they produce best and trade with others?","qbn":"কেন দেশগুলো যা সবচেয়ে ভালো বানাতে পারে তাতে বিশেষায়ন করে এবং অন্যদের সাথে বাণিজ্য করে?","opts":["So that everyone gets more goods at lower cost","To stop imports completely","To make every country identical","To reduce the variety of goods"],"ans":0,"exp":"Specialization based on comparative advantage lets countries produce efficiently, and trade gives everyone more goods at lower prices.","expbn":"তুলনামূলক সুবিধার ভিত্তিতে বিশেষায়ন দেশগুলোকে দক্ষভাবে উৎপাদনে সাহায্য করে; বাণিজ্যে সবাই কম দামে বেশি পণ্য পায়।"},{"q":"A country has exports of $400 billion and imports of $550 billion. What is its balance of trade?","qbn":"একটি দেশের রপ্তানি ৪০০ বিলিয়ন ডলার এবং আমদানি ৫৫০ বিলিয়ন ডলার। এর বাণিজ্য ভারসাম্য কত?","opts":["Surplus of $150 billion","Deficit of $150 billion","Surplus of $950 billion","Balanced"],"ans":1,"exp":"Balance of trade = exports − imports = 400 − 550 = −150, which is a trade deficit of $150 billion.","expbn":"বাণিজ্য ভারসাম্য = রপ্তানি − আমদানি = ৪০০ − ৫৫০ = −১৫০, অর্থাৎ ১৫০ বিলিয়ন ডলার বাণিজ্য ঘাটতি।"},{"q":"Which global market strategy involves the HIGHEST level of investment and risk?","qbn":"কোন বৈশ্বিক বাজার কৌশলে বিনিয়োগ ও ঝুঁকি সবচেয়ে বেশি?","opts":["Exporting","Licensing","Foreign direct investment","Contract manufacturing"],"ans":2,"exp":"FDI means building or buying your own operations abroad, giving the most control but the highest cost and risk. Exporting is the lowest-risk strategy.","expbn":"FDI মানে বিদেশে নিজস্ব কার্যক্রম গড়া বা কেনা — নিয়ন্ত্রণ সবচেয়ে বেশি, কিন্তু খরচ ও ঝুঁকিও সবচেয়ে বেশি। রপ্তানি সবচেয়ে কম ঝুঁকির কৌশল।"}]},"b3-6":{"t":"Questions 3.4–3.6","tb":"প্রশ্ন ৩.৪–৩.৬","items":[{"q":"A government tax placed on imported goods is called a:","qbn":"আমদানি করা পণ্যের ওপর সরকারের আরোপিত করকে কী বলে?","opts":["Quota","Tariff","Subsidy","Embargo"],"ans":1,"exp":"A tariff is a tax on imports. A quota limits quantity, an embargo bans trade, and a subsidy is government financial help to local producers.","expbn":"শুল্ক (tariff) হলো আমদানির ওপর কর। কোটা পরিমাণ সীমিত করে, নিষেধাজ্ঞা বাণিজ্য বন্ধ করে, ভর্তুকি স্থানীয় উৎপাদককে সরকারি সহায়তা।"},{"q":"Which organization is mainly responsible for setting global trade rules and settling trade disputes between countries?","qbn":"কোন সংগঠন প্রধানত বৈশ্বিক বাণিজ্যের নিয়ম তৈরি ও দেশগুলোর মধ্যে বাণিজ্য বিরোধ নিষ্পত্তি করে?","opts":["International Monetary Fund (IMF)","World Bank","World Trade Organization (WTO)","United Nations Children's Fund"],"ans":2,"exp":"The WTO sets and enforces global trade rules and settles disputes. The IMF focuses on monetary stability and the World Bank on development loans.","expbn":"WTO বৈশ্বিক বাণিজ্যের নিয়ম তৈরি, কার্যকর ও বিরোধ নিষ্পত্তি করে। IMF আর্থিক স্থিতিশীলতা এবং বিশ্বব্যাংক উন্নয়ন ঋণ নিয়ে কাজ করে।"},{"q":"Which U.S. law makes it illegal for U.S. companies to bribe foreign officials?","qbn":"কোন মার্কিন আইন মার্কিন কোম্পানির বিদেশি কর্মকর্তাকে ঘুষ দেওয়া বেআইনি করেছে?","opts":["Sherman Antitrust Act","Foreign Corrupt Practices Act (FCPA)","Clayton Act","Consumer Product Safety Act"],"ans":1,"exp":"The Foreign Corrupt Practices Act (FCPA) prohibits U.S. companies from bribing foreign officials, even where bribery is common.","expbn":"Foreign Corrupt Practices Act (FCPA) মার্কিন কোম্পানিকে বিদেশি কর্মকর্তাকে ঘুষ দিতে নিষেধ করে, এমনকি যেখানে ঘুষ প্রচলিত সেখানেও।"}]},"b4-3":{"t":"Questions 4.1–4.3","tb":"প্রশ্ন ৪.১–৪.৩","items":[{"q":"Which of the following is NOT a function of money?","qbn":"নিচের কোনটি অর্থের কাজ নয়?","opts":["Medium of exchange","Store of value","Unit of account","Creating scarcity"],"ans":3,"exp":"Money works as a medium of exchange, a store of value and a unit of account. Creating scarcity is not a function of money.","expbn":"অর্থ বিনিময়ের মাধ্যম, মূল্য সংরক্ষণ ও হিসাবের একক হিসেবে কাজ করে। দুর্লভতা সৃষ্টি করা অর্থের কাজ নয়।"},{"q":"What is the central bank of the United States called?","qbn":"যুক্তরাষ্ট্রের কেন্দ্রীয় ব্যাংকের নাম কী?","opts":["The FDIC","The Federal Reserve","The World Bank","The Treasury Department"],"ans":1,"exp":"The Federal Reserve (the Fed) is the U.S. central bank. The FDIC only insures deposits.","expbn":"ফেডারেল রিজার্ভ (ফেড) যুক্তরাষ্ট্রের কেন্দ্রীয় ব্যাংক। FDIC শুধু আমানত বিমা করে।"},{"q":"Selling shares of stock to investors is an example of:","qbn":"বিনিয়োগকারীদের কাছে স্টকের শেয়ার বিক্রি কিসের উদাহরণ?","opts":["Debt financing","Equity financing","Trade credit","A bank loan"],"ans":1,"exp":"Selling stock gives investors ownership in return for money, which is equity financing. No repayment is required.","expbn":"স্টক বিক্রি করলে বিনিয়োগকারী টাকার বিনিময়ে মালিকানা পায় — এটি ইক্যুইটি অর্থায়ন। শোধ করতে হয় না।"}]},"b5-4":{"t":"Questions 5.1–5.4","tb":"প্রশ্ন ৫.১–৫.৪","items":[{"q":"Which is NOT a main purpose of law?","qbn":"নিচের কোনটি আইনের প্রধান উদ্দেশ্য নয়?","opts":["Maintain order","Protect rights","Resolve disputes","Guarantee every business a profit"],"ans":3,"exp":"Law maintains order, protects rights and resolves disputes. It cannot guarantee profit to any business.","expbn":"আইন শৃঙ্খলা রক্ষা করে, অধিকার রক্ষা করে ও বিরোধ মেটায়। কোনো ব্যবসাকে মুনাফার নিশ্চয়তা দেওয়া আইনের কাজ নয়।"},{"q":"Common law is primarily created by:","qbn":"কমন ল প্রধানত কে তৈরি করে?","opts":["Congress","Judges through court decisions","The president","Business owners"],"ans":1,"exp":"Common law develops from judges' decisions and precedent. Statutory law is created by legislatures.","expbn":"কমন ল বিচারকদের রায় ও নজির থেকে গড়ে ওঠে। স্ট্যাচুটরি আইন আইনসভা তৈরি করে।"},{"q":"A company sells a toy with a design that is unsafe for children. This is most closely related to:","qbn":"একটি কোম্পানি এমন খেলনা বিক্রি করে যার নকশা শিশুদের জন্য অনিরাপদ। এটি সবচেয়ে বেশি কিসের সাথে সম্পর্কিত?","opts":["Statutory copyright","Product liability (tort law)","Antitrust law","Contract breach"],"ans":1,"exp":"An unsafe product design is a design defect, which falls under product liability, a part of tort law.","expbn":"অনিরাপদ নকশা একটি নকশা ত্রুটি, যা টর্ট আইনের অংশ পণ্য দায়বদ্ধতার আওতায় পড়ে।"},{"q":"Which form of intellectual property protects a company's logo and brand name?","qbn":"কোন মেধাস্বত্ব কোম্পানির লোগো ও ব্র্যান্ড নাম রক্ষা করে?","opts":["Patent","Copyright","Trademark","Warranty"],"ans":2,"exp":"A trademark protects names, logos and slogans that identify a brand. Patents protect inventions and copyrights protect creative works.","expbn":"ট্রেডমার্ক ব্র্যান্ডের নাম, লোগো ও স্লোগান রক্ষা করে। পেটেন্ট আবিষ্কার ও কপিরাইট সৃজনশীল রচনা রক্ষা করে।"}]},"b5-7":{"t":"Questions 5.5–5.7","tb":"প্রশ্ন ৫.৫–৫.৭","items":[{"q":"A warranty that exists automatically under the law, even if the seller says nothing, is called:","qbn":"বিক্রেতা কিছু না বললেও আইন অনুযায়ী স্বয়ংক্রিয়ভাবে থাকে এমন ওয়ারেন্টিকে বলে:","opts":["Express warranty","Implied warranty","Limited warranty","Extended warranty"],"ans":1,"exp":"An implied warranty, such as merchantability, arises by law without any statement from the seller.","expbn":"অন্তর্নিহিত ওয়ারেন্টি (যেমন merchantability) বিক্রেতার কথা ছাড়াই আইন অনুযায়ী তৈরি হয়।"},{"q":"Which of the following is NOT an element of a legally enforceable contract?","qbn":"নিচের কোনটি আইনত বাধ্যতামূলক চুক্তির উপাদান নয়?","opts":["Offer and acceptance","Consideration","Legal purpose","A guarantee of profit for both parties"],"ans":3,"exp":"A valid contract needs offer, acceptance, consideration, capacity, legality and genuine consent. A profit guarantee is not required.","expbn":"বৈধ চুক্তিতে প্রস্তাব, গ্রহণ, বিনিময়, সামর্থ্য, বৈধতা ও প্রকৃত সম্মতি লাগে। উভয়ের মুনাফার নিশ্চয়তা লাগে না।"},{"q":"Which law, passed in 1890, was the first major U.S. antitrust law?","qbn":"১৮৯০ সালে পাস হওয়া কোন আইনটি যুক্তরাষ্ট্রের প্রথম বড় অ্যান্টিট্রাস্ট আইন?","opts":["Clayton Act","Sherman Act","Truth in Lending Act","Consumer Product Safety Act"],"ans":1,"exp":"The Sherman Act of 1890 outlawed monopolization and agreements that restrain trade. The Clayton Act came in 1914.","expbn":"১৮৯০ সালের শারম্যান অ্যাক্ট একচেটিয়া দখল ও বাণিজ্য সীমিতকারী চুক্তি নিষিদ্ধ করে। ক্লেটন অ্যাক্ট এসেছে ১৯১৪ সালে।"}]},"b6-2":{"t":"Questions 6.1–6.2","tb":"প্রশ্ন ৬.১–৬.২","items":[{"q":"Which statement is correct?","qbn":"কোন বিবৃতিটি সঠিক?","opts":["Everything legal is automatically ethical","Some actions can be legal but still unethical","Ethics are enforced by courts","Laws and ethics are identical"],"ans":1,"exp":"An action can follow the law yet still be unfair or dishonest, so it is legal but unethical.","expbn":"কোনো কাজ আইন মেনেও অন্যায্য বা অসৎ হতে পারে — তখন তা আইনি কিন্তু অনৈতিক।"},{"q":"A written document that states a company's values and rules of conduct is called a:","qbn":"কোম্পানির মূল্যবোধ ও আচরণের নিয়ম লেখা দলিলকে কী বলে?","opts":["Balance sheet","Code of ethics","Business plan","Warranty"],"ans":1,"exp":"A code of ethics sets out the values and rules employees should follow. It is a basic step to encourage ethical behavior.","expbn":"আচরণবিধি (code of ethics) কর্মীদের অনুসরণীয় মূল্যবোধ ও নিয়ম নির্ধারণ করে। নৈতিক আচরণ উৎসাহিত করার এটি একটি প্রাথমিক পদক্ষেপ।"}]},"b6-4":{"t":"Questions 6.3–6.4","tb":"প্রশ্ন ৬.৩–৬.৪","items":[{"q":"Which of the following is an example of a conflict of interest?","qbn":"নিচের কোনটি স্বার্থের দ্বন্দ্বের উদাহরণ?","opts":["A manager gives a contract to a firm owned by her brother instead of a better, cheaper supplier","An employee attends ethics training","A company publishes its code of ethics","A worker reports fraud"],"ans":0,"exp":"A conflict of interest happens when personal interests, like family ties, interfere with a professional duty to choose the best option for the company.","expbn":"ব্যক্তিগত স্বার্থ (যেমন পারিবারিক সম্পর্ক) যখন কোম্পানির জন্য সেরা সিদ্ধান্ত নেওয়ার পেশাদার দায়িত্বে বাধা দেয়, তখন স্বার্থের দ্বন্দ্ব হয়।"},{"q":"The 'triple bottom line' measures a company's success using:","qbn":"'ট্রিপল বটম লাইন' কোম্পানির সাফল্য মাপে কোনগুলো দিয়ে?","opts":["Price, product, place","People, planet, profit","Sales, stock, savings","Law, license, loan"],"ans":1,"exp":"The triple bottom line looks at social (people), environmental (planet) and financial (profit) results.","expbn":"ট্রিপল বটম লাইন সামাজিক (people), পরিবেশগত (planet) ও আর্থিক (profit) ফলাফল দেখে।"}]},"b7-4":{"t":"Questions 7.1–7.4","tb":"প্রশ্ন ৭.১–৭.৪","items":[{"q":"Which factor concerns whether the owner's personal assets can be taken to pay business debts?","qbn":"ব্যবসার ঋণ শোধে মালিকের ব্যক্তিগত সম্পদ নেওয়া যাবে কি না — কোন বিষয়টি এটি নিয়ে?","opts":["Continuity","Liability","Taxation","Number of owners"],"ans":1,"exp":"Liability describes how much personal risk the owner bears for the business's debts and legal problems.","expbn":"দায় (liability) বোঝায় ব্যবসার ঋণ ও আইনি সমস্যায় মালিক কতটা ব্যক্তিগত ঝুঁকি বহন করে।"},{"q":"A major disadvantage of a sole proprietorship is:","qbn":"একক মালিকানার একটি প্রধান অসুবিধা হলো:","opts":["Complex taxes","Unlimited personal liability","Owner must share profit with shareholders","Strict corporate regulation"],"ans":1,"exp":"The owner is personally responsible for all business debts, so personal assets are at risk.","expbn":"মালিক ব্যবসার সব ঋণের জন্য ব্যক্তিগতভাবে দায়ী, তাই ব্যক্তিগত সম্পদ ঝুঁকিতে থাকে।"},{"q":"In a general partnership, the partners:","qbn":"সাধারণ অংশীদারিতে অংশীদাররা:","opts":["Have limited liability","Share management and have unlimited liability","Cannot share profits","Are never taxed"],"ans":1,"exp":"General partners share management and are personally liable for the partnership's debts.","expbn":"সাধারণ অংশীদাররা পরিচালনা ভাগ করে এবং অংশীদারির ঋণের জন্য ব্যক্তিগতভাবে দায়ী।"},{"q":"'Double taxation' is a disadvantage of which business form?","qbn":"'দ্বৈত কর' কোন ধরনের ব্যবসার অসুবিধা?","opts":["Sole proprietorship","General partnership","C corporation","Franchise agreement"],"ans":2,"exp":"A regular (C) corporation pays tax on profits, and shareholders pay tax again on dividends — double taxation.","expbn":"সাধারণ (C) কর্পোরেশন মুনাফার ওপর কর দেয়, আবার শেয়ারহোল্ডার লভ্যাংশে কর দেয় — এটিই দ্বৈত কর।"}]},"b7-7":{"t":"Questions 7.5–7.7","tb":"প্রশ্ন ৭.৫–৭.৭","items":[{"q":"What is a key advantage of an LLC?","qbn":"LLC-র একটি মূল সুবিধা কী?","opts":["Unlimited liability for owners","Limited liability with pass-through taxation","Ability to have unlimited shareholders on public markets","Double taxation"],"ans":1,"exp":"An LLC combines limited liability protection with pass-through taxation and flexible management.","expbn":"LLC সীমিত দায়ের সুরক্ষা, pass-through কর এবং নমনীয় ব্যবস্থাপনা একসাথে দেয়।"},{"q":"In a franchise, the party that owns the brand and sells the right to use it is called the:","qbn":"ফ্র্যাঞ্চাইজিতে যে পক্ষ ব্র্যান্ডের মালিক এবং ব্যবহারের অধিকার বিক্রি করে তাকে বলে:","opts":["Franchisee","Franchisor","Shareholder","Creditor"],"ans":1,"exp":"The franchisor owns the brand and licenses it to the franchisee, who pays fees and royalties.","expbn":"ফ্র্যাঞ্চাইজর ব্র্যান্ডের মালিক এবং ফ্র্যাঞ্চাইজিকে লাইসেন্স দেয়; ফ্র্যাঞ্চাইজি ফি ও রয়্যালটি দেয়।"},{"q":"When one company buys another and takes control, it is called a(n):","qbn":"এক কোম্পানি আরেকটি কিনে নিয়ন্ত্রণ নিলে তাকে কী বলে?","opts":["Merger of equals","Acquisition","Franchise","Partnership"],"ans":1,"exp":"In an acquisition one company buys and controls another. In a merger two companies agree to combine into one.","expbn":"অ্যাকুইজিশনে এক কোম্পানি আরেকটি কিনে নিয়ন্ত্রণ নেয়। মার্জারে দুটি কোম্পানি একত্র হয়ে একটি হয়।"}]},"b8-3":{"t":"Questions 8.1–8.3","tb":"প্রশ্ন ৮.১–৮.৩","items":[{"q":"Small businesses make up approximately what share of all U.S. firms?","qbn":"মার্কিন প্রতিষ্ঠানের মধ্যে ক্ষুদ্র ব্যবসার আনুমানিক অংশ কত?","opts":["About 10%","About 50%","About 75%","About 99.9%"],"ans":3,"exp":"Small businesses are about 99.9% of U.S. firms and employ roughly half of private-sector workers.","expbn":"মার্কিন প্রতিষ্ঠানের প্রায় ৯৯.৯% ক্ষুদ্র ব্যবসা এবং বেসরকারি খাতের প্রায় অর্ধেক কর্মী সেখানে কাজ করে।"},{"q":"Which trait best describes an entrepreneur who learns from failure and keeps trying?","qbn":"যে উদ্যোক্তা ব্যর্থতা থেকে শিখে চেষ্টা চালিয়ে যান, তার জন্য কোন বৈশিষ্ট্যটি সবচেয়ে প্রযোজ্য?","opts":["Resilience","Procrastination","Risk avoidance","Dependence"],"ans":0,"exp":"Resilience means recovering from setbacks and continuing, a key trait of successful entrepreneurs.","expbn":"Resilience মানে বাধা কাটিয়ে ওঠা ও এগিয়ে যাওয়া — সফল উদ্যোক্তাদের একটি মূল বৈশিষ্ট্য।"},{"q":"Which is a common disadvantage of starting a small business?","qbn":"ক্ষুদ্র ব্যবসা শুরুর একটি প্রচলিত অসুবিধা কোনটি?","opts":["Being your own boss","Risk of financial loss and long hours","Unlimited profit potential","Flexibility"],"ans":1,"exp":"Business owners often face financial risk and long working hours. The other options are advantages.","expbn":"ব্যবসার মালিকদের প্রায়ই আর্থিক ঝুঁকি ও দীর্ঘ কাজের সময়ের মুখোমুখি হতে হয়। অন্য অপশনগুলো সুবিধা।"}]},"b8-5":{"t":"Questions 8.4–8.5","tb":"প্রশ্ন ৮.৪–৮.৫","items":[{"q":"Which step should come BEFORE writing a business plan?","qbn":"ব্যবসা পরিকল্পনা লেখার আগে কোন ধাপটি আসা উচিত?","opts":["Hiring employees","Researching the market to test the idea","Opening the doors to customers","Buying equipment"],"ans":1,"exp":"You should develop the idea and research the market first, so the business plan is based on real information.","expbn":"আগে আইডিয়া তৈরি ও বাজার গবেষণা করা উচিত, যাতে ব্যবসা পরিকল্পনা বাস্তব তথ্যের ওপর দাঁড়ায়।"},{"q":"Which section of a business plan is a short overview of the entire plan and is usually written last?","qbn":"ব্যবসা পরিকল্পনার কোন অংশটি পুরো পরিকল্পনার সংক্ষিপ্ত সারাংশ এবং সাধারণত শেষে লেখা হয়?","opts":["Financial plan","Executive summary","Appendix","Market analysis"],"ans":1,"exp":"The executive summary gives a one-page overview of the whole plan. It appears first but is written last.","expbn":"নির্বাহী সারসংক্ষেপ পুরো পরিকল্পনার এক পৃষ্ঠার সারাংশ। এটি প্রথমে বসে কিন্তু লেখা হয় শেষে।"}]},"b9-3":{"t":"Questions 9.1–9.3","tb":"প্রশ্ন ৯.১–৯.৩","items":[{"q":"Which level of management focuses on long-term strategic planning?","qbn":"ম্যানেজমেন্টের কোন স্তর দীর্ঘমেয়াদি কৌশলগত পরিকল্পনায় মনোযোগ দেয়?","opts":["First-line managers","Middle managers","Top-level managers","Employees"],"ans":2,"exp":"Top-level managers such as the CEO set the company's strategy and long-term goals.","expbn":"CEO-র মতো শীর্ষ স্তরের ম্যানেজাররা কোম্পানির কৌশল ও দীর্ঘমেয়াদি লক্ষ্য ঠিক করেন।"},{"q":"Which of the following is NOT one of the four functions of management?","qbn":"নিচের কোনটি ম্যানেজমেন্টের চারটি কার্যাবলির একটি নয়?","opts":["Planning","Organizing","Advertising","Controlling"],"ans":2,"exp":"The four functions are planning, organizing, leading and controlling. Advertising is a marketing activity.","expbn":"চারটি কার্যাবলি হলো পরিকল্পনা, সংগঠন, নেতৃত্ব ও নিয়ন্ত্রণ। বিজ্ঞাপন মার্কেটিংয়ের কাজ।"},{"q":"A backup plan used when something goes wrong, such as a crisis, is called:","qbn":"কিছু ভুল হলে (যেমন সংকটে) ব্যবহারের জন্য রাখা বিকল্প পরিকল্পনাকে বলে:","opts":["Strategic plan","Operational plan","Contingency plan","Business plan"],"ans":2,"exp":"Contingency planning prepares alternative actions in case the original plan fails or a crisis occurs.","expbn":"আকস্মিক (contingency) পরিকল্পনা মূল পরিকল্পনা ব্যর্থ হলে বা সংকট এলে বিকল্প পদক্ষেপ প্রস্তুত রাখে।"}]},"b9-6":{"t":"Questions 9.4–9.6","tb":"প্রশ্ন ৯.৪–৯.৬","items":[{"q":"In which organizational structure do employees report to both a functional manager and a project manager?","qbn":"কোন সাংগঠনিক কাঠামোতে কর্মী ফাংশনাল ম্যানেজার ও প্রকল্প ম্যানেজার — উভয়ের কাছে রিপোর্ট করে?","opts":["Functional","Divisional","Matrix","Flat"],"ans":2,"exp":"In a matrix structure, employees have two bosses: a functional manager and a project manager.","expbn":"ম্যাট্রিক্স কাঠামোতে কর্মীর দুজন বস থাকে: ফাংশনাল ম্যানেজার ও প্রকল্প ম্যানেজার।"},{"q":"During an emergency when a quick decision is needed, which leadership style is usually most effective?","qbn":"জরুরি অবস্থায় দ্রুত সিদ্ধান্ত দরকার হলে কোন নেতৃত্ব শৈলী সাধারণত সবচেয়ে কার্যকর?","opts":["Laissez-faire","Democratic","Autocratic","No leadership"],"ans":2,"exp":"Autocratic leadership allows fast, decisive action, which suits emergencies. Democratic and laissez-faire styles are slower or less directive.","expbn":"স্বৈরতান্ত্রিক নেতৃত্ব দ্রুত ও দৃঢ় পদক্ষেপ নিতে দেয়, যা জরুরি অবস্থায় মানানসই। গণতান্ত্রিক ও লেসে-ফেয়ার শৈলী ধীর বা কম নির্দেশমূলক।"},{"q":"What is the step that comes right AFTER measuring actual performance in the control process?","qbn":"নিয়ন্ত্রণ প্রক্রিয়ায় প্রকৃত কর্মক্ষমতা মাপার ঠিক পরের ধাপ কোনটি?","opts":["Setting standards","Comparing performance against the standards","Planning strategy","Hiring staff"],"ans":1,"exp":"The control process: set standards, measure performance, compare with standards, then take corrective action.","expbn":"নিয়ন্ত্রণ প্রক্রিয়া: মান ঠিক করা, কর্মক্ষমতা মাপা, মানের সাথে তুলনা, তারপর সংশোধনমূলক পদক্ষেপ।"}]}};
+  function mk(tagName, cls, text) { var e = document.createElement(tagName); if (cls) e.className = cls; if (text !== undefined) e.textContent = text; return e; }
+  function buildMini(b) {
+    var wrap = mk('section', 'miniquiz');
+    var head = mk('div', 'mq-head');
+    head.appendChild(mk('span', '', '✅ Quick check · দ্রুত যাচাই'));
+    head.appendChild(mk('span', 'mq-range', b.t + ' · ' + b.tb));
+    wrap.appendChild(head);
+    var answered = 0, correct = 0, boxes = [];
+    var foot = mk('div', 'mq-foot'), scoreEl = mk('span', 'mq-score');
+    var msg = mk('div', 'mq-msg'); msg.hidden = true;
+    var retry = mk('button', 'btn', 'Try again · আবার চেষ্টা'); retry.type = 'button'; retry.hidden = true;
+    foot.appendChild(scoreEl); foot.appendChild(retry);
+    function paint() { scoreEl.textContent = '✓ ' + correct + ' / ' + b.items.length + ' correct'; }
+    b.items.forEach(function (it, n) {
+      var box = mk('div', 'mq-item'), q = mk('div', 'mq-q');
+      q.appendChild(mk('div', 'mq-en', (n + 1) + '. ' + it.q)); q.appendChild(mk('div', 'mq-bn', it.qbn));
+      var opts = mk('div', 'mq-opts'), fb = mk('div', 'mq-fb'); fb.hidden = true;
+      var btns = it.opts.map(function (o, i) {
+        var bt = mk('button', 'mq-opt'); bt.type = 'button'; bt.textContent = 'ABCD'.charAt(i) + '.  ' + o;
+        bt.addEventListener('click', function () {
+          if (box._done) return;
+          box._done = true; answered++;
+          var ok = i === it.ans; if (ok) correct++;
+          btns.forEach(function (x, k) { x.disabled = true; if (k === it.ans) x.classList.add('correct'); });
+          if (!ok) bt.classList.add('wrong');
+          fb.innerHTML = '';
+          fb.appendChild(mk('div', ok ? 'ok' : 'no', ok ? '✔ সঠিক! Correct!' : '✘ ভুল! Incorrect.'));
+          fb.appendChild(mk('div', 'mq-en', it.exp)); fb.appendChild(mk('div', 'mq-bn', it.expbn));
+          fb.hidden = false; paint();
+          if (answered === b.items.length) {
+            msg.textContent = correct === b.items.length ? '🏆 সবগুলো সঠিক! Perfect — move on to the next questions.' : '📚 উপরের প্রশ্নগুলো আবার পড়ে চেষ্টা করো · Re-read the questions above, then try again.';
+            msg.hidden = false; retry.hidden = correct === b.items.length;
+          }
+        });
+        opts.appendChild(bt); return bt;
       });
+      box._reset = function () { box._done = false; btns.forEach(function (x) { x.disabled = false; x.classList.remove('correct', 'wrong'); }); fb.hidden = true; };
+      box.appendChild(q); box.appendChild(opts); box.appendChild(fb); wrap.appendChild(box); boxes.push(box);
     });
-
-    btnNext.addEventListener('click', nextQuestion);
-  }
-
-  function syncQuizTab(key) {
-    if (!QUIZ_DB[key]) return;
-    $$('.qtab').forEach(function (b) { b.classList.toggle('active', b.getAttribute('data-set') === key); });
-    qState.set = key;
-  }
-  document.addEventListener('subjectchange', function (e) { syncQuizTab(e.detail); });
-  syncQuizTab(current);
-
-  function startQuiz() {
-    qState.questions = buildQuizSet(qState.set);
-    qState.idx = 0;
-    qState.score = 0;
-    qState.answered = false;
-    quizResult.style.display = 'none';
-    quizArea.hidden = false;
-    scoreDisplay.hidden = false;
-    renderQuestion();
-  }
-
-  function renderQuestion() {
-    var q = qState.questions[qState.idx];
-    var total = qState.questions.length;
-    // progress bar
-    var pct = (qState.idx / total) * 100;
-    $$('#quizBar')[0].style.width = pct + '%';
-    $$('#quizCount')[0].textContent = 'Q ' + (qState.idx + 1) + ' / ' + total;
-    $$('#qNumBadge')[0].textContent = 'Q' + (qState.idx + 1);
-    $$('#quizQText')[0].textContent = q.q;
-    $$('#quizQBn')[0].textContent = q.qbn;
-    quizFeedback.style.display = 'none';
-    // score display
-    scoreDisplay.textContent = '✓ ' + qState.score + ' / ' + qState.idx;
-    // Build options
-    var optDiv = $$('#quizOptions')[0];
-    optDiv.innerHTML = '';
-    var letters = ['A', 'B', 'C', 'D'];
-    q.opts.forEach(function(opt, i) {
-      var btn = document.createElement('button');
-      btn.type = 'button';
-      btn.className = 'quiz-opt';
-      btn.innerHTML = '<span class="opt-letter">' + letters[i] + '</span><span>' + opt + '</span>';
-      btn.addEventListener('click', function() { selectAnswer(i, q); });
-      optDiv.appendChild(btn);
+    retry.addEventListener('click', function () {
+      answered = 0; correct = 0; boxes.forEach(function (x) { x._reset(); }); msg.hidden = true; retry.hidden = true; paint();
     });
-    qState.answered = false;
+    wrap.appendChild(foot); wrap.appendChild(msg); paint();
+    return wrap;
   }
-
-  function selectAnswer(chosen, q) {
-    if (qState.answered) return;
-    qState.answered = true;
-    var opts = $$('#quizOptions .quiz-opt');
-    opts.forEach(function(btn, i) {
-      btn.disabled = true;
-      if (i === q.ans) btn.classList.add(chosen === q.ans ? 'correct' : 'reveal-correct');
-      if (i === chosen && chosen !== q.ans) btn.classList.add('wrong');
-    });
-    var correct = (chosen === q.ans);
-    if (correct) qState.score++;
-    var fb = quizFeedback;
-    $$('#fbIcon')[0].textContent = correct ? '✅' : '❌';
-    var verd = $$('#fbVerdict')[0];
-    verd.textContent = correct ? '✔ সঠিক! Correct!' : '✘ ভুল! Incorrect.';
-    verd.className = 'fb-verdict ' + (correct ? 'ok' : 'no');
-    $$('#fbExplain')[0].textContent = q.exp;
-    $$('#fbExplainBn')[0].textContent = q.expbn;
-    var btnLbl = (qState.idx + 1 >= qState.questions.length) ? 'See Results →' : 'Next →';
-    btnNext.textContent = btnLbl;
-    fb.style.display = 'flex';
-    scoreDisplay.textContent = '✓ ' + qState.score + ' / ' + (qState.idx + 1);
-  }
-
-  function nextQuestion() {
-    qState.idx++;
-    if (qState.idx >= qState.questions.length) {
-      showResult();
-    } else {
-      renderQuestion();
-    }
-  }
-
-  function showResult() {
-    quizArea.hidden = true;
-    quizResult.style.display = 'block';
-    var total = qState.questions.length;
-    var s = qState.score;
-    var pct = Math.round((s / total) * 100);
-    var icon = pct >= 80 ? '🏆' : pct >= 60 ? '😊' : pct >= 40 ? '📚' : '💪';
-    var msgs = {
-      en: pct >= 80 ? 'Excellent! You\'ve mastered this material!' : pct >= 60 ? 'Good work! A bit more review and you\'ll ace it.' : pct >= 40 ? 'Keep studying! Review the explanations carefully.' : 'Don\'t give up! Read the explanations and try again.',
-      bn: pct >= 80 ? 'অসাধারণ! তুমি বিষয়টা আয়ত্ত করে ফেলেছ!' : pct >= 60 ? 'ভালো হয়েছে! আরেকটু পড়লেই পারফেক্ট হবে।' : pct >= 40 ? 'পড়তে থাকো! ব্যাখ্যাগুলো মনোযোগ দিয়ে পড়ো।' : 'হাল ছেড়ো না! ব্যাখ্যা পড়ে আবার চেষ্টা করো।'
-    };
-    $$('#resultIcon')[0].textContent = icon;
-    $$('#resultScore')[0].textContent = s + ' / ' + total;
-    $$('#resultMsg')[0].textContent = msgs.bn + ' ' + msgs.en;
-    var bd = $$('#resultBreakdown')[0];
-    bd.innerHTML = '<span class="rb-chip right">✓ Correct: ' + s + '</span>' +
-      '<span class="rb-chip wrong">✗ Wrong: ' + (total - s) + '</span>' +
-      '<span class="rb-chip pct">Score: ' + pct + '%</span>';
-  }
-  /* ══════════════════════════════════════════════════════════════════ */
-
+  Object.keys(MINIQ).forEach(function (id) {
+    var card = document.getElementById(id);
+    if (card) card.parentNode.insertBefore(buildMini(MINIQ[id]), card.nextSibling);
+  });
 })();
 
 </script>
