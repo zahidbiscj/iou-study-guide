@@ -406,6 +406,8 @@ h1, h2, h3, .q .qtext { text-wrap: balance; }
 .chooser-card:hover { transform: translateY(-2px); border-color: var(--brand-2); }
 .chooser-card b { display: block; font-size: 17px; color: var(--brand); }
 .chooser-card span { display: block; font-size: 14px; color: var(--muted); margin-top: 4px; }
+#bibs101 .qbody ol { list-style: none; padding-left: 0; }
+#bibs101 .qbody ol li { margin: 0 0 10px; padding-left: 12px; border-left: 3px solid var(--brand-soft); }
 </style>
 
 <div class="progress" id="progress"></div>
@@ -434,7 +436,7 @@ h1, h2, h3, .q .qtext { text-wrap: balance; }
         <div class="chooser-bn">কোন বিষয়টি পড়তে চাও?</div>
         <div class="chooser-cards">
           <a class="chooser-card" href="#subject-enes"><b>ENES 101 · English Language Studies</b><span>Study notes for this subject</span></a>
-          <a class="chooser-card" href="#subject-bibs"><b>BIBS 101 · Introduction to Business</b><span>Study notes for this subject</span></a>
+          <a class="chooser-card" href="#subject-bibs"><b>BIBS 101 · Introduction to Business</b><span>51 study questions, step-by-step answers &amp; quiz</span></a>
           <a class="chooser-card" href="#subject-isgs"><b>ISGS 101 · Islamic Studies 1</b><span>Assignment guide, 40-question midterm Q&amp;A</span></a>
           <a class="chooser-card" href="#subject-fpec"><b>FPEC 101 · Principles of Economics</b><span>Micro &amp; macro economics Q&amp;A</span></a>
         </div>
@@ -2368,7 +2370,7 @@ For every Economics answer: (1) Give a clear <b>definition</b>, (2) Draw a <b>di
 
 <!-- ==================== QUIZ SECTION ==================== -->
 </div>
-<div data-subject="isgs fpec">
+<div data-subject="isgs fpec bibs">
 <section id="quiz" class="section-wrap">
 <div class="section-hd">
   <span class="section-badge">📝 Quiz</span>
@@ -2380,6 +2382,7 @@ For every Economics answer: (1) Give a clear <b>definition</b>, (2) Draw a <b>di
   <div class="quiz-tabs">
     <button class="qtab active" data-set="isgs" type="button">🕌 ISGS 101</button>
     <button class="qtab" data-set="fpec" type="button">📊 FPEC 101</button>
+    <button class="qtab" data-set="bibs" type="button">💼 BIBS 101</button>
     <button class="qtab" data-set="all" type="button">🌐 All · সব</button>
   </div>
   <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
@@ -2422,7 +2425,687 @@ For every Economics answer: (1) Give a clear <b>definition</b>, (2) Draw a <b>di
 
 </div>
 <div data-subject="enes"><section class="part"><span class="part-label">ENES 101</span><h1 class="chapter">English Language Studies (ENES 101)</h1><p>Study notes for this subject are coming soon.</p><p class="bn-only">এই বিষয়ের স্টাডি নোট শীঘ্রই আসছে।</p></section></div>
-<div data-subject="bibs"><section class="part"><span class="part-label">BIBS 101</span><h1 class="chapter">Introduction to Business (BIBS 101)</h1><p>Study notes for this subject are coming soon.</p><p class="bn-only">এই বিষয়ের স্টাডি নোট শীঘ্রই আসছে।</p></section></div>
+<div data-subject="bibs">
+<section class="hero">
+  <div class="kicker">Introduction to Business · BIBS 101 · Units 1–15</div>
+  <h1>Learn it step by step</h1>
+  <div class="bn-title">ধাপে ধাপে, সহজ ইংরেজি ও বাংলায়</div>
+  <p>Your teacher-style notes for all 51 study questions. Every answer is explained step by step with a simple example, in English and Bangla. Then test yourself with the quiz.</p>
+  <p class="bn-only">৫১টি স্টাডি প্রশ্নের জন্য শিক্ষকের মতো করে লেখা নোট। প্রতিটি উত্তর সহজ উদাহরণসহ ধাপে ধাপে ইংরেজি ও বাংলায় ব্যাখ্যা করা। তারপর কুইজ দিয়ে নিজেকে যাচাই করো।</p>
+  <div class="cards">
+    <a class="card" href="#bibs101"><b>Study Questions</b><span>51 questions · Units 1–15 · step-by-step answers</span></a>
+    <a class="card" href="#s-quiz"><b>Self-Test Quiz</b><span>51 MCQs with explanations in English &amp; বাংলা</span></a>
+  </div>
+</section>
+
+<section id="bibs101" class="part">
+<span class="part-label">BIBS 101</span>
+<h1 class="chapter">Introduction to Business — Study Questions</h1>
+<div class="chapter-bn">ইন্ট্রোডাকশন টু বিজনেস — স্টাডি প্রশ্ন ও উত্তর (ইউনিট ১–১৫)</div>
+
+<div class="tip"><span class="head">How to study · কীভাবে পড়বে</span><br>
+Tap a question to open it. Read the <b>Concept</b> first (a simple picture), then follow the numbered <b>Steps</b> one by one. Tick "I have learned this" when you can explain it in your own words.<br>
+প্রশ্নে ট্যাপ করে খোলো। আগে <b>ধারণা</b> পড়ো (সহজ ছবি), তারপর নম্বর দেওয়া <b>ধাপগুলো</b> একে একে অনুসরণ করো। নিজের ভাষায় বোঝাতে পারলে "শিখে ফেলেছি" টিক দাও।</div>
+
+<div class="toolbar">
+  <input id="bSearch" type="search" placeholder="Search questions… / প্রশ্ন খুঁজুন…" aria-label="Search BIBS questions">
+  <button class="btn" id="bExpandAll" type="button">Expand all</button>
+  <button class="btn" id="bCollapseAll" type="button">Collapse all</button>
+  <button class="btn" id="bSelfTest" type="button" title="Hide answers so you can test yourself">Self-test</button>
+  <span class="counter" id="bLearnedCount"></span>
+  <button class="btn" id="bResetLearned" type="button" title="Clear learned marks">Reset</button>
+</div>
+<p class="empty" id="bEmptyMsg">No question matches your search. · কোনো প্রশ্ন মেলেনি।</p>
+
+<h2 class="unit-hd" id="bu1" data-short="Units 1 &amp; 2">Set 1 · Units 1 &amp; 2 — Business Basics<span class="bn">সেট ১ · ইউনিট ১ ও ২ — ব্যবসার মূল ধারণা</span></h2>
+<!-- BIBS 1.1 -->
+<div class="q" id="b1-1"><span class="num">1.1</span>Explain the concept of business<span class="bn">ব্যবসার ধারণা ব্যাখ্যা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> Picture a small tea stall. The owner buys tea, milk and sugar, makes tea, sells it to customers, and keeps the money that is left over. That whole cycle is a business.</p>
+<ol><li><b>Step 1 – Definition.</b> A business is an organization that provides goods or services to customers in exchange for money.</li><li><b>Step 2 – Why it exists.</b> People have needs and wants (food, clothes, transport, banking). A business exists to satisfy them.</li><li><b>Step 3 – How it earns.</b> Revenue (money coming in) minus costs (money going out) equals profit. A business tries to earn a profit so it can survive and grow.</li><li><b>Step 4 – Goods and services.</b> Goods are physical things you can touch (bread, a phone). Services are actions or experiences (a haircut, a bank loan).</li></ol>
+<p><b>Example:</b> A bakery sells goods; a bank sells services. Both are businesses.</p>
+<p><b>Remember:</b> Business = an organization + that provides goods or services + to satisfy customers + usually to earn a profit.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> একটা ছোট চায়ের দোকানের কথা ভাবো। মালিক চা-পাতা, দুধ, চিনি কেনে, চা বানায়, ক্রেতার কাছে বিক্রি করে এবং হাতে কিছু টাকা থাকে। এই পুরো চক্রটাই একটা ব্যবসা।</p>
+<ol><li><b>ধাপ ১ – সংজ্ঞা।</b> ব্যবসা হলো এমন একটি প্রতিষ্ঠান যা অর্থের বিনিময়ে ক্রেতাকে পণ্য (goods) বা সেবা (services) দেয়।</li><li><b>ধাপ ২ – কেন আছে।</b> মানুষের প্রয়োজন ও চাহিদা আছে (খাবার, পোশাক, যাতায়াত, ব্যাংকিং)। সেগুলো মেটাতেই ব্যবসা।</li><li><b>ধাপ ৩ – আয় কীভাবে।</b> রাজস্ব (revenue, যে টাকা আসে) থেকে খরচ (cost) বাদ দিলে থাকে মুনাফা (profit)। টিকে থাকতে ও বড় হতে ব্যবসা মুনাফা করতে চায়।</li><li><b>ধাপ ৪ – পণ্য ও সেবা।</b> পণ্য হলো ছোঁয়া যায় এমন জিনিস (রুটি, ফোন)। সেবা হলো কাজ বা অভিজ্ঞতা (চুল কাটা, ব্যাংক ঋণ)।</li></ol>
+<p><b>উদাহরণ:</b> বেকারি পণ্য বিক্রি করে; ব্যাংক সেবা বিক্রি করে। দুটোই ব্যবসা।</p>
+<p><b>মনে রাখো:</b> ব্যবসা = প্রতিষ্ঠান + পণ্য/সেবা দেয় + ক্রেতার চাহিদা মেটায় + সাধারণত মুনাফা করে।</p></div></div>
+
+<!-- BIBS 1.2 -->
+<div class="q" id="b1-2"><span class="num">1.2</span>Distinguish between for-profit and nonprofit businesses<span class="bn">মুনাফাভিত্তিক (for-profit) ও অলাভজনক (nonprofit) ব্যবসার পার্থক্য করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> Ask one question: "Where does the extra money go?" If it goes to the owners, it is for-profit. If it goes back into the mission, it is nonprofit.</p>
+<ol><li><b>Step 1 – For-profit.</b> Its main goal is to earn a profit for its owners. Profit is shared with owners or shareholders. Example: Walmart, a local shop.</li><li><b>Step 2 – Nonprofit.</b> Its main goal is a social mission (education, health, charity). Any surplus is used to run the mission, not paid to owners. Example: Red Cross, a public hospital run as a charity.</li><li><b>Step 3 – Compare.</b> Look at purpose, who gets the surplus, taxes and funding (table below).</li></ol>
+<table><thead><tr><th>Aspect</th><th>For-profit</th><th>Nonprofit</th></tr></thead><tbody><tr><td>Main goal</td><td>Earn profit</td><td>Serve a mission</td></tr><tr><td>Surplus goes to</td><td>Owners / shareholders</td><td>Back into the mission</td></tr><tr><td>Taxes</td><td>Pays income tax</td><td>Usually tax-exempt</td></tr><tr><td>Funding</td><td>Sales, investors</td><td>Donations, grants, fees</td></tr></tbody></table>
+<p><b>Remember:</b> Nonprofits CAN make a surplus — they just cannot hand it to owners.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> একটা প্রশ্ন করো: "বাড়তি টাকা কোথায় যায়?" মালিকের পকেটে গেলে for-profit; মিশনের কাজে ফিরে গেলে nonprofit।</p>
+<ol><li><b>ধাপ ১ – মুনাফাভিত্তিক।</b> মূল লক্ষ্য মালিকদের জন্য মুনাফা করা। মুনাফা মালিক বা শেয়ারহোল্ডারদের মধ্যে ভাগ হয়। উদাহরণ: ওয়ালমার্ট, স্থানীয় দোকান।</li><li><b>ধাপ ২ – অলাভজনক।</b> মূল লক্ষ্য সামাজিক উদ্দেশ্য (শিক্ষা, স্বাস্থ্য, দান)। উদ্বৃত্ত মিশন চালাতে খরচ হয়, মালিকদের দেওয়া হয় না। উদাহরণ: রেড ক্রস।</li><li><b>ধাপ ৩ – তুলনা।</b> উদ্দেশ্য, উদ্বৃত্ত কে পায়, কর ও অর্থায়ন দেখো (নিচের ছক)।</li></ol>
+<table><thead><tr><th>বিষয়</th><th>মুনাফাভিত্তিক</th><th>অলাভজনক</th></tr></thead><tbody><tr><td>মূল লক্ষ্য</td><td>মুনাফা করা</td><td>উদ্দেশ্য/সেবা</td></tr><tr><td>উদ্বৃত্ত যায়</td><td>মালিক/শেয়ারহোল্ডারের কাছে</td><td>মিশনের কাজে</td></tr><tr><td>কর</td><td>আয়কর দেয়</td><td>সাধারণত করমুক্ত</td></tr><tr><td>অর্থায়ন</td><td>বিক্রি, বিনিয়োগকারী</td><td>দান, অনুদান, ফি</td></tr></tbody></table>
+<p><b>মনে রাখো:</b> অলাভজনক প্রতিষ্ঠানও উদ্বৃত্ত করতে পারে — শুধু মালিকদের মধ্যে ভাগ করতে পারে না।</p></div></div>
+
+<!-- BIBS 1.3 -->
+<div class="q" id="b1-3"><span class="num">1.3</span>List and explain the four factors of production required to sustain a business<span class="bn">ব্যবসা টিকিয়ে রাখতে প্রয়োজনীয় উৎপাদনের চারটি উপাদান তালিকাভুক্ত করে ব্যাখ্যা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> Think of making pizza. You need a kitchen and ingredients, workers, an oven and tools, and someone with the idea and courage to start. These are the four factors of production.</p>
+<ol><li><b>Step 1 – Land (natural resources).</b> Everything nature gives: land, water, minerals, forests. Payment for it is called rent. Example: the shop's plot, flour from wheat.</li><li><b>Step 2 – Labor.</b> The physical and mental work of people. Payment is wages or salary. Example: the cook, the delivery rider.</li><li><b>Step 3 – Capital.</b> Man-made tools, machines, buildings and money used to produce. Payment is interest. Example: the oven, the delivery bike.</li><li><b>Step 4 – Entrepreneurship.</b> The person who combines the other three, takes the risk and starts the business. Reward is profit. Example: the owner who opens the pizza shop.</li></ol>
+<p><b>Remember:</b> Remember L-L-C-E: Land, Labor, Capital, Entrepreneurship — paid by rent, wages, interest, profit.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> পিৎজা বানানোর কথা ভাবো। লাগে রান্নাঘর ও কাঁচামাল, কর্মী, ওভেন-যন্ত্রপাতি, আর যে ব্যক্তি আইডিয়া ও সাহস নিয়ে শুরু করে। এগুলোই উৎপাদনের চারটি উপাদান।</p>
+<ol><li><b>ধাপ ১ – ভূমি (প্রাকৃতিক সম্পদ)।</b> প্রকৃতির দেওয়া সব কিছু: জমি, পানি, খনিজ, বন। এর পারিশ্রমিক খাজনা (rent)। উদাহরণ: দোকানের জমি, গম থেকে ময়দা।</li><li><b>ধাপ ২ – শ্রম (labor)।</b> মানুষের শারীরিক ও মানসিক কাজ। পারিশ্রমিক মজুরি/বেতন। উদাহরণ: রাঁধুনি, ডেলিভারি রাইডার।</li><li><b>ধাপ ৩ – মূলধন (capital)।</b> উৎপাদনে ব্যবহৃত মানুষের তৈরি যন্ত্র, ভবন, সরঞ্জাম ও অর্থ। পারিশ্রমিক সুদ (interest)। উদাহরণ: ওভেন, ডেলিভারি বাইক।</li><li><b>ধাপ ৪ – উদ্যোক্তা (entrepreneurship)।</b> যিনি বাকি তিনটিকে একত্র করেন, ঝুঁকি নেন ও ব্যবসা শুরু করেন। পুরস্কার মুনাফা। উদাহরণ: যিনি পিৎজার দোকান খোলেন।</li></ol>
+<p><b>মনে রাখো:</b> মনে রাখো: ভূমি, শ্রম, মূলধন, উদ্যোক্তা — পারিশ্রমিক: খাজনা, মজুরি, সুদ, মুনাফা।</p></div></div>
+
+<!-- BIBS 1.4 -->
+<div class="q" id="b1-4"><span class="num">1.4</span>Identify the primary functional areas within a business and describe their contribution to the organization<span class="bn">ব্যবসার প্রধান কার্যক্ষেত্রগুলো (functional areas) চিহ্নিত করো এবং প্রতিষ্ঠানে তাদের অবদান বর্ণনা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> A business is like a football team. Each player has a position, and the team wins only when all positions work together.</p>
+<ol><li><b>Step 1 – Management.</b> Sets goals, plans, organizes and leads people. It gives direction to the whole company.</li><li><b>Step 2 – Operations (production).</b> Turns inputs into goods or services and keeps quality high and costs low.</li><li><b>Step 3 – Marketing.</b> Finds out what customers want, then designs, prices, promotes and distributes the product (the 4 Ps).</li><li><b>Step 4 – Finance.</b> Raises money, budgets, invests and makes sure the business can pay its bills.</li><li><b>Step 5 – Accounting.</b> Records and reports money transactions (income statement, balance sheet) so managers can decide wisely.</li><li><b>Step 6 – Human Resources (HR).</b> Recruits, trains, pays and motivates employees. People are the company's most valuable asset.</li><li><b>Step 7 – Information Technology (IT).</b> Supplies the systems and data that keep every other area connected.</li></ol>
+<p><b>Example:</b> In a car company: operations builds the car, marketing advertises it, finance funds the factory, HR hires workers, accounting records sales.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> ব্যবসা একটা ফুটবল দলের মতো। প্রত্যেক খেলোয়াড়ের আলাদা পজিশন আছে; সবাই মিলে খেললেই দল জেতে।</p>
+<ol><li><b>ধাপ ১ – ম্যানেজমেন্ট।</b> লক্ষ্য ঠিক করে, পরিকল্পনা করে, সাজায় ও মানুষকে নেতৃত্ব দেয়। পুরো প্রতিষ্ঠানকে দিশা দেয়।</li><li><b>ধাপ ২ – অপারেশনস (উৎপাদন)।</b> ইনপুটকে পণ্য বা সেবায় রূপ দেয়; মান ভালো ও খরচ কম রাখে।</li><li><b>ধাপ ৩ – মার্কেটিং।</b> ক্রেতা কী চায় খুঁজে বের করে, তারপর পণ্য ডিজাইন, দাম নির্ধারণ, প্রচার ও বিতরণ করে (৪ P)।</li><li><b>ধাপ ৪ – ফাইন্যান্স।</b> টাকা সংগ্রহ করে, বাজেট করে, বিনিয়োগ করে এবং বিল পরিশোধের সামর্থ্য নিশ্চিত করে।</li><li><b>ধাপ ৫ – অ্যাকাউন্টিং।</b> টাকার লেনদেন লিখে রাখে ও রিপোর্ট দেয় (আয় বিবরণী, ব্যালেন্স শিট), যাতে ম্যানেজাররা সঠিক সিদ্ধান্ত নিতে পারেন।</li><li><b>ধাপ ৬ – মানবসম্পদ (HR)।</b> কর্মী নিয়োগ, প্রশিক্ষণ, বেতন ও অনুপ্রেরণার কাজ করে। মানুষই প্রতিষ্ঠানের সবচেয়ে মূল্যবান সম্পদ।</li><li><b>ধাপ ৭ – তথ্যপ্রযুক্তি (IT)।</b> অন্য সব বিভাগকে যুক্ত রাখার সিস্টেম ও ডেটা জোগায়।</li></ol>
+<p><b>উদাহরণ:</b> গাড়ি কোম্পানিতে: অপারেশনস গাড়ি বানায়, মার্কেটিং বিজ্ঞাপন দেয়, ফাইন্যান্স কারখানার অর্থ জোগায়, HR কর্মী নেয়, অ্যাকাউন্টিং বিক্রির হিসাব রাখে।</p></div></div>
+
+<!-- BIBS 1.5 -->
+<div class="q" id="b1-5"><span class="num">1.5</span>Identify business stakeholders and describe their relationship with business organizations<span class="bn">ব্যবসার স্টেকহোল্ডার চিহ্নিত করো এবং ব্যবসার সাথে তাদের সম্পর্ক বর্ণনা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> A stakeholder is anyone who is affected by the business or who can affect it. Think of everyone who "has a stake" in the shop's success.</p>
+<ol><li><b>Step 1 – Owners / shareholders.</b> They invest money and expect profit and growth in value.</li><li><b>Step 2 – Employees.</b> They give time and skill and expect fair pay, safety and respect.</li><li><b>Step 3 – Customers.</b> They buy the product and expect quality, fair prices and good service.</li><li><b>Step 4 – Suppliers.</b> They provide materials and expect on-time payment and steady orders.</li><li><b>Step 5 – Lenders / creditors.</b> Banks lend money and expect repayment with interest.</li><li><b>Step 6 – Government.</b> Collects taxes and sets laws; expects the business to obey them.</li><li><b>Step 7 – Community.</b> Hosts the business; expects jobs, safety and care for the environment.</li></ol>
+<p><b>Remember:</b> Stakeholders and the business depend on each other — a business that ignores them loses trust and eventually money.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> স্টেকহোল্ডার হলেন তিনি, যিনি ব্যবসার দ্বারা প্রভাবিত হন বা ব্যবসাকে প্রভাবিত করতে পারেন। দোকানের সাফল্যে যার "স্বার্থ" আছে, সবাই স্টেকহোল্ডার।</p>
+<ol><li><b>ধাপ ১ – মালিক/শেয়ারহোল্ডার।</b> টাকা বিনিয়োগ করেন; মুনাফা ও মূল্যবৃদ্ধি আশা করেন।</li><li><b>ধাপ ২ – কর্মচারী।</b> সময় ও দক্ষতা দেন; ন্যায্য বেতন, নিরাপত্তা ও সম্মান আশা করেন।</li><li><b>ধাপ ৩ – ক্রেতা।</b> পণ্য কেনেন; মান, ন্যায্য দাম ও ভালো সেবা আশা করেন।</li><li><b>ধাপ ৪ – সরবরাহকারী।</b> কাঁচামাল জোগান; সময়মতো পাওনা ও নিয়মিত অর্ডার আশা করেন।</li><li><b>ধাপ ৫ – ঋণদাতা।</b> ব্যাংক ঋণ দেয়; সুদসহ ফেরত আশা করে।</li><li><b>ধাপ ৬ – সরকার।</b> কর নেয় ও আইন তৈরি করে; ব্যবসা আইন মানবে আশা করে।</li><li><b>ধাপ ৭ – সম্প্রদায়/সমাজ।</b> ব্যবসাকে জায়গা দেয়; কর্মসংস্থান, নিরাপত্তা ও পরিবেশের যত্ন আশা করে।</li></ol>
+<p><b>মনে রাখো:</b> স্টেকহোল্ডার ও ব্যবসা একে অপরের ওপর নির্ভরশীল — তাদের উপেক্ষা করলে আস্থা ও শেষে টাকা হারায়।</p></div></div>
+
+<!-- BIBS 1.6 -->
+<div class="q" id="b1-6"><span class="num">1.6</span>Identify the external forces that shape the business environment<span class="bn">ব্যবসার পরিবেশকে গড়ে তোলে এমন বাহ্যিক শক্তিগুলো চিহ্নিত করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> Weather decides what clothes you wear, but you cannot control the weather. In the same way, external forces shape a business, but the business cannot control them.</p>
+<ol><li><b>Step 1 – Economic forces.</b> Inflation, interest rates, unemployment and the business cycle change how much customers can spend.</li><li><b>Step 2 – Political and legal forces.</b> Laws, taxes, regulations and government stability set the rules of the game.</li><li><b>Step 3 – Technological forces.</b> New technology (online shopping, automation, AI) creates opportunities and can make old products obsolete.</li><li><b>Step 4 – Social and cultural forces.</b> Tastes, lifestyles, population changes and values change what people buy.</li><li><b>Step 5 – Competitive forces.</b> Rival firms compete on price, quality and service.</li><li><b>Step 6 – Global forces.</b> International trade, exchange rates and foreign competitors.</li><li><b>Step 7 – Natural environment.</b> Climate, resource shortages and sustainability concerns.</li></ol>
+<p><b>Remember:</b> A good manager scans the environment regularly and adapts — this is called environmental scanning.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> আবহাওয়া ঠিক করে দেয় তুমি কী পরবে, কিন্তু আবহাওয়া তুমি নিয়ন্ত্রণ করতে পারো না। একইভাবে বাহ্যিক শক্তি ব্যবসাকে গড়ে, কিন্তু ব্যবসা তা নিয়ন্ত্রণ করতে পারে না।</p>
+<ol><li><b>ধাপ ১ – অর্থনৈতিক শক্তি।</b> মুদ্রাস্ফীতি, সুদের হার, বেকারত্ব ও ব্যবসা চক্র ক্রেতার খরচের সামর্থ্য বদলে দেয়।</li><li><b>ধাপ ২ – রাজনৈতিক ও আইনি শক্তি।</b> আইন, কর, বিধিবিধান ও সরকারের স্থিতিশীলতা খেলার নিয়ম ঠিক করে।</li><li><b>ধাপ ৩ – প্রযুক্তিগত শক্তি।</b> নতুন প্রযুক্তি (অনলাইন শপিং, অটোমেশন, AI) সুযোগ আনে এবং পুরোনো পণ্যকে অচল করতে পারে।</li><li><b>ধাপ ৪ – সামাজিক ও সাংস্কৃতিক শক্তি।</b> রুচি, জীবনযাত্রা, জনসংখ্যার পরিবর্তন ও মূল্যবোধ মানুষের কেনাকাটা বদলায়।</li><li><b>ধাপ ৫ – প্রতিযোগিতামূলক শক্তি।</b> প্রতিদ্বন্দ্বী প্রতিষ্ঠান দাম, মান ও সেবায় প্রতিযোগিতা করে।</li><li><b>ধাপ ৬ – বৈশ্বিক শক্তি।</b> আন্তর্জাতিক বাণিজ্য, বিনিময় হার ও বিদেশি প্রতিযোগী।</li><li><b>ধাপ ৭ – প্রাকৃতিক পরিবেশ।</b> জলবায়ু, সম্পদের ঘাটতি ও টেকসই উন্নয়নের উদ্বেগ।</li></ol>
+<p><b>মনে রাখো:</b> ভালো ম্যানেজার নিয়মিত পরিবেশ পর্যবেক্ষণ করেন ও মানিয়ে নেন — একে environmental scanning বলে।</p></div></div>
+
+<h2 class="unit-hd" id="bu2" data-short="Units 3 &amp; 4">Set 2 · Units 3 &amp; 4 — Economics<span class="bn">সেট ২ · ইউনিট ৩ ও ৪ — অর্থনীতি</span></h2>
+<!-- BIBS 2.1 -->
+<div class="q" id="b2-1"><span class="num">2.1</span>Explain what economics is and why it's important<span class="bn">অর্থনীতি (economics) কী এবং কেন গুরুত্বপূর্ণ তা ব্যাখ্যা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> You have 500 taka. You want a meal, a movie and a book, but you can afford only one. You must choose. Economics is the study of exactly this kind of choice.</p>
+<ol><li><b>Step 1 – Definition.</b> Economics is the study of how individuals, businesses and societies use scarce resources to satisfy unlimited wants.</li><li><b>Step 2 – Scarcity.</b> Resources (money, time, land, labor) are limited, but human wants are unlimited. This gap is called scarcity.</li><li><b>Step 3 – Choice and opportunity cost.</b> Because of scarcity we must choose. What we give up is the opportunity cost.</li><li><b>Step 4 – Two branches.</b> Microeconomics studies individual consumers and firms. Macroeconomics studies the whole economy (GDP, inflation, unemployment).</li><li><b>Step 5 – Why it matters.</b> It helps consumers spend wisely, businesses price and plan, and governments make policies for jobs and growth.</li></ol>
+<p><b>Example:</b> A factory owner who understands demand and costs can decide how many shirts to make and what price to charge.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> তোমার কাছে ৫০০ টাকা আছে। তুমি খাবার, সিনেমা ও একটা বই চাও, কিন্তু একটাই কিনতে পারবে। তোমাকে বেছে নিতে হবে। অর্থনীতি ঠিক এই ধরনের বেছে নেওয়ার বিজ্ঞান।</p>
+<ol><li><b>ধাপ ১ – সংজ্ঞা।</b> অর্থনীতি হলো ব্যক্তি, ব্যবসা ও সমাজ কীভাবে সীমিত সম্পদ দিয়ে অসীম চাহিদা মেটায় তার অধ্যয়ন।</li><li><b>ধাপ ২ – দুর্লভতা (scarcity)।</b> সম্পদ (টাকা, সময়, জমি, শ্রম) সীমিত, কিন্তু চাহিদা অসীম। এই ফাঁককে scarcity বলে।</li><li><b>ধাপ ৩ – পছন্দ ও সুযোগ ব্যয় (opportunity cost)।</b> দুর্লভতার কারণে বেছে নিতে হয়। যা ছেড়ে দিই, সেটাই সুযোগ ব্যয়।</li><li><b>ধাপ ৪ – দুই শাখা।</b> মাইক্রোইকোনমিক্স একক ক্রেতা ও প্রতিষ্ঠান নিয়ে; ম্যাক্রোইকোনমিক্স পুরো অর্থনীতি নিয়ে (GDP, মুদ্রাস্ফীতি, বেকারত্ব)।</li><li><b>ধাপ ৫ – কেন গুরুত্বপূর্ণ।</b> ক্রেতাকে বুদ্ধিমানের মতো খরচ করতে, ব্যবসাকে দাম ও পরিকল্পনা ঠিক করতে এবং সরকারকে কর্মসংস্থান ও প্রবৃদ্ধির নীতি নিতে সাহায্য করে।</li></ol>
+<p><b>উদাহরণ:</b> যে কারখানা মালিক চাহিদা ও খরচ বোঝেন, তিনি ঠিক করতে পারেন কয়টা শার্ট বানাবেন ও কত দামে বেচবেন।</p></div></div>
+
+<!-- BIBS 2.2 -->
+<div class="q" id="b2-2"><span class="num">2.2</span>Describe the difference between major different economic systems<span class="bn">প্রধান বিভিন্ন অর্থনৈতিক ব্যবস্থার পার্থক্য বর্ণনা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> Every country must answer three questions: What to produce? How to produce it? For whom? An economic system is the way a country answers them.</p>
+<ol><li><b>Step 1 – Traditional economy.</b> Decisions follow custom and habit; farming, hunting and barter. Example: some tribal communities.</li><li><b>Step 2 – Command (planned) economy.</b> The government owns resources and decides everything. Example: former Soviet Union, North Korea today.</li><li><b>Step 3 – Market economy (capitalism).</b> Private people own resources; prices, supply and demand decide. Government has a small role.</li><li><b>Step 4 – Mixed economy.</b> A blend: markets run most things, the government regulates and provides some services. Example: USA, Bangladesh, most countries today.</li></ol>
+<table><thead><tr><th>System</th><th>Who decides</th><th>Strength</th><th>Weakness</th></tr></thead><tbody><tr><td>Traditional</td><td>Custom</td><td>Stable</td><td>Slow change</td></tr><tr><td>Command</td><td>Government</td><td>Equal distribution</td><td>Low efficiency, little choice</td></tr><tr><td>Market</td><td>Consumers and firms</td><td>Efficient, innovative</td><td>Inequality</td></tr><tr><td>Mixed</td><td>Both</td><td>Balance</td><td>Needs good policy</td></tr></tbody></table></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> প্রতিটি দেশকে তিনটি প্রশ্নের উত্তর দিতে হয়: কী উৎপাদন হবে? কীভাবে উৎপাদন হবে? কার জন্য? অর্থনৈতিক ব্যবস্থা হলো দেশের এই উত্তর দেওয়ার পদ্ধতি।</p>
+<ol><li><b>ধাপ ১ – ঐতিহ্যগত অর্থনীতি।</b> রীতিনীতি ও অভ্যাস অনুযায়ী সিদ্ধান্ত; কৃষি, শিকার ও বিনিময় প্রথা। উদাহরণ: কিছু উপজাতীয় সম্প্রদায়।</li><li><b>ধাপ ২ – নির্দেশিত (পরিকল্পিত) অর্থনীতি।</b> সরকার সম্পদের মালিক এবং সব সিদ্ধান্ত নেয়। উদাহরণ: সাবেক সোভিয়েত ইউনিয়ন, বর্তমান উত্তর কোরিয়া।</li><li><b>ধাপ ৩ – বাজার অর্থনীতি (পুঁজিবাদ)।</b> সম্পদ ব্যক্তিমালিকানায়; দাম, চাহিদা ও জোগান সিদ্ধান্ত নেয়। সরকারের ভূমিকা কম।</li><li><b>ধাপ ৪ – মিশ্র অর্থনীতি।</b> দুইয়ের মিশ্রণ: বাজার বেশির ভাগ চালায়, সরকার নিয়ন্ত্রণ করে ও কিছু সেবা দেয়। উদাহরণ: যুক্তরাষ্ট্র, বাংলাদেশ, বর্তমানে অধিকাংশ দেশ।</li></ol>
+<table><thead><tr><th>ব্যবস্থা</th><th>কে সিদ্ধান্ত নেয়</th><th>শক্তি</th><th>দুর্বলতা</th></tr></thead><tbody><tr><td>ঐতিহ্যগত</td><td>রীতিনীতি</td><td>স্থিতিশীল</td><td>পরিবর্তন ধীর</td></tr><tr><td>নির্দেশিত</td><td>সরকার</td><td>সমান বণ্টন</td><td>অদক্ষতা, পছন্দ কম</td></tr><tr><td>বাজার</td><td>ক্রেতা ও প্রতিষ্ঠান</td><td>দক্ষ, উদ্ভাবনী</td><td>বৈষম্য</td></tr><tr><td>মিশ্র</td><td>দুটোই</td><td>ভারসাম্য</td><td>ভালো নীতি দরকার</td></tr></tbody></table></div></div>
+
+<!-- BIBS 2.3 -->
+<div class="q" id="b2-3"><span class="num">2.3</span>Explain the law of demand<span class="bn">চাহিদার সূত্র (law of demand) ব্যাখ্যা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> When mangoes are cheap in season you buy more; when they are expensive you buy fewer. That everyday habit is the law of demand.</p>
+<ol><li><b>Step 1 – Statement.</b> Other things being equal (ceteris paribus), when the price of a good rises, the quantity demanded falls; when the price falls, quantity demanded rises.</li><li><b>Step 2 – Inverse relationship.</b> Price and quantity demanded move in opposite directions, so the demand curve slopes downward.</li><li><b>Step 3 – Why.</b> (a) Substitution effect: buyers switch to cheaper alternatives. (b) Income effect: a higher price makes you feel poorer so you buy less.</li><li><b>Step 4 – Movement vs shift.</b> A change in price causes a movement along the curve. A change in income, tastes, population, or prices of related goods shifts the whole curve.</li></ol>
+<p><b>Example:</b> If a cup of tea rises from 10 to 20 taka, many people drink less tea or switch to water.</p>
+<p><b>Remember:</b> Demand = willingness AND ability to buy. Law of demand = higher price, lower quantity demanded.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> মৌসুমে আম সস্তা হলে বেশি কেনো, দাম বেশি হলে কম কেনো। এই দৈনন্দিন অভ্যাসই চাহিদার সূত্র।</p>
+<ol><li><b>ধাপ ১ – সূত্র।</b> অন্য সব কিছু স্থির থাকলে (ceteris paribus), কোনো পণ্যের দাম বাড়লে চাহিদার পরিমাণ কমে; দাম কমলে চাহিদার পরিমাণ বাড়ে।</li><li><b>ধাপ ২ – বিপরীত সম্পর্ক।</b> দাম ও চাহিদার পরিমাণ বিপরীত দিকে চলে, তাই চাহিদা রেখা ডানদিকে নিচের দিকে নামে।</li><li><b>ধাপ ৩ – কেন।</b> (ক) প্রতিস্থাপন প্রভাব: ক্রেতা সস্তা বিকল্পে যায়। (খ) আয় প্রভাব: দাম বাড়লে নিজেকে গরিব মনে হয়, তাই কম কেনে।</li><li><b>ধাপ ৪ – রেখা বরাবর সরণ বনাম রেখার স্থানান্তর।</b> দাম বদলালে রেখা বরাবর সরণ হয়। আয়, রুচি, জনসংখ্যা বা সম্পর্কিত পণ্যের দাম বদলালে পুরো রেখা সরে যায়।</li></ol>
+<p><b>উদাহরণ:</b> এক কাপ চা ১০ থেকে ২০ টাকা হলে অনেকে কম চা খাবে বা পানিতে যাবে।</p>
+<p><b>মনে রাখো:</b> চাহিদা = কেনার ইচ্ছা এবং সামর্থ্য। চাহিদার সূত্র = দাম বাড়লে চাহিদার পরিমাণ কমে।</p></div></div>
+
+<!-- BIBS 2.4 -->
+<div class="q" id="b2-4"><span class="num">2.4</span>Explain the law of supply<span class="bn">জোগানের সূত্র (law of supply) ব্যাখ্যা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> If a farmer hears that rice will sell for a much higher price, he will plant more rice. Sellers love higher prices because profit is higher.</p>
+<ol><li><b>Step 1 – Statement.</b> Other things being equal, when the price of a good rises, the quantity supplied rises; when the price falls, quantity supplied falls.</li><li><b>Step 2 – Direct relationship.</b> Price and quantity supplied move in the same direction, so the supply curve slopes upward.</li><li><b>Step 3 – Why.</b> A higher price means higher profit, so existing firms produce more and new firms enter the market.</li><li><b>Step 4 – What shifts supply.</b> Cost of inputs, technology, number of sellers, taxes/subsidies, and expectations. Cheaper inputs shift supply to the right (more supply).</li></ol>
+<p><b>Example:</b> If the price of a smartphone rises, factories make more phones because each phone brings more profit.</p>
+<p><b>Remember:</b> Law of demand = inverse (down-sloping). Law of supply = direct (up-sloping).</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> কৃষক যদি শোনে ধানের দাম অনেক বাড়বে, সে বেশি ধান লাগাবে। বিক্রেতারা বেশি দাম পছন্দ করে কারণ মুনাফা বাড়ে।</p>
+<ol><li><b>ধাপ ১ – সূত্র।</b> অন্য সব কিছু স্থির থাকলে, কোনো পণ্যের দাম বাড়লে জোগানের পরিমাণ বাড়ে; দাম কমলে জোগানের পরিমাণ কমে।</li><li><b>ধাপ ২ – সমমুখী সম্পর্ক।</b> দাম ও জোগানের পরিমাণ একই দিকে চলে, তাই জোগান রেখা ঊর্ধ্বমুখী।</li><li><b>ধাপ ৩ – কেন।</b> বেশি দাম মানে বেশি মুনাফা, তাই বিদ্যমান প্রতিষ্ঠান বেশি উৎপাদন করে এবং নতুন প্রতিষ্ঠান বাজারে ঢোকে।</li><li><b>ধাপ ৪ – জোগান কী সরায়।</b> কাঁচামালের খরচ, প্রযুক্তি, বিক্রেতার সংখ্যা, কর/ভর্তুকি ও ভবিষ্যৎ প্রত্যাশা। কাঁচামাল সস্তা হলে জোগান রেখা ডানে সরে (জোগান বাড়ে)।</li></ol>
+<p><b>উদাহরণ:</b> স্মার্টফোনের দাম বাড়লে কারখানা বেশি ফোন বানায়, কারণ প্রতিটি ফোনে মুনাফা বেশি।</p>
+<p><b>মনে রাখো:</b> চাহিদার সূত্র = বিপরীত (নিম্নমুখী)। জোগানের সূত্র = সমমুখী (ঊর্ধ্বমুখী)।</p></div></div>
+
+<!-- BIBS 2.5 -->
+<div class="q" id="b2-5"><span class="num">2.5</span>Explain market equilibrium, surplus, and shortage<span class="bn">বাজার ভারসাম্য (equilibrium), উদ্বৃত্ত (surplus) ও ঘাটতি (shortage) ব্যাখ্যা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> Imagine a vegetable market at the end of the day. If the seller asks too much, vegetables are left over. If he asks too little, they sell out fast. Prices keep adjusting until buyers and sellers agree.</p>
+<ol><li><b>Step 1 – Equilibrium.</b> The point where the demand curve and supply curve meet. At the equilibrium price, quantity demanded equals quantity supplied. No pressure for change.</li><li><b>Step 2 – Surplus (excess supply).</b> If the price is ABOVE equilibrium, sellers want to sell more than buyers want to buy. Unsold goods pile up, so the price falls back toward equilibrium.</li><li><b>Step 3 – Shortage (excess demand).</b> If the price is BELOW equilibrium, buyers want more than sellers offer. Goods run out, so the price rises toward equilibrium.</li><li><b>Step 4 – Market self-corrects.</b> Surpluses push prices down and shortages push prices up until the market clears.</li></ol>
+<p><b>Example:</b> Equilibrium price of a shirt = 800 taka. At 1,000 taka there is a surplus; at 500 taka there is a shortage.</p>
+<p><b>Remember:</b> Price too high = surplus. Price too low = shortage. Equilibrium = Qd = Qs.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> দিনের শেষে একটা সবজির বাজারের কথা ভাবো। বিক্রেতা বেশি দাম চাইলে সবজি অবিক্রীত থাকে; কম দাম চাইলে দ্রুত শেষ হয়ে যায়। ক্রেতা-বিক্রেতা রাজি না হওয়া পর্যন্ত দাম বদলাতে থাকে।</p>
+<ol><li><b>ধাপ ১ – ভারসাম্য।</b> চাহিদা রেখা ও জোগান রেখা যেখানে মেলে। ভারসাম্য দামে চাহিদার পরিমাণ = জোগানের পরিমাণ। বদলের কোনো চাপ থাকে না।</li><li><b>ধাপ ২ – উদ্বৃত্ত (surplus)।</b> দাম ভারসাম্যের ওপরে হলে বিক্রেতা যত বেচতে চায়, ক্রেতা তত কিনতে চায় না। অবিক্রীত পণ্য জমে, তাই দাম নেমে ভারসাম্যের দিকে যায়।</li><li><b>ধাপ ৩ – ঘাটতি (shortage)।</b> দাম ভারসাম্যের নিচে হলে ক্রেতা বেশি চায়, বিক্রেতা কম দেয়। পণ্য ফুরিয়ে যায়, তাই দাম বেড়ে ভারসাম্যের দিকে যায়।</li><li><b>ধাপ ৪ – বাজার নিজেই ঠিক করে।</b> উদ্বৃত্ত দাম কমায়, ঘাটতি দাম বাড়ায়, যতক্ষণ না বাজার পরিষ্কার হয়।</li></ol>
+<p><b>উদাহরণ:</b> শার্টের ভারসাম্য দাম ৮০০ টাকা। ১,০০০ টাকায় উদ্বৃত্ত; ৫০০ টাকায় ঘাটতি।</p>
+<p><b>মনে রাখো:</b> দাম বেশি = উদ্বৃত্ত। দাম কম = ঘাটতি। ভারসাম্য = Qd = Qs।</p></div></div>
+
+<!-- BIBS 2.6 -->
+<div class="q" id="b2-6"><span class="num">2.6</span>Describe how economists evaluate the health of an economy<span class="bn">অর্থনীতিবিদরা কীভাবে অর্থনীতির স্বাস্থ্য মূল্যায়ন করেন তা বর্ণনা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> A doctor checks your health with temperature, blood pressure and pulse. Economists check an economy with a few key indicators.</p>
+<ol><li><b>Step 1 – Gross Domestic Product (GDP).</b> The total value of all final goods and services produced inside a country in a year. Rising GDP means the economy is growing.</li><li><b>Step 2 – Unemployment rate.</b> The percentage of people who are willing and able to work but cannot find a job. Lower is healthier.</li><li><b>Step 3 – Inflation.</b> A general rise in prices over time, measured by the Consumer Price Index (CPI). Moderate, stable inflation is healthy; high inflation hurts buying power.</li><li><b>Step 4 – Other signs.</b> Interest rates, consumer confidence, trade balance and productivity.</li><li><b>Step 5 – Read together.</b> A healthy economy has growing GDP, low unemployment and low, stable inflation.</li></ol>
+<p><b>Example:</b> If GDP grows 5%, unemployment is 4% and inflation is 2%, the economy looks healthy.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> ডাক্তার তাপমাত্রা, রক্তচাপ ও নাড়ি দেখে স্বাস্থ্য বোঝেন। অর্থনীতিবিদরা কয়েকটি মূল সূচক দেখে অর্থনীতি বোঝেন।</p>
+<ol><li><b>ধাপ ১ – মোট দেশজ উৎপাদন (GDP)।</b> এক বছরে দেশের ভেতরে উৎপাদিত সব চূড়ান্ত পণ্য ও সেবার মোট মূল্য। GDP বাড়া মানে অর্থনীতি বাড়ছে।</li><li><b>ধাপ ২ – বেকারত্বের হার।</b> যারা কাজ করতে ইচ্ছুক ও সক্ষম কিন্তু কাজ পাচ্ছে না তাদের শতকরা হার। কম হলে ভালো।</li><li><b>ধাপ ৩ – মুদ্রাস্ফীতি।</b> সময়ের সাথে দামের সাধারণ বৃদ্ধি, মাপা হয় ভোক্তা মূল্য সূচক (CPI) দিয়ে। মাঝারি ও স্থিতিশীল মুদ্রাস্ফীতি ভালো; বেশি হলে ক্রয়ক্ষমতা কমে।</li><li><b>ধাপ ৪ – অন্যান্য ইঙ্গিত।</b> সুদের হার, ভোক্তার আস্থা, বাণিজ্য ভারসাম্য ও উৎপাদনশীলতা।</li><li><b>ধাপ ৫ – একসাথে পড়ো।</b> সুস্থ অর্থনীতিতে GDP বাড়ে, বেকারত্ব কম থাকে এবং মুদ্রাস্ফীতি কম ও স্থিতিশীল থাকে।</li></ol>
+<p><b>উদাহরণ:</b> GDP ৫% বাড়ে, বেকারত্ব ৪% ও মুদ্রাস্ফীতি ২% হলে অর্থনীতিকে সুস্থ বলা যায়।</p></div></div>
+
+<!-- BIBS 2.7 -->
+<div class="q" id="b2-7"><span class="num">2.7</span>Identify and explain the four stages of an economy (expansion, peak, contraction, and trough), and describe their impact on business operations<span class="bn">অর্থনীতির চারটি পর্যায় (সম্প্রসারণ, শীর্ষ, সংকোচন, তলানি) চিহ্নিত ও ব্যাখ্যা করো এবং ব্যবসার কার্যক্রমে তাদের প্রভাব বর্ণনা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> The economy moves like ocean waves — up, over the top, down, then bottom — and then up again. This repeating wave is called the business cycle.</p>
+<ol><li><b>Step 1 – Expansion.</b> GDP grows, jobs increase, people spend more. Impact on business: higher sales, hiring, investment and expansion.</li><li><b>Step 2 – Peak.</b> The highest point of the cycle. Growth slows, prices and costs rise, and capacity is fully used. Impact: businesses earn the most but costs and inflation begin to squeeze profit.</li><li><b>Step 3 – Contraction (recession).</b> GDP falls, unemployment rises, spending drops. Impact: falling sales, layoffs, cut budgets, postponed investment.</li><li><b>Step 4 – Trough.</b> The lowest point before recovery begins. Impact: very low demand, but also lower costs and the start of a recovery — smart businesses prepare to grow.</li><li><b>Step 5 – Repeat.</b> After the trough a new expansion starts.</li></ol>
+<p><b>Remember:</b> Order: Expansion → Peak → Contraction → Trough. A long, deep contraction is a depression.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> অর্থনীতি সমুদ্রের ঢেউয়ের মতো চলে — উঠে, চূড়ায় গিয়ে, নেমে, তলায় পৌঁছে আবার ওঠে। এই বারবার ঘটা ঢেউকে ব্যবসা চক্র (business cycle) বলে।</p>
+<ol><li><b>ধাপ ১ – সম্প্রসারণ (expansion)।</b> GDP বাড়ে, চাকরি বাড়ে, মানুষ বেশি খরচ করে। ব্যবসায় প্রভাব: বিক্রি, নিয়োগ, বিনিয়োগ ও সম্প্রসারণ বাড়ে।</li><li><b>ধাপ ২ – শীর্ষ (peak)।</b> চক্রের সর্বোচ্চ বিন্দু। প্রবৃদ্ধি ধীর হয়, দাম ও খরচ বাড়ে, সক্ষমতা পুরো ব্যবহার হয়। প্রভাব: ব্যবসা সর্বোচ্চ আয় করে, কিন্তু খরচ ও মুদ্রাস্ফীতি মুনাফায় চাপ দিতে শুরু করে।</li><li><b>ধাপ ৩ – সংকোচন (contraction/recession)।</b> GDP কমে, বেকারত্ব বাড়ে, খরচ কমে। প্রভাব: বিক্রি কমে, ছাঁটাই হয়, বাজেট কাটা হয়, বিনিয়োগ পিছিয়ে যায়।</li><li><b>ধাপ ৪ – তলানি (trough)।</b> পুনরুদ্ধারের আগের সর্বনিম্ন বিন্দু। প্রভাব: চাহিদা খুব কম, কিন্তু খরচও কম এবং পুনরুদ্ধারের শুরু — বুদ্ধিমান ব্যবসা বাড়ার প্রস্তুতি নেয়।</li><li><b>ধাপ ৫ – আবার শুরু।</b> তলানির পরে নতুন সম্প্রসারণ শুরু হয়।</li></ol>
+<p><b>মনে রাখো:</b> ক্রম: সম্প্রসারণ → শীর্ষ → সংকোচন → তলানি। দীর্ঘ ও গভীর সংকোচনকে মহামন্দা (depression) বলে।</p></div></div>
+
+<h2 class="unit-hd" id="bu3" data-short="Units 5 &amp; 6">Set 3 · Units 5 &amp; 6 — Global Business<span class="bn">সেট ৩ · ইউনিট ৫ ও ৬ — বৈশ্বিক ব্যবসা</span></h2>
+<!-- BIBS 3.1 -->
+<div class="q" id="b3-1"><span class="num">3.1</span>Explain why nations and U.S. firms engage in global business<span class="bn">কেন দেশগুলো এবং মার্কিন প্রতিষ্ঠানগুলো বৈশ্বিক ব্যবসায় জড়ায় তা ব্যাখ্যা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> No family grows everything it needs. You buy rice from a farmer and he buys clothes from a tailor. Countries and companies do the same across borders.</p>
+<ol><li><b>Step 1 – Nations: no country has everything.</b> Climate, land and resources differ, so countries trade for what they lack.</li><li><b>Step 2 – Nations: specialization.</b> Countries produce what they make best and cheapest (comparative advantage), then trade. Everyone gets more goods at lower prices.</li><li><b>Step 3 – Nations: higher living standard.</b> More choice, lower prices, more jobs in export industries.</li><li><b>Step 4 – Firms: new customers.</b> The home market may be saturated; 95% of the world's consumers live outside the U.S.</li><li><b>Step 5 – Firms: lower costs and resources.</b> Cheaper labor, materials or production sites abroad.</li><li><b>Step 6 – Firms: spread risk and compete.</b> Selling in many countries reduces dependence on one economy and helps meet foreign competitors on their ground.</li></ol>
+<p><b>Example:</b> Apple designs in the U.S., buys parts and assembles in other countries, and sells worldwide.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> কোনো পরিবার নিজের সব প্রয়োজনীয় জিনিস নিজে ফলায় না। তুমি কৃষকের কাছ থেকে চাল কেনো, সে দর্জির কাছ থেকে কাপড় কেনে। দেশ ও কোম্পানিও সীমানা পেরিয়ে একই কাজ করে।</p>
+<ol><li><b>ধাপ ১ – দেশ: সবকিছু কোনো দেশেই নেই।</b> জলবায়ু, জমি ও সম্পদ আলাদা, তাই যা নেই তা পেতে দেশগুলো বাণিজ্য করে।</li><li><b>ধাপ ২ – দেশ: বিশেষায়ন।</b> যে জিনিস সবচেয়ে ভালো ও সস্তায় বানাতে পারে (তুলনামূলক সুবিধা), দেশ তাই বানায় ও বাণিজ্য করে। সবাই কম দামে বেশি পণ্য পায়।</li><li><b>ধাপ ৩ – দেশ: জীবনযাত্রার মান উন্নতি।</b> বেশি পছন্দ, কম দাম, রপ্তানি শিল্পে বেশি কর্মসংস্থান।</li><li><b>ধাপ ৪ – প্রতিষ্ঠান: নতুন ক্রেতা।</b> নিজের দেশের বাজার ভরে যেতে পারে; বিশ্বের প্রায় ৯৫% ক্রেতা যুক্তরাষ্ট্রের বাইরে থাকে।</li><li><b>ধাপ ৫ – প্রতিষ্ঠান: কম খরচ ও সম্পদ।</b> বিদেশে সস্তা শ্রম, কাঁচামাল বা উৎপাদনের স্থান।</li><li><b>ধাপ ৬ – প্রতিষ্ঠান: ঝুঁকি ছড়ানো ও প্রতিযোগিতা।</b> অনেক দেশে বিক্রি করলে একটি অর্থনীতির ওপর নির্ভরতা কমে এবং বিদেশি প্রতিযোগীদের মোকাবিলা করা যায়।</li></ol>
+<p><b>উদাহরণ:</b> অ্যাপল যুক্তরাষ্ট্রে ডিজাইন করে, অন্য দেশে যন্ত্রাংশ কেনে ও জোড়া দেয় এবং বিশ্বজুড়ে বিক্রি করে।</p></div></div>
+
+<!-- BIBS 3.2 -->
+<div class="q" id="b3-2"><span class="num">3.2</span>Describe how nations measure global trade<span class="bn">দেশগুলো কীভাবে বৈশ্বিক বাণিজ্য পরিমাপ করে তা বর্ণনা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> Think of a family budget. Money spent on outside goods is a cost; money earned from selling to outsiders is income. A nation keeps a similar scorecard for trade.</p>
+<ol><li><b>Step 1 – Exports.</b> Goods and services a country SELLS to other countries. Money flows in.</li><li><b>Step 2 – Imports.</b> Goods and services a country BUYS from other countries. Money flows out.</li><li><b>Step 3 – Balance of trade.</b> Exports minus imports (of goods). If exports are greater, it is a trade surplus; if imports are greater, a trade deficit.</li><li><b>Step 4 – Balance of payments.</b> The record of ALL money coming in and going out of a country — trade, investments, loans, aid and tourism.</li><li><b>Step 5 – Interpret.</b> A persistent deficit means the country is paying out more than it earns abroad and may need to borrow.</li></ol>
+<p><b>Example:</b> Exports 300 − Imports 500 = −200 → trade deficit of 200.</p>
+<p><b>Remember:</b> Balance of trade = Exports − Imports. Balance of payments = the full picture of money flows.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> পারিবারিক বাজেটের কথা ভাবো। বাইরের জিনিস কিনতে যে টাকা যায় তা খরচ; বাইরের লোকের কাছে বেচে যা আসে তা আয়। দেশও বাণিজ্যের জন্য এমন একটা স্কোরকার্ড রাখে।</p>
+<ol><li><b>ধাপ ১ – রপ্তানি (exports)।</b> যে পণ্য ও সেবা দেশ অন্য দেশে বিক্রি করে। টাকা ঢোকে।</li><li><b>ধাপ ২ – আমদানি (imports)।</b> যে পণ্য ও সেবা দেশ অন্য দেশ থেকে কেনে। টাকা বেরোয়।</li><li><b>ধাপ ৩ – বাণিজ্য ভারসাম্য।</b> রপ্তানি − আমদানি (পণ্যের)। রপ্তানি বেশি হলে বাণিজ্য উদ্বৃত্ত; আমদানি বেশি হলে বাণিজ্য ঘাটতি।</li><li><b>ধাপ ৪ – লেনদেন ভারসাম্য (balance of payments)।</b> দেশে ঢোকা ও বেরোনো সব টাকার হিসাব — বাণিজ্য, বিনিয়োগ, ঋণ, সাহায্য ও পর্যটন।</li><li><b>ধাপ ৫ – ব্যাখ্যা।</b> দীর্ঘস্থায়ী ঘাটতি মানে দেশ বিদেশে আয়ের চেয়ে বেশি খরচ করছে এবং ধার করতে হতে পারে।</li></ol>
+<p><b>উদাহরণ:</b> রপ্তানি ৩০০ − আমদানি ৫০০ = −২০০ → ২০০ বাণিজ্য ঘাটতি।</p>
+<p><b>মনে রাখো:</b> বাণিজ্য ভারসাম্য = রপ্তানি − আমদানি। লেনদেন ভারসাম্য = সব অর্থপ্রবাহের পূর্ণ চিত্র।</p></div></div>
+
+<!-- BIBS 3.3 -->
+<div class="q" id="b3-3"><span class="num">3.3</span>Evaluate common strategies used to reach global markets<span class="bn">বৈশ্বিক বাজারে পৌঁছানোর প্রচলিত কৌশলগুলো মূল্যায়ন করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> Think of stepping into a river. You can dip a toe (low risk), wade in, or dive fully (high risk but high reward). Companies choose how deeply to enter a foreign market.</p>
+<ol><li><b>Step 1 – Exporting.</b> Selling goods made at home to foreign buyers. Lowest risk and cost, but less control and transport costs.</li><li><b>Step 2 – Licensing.</b> Allowing a foreign firm to make/sell your product or use your brand for a fee. Low investment, but you may lose control and create a competitor.</li><li><b>Step 3 – Franchising.</b> A form of licensing where the whole business model is sold (e.g., McDonald's). Fast expansion; quality can vary.</li><li><b>Step 4 – Contract manufacturing / outsourcing.</b> A foreign company makes your product to your specifications. Lower cost, but dependence on the partner.</li><li><b>Step 5 – Joint venture / strategic alliance.</b> Two firms share ownership, costs and risk in a foreign project. Local knowledge, shared risk; shared control and possible conflict.</li><li><b>Step 6 – Foreign direct investment (FDI).</b> Building or buying your own factory or subsidiary abroad. Highest control and profit potential, but highest cost and risk.</li></ol>
+<p><b>Remember:</b> Moving from exporting to FDI: more commitment, more control, more risk.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> নদীতে নামার কথা ভাবো। আঙুল ডোবাতে পারো (কম ঝুঁকি), হেঁটে নামতে পারো, বা পুরো ঝাঁপ দিতে পারো (বেশি ঝুঁকি কিন্তু বেশি লাভ)। কোম্পানি ঠিক করে বিদেশি বাজারে কতটা গভীরে ঢুকবে।</p>
+<ol><li><b>ধাপ ১ – রপ্তানি।</b> দেশে বানানো পণ্য বিদেশি ক্রেতাকে বিক্রি। সবচেয়ে কম ঝুঁকি ও খরচ, কিন্তু নিয়ন্ত্রণ কম ও পরিবহন খরচ আছে।</li><li><b>ধাপ ২ – লাইসেন্সিং।</b> ফির বিনিময়ে বিদেশি প্রতিষ্ঠানকে পণ্য বানাতে/বিক্রি করতে বা ব্র্যান্ড ব্যবহার করতে দেওয়া। বিনিয়োগ কম, কিন্তু নিয়ন্ত্রণ হারাতে ও প্রতিযোগী তৈরি হতে পারে।</li><li><b>ধাপ ৩ – ফ্র্যাঞ্চাইজিং।</b> লাইসেন্সিংয়ের একটি রূপ যেখানে পুরো ব্যবসার মডেলই বিক্রি হয় (যেমন ম্যাকডোনাল্ডস)। দ্রুত সম্প্রসারণ; মানে তারতম্য হতে পারে।</li><li><b>ধাপ ৪ – চুক্তিভিত্তিক উৎপাদন/আউটসোর্সিং।</b> বিদেশি কোম্পানি আপনার নির্দেশনা অনুযায়ী পণ্য বানায়। খরচ কম, কিন্তু অংশীদারের ওপর নির্ভরতা।</li><li><b>ধাপ ৫ – যৌথ উদ্যোগ/কৌশলগত জোট।</b> বিদেশি প্রকল্পে দুই প্রতিষ্ঠান মালিকানা, খরচ ও ঝুঁকি ভাগ করে। স্থানীয় জ্ঞান ও ঝুঁকি ভাগ; নিয়ন্ত্রণও ভাগ হয় ও মতবিরোধ হতে পারে।</li><li><b>ধাপ ৬ – সরাসরি বিদেশি বিনিয়োগ (FDI)।</b> বিদেশে নিজস্ব কারখানা বা সাবসিডিয়ারি গড়া বা কেনা। সর্বোচ্চ নিয়ন্ত্রণ ও মুনাফার সম্ভাবনা, কিন্তু সর্বোচ্চ খরচ ও ঝুঁকি।</li></ol>
+<p><b>মনে রাখো:</b> রপ্তানি থেকে FDI-র দিকে গেলে: বেশি প্রতিশ্রুতি, বেশি নিয়ন্ত্রণ, বেশি ঝুঁকি।</p></div></div>
+
+<!-- BIBS 3.4 -->
+<div class="q" id="b3-4"><span class="num">3.4</span>Identify and describe forces that affect global trade<span class="bn">বৈশ্বিক বাণিজ্যকে প্রভাবিত করে এমন শক্তিগুলো চিহ্নিত ও বর্ণনা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> When you travel abroad you notice different language, money, rules and customs. Those differences are the forces that make global trade more complex than local trade.</p>
+<ol><li><b>Step 1 – Sociocultural forces.</b> Language, religion, customs and values. A product or advertisement that works at home may offend or fail abroad.</li><li><b>Step 2 – Economic forces.</b> Income levels, infrastructure and exchange rates. A strong home currency makes exports expensive and imports cheap.</li><li><b>Step 3 – Political and legal forces.</b> Laws, stability and trade barriers: tariffs (taxes on imports), quotas (limits on quantity), embargoes (total bans) and subsidies (government help to local firms).</li><li><b>Step 4 – Technological forces.</b> Internet and logistics make trade faster; weak technology in a country can block trade.</li><li><b>Step 5 – Why it matters.</b> Firms must adapt products, prices, promotion and legal paperwork for each market.</li></ol>
+<p><b>Example:</b> A tariff of 25% on imported steel makes foreign steel costlier and protects local producers.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> বিদেশে গেলে ভাষা, মুদ্রা, নিয়ম ও রীতি আলাদা মনে হয়। এই পার্থক্যগুলোই বৈশ্বিক বাণিজ্যকে স্থানীয় বাণিজ্যের চেয়ে জটিল করে তোলে।</p>
+<ol><li><b>ধাপ ১ – সামাজিক-সাংস্কৃতিক শক্তি।</b> ভাষা, ধর্ম, রীতিনীতি ও মূল্যবোধ। দেশে চলা পণ্য বা বিজ্ঞাপন বিদেশে আপত্তিকর বা ব্যর্থ হতে পারে।</li><li><b>ধাপ ২ – অর্থনৈতিক শক্তি।</b> আয়ের স্তর, অবকাঠামো ও বিনিময় হার। নিজ মুদ্রা শক্তিশালী হলে রপ্তানি ব্যয়বহুল ও আমদানি সস্তা হয়।</li><li><b>ধাপ ৩ – রাজনৈতিক ও আইনি শক্তি।</b> আইন, স্থিতিশীলতা ও বাণিজ্য বাধা: শুল্ক (tariff, আমদানির ওপর কর), কোটা (পরিমাণের সীমা), নিষেধাজ্ঞা (embargo, সম্পূর্ণ নিষেধ) ও ভর্তুকি (স্থানীয় প্রতিষ্ঠানকে সরকারি সহায়তা)।</li><li><b>ধাপ ৪ – প্রযুক্তিগত শক্তি।</b> ইন্টারনেট ও লজিস্টিকস বাণিজ্যকে দ্রুত করে; দুর্বল প্রযুক্তি বাণিজ্যে বাধা হতে পারে।</li><li><b>ধাপ ৫ – কেন গুরুত্বপূর্ণ।</b> প্রতিটি বাজারের জন্য পণ্য, দাম, প্রচার ও আইনি কাগজপত্র মানিয়ে নিতে হয়।</li></ol>
+<p><b>উদাহরণ:</b> আমদানি করা ইস্পাতে ২৫% শুল্ক বিদেশি ইস্পাত ব্যয়বহুল করে ও স্থানীয় উৎপাদককে রক্ষা করে।</p></div></div>
+
+<!-- BIBS 3.5 -->
+<div class="q" id="b3-5"><span class="num">3.5</span>Describe global trade agreements and economic organizations that regulate and promote global trade<span class="bn">বৈশ্বিক বাণিজ্য নিয়ন্ত্রণ ও উৎসাহিত করে এমন বাণিজ্য চুক্তি ও অর্থনৈতিক সংগঠনগুলো বর্ণনা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> Trade between countries needs referees and rulebooks, just like a football match. Agreements are the rulebooks; organizations are the referees.</p>
+<ol><li><b>Step 1 – World Trade Organization (WTO).</b> Sets and enforces global trade rules, settles disputes between countries and promotes fair, open trade among its 160+ members.</li><li><b>Step 2 – International Monetary Fund (IMF).</b> Promotes global monetary stability and lends to countries with serious financial problems.</li><li><b>Step 3 – World Bank.</b> Gives loans and grants for development projects (roads, schools, power) in poorer countries.</li><li><b>Step 4 – Regional trade agreements.</b> Groups of countries cut barriers among themselves. Example: USMCA (U.S.–Mexico–Canada, replaced NAFTA in 2020); the European Union (EU) with a single market and the euro; ASEAN in Southeast Asia.</li><li><b>Step 5 – Levels of integration.</b> Free-trade area (no tariffs among members) → customs union (common outside tariff) → common market (free movement of labor and capital) → economic union (shared currency/policies).</li></ol>
+<p><b>Remember:</b> WTO = rules and disputes; IMF = monetary stability; World Bank = development loans.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> ফুটবল ম্যাচের মতো দেশে দেশে বাণিজ্যেও রেফারি ও নিয়মের বই দরকার। চুক্তি হলো নিয়মের বই; সংগঠন হলো রেফারি।</p>
+<ol><li><b>ধাপ ১ – বিশ্ব বাণিজ্য সংস্থা (WTO)।</b> বৈশ্বিক বাণিজ্যের নিয়ম তৈরি ও কার্যকর করে, দেশগুলোর বিরোধ মেটায় এবং ১৬০+ সদস্যের মধ্যে ন্যায্য ও উন্মুক্ত বাণিজ্য উৎসাহিত করে।</li><li><b>ধাপ ২ – আন্তর্জাতিক মুদ্রা তহবিল (IMF)।</b> বৈশ্বিক আর্থিক স্থিতিশীলতা বজায় রাখে এবং গুরুতর আর্থিক সংকটে থাকা দেশকে ঋণ দেয়।</li><li><b>ধাপ ৩ – বিশ্বব্যাংক।</b> দরিদ্র দেশে উন্নয়ন প্রকল্পে (সড়ক, স্কুল, বিদ্যুৎ) ঋণ ও অনুদান দেয়।</li><li><b>ধাপ ৪ – আঞ্চলিক বাণিজ্য চুক্তি।</b> কয়েকটি দেশ নিজেদের মধ্যে বাধা কমায়। উদাহরণ: USMCA (যুক্তরাষ্ট্র–মেক্সিকো–কানাডা, ২০২০ সালে NAFTA-র জায়গা নেয়); ইউরোপীয় ইউনিয়ন (EU) — একক বাজার ও ইউরো; দক্ষিণ-পূর্ব এশিয়ার ASEAN।</li><li><b>ধাপ ৫ – সংহতির স্তর।</b> মুক্ত বাণিজ্য এলাকা (সদস্যদের মধ্যে শুল্ক নেই) → শুল্ক ইউনিয়ন (বাইরের জন্য অভিন্ন শুল্ক) → অভিন্ন বাজার (শ্রম ও মূলধনের মুক্ত চলাচল) → অর্থনৈতিক ইউনিয়ন (অভিন্ন মুদ্রা/নীতি)।</li></ol>
+<p><b>মনে রাখো:</b> WTO = নিয়ম ও বিরোধ নিষ্পত্তি; IMF = আর্থিক স্থিতিশীলতা; বিশ্বব্যাংক = উন্নয়ন ঋণ।</p></div></div>
+
+<!-- BIBS 3.6 -->
+<div class="q" id="b3-6"><span class="num">3.6</span>Describe ethical challenges that businesses face in a global environment<span class="bn">বৈশ্বিক পরিবেশে ব্যবসা যে নৈতিক চ্যালেঞ্জের মুখোমুখি হয় তা বর্ণনা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> Rules and customs differ from country to country. What is normal in one place may be illegal or wrong in another. Global companies must decide which standard to follow.</p>
+<ol><li><b>Step 1 – Bribery and corruption.</b> In some places paying officials is "normal", but it is illegal under the U.S. Foreign Corrupt Practices Act (FCPA) and unethical everywhere.</li><li><b>Step 2 – Labor conditions.</b> Low wages, unsafe factories and child labor in overseas suppliers (sweatshops).</li><li><b>Step 3 – Environmental standards.</b> Some countries have weak pollution laws; firms may be tempted to pollute abroad.</li><li><b>Step 4 – Human rights and local culture.</b> Doing business with regimes that abuse rights, or ignoring local customs and values.</li><li><b>Step 5 – Intellectual property and product safety.</b> Piracy, counterfeit goods, and selling abroad products banned at home (dumping).</li><li><b>Step 6 – What to do.</b> Adopt one global code of ethics, audit suppliers, train employees and follow the stricter standard.</li></ol>
+<p><b>Remember:</b> Rule of thumb: follow the higher standard — "when in Rome" does not excuse unethical behavior.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> দেশে দেশে নিয়ম ও রীতি আলাদা। এক জায়গায় যা স্বাভাবিক, অন্য জায়গায় তা বেআইনি বা অন্যায় হতে পারে। বৈশ্বিক কোম্পানিকে ঠিক করতে হয় কোন মান মানবে।</p>
+<ol><li><b>ধাপ ১ – ঘুষ ও দুর্নীতি।</b> কিছু জায়গায় কর্মকর্তাকে টাকা দেওয়া "স্বাভাবিক", কিন্তু মার্কিন Foreign Corrupt Practices Act (FCPA) অনুযায়ী তা বেআইনি এবং সর্বত্রই অনৈতিক।</li><li><b>ধাপ ২ – শ্রমের অবস্থা।</b> বিদেশি সরবরাহকারীর কারখানায় কম মজুরি, অনিরাপদ পরিবেশ ও শিশুশ্রম (sweatshop)।</li><li><b>ধাপ ৩ – পরিবেশগত মান।</b> কিছু দেশে দূষণ আইন দুর্বল; প্রতিষ্ঠান বিদেশে দূষণ ঘটাতে প্রলুব্ধ হতে পারে।</li><li><b>ধাপ ৪ – মানবাধিকার ও স্থানীয় সংস্কৃতি।</b> অধিকার লঙ্ঘনকারী শাসকের সাথে ব্যবসা, বা স্থানীয় রীতি ও মূল্যবোধ উপেক্ষা।</li><li><b>ধাপ ৫ – মেধাস্বত্ব ও পণ্য নিরাপত্তা।</b> পাইরেসি, নকল পণ্য এবং দেশে নিষিদ্ধ পণ্য বিদেশে বিক্রি (dumping)।</li><li><b>ধাপ ৬ – কী করণীয়।</b> একটি বৈশ্বিক নৈতিক আচরণবিধি গ্রহণ, সরবরাহকারী অডিট, কর্মীদের প্রশিক্ষণ এবং কঠোরতর মান অনুসরণ।</li></ol>
+<p><b>মনে রাখো:</b> নিয়ম: উচ্চতর মান অনুসরণ করো — "যেখানে যেমন" অনৈতিক আচরণের অজুহাত হতে পারে না।</p></div></div>
+
+<h2 class="unit-hd" id="bu4" data-short="Unit 7">Set 4 · Unit 7 — Money &amp; Banking<span class="bn">সেট ৪ · ইউনিট ৭ — অর্থ ও ব্যাংকিং</span></h2>
+<!-- BIBS 4.1 -->
+<div class="q" id="b4-1"><span class="num">4.1</span>Explain what money is and what makes it useful<span class="bn">অর্থ (money) কী এবং কী একে উপযোগী করে তা ব্যাখ্যা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> Imagine a world without money. A farmer with rice wants shoes, but the shoemaker wants fish, not rice. Money solves this problem because everybody accepts it.</p>
+<ol><li><b>Step 1 – Definition.</b> Money is anything generally accepted as payment for goods, services and debts.</li><li><b>Step 2 – Medium of exchange.</b> You can sell your work for money and use that money to buy anything. No need to find someone who wants exactly what you have (the problem of barter).</li><li><b>Step 3 – Store of value.</b> Money keeps its value over time, so you can save today and spend tomorrow.</li><li><b>Step 4 – Unit of account.</b> Money gives a common measure of price, so we can compare things: a shirt is 800 taka and a book is 400 taka.</li><li><b>Step 5 – Characteristics of good money.</b> Acceptable, durable, portable, divisible (small change) and limited in supply (scarce) and stable in value.</li></ol>
+<p><b>Example:</b> Today money includes cash, bank deposits and digital payments.</p>
+<p><b>Remember:</b> Three functions: medium of exchange, store of value, unit of account.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> টাকা ছাড়া একটা জগতের কথা ভাবো। কৃষকের কাছে চাল আছে, সে জুতো চায়; কিন্তু মুচি চাল চায় না, মাছ চায়। টাকা এই সমস্যার সমাধান করে, কারণ সবাই তা গ্রহণ করে।</p>
+<ol><li><b>ধাপ ১ – সংজ্ঞা।</b> পণ্য, সেবা ও ঋণ পরিশোধে সর্বজনগ্রাহ্য যেকোনো কিছুই অর্থ।</li><li><b>ধাপ ২ – বিনিময়ের মাধ্যম।</b> তুমি শ্রম বেচে টাকা পাও আর সেই টাকায় যেকোনো কিছু কেনো। তোমার জিনিস কে চায় তা খুঁজতে হয় না (পণ্য বিনিময়ের সমস্যা দূর)।</li><li><b>ধাপ ৩ – মূল্য সংরক্ষণ।</b> টাকা সময়ের সাথে মূল্য ধরে রাখে, তাই আজ জমিয়ে কাল খরচ করা যায়।</li><li><b>ধাপ ৪ – হিসাবের একক।</b> টাকা দামের সাধারণ মাপকাঠি দেয়, তাই তুলনা করা যায়: শার্ট ৮০০ টাকা, বই ৪০০ টাকা।</li><li><b>ধাপ ৫ – ভালো অর্থের বৈশিষ্ট্য।</b> গ্রহণযোগ্য, টেকসই, বহনযোগ্য, ভাঙানো যায় এমন (খুচরা), সীমিত জোগান (দুর্লভ) এবং স্থিতিশীল মূল্য।</li></ol>
+<p><b>উদাহরণ:</b> আজকের অর্থের মধ্যে আছে নগদ টাকা, ব্যাংক জমা ও ডিজিটাল পেমেন্ট।</p>
+<p><b>মনে রাখো:</b> তিন কাজ: বিনিময়ের মাধ্যম, মূল্য সংরক্ষণ, হিসাবের একক।</p></div></div>
+
+<!-- BIBS 4.2 -->
+<div class="q" id="b4-2"><span class="num">4.2</span>Explain the role of banks in the U.S. monetary system<span class="bn">মার্কিন আর্থিক ব্যবস্থায় ব্যাংকের ভূমিকা ব্যাখ্যা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> A bank is a bridge between people who have extra money (savers) and people who need money (borrowers). Above all the banks stands the central bank, the Federal Reserve ("the Fed").</p>
+<ol><li><b>Step 1 – Accept deposits.</b> Banks keep savings safely; deposits are insured by the FDIC (up to $250,000 per depositor).</li><li><b>Step 2 – Make loans.</b> Banks lend deposits to individuals and businesses and earn interest. This puts money to work in the economy.</li><li><b>Step 3 – Create money.</b> Under fractional reserve banking, banks keep only a fraction of deposits as reserves and lend the rest. Loans become new deposits, so the money supply grows.</li><li><b>Step 4 – Provide payment services.</b> Checks, cards, transfers and online banking make payments smooth.</li><li><b>Step 5 – The Federal Reserve.</b> The U.S. central bank controls the money supply and interest rates using tools: reserve requirements, the discount rate and open market operations (buying/selling government bonds). It also supervises banks and acts as the "lender of last resort".</li></ol>
+<p><b>Remember:</b> Banks = deposits + loans + payments. Fed = controls money supply and interest rates.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> ব্যাংক হলো সেই সেতু যা বাড়তি টাকাওয়ালা মানুষ (সঞ্চয়কারী) ও টাকার প্রয়োজনে থাকা মানুষের (ঋণগ্রহীতা) মাঝে যোগ ঘটায়। সব ব্যাংকের ওপরে আছে কেন্দ্রীয় ব্যাংক — ফেডারেল রিজার্ভ ("ফেড")।</p>
+<ol><li><b>ধাপ ১ – আমানত গ্রহণ।</b> ব্যাংক সঞ্চয় নিরাপদে রাখে; আমানত FDIC দ্বারা বিমাকৃত (প্রতি আমানতকারী ২,৫০,০০০ ডলার পর্যন্ত)।</li><li><b>ধাপ ২ – ঋণ দেওয়া।</b> ব্যাংক আমানত থেকে ব্যক্তি ও ব্যবসাকে ঋণ দেয় ও সুদ আয় করে। এতে টাকা অর্থনীতিতে কাজ করে।</li><li><b>ধাপ ৩ – অর্থ সৃষ্টি।</b> আংশিক রিজার্ভ ব্যাংকিংয়ে ব্যাংক আমানতের একটি অংশ রিজার্ভ রাখে, বাকি ঋণ দেয়। ঋণ আবার নতুন আমানত হয়, ফলে অর্থের জোগান বাড়ে।</li><li><b>ধাপ ৪ – পেমেন্ট সেবা।</b> চেক, কার্ড, ট্রান্সফার ও অনলাইন ব্যাংকিং লেনদেন সহজ করে।</li><li><b>ধাপ ৫ – ফেডারেল রিজার্ভ।</b> যুক্তরাষ্ট্রের কেন্দ্রীয় ব্যাংক; রিজার্ভ প্রয়োজনীয়তা, ডিসকাউন্ট রেট ও ওপেন মার্কেট অপারেশন (সরকারি বন্ড কেনা-বেচা) দিয়ে অর্থের জোগান ও সুদের হার নিয়ন্ত্রণ করে। ব্যাংকও তদারকি করে এবং "শেষ আশ্রয়ের ঋণদাতা" হিসেবে কাজ করে।</li></ol>
+<p><b>মনে রাখো:</b> ব্যাংক = আমানত + ঋণ + পেমেন্ট। ফেড = অর্থের জোগান ও সুদের হার নিয়ন্ত্রণ।</p></div></div>
+
+<!-- BIBS 4.3 -->
+<div class="q" id="b4-3"><span class="num">4.3</span>Describe common ways in which businesses obtain financial capital (money) to fund operations<span class="bn">ব্যবসা কীভাবে কার্যক্রমের জন্য আর্থিক মূলধন (টাকা) সংগ্রহ করে তার প্রচলিত উপায়গুলো বর্ণনা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> When you need money you can borrow it (and must repay) or you can give a share of the business to someone (and share profits). Businesses have the same two choices: debt and equity.</p>
+<ol><li><b>Step 1 – Debt financing (borrowed money).</b> The business must repay with interest. Sources: bank loans, lines of credit, bonds, trade credit from suppliers, credit cards.</li><li><b>Step 2 – Equity financing (owners' money).</b> No repayment, but owners share profit and control. Sources: owners' own savings, selling stock to investors, angel investors, venture capital, crowdfunding.</li><li><b>Step 3 – Retained earnings.</b> Profits the business keeps and reinvests instead of paying out. Cheapest source because there is no interest or new owner.</li><li><b>Step 4 – Short-term vs long-term.</b> Use short-term sources (credit lines, trade credit) for day-to-day needs; long-term sources (bonds, stock) for buying equipment or expansion.</li><li><b>Step 5 – Compare.</b> Debt keeps ownership but adds fixed payments and risk; equity has no repayment but dilutes control.</li></ol>
+<p><b>Remember:</b> Debt = borrow and repay with interest. Equity = sell ownership. Retained earnings = reinvest profit.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> টাকা দরকার হলে ধার নিতে পারো (শোধ করতে হবে) অথবা ব্যবসার একটি অংশ কাউকে দিতে পারো (মুনাফা ভাগ হবে)। ব্যবসারও দুটো পথ: ঋণ (debt) ও ইক্যুইটি (equity)।</p>
+<ol><li><b>ধাপ ১ – ঋণ অর্থায়ন।</b> সুদসহ ফেরত দিতে হয়। উৎস: ব্যাংক ঋণ, ক্রেডিট লাইন, বন্ড, সরবরাহকারীর বাকি (trade credit), ক্রেডিট কার্ড।</li><li><b>ধাপ ২ – ইক্যুইটি অর্থায়ন (মালিকের টাকা)।</b> ফেরত দিতে হয় না, কিন্তু মালিকরা মুনাফা ও নিয়ন্ত্রণ ভাগ করে। উৎস: মালিকের নিজের সঞ্চয়, বিনিয়োগকারীদের কাছে স্টক বিক্রি, এঞ্জেল বিনিয়োগকারী, ভেঞ্চার ক্যাপিটাল, ক্রাউডফান্ডিং।</li><li><b>ধাপ ৩ – সংরক্ষিত আয় (retained earnings)।</b> মুনাফা ভাগ না করে ব্যবসায় আবার বিনিয়োগ। সবচেয়ে সস্তা উৎস কারণ সুদ বা নতুন মালিক নেই।</li><li><b>ধাপ ৪ – স্বল্পমেয়াদি বনাম দীর্ঘমেয়াদি।</b> প্রতিদিনের প্রয়োজনে স্বল্পমেয়াদি (ক্রেডিট লাইন, বাকি); যন্ত্রপাতি কেনা বা সম্প্রসারণে দীর্ঘমেয়াদি (বন্ড, স্টক)।</li><li><b>ধাপ ৫ – তুলনা।</b> ঋণে মালিকানা থাকে কিন্তু স্থির কিস্তি ও ঝুঁকি বাড়ে; ইক্যুইটিতে শোধ নেই কিন্তু নিয়ন্ত্রণ ভাগ হয়।</li></ol>
+<p><b>মনে রাখো:</b> ঋণ = ধার নিয়ে সুদসহ শোধ। ইক্যুইটি = মালিকানা বিক্রি। সংরক্ষিত আয় = মুনাফা পুনর্বিনিয়োগ।</p></div></div>
+
+<h2 class="unit-hd" id="bu5" data-short="Unit 8">Set 5 · Unit 8 — Business Law<span class="bn">সেট ৫ · ইউনিট ৮ — ব্যবসায়িক আইন</span></h2>
+<!-- BIBS 5.1 -->
+<div class="q" id="b5-1"><span class="num">5.1</span>Explain the meaning and purpose of law<span class="bn">আইনের অর্থ ও উদ্দেশ্য ব্যাখ্যা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> Imagine a football match with no rules and no referee. It would be chaos. Society is the same without law.</p>
+<ol><li><b>Step 1 – Meaning.</b> Law is the set of rules made by government and enforced by courts and police that everyone in society must obey.</li><li><b>Step 2 – Purpose 1: keep order.</b> Laws prevent harmful behavior such as theft and fraud.</li><li><b>Step 3 – Purpose 2: protect rights.</b> Laws protect people's property, safety and freedoms, including those of consumers and employees.</li><li><b>Step 4 – Purpose 3: settle disputes.</b> Courts use law to resolve conflicts peacefully (for example, a contract dispute).</li><li><b>Step 5 – Purpose 4: predictability and fairness.</b> Businesses know the rules before they invest, and everyone is treated equally.</li></ol>
+<p><b>Example:</b> A law requiring accurate food labels protects customers and gives honest firms a fair chance.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> নিয়ম ও রেফারি ছাড়া একটা ফুটবল ম্যাচের কথা ভাবো। সব এলোমেলো হয়ে যাবে। আইন ছাড়া সমাজও তাই।</p>
+<ol><li><b>ধাপ ১ – অর্থ।</b> আইন হলো সরকারের তৈরি ও আদালত-পুলিশের দ্বারা কার্যকর করা নিয়মের সমষ্টি, যা সমাজের সবাইকে মানতে হয়।</li><li><b>ধাপ ২ – উদ্দেশ্য ১: শৃঙ্খলা রক্ষা।</b> আইন চুরি ও প্রতারণার মতো ক্ষতিকর আচরণ ঠেকায়।</li><li><b>ধাপ ৩ – উদ্দেশ্য ২: অধিকার রক্ষা।</b> আইন মানুষের সম্পত্তি, নিরাপত্তা ও স্বাধীনতা (ক্রেতা ও কর্মচারীসহ) রক্ষা করে।</li><li><b>ধাপ ৪ – উদ্দেশ্য ৩: বিরোধ নিষ্পত্তি।</b> আদালত আইন দিয়ে শান্তিপূর্ণভাবে বিরোধ মেটায় (যেমন চুক্তি বিরোধ)।</li><li><b>ধাপ ৫ – উদ্দেশ্য ৪: পূর্বানুমান ও ন্যায্যতা।</b> বিনিয়োগের আগেই ব্যবসা নিয়ম জানতে পারে এবং সবাই সমান আচরণ পায়।</li></ol>
+<p><b>উদাহরণ:</b> খাবারের লেবেল সঠিক রাখার আইন ক্রেতাকে রক্ষা করে এবং সৎ প্রতিষ্ঠানকে ন্যায্য সুযোগ দেয়।</p></div></div>
+
+<!-- BIBS 5.2 -->
+<div class="q" id="b5-2"><span class="num">5.2</span>Differentiate between statutory and common law<span class="bn">স্ট্যাচুটরি আইন (statutory law) ও কমন ল (common law)-এর মধ্যে পার্থক্য করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> Think of "written rule" versus "past decisions". One is a rulebook passed by lawmakers; the other is built from judges' earlier rulings.</p>
+<ol><li><b>Step 1 – Statutory law.</b> Written laws passed by a legislature (Congress or a state legislature). Example: the Sherman Antitrust Act.</li><li><b>Step 2 – Common law.</b> Law developed by judges through court decisions. Judges follow earlier decisions (precedent) in similar cases — the principle of stare decisis.</li><li><b>Step 3 – Interaction.</b> Statutes can override common law, and courts interpret statutes.</li><li><b>Step 4 – Also know.</b> Administrative law is made by government agencies (e.g., the FTC) under authority from statutes.</li></ol>
+<table><thead><tr><th>Aspect</th><th>Statutory law</th><th>Common law</th></tr></thead><tbody><tr><td>Made by</td><td>Legislature</td><td>Judges (courts)</td></tr><tr><td>Form</td><td>Written code</td><td>Court decisions / precedent</td></tr><tr><td>Changes</td><td>By passing a new law</td><td>Case by case over time</td></tr><tr><td>Example</td><td>Consumer protection act</td><td>Rules on negligence</td></tr></tbody></table></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> "লিখিত নিয়ম" বনাম "আগের রায়" ভাবো। একটি আইনপ্রণেতাদের পাস করা নিয়মের বই; অন্যটি বিচারকদের আগের রায় থেকে গড়ে ওঠে।</p>
+<ol><li><b>ধাপ ১ – স্ট্যাচুটরি আইন।</b> আইনসভা (কংগ্রেস বা রাজ্য আইনসভা) কর্তৃক পাস করা লিখিত আইন। উদাহরণ: শারম্যান অ্যান্টিট্রাস্ট অ্যাক্ট।</li><li><b>ধাপ ২ – কমন ল।</b> আদালতের রায়ের মাধ্যমে বিচারকদের গড়ে তোলা আইন। একই ধরনের মামলায় বিচারক আগের রায় (precedent) অনুসরণ করেন — stare decisis নীতি।</li><li><b>ধাপ ৩ – পারস্পরিক সম্পর্ক।</b> স্ট্যাচুট কমন ল-কে বাতিল করতে পারে, আর আদালত স্ট্যাচুট ব্যাখ্যা করে।</li><li><b>ধাপ ৪ – আরও জানো।</b> প্রশাসনিক আইন সরকারি সংস্থা (যেমন FTC) স্ট্যাচুটের ক্ষমতাবলে তৈরি করে।</li></ol>
+<table><thead><tr><th>বিষয়</th><th>স্ট্যাচুটরি আইন</th><th>কমন ল</th></tr></thead><tbody><tr><td>কে তৈরি করে</td><td>আইনসভা</td><td>বিচারক (আদালত)</td></tr><tr><td>রূপ</td><td>লিখিত বিধি</td><td>আদালতের রায়/নজির</td></tr><tr><td>পরিবর্তন</td><td>নতুন আইন পাস করে</td><td>সময়ের সাথে মামলা ধরে</td></tr><tr><td>উদাহরণ</td><td>ভোক্তা সুরক্ষা আইন</td><td>অবহেলা (negligence) সংক্রান্ত নিয়ম</td></tr></tbody></table></div></div>
+
+<!-- BIBS 5.3 -->
+<div class="q" id="b5-3"><span class="num">5.3</span>Define tort law, and explain the role of product liability in tort law<span class="bn">টর্ট আইন (tort law) সংজ্ঞায়িত করো এবং টর্ট আইনে পণ্য দায়বদ্ধতার (product liability) ভূমিকা ব্যাখ্যা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> If a delivery truck damages your shop, you can sue the company even though there was no contract. That is tort law.</p>
+<ol><li><b>Step 1 – Definition.</b> A tort is a civil wrong (not a crime) that causes harm to another person, for which the injured person can seek compensation (damages).</li><li><b>Step 2 – Types of tort.</b> Intentional torts (e.g., defamation, fraud), negligence (failure to take reasonable care) and strict liability (liable even without fault).</li><li><b>Step 3 – Product liability.</b> A branch of tort law that holds manufacturers, distributors and sellers responsible for injuries caused by defective or unsafe products.</li><li><b>Step 4 – Three kinds of defect.</b> Manufacturing defect (made wrongly), design defect (unsafe design) and failure to warn (missing warning/instructions).</li><li><b>Step 5 – Role.</b> It protects consumers, pushes companies to make safe products and lets victims claim compensation.</li></ol>
+<p><b>Example:</b> A ladder with a faulty rung breaks and injures a user — the maker may be liable.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> ডেলিভারি ট্রাক তোমার দোকানে ক্ষতি করলে কোনো চুক্তি না থাকলেও তুমি কোম্পানির বিরুদ্ধে মামলা করতে পারো। এটাই টর্ট আইন।</p>
+<ol><li><b>ধাপ ১ – সংজ্ঞা।</b> টর্ট হলো দেওয়ানি অন্যায় (অপরাধ নয়) যা অন্যের ক্ষতি করে এবং ক্ষতিগ্রস্ত ব্যক্তি ক্ষতিপূরণ (damages) চাইতে পারে।</li><li><b>ধাপ ২ – টর্টের ধরন।</b> ইচ্ছাকৃত টর্ট (যেমন মানহানি, প্রতারণা), অবহেলা (যুক্তিসঙ্গত যত্ন না নেওয়া) এবং কঠোর দায় (দোষ না থাকলেও দায়ী)।</li><li><b>ধাপ ৩ – পণ্য দায়বদ্ধতা।</b> টর্ট আইনের একটি শাখা, যেখানে ত্রুটিপূর্ণ বা অনিরাপদ পণ্যের কারণে হওয়া ক্ষতির জন্য উৎপাদক, পরিবেশক ও বিক্রেতাকে দায়ী করা হয়।</li><li><b>ধাপ ৪ – ত্রুটির তিন ধরন।</b> উৎপাদন ত্রুটি (ভুলভাবে তৈরি), নকশা ত্রুটি (অনিরাপদ নকশা) এবং সতর্কতা না দেওয়া (সতর্কবার্তা/নির্দেশনা নেই)।</li><li><b>ধাপ ৫ – ভূমিকা।</b> ক্রেতাকে রক্ষা করে, কোম্পানিকে নিরাপদ পণ্য বানাতে বাধ্য করে এবং ক্ষতিগ্রস্তকে ক্ষতিপূরণ চাওয়ার সুযোগ দেয়।</li></ol>
+<p><b>উদাহরণ:</b> ত্রুটিপূর্ণ ধাপওয়ালা মই ভেঙে ব্যবহারকারী আহত হলে প্রস্তুতকারক দায়ী হতে পারে।</p></div></div>
+
+<!-- BIBS 5.4 -->
+<div class="q" id="b5-4"><span class="num">5.4</span>Explain the purpose and characteristics of intellectual property law<span class="bn">মেধাস্বত্ব আইনের (intellectual property law) উদ্দেশ্য ও বৈশিষ্ট্য ব্যাখ্যা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> If you write a song, it is yours just like a house you built. Intellectual property (IP) protects creations of the mind.</p>
+<ol><li><b>Step 1 – Purpose.</b> To encourage creativity and innovation by giving creators exclusive rights for a period, so others cannot copy their work for free.</li><li><b>Step 2 – Patents.</b> Protect inventions. The inventor gets exclusive rights, generally for 20 years from filing (utility patent).</li><li><b>Step 3 – Copyrights.</b> Protect original works of authorship (books, music, films, software). Usually the author's life plus 70 years.</li><li><b>Step 4 – Trademarks.</b> Protect brand names, logos and slogans that identify a business. Can last forever if renewed and used.</li><li><b>Step 5 – Trade secrets.</b> Protect confidential business information (like a secret recipe) as long as it stays secret.</li><li><b>Step 6 – Infringement.</b> Using IP without permission is infringement; the owner can sue for damages.</li></ol>
+<p><b>Remember:</b> Patent = invention. Copyright = creative work. Trademark = brand identity. Trade secret = confidential know-how.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> তুমি একটা গান লিখলে সেটা তোমার সম্পত্তি, যেমন নিজের বানানো বাড়ি। মেধাস্বত্ব (IP) মনের সৃষ্টিকে রক্ষা করে।</p>
+<ol><li><b>ধাপ ১ – উদ্দেশ্য।</b> সৃষ্টিকর্তাকে নির্দিষ্ট সময়ের জন্য একচেটিয়া অধিকার দিয়ে সৃজনশীলতা ও উদ্ভাবনকে উৎসাহিত করা, যাতে অন্যরা বিনা মূল্যে নকল করতে না পারে।</li><li><b>ধাপ ২ – পেটেন্ট।</b> আবিষ্কার রক্ষা করে। আবিষ্কারক সাধারণত আবেদনের তারিখ থেকে ২০ বছর একচেটিয়া অধিকার পান (utility patent)।</li><li><b>ধাপ ৩ – কপিরাইট।</b> মৌলিক রচনা (বই, গান, চলচ্চিত্র, সফটওয়্যার) রক্ষা করে। সাধারণত লেখকের জীবদ্দশা + ৭০ বছর।</li><li><b>ধাপ ৪ – ট্রেডমার্ক।</b> ব্যবসাকে চিহ্নিত করা ব্র্যান্ডের নাম, লোগো ও স্লোগান রক্ষা করে। নবায়ন ও ব্যবহার করলে চিরকাল থাকতে পারে।</li><li><b>ধাপ ৫ – ট্রেড সিক্রেট।</b> গোপন ব্যবসায়িক তথ্য (যেমন গোপন রেসিপি) যতদিন গোপন থাকে ততদিন রক্ষা করে।</li><li><b>ধাপ ৬ – লঙ্ঘন।</b> অনুমতি ছাড়া IP ব্যবহার লঙ্ঘন (infringement); মালিক ক্ষতিপূরণের মামলা করতে পারে।</li></ol>
+<p><b>মনে রাখো:</b> পেটেন্ট = আবিষ্কার। কপিরাইট = সৃজনশীল রচনা। ট্রেডমার্ক = ব্র্যান্ড পরিচয়। ট্রেড সিক্রেট = গোপন জ্ঞান।</p></div></div>
+
+<!-- BIBS 5.5 -->
+<div class="q" id="b5-5"><span class="num">5.5</span>Describe warranties<span class="bn">ওয়ারেন্টি (warranties) বর্ণনা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> When you buy a phone, the seller promises it will work. That promise is a warranty. If it fails, the seller must make it right.</p>
+<ol><li><b>Step 1 – Definition.</b> A warranty is a seller's guarantee or promise about the quality or performance of a product.</li><li><b>Step 2 – Express warranty.</b> A promise stated clearly in writing or in words ("1-year free repair", "waterproof").</li><li><b>Step 3 – Implied warranty.</b> A promise the law assumes even if nothing is said. Under the Uniform Commercial Code (UCC) there are two: (a) warranty of merchantability — the product is fit for ordinary use; (b) warranty of fitness for a particular purpose — if the seller knows your special need and recommends the product, it must suit that purpose.</li><li><b>Step 4 – Remedies.</b> If the warranty is broken, the buyer may get repair, replacement, refund or damages.</li><li><b>Step 5 – Disclaimers.</b> Sellers can limit some implied warranties (for example "sold as is"), if clearly stated.</li></ol>
+<p><b>Remember:</b> Express = stated. Implied = automatic under law.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> ফোন কিনলে বিক্রেতা প্রতিশ্রুতি দেয় এটা কাজ করবে। এই প্রতিশ্রুতিই ওয়ারেন্টি। নষ্ট হলে বিক্রেতাকে ঠিক করে দিতে হয়।</p>
+<ol><li><b>ধাপ ১ – সংজ্ঞা।</b> ওয়ারেন্টি হলো পণ্যের মান বা কার্যক্ষমতা সম্পর্কে বিক্রেতার নিশ্চয়তা বা প্রতিশ্রুতি।</li><li><b>ধাপ ২ – স্পষ্ট ওয়ারেন্টি (express)।</b> লিখিত বা মুখে স্পষ্টভাবে বলা প্রতিশ্রুতি ("১ বছর ফ্রি মেরামত", "ওয়াটারপ্রুফ")।</li><li><b>ধাপ ৩ – অন্তর্নিহিত ওয়ারেন্টি (implied)।</b> কিছু না বললেও আইন যে প্রতিশ্রুতি ধরে নেয়। Uniform Commercial Code (UCC) অনুযায়ী দুটি: (ক) merchantability — পণ্য সাধারণ ব্যবহারের উপযোগী; (খ) নির্দিষ্ট উদ্দেশ্যের উপযোগিতা — বিক্রেতা তোমার বিশেষ প্রয়োজন জেনে পণ্য সুপারিশ করলে সেটি ওই উদ্দেশ্যে কাজ করতে হবে।</li><li><b>ধাপ ৪ – প্রতিকার।</b> ওয়ারেন্টি ভাঙলে ক্রেতা মেরামত, বদল, টাকা ফেরত বা ক্ষতিপূরণ পেতে পারে।</li><li><b>ধাপ ৫ – দায় অস্বীকার (disclaimer)।</b> স্পষ্টভাবে লিখলে বিক্রেতা কিছু অন্তর্নিহিত ওয়ারেন্টি সীমিত করতে পারে (যেমন "যেমন আছে তেমন বিক্রি")।</li></ol>
+<p><b>মনে রাখো:</b> স্পষ্ট = বলা হয়েছে। অন্তর্নিহিত = আইন অনুযায়ী স্বয়ংক্রিয়।</p></div></div>
+
+<!-- BIBS 5.6 -->
+<div class="q" id="b5-6"><span class="num">5.6</span>List and describe the elements of a legally enforceable contract, and explain the consequences of breach of contract<span class="bn">আইনত বাধ্যতামূলক চুক্তির উপাদানগুলো তালিকাভুক্ত ও বর্ণনা করো এবং চুক্তি ভঙ্গের পরিণতি ব্যাখ্যা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> A contract is a promise the law will enforce. For it to count, it must have some basic building blocks.</p>
+<ol><li><b>Step 1 – Offer.</b> One party proposes clear terms ("I will sell you this laptop for $500").</li><li><b>Step 2 – Acceptance.</b> The other party agrees to exactly those terms.</li><li><b>Step 3 – Consideration.</b> Each side gives something of value (money, goods, service, or a promise to do something).</li><li><b>Step 4 – Legal capacity.</b> Parties must be able to contract (adults of sound mind). Minors and the mentally incapacitated usually cannot be bound.</li><li><b>Step 5 – Legal purpose.</b> The agreement must be for something lawful.</li><li><b>Step 6 – Genuine agreement.</b> Consent must be free — no fraud, duress, or mistake. (Some contracts must also be in writing.)</li><li><b>Step 7 – Breach and consequences.</b> Breach means failing to perform without a legal excuse. The injured party may get: damages (money), specific performance (court orders the promise to be carried out), rescission (cancel the contract) or restitution (return what was given).</li></ol>
+<p><b>Remember:</b> Offer, Acceptance, Consideration, Capacity, Legality, Genuine agreement.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> চুক্তি হলো এমন প্রতিশ্রুতি যা আইন কার্যকর করে। এটি বৈধ হতে কয়েকটি মৌলিক উপাদান লাগে।</p>
+<ol><li><b>ধাপ ১ – প্রস্তাব (offer)।</b> এক পক্ষ স্পষ্ট শর্ত প্রস্তাব করে ("আমি এই ল্যাপটপ ৫০০ ডলারে বেচব")।</li><li><b>ধাপ ২ – গ্রহণ (acceptance)।</b> অন্য পক্ষ ঠিক সেই শর্তে রাজি হয়।</li><li><b>ধাপ ৩ – বিনিময় (consideration)।</b> প্রতিটি পক্ষ মূল্যবান কিছু দেয় (টাকা, পণ্য, সেবা বা কিছু করার প্রতিশ্রুতি)।</li><li><b>ধাপ ৪ – আইনি সামর্থ্য।</b> পক্ষগুলোকে চুক্তি করার যোগ্য হতে হবে (সুস্থ মস্তিষ্কের প্রাপ্তবয়স্ক)। নাবালক ও মানসিকভাবে অক্ষমরা সাধারণত বাধ্য নয়।</li><li><b>ধাপ ৫ – বৈধ উদ্দেশ্য।</b> চুক্তি আইনসম্মত কিছুর জন্য হতে হবে।</li><li><b>ধাপ ৬ – প্রকৃত সম্মতি।</b> সম্মতি স্বাধীন হতে হবে — প্রতারণা, চাপ বা ভুল থাকলে চলবে না। (কিছু চুক্তি লিখিতও হতে হয়।)</li><li><b>ধাপ ৭ – চুক্তি ভঙ্গ ও পরিণতি।</b> আইনসম্মত অজুহাত ছাড়া কাজ না করলে চুক্তি ভঙ্গ। ক্ষতিগ্রস্ত পক্ষ পেতে পারে: ক্ষতিপূরণ (damages), নির্দিষ্ট কার্যসম্পাদন (specific performance — আদালত প্রতিশ্রুতি পালনের আদেশ দেয়), চুক্তি বাতিল (rescission) বা প্রত্যর্পণ (restitution)।</li></ol>
+<p><b>মনে রাখো:</b> প্রস্তাব, গ্রহণ, বিনিময়, সামর্থ্য, বৈধতা, প্রকৃত সম্মতি।</p></div></div>
+
+<!-- BIBS 5.7 -->
+<div class="q" id="b5-7"><span class="num">5.7</span>Summarize consumer protection and antitrust laws<span class="bn">ভোক্তা সুরক্ষা ও অ্যান্টিট্রাস্ট আইনের সারসংক্ষেপ করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> Two different goals: protect the buyer from unfair treatment (consumer protection) and protect the market from unfair control by one big company (antitrust).</p>
+<ol><li><b>Step 1 – Consumer protection laws.</b> Protect buyers from unsafe products, false advertising and unfair credit practices. Examples: Consumer Product Safety Act (safe products), Truth in Lending Act (clear loan terms), Fair Credit Reporting Act. Agencies: FTC and CPSC.</li><li><b>Step 2 – Consumer rights.</b> The right to safety, to be informed, to choose and to be heard.</li><li><b>Step 3 – Antitrust laws.</b> Promote competition by preventing monopolies, price fixing and anti-competitive mergers.</li><li><b>Step 4 – Key laws.</b> Sherman Act (1890) bans monopolizing and agreements that restrain trade; Clayton Act (1914) blocks mergers that reduce competition; FTC Act (1914) bans unfair methods of competition.</li><li><b>Step 5 – Benefit.</b> Competition keeps prices fair, quality high and innovation alive.</li></ol>
+<p><b>Example:</b> Competitors secretly agreeing to fix prices breaks antitrust law.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> দুটি আলাদা লক্ষ্য: অন্যায্য আচরণ থেকে ক্রেতাকে রক্ষা (ভোক্তা সুরক্ষা) এবং একটি বড় কোম্পানির অন্যায্য নিয়ন্ত্রণ থেকে বাজারকে রক্ষা (অ্যান্টিট্রাস্ট)।</p>
+<ol><li><b>ধাপ ১ – ভোক্তা সুরক্ষা আইন।</b> ক্রেতাকে অনিরাপদ পণ্য, মিথ্যা বিজ্ঞাপন ও অন্যায্য ঋণ পদ্ধতি থেকে রক্ষা করে। উদাহরণ: Consumer Product Safety Act (নিরাপদ পণ্য), Truth in Lending Act (ঋণের স্পষ্ট শর্ত), Fair Credit Reporting Act। সংস্থা: FTC ও CPSC।</li><li><b>ধাপ ২ – ভোক্তার অধিকার।</b> নিরাপত্তার অধিকার, জানার অধিকার, বেছে নেওয়ার অধিকার এবং কথা বলার অধিকার।</li><li><b>ধাপ ৩ – অ্যান্টিট্রাস্ট আইন।</b> একচেটিয়া বাজার (monopoly), মূল্য নির্ধারণ যোগসাজশ (price fixing) ও প্রতিযোগিতা কমানো একীভূতকরণ ঠেকিয়ে প্রতিযোগিতা বাড়ায়।</li><li><b>ধাপ ৪ – মূল আইন।</b> শারম্যান অ্যাক্ট (১৮৯০) একচেটিয়া দখল ও বাণিজ্য সীমিতকারী চুক্তি নিষিদ্ধ করে; ক্লেটন অ্যাক্ট (১৯১৪) প্রতিযোগিতা কমায় এমন মার্জার আটকায়; FTC অ্যাক্ট (১৯১৪) অন্যায্য প্রতিযোগিতা পদ্ধতি নিষিদ্ধ করে।</li><li><b>ধাপ ৫ – সুফল।</b> প্রতিযোগিতা দাম ন্যায্য, মান উঁচু ও উদ্ভাবন সচল রাখে।</li></ol>
+<p><b>উদাহরণ:</b> প্রতিযোগীরা গোপনে দাম ঠিক করে নিলে তা অ্যান্টিট্রাস্ট আইন লঙ্ঘন।</p></div></div>
+
+<h2 class="unit-hd" id="bu6" data-short="Unit 9">Set 6 · Unit 9 — Ethics &amp; Social Responsibility<span class="bn">সেট ৬ · ইউনিট ৯ — নৈতিকতা ও সামাজিক দায়িত্ব</span></h2>
+<!-- BIBS 6.1 -->
+<div class="q" id="b6-1"><span class="num">6.1</span>Differentiate between ethical and legal behavior<span class="bn">নৈতিক (ethical) ও আইনি (legal) আচরণের মধ্যে পার্থক্য করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> Legal asks "Can I do this without breaking the law?" Ethical asks "Is this the right thing to do?" The two answers are not always the same.</p>
+<ol><li><b>Step 1 – Legal behavior.</b> Following laws and regulations made by government. Breaking them can bring fines or jail.</li><li><b>Step 2 – Ethical behavior.</b> Following moral principles of right and wrong — honesty, fairness, respect and responsibility. Not always written in law.</li><li><b>Step 3 – Overlap.</b> Most illegal acts are unethical (theft, fraud).</li><li><b>Step 4 – The gap.</b> Some acts are legal but unethical, e.g., a company hiding a product risk that no law forces it to reveal, or paying workers the legal minimum while earning huge profits.</li><li><b>Step 5 – Compare.</b></li></ol>
+<table><thead><tr><th>Aspect</th><th>Legal</th><th>Ethical</th></tr></thead><tbody><tr><td>Source</td><td>Government laws</td><td>Moral values, culture, conscience</td></tr><tr><td>Enforced by</td><td>Courts and police</td><td>Conscience, public opinion, company culture</td></tr><tr><td>Penalty</td><td>Fines, jail</td><td>Loss of trust, reputation</td></tr></tbody></table>
+<p><b>Remember:</b> Legal is the minimum standard; ethical is the higher standard.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> আইনি প্রশ্ন করে "আমি কি আইন না ভেঙে এটা করতে পারি?" নৈতিক প্রশ্ন করে "এটা কি করা সঠিক?" দুই উত্তর সবসময় এক হয় না।</p>
+<ol><li><b>ধাপ ১ – আইনি আচরণ।</b> সরকারের তৈরি আইন ও বিধি মেনে চলা। ভাঙলে জরিমানা বা জেল হতে পারে।</li><li><b>ধাপ ২ – নৈতিক আচরণ।</b> ভালো-মন্দের নৈতিক নীতি মেনে চলা — সততা, ন্যায্যতা, সম্মান ও দায়িত্ব। সবসময় আইনে লেখা থাকে না।</li><li><b>ধাপ ৩ – মিল।</b> বেশির ভাগ বেআইনি কাজ অনৈতিক (চুরি, প্রতারণা)।</li><li><b>ধাপ ৪ – ফাঁক।</b> কিছু কাজ আইনসম্মত কিন্তু অনৈতিক, যেমন কোনো আইন বাধ্য না করলেও পণ্যের ঝুঁকি লুকিয়ে রাখা, বা বিপুল মুনাফা করেও কর্মীদের আইনি ন্যূনতম মজুরি দেওয়া।</li><li><b>ধাপ ৫ – তুলনা।</b></li></ol>
+<table><thead><tr><th>বিষয়</th><th>আইনি</th><th>নৈতিক</th></tr></thead><tbody><tr><td>উৎস</td><td>সরকারি আইন</td><td>নৈতিক মূল্যবোধ, সংস্কৃতি, বিবেক</td></tr><tr><td>প্রয়োগ করে</td><td>আদালত ও পুলিশ</td><td>বিবেক, জনমত, প্রতিষ্ঠানের সংস্কৃতি</td></tr><tr><td>শাস্তি</td><td>জরিমানা, জেল</td><td>আস্থা ও সুনাম হারানো</td></tr></tbody></table>
+<p><b>মনে রাখো:</b> আইনি হলো ন্যূনতম মান; নৈতিক হলো উচ্চতর মান।</p></div></div>
+
+<!-- BIBS 6.2 -->
+<div class="q" id="b6-2"><span class="num">6.2</span>Explain the concept of business ethics, and outline the steps companies take to encourage ethical behavior<span class="bn">ব্যবসায়িক নৈতিকতার ধারণা ব্যাখ্যা করো এবং নৈতিক আচরণ উৎসাহিত করতে প্রতিষ্ঠান যে পদক্ষেপ নেয় তার রূপরেখা দাও</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> Business ethics means doing business honestly and fairly, even when nobody is watching and even when cheating would be profitable.</p>
+<ol><li><b>Step 1 – Definition.</b> Business ethics is the set of moral standards that guide how a company and its people behave toward customers, employees, owners, competitors and society.</li><li><b>Step 2 – Written code of ethics.</b> The company writes down its values and rules, so everyone knows what is expected.</li><li><b>Step 3 – Leadership example.</b> Top managers must follow the rules themselves ("tone at the top").</li><li><b>Step 4 – Ethics training.</b> Regular training teaches employees how to recognize and handle ethical dilemmas.</li><li><b>Step 5 – Reporting channels.</b> An ethics hotline or ethics officer allows employees to ask questions or report problems, with protection for whistleblowers.</li><li><b>Step 6 – Reward and discipline.</b> Reward ethical behavior and punish violations consistently.</li><li><b>Step 7 – Monitor and improve.</b> Audit practices and update policies.</li></ol>
+<p><b>Remember:</b> Code, training, leadership, hotline, rewards and discipline.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> ব্যবসায়িক নৈতিকতা মানে সৎ ও ন্যায্যভাবে ব্যবসা করা, যখন কেউ দেখছে না এবং ঠকালে মুনাফা হবে তখনও।</p>
+<ol><li><b>ধাপ ১ – সংজ্ঞা।</b> ব্যবসায়িক নৈতিকতা হলো নৈতিক মানদণ্ড যা কোম্পানি ও তার মানুষ ক্রেতা, কর্মচারী, মালিক, প্রতিযোগী ও সমাজের প্রতি কেমন আচরণ করবে তা নির্দেশ করে।</li><li><b>ধাপ ২ – লিখিত আচরণবিধি (code of ethics)।</b> কোম্পানি তার মূল্যবোধ ও নিয়ম লিখে রাখে, যাতে সবাই জানে কী প্রত্যাশিত।</li><li><b>ধাপ ৩ – নেতৃত্বের দৃষ্টান্ত।</b> শীর্ষ ম্যানেজারদের নিজেদের নিয়ম মানতে হবে ("tone at the top")।</li><li><b>ধাপ ৪ – নৈতিকতা প্রশিক্ষণ।</b> নিয়মিত প্রশিক্ষণে কর্মীরা নৈতিক দ্বিধা চিনতে ও সামলাতে শেখে।</li><li><b>ধাপ ৫ – অভিযোগের পথ।</b> ethics হটলাইন বা ethics অফিসারের কাছে কর্মীরা প্রশ্ন করতে বা সমস্যা জানাতে পারে; whistleblower-দের সুরক্ষা থাকে।</li><li><b>ধাপ ৬ – পুরস্কার ও শাস্তি।</b> নৈতিক আচরণে পুরস্কার এবং লঙ্ঘনে সমানভাবে শাস্তি।</li><li><b>ধাপ ৭ – পর্যবেক্ষণ ও উন্নয়ন।</b> চর্চা অডিট করা ও নীতি হালনাগাদ করা।</li></ol>
+<p><b>মনে রাখো:</b> বিধি, প্রশিক্ষণ, নেতৃত্ব, হটলাইন, পুরস্কার ও শাস্তি।</p></div></div>
+
+<!-- BIBS 6.3 -->
+<div class="q" id="b6-3"><span class="num">6.3</span>Identify common ethical challenges faced by organizations<span class="bn">প্রতিষ্ঠান সাধারণত যে নৈতিক চ্যালেঞ্জের মুখোমুখি হয় তা চিহ্নিত করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> Every day, managers and employees meet situations where doing the right thing is harder or costs more than doing the wrong thing. Here are the common ones.</p>
+<ol><li><b>Step 1 – Conflict of interest.</b> Personal gain conflicts with duty to the company (hiring a friend's firm just because of friendship).</li><li><b>Step 2 – Honesty in communication.</b> Misleading advertising, false claims, hiding product defects.</li><li><b>Step 3 – Financial fraud.</b> Falsifying records, hiding losses, insider trading.</li><li><b>Step 4 – Bribery and gifts.</b> Offering or taking payments or gifts to influence a decision.</li><li><b>Step 5 – Discrimination and harassment.</b> Unfair treatment of workers because of gender, race, age, religion etc.</li><li><b>Step 6 – Misuse of resources.</b> Stealing time or supplies, using company property for personal gain.</li><li><b>Step 7 – Privacy and data misuse.</b> Selling or leaking customers' personal data.</li><li><b>Step 8 – Whistleblowing.</b> Deciding whether and how to report wrongdoing by others.</li></ol>
+<p><b>Remember:</b> A quick test: Is it legal? Is it fair? How would I feel if it were on the news?</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> প্রতিদিন ম্যানেজার ও কর্মীরা এমন পরিস্থিতিতে পড়েন যেখানে ঠিক কাজটি করা কঠিন বা বেশি খরচের। নিচে প্রচলিত চ্যালেঞ্জগুলো।</p>
+<ol><li><b>ধাপ ১ – স্বার্থের দ্বন্দ্ব।</b> ব্যক্তিগত লাভ কোম্পানির প্রতি দায়িত্বের সাথে সংঘাতে যায় (শুধু বন্ধুত্বের কারণে বন্ধুর প্রতিষ্ঠানকে কাজ দেওয়া)।</li><li><b>ধাপ ২ – যোগাযোগে সততা।</b> বিভ্রান্তিকর বিজ্ঞাপন, মিথ্যা দাবি, পণ্যের ত্রুটি লুকানো।</li><li><b>ধাপ ৩ – আর্থিক জালিয়াতি।</b> হিসাব জাল করা, ক্ষতি লুকানো, ইনসাইডার ট্রেডিং।</li><li><b>ধাপ ৪ – ঘুষ ও উপহার।</b> সিদ্ধান্ত প্রভাবিত করতে টাকা বা উপহার দেওয়া-নেওয়া।</li><li><b>ধাপ ৫ – বৈষম্য ও হয়রানি।</b> লিঙ্গ, বর্ণ, বয়স, ধর্ম ইত্যাদির কারণে কর্মীদের প্রতি অন্যায্য আচরণ।</li><li><b>ধাপ ৬ – সম্পদের অপব্যবহার।</b> সময় বা সরবরাহ চুরি, কোম্পানির সম্পত্তি ব্যক্তিগত লাভে ব্যবহার।</li><li><b>ধাপ ৭ – গোপনীয়তা ও তথ্যের অপব্যবহার।</b> গ্রাহকের ব্যক্তিগত তথ্য বিক্রি বা ফাঁস।</li><li><b>ধাপ ৮ – হুইসেলব্লোয়িং।</b> অন্যের অন্যায় জানাবে কি না এবং কীভাবে — সেই সিদ্ধান্ত।</li></ol>
+<p><b>মনে রাখো:</b> দ্রুত পরীক্ষা: এটা কি আইনসম্মত? ন্যায্য? খবরের শিরোনামে এলে আমার কেমন লাগবে?</p></div></div>
+
+<!-- BIBS 6.4 -->
+<div class="q" id="b6-4"><span class="num">6.4</span>Explain the concept of corporate social responsibility<span class="bn">কর্পোরেট সামাজিক দায়বদ্ধতার (CSR) ধারণা ব্যাখ্যা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> A company lives inside society — it uses society's workers, roads and resources. CSR means giving something back and caring about the impact of its decisions.</p>
+<ol><li><b>Step 1 – Definition.</b> Corporate social responsibility (CSR) is a company's obligation to act in ways that benefit society and all stakeholders, not only its owners.</li><li><b>Step 2 – Four layers (Carroll's pyramid).</b> Economic (make profit), legal (obey the law), ethical (do what is right and fair), philanthropic (give back voluntarily).</li><li><b>Step 3 – Areas of CSR.</b> Protecting the environment, fair treatment of employees, ethical sourcing from suppliers, honest dealing with customers, and community support (donations, volunteering).</li><li><b>Step 4 – Triple bottom line.</b> Measure success by People, Planet and Profit, not profit alone.</li><li><b>Step 5 – Benefits.</b> Better reputation, customer loyalty, motivated employees, fewer legal problems, long-term success.</li><li><b>Step 6 – Criticism.</b> Some argue business's only duty is profit within the law; CSR can cost money and can be used for show ("greenwashing").</li></ol>
+<p><b>Example:</b> A clothing brand uses recycled materials, audits its factories for safe conditions, and donates part of its profit to education.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> কোম্পানি সমাজের ভেতরেই থাকে — সমাজের কর্মী, সড়ক ও সম্পদ ব্যবহার করে। CSR মানে সমাজকে কিছু ফিরিয়ে দেওয়া এবং নিজের সিদ্ধান্তের প্রভাব নিয়ে ভাবা।</p>
+<ol><li><b>ধাপ ১ – সংজ্ঞা।</b> কর্পোরেট সামাজিক দায়বদ্ধতা (CSR) হলো শুধু মালিক নয়, সমাজ ও সব স্টেকহোল্ডারের উপকারে কাজ করার কোম্পানির দায়িত্ব।</li><li><b>ধাপ ২ – চার স্তর (ক্যারলের পিরামিড)।</b> অর্থনৈতিক (মুনাফা), আইনি (আইন মানা), নৈতিক (ন্যায্য ও সঠিক কাজ), দানশীল (স্বেচ্ছায় ফিরিয়ে দেওয়া)।</li><li><b>ধাপ ৩ – CSR-এর ক্ষেত্র।</b> পরিবেশ রক্ষা, কর্মীদের প্রতি ন্যায্য আচরণ, সরবরাহকারীর কাছ থেকে নৈতিক সংগ্রহ, ক্রেতার সাথে সততা, এবং কমিউনিটি সহায়তা (দান, স্বেচ্ছাসেবা)।</li><li><b>ধাপ ৪ – ট্রিপল বটম লাইন।</b> সাফল্য মাপো People, Planet ও Profit দিয়ে — শুধু মুনাফা নয়।</li><li><b>ধাপ ৫ – সুফল।</b> ভালো সুনাম, ক্রেতার আনুগত্য, অনুপ্রাণিত কর্মী, কম আইনি সমস্যা, দীর্ঘমেয়াদি সাফল্য।</li><li><b>ধাপ ৬ – সমালোচনা।</b> কেউ কেউ বলেন আইনের মধ্যে থেকে মুনাফা করাই ব্যবসার একমাত্র দায়িত্ব; CSR-এ খরচ হয় এবং লোক দেখানো (greenwashing) হতে পারে।</li></ol>
+<p><b>উদাহরণ:</b> একটি পোশাক ব্র্যান্ড রিসাইকেল করা উপাদান ব্যবহার করে, কারখানার নিরাপদ পরিবেশ অডিট করে এবং মুনাফার একাংশ শিক্ষায় দান করে।</p></div></div>
+
+<h2 class="unit-hd" id="bu7" data-short="Units 10 &amp; 11">Set 7 · Units 10 &amp; 11 — Forms of Ownership<span class="bn">সেট ৭ · ইউনিট ১০ ও ১১ — মালিকানার ধরন</span></h2>
+<!-- BIBS 7.1 -->
+<div class="q" id="b7-1"><span class="num">7.1</span>List and explain the important factors in choosing an organizational type<span class="bn">প্রতিষ্ঠানের ধরন বাছাইয়ে গুরুত্বপূর্ণ বিষয়গুলো তালিকাভুক্ত করে ব্যাখ্যা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> Choosing a business type is like choosing a vehicle: a bicycle is cheap and simple, a bus carries many people but needs more rules and money. Pick the one that fits your journey.</p>
+<ol><li><b>Step 1 – Liability.</b> Will your personal assets (house, savings) be at risk if the business is sued or cannot pay debts? Unlimited liability is risky; limited liability protects you.</li><li><b>Step 2 – Taxes.</b> Some types are taxed as the owner's personal income (pass-through); others pay corporate tax first and owners pay again on dividends.</li><li><b>Step 3 – Control.</b> Do you want to make all decisions alone or share them?</li><li><b>Step 4 – Raising capital.</b> How much money can this type raise? Corporations can sell stock; sole proprietors rely mostly on themselves and loans.</li><li><b>Step 5 – Start-up cost and paperwork.</b> Registration, legal fees and regulation differ greatly.</li><li><b>Step 6 – Continuity.</b> What happens if the owner dies or leaves? Corporations live on; sole proprietorships usually end.</li><li><b>Step 7 – Flexibility and number of owners.</b> Some types need one owner, others need many.</li></ol>
+<p><b>Remember:</b> Think: Liability, Taxes, Control, Capital, Cost, Continuity.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> ব্যবসার ধরন বাছাই করা যান বাছাইয়ের মতো: সাইকেল সস্তা ও সহজ, বাস অনেক মানুষ নেয় কিন্তু বেশি নিয়ম ও টাকা লাগে। তোমার যাত্রার সাথে মেলে এমনটি বেছে নাও।</p>
+<ol><li><b>ধাপ ১ – দায় (liability)।</b> ব্যবসার বিরুদ্ধে মামলা হলে বা ঋণ শোধ না করতে পারলে তোমার ব্যক্তিগত সম্পদ (বাড়ি, সঞ্চয়) ঝুঁকিতে পড়বে কি? অসীম দায় ঝুঁকিপূর্ণ; সীমিত দায় তোমাকে রক্ষা করে।</li><li><b>ধাপ ২ – কর।</b> কিছু ধরনে মালিকের ব্যক্তিগত আয় হিসেবে কর হয় (pass-through); অন্যগুলোতে আগে কর্পোরেট কর, পরে মালিক লভ্যাংশে আবার কর দেন।</li><li><b>ধাপ ৩ – নিয়ন্ত্রণ।</b> সব সিদ্ধান্ত একা নেবে নাকি ভাগ করবে?</li><li><b>ধাপ ৪ – মূলধন সংগ্রহ।</b> এই ধরনে কত টাকা তোলা যায়? কর্পোরেশন স্টক বেচতে পারে; একক মালিকানা মূলত নিজের টাকা ও ঋণের ওপর নির্ভর করে।</li><li><b>ধাপ ৫ – শুরুর খরচ ও কাগজপত্র।</b> নিবন্ধন, আইনি ফি ও বিধিবিধান বহুলাংশে আলাদা।</li><li><b>ধাপ ৬ – ধারাবাহিকতা।</b> মালিক মারা গেলে বা চলে গেলে কী হবে? কর্পোরেশন চলতে থাকে; একক মালিকানা সাধারণত শেষ হয়।</li><li><b>ধাপ ৭ – নমনীয়তা ও মালিকের সংখ্যা।</b> কিছু ধরনে এক মালিক চলে, কিছুতে অনেক মালিক লাগে।</li></ol>
+<p><b>মনে রাখো:</b> ভাবো: দায়, কর, নিয়ন্ত্রণ, মূলধন, খরচ, ধারাবাহিকতা।</p></div></div>
+
+<!-- BIBS 7.2 -->
+<div class="q" id="b7-2"><span class="num">7.2</span>Discuss the advantages and disadvantages of sole proprietorships<span class="bn">একক মালিকানা (sole proprietorship) ব্যবসার সুবিধা ও অসুবিধা আলোচনা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> A sole proprietorship is a business owned and run by one person — like a freelance photographer or a corner shop owner.</p>
+<ol><li><b>Step 1 – What it is.</b> One owner, no separate legal identity: the owner and the business are legally the same.</li><li><b>Step 2 – Advantages.</b> (a) Easy and cheap to start. (b) Full control over decisions. (c) Owner keeps all profit. (d) Simple taxes — profit is taxed as personal income. (e) Few regulations.</li><li><b>Step 3 – Disadvantages.</b> (a) Unlimited personal liability — personal assets can be used to pay business debts. (b) Hard to raise large capital. (c) Business may end when the owner dies or quits. (d) Owner does everything and may lack skills in some areas. (e) Heavy workload.</li></ol>
+<p><b>Example:</b> A person who opens a tailoring shop alone and keeps all earnings but is personally responsible for all debts.</p>
+<p><b>Remember:</b> Easy and fully controlled, but personally risky and limited in growth.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> একক মালিকানা হলো এমন ব্যবসা যার মালিক ও পরিচালক একজনই — যেমন ফ্রিল্যান্স ফটোগ্রাফার বা মোড়ের দোকানদার।</p>
+<ol><li><b>ধাপ ১ – কী এটি।</b> এক মালিক, আলাদা আইনি পরিচয় নেই: মালিক ও ব্যবসা আইনত একই।</li><li><b>ধাপ ২ – সুবিধা।</b> (ক) শুরু করা সহজ ও সস্তা। (খ) সিদ্ধান্তে পূর্ণ নিয়ন্ত্রণ। (গ) সব মুনাফা মালিকের। (ঘ) কর সহজ — মুনাফা ব্যক্তিগত আয় হিসেবে করযোগ্য। (ঙ) কম বিধিবিধান।</li><li><b>ধাপ ৩ – অসুবিধা।</b> (ক) অসীম ব্যক্তিগত দায় — ব্যবসার ঋণে ব্যক্তিগত সম্পদ যেতে পারে। (খ) বড় মূলধন তোলা কঠিন। (গ) মালিক মারা গেলে বা ছেড়ে দিলে ব্যবসা শেষ হতে পারে। (ঘ) সবকিছু একা সামলাতে হয়, সব ক্ষেত্রে দক্ষতা নাও থাকতে পারে। (ঙ) কাজের চাপ বেশি।</li></ol>
+<p><b>উদাহরণ:</b> যে ব্যক্তি একা দর্জির দোকান খোলে, সব আয় নিজে রাখে, কিন্তু সব ঋণের দায়ও তার।</p>
+<p><b>মনে রাখো:</b> সহজ ও পূর্ণ নিয়ন্ত্রণ, কিন্তু ব্যক্তিগতভাবে ঝুঁকিপূর্ণ ও বড় হওয়ার সীমা আছে।</p></div></div>
+
+<!-- BIBS 7.3 -->
+<div class="q" id="b7-3"><span class="num">7.3</span>Discuss the advantages and disadvantages of partnerships<span class="bn">অংশীদারি ব্যবসার (partnership) সুবিধা ও অসুবিধা আলোচনা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> A partnership is when two or more people share ownership of a business — like friends starting a restaurant together.</p>
+<ol><li><b>Step 1 – What it is.</b> Two or more owners who share profits, losses, work and decisions, usually under a written partnership agreement.</li><li><b>Step 2 – Types.</b> General partnership (all partners manage and have unlimited liability), limited partnership (some partners invest only and have limited liability) and limited liability partnership (LLP).</li><li><b>Step 3 – Advantages.</b> (a) More capital — several people invest. (b) Shared skills and ideas. (c) Shared workload and risk. (d) Easy to form. (e) Pass-through taxation.</li><li><b>Step 4 – Disadvantages.</b> (a) Unlimited liability for general partners — even for a partner's mistakes. (b) Disagreements and conflict. (c) Profit must be shared. (d) Partnership may end if a partner leaves or dies. (e) Shared control slows decisions.</li></ol>
+<p><b>Remember:</b> Written partnership agreement = defines roles, profit split and how to exit.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> অংশীদারি হলো যখন দুই বা ততোধিক ব্যক্তি ব্যবসার মালিকানা ভাগ করে — যেমন বন্ধুরা মিলে রেস্তোরাঁ খোলা।</p>
+<ol><li><b>ধাপ ১ – কী এটি।</b> দুই বা বেশি মালিক মুনাফা, ক্ষতি, কাজ ও সিদ্ধান্ত ভাগ করে, সাধারণত লিখিত অংশীদারি চুক্তির অধীনে।</li><li><b>ধাপ ২ – ধরন।</b> সাধারণ অংশীদারি (সবাই পরিচালনা করে ও অসীম দায়), সীমিত অংশীদারি (কেউ শুধু বিনিয়োগ করে ও সীমিত দায়) এবং সীমিত দায় অংশীদারি (LLP)।</li><li><b>ধাপ ৩ – সুবিধা।</b> (ক) বেশি মূলধন — অনেকে বিনিয়োগ করে। (খ) দক্ষতা ও আইডিয়া ভাগ হয়। (গ) কাজ ও ঝুঁকি ভাগ হয়। (ঘ) গঠন সহজ। (ঙ) pass-through কর।</li><li><b>ধাপ ৪ – অসুবিধা।</b> (ক) সাধারণ অংশীদারের অসীম দায় — অন্য অংশীদারের ভুলের জন্যও। (খ) মতবিরোধ ও দ্বন্দ্ব। (গ) মুনাফা ভাগ করতে হয়। (ঘ) অংশীদার ছেড়ে গেলে বা মারা গেলে অংশীদারি শেষ হতে পারে। (ঙ) নিয়ন্ত্রণ ভাগ হওয়ায় সিদ্ধান্ত ধীর হয়।</li></ol>
+<p><b>মনে রাখো:</b> লিখিত অংশীদারি চুক্তি = ভূমিকা, মুনাফা ভাগ ও প্রস্থানের নিয়ম ঠিক করে।</p></div></div>
+
+<!-- BIBS 7.4 -->
+<div class="q" id="b7-4"><span class="num">7.4</span>Discuss the advantages and disadvantages of corporations<span class="bn">কর্পোরেশনের (corporation) সুবিধা ও অসুবিধা আলোচনা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> A corporation is a legal "person" created by law. It is separate from its owners, so the company can own property, sign contracts, sue and be sued in its own name.</p>
+<ol><li><b>Step 1 – What it is.</b> A business owned by shareholders who buy stock. A board of directors is elected to oversee management.</li><li><b>Step 2 – Advantages.</b> (a) Limited liability — shareholders can lose only what they invested. (b) Easy to raise large capital by selling stock. (c) Perpetual life — continues when owners change. (d) Easy transfer of ownership (sell shares). (e) Can attract skilled professional managers.</li><li><b>Step 3 – Disadvantages.</b> (a) Double taxation — corporate profit is taxed, then dividends are taxed again. (b) Costly and complex to form. (c) Heavy regulation and reporting (especially public companies). (d) Separation of owners and managers can cause conflicts. (e) Less personal control for founders.</li></ol>
+<p><b>Example:</b> Apple, Toyota and Grameenphone are corporations.</p>
+<p><b>Remember:</b> Great for growth and protection, but costly, regulated and double-taxed.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> কর্পোরেশন হলো আইনের সৃষ্ট একটি "আইনি ব্যক্তি"। এটি মালিকদের থেকে আলাদা, তাই কোম্পানি নিজের নামে সম্পত্তির মালিক হতে, চুক্তি করতে, মামলা করতে ও মামলার সম্মুখীন হতে পারে।</p>
+<ol><li><b>ধাপ ১ – কী এটি।</b> শেয়ারহোল্ডারদের মালিকানাধীন ব্যবসা, যারা স্টক কেনে। ম্যানেজমেন্ট তদারকি করতে পরিচালনা পর্ষদ (board of directors) নির্বাচিত হয়।</li><li><b>ধাপ ২ – সুবিধা।</b> (ক) সীমিত দায় — শেয়ারহোল্ডার শুধু বিনিয়োগকৃত টাকা হারাতে পারে। (খ) স্টক বেচে বড় মূলধন তোলা সহজ। (গ) চিরস্থায়ী অস্তিত্ব — মালিক বদলালেও চলে। (ঘ) মালিকানা হস্তান্তর সহজ (শেয়ার বিক্রি)। (ঙ) দক্ষ পেশাদার ম্যানেজার আকর্ষণ করা যায়।</li><li><b>ধাপ ৩ – অসুবিধা।</b> (ক) দ্বৈত কর — কর্পোরেট মুনাফায় কর, তারপর লভ্যাংশে আবার কর। (খ) গঠন ব্যয়বহুল ও জটিল। (গ) কঠোর বিধিবিধান ও রিপোর্টিং (বিশেষ করে পাবলিক কোম্পানি)। (ঘ) মালিক ও ম্যানেজার আলাদা হওয়ায় দ্বন্দ্ব হতে পারে। (ঙ) প্রতিষ্ঠাতার ব্যক্তিগত নিয়ন্ত্রণ কম।</li></ol>
+<p><b>উদাহরণ:</b> অ্যাপল, টয়োটা, গ্রামীণফোন কর্পোরেশন।</p>
+<p><b>মনে রাখো:</b> বৃদ্ধি ও সুরক্ষার জন্য চমৎকার, কিন্তু ব্যয়বহুল, নিয়ন্ত্রিত ও দ্বৈত করযুক্ত।</p></div></div>
+
+<!-- BIBS 7.5 -->
+<div class="q" id="b7-5"><span class="num">7.5</span>Discuss the advantages and disadvantages of hybrid forms of business ownership<span class="bn">মিশ্র (hybrid) মালিকানা ধরনের সুবিধা ও অসুবিধা আলোচনা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> "Hybrid" means a mix. These forms try to combine the best of two worlds: the protection of a corporation with the simple taxes of a partnership.</p>
+<ol><li><b>Step 1 – S corporation.</b> A corporation that elects to be taxed like a partnership. Advantages: limited liability, no double taxation (profits pass through to owners). Disadvantages: strict limits (up to 100 shareholders, only one class of stock, eligible U.S. shareholders only), more paperwork.</li><li><b>Step 2 – Limited Liability Company (LLC).</b> Owners are called members. Advantages: limited liability, pass-through taxation, flexible management, fewer formalities. Disadvantages: rules vary by state, may be limited life, harder to raise money by selling stock.</li><li><b>Step 3 – Others.</b> Cooperatives (owned by members who use its services) and nonprofit corporations are also special forms.</li></ol>
+<p><b>Remember:</b> S corp and LLC = limited liability + pass-through tax.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> "হাইব্রিড" মানে মিশ্রণ। এই ধরনগুলো দুই জগতের সেরাটা মেলাতে চায়: কর্পোরেশনের সুরক্ষা এবং অংশীদারির সহজ কর।</p>
+<ol><li><b>ধাপ ১ – S কর্পোরেশন।</b> এমন কর্পোরেশন যা অংশীদারির মতো কর দিতে বেছে নেয়। সুবিধা: সীমিত দায়, দ্বৈত কর নেই (মুনাফা মালিকদের কাছে চলে যায়)। অসুবিধা: কঠোর সীমা (সর্বোচ্চ ১০০ শেয়ারহোল্ডার, এক শ্রেণির স্টক, শুধু যোগ্য মার্কিন শেয়ারহোল্ডার), বেশি কাগজপত্র।</li><li><b>ধাপ ২ – সীমিত দায় কোম্পানি (LLC)।</b> মালিকদের বলে সদস্য (members)। সুবিধা: সীমিত দায়, pass-through কর, নমনীয় ব্যবস্থাপনা, কম আনুষ্ঠানিকতা। অসুবিধা: রাজ্যভেদে নিয়ম আলাদা, আয়ু সীমিত হতে পারে, স্টক বেচে টাকা তোলা কঠিন।</li><li><b>ধাপ ৩ – অন্যান্য।</b> সমবায় (সেবা ব্যবহারকারী সদস্যদের মালিকানা) ও অলাভজনক কর্পোরেশনও বিশেষ ধরন।</li></ol>
+<p><b>মনে রাখো:</b> S কর্পোরেশন ও LLC = সীমিত দায় + pass-through কর।</p></div></div>
+
+<!-- BIBS 7.6 -->
+<div class="q" id="b7-6"><span class="num">7.6</span>Discuss the advantages and disadvantages of franchises<span class="bn">ফ্র্যাঞ্চাইজির (franchise) সুবিধা ও অসুবিধা আলোচনা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> A franchise is like renting a successful business "recipe". You get the brand and the system; you pay for it and follow the rules.</p>
+<ol><li><b>Step 1 – What it is.</b> The franchisor (owner of the brand) gives the franchisee the right to use its name, products and business system in exchange for fees. Example: McDonald's, KFC, Subway.</li><li><b>Step 2 – Fees.</b> An initial franchise fee plus ongoing royalties (a percentage of sales) and advertising fees.</li><li><b>Step 3 – Advantages (for the franchisee).</b> (a) Well-known brand and customers from day one. (b) Proven business model. (c) Training and support. (d) Easier to get financing. (e) Lower risk of failure.</li><li><b>Step 4 – Disadvantages.</b> (a) High start-up and ongoing fees. (b) Limited freedom — must follow franchisor rules on menu, prices, design. (c) Franchisor's mistakes hurt your reputation. (d) Contract restrictions and possible termination.</li><li><b>Step 5 – Advantages/disadvantages for the franchisor.</b> Fast expansion with others' money, but less control over quality.</li></ol></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> ফ্র্যাঞ্চাইজি যেন একটি সফল ব্যবসার "রেসিপি" ভাড়া নেওয়া। ব্র্যান্ড ও সিস্টেম পাও; এর জন্য টাকা দিতে হয় ও নিয়ম মানতে হয়।</p>
+<ol><li><b>ধাপ ১ – কী এটি।</b> ফ্র্যাঞ্চাইজর (ব্র্যান্ডের মালিক) ফি-র বিনিময়ে ফ্র্যাঞ্চাইজিকে তার নাম, পণ্য ও ব্যবসা ব্যবস্থা ব্যবহারের অধিকার দেয়। উদাহরণ: ম্যাকডোনাল্ডস, কেএফসি, সাবওয়ে।</li><li><b>ধাপ ২ – ফি।</b> প্রাথমিক ফ্র্যাঞ্চাইজ ফি এবং চলমান রয়্যালটি (বিক্রির শতাংশ) ও বিজ্ঞাপন ফি।</li><li><b>ধাপ ৩ – সুবিধা (ফ্র্যাঞ্চাইজির জন্য)।</b> (ক) পরিচিত ব্র্যান্ড ও প্রথম দিন থেকেই ক্রেতা। (খ) প্রমাণিত ব্যবসা মডেল। (গ) প্রশিক্ষণ ও সহায়তা। (ঘ) অর্থায়ন পাওয়া সহজ। (ঙ) ব্যর্থতার ঝুঁকি কম।</li><li><b>ধাপ ৪ – অসুবিধা।</b> (ক) শুরু ও চলমান ফি বেশি। (খ) স্বাধীনতা সীমিত — মেনু, দাম, নকশায় ফ্র্যাঞ্চাইজরের নিয়ম মানতে হয়। (গ) ফ্র্যাঞ্চাইজরের ভুল তোমার সুনাম নষ্ট করে। (ঘ) চুক্তির বিধিনিষেধ ও বাতিলের সম্ভাবনা।</li><li><b>ধাপ ৫ – ফ্র্যাঞ্চাইজরের সুবিধা/অসুবিধা।</b> অন্যের টাকায় দ্রুত সম্প্রসারণ, কিন্তু মানের ওপর নিয়ন্ত্রণ কম।</li></ol></div></div>
+
+<!-- BIBS 7.7 -->
+<div class="q" id="b7-7"><span class="num">7.7</span>Describe the two types of mergers and acquisitions<span class="bn">মার্জার ও অ্যাকুইজিশনের (mergers and acquisitions) দুটি ধরন বর্ণনা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> Two ways companies join together: either two become one, or one swallows another. These are the two types: a merger and an acquisition.</p>
+<ol><li><b>Step 1 – Merger.</b> Two companies agree to combine into one new company, usually of similar size and by mutual agreement. Shareholders of both get shares in the new firm. Example: Exxon and Mobil became ExxonMobil.</li><li><b>Step 2 – Acquisition (takeover).</b> One company buys another and takes control. The buyer (acquirer) survives; the target company is absorbed or becomes a subsidiary. Example: Facebook acquiring Instagram.</li><li><b>Step 3 – Friendly vs hostile.</b> An acquisition may be friendly (target's board agrees) or hostile (the buyer goes directly to shareholders against the board's wishes).</li><li><b>Step 4 – By business relationship.</b> Horizontal (competitors join), vertical (supplier and customer join) and conglomerate (unrelated businesses join).</li><li><b>Step 5 – Why do it.</b> Grow faster, reduce competition, save costs, enter new markets, gain technology. Risks include culture clashes, high cost and job losses.</li></ol>
+<p><b>Remember:</b> Merger = two become one (mutual). Acquisition = one buys another.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> কোম্পানিগুলো দুইভাবে একত্র হয়: হয় দুটো মিলে একটা হয়, নয়তো একটা আরেকটাকে গিলে নেয়। এই দুটি ধরন হলো মার্জার ও অ্যাকুইজিশন।</p>
+<ol><li><b>ধাপ ১ – মার্জার (merger)।</b> দুটি কোম্পানি পারস্পরিক সম্মতিতে মিলে একটি নতুন কোম্পানি হয়, সাধারণত প্রায় সমান আকারের। দুই কোম্পানির শেয়ারহোল্ডার নতুন কোম্পানির শেয়ার পায়। উদাহরণ: এক্সন ও মোবিল মিলে ExxonMobil।</li><li><b>ধাপ ২ – অ্যাকুইজিশন (acquisition/takeover)।</b> এক কোম্পানি আরেকটি কিনে নিয়ন্ত্রণ নেয়। ক্রেতা টিকে থাকে; লক্ষ্য কোম্পানি মিশে যায় বা সাবসিডিয়ারি হয়। উদাহরণ: ফেসবুক ইনস্টাগ্রাম কিনেছে।</li><li><b>ধাপ ৩ – বন্ধুত্বপূর্ণ বনাম বিদ্বেষমূলক।</b> অ্যাকুইজিশন বন্ধুত্বপূর্ণ হতে পারে (লক্ষ্য কোম্পানির পর্ষদ রাজি) বা বিদ্বেষমূলক (hostile — পর্ষদের ইচ্ছার বিরুদ্ধে ক্রেতা সরাসরি শেয়ারহোল্ডারদের কাছে যায়)।</li><li><b>ধাপ ৪ – ব্যবসায়িক সম্পর্ক অনুযায়ী।</b> হরাইজন্টাল (প্রতিযোগীরা মেলে), ভার্টিকাল (সরবরাহকারী ও ক্রেতা মেলে) ও কনগ্লোমারেট (সম্পর্কহীন ব্যবসা মেলে)।</li><li><b>ধাপ ৫ – কেন করে।</b> দ্রুত বৃদ্ধি, প্রতিযোগিতা কমানো, খরচ সাশ্রয়, নতুন বাজারে প্রবেশ, প্রযুক্তি অর্জন। ঝুঁকি: সংস্কৃতির সংঘাত, উচ্চ খরচ ও চাকরি হারানো।</li></ol>
+<p><b>মনে রাখো:</b> মার্জার = দুই মিলে এক (পারস্পরিক)। অ্যাকুইজিশন = একজন আরেকজনকে কেনে।</p></div></div>
+
+<h2 class="unit-hd" id="bu8" data-short="Units 12 &amp; 13">Set 8 · Units 12 &amp; 13 — Small Business &amp; Entrepreneurs<span class="bn">সেট ৮ · ইউনিট ১২ ও ১৩ — ক্ষুদ্র ব্যবসা ও উদ্যোক্তা</span></h2>
+<!-- BIBS 8.1 -->
+<div class="q" id="b8-1"><span class="num">8.1</span>Discuss the contributions of small business to the U.S. economy<span class="bn">মার্কিন অর্থনীতিতে ক্ষুদ্র ব্যবসার অবদান আলোচনা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> Big brands get attention, but small businesses are the quiet backbone of the economy. Look around your neighborhood — the shops, salons and workshops are small businesses.</p>
+<ol><li><b>Step 1 – How many.</b> Small businesses make up about 99.9% of all U.S. firms.</li><li><b>Step 2 – Jobs.</b> They employ roughly half of all private-sector workers and create a large share of new jobs.</li><li><b>Step 3 – Innovation.</b> Many new products and ideas come from small firms and start-ups, and some grow into big companies.</li><li><b>Step 4 – Competition.</b> They keep big companies honest, which keeps prices fair and quality high.</li><li><b>Step 5 – Local communities.</b> They provide goods and services close to home, support local suppliers, and keep money circulating locally.</li><li><b>Step 6 – Opportunity.</b> They give people, including immigrants and minorities, a path to self-employment and wealth.</li><li><b>Step 7 – Big-business partners.</b> They supply parts and services to large firms and some export to foreign markets.</li></ol>
+<p><b>Remember:</b> Small business = most firms, about half of jobs, lots of innovation and local growth.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> বড় ব্র্যান্ড নজর কাড়ে, কিন্তু ক্ষুদ্র ব্যবসা অর্থনীতির নীরব মেরুদণ্ড। তোমার পাড়ার দোকান, সেলুন, ওয়ার্কশপ — সবই ক্ষুদ্র ব্যবসা।</p>
+<ol><li><b>ধাপ ১ – কতগুলো।</b> মার্কিন প্রতিষ্ঠানের প্রায় ৯৯.৯% ক্ষুদ্র ব্যবসা।</li><li><b>ধাপ ২ – কর্মসংস্থান।</b> বেসরকারি খাতের প্রায় অর্ধেক কর্মী এখানে কাজ করে এবং নতুন চাকরির বড় অংশ তৈরি হয়।</li><li><b>ধাপ ৩ – উদ্ভাবন।</b> অনেক নতুন পণ্য ও আইডিয়া ক্ষুদ্র প্রতিষ্ঠান ও স্টার্টআপ থেকে আসে; কিছু বড় কোম্পানি হয়ে ওঠে।</li><li><b>ধাপ ৪ – প্রতিযোগিতা।</b> বড় কোম্পানিকে সৎ রাখে, ফলে দাম ন্যায্য ও মান উঁচু থাকে।</li><li><b>ধাপ ৫ – স্থানীয় সম্প্রদায়।</b> কাছাকাছি পণ্য-সেবা দেয়, স্থানীয় সরবরাহকারীকে সহায়তা করে এবং টাকা স্থানীয়ভাবে ঘুরতে রাখে।</li><li><b>ধাপ ৬ – সুযোগ।</b> অভিবাসী ও সংখ্যালঘুসহ মানুষকে স্বনিয়োজিত হওয়া ও সম্পদ গড়ার পথ দেয়।</li><li><b>ধাপ ৭ – বড় ব্যবসার সহযোগী।</b> বড় প্রতিষ্ঠানকে যন্ত্রাংশ ও সেবা জোগায় এবং কেউ কেউ রপ্তানি করে।</li></ol>
+<p><b>মনে রাখো:</b> ক্ষুদ্র ব্যবসা = বেশির ভাগ প্রতিষ্ঠান, প্রায় অর্ধেক চাকরি, অনেক উদ্ভাবন ও স্থানীয় প্রবৃদ্ধি।</p></div></div>
+
+<!-- BIBS 8.2 -->
+<div class="q" id="b8-2"><span class="num">8.2</span>Identify the common traits of successful entrepreneurs<span class="bn">সফল উদ্যোক্তাদের সাধারণ বৈশিষ্ট্যগুলো চিহ্নিত করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> An entrepreneur is someone who starts a business and takes the risk, hoping for a reward. Studies show many successful entrepreneurs share similar traits.</p>
+<ol><li><b>Step 1 – Passion and vision.</b> They care deeply about their idea and can picture where it can go.</li><li><b>Step 2 – Self-motivation and discipline.</b> No boss pushes them; they set goals and work hard consistently.</li><li><b>Step 3 – Risk-taking (calculated).</b> They accept uncertainty but analyze risks before acting.</li><li><b>Step 4 – Creativity and innovation.</b> They find new solutions to customer problems.</li><li><b>Step 5 – Resilience.</b> They learn from failure and keep going.</li><li><b>Step 6 – Flexibility and adaptability.</b> They change plans when the market changes.</li><li><b>Step 7 – Leadership and communication.</b> They inspire a team, sell their idea and build relationships.</li><li><b>Step 8 – Willingness to learn.</b> They seek advice, feedback and new skills.</li></ol>
+<p><b>Remember:</b> Passion, drive, calculated risk, creativity, resilience, adaptability, leadership.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> উদ্যোক্তা হলেন যিনি ব্যবসা শুরু করেন, ঝুঁকি নেন এবং পুরস্কারের আশা করেন। গবেষণায় দেখা যায় অনেক সফল উদ্যোক্তার মধ্যে একই ধরনের বৈশিষ্ট্য আছে।</p>
+<ol><li><b>ধাপ ১ – আবেগ ও দূরদৃষ্টি।</b> নিজের আইডিয়ার প্রতি গভীর টান আছে এবং কোথায় পৌঁছানো যায় তা কল্পনা করতে পারেন।</li><li><b>ধাপ ২ – আত্মপ্রেরণা ও শৃঙ্খলা।</b> কোনো বস ঠেলে দেয় না; তিনি নিজেই লক্ষ্য ঠিক করে ধারাবাহিকভাবে পরিশ্রম করেন।</li><li><b>ধাপ ৩ – হিসেবি ঝুঁকি।</b> অনিশ্চয়তা মেনে নেন, কিন্তু কাজ করার আগে ঝুঁকি বিশ্লেষণ করেন।</li><li><b>ধাপ ৪ – সৃজনশীলতা ও উদ্ভাবন।</b> ক্রেতার সমস্যার নতুন সমাধান খুঁজে বের করেন।</li><li><b>ধাপ ৫ – দৃঢ়তা (resilience)।</b> ব্যর্থতা থেকে শেখেন ও এগিয়ে যান।</li><li><b>ধাপ ৬ – নমনীয়তা ও খাপ খাওয়ানো।</b> বাজার বদলালে পরিকল্পনা বদলান।</li><li><b>ধাপ ৭ – নেতৃত্ব ও যোগাযোগ।</b> দলকে অনুপ্রাণিত করেন, নিজের আইডিয়া বোঝান ও সম্পর্ক গড়েন।</li><li><b>ধাপ ৮ – শেখার ইচ্ছা।</b> পরামর্শ, প্রতিক্রিয়া ও নতুন দক্ষতা খোঁজেন।</li></ol>
+<p><b>মনে রাখো:</b> আবেগ, তাড়না, হিসেবি ঝুঁকি, সৃজনশীলতা, দৃঢ়তা, খাপ খাওয়ানো, নেতৃত্ব।</p></div></div>
+
+<!-- BIBS 8.3 -->
+<div class="q" id="b8-3"><span class="num">8.3</span>Discuss the advantages, disadvantages, and important considerations of starting a small business<span class="bn">ক্ষুদ্র ব্যবসা শুরুর সুবিধা, অসুবিধা ও গুরুত্বপূর্ণ বিবেচ্য বিষয়গুলো আলোচনা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> Before you jump into the water, check how deep it is. Starting a business is exciting but risky, so weigh both sides.</p>
+<ol><li><b>Step 1 – Advantages.</b> (a) Independence — be your own boss. (b) Unlimited profit potential. (c) Pursue your passion. (d) Flexibility in hours and decisions. (e) Personal satisfaction and creating jobs. (f) Tax benefits.</li><li><b>Step 2 – Disadvantages.</b> (a) Risk of failure and financial loss. (b) Long hours and heavy stress. (c) Uncertain, often irregular income at first. (d) You carry all responsibility. (e) Limited resources and few benefits (no paid leave, no employer insurance).</li><li><b>Step 3 – Considerations: personal.</b> Are you ready for the risk, the workload and the skills needed?</li><li><b>Step 4 – Considerations: market.</b> Is there real demand? Who are the competitors?</li><li><b>Step 5 – Considerations: money.</b> How much start-up capital and living costs can you cover?</li><li><b>Step 6 – Considerations: legal and time.</b> Choose a legal form, get licenses and prepare for the time commitment.</li></ol>
+<p><b>Remember:</b> Dream big, but test the idea and count the cost first.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> পানিতে ঝাঁপ দেওয়ার আগে কতটা গভীর দেখে নাও। ব্যবসা শুরু রোমাঞ্চকর কিন্তু ঝুঁকিপূর্ণ, তাই দুই দিকই ওজন করো।</p>
+<ol><li><b>ধাপ ১ – সুবিধা।</b> (ক) স্বাধীনতা — নিজেই নিজের বস। (খ) মুনাফার অসীম সম্ভাবনা। (গ) নিজের আগ্রহ অনুসরণ। (ঘ) সময় ও সিদ্ধান্তে নমনীয়তা। (ঙ) ব্যক্তিগত তৃপ্তি ও কর্মসংস্থান সৃষ্টি। (চ) করের সুবিধা।</li><li><b>ধাপ ২ – অসুবিধা।</b> (ক) ব্যর্থতা ও আর্থিক ক্ষতির ঝুঁকি। (খ) দীর্ঘ কাজের সময় ও বেশি চাপ। (গ) শুরুতে অনিশ্চিত, অনিয়মিত আয়। (ঘ) সব দায়িত্ব নিজের। (ঙ) সীমিত সম্পদ ও কম সুবিধা (ছুটির বেতন, নিয়োগকর্তার বিমা নেই)।</li><li><b>ধাপ ৩ – বিবেচনা: ব্যক্তিগত।</b> ঝুঁকি, কাজের চাপ ও প্রয়োজনীয় দক্ষতার জন্য প্রস্তুত তো?</li><li><b>ধাপ ৪ – বিবেচনা: বাজার।</b> সত্যিই চাহিদা আছে? প্রতিযোগী কারা?</li><li><b>ধাপ ৫ – বিবেচনা: টাকা।</b> শুরুর মূলধন ও নিজের জীবনযাত্রার খরচ কতটা চালাতে পারবে?</li><li><b>ধাপ ৬ – বিবেচনা: আইন ও সময়।</b> আইনি কাঠামো ঠিক করো, লাইসেন্স নাও এবং সময় দেওয়ার জন্য প্রস্তুত হও।</li></ol>
+<p><b>মনে রাখো:</b> বড় স্বপ্ন দেখো, কিন্তু আগে আইডিয়া পরীক্ষা করো ও খরচ গুনে নাও।</p></div></div>
+
+<!-- BIBS 8.4 -->
+<div class="q" id="b8-4"><span class="num">8.4</span>Describe the steps to starting a business<span class="bn">ব্যবসা শুরুর ধাপগুলো বর্ণনা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> Think of building a house: idea and plan first, then permission, then money, then construction, then opening day. Starting a business follows a similar path.</p>
+<ol><li><b>Step 1 – Develop the idea.</b> Find a product or service that solves a problem or meets a need.</li><li><b>Step 2 – Research the market.</b> Study customers, demand and competitors to test whether the idea can work.</li><li><b>Step 3 – Write a business plan.</b> Put goals, strategy and finances on paper.</li><li><b>Step 4 – Choose a legal structure.</b> Sole proprietorship, partnership, LLC or corporation.</li><li><b>Step 5 – Arrange funding.</b> Personal savings, loans, investors.</li><li><b>Step 6 – Choose name and location.</b> Register the business name and find a suitable place (shop or online).</li><li><b>Step 7 – Register and get licenses.</b> Register with the government, get tax ID, permits and licenses.</li><li><b>Step 8 – Set up operations and hire.</b> Buy equipment, set up systems and hire staff if needed.</li><li><b>Step 9 – Market and launch.</b> Tell customers, open the doors and keep improving based on feedback.</li></ol>
+<p><b>Remember:</b> Idea → research → plan → structure → funding → name/location → legal → operations → launch.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> বাড়ি বানানোর কথা ভাবো: আগে আইডিয়া ও নকশা, তারপর অনুমতি, তারপর টাকা, তারপর নির্মাণ, শেষে উদ্বোধন। ব্যবসা শুরুও একই পথে চলে।</p>
+<ol><li><b>ধাপ ১ – আইডিয়া তৈরি।</b> এমন পণ্য বা সেবা খোঁজো যা সমস্যার সমাধান করে বা চাহিদা মেটায়।</li><li><b>ধাপ ২ – বাজার গবেষণা।</b> আইডিয়া কাজ করবে কি না দেখতে ক্রেতা, চাহিদা ও প্রতিযোগী পরীক্ষা করো।</li><li><b>ধাপ ৩ – ব্যবসা পরিকল্পনা লেখো।</b> লক্ষ্য, কৌশল ও আর্থিক হিসাব কাগজে লেখো।</li><li><b>ধাপ ৪ – আইনি কাঠামো বাছো।</b> একক মালিকানা, অংশীদারি, LLC বা কর্পোরেশন।</li><li><b>ধাপ ৫ – অর্থায়ন ঠিক করো।</b> নিজের সঞ্চয়, ঋণ, বিনিয়োগকারী।</li><li><b>ধাপ ৬ – নাম ও স্থান ঠিক করো।</b> ব্যবসার নাম নিবন্ধন করো এবং উপযুক্ত জায়গা (দোকান বা অনলাইন) খোঁজো।</li><li><b>ধাপ ৭ – নিবন্ধন ও লাইসেন্স।</b> সরকারের কাছে নিবন্ধন, ট্যাক্স আইডি, পারমিট ও লাইসেন্স নাও।</li><li><b>ধাপ ৮ – কার্যক্রম সাজাও ও নিয়োগ দাও।</b> যন্ত্রপাতি কেনো, সিস্টেম তৈরি করো, প্রয়োজনে কর্মী নাও।</li><li><b>ধাপ ৯ – প্রচার ও উদ্বোধন।</b> ক্রেতাদের জানাও, দোকান খোলো এবং ফিডব্যাক অনুযায়ী উন্নতি করতে থাকো।</li></ol>
+<p><b>মনে রাখো:</b> আইডিয়া → গবেষণা → পরিকল্পনা → কাঠামো → অর্থায়ন → নাম/স্থান → আইনি → কার্যক্রম → উদ্বোধন।</p></div></div>
+
+<!-- BIBS 8.5 -->
+<div class="q" id="b8-5"><span class="num">8.5</span>List and describe the key components of a business plan<span class="bn">ব্যবসা পরিকল্পনার (business plan) মূল উপাদানগুলো তালিকাভুক্ত ও বর্ণনা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> A business plan is a roadmap. It shows where you want to go, how you will get there and how much fuel (money) you need. Banks and investors read it before they give money.</p>
+<ol><li><b>Step 1 – Executive summary.</b> One-page overview of the whole plan; written last but placed first.</li><li><b>Step 2 – Company description.</b> What the business is, its mission, legal form and goals.</li><li><b>Step 3 – Market analysis.</b> The industry, target customers and competitors.</li><li><b>Step 4 – Products or services.</b> What you sell and what makes it better or different.</li><li><b>Step 5 – Marketing and sales strategy.</b> How you will reach and persuade customers (price, promotion, place).</li><li><b>Step 6 – Operations and management.</b> How the business runs day to day, and who the management team is.</li><li><b>Step 7 – Financial plan.</b> Start-up costs, sales forecasts, expected profit and cash flow.</li><li><b>Step 8 – Funding request and appendix.</b> How much money is needed and for what, plus supporting documents.</li></ol>
+<p><b>Remember:</b> A plan forces you to think things through and convinces lenders.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> ব্যবসা পরিকল্পনা একটা মানচিত্র। কোথায় যেতে চাও, কীভাবে যাবে এবং কত জ্বালানি (টাকা) লাগবে তা দেখায়। ব্যাংক ও বিনিয়োগকারী টাকা দেওয়ার আগে এটি পড়ে।</p>
+<ol><li><b>ধাপ ১ – নির্বাহী সারসংক্ষেপ।</b> পুরো পরিকল্পনার এক পৃষ্ঠার সারাংশ; লেখা হয় শেষে কিন্তু বসে প্রথমে।</li><li><b>ধাপ ২ – কোম্পানির বিবরণ।</b> ব্যবসাটি কী, তার মিশন, আইনি রূপ ও লক্ষ্য।</li><li><b>ধাপ ৩ – বাজার বিশ্লেষণ।</b> শিল্প, লক্ষ্য ক্রেতা ও প্রতিযোগী।</li><li><b>ধাপ ৪ – পণ্য বা সেবা।</b> কী বিক্রি করবে এবং কী একে ভালো বা আলাদা করে।</li><li><b>ধাপ ৫ – মার্কেটিং ও বিক্রয় কৌশল।</b> ক্রেতার কাছে কীভাবে পৌঁছাবে ও রাজি করাবে (দাম, প্রচার, স্থান)।</li><li><b>ধাপ ৬ – পরিচালনা ও ব্যবস্থাপনা।</b> ব্যবসা প্রতিদিন কীভাবে চলবে এবং ম্যানেজমেন্ট টিম কারা।</li><li><b>ধাপ ৭ – আর্থিক পরিকল্পনা।</b> শুরুর খরচ, বিক্রির পূর্বাভাস, প্রত্যাশিত মুনাফা ও ক্যাশ ফ্লো।</li><li><b>ধাপ ৮ – অর্থের অনুরোধ ও পরিশিষ্ট।</b> কত টাকা ও কীসের জন্য লাগবে, এবং সহায়ক কাগজপত্র।</li></ol>
+<p><b>মনে রাখো:</b> পরিকল্পনা তোমাকে ভালোভাবে ভাবতে বাধ্য করে এবং ঋণদাতাদের বিশ্বাস জোগায়।</p></div></div>
+
+<h2 class="unit-hd" id="bu9" data-short="Units 14 &amp; 15">Set 9 · Units 14 &amp; 15 — Management<span class="bn">সেট ৯ · ইউনিট ১৪ ও ১৫ — ম্যানেজমেন্ট</span></h2>
+<!-- BIBS 9.1 -->
+<div class="q" id="b9-1"><span class="num">9.1</span>Describe the three levels of management and the key skills needed by managers<span class="bn">ম্যানেজমেন্টের তিনটি স্তর এবং ম্যানেজারদের প্রয়োজনীয় মূল দক্ষতাগুলো বর্ণনা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> Think of a ship: the captain decides the destination, the officers plan the route for each section, and the crew do the daily work. Management has three levels in the same way.</p>
+<ol><li><b>Step 1 – Top-level managers.</b> CEO, president, vice presidents. They set the company's overall direction (strategic planning) and long-term goals.</li><li><b>Step 2 – Middle managers.</b> Department or division heads. They turn top-level plans into specific plans (tactical) for their units.</li><li><b>Step 3 – First-line (supervisory) managers.</b> Supervisors and team leaders. They manage employees' daily work (operational) and report upward.</li><li><b>Step 4 – Technical skill.</b> Knowing how to do a specific job. Most important for first-line managers.</li><li><b>Step 5 – Human (interpersonal) skill.</b> Communicating, motivating and working with people. Important at all levels.</li><li><b>Step 6 – Conceptual skill.</b> Seeing the big picture and thinking strategically. Most important for top managers.</li><li><b>Step 7 – Also needed.</b> Decision-making and time management.</li></ol>
+<table><thead><tr><th>Level</th><th>Focus</th><th>Skill most needed</th></tr></thead><tbody><tr><td>Top</td><td>Strategy, long-term</td><td>Conceptual</td></tr><tr><td>Middle</td><td>Tactics, departments</td><td>Human (balanced)</td></tr><tr><td>First-line</td><td>Daily operations</td><td>Technical</td></tr></tbody></table></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> একটা জাহাজের কথা ভাবো: ক্যাপ্টেন গন্তব্য ঠিক করেন, অফিসাররা প্রতিটি অংশের পথ পরিকল্পনা করেন, আর নাবিকরা প্রতিদিনের কাজ করেন। ম্যানেজমেন্টও একইভাবে তিন স্তরের।</p>
+<ol><li><b>ধাপ ১ – শীর্ষ স্তরের ম্যানেজার।</b> CEO, প্রেসিডেন্ট, ভাইস প্রেসিডেন্ট। কোম্পানির সামগ্রিক দিশা (কৌশলগত পরিকল্পনা) ও দীর্ঘমেয়াদি লক্ষ্য ঠিক করেন।</li><li><b>ধাপ ২ – মধ্যম স্তরের ম্যানেজার।</b> বিভাগীয় প্রধান। শীর্ষ স্তরের পরিকল্পনাকে নিজ নিজ ইউনিটের নির্দিষ্ট (tactical) পরিকল্পনায় রূপ দেন।</li><li><b>ধাপ ৩ – প্রথম সারির (সুপারভাইজর) ম্যানেজার।</b> সুপারভাইজর ও টিম লিডার। কর্মীদের প্রতিদিনের কাজ (operational) পরিচালনা করেন ও ওপরে রিপোর্ট করেন।</li><li><b>ধাপ ৪ – কারিগরি দক্ষতা।</b> নির্দিষ্ট কাজ কীভাবে করতে হয় তা জানা। প্রথম সারির ম্যানেজারের জন্য সবচেয়ে গুরুত্বপূর্ণ।</li><li><b>ধাপ ৫ – মানবিক (আন্তঃব্যক্তিক) দক্ষতা।</b> যোগাযোগ, অনুপ্রেরণা ও মানুষের সাথে কাজ। সব স্তরে গুরুত্বপূর্ণ।</li><li><b>ধাপ ৬ – ধারণাগত দক্ষতা।</b> বড় চিত্র দেখা ও কৌশলগত চিন্তা। শীর্ষ ম্যানেজারদের জন্য সবচেয়ে গুরুত্বপূর্ণ।</li><li><b>ধাপ ৭ – আরও প্রয়োজন।</b> সিদ্ধান্ত গ্রহণ ও সময় ব্যবস্থাপনা।</li></ol>
+<table><thead><tr><th>স্তর</th><th>মনোযোগ</th><th>সবচেয়ে প্রয়োজনীয় দক্ষতা</th></tr></thead><tbody><tr><td>শীর্ষ</td><td>কৌশল, দীর্ঘমেয়াদি</td><td>ধারণাগত</td></tr><tr><td>মধ্যম</td><td>কৌশল বাস্তবায়ন, বিভাগ</td><td>মানবিক (ভারসাম্য)</td></tr><tr><td>প্রথম সারি</td><td>দৈনন্দিন কাজ</td><td>কারিগরি</td></tr></tbody></table></div></div>
+
+<!-- BIBS 9.2 -->
+<div class="q" id="b9-2"><span class="num">9.2</span>Summarize the development of management theory and the key functions of management today<span class="bn">ম্যানেজমেন্ট তত্ত্বের বিকাশ এবং বর্তমানে ম্যানেজমেন্টের মূল কার্যাবলি সংক্ষেপে বর্ণনা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> Ideas about managing people changed over time — from treating workers like machines, to treating them like humans, to adapting to each situation.</p>
+<ol><li><b>Step 1 – Classical theories (early 1900s).</b> Scientific management (Frederick Taylor) found the "one best way" to do tasks to raise efficiency. Administrative theory (Henri Fayol) described management functions and principles. Bureaucracy (Max Weber) stressed rules and a clear hierarchy.</li><li><b>Step 2 – Human relations (1920s–50s).</b> The Hawthorne studies (Elton Mayo) showed that attention and social needs motivate workers. Maslow's hierarchy and McGregor's Theory X (workers dislike work) and Theory Y (workers want responsibility) followed.</li><li><b>Step 3 – Modern approaches.</b> Systems theory (organization as connected parts), contingency theory (no one best way — it depends on the situation) and quality management (Deming, continuous improvement).</li><li><b>Step 4 – Four key functions today.</b> <b>Planning</b> (set goals and decide how to reach them), <b>Organizing</b> (arrange people and resources), <b>Leading</b> (guide and motivate), <b>Controlling</b> (check results and correct).</li></ol>
+<p><b>Remember:</b> POLC = Planning, Organizing, Leading, Controlling.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> মানুষ পরিচালনার ধারণা সময়ের সাথে বদলেছে — কর্মীকে যন্ত্রের মতো দেখা থেকে মানুষ হিসেবে দেখা, তারপর প্রতিটি পরিস্থিতি অনুযায়ী মানিয়ে নেওয়া।</p>
+<ol><li><b>ধাপ ১ – ক্লাসিক্যাল তত্ত্ব (বিংশ শতকের শুরু)।</b> বৈজ্ঞানিক ব্যবস্থাপনা (ফ্রেডেরিক টেইলর) দক্ষতা বাড়াতে কাজের "একটি সেরা পদ্ধতি" খুঁজেছেন। প্রশাসনিক তত্ত্ব (অঁরি ফেওল) ম্যানেজমেন্টের কার্যাবলি ও নীতি বর্ণনা করেছেন। আমলাতন্ত্র (ম্যাক্স ওয়েবার) নিয়ম ও স্পষ্ট স্তরবিন্যাসের ওপর জোর দিয়েছেন।</li><li><b>ধাপ ২ – মানবসম্পর্ক (১৯২০–৫০-এর দশক)।</b> হথর্ন গবেষণা (এলটন মেয়ো) দেখিয়েছে মনোযোগ ও সামাজিক চাহিদা কর্মীকে অনুপ্রাণিত করে। এরপর ম্যাসলোর চাহিদা স্তর এবং ম্যাকগ্রেগরের থিওরি X (কর্মী কাজ অপছন্দ করে) ও থিওরি Y (কর্মী দায়িত্ব চায়) আসে।</li><li><b>ধাপ ৩ – আধুনিক পদ্ধতি।</b> সিস্টেম তত্ত্ব (সংগঠন যুক্ত অংশের সমষ্টি), কন্টিনজেন্সি তত্ত্ব (একটিমাত্র সেরা উপায় নেই — পরিস্থিতির ওপর নির্ভর করে) এবং মান ব্যবস্থাপনা (ডেমিং, ধারাবাহিক উন্নতি)।</li><li><b>ধাপ ৪ – আজকের চারটি মূল কার্যাবলি।</b> <b>পরিকল্পনা</b> (লক্ষ্য ঠিক ও পৌঁছানোর উপায়), <b>সংগঠন</b> (মানুষ ও সম্পদ সাজানো), <b>নেতৃত্ব</b> (পথ দেখানো ও অনুপ্রাণিত করা), <b>নিয়ন্ত্রণ</b> (ফল যাচাই ও সংশোধন)।</li></ol>
+<p><b>মনে রাখো:</b> POLC = পরিকল্পনা, সংগঠন, নেতৃত্ব, নিয়ন্ত্রণ।</p></div></div>
+
+<!-- BIBS 9.3 -->
+<div class="q" id="b9-3"><span class="num">9.3</span>Identify the types of planning and decision-making managers engage in, and explain how these help organizations reach their goals<span class="bn">ম্যানেজাররা যে ধরনের পরিকল্পনা ও সিদ্ধান্ত গ্রহণে জড়িত তা চিহ্নিত করো এবং এগুলো কীভাবে প্রতিষ্ঠানকে লক্ষ্যে পৌঁছাতে সাহায্য করে তা ব্যাখ্যা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> Planning answers "Where are we going and how will we get there?" Decision-making is choosing the best path at each turn.</p>
+<ol><li><b>Step 1 – Strategic planning.</b> Long-term (3–5+ years), company-wide, by top managers. Starts with a mission and vision. Example: expand into three new countries.</li><li><b>Step 2 – Tactical planning.</b> Medium-term plans (1–3 years) by middle managers to carry out the strategy for departments.</li><li><b>Step 3 – Operational planning.</b> Short-term, day-to-day or monthly plans by first-line managers.</li><li><b>Step 4 – Contingency planning.</b> A backup plan for when things go wrong (a crisis).</li><li><b>Step 5 – Decision-making process.</b> (1) Identify the problem, (2) gather information, (3) list alternatives, (4) evaluate them, (5) choose the best, (6) implement, (7) review the result.</li><li><b>Step 6 – Types of decisions.</b> Programmed (routine, rule-based) and non-programmed (new, unusual, needs judgment).</li><li><b>Step 7 – How it helps.</b> Planning gives direction and focus, uses resources wisely and prepares for change. Good decisions turn plans into results.</li></ol>
+<p><b>Remember:</b> Strategic → Tactical → Operational: from long-term to day-to-day.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> পরিকল্পনা উত্তর দেয় "আমরা কোথায় যাচ্ছি এবং কীভাবে পৌঁছাব?" সিদ্ধান্ত গ্রহণ হলো প্রতিটি মোড়ে সেরা পথটি বেছে নেওয়া।</p>
+<ol><li><b>ধাপ ১ – কৌশলগত পরিকল্পনা।</b> দীর্ঘমেয়াদি (৩–৫+ বছর), পুরো কোম্পানির জন্য, শীর্ষ ম্যানেজারদের। শুরু হয় মিশন ও ভিশন দিয়ে। উদাহরণ: তিনটি নতুন দেশে সম্প্রসারণ।</li><li><b>ধাপ ২ – কৌশল-বাস্তবায়ন পরিকল্পনা (tactical)।</b> মধ্যম ম্যানেজারদের মাঝারি মেয়াদি (১–৩ বছর) পরিকল্পনা, বিভাগের জন্য কৌশল বাস্তবায়নে।</li><li><b>ধাপ ৩ – পরিচালনামূলক পরিকল্পনা (operational)।</b> প্রথম সারির ম্যানেজারদের স্বল্পমেয়াদি, দৈনিক বা মাসিক পরিকল্পনা।</li><li><b>ধাপ ৪ – আকস্মিক পরিকল্পনা (contingency)।</b> কিছু ভুল হলে (সংকটে) বিকল্প পরিকল্পনা।</li><li><b>ধাপ ৫ – সিদ্ধান্ত গ্রহণের প্রক্রিয়া।</b> (১) সমস্যা চিহ্নিত, (২) তথ্য সংগ্রহ, (৩) বিকল্পের তালিকা, (৪) মূল্যায়ন, (৫) সেরাটি বাছাই, (৬) বাস্তবায়ন, (৭) ফল পর্যালোচনা।</li><li><b>ধাপ ৬ – সিদ্ধান্তের ধরন।</b> প্রোগ্রামড (নিয়মিত, নিয়মভিত্তিক) ও নন-প্রোগ্রামড (নতুন, অস্বাভাবিক, বিচারবুদ্ধি লাগে)।</li><li><b>ধাপ ৭ – কীভাবে সাহায্য করে।</b> পরিকল্পনা দিশা ও ফোকাস দেয়, সম্পদ বুদ্ধিমানের মতো ব্যবহার করে ও পরিবর্তনের জন্য প্রস্তুত রাখে। ভালো সিদ্ধান্ত পরিকল্পনাকে ফলাফলে রূপ দেয়।</li></ol>
+<p><b>মনে রাখো:</b> কৌশলগত → tactical → operational: দীর্ঘমেয়াদি থেকে দৈনন্দিন।</p></div></div>
+
+<!-- BIBS 9.4 -->
+<div class="q" id="b9-4"><span class="num">9.4</span>Describe the organizing function of management and common types of organizational structure<span class="bn">ম্যানেজমেন্টের সংগঠন কার্যাবলি এবং সাংগঠনিক কাঠামোর প্রচলিত ধরনগুলো বর্ণনা করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> Once the plan is ready, someone has to decide who does what and who reports to whom. That is organizing — like arranging players on a football field.</p>
+<ol><li><b>Step 1 – Define the work.</b> Break the goal into tasks and jobs (division of labor).</li><li><b>Step 2 – Group the jobs.</b> Departmentalization: group by function, product, geography or customer.</li><li><b>Step 3 – Assign authority.</b> Set the chain of command (who reports to whom) and span of control (how many people one manager supervises). Decide how much power is centralized (top) or decentralized (shared down the line).</li><li><b>Step 4 – Coordinate.</b> Make sure departments work together.</li><li><b>Step 5 – Common structures.</b></li></ol>
+<table><thead><tr><th>Structure</th><th>How it is arranged</th><th>Good for</th></tr></thead><tbody><tr><td>Functional</td><td>By function (marketing, finance, HR)</td><td>Efficiency, clear skills</td></tr><tr><td>Divisional</td><td>By product, region or customer</td><td>Large, diverse firms</td></tr><tr><td>Matrix</td><td>Employees report to both a function and a project manager</td><td>Complex projects</td></tr><tr><td>Flat vs tall</td><td>Few vs many management layers</td><td>Flat: speed; tall: control</td></tr></tbody></table>
+<p><b>Remember:</b> Organizing = tasks + grouping + authority + coordination.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> পরিকল্পনা তৈরি হলে ঠিক করতে হয় কে কী করবে এবং কে কার কাছে রিপোর্ট করবে। এটাই সংগঠন — ফুটবল মাঠে খেলোয়াড় সাজানোর মতো।</p>
+<ol><li><b>ধাপ ১ – কাজ নির্ধারণ।</b> লক্ষ্যকে কাজ ও চাকরিতে ভাগ করো (শ্রম বিভাজন)।</li><li><b>ধাপ ২ – কাজ দলবদ্ধ করা।</b> বিভাগীকরণ (departmentalization): কার্যক্ষেত্র, পণ্য, ভৌগোলিক এলাকা বা ক্রেতা অনুযায়ী।</li><li><b>ধাপ ৩ – কর্তৃত্ব বণ্টন।</b> কমান্ডের শৃঙ্খল (কে কার কাছে রিপোর্ট করে) ও নিয়ন্ত্রণের পরিধি (এক ম্যানেজার কতজনকে তদারকি করেন) ঠিক করো। ক্ষমতা কেন্দ্রীভূত (ওপরে) না বিকেন্দ্রীভূত (নিচে ভাগ করা) হবে তা ঠিক করো।</li><li><b>ধাপ ৪ – সমন্বয়।</b> বিভাগগুলো যেন একসাথে কাজ করে তা নিশ্চিত করো।</li><li><b>ধাপ ৫ – প্রচলিত কাঠামো।</b></li></ol>
+<table><thead><tr><th>কাঠামো</th><th>কীভাবে সাজানো</th><th>কোথায় ভালো</th></tr></thead><tbody><tr><td>ফাংশনাল</td><td>কার্যক্ষেত্র অনুযায়ী (মার্কেটিং, ফাইন্যান্স, HR)</td><td>দক্ষতা, স্পষ্ট দক্ষতা</td></tr><tr><td>ডিভিশনাল</td><td>পণ্য, অঞ্চল বা ক্রেতা অনুযায়ী</td><td>বড়, বৈচিত্র্যময় প্রতিষ্ঠান</td></tr><tr><td>ম্যাট্রিক্স</td><td>কর্মী ফাংশন ও প্রকল্প ম্যানেজার — দুজনের কাছেই রিপোর্ট করে</td><td>জটিল প্রকল্প</td></tr><tr><td>ফ্ল্যাট বনাম টল</td><td>কম বনাম বেশি ব্যবস্থাপনা স্তর</td><td>ফ্ল্যাট: গতি; টল: নিয়ন্ত্রণ</td></tr></tbody></table>
+<p><b>মনে রাখো:</b> সংগঠন = কাজ + দলবদ্ধ করা + কর্তৃত্ব + সমন্বয়।</p></div></div>
+
+<!-- BIBS 9.5 -->
+<div class="q" id="b9-5"><span class="num">9.5</span>Describe common management and leadership styles, and identify the circumstances under which they are most effective<span class="bn">প্রচলিত ব্যবস্থাপনা ও নেতৃত্ব শৈলীগুলো বর্ণনা করো এবং কোন পরিস্থিতিতে কোনটি সবচেয়ে কার্যকর তা চিহ্নিত করো</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> A leader can be like a commander, a team captain or a coach. No single style is best — the right style depends on people and situation.</p>
+<ol><li><b>Step 1 – Autocratic (authoritarian).</b> The leader decides alone and tells others what to do. Most effective in an emergency, with inexperienced workers, or when quick decisions are needed.</li><li><b>Step 2 – Democratic (participative).</b> The leader asks for ideas and shares decisions. Effective with skilled, motivated teams and when creativity and commitment matter.</li><li><b>Step 3 – Laissez-faire (free-rein).</b> The leader gives almost full freedom and little guidance. Works with highly skilled, self-motivated experts. Poor when people need direction.</li><li><b>Step 4 – Others.</b> Transformational leaders inspire people with a vision; transactional leaders use rewards and punishments; servant leaders put the team's needs first.</li><li><b>Step 5 – Choose wisely.</b> Good managers adapt their style to the task, the people and the time available.</li></ol>
+<table><thead><tr><th>Style</th><th>Decision-making</th><th>Best when</th></tr></thead><tbody><tr><td>Autocratic</td><td>Leader alone</td><td>Crisis, new workers</td></tr><tr><td>Democratic</td><td>Shared</td><td>Skilled team, need ideas</td></tr><tr><td>Laissez-faire</td><td>Employees</td><td>Expert, self-driven team</td></tr></tbody></table></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> একজন নেতা কমান্ডার, টিম ক্যাপ্টেন বা কোচের মতো হতে পারেন। কোনো একটি শৈলী সেরা নয় — সঠিক শৈলী মানুষ ও পরিস্থিতির ওপর নির্ভর করে।</p>
+<ol><li><b>ধাপ ১ – স্বৈরতান্ত্রিক (autocratic)।</b> নেতা একাই সিদ্ধান্ত নেন ও অন্যদের কী করতে হবে বলেন। জরুরি অবস্থায়, অনভিজ্ঞ কর্মীদের সাথে বা দ্রুত সিদ্ধান্তের সময় সবচেয়ে কার্যকর।</li><li><b>ধাপ ২ – গণতান্ত্রিক (democratic)।</b> নেতা মতামত নেন ও সিদ্ধান্ত ভাগ করেন। দক্ষ, অনুপ্রাণিত দলের সাথে এবং সৃজনশীলতা ও প্রতিশ্রুতি গুরুত্বপূর্ণ হলে কার্যকর।</li><li><b>ধাপ ৩ – লেসে-ফেয়ার (laissez-faire)।</b> নেতা প্রায় পূর্ণ স্বাধীনতা ও সামান্য নির্দেশনা দেন। অত্যন্ত দক্ষ, স্বপ্রণোদিত বিশেষজ্ঞদের সাথে কাজ করে। মানুষের দিকনির্দেশনা দরকার হলে ভালো নয়।</li><li><b>ধাপ ৪ – অন্যান্য।</b> ট্রান্সফরমেশনাল নেতা ভিশন দিয়ে অনুপ্রাণিত করেন; ট্রানজ্যাকশনাল নেতা পুরস্কার ও শাস্তি ব্যবহার করেন; সার্ভেন্ট লিডার দলের প্রয়োজনকে আগে রাখেন।</li><li><b>ধাপ ৫ – বুদ্ধিমানের মতো বাছো।</b> ভালো ম্যানেজার কাজ, মানুষ ও হাতে থাকা সময় অনুযায়ী শৈলী মানিয়ে নেন।</li></ol>
+<table><thead><tr><th>শৈলী</th><th>সিদ্ধান্ত কে নেয়</th><th>কখন সেরা</th></tr></thead><tbody><tr><td>স্বৈরতান্ত্রিক</td><td>নেতা একা</td><td>সংকট, নতুন কর্মী</td></tr><tr><td>গণতান্ত্রিক</td><td>ভাগাভাগি</td><td>দক্ষ দল, আইডিয়া দরকার</td></tr><tr><td>লেসে-ফেয়ার</td><td>কর্মীরা</td><td>বিশেষজ্ঞ, স্বপ্রণোদিত দল</td></tr></tbody></table></div></div>
+
+<!-- BIBS 9.6 -->
+<div class="q" id="b9-6"><span class="num">9.6</span>Explain why control is an essential part of effective management, and outline the steps of the control process<span class="bn">কেন নিয়ন্ত্রণ কার্যকর ম্যানেজমেন্টের অপরিহার্য অংশ তা ব্যাখ্যা করো এবং নিয়ন্ত্রণ প্রক্রিয়ার ধাপগুলোর রূপরেখা দাও</span></div>
+<div class="pair">
+<div class="en"><span class="tag">English</span>
+<p><b>Concept:</b> Think of driving. You set a destination, watch the speedometer and map, and correct the steering when you drift. Control is the same for a business: check progress and correct course.</p>
+<ol><li><b>Step 1 – Why control matters.</b> Without it plans may fail unnoticed. Control checks that goals are being met, finds problems early, reduces waste, ensures quality and keeps people accountable.</li><li><b>Step 2 – Set standards.</b> Decide what success looks like (sales target, quality level, cost limit).</li><li><b>Step 3 – Measure actual performance.</b> Collect data on what is really happening.</li><li><b>Step 4 – Compare.</b> Compare actual results with the standards to find any gap (variance).</li><li><b>Step 5 – Take corrective action.</b> If results are below standard, fix the cause (retrain staff, change process); if they are above standard, learn from it and perhaps raise the standard.</li><li><b>Step 6 – Types of control.</b> Feedforward (prevent problems before they happen), concurrent (while work is going on) and feedback (after the work is done).</li></ol>
+<p><b>Example:</b> A restaurant targets 90% customer satisfaction. A survey shows 75%. Managers find slow service and add staff — corrective action.</p>
+<p><b>Remember:</b> Set standards → measure → compare → correct.</p></div>
+<div class="bn-box"><span class="tag">বাংলা</span>
+<p><b>ধারণা:</b> গাড়ি চালানোর কথা ভাবো। গন্তব্য ঠিক করো, স্পিডোমিটার ও ম্যাপ দেখো, আর পথ থেকে সরলে স্টিয়ারিং ঠিক করো। ব্যবসার নিয়ন্ত্রণও তাই: অগ্রগতি যাচাই করা ও পথ সংশোধন।</p>
+<ol><li><b>ধাপ ১ – নিয়ন্ত্রণ কেন গুরুত্বপূর্ণ।</b> এটি না থাকলে পরিকল্পনা নীরবে ব্যর্থ হতে পারে। নিয়ন্ত্রণ লক্ষ্য পূরণ হচ্ছে কি না যাচাই করে, সমস্যা আগেই ধরে, অপচয় কমায়, মান নিশ্চিত করে এবং জবাবদিহি আনে।</li><li><b>ধাপ ২ – মান (standard) ঠিক করো।</b> সাফল্য কেমন হবে তা ঠিক করো (বিক্রির লক্ষ্য, মানের স্তর, খরচের সীমা)।</li><li><b>ধাপ ৩ – প্রকৃত কর্মক্ষমতা মাপো।</b> বাস্তবে কী ঘটছে তার তথ্য সংগ্রহ করো।</li><li><b>ধাপ ৪ – তুলনা করো।</b> প্রকৃত ফলাফলকে মানের সাথে মিলিয়ে ফাঁক (variance) খোঁজো।</li><li><b>ধাপ ৫ – সংশোধনমূলক পদক্ষেপ নাও।</b> ফল মানের নিচে হলে কারণ ঠিক করো (কর্মী পুনঃপ্রশিক্ষণ, প্রক্রিয়া বদল); মানের ওপরে হলে তা থেকে শিখে প্রয়োজনে মান বাড়াও।</li><li><b>ধাপ ৬ – নিয়ন্ত্রণের ধরন।</b> ফিডফরওয়ার্ড (সমস্যা হওয়ার আগে প্রতিরোধ), কনকারেন্ট (কাজ চলাকালীন) এবং ফিডব্যাক (কাজ শেষে)।</li></ol>
+<p><b>উদাহরণ:</b> একটি রেস্তোরাঁর লক্ষ্য ৯০% গ্রাহক সন্তুষ্টি। জরিপে এলো ৭৫%। ম্যানেজাররা ধীর সেবা খুঁজে পেয়ে কর্মী বাড়ালেন — এটি সংশোধনমূলক পদক্ষেপ।</p>
+<p><b>মনে রাখো:</b> মান ঠিক → মাপো → তুলনা → সংশোধন।</p></div></div>
+
+
+<div class="tip end-tip"><span class="head">Exam strategy · পরীক্ষার কৌশল</span><br>
+For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or points</b>, (3) add <b>one real example</b>. This pattern earns marks in almost every business question.<br>
+প্রতিটি উত্তরে: (১) <b>সংজ্ঞা</b> দাও, (২) <b>স্পষ্ট ধাপ বা পয়েন্টে</b> ব্যাখ্যা করো, (৩) <b>একটি বাস্তব উদাহরণ</b> দাও। প্রায় সব ব্যবসা-প্রশ্নে এই ধরন নম্বর এনে দেয়।</div>
+</section>
+</div>
       <footer>Study notes to help you understand — write your assignment in your own words. · বোঝার জন্য নোট — অ্যাসাইনমেন্ট নিজের ভাষায় লেখো।</footer>
     </div>
   </main>
@@ -2483,8 +3166,8 @@ For every Economics answer: (1) Give a clear <b>definition</b>, (2) Draw a <b>di
   /* ---------- Midterm question cards ---------- */
   var qnav = $('.qnav'); if (qnav) qnav.remove();
   var learned = store.get('isgs-learned', {});
-  var cards = [];
-  $$('#midterm .q, #fpec101 .q').forEach(function (q) {
+  var cards = [], bcards = [];
+  $$('#midterm .q, #fpec101 .q, #bibs101 .q').forEach(function (q) {
     var card = document.createElement('article');
     card.className = 'qcard';
     var id = q.id; q.removeAttribute('id'); card.id = id;
@@ -2503,7 +3186,7 @@ For every Economics answer: (1) Give a clear <b>definition</b>, (2) Draw a <b>di
     q.parentNode.insertBefore(card, q);
     card.appendChild(q); card.appendChild(body);
     // move following siblings into body until next question or the closing tip
-    while (card.nextElementSibling && !card.nextElementSibling.classList.contains('q') && !card.nextElementSibling.classList.contains('end-tip')) {
+    while (card.nextElementSibling && !card.nextElementSibling.classList.contains('q') && !card.nextElementSibling.classList.contains('end-tip') && !card.nextElementSibling.classList.contains('unit-hd')) {
       body.appendChild(card.nextElementSibling);
     }
 
@@ -2530,7 +3213,7 @@ For every Economics answer: (1) Give a clear <b>definition</b>, (2) Draw a <b>di
     card._toggle = toggle;
     q.addEventListener('click', function () { toggle(); });
     q.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); } });
-    cards.push(card);
+    (id.charAt(0) === 'b' ? bcards : cards).push(card);
   });
 
   /* ---------- Toolbar ---------- */
@@ -2538,6 +3221,8 @@ For every Economics answer: (1) Give a clear <b>definition</b>, (2) Draw a <b>di
   function updateCounter() {
     var c = cards.filter(function (k) { return k.classList.contains('done'); }).length;
     if (counter) counter.innerHTML = '<b>' + c + '</b> / ' + cards.length + ' learned';
+    var bd = bcards.filter(function (k) { return k.classList.contains('done'); }).length;
+    if (bCounter) bCounter.innerHTML = '<b>' + bd + '</b> / ' + bcards.length + ' learned';
     $$('.qgrid a').forEach(function (a) {
       var card = document.getElementById(a.getAttribute('href').slice(1));
       a.classList.toggle('done', !!(card && card.classList.contains('done')));
@@ -2552,9 +3237,35 @@ For every Economics answer: (1) Give a clear <b>definition</b>, (2) Draw a <b>di
     cards.forEach(function (c) { c.classList.remove('revealed'); if (on) c._toggle(true); });
   });
   $('#resetLearned').addEventListener('click', function () {
-    learned = {}; store.set('isgs-learned', learned);
+    Object.keys(learned).forEach(function (k) { if (k.charAt(0) !== 'b') delete learned[k]; }); store.set('isgs-learned', learned);
     cards.forEach(function (c) { c.classList.remove('done'); var i = $('.learn input', c); if (i) i.checked = false; });
     updateCounter();
+  });
+
+  /* ---------- BIBS toolbar ---------- */
+  var bCounter = $('#bLearnedCount');
+  $('#bExpandAll').addEventListener('click', function () { bcards.forEach(function (c) { c._toggle(true); }); });
+  $('#bCollapseAll').addEventListener('click', function () { bcards.forEach(function (c) { c._toggle(false); }); });
+  var bSelfBtn = $('#bSelfTest');
+  bSelfBtn.addEventListener('click', function () {
+    var on = document.body.classList.toggle('selftest');
+    bSelfBtn.classList.toggle('on', on);
+    bcards.forEach(function (c) { c.classList.remove('revealed'); if (on) c._toggle(true); });
+  });
+  $('#bResetLearned').addEventListener('click', function () {
+    Object.keys(learned).forEach(function (k) { if (k.charAt(0) === 'b') delete learned[k]; }); store.set('isgs-learned', learned);
+    bcards.forEach(function (c) { c.classList.remove('done'); var i = $('.learn input', c); if (i) i.checked = false; });
+    updateCounter();
+  });
+  var bSearch = $('#bSearch'), bEmpty = $('#bEmptyMsg');
+  bSearch.addEventListener('input', function () {
+    var term = bSearch.value.trim().toLowerCase(), shown = 0;
+    bcards.forEach(function (c) {
+      var hit = !term || c.textContent.toLowerCase().indexOf(term) !== -1;
+      c.style.display = hit ? '' : 'none';
+      if (hit) { shown++; if (term) c._toggle(true); }
+    });
+    bEmpty.style.display = shown ? 'none' : 'block';
   });
 
   var search = $('#qSearch'), empty = $('#emptyMsg');
@@ -2597,8 +3308,19 @@ For every Economics answer: (1) Give a clear <b>definition</b>, (2) Draw a <b>di
     grid2.appendChild(a); spyTargets.push(c);
   });
   nav.appendChild(tag(grid2, 'fpec'));
-  var hQuiz = document.createElement('h4'); hQuiz.textContent = '📝 Quiz · স্ব-পরীক্ষা'; nav.appendChild(tag(hQuiz, 'isgs fpec'));
-  var quizLink = document.createElement('a'); quizLink.href = '#s-quiz'; quizLink.textContent = 'Start Quiz'; nav.appendChild(tag(quizLink, 'isgs fpec')); spyTargets.push(document.getElementById('s-quiz'));
+  $$('#bibs101 .unit-hd').forEach(function (hd) {
+    var unit = hd.id.replace('bu', 'b') + '-';
+    var h4 = document.createElement('h4'); h4.textContent = 'BIBS · ' + hd.getAttribute('data-short'); nav.appendChild(tag(h4, 'bibs'));
+    var g = document.createElement('div'); g.className = 'qgrid';
+    bcards.filter(function (c) { return c.id.indexOf(unit) === 0; }).forEach(function (c) {
+      var a = document.createElement('a'); a.href = '#' + c.id; a.textContent = c.id.slice(1).replace('-', '.');
+      a.title = $('.qtext', c).childNodes[0].textContent.trim();
+      g.appendChild(a); spyTargets.push(c);
+    });
+    nav.appendChild(tag(g, 'bibs'));
+  });
+  var hQuiz = document.createElement('h4'); hQuiz.textContent = '📝 Quiz · স্ব-পরীক্ষা'; nav.appendChild(tag(hQuiz, 'isgs fpec bibs'));
+  var quizLink = document.createElement('a'); quizLink.href = '#s-quiz'; quizLink.textContent = 'Start Quiz'; nav.appendChild(tag(quizLink, 'isgs fpec bibs')); spyTargets.push(document.getElementById('s-quiz'));
   updateCounter();
 
   /* ---------- Subject switcher ---------- */
@@ -2631,6 +3353,9 @@ For every Economics answer: (1) Give a clear <b>definition</b>, (2) Draw a <b>di
     var s = SUBJECTS.filter(function (x) { return x.key === key; })[0];
     $('#brandName').textContent = s ? s.code + ' Study Guide' : 'IOU Study Guide';
     $('#brandSub').textContent = s ? s.name : 'Choose a subject';
+    document.body.classList.remove('selftest');
+    $$('#selfTest, #bSelfTest').forEach(function (b) { b.classList.remove('on'); });
+    document.dispatchEvent(new CustomEvent('subjectchange', { detail: key }));
   }
   function route() {
     var id = decodeURIComponent(location.hash.slice(1));
@@ -2692,6 +3417,59 @@ For every Economics answer: (1) Give a clear <b>definition</b>, (2) Draw a <b>di
 
   /* ═══════════════════════ QUIZ ENGINE ═══════════════════════ */
   var QUIZ_DB = {
+    bibs: [
+      { q: "Which best describes a business?", qbn: "ব্যবসা বলতে কোনটি সবচেয়ে ভালো বোঝায়?", opts: ["An organization that provides goods or services to customers in exchange for money", "A government office that collects taxes", "Only a company that makes physical products", "A group of friends who meet regularly"], ans: 0, exp: "A business is an organization that provides goods or services in exchange for money. It can sell products or services, and usually aims to earn a profit.", expbn: "ব্যবসা হলো এমন প্রতিষ্ঠান যা অর্থের বিনিময়ে পণ্য বা সেবা দেয়। এটি পণ্য বা সেবা – দুটোই বিক্রি করতে পারে এবং সাধারণত মুনাফা করতে চায়।" },
+      { q: "What is the key difference between a for-profit and a nonprofit organization?", qbn: "মুনাফাভিত্তিক ও অলাভজনক প্রতিষ্ঠানের মূল পার্থক্য কী?", opts: ["Nonprofits are never allowed to earn any money", "For-profits share surplus with owners; nonprofits use surplus for their mission", "For-profits never pay taxes", "Nonprofits have no employees"], ans: 1, exp: "For-profits distribute profit to owners or shareholders. Nonprofits may earn a surplus but must reinvest it in their mission.", expbn: "মুনাফাভিত্তিক প্রতিষ্ঠান মুনাফা মালিক বা শেয়ারহোল্ডারদের দেয়। অলাভজনক প্রতিষ্ঠান উদ্বৃত্ত করতে পারে, কিন্তু তা মিশনেই ফিরিয়ে দিতে হয়।" },
+      { q: "Which of the following is NOT one of the four factors of production?", qbn: "নিচের কোনটি উৎপাদনের চার উপাদানের মধ্যে পড়ে না?", opts: ["Land", "Labor", "Advertising", "Entrepreneurship"], ans: 2, exp: "The four factors are land (natural resources), labor, capital and entrepreneurship. Advertising is a marketing activity, not a factor of production.", expbn: "চার উপাদান হলো ভূমি (প্রাকৃতিক সম্পদ), শ্রম, মূলধন ও উদ্যোক্তা। বিজ্ঞাপন একটি মার্কেটিং কাজ, উৎপাদনের উপাদান নয়।" },
+      { q: "Which functional area is mainly responsible for recruiting, training and motivating employees?", qbn: "কর্মী নিয়োগ, প্রশিক্ষণ ও অনুপ্রেরণার প্রধান দায়িত্ব কোন বিভাগের?", opts: ["Finance", "Human Resources", "Operations", "Accounting"], ans: 1, exp: "Human Resources (HR) hires, trains, pays and motivates employees. Finance manages money, operations produces goods, and accounting records transactions.", expbn: "মানবসম্পদ (HR) কর্মী নিয়োগ, প্রশিক্ষণ, বেতন ও অনুপ্রেরণা দেয়। ফাইন্যান্স অর্থ সামলায়, অপারেশনস উৎপাদন করে, অ্যাকাউন্টিং লেনদেন লিখে রাখে।" },
+      { q: "A bank that lends money to a company is which type of stakeholder?", qbn: "যে ব্যাংক কোনো কোম্পানিকে ঋণ দেয়, সে কোন ধরনের স্টেকহোল্ডার?", opts: ["Customer", "Creditor (lender)", "Employee", "Competitor"], ans: 1, exp: "A lender or creditor provides money and expects it back with interest, so the bank is a creditor stakeholder.", expbn: "ঋণদাতা বা পাওনাদার টাকা দেয় এবং সুদসহ ফেরত চায়, তাই ব্যাংক একটি ঋণদাতা স্টেকহোল্ডার।" },
+      { q: "A new law that raises business taxes is an example of which external force?", qbn: "ব্যবসায়িক কর বাড়ানোর নতুন আইন কোন বাহ্যিক শক্তির উদাহরণ?", opts: ["Technological force", "Political and legal force", "Social force", "Natural force"], ans: 1, exp: "Laws, taxes and regulations come from government, so they are political and legal forces.", expbn: "আইন, কর ও বিধিবিধান সরকারের কাছ থেকে আসে, তাই এগুলো রাজনৈতিক ও আইনি শক্তি।" },
+      { q: "What problem does economics mainly address?", qbn: "অর্থনীতি মূলত কোন সমস্যা নিয়ে কাজ করে?", opts: ["Unlimited resources and limited wants", "Scarce resources and unlimited wants", "Too much money in the economy", "Only government spending"], ans: 1, exp: "Economics studies how we make choices because resources are scarce while human wants are unlimited.", expbn: "সম্পদ দুর্লভ কিন্তু চাহিদা অসীম — তাই আমরা কীভাবে বেছে নিই, অর্থনীতি তা নিয়ে আলোচনা করে।" },
+      { q: "In which economic system does the government own most resources and make most decisions?", qbn: "কোন অর্থনৈতিক ব্যবস্থায় সরকার বেশির ভাগ সম্পদের মালিক এবং বেশির ভাগ সিদ্ধান্ত নেয়?", opts: ["Market economy", "Command economy", "Mixed economy", "Traditional economy"], ans: 1, exp: "In a command (planned) economy the government owns resources and decides what, how and for whom to produce.", expbn: "নির্দেশিত (পরিকল্পিত) অর্থনীতিতে সরকার সম্পদের মালিক এবং কী, কীভাবে ও কার জন্য উৎপাদন হবে তা ঠিক করে।" },
+      { q: "According to the law of demand, if the price of a good rises (ceteris paribus), what happens?", qbn: "চাহিদার সূত্র অনুযায়ী (অন্য সব স্থির), কোনো পণ্যের দাম বাড়লে কী হয়?", opts: ["Quantity demanded rises", "Quantity demanded falls", "Supply falls", "Nothing changes"], ans: 1, exp: "The law of demand states an inverse relationship: higher price means lower quantity demanded.", expbn: "চাহিদার সূত্র বিপরীত সম্পর্ক বোঝায়: দাম বাড়লে চাহিদার পরিমাণ কমে।" },
+      { q: "The supply curve normally slopes upward because:", qbn: "জোগান রেখা সাধারণত ঊর্ধ্বমুখী হয় কারণ:", opts: ["Higher prices give producers more incentive to supply more", "Consumers buy more at higher prices", "Costs always fall when prices rise", "Governments control supply"], ans: 0, exp: "A higher price increases profit, so producers are willing to supply a greater quantity.", expbn: "দাম বাড়লে মুনাফা বাড়ে, তাই উৎপাদকরা বেশি পরিমাণ জোগান দিতে রাজি হয়।" },
+      { q: "If the market price is set below the equilibrium price, what results?", qbn: "বাজারদাম ভারসাম্য দামের নিচে হলে কী হয়?", opts: ["A surplus", "A shortage", "Equilibrium", "A fall in demand curve"], ans: 1, exp: "At a price below equilibrium, quantity demanded exceeds quantity supplied, which creates a shortage.", expbn: "ভারসাম্য দামের নিচে চাহিদার পরিমাণ জোগানের চেয়ে বেশি হয়, ফলে ঘাটতি দেখা দেয়।" },
+      { q: "Which indicator measures the total value of all final goods and services produced in a country in a year?", qbn: "এক বছরে একটি দেশে উৎপাদিত সব চূড়ান্ত পণ্য ও সেবার মোট মূল্য কোন সূচক মাপে?", opts: ["CPI", "Unemployment rate", "GDP", "Interest rate"], ans: 2, exp: "GDP (Gross Domestic Product) measures the total value of final goods and services produced within a country in a year.", expbn: "GDP (মোট দেশজ উৎপাদন) এক বছরে দেশের ভেতরে উৎপাদিত সব চূড়ান্ত পণ্য ও সেবার মোট মূল্য মাপে।" },
+      { q: "During which stage of the business cycle do GDP and employment fall?", qbn: "ব্যবসা চক্রের কোন পর্যায়ে GDP ও কর্মসংস্থান কমে?", opts: ["Expansion", "Peak", "Contraction", "Trough"], ans: 2, exp: "In a contraction (recession), GDP falls, unemployment rises and spending drops. The trough is the lowest point at the end of it.", expbn: "সংকোচন (মন্দা) পর্যায়ে GDP কমে, বেকারত্ব বাড়ে ও খরচ কমে। তলানি হলো এর শেষের সর্বনিম্ন বিন্দু।" },
+      { q: "Why do countries specialize in what they produce best and trade with others?", qbn: "কেন দেশগুলো যা সবচেয়ে ভালো বানাতে পারে তাতে বিশেষায়ন করে এবং অন্যদের সাথে বাণিজ্য করে?", opts: ["So that everyone gets more goods at lower cost", "To stop imports completely", "To make every country identical", "To reduce the variety of goods"], ans: 0, exp: "Specialization based on comparative advantage lets countries produce efficiently, and trade gives everyone more goods at lower prices.", expbn: "তুলনামূলক সুবিধার ভিত্তিতে বিশেষায়ন দেশগুলোকে দক্ষভাবে উৎপাদনে সাহায্য করে; বাণিজ্যে সবাই কম দামে বেশি পণ্য পায়।" },
+      { q: "A country has exports of $400 billion and imports of $550 billion. What is its balance of trade?", qbn: "একটি দেশের রপ্তানি ৪০০ বিলিয়ন ডলার এবং আমদানি ৫৫০ বিলিয়ন ডলার। এর বাণিজ্য ভারসাম্য কত?", opts: ["Surplus of $150 billion", "Deficit of $150 billion", "Surplus of $950 billion", "Balanced"], ans: 1, exp: "Balance of trade = exports − imports = 400 − 550 = −150, which is a trade deficit of $150 billion.", expbn: "বাণিজ্য ভারসাম্য = রপ্তানি − আমদানি = ৪০০ − ৫৫০ = −১৫০, অর্থাৎ ১৫০ বিলিয়ন ডলার বাণিজ্য ঘাটতি।" },
+      { q: "Which global market strategy involves the HIGHEST level of investment and risk?", qbn: "কোন বৈশ্বিক বাজার কৌশলে বিনিয়োগ ও ঝুঁকি সবচেয়ে বেশি?", opts: ["Exporting", "Licensing", "Foreign direct investment", "Contract manufacturing"], ans: 2, exp: "FDI means building or buying your own operations abroad, giving the most control but the highest cost and risk. Exporting is the lowest-risk strategy.", expbn: "FDI মানে বিদেশে নিজস্ব কার্যক্রম গড়া বা কেনা — নিয়ন্ত্রণ সবচেয়ে বেশি, কিন্তু খরচ ও ঝুঁকিও সবচেয়ে বেশি। রপ্তানি সবচেয়ে কম ঝুঁকির কৌশল।" },
+      { q: "A government tax placed on imported goods is called a:", qbn: "আমদানি করা পণ্যের ওপর সরকারের আরোপিত করকে কী বলে?", opts: ["Quota", "Tariff", "Subsidy", "Embargo"], ans: 1, exp: "A tariff is a tax on imports. A quota limits quantity, an embargo bans trade, and a subsidy is government financial help to local producers.", expbn: "শুল্ক (tariff) হলো আমদানির ওপর কর। কোটা পরিমাণ সীমিত করে, নিষেধাজ্ঞা বাণিজ্য বন্ধ করে, ভর্তুকি স্থানীয় উৎপাদককে সরকারি সহায়তা।" },
+      { q: "Which organization is mainly responsible for setting global trade rules and settling trade disputes between countries?", qbn: "কোন সংগঠন প্রধানত বৈশ্বিক বাণিজ্যের নিয়ম তৈরি ও দেশগুলোর মধ্যে বাণিজ্য বিরোধ নিষ্পত্তি করে?", opts: ["International Monetary Fund (IMF)", "World Bank", "World Trade Organization (WTO)", "United Nations Children's Fund"], ans: 2, exp: "The WTO sets and enforces global trade rules and settles disputes. The IMF focuses on monetary stability and the World Bank on development loans.", expbn: "WTO বৈশ্বিক বাণিজ্যের নিয়ম তৈরি, কার্যকর ও বিরোধ নিষ্পত্তি করে। IMF আর্থিক স্থিতিশীলতা এবং বিশ্বব্যাংক উন্নয়ন ঋণ নিয়ে কাজ করে।" },
+      { q: "Which U.S. law makes it illegal for U.S. companies to bribe foreign officials?", qbn: "কোন মার্কিন আইন মার্কিন কোম্পানির বিদেশি কর্মকর্তাকে ঘুষ দেওয়া বেআইনি করেছে?", opts: ["Sherman Antitrust Act", "Foreign Corrupt Practices Act (FCPA)", "Clayton Act", "Consumer Product Safety Act"], ans: 1, exp: "The Foreign Corrupt Practices Act (FCPA) prohibits U.S. companies from bribing foreign officials, even where bribery is common.", expbn: "Foreign Corrupt Practices Act (FCPA) মার্কিন কোম্পানিকে বিদেশি কর্মকর্তাকে ঘুষ দিতে নিষেধ করে, এমনকি যেখানে ঘুষ প্রচলিত সেখানেও।" },
+      { q: "Which of the following is NOT a function of money?", qbn: "নিচের কোনটি অর্থের কাজ নয়?", opts: ["Medium of exchange", "Store of value", "Unit of account", "Creating scarcity"], ans: 3, exp: "Money works as a medium of exchange, a store of value and a unit of account. Creating scarcity is not a function of money.", expbn: "অর্থ বিনিময়ের মাধ্যম, মূল্য সংরক্ষণ ও হিসাবের একক হিসেবে কাজ করে। দুর্লভতা সৃষ্টি করা অর্থের কাজ নয়।" },
+      { q: "What is the central bank of the United States called?", qbn: "যুক্তরাষ্ট্রের কেন্দ্রীয় ব্যাংকের নাম কী?", opts: ["The FDIC", "The Federal Reserve", "The World Bank", "The Treasury Department"], ans: 1, exp: "The Federal Reserve (the Fed) is the U.S. central bank. The FDIC only insures deposits.", expbn: "ফেডারেল রিজার্ভ (ফেড) যুক্তরাষ্ট্রের কেন্দ্রীয় ব্যাংক। FDIC শুধু আমানত বিমা করে।" },
+      { q: "Selling shares of stock to investors is an example of:", qbn: "বিনিয়োগকারীদের কাছে স্টকের শেয়ার বিক্রি কিসের উদাহরণ?", opts: ["Debt financing", "Equity financing", "Trade credit", "A bank loan"], ans: 1, exp: "Selling stock gives investors ownership in return for money, which is equity financing. No repayment is required.", expbn: "স্টক বিক্রি করলে বিনিয়োগকারী টাকার বিনিময়ে মালিকানা পায় — এটি ইক্যুইটি অর্থায়ন। শোধ করতে হয় না।" },
+      { q: "Which is NOT a main purpose of law?", qbn: "নিচের কোনটি আইনের প্রধান উদ্দেশ্য নয়?", opts: ["Maintain order", "Protect rights", "Resolve disputes", "Guarantee every business a profit"], ans: 3, exp: "Law maintains order, protects rights and resolves disputes. It cannot guarantee profit to any business.", expbn: "আইন শৃঙ্খলা রক্ষা করে, অধিকার রক্ষা করে ও বিরোধ মেটায়। কোনো ব্যবসাকে মুনাফার নিশ্চয়তা দেওয়া আইনের কাজ নয়।" },
+      { q: "Common law is primarily created by:", qbn: "কমন ল প্রধানত কে তৈরি করে?", opts: ["Congress", "Judges through court decisions", "The president", "Business owners"], ans: 1, exp: "Common law develops from judges' decisions and precedent. Statutory law is created by legislatures.", expbn: "কমন ল বিচারকদের রায় ও নজির থেকে গড়ে ওঠে। স্ট্যাচুটরি আইন আইনসভা তৈরি করে।" },
+      { q: "A company sells a toy with a design that is unsafe for children. This is most closely related to:", qbn: "একটি কোম্পানি এমন খেলনা বিক্রি করে যার নকশা শিশুদের জন্য অনিরাপদ। এটি সবচেয়ে বেশি কিসের সাথে সম্পর্কিত?", opts: ["Statutory copyright", "Product liability (tort law)", "Antitrust law", "Contract breach"], ans: 1, exp: "An unsafe product design is a design defect, which falls under product liability, a part of tort law.", expbn: "অনিরাপদ নকশা একটি নকশা ত্রুটি, যা টর্ট আইনের অংশ পণ্য দায়বদ্ধতার আওতায় পড়ে।" },
+      { q: "Which form of intellectual property protects a company's logo and brand name?", qbn: "কোন মেধাস্বত্ব কোম্পানির লোগো ও ব্র্যান্ড নাম রক্ষা করে?", opts: ["Patent", "Copyright", "Trademark", "Warranty"], ans: 2, exp: "A trademark protects names, logos and slogans that identify a brand. Patents protect inventions and copyrights protect creative works.", expbn: "ট্রেডমার্ক ব্র্যান্ডের নাম, লোগো ও স্লোগান রক্ষা করে। পেটেন্ট আবিষ্কার ও কপিরাইট সৃজনশীল রচনা রক্ষা করে।" },
+      { q: "A warranty that exists automatically under the law, even if the seller says nothing, is called:", qbn: "বিক্রেতা কিছু না বললেও আইন অনুযায়ী স্বয়ংক্রিয়ভাবে থাকে এমন ওয়ারেন্টিকে বলে:", opts: ["Express warranty", "Implied warranty", "Limited warranty", "Extended warranty"], ans: 1, exp: "An implied warranty, such as merchantability, arises by law without any statement from the seller.", expbn: "অন্তর্নিহিত ওয়ারেন্টি (যেমন merchantability) বিক্রেতার কথা ছাড়াই আইন অনুযায়ী তৈরি হয়।" },
+      { q: "Which of the following is NOT an element of a legally enforceable contract?", qbn: "নিচের কোনটি আইনত বাধ্যতামূলক চুক্তির উপাদান নয়?", opts: ["Offer and acceptance", "Consideration", "Legal purpose", "A guarantee of profit for both parties"], ans: 3, exp: "A valid contract needs offer, acceptance, consideration, capacity, legality and genuine consent. A profit guarantee is not required.", expbn: "বৈধ চুক্তিতে প্রস্তাব, গ্রহণ, বিনিময়, সামর্থ্য, বৈধতা ও প্রকৃত সম্মতি লাগে। উভয়ের মুনাফার নিশ্চয়তা লাগে না।" },
+      { q: "Which law, passed in 1890, was the first major U.S. antitrust law?", qbn: "১৮৯০ সালে পাস হওয়া কোন আইনটি যুক্তরাষ্ট্রের প্রথম বড় অ্যান্টিট্রাস্ট আইন?", opts: ["Clayton Act", "Sherman Act", "Truth in Lending Act", "Consumer Product Safety Act"], ans: 1, exp: "The Sherman Act of 1890 outlawed monopolization and agreements that restrain trade. The Clayton Act came in 1914.", expbn: "১৮৯০ সালের শারম্যান অ্যাক্ট একচেটিয়া দখল ও বাণিজ্য সীমিতকারী চুক্তি নিষিদ্ধ করে। ক্লেটন অ্যাক্ট এসেছে ১৯১৪ সালে।" },
+      { q: "Which statement is correct?", qbn: "কোন বিবৃতিটি সঠিক?", opts: ["Everything legal is automatically ethical", "Some actions can be legal but still unethical", "Ethics are enforced by courts", "Laws and ethics are identical"], ans: 1, exp: "An action can follow the law yet still be unfair or dishonest, so it is legal but unethical.", expbn: "কোনো কাজ আইন মেনেও অন্যায্য বা অসৎ হতে পারে — তখন তা আইনি কিন্তু অনৈতিক।" },
+      { q: "A written document that states a company's values and rules of conduct is called a:", qbn: "কোম্পানির মূল্যবোধ ও আচরণের নিয়ম লেখা দলিলকে কী বলে?", opts: ["Balance sheet", "Code of ethics", "Business plan", "Warranty"], ans: 1, exp: "A code of ethics sets out the values and rules employees should follow. It is a basic step to encourage ethical behavior.", expbn: "আচরণবিধি (code of ethics) কর্মীদের অনুসরণীয় মূল্যবোধ ও নিয়ম নির্ধারণ করে। নৈতিক আচরণ উৎসাহিত করার এটি একটি প্রাথমিক পদক্ষেপ।" },
+      { q: "Which of the following is an example of a conflict of interest?", qbn: "নিচের কোনটি স্বার্থের দ্বন্দ্বের উদাহরণ?", opts: ["A manager gives a contract to a firm owned by her brother instead of a better, cheaper supplier", "An employee attends ethics training", "A company publishes its code of ethics", "A worker reports fraud"], ans: 0, exp: "A conflict of interest happens when personal interests, like family ties, interfere with a professional duty to choose the best option for the company.", expbn: "ব্যক্তিগত স্বার্থ (যেমন পারিবারিক সম্পর্ক) যখন কোম্পানির জন্য সেরা সিদ্ধান্ত নেওয়ার পেশাদার দায়িত্বে বাধা দেয়, তখন স্বার্থের দ্বন্দ্ব হয়।" },
+      { q: "The 'triple bottom line' measures a company's success using:", qbn: "'ট্রিপল বটম লাইন' কোম্পানির সাফল্য মাপে কোনগুলো দিয়ে?", opts: ["Price, product, place", "People, planet, profit", "Sales, stock, savings", "Law, license, loan"], ans: 1, exp: "The triple bottom line looks at social (people), environmental (planet) and financial (profit) results.", expbn: "ট্রিপল বটম লাইন সামাজিক (people), পরিবেশগত (planet) ও আর্থিক (profit) ফলাফল দেখে।" },
+      { q: "Which factor concerns whether the owner's personal assets can be taken to pay business debts?", qbn: "ব্যবসার ঋণ শোধে মালিকের ব্যক্তিগত সম্পদ নেওয়া যাবে কি না — কোন বিষয়টি এটি নিয়ে?", opts: ["Continuity", "Liability", "Taxation", "Number of owners"], ans: 1, exp: "Liability describes how much personal risk the owner bears for the business's debts and legal problems.", expbn: "দায় (liability) বোঝায় ব্যবসার ঋণ ও আইনি সমস্যায় মালিক কতটা ব্যক্তিগত ঝুঁকি বহন করে।" },
+      { q: "A major disadvantage of a sole proprietorship is:", qbn: "একক মালিকানার একটি প্রধান অসুবিধা হলো:", opts: ["Complex taxes", "Unlimited personal liability", "Owner must share profit with shareholders", "Strict corporate regulation"], ans: 1, exp: "The owner is personally responsible for all business debts, so personal assets are at risk.", expbn: "মালিক ব্যবসার সব ঋণের জন্য ব্যক্তিগতভাবে দায়ী, তাই ব্যক্তিগত সম্পদ ঝুঁকিতে থাকে।" },
+      { q: "In a general partnership, the partners:", qbn: "সাধারণ অংশীদারিতে অংশীদাররা:", opts: ["Have limited liability", "Share management and have unlimited liability", "Cannot share profits", "Are never taxed"], ans: 1, exp: "General partners share management and are personally liable for the partnership's debts.", expbn: "সাধারণ অংশীদাররা পরিচালনা ভাগ করে এবং অংশীদারির ঋণের জন্য ব্যক্তিগতভাবে দায়ী।" },
+      { q: "'Double taxation' is a disadvantage of which business form?", qbn: "'দ্বৈত কর' কোন ধরনের ব্যবসার অসুবিধা?", opts: ["Sole proprietorship", "General partnership", "C corporation", "Franchise agreement"], ans: 2, exp: "A regular (C) corporation pays tax on profits, and shareholders pay tax again on dividends — double taxation.", expbn: "সাধারণ (C) কর্পোরেশন মুনাফার ওপর কর দেয়, আবার শেয়ারহোল্ডার লভ্যাংশে কর দেয় — এটিই দ্বৈত কর।" },
+      { q: "What is a key advantage of an LLC?", qbn: "LLC-র একটি মূল সুবিধা কী?", opts: ["Unlimited liability for owners", "Limited liability with pass-through taxation", "Ability to have unlimited shareholders on public markets", "Double taxation"], ans: 1, exp: "An LLC combines limited liability protection with pass-through taxation and flexible management.", expbn: "LLC সীমিত দায়ের সুরক্ষা, pass-through কর এবং নমনীয় ব্যবস্থাপনা একসাথে দেয়।" },
+      { q: "In a franchise, the party that owns the brand and sells the right to use it is called the:", qbn: "ফ্র্যাঞ্চাইজিতে যে পক্ষ ব্র্যান্ডের মালিক এবং ব্যবহারের অধিকার বিক্রি করে তাকে বলে:", opts: ["Franchisee", "Franchisor", "Shareholder", "Creditor"], ans: 1, exp: "The franchisor owns the brand and licenses it to the franchisee, who pays fees and royalties.", expbn: "ফ্র্যাঞ্চাইজর ব্র্যান্ডের মালিক এবং ফ্র্যাঞ্চাইজিকে লাইসেন্স দেয়; ফ্র্যাঞ্চাইজি ফি ও রয়্যালটি দেয়।" },
+      { q: "When one company buys another and takes control, it is called a(n):", qbn: "এক কোম্পানি আরেকটি কিনে নিয়ন্ত্রণ নিলে তাকে কী বলে?", opts: ["Merger of equals", "Acquisition", "Franchise", "Partnership"], ans: 1, exp: "In an acquisition one company buys and controls another. In a merger two companies agree to combine into one.", expbn: "অ্যাকুইজিশনে এক কোম্পানি আরেকটি কিনে নিয়ন্ত্রণ নেয়। মার্জারে দুটি কোম্পানি একত্র হয়ে একটি হয়।" },
+      { q: "Small businesses make up approximately what share of all U.S. firms?", qbn: "মার্কিন প্রতিষ্ঠানের মধ্যে ক্ষুদ্র ব্যবসার আনুমানিক অংশ কত?", opts: ["About 10%", "About 50%", "About 75%", "About 99.9%"], ans: 3, exp: "Small businesses are about 99.9% of U.S. firms and employ roughly half of private-sector workers.", expbn: "মার্কিন প্রতিষ্ঠানের প্রায় ৯৯.৯% ক্ষুদ্র ব্যবসা এবং বেসরকারি খাতের প্রায় অর্ধেক কর্মী সেখানে কাজ করে।" },
+      { q: "Which trait best describes an entrepreneur who learns from failure and keeps trying?", qbn: "যে উদ্যোক্তা ব্যর্থতা থেকে শিখে চেষ্টা চালিয়ে যান, তার জন্য কোন বৈশিষ্ট্যটি সবচেয়ে প্রযোজ্য?", opts: ["Resilience", "Procrastination", "Risk avoidance", "Dependence"], ans: 0, exp: "Resilience means recovering from setbacks and continuing, a key trait of successful entrepreneurs.", expbn: "Resilience মানে বাধা কাটিয়ে ওঠা ও এগিয়ে যাওয়া — সফল উদ্যোক্তাদের একটি মূল বৈশিষ্ট্য।" },
+      { q: "Which is a common disadvantage of starting a small business?", qbn: "ক্ষুদ্র ব্যবসা শুরুর একটি প্রচলিত অসুবিধা কোনটি?", opts: ["Being your own boss", "Risk of financial loss and long hours", "Unlimited profit potential", "Flexibility"], ans: 1, exp: "Business owners often face financial risk and long working hours. The other options are advantages.", expbn: "ব্যবসার মালিকদের প্রায়ই আর্থিক ঝুঁকি ও দীর্ঘ কাজের সময়ের মুখোমুখি হতে হয়। অন্য অপশনগুলো সুবিধা।" },
+      { q: "Which step should come BEFORE writing a business plan?", qbn: "ব্যবসা পরিকল্পনা লেখার আগে কোন ধাপটি আসা উচিত?", opts: ["Hiring employees", "Researching the market to test the idea", "Opening the doors to customers", "Buying equipment"], ans: 1, exp: "You should develop the idea and research the market first, so the business plan is based on real information.", expbn: "আগে আইডিয়া তৈরি ও বাজার গবেষণা করা উচিত, যাতে ব্যবসা পরিকল্পনা বাস্তব তথ্যের ওপর দাঁড়ায়।" },
+      { q: "Which section of a business plan is a short overview of the entire plan and is usually written last?", qbn: "ব্যবসা পরিকল্পনার কোন অংশটি পুরো পরিকল্পনার সংক্ষিপ্ত সারাংশ এবং সাধারণত শেষে লেখা হয়?", opts: ["Financial plan", "Executive summary", "Appendix", "Market analysis"], ans: 1, exp: "The executive summary gives a one-page overview of the whole plan. It appears first but is written last.", expbn: "নির্বাহী সারসংক্ষেপ পুরো পরিকল্পনার এক পৃষ্ঠার সারাংশ। এটি প্রথমে বসে কিন্তু লেখা হয় শেষে।" },
+      { q: "Which level of management focuses on long-term strategic planning?", qbn: "ম্যানেজমেন্টের কোন স্তর দীর্ঘমেয়াদি কৌশলগত পরিকল্পনায় মনোযোগ দেয়?", opts: ["First-line managers", "Middle managers", "Top-level managers", "Employees"], ans: 2, exp: "Top-level managers such as the CEO set the company's strategy and long-term goals.", expbn: "CEO-র মতো শীর্ষ স্তরের ম্যানেজাররা কোম্পানির কৌশল ও দীর্ঘমেয়াদি লক্ষ্য ঠিক করেন।" },
+      { q: "Which of the following is NOT one of the four functions of management?", qbn: "নিচের কোনটি ম্যানেজমেন্টের চারটি কার্যাবলির একটি নয়?", opts: ["Planning", "Organizing", "Advertising", "Controlling"], ans: 2, exp: "The four functions are planning, organizing, leading and controlling. Advertising is a marketing activity.", expbn: "চারটি কার্যাবলি হলো পরিকল্পনা, সংগঠন, নেতৃত্ব ও নিয়ন্ত্রণ। বিজ্ঞাপন মার্কেটিংয়ের কাজ।" },
+      { q: "A backup plan used when something goes wrong, such as a crisis, is called:", qbn: "কিছু ভুল হলে (যেমন সংকটে) ব্যবহারের জন্য রাখা বিকল্প পরিকল্পনাকে বলে:", opts: ["Strategic plan", "Operational plan", "Contingency plan", "Business plan"], ans: 2, exp: "Contingency planning prepares alternative actions in case the original plan fails or a crisis occurs.", expbn: "আকস্মিক (contingency) পরিকল্পনা মূল পরিকল্পনা ব্যর্থ হলে বা সংকট এলে বিকল্প পদক্ষেপ প্রস্তুত রাখে।" },
+      { q: "In which organizational structure do employees report to both a functional manager and a project manager?", qbn: "কোন সাংগঠনিক কাঠামোতে কর্মী ফাংশনাল ম্যানেজার ও প্রকল্প ম্যানেজার — উভয়ের কাছে রিপোর্ট করে?", opts: ["Functional", "Divisional", "Matrix", "Flat"], ans: 2, exp: "In a matrix structure, employees have two bosses: a functional manager and a project manager.", expbn: "ম্যাট্রিক্স কাঠামোতে কর্মীর দুজন বস থাকে: ফাংশনাল ম্যানেজার ও প্রকল্প ম্যানেজার।" },
+      { q: "During an emergency when a quick decision is needed, which leadership style is usually most effective?", qbn: "জরুরি অবস্থায় দ্রুত সিদ্ধান্ত দরকার হলে কোন নেতৃত্ব শৈলী সাধারণত সবচেয়ে কার্যকর?", opts: ["Laissez-faire", "Democratic", "Autocratic", "No leadership"], ans: 2, exp: "Autocratic leadership allows fast, decisive action, which suits emergencies. Democratic and laissez-faire styles are slower or less directive.", expbn: "স্বৈরতান্ত্রিক নেতৃত্ব দ্রুত ও দৃঢ় পদক্ষেপ নিতে দেয়, যা জরুরি অবস্থায় মানানসই। গণতান্ত্রিক ও লেসে-ফেয়ার শৈলী ধীর বা কম নির্দেশমূলক।" },
+      { q: "What is the step that comes right AFTER measuring actual performance in the control process?", qbn: "নিয়ন্ত্রণ প্রক্রিয়ায় প্রকৃত কর্মক্ষমতা মাপার ঠিক পরের ধাপ কোনটি?", opts: ["Setting standards", "Comparing performance against the standards", "Planning strategy", "Hiring staff"], ans: 1, exp: "The control process: set standards, measure performance, compare with standards, then take corrective action.", expbn: "নিয়ন্ত্রণ প্রক্রিয়া: মান ঠিক করা, কর্মক্ষমতা মাপা, মানের সাথে তুলনা, তারপর সংশোধনমূলক পদক্ষেপ।" }
+    ],
     isgs: [
       { q: "What is Tawheed?", qbn: "তাওহীদ কী?", opts: ["Believing in multiple gods","Oneness of Allah (Monotheism)","Islamic Law","Prophethood"], ans: 1, exp: "Tawheed means affirming that Allah alone is One — in His existence, attributes, and right to worship. It is the foundation of Islamic faith.", expbn: "তাওহীদ মানে আল্লাহর একত্ব — সত্তায়, গুণাবলিতে এবং ইবাদতের অধিকারে একমাত্র আল্লাহ। এটি ইসলামের মূল ভিত্তি।" },
       { q: "What is Shirk?", qbn: "শিরক কী?", opts: ["Praying five times","Associating partners with Allah","Fasting in Ramadan","Giving charity"], ans: 1, exp: "Shirk means associating partners with Allah in worship or attributes — it is the greatest sin in Islam that Allah does not forgive if one dies in that state.", expbn: "শিরক হলো ইবাদতে বা গুণাবলিতে আল্লাহর সাথে কাউকে শরিক করা। এটি ইসলামের সবচেয়ে বড় গুনাহ।" },
@@ -2748,7 +3526,7 @@ For every Economics answer: (1) Give a clear <b>definition</b>, (2) Draw a <b>di
 
   function buildQuizSet(set) {
     if (set === 'all') {
-      return shuffleArr(QUIZ_DB.isgs.concat(QUIZ_DB.fpec));
+      return shuffleArr(QUIZ_DB.isgs.concat(QUIZ_DB.fpec, QUIZ_DB.bibs));
     }
     return shuffleArr(QUIZ_DB[set] || QUIZ_DB.isgs);
   }
@@ -2775,6 +3553,14 @@ For every Economics answer: (1) Give a clear <b>definition</b>, (2) Draw a <b>di
 
     btnNext.addEventListener('click', nextQuestion);
   }
+
+  function syncQuizTab(key) {
+    if (!QUIZ_DB[key]) return;
+    $$('.qtab').forEach(function (b) { b.classList.toggle('active', b.getAttribute('data-set') === key); });
+    qState.set = key;
+  }
+  document.addEventListener('subjectchange', function (e) { syncQuizTab(e.detail); });
+  syncQuizTab(current);
 
   function startQuiz() {
     qState.questions = buildQuizSet(qState.set);
