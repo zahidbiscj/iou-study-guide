@@ -500,7 +500,7 @@ body.lang-bn .mq-en { display: none !important; }
       </section>
 
 <section id="midterm" class="part" data-part="midterm">
-<a class="back-link" href="#subject-isgs">← ISGS 101 menu · মেনুতে ফিরে যাও</a>
+<a class="back-link" href="#isgs-assignment">Assignment guide (step by step) → · অ্যাসাইনমেন্ট গাইড</a>
 <h1 class="chapter">Part 2 — Midterm Study Questions (1–40)</h1>
 <div class="chapter-bn">পর্ব ২ — মিডটার্মের প্রশ্ন ও উত্তর (১–৪০)</div>
 
@@ -3303,7 +3303,7 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
     sec.innerHTML = '';
     var root = document.createElement('div'); root.className = 'wiz';
     root.innerHTML =
-      '<a class="back-link" href="#subject-isgs">← ISGS 101 menu · মেনুতে ফিরে যাও</a>' +
+      '<a class="back-link" href="#isgs-midterm">← Midterm Q&A · মিডটার্ম</a>' +
       '<div class="wiz-top"><div class="wiz-chips"></div><div class="wiz-bar"><i></i></div><div class="wiz-meta"></div></div>' +
       '<div class="wiz-head"></div><div class="wiz-body"></div>' +
       '<div class="wiz-nav"><button class="btn wiz-back" type="button">← Back · পেছনে</button><button class="btn wiz-next" type="button">Next · পরবর্তী →</button></div>';
@@ -3398,7 +3398,7 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
     }
     backBtn.addEventListener('click', function () { show(idx - 1, true); });
     nextBtn.addEventListener('click', function () {
-      if (idx === P.length - 1) { location.hash = '#subject-isgs'; return; }
+      if (idx === P.length - 1) { location.hash = '#isgs-midterm'; return; }
       show(idx + 1, true);
     });
     var saved = store.get('isgs-wiz', null), start = 0;
@@ -3501,7 +3501,7 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
   function route() {
     var id = decodeURIComponent(location.hash.slice(1));
     var m = /^subject-(\w+)$/.exec(id);
-    if (m) { part = 'menu'; applySubject(m[1]); window.scrollTo(0, 0); return; }
+    if (m) { part = m[1] === 'isgs' ? 'midterm' : 'menu'; applySubject(m[1]); window.scrollTo(0, 0); return; }
     var mp = /^isgs-(assignment|midterm)$/.exec(id);
     if (mp) { part = mp[1]; applySubject('isgs'); window.scrollTo(0, 0); return; }
     var mw = /^wiz-(\w+)$/.exec(id);
