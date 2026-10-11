@@ -392,13 +392,27 @@ h1, h2, h3, .q .qtext { text-wrap: balance; }
   .quiz-opt { padding: 11px 14px; font-size: 14px; }
 }
 /* ═════════════════════════════════════════════════════════════════════════════ */
+
+/* Subject switcher: rail in sidebar, chooser on first visit, one subject shown at a time. */
+[hidden] { display: none !important; }
+.sidebar .rail { border-bottom: 1px solid var(--line); margin-bottom: 6px; padding-bottom: 6px; }
+.sidebar .rail a.on { background: var(--brand-soft); border-left-color: var(--brand-2); color: var(--brand); font-weight: 600; }
+.chooser { margin-top: 10px; }
+.chooser-kicker { font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold-ink); font-weight: 700; }
+.chooser-title { font-family: var(--display); font-size: clamp(26px, 4vw, 36px); line-height: 1.15; color: var(--brand); margin: 8px 0 4px; }
+.chooser-bn { font-size: 18px; color: var(--gold-ink); font-weight: 600; }
+.chooser-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin-top: 24px; }
+.chooser-card { display: block; text-decoration: none; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; box-shadow: var(--shadow); transition: transform .15s; }
+.chooser-card:hover { transform: translateY(-2px); border-color: var(--brand-2); }
+.chooser-card b { display: block; font-size: 17px; color: var(--brand); }
+.chooser-card span { display: block; font-size: 14px; color: var(--muted); margin-top: 4px; }
 </style>
 
 <div class="progress" id="progress"></div>
 
 <header class="topbar">
   <button class="iconbtn menu-btn" id="menuBtn" type="button" aria-label="Open contents">☰</button>
-  <div class="brand"><span class="mark">ت</span><div class="name">ISGS 101 Study Guide<small>Islamic Studies 1 · Private tutor notes</small></div></div>
+  <div class="brand"><span class="mark">ت</span><div class="name"><span id="brandName">IOU Study Guide</span><small id="brandSub">Choose a subject</small></div></div>
   <div class="spacer"></div>
   <div class="seg" id="langSeg" role="group" aria-label="Language">
     <button type="button" data-lang="both">EN + বাং</button>
@@ -414,6 +428,19 @@ h1, h2, h3, .q .qtext { text-wrap: balance; }
   <main>
     <div class="content">
 
+      <section class="chooser" data-subject="home">
+        <div class="chooser-kicker">International Open University · Study Guide</div>
+        <div class="chooser-title">Which subject do you want to study?</div>
+        <div class="chooser-bn">কোন বিষয়টি পড়তে চাও?</div>
+        <div class="chooser-cards">
+          <a class="chooser-card" href="#subject-enes"><b>ENES 101 · English Language Studies</b><span>Study notes for this subject</span></a>
+          <a class="chooser-card" href="#subject-bibs"><b>BIBS 101 · Introduction to Business</b><span>Study notes for this subject</span></a>
+          <a class="chooser-card" href="#subject-isgs"><b>ISGS 101 · Islamic Studies 1</b><span>Assignment guide, 40-question midterm Q&amp;A</span></a>
+          <a class="chooser-card" href="#subject-fpec"><b>FPEC 101 · Principles of Economics</b><span>Micro &amp; macro economics Q&amp;A</span></a>
+        </div>
+      </section>
+
+      <div data-subject="isgs">
       <section class="hero">
         <div class="kicker">Islamic Studies 1 · ISGS 101 · Fall 2026</div>
         <h1>Learn it step by step</h1>
@@ -1588,6 +1615,8 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>2–4 points</
 
 
 
+</div>
+<div data-subject="fpec">
 <section id="fpec101" class="part">
 <h1 class="chapter">Part 3 — FPEC 101: Micro &amp; Macro Economics</h1>
 <div class="chapter-bn">পর্ব ৩ — FPEC 101: মাইক্রো ও ম্যাক্রো ইকোনমিক্স (মিডটার্ম প্রশ্ন ১–২০)</div>
@@ -2339,6 +2368,8 @@ For every Economics answer: (1) Give a clear <b>definition</b>, (2) Draw a <b>di
 </section>
 
 <!-- ==================== QUIZ SECTION ==================== -->
+</div>
+<div data-subject="isgs fpec">
 <section id="quiz" class="section-wrap">
 <div class="section-hd">
   <span class="section-badge">📝 Quiz</span>
@@ -2390,6 +2421,9 @@ For every Economics answer: (1) Give a clear <b>definition</b>, (2) Draw a <b>di
 </section>
 <!-- ==================== END QUIZ ==================== -->
 
+</div>
+<div data-subject="enes"><section class="part"><span class="part-label">ENES 101</span><h1 class="chapter">English Language Studies (ENES 101)</h1><p>Study notes for this subject are coming soon.</p><p class="bn-only">এই বিষয়ের স্টাডি নোট শীঘ্রই আসছে।</p></section></div>
+<div data-subject="bibs"><section class="part"><span class="part-label">BIBS 101</span><h1 class="chapter">Introduction to Business (BIBS 101)</h1><p>Study notes for this subject are coming soon.</p><p class="bn-only">এই বিষয়ের স্টাডি নোট শীঘ্রই আসছে।</p></section></div>
       <footer>Study notes to help you understand — write your assignment in your own words. · বোঝার জন্য নোট — অ্যাসাইনমেন্ট নিজের ভাষায় লেখো।</footer>
     </div>
   </main>
@@ -2539,34 +2573,77 @@ For every Economics answer: (1) Give a clear <b>definition</b>, (2) Draw a <b>di
   var nav = $('#toc');
   function slug(s, i) { return 's' + i + '-' + s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 40); }
   var spyTargets = [];
-  var h = document.createElement('h4'); h.textContent = 'Part 1 · Assignment'; nav.appendChild(h);
+  var h = document.createElement('h4'); h.textContent = 'Part 1 · Assignment'; nav.appendChild(tag(h, 'isgs'));
   $$('#assignment h1.chapter, #assignment h2').forEach(function (el, i) {
     if (!el.id) el.id = slug(el.childNodes[0].textContent, i);
     var a = document.createElement('a');
     a.href = '#' + el.id;
     a.textContent = el.childNodes[0].textContent.trim();
     if (el.tagName === 'H2') a.className = 'sub';
-    nav.appendChild(a); spyTargets.push(el);
+    nav.appendChild(tag(a, 'isgs')); spyTargets.push(el);
   });
-  var h2 = document.createElement('h4'); h2.textContent = 'Part 2 · ISGS Q&A'; nav.appendChild(h2);
+  var h2 = document.createElement('h4'); h2.textContent = 'Part 2 · ISGS Q&A'; nav.appendChild(tag(h2, 'isgs'));
   var grid = document.createElement('div'); grid.className = 'qgrid';
   cards.filter(function(c){return c.id.charAt(0)==='q';}).forEach(function (c) {
     var a = document.createElement('a'); a.href = '#' + c.id; a.textContent = c.id.replace('q', '');
     a.title = $('.qtext', c).childNodes[0].textContent.trim();
     grid.appendChild(a); spyTargets.push(c);
   });
-  nav.appendChild(grid);
-  var h3 = document.createElement('h4'); h3.textContent = 'Part 3 · Economics Q&A'; nav.appendChild(h3);
+  nav.appendChild(tag(grid, 'isgs'));
+  var h3 = document.createElement('h4'); h3.textContent = 'Part 3 · Economics Q&A'; nav.appendChild(tag(h3, 'fpec'));
   var grid2 = document.createElement('div'); grid2.className = 'qgrid';
   cards.filter(function(c){return c.id.charAt(0)==='e';}).forEach(function (c) {
     var a = document.createElement('a'); a.href = '#' + c.id; a.textContent = c.id.replace('e', '');
     a.title = $('.qtext', c).childNodes[0].textContent.trim();
     grid2.appendChild(a); spyTargets.push(c);
   });
-  nav.appendChild(grid2);
-  var hQuiz = document.createElement('h4'); hQuiz.textContent = '📝 Quiz · স্ব-পরীক্ষা'; nav.appendChild(hQuiz);
-  var quizLink = document.createElement('a'); quizLink.href = '#s-quiz'; quizLink.textContent = 'Start Quiz'; nav.appendChild(quizLink); spyTargets.push(document.getElementById('s-quiz'));
+  nav.appendChild(tag(grid2, 'fpec'));
+  var hQuiz = document.createElement('h4'); hQuiz.textContent = '📝 Quiz · স্ব-পরীক্ষা'; nav.appendChild(tag(hQuiz, 'isgs fpec'));
+  var quizLink = document.createElement('a'); quizLink.href = '#s-quiz'; quizLink.textContent = 'Start Quiz'; nav.appendChild(tag(quizLink, 'isgs fpec')); spyTargets.push(document.getElementById('s-quiz'));
   updateCounter();
+
+  /* ---------- Subject switcher ---------- */
+  var SUBJECTS = [
+    { key: 'enes', code: 'ENES 101', name: 'English Language Studies' },
+    { key: 'bibs', code: 'BIBS 101', name: 'Introduction to Business' },
+    { key: 'isgs', code: 'ISGS 101', name: 'Islamic Studies 1' },
+    { key: 'fpec', code: 'FPEC 101', name: 'Principles of Economics' }
+  ];
+  var current = null;
+  function tag(el, keys) { el.setAttribute('data-subject', keys); return el; }
+  var rail = document.createElement('div'); rail.className = 'rail';
+  var railHome = document.createElement('a'); railHome.href = '#'; railHome.setAttribute('data-rail', 'home'); railHome.textContent = '⌂ All subjects · সব বিষয়';
+  rail.appendChild(railHome);
+  SUBJECTS.forEach(function (s) {
+    var a = document.createElement('a'); a.href = '#subject-' + s.key; a.setAttribute('data-rail', s.key);
+    a.textContent = s.name + ' (' + s.code + ')';
+    rail.appendChild(a);
+  });
+  nav.insertBefore(rail, nav.firstChild);
+
+  function applySubject(key) {
+    var known = SUBJECTS.some(function (s) { return s.key === key; });
+    if (!known) key = 'home';
+    current = key;
+    $$('[data-subject]').forEach(function (el) {
+      el.hidden = el.getAttribute('data-subject').split(' ').indexOf(key) === -1;
+    });
+    $$('[data-rail]').forEach(function (a) { a.classList.toggle('on', a.getAttribute('data-rail') === key); });
+    var s = SUBJECTS.filter(function (x) { return x.key === key; })[0];
+    $('#brandName').textContent = s ? s.code + ' Study Guide' : 'IOU Study Guide';
+    $('#brandSub').textContent = s ? s.name : 'Choose a subject';
+  }
+  function route() {
+    var id = decodeURIComponent(location.hash.slice(1));
+    var m = /^subject-(\w+)$/.exec(id);
+    if (m) { applySubject(m[1]); window.scrollTo(0, 0); return; }
+    if (!id) { applySubject('home'); window.scrollTo(0, 0); return; }
+    var el = document.getElementById(id);
+    var owner = el && el.closest('[data-subject]');
+    if (!owner) return;
+    var keys = owner.getAttribute('data-subject').split(' ');
+    if (keys.indexOf(current) === -1) applySubject(keys[0]);
+  }
 
   function openFromHash() {
     var id = location.hash.slice(1);
@@ -2576,7 +2653,7 @@ For every Economics answer: (1) Give a clear <b>definition</b>, (2) Draw a <b>di
       requestAnimationFrame(function () { el.scrollIntoView({ block: 'start' }); });
     }
   }
-  window.addEventListener('hashchange', openFromHash); openFromHash();
+  window.addEventListener('hashchange', function () { route(); openFromHash(); }); route(); openFromHash();
 
   $$('#toc a, .hero a').forEach(function (a) {
     a.addEventListener('click', function () {
@@ -2780,7 +2857,7 @@ For every Economics answer: (1) Give a clear <b>definition</b>, (2) Draw a <b>di
     var pct = Math.round((s / total) * 100);
     var icon = pct >= 80 ? '🏆' : pct >= 60 ? '😊' : pct >= 40 ? '📚' : '💪';
     var msgs = {
-      en: pct >= 80 ? 'Excellent! You've mastered this material!' : pct >= 60 ? 'Good work! A bit more review and you\'ll ace it.' : pct >= 40 ? 'Keep studying! Review the explanations carefully.' : 'Don\'t give up! Read the explanations and try again.',
+      en: pct >= 80 ? 'Excellent! You\'ve mastered this material!' : pct >= 60 ? 'Good work! A bit more review and you\'ll ace it.' : pct >= 40 ? 'Keep studying! Review the explanations carefully.' : 'Don\'t give up! Read the explanations and try again.',
       bn: pct >= 80 ? 'অসাধারণ! তুমি বিষয়টা আয়ত্ত করে ফেলেছ!' : pct >= 60 ? 'ভালো হয়েছে! আরেকটু পড়লেই পারফেক্ট হবে।' : pct >= 40 ? 'পড়তে থাকো! ব্যাখ্যাগুলো মনোযোগ দিয়ে পড়ো।' : 'হাল ছেড়ো না! ব্যাখ্যা পড়ে আবার চেষ্টা করো।'
     };
     $$('#resultIcon')[0].textContent = icon;
