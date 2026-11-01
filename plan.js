@@ -156,7 +156,7 @@
       '.pl-chart{display:flex;align-items:flex-end;gap:2px;height:70px;margin-top:6px}.pl-chart div{flex:1;position:relative;height:100%}.pl-chart i{position:absolute;bottom:0;left:0;width:100%;border-radius:3px 3px 0 0;min-height:2px}.pl-chart .p{background:var(--line)}.pl-chart .d{background:var(--brand-2,#2f7d5b);left:20%;width:60%}' +
       '.pl-log{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px}.pl-log td,.pl-log th{padding:5px 8px;border-top:1px solid var(--line);text-align:left}.pl-log th{color:var(--muted);font-weight:600;font-size:12px}' +
       '.plan details summary{cursor:pointer;font-weight:700}' +
-      '@media(max-width:560px){.pl-day{grid-template-columns:78px 1fr}.pl-day .st{grid-column:1/-1}}';
+      '@media print{body *{visibility:hidden}.plan,.plan *{visibility:visible}.plan{position:absolute;left:0;top:0;width:100%}.pl-go,#plName,#plTime{display:none}}@media(max-width:560px){.pl-day{grid-template-columns:78px 1fr}.pl-day .st{grid-column:1/-1}}';
     document.head.appendChild(st);
   }
   function chip(k) { return '<span class="pl-chip" style="background:' + SUBJ[k].color + '">' + SUBJ[k].icon + ' ' + SUBJ[k].name + '</span>'; }
@@ -313,8 +313,54 @@
         (d.rest ? 'Rest day · বিশ্রাম' : d.rev ? 'Revision + quiz retakes' : d.mods.map(function (m) { return '<a href="' + m.href + '">M' + m.n + '</a>'; }).join(' · ') + ' · ≈ ' + hrs(d.mins)) + '</span></span><span class="st">' + st + '</span></div>';
     });
     h += '</div></details>';
+    var nm = ''; try { nm = localStorage.getItem('plan-name') || ''; } catch (e) { /* storage unavailable */ }
+    var rt = ''; try { rt = localStorage.getItem('plan-remind-time') || '20:00'; } catch (e) { rt = '20:00'; }
+    h += '<div class="pl-card"><b>📤 Share, print & remind · শেয়ার, প্রিন্ট ও রিমাইন্ডার</b>' +
+      '<div style="margin-top:8px;display:flex;flex-wrap:wrap;gap:8px;align-items:center"><input id="plName" placeholder="Your name · তোমার নাম" value="' + esc(nm) + '" style="padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink);font:inherit;min-width:180px">' +
+      '<button class="pl-go" id="plCard" type="button">🖼 Download progress card</button><button class="pl-go" id="plPrint" type="button">🖨 Print / Save PDF</button><button class="pl-go" id="plWa" type="button">💬 Share on WhatsApp</button></div>' +
+      '<div style="margin-top:10px;display:flex;flex-wrap:wrap;gap:8px;align-items:center"><span style="font-size:13px">⏰ Daily reminder at</span><input id="plTime" type="time" value="' + rt + '" style="padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink);font:inherit">' +
+      '<button class="pl-go" id="plIcs" type="button">📅 Add to phone calendar (.ics)</button><button class="pl-go" id="plNote" type="button">🔔 Notify me when I open the site</button></div>' +
+      '<p style="font-size:12px;color:var(--muted);margin:8px 0 0">The calendar file adds one reminder per study day (1–30 Nov, skipping rest days) with that day\'s subjects and modules — import it into Google/Apple Calendar and your phone will remind you. The browser notification works only when the site is open. · ক্যালেন্ডার ফাইল ইমপোর্ট করলে প্রতিদিন ফোনে রিমাইন্ডার আসবে।</p></div>';
     h += '<p style="font-size:12px;color:var(--muted)">ℹ️ The report is saved in <b>this browser</b> and is private to whoever is using it — each student sees their own progress. Opening the site on another phone or computer starts a fresh report. · রিপোর্টটি এই ব্রাউজারে সংরক্ষিত।</p>';
     root.innerHTML = h;
+    var nameEl = $('#plName', root), who = function () { return (nameEl && nameEl.value.trim()) || 'Student'; };
+    var summary = function () { return '📊 ' + who() + ' — IOU study progress\n' + overall + '% overall · ' + doneN + '/' + totalN + ' modules + quizzes done\n🔥 streak ' + streak + ' day(s) · ' + daysLeft + ' days left to 30 Nov\n' + (eq >= expEnd ? '✅ on/ahead of plan' : '⚠️ behind plan') + '\n' + location.origin + location.pathname; };
+    nameEl.addEventListener('change', function () { try { localStorage.setItem('plan-name', nameEl.value.trim()); } catch (e) { /* storage unavailable */ } });
+    $('#plWa', root).addEventListener('click', function () { window.open('https://wa.me/?text=' + encodeURIComponent(summary()), '_blank'); });
+    $('#plPrint', root).addEventListener('click', function () { var ds = document.querySelectorAll('.plan details'); Array.prototype.forEach.call(ds, function (d) { d.open = true; }); window.print(); });
+    $('#plCard', root).addEventListener('click', function () {
+      var c = document.createElement('canvas'); c.width = 900; c.height = 500; var g = c.getContext('2d');
+      g.fillStyle = '#10372a'; g.fillRect(0, 0, 900, 500); g.fillStyle = '#e9c46a'; g.fillRect(0, 0, 900, 8);
+      g.fillStyle = '#fff'; g.font = 'bold 40px sans-serif'; g.fillText(who(), 50, 90); g.font = '22px sans-serif'; g.fillStyle = '#bfe3d0'; g.fillText('IOU Study Guide · Student Progress Card · ' + nice(today), 50, 130);
+      g.fillStyle = '#e9c46a'; g.font = 'bold 120px sans-serif'; g.fillText(overall + '%', 50, 280); g.fillStyle = '#fff'; g.font = '28px sans-serif'; g.fillText('overall progress', 60, 320);
+      g.fillStyle = '#2a5a47'; g.fillRect(50, 345, 800, 26); g.fillStyle = '#6fd39a'; g.fillRect(50, 345, 8 * overall, 26);
+      g.fillStyle = '#fff'; g.font = '26px sans-serif'; g.fillText('✔ ' + doneN + '/' + totalN + ' modules + quizzes     🔥 ' + streak + '-day streak     ⏳ ' + daysLeft + ' days left', 50, 425);
+      g.fillStyle = '#bfe3d0'; g.font = '20px sans-serif'; g.fillText(eq >= expEnd ? 'On / ahead of plan' : 'Catching up — keep going!', 50, 465);
+      var a = document.createElement('a'); a.download = 'progress-card.png'; a.href = c.toDataURL('image/png'); a.click();
+    });
+    $('#plIcs', root).addEventListener('click', function () {
+      var t = $('#plTime', root).value || '20:00'; try { localStorage.setItem('plan-remind-time', t); } catch (e) { /* storage unavailable */ }
+      var hh = t.replace(':', '') + '00', E = function (x) { return String(x).replace(/\\/g, '\\\\').replace(/;/g, '\;').replace(/,/g, '\\,').replace(/\n/g, '\\n'); };
+      var L = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//IOU Study Guide//EN'];
+      plan.forEach(function (d) {
+        if (d.rest) return;
+        var desc = d.parts.map(function (pt) { return SUBJ[pt.sub].name + (d.rev ? ': revision + quiz retakes' : ': ' + pt.mods.map(function (m) { return 'M' + m.n + ' ' + m.title; }).join('; ')); }).join('\n') + '\nOpen: ' + location.origin + location.pathname;
+        L.push('BEGIN:VEVENT', 'UID:' + d.date + '@iou-study-guide', 'DTSTAMP:20261101T000000Z', 'DTSTART:' + d.date.replace(/-/g, '') + 'T' + hh, 'DURATION:PT30M',
+          'SUMMARY:' + E('📚 Study: ' + d.parts.map(function (pt) { return SUBJ[pt.sub].name; }).join(' + ')), 'DESCRIPTION:' + E(desc), 'BEGIN:VALARM', 'ACTION:DISPLAY', 'DESCRIPTION:Study time', 'TRIGGER:PT0M', 'END:VALARM', 'END:VEVENT');
+      });
+      L.push('END:VCALENDAR');
+      var a = document.createElement('a'); a.download = 'study-plan-reminders.ics'; a.href = URL.createObjectURL(new Blob([L.join('\r\n')], { type: 'text/calendar' })); a.click();
+    });
+    $('#plNote', root).addEventListener('click', function () {
+      if (!('Notification' in window)) { alert('This browser does not support notifications.'); return; }
+      Notification.requestPermission().then(function (r) { if (r === 'granted') { try { localStorage.setItem('plan-notify', '1'); } catch (e) { /* storage unavailable */ } alert('Done ✅ — you will get a reminder each day you open the site.'); } });
+    });
+    try {
+      if (localStorage.getItem('plan-notify') === '1' && window.Notification && Notification.permission === 'granted' && localStorage.getItem('plan-notified') !== today && tDay && !tDay.rest) {
+        localStorage.setItem('plan-notified', today);
+        new Notification('📚 Today: ' + tDay.parts.map(function (pt) { return SUBJ[pt.sub].name; }).join(' + '), { body: (tDay.rev ? 'Revision day' : tDay.mods.length + ' module(s), about ' + hrs(tDay.mins)) + ' · ' + daysLeft + ' days left' });
+      }
+    } catch (e) { /* notifications unavailable */ }
   }
 
   function init() {
