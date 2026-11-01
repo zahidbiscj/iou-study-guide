@@ -1,0 +1,220 @@
+# Raw text extracted from Islamic(mod08).pdf — 13 slides
+(Machine extraction with pdftotext. Arabic may appear reversed or without vowels; the module lessons contain the corrected Arabic.)
+
+=== Slide 1 ===
+    Islamic Aqeedah
+        ‫العقيدة‬
+
+a                     1
+
+
+=== Slide 2 ===
+               Islamic Aqeedah
+                                                                                 : ‫فاإليمان بالكتب يتضمن أربعة أمور‬                   
+
+‫ وأن هللا تكلم بها حقيقة فمنها‬، ‫منزل من عند هللا‬                          َّ   ‫ التصديق الجازم بأن جميعها‬: ‫األول‬                      
+‫ ومنها ما بلغه الرسول‬، ‫المسموع منه تعالى من وراء حجاب بدون واسطة الرسول الملكي‬
+‫شر‬        َ ‫ك‬
+  َ َ‫ان لِب‬ َ ‫ما‬َ ‫و‬
+                  َ ( : ‫ ومنها ما كتبه هللا تعالى بيده كما قال تعالى‬، ‫الملكي إلى الرسول البشري‬
+)‫حكِيم‬  َ ‫علِي‬ َ ‫ه‬ ُ َّ‫شا ُء إِن‬
+                               َ َ‫ما ي‬
+                                     َ ‫ه‬
+                                       ِ ِ‫ي بِإِذن‬       َ ‫سوال‬
+                                                   ِ ‫ف ُيو‬
+                                                 َ ‫ح‬          ُ ‫ل َر‬ ِ ‫جاب أَو ُير‬
+                                                                   َ ‫س‬           َ ‫ح‬
+                                                                                   ِ ‫و َرا ِء‬  ِ ‫وحيا أَو‬
+                                                                                            َ ‫من‬               ُ َّ ‫ه‬
+                                                                                                        َ ‫ّللا إِال‬  ُ ‫م‬   َ ‫أَن ُي‬
+                                                                                                                       َ ِ‫كل‬
+                                                                                                                   4/‫الشورى‬
+    Belief in the Books implies four things:
+    1 – Firm belief that all of them were revealed from Allah, and that Allah spoke them in a
+     real sense. Some of them were heard from Him from behind a veil, without there being
+     any intermediary from among the angels. Some were conveyed by an angelic Messenger
+     to a human Messenger. Some were written by Allah’s own Hand, as He says
+     (interpretation of the meaning):
+    “It is not given to any human being that Allah should speak to him unless (it be) by
+     Revelation, or from behind a veil, or (that) He sends a Messenger to reveal what He wills
+     by His Leave. Verily, He is Most High, Most Wise.” [42:51]
+
+a                                                                                                                                     2
+
+
+=== Slide 3 ===
+         Islamic Aqeedah
+                     /‫ ( وكلم هللا موسى تكليما ) النساء‬: ‫ وقال تعالى‬
+      َ ‫ل‬
+    ‫شيء‬   ُ ‫من‬
+        ِ ‫ك‬        َ ‫ه فِي األَل‬
+             ِ ِ ‫واح‬           ُ َ‫ك َتب َنا ل‬
+                                            َ ‫ ( َو‬: ‫ وقال تعالى في شأن التوراة‬
+                            . 145/‫شيء) األعراف‬             َ ‫ل‬  ُ ِ‫صيال ل‬
+                                                              ِ ‫ك‬       ِ ‫عظَة َوتَف‬  َ
+                                                                                   ِ ‫مو‬
+   “… and to Musa Allah spoke directly.” [4:164]
+   And Allah said concerning the Tawrat:
+   “And We wrote for him on the Tablets the lesson to be drawn from
+    all things and the explanation for all things.” [7:145]
+
+a                                                                                     3
+
+
+=== Slide 4 ===
+        Islamic Aqeedah
+ ‫ ما ذكره هللا من هذه الكتب تفصيال وجب اإليمان به تفصيال وهي‬: ‫ الثاني‬
+‫الكتب التي سماها هللا في القرآن وهي ( القرآن والتوراة واإلنجيل والزبور‬
+                                                 .) ‫وصحف إبراهيم وموسى‬
+  ‫ وما ذكر منها إجماال وجب علينا اإليمان به إجماال فنقول فيه ما أمر هللا به‬
+                 . 15/‫ ( وقل آمنت بما أنزل هللا من كتاب ) الشورى‬: ‫رسوله‬
+ 2 – The Books that Allah has mentioned by name, we must believe in
+   by name. These are the Books which Allah has named in the Quran,
+   i.e., the Quran, the Tawrat, the Injeel (Gospel), the Zaboor (Psalms),
+   and the Scriptures of Ibrahim and Musa.
+ Those which Allah has mentioned in general terms, we must believe in
+   them in general terms, so we say concerning them what Allah and His
+   Messenger have commanded us to say:
+ “…say: “I believe in whatsoever Allah has sent down of the Book [all
+   the holy Books…].” [42:15 – interpretation of the meaning]
+a                                                                          4
+
+
+=== Slide 5 ===
+                 ‫‪Islamic Aqeedah‬‬
+           ‫‪ ‬الثالث ‪ :‬تصديق ما صح من أخبارها ‪ ،‬كأخبار القرآن ‪ ،‬وأخبار ما لم ُيبَدل أو‬
+                                                                                 ‫ُي َ‬
+                                                            ‫حرف من الكتب السابقة ‪.‬‬
+‫الرابع ‪ :‬اإليمان بأن هللا أنزل القرآن حاكما على هذه الكتب ومصدقا لها كما قال‬                                                                    ‫‪‬‬
+          ‫منا‬
+            ‫هي ِ‬‫م َ‬‫و ُ‬‫ن الكِ َتابِ َ‬    ‫م َ‬  ‫ه ِ‬‫ن يَ َدي ِ‬‫ما بَي َ‬
+                                                                 ‫دقا لِ َ‬ ‫م َ‬
+                                                                        ‫ص ِ‬  ‫حقِ ُ‬   ‫اب بِال َ‬
+                                                                                            ‫ك الكِ َت َ‬‫وأَن َزل َنا إِلَي َ‬
+                                                                                                                          ‫تعالى ‪َ ( :‬‬
+     ‫ه ) المائدة‪ ، 48/‬قال أهل التفسير ‪ :‬مهيمنا ‪ :‬مؤتمنا وشاهدا على ما قبله‬                                                          ‫علَي ِ‬‫َ‬
+           ‫من الكتب ‪ ،‬ومصدقا لها يعني ‪ :‬يصدق ما فيها من الصحيح ‪ ،‬وينفي ما وقع‬
+          ‫فيها من تحريف وتبديل وتغيير ‪ ،‬ويحكم عليها بنسخ ـ أي رفع وإزالة ـ أحكام‬
+         ‫سابقة ‪ ،‬أو تقرير وتشريع أحكام جديدة ؛ ولهذا يخضع له كل متمسك بالكتب‬
+           ‫ن آتَي َن ُ‬
+        ‫اه ُ‬
+        ‫م‬                 ‫المتقدمة ممن لم ينقلب على عقبيه كما قال تبارك وتعالى ‪ ( :‬الَّ ِ‬
+                       ‫ذي َ‬
+‫من َربِ َنا‬  ‫حق ِ‬    ‫ه ال َ‬ ‫ه إِنَّ ُ‬         ‫قالُوا آ َ‬
+                                    ‫م َّنا بِ ِ‬          ‫هم َ‬  ‫علَي ِ‬‫ذا ُيتلَى َ‬
+                                                                               ‫وإ ِ َ‬
+                                                                                    ‫م ُنون ‪َ .‬‬‫ه ُيؤ ِ‬
+                                                                                                    ‫هم بِ ِ‬ ‫ه ُ‬ ‫قبلِ ِ‬  ‫من َ‬    ‫الكِ َت َ‬
+                                                                                                                             ‫اب ِ‬
+                                                                   ‫ين ) القصص‪. 53: 52/‬‬            ‫م َ‬ ‫مس ِل ِ‬ ‫ه ُ‬        ‫من َ‬
+                                                                                                                   ‫قب ِل ِ‬           ‫إِنَّا ُ‬
+                                                                                                                              ‫ك َّنا ِ‬
+
+‫‪a‬‬                                                                                                                                               ‫‪5‬‬
+
+
+=== Slide 6 ===
+          Islamic Aqeedah
+   3 – Believing whatever is true of what they say, such as what is said in the
+    Quran, and whatever has not been altered or distorted in the previous
+    Books.
+   4 – Believing that Allah revealed the Quran as a witness over these Books
+    and to confirm them, as Allah says (interpretation of the meaning):
+   “And We have sent down to you (O Muhammad) the Book (this Quran) in
+    truth, confirming the Scripture that came before it and Muhaymin
+    (trustworthy in highness and a witness) over it (old Scriptures).” [5:48]
+
+a                                                                                  6
+
+
+=== Slide 7 ===
+          Islamic Aqeedah
+   The mufassirin (commentators) said that Muhaymin means trustworthy and
+    a witness over the Books that came before it, and confirming them, i.e.,
+    confirming whatever is true in them and rejecting whatever alterations,
+    distortions and changes have occurred in them, and ruling that the
+    previous rulings have been abrogated – i.e., they are no longer applicable
+    – and that new rulings and laws have been promulgated. Hence all those
+    who were following previous books and who have not turned on their
+    heels should submit to it, as Allah says (interpretation of the meaning):
+   “And when it is recited to them, they say: We believe in it. Verily, it is the
+    truth from our Lord. Indeed even before it we have been from those who
+    submit themselves to Allah in Islam as Muslims.” [28:52-53]
+
+a                                                                                7
+
+
+=== Slide 8 ===
+          Islamic Aqeedah
+   It is obligatory for all the ummah (followers of Muhammad) to follow the Quran
+    both outwardly and inwardly, and to adhere to it, and give it its due, as Allah
+    says (interpretation of the meaning):
+   “And this is a blessed Book (the Quran) which We have sent down, so follow it
+    and fear Allah.” [6:155]
+   What is meant by adhering to the Quran and giving it its due is: regarding what
+    it permits as permitted, regarding what it forbids as forbidden, obeying its
+    commands, avoiding that which it prohibits, paying heed to its lessons,
+    learning from its stories, understanding its clear and unambiguous texts,
+    referring the exact meaning of its ambiguous texts to Allah, not overstepping
+    its limits and defending it, whilst memorizing it, reciting it in a proper manner,
+    pondering the meanings of its verses, reciting it in prayer night and day, being
+    sincere towards it in all senses, and calling others to do likewise with
+    understanding.
+
+a                                                                                     8
+
+
+=== Slide 9 ===
+          Islamic Aqeedah
+   This belief will bear great fruit for a person, the most important of which is:
+   1-  Knowledge of Allah’s care for His slaves, for He has revealed to each
+    people a Book by which they may be guided.
+   2-    Knowledge of the wisdom of Allah in the laws which He has set out for
+    each people, laws which are suited to their circumstances as Allah says
+    (interpretation of the meaning): “To each among you, We have prescribed a
+    law and a clear way.” [5:48].
+                            ) ‫ ( لكل جعلنا منكم شرعة ومنهاجا‬: ‫كما قال هللا تعالى‬      
+   3-   Fulfilling the duty of giving thanks to Allah for this great blessing.
+   4- The importance of paying attention to the Quran, by reading it, pondering
+    its meanings, understanding its meanings and acting accordingly.
+   And Allah knows best.
+
+a                                                                                     9
+
+
+=== Slide 10 ===
+         Islamic Aqeedah
+   The obligation of believing in the messages
+   Belief in all the messages
+   How should we believe in the messages?
+   It is not sufficient only to believe in the Qur’an
+   The source of the messages and the purpose behind their
+    revelation
+   The general message and the specific message
+
+
+a                                                             10
+
+
+=== Slide 11 ===
+         Islamic Aqeedah
+   Preservation of the messages
+   How length of the books being revealed
+   In which month were the books revealed
+
+
+
+a                                            11
+
+
+=== Slide 12 ===
+    Islamic Aqeedah
+
+a                     12
+
+
+=== Slide 13 ===
+    Islamic Aqeedah
+
+a                     13
+

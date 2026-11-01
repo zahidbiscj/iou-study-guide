@@ -1,0 +1,334 @@
+# Raw text extracted from Islamic(mod09).pdf — 23 slides
+(Machine extraction with pdftotext. Arabic may appear reversed or without vowels; the module lessons contain the corrected Arabic.)
+
+=== Slide 1 ===
+    Islamic Aqeedah
+        ‫العقيدة‬
+
+a                     1
+
+
+=== Slide 2 ===
+         Islamic Aqeedah
+                                                      ‫اإليمان بالرسل‬   
+
+   Believing in the Messengers (Prophets) of Allah
+
+a                                                                      2
+
+
+=== Slide 3 ===
+                 ‫‪Islamic Aqeedah‬‬
+                                                                                                       ‫اإليمان بالرسل‬              ‫‪‬‬
+
+                                                                                            ‫‪ ‬تعريف النبي والرسول‬
+                                                                                          ‫‪ ‬تعريف النبي في اللغة‪:‬‬
+      ‫يم﴾ [النبأ‪- 1 :‬‬
+                   ‫ظ ِ‬‫ن ال َّنبَ ِإ ْال َع ِ‬
+                                           ‫ون * َع ِ‬‫َساءَلُ َ‬      ‫مشتق من النبأ‪ ،‬وهو الخبر؛ قال تعالى‪َ ﴿ :‬ع َّ‬
+                                                             ‫م يَت َ‬                                                               ‫‪‬‬
+                                                                                                                            ‫‪.]2‬‬
+      ‫حي هللا إليه نبأً من‬     ‫ل أي‪ُ :‬يو ِ‬      ‫خبَر من هللا ع َّز وج َّ‬  ‫سمي النبي نبيًّا ألنَّه ُمنبَأ؛ أي‪ُ :‬م ْ‬     ‫وإنما ُ‬     ‫‪‬‬
+                                                                                                                        ‫عه‬   ‫َ‬
+                                                                                                                          ‫شر ِ‬
+                                                                                   ‫ي في االصطالح‪:‬‬             ‫تعريف النب ُّ‬        ‫‪‬‬
+                                                                                                            ‫ُ‬       ‫إنسان ٌّ‬
+                                                                                                                        ‫ٌ‬
+    ‫م مؤمنين بشرعٍٍٍ سابق‪ ،‬فهو الذي ينبئه‬                      ‫حي إليه بشرعٍ‪ ،‬و ُب ِعث إلى قو ٍ‬          ‫حر ذ َكر أو ِ‬             ‫‪‬‬
+                                                                                                                      ‫هللا تعالى‬
+
+‫‪a‬‬                                                                                                                                  ‫‪3‬‬
+
+
+=== Slide 4 ===
+               ‫‪Islamic Aqeedah‬‬
+                                                                               ‫‪ ‬تعريف الرسول في اللغة‪:‬‬
+                   ‫جه برسالة‬    ‫مو َّ‬ ‫مأخوذ من البعث وهو اإلرسال والتوجيه؛ فالرسول هو المبعوث ال ُ‬                 ‫ٌ‬     ‫‪‬‬
+                                                                              ‫ل عليهم الصالة والسالم إنما ُ ُّ‬       ‫ُّ‬
+      ‫ة‬
+      ‫ل هللا تعالى برسال ٍ‬        ‫سموا رسال ً ألنهم ُبعثوا من ُ قِبَ ِ‬                                        ‫ُ‬
+                                                                                                                 ‫فالرس ُ‬ ‫‪‬‬
+    ‫اع ُب ُدوا َّ َ‬   ‫َ‬  ‫س ً‬                  ‫ُ‬
+    ‫ّللا‬         ‫ن ْ‬‫وًل أ ِ‬ ‫ة َر ُ‬          ‫حملوها وأ ِمروا بتبليغها للناس؛ قال تعالى‪ ﴿ :‬وَلَ َق ْد بَ َع ْثنَا فِي ك ِ‬
+                                    ‫ل أ َّم ٍ‬
+                                                                                                       ‫﴾ [النحل‪،]36 :‬‬
+                                                                 ‫‪ ‬تعريف الرسول في االصطالح‪:‬‬
+             ‫ٌ‬                                                 ‫ُ‬                 ‫حر َ ُ‬‫‪ ‬إنسان ٌّ‬
+     ‫رسالة سابقة‪،‬‬    ‫م كافرين‪ ،‬أو لم تبلغهم‬  ‫حي إليه بشرعٍ وأ ِمر بتبليغه لقو ٍ‬
+                                                                              ‫ذكر أو ِ‬
+    ‫م لم يأتهم‬ ‫وجهه إلى مَن خالَف أم َره‪ ،‬أو على قو ٍ‬
+                                                    ‫فهو الذي ينبئه هللا بوحيه الشرعي ثم ُي ِ‬
+                                                                                    ‫نذي ٌر من قبله‬
+
+‫‪a‬‬                                                                                                                        ‫‪4‬‬
+
+
+=== Slide 5 ===
+                 Islamic Aqeedah
+                                                                                                                ْ َ‫ة أ‬
+                                                                                                           :‫شيَاء‬     ِ ‫اعتِ َقا ُد أَ ْربَ َع‬
+                                                                                                                                            ْ ‫ل م َْعنَا ُه‬ ِ ‫س‬     ُّ ِ‫َان ب‬
+                                                                                                                                                                 ُ ‫الر‬     ُ ‫اإليم‬
+                                                                                                                                                                                 ِ       
+             ْ ‫َال ُك ْف ِر بِمَا ُي ْع َب ُد ِم‬
+                                             ْ ‫َح َد ُه و‬                                ً ‫س‬           ُ ُ                                                َّ َ‫َان بِأ‬                َ
+     ِ ِ‫ن ُدون‬
+     ‫ه‬                                                 ْ ‫هللا و‬        ِ ‫م إِلَى‬
+                                                           ِ ‫ع َبا َد ِة‬         ُ ‫َدع‬
+                                                                               ْ ‫وه‬ ُ ‫وًل ي‬      ٍ ‫ل أ َّم‬
+                                                                                            ُ ‫ة َر‬       ِ ‫ث فِي ك‬   َ ‫هللا تَ َعالَى َق ْد بَ َع‬  َ ‫ن‬             ُ ‫اإليم‬ِ :‫أ َّو ًًل‬   
+                                                                                                                                                         .‫س ْبحَانَ ُه َوتَ َعالَى‬ ُ
+   Belief in the Messengers implies four things:
+   1 – Firm belief that Allaah sent to every nation a Messenger from amongst them, to
+    call them to worship Allaah alone and to disbelieve in everything that is worshipped
+    instead of Him, and that they (the Messengers) were all truthful, speakers of the
+    truth, righteous, wise, pious and honest, and that they conveyed everything with
+    which Allaah sent them, concealing and altering nothing. They did not add even one
+    letter from themselves or omit anything.
+
+                         ُ َّ‫ان َب ِن ُبوا الط‬
+       .]36 :‫اَو َ ﴾ [النحل‬                 ْ ‫و‬  َ َّ ‫اع ُب ُدوا‬
+                                               َ ‫ّللا‬         ْ ‫ن‬ِ َ‫وال أ‬
+                                                                       ‫س ا‬ُ ‫ة َر‬ َّ ‫ل ُأ‬
+                                                                               ٍ ‫م‬     ِ ‫ع ْث َنا فِي ُك‬       َ َ ‫ول‬
+                                                                                                       َ َ‫ق ْد ب‬    َ ﴿ :‫عالَى‬
+                                                                                                                             َ َ‫ل ت‬  َ ‫ما‬
+                                                                                                                                  َ ‫قا‬    َ
+                                                                                                                                        َ ‫ك‬                                              
+                                                                                                                                                                                         
+
+a                                                                                                                                                                                        5
+
+
+=== Slide 6 ===
+                  ‫‪Islamic Aqeedah‬‬
+                                ‫م فِي ْالكِتَابِ و ُّ‬
+                          ‫َالس َّن ِ‬
+                         ‫ة؛‬                             ‫م ُ‬
+                                                      ‫اؤ ُ‬
+                                                    ‫ه ْ‬      ‫ت لَنَا أَ ْ‬
+                                                           ‫س َ‬          ‫ل ال َّ ِذينَ ُذكِ َر ْ‬   ‫َان بِ ُّ‬
+                                                                                                ‫الر ُ‬
+                                                                                              ‫س ِ‬           ‫‪ ‬ثَانِيًا‪ِ ْ :‬‬
+                                                                                                        ‫اإليم ُ‬
+‫‪‬‬     ‫‪2: Belief in those Messengers whose names we know‬‬
+             ‫َسلَ ْيم ُ‬
+          ‫َان‪،‬‬            ‫وب‪َ ،‬ودَا ُو ُد‪ ،‬و ُ‬  ‫َاق‪َ ،‬ويَ ْع ُق ُ‬ ‫سح ُ‬         ‫يم‪ ،‬وَإِ ْ‬‫ه ُ‬    ‫يس‪ ،‬وَإِ ْب َرا ِ‬‫ح‪ ،‬وَإِ ْد ِر ُ‬   ‫َم‪َ ،‬و ْنو ٌ‬     ‫م‪( :‬آد ُ‬   ‫َه ْ‬‫‪ ‬و ُ‬
+                      ‫يسى‪ ،‬وَإِ ْلي ُ‬
+                   ‫َاس‪،‬‬                     ‫ع َ‬   ‫َحيَى‪َ ،‬و ِ‬      ‫ون‪َ ،‬وز ََك ِريَّا‪َ ،‬وي ْ‬  ‫ها ُر ُ‬     ‫وسى‪َ ،‬و َ‬     ‫ف‪َ ،‬و ُم َ‬      ‫وس ُ‬  ‫وب‪َ ،‬و ُي ُ‬   ‫وَأَيُّ ُ‬
+ ‫م‬‫خاتَ ُ‬ ‫ل‪َ ،‬و َ‬  ‫ك ْف ِ‬ ‫ب‪ ،‬و َُذو ال ِ‬ ‫َش َع ْي ٌ‬ ‫ح‪ ،‬وَلُوطٌ‪ ،‬و ُ‬        ‫َهو ٌد‪َ ،‬وصَالِ ٌ‬      ‫س‪ ،‬و ُ‬       ‫َس ُع‪َ ،‬و ُيونُ ُ‬       ‫يل‪ ،‬و ْ‬
+                                                                                                                                 ‫َالي َ‬           ‫ع ُ‬   ‫سمَا ِ‬   ‫وَإِ ْ‬
+               ‫ص َال ُة و َّ‬
+     ‫َالس َال ُم‬                      ‫وًل‪َ ،‬علَ ْي ِه ُ‬
+                                ‫م ال َّ‬                  ‫س ً‬ ‫ون نَ ِبيًّا َو َر ُ‬ ‫ش ُر َ‬  ‫ع ْ‬  ‫ة َو ِ‬  ‫س ٌ‬   ‫خ ْم َ‬       ‫َ‬
+                                                                                                                    ‫فهؤًلء َ‬         ‫م ٌد)‪،‬‬ ‫ح َّ‬   ‫ال َّن ِب ِيينَ ُم َ‬
+                                                                                                                                                       ‫م ِعينَ ‪.‬‬‫ج َ‬ ‫أَ ْ‬
+       ‫س ْلنَا‬‫ل تَ َعالَى‪ ﴿ :‬وَلَ َق ْد أَ ْر َ‬     ‫م؛ َكمَا َقا َ‬     ‫ه ْ‬ ‫َاؤ ُ‬‫سم ُ‬   ‫م تُ ْذ َك ْر لَنَا أَ ْ‬   ‫ل ال َّ ِذينَ لَ ْ‬‫س ِ‬  ‫الر ُ‬ ‫َان بِ ُّ‬  ‫َاإليم ُ‬‫‪ ‬و ِْ‬
+‫ك ﴾ [غافر‪]78 :‬‬              ‫ْ َعلَ ْي َ‬‫ص ْ‬ ‫م نَ ْق ُ‬  ‫َن لَ ْ‬
+                                                            ‫مم ْ‬     ‫ك َو ِم ْن ُه ْ‬ ‫صنَا َعلَ ْي َ‬   ‫ص ْ‬   ‫َن َق َ‬  ‫مم ْ‬‫ك ِم ْن ُه ْ‬  ‫ن َق ْبلِ َ‬    ‫س ًال ِم ْ‬  ‫ُر ُ‬
+
+‫‪a‬‬                                                                                                                                                                     ‫‪6‬‬
+
+
+=== Slide 7 ===
+                  ‫‪Islamic Aqeedah‬‬
+                   ‫األ َ ْن ِبيا ِء‪،‬‬
+                                   ‫خ ُر ْ‬ ‫ه َو آ ِ‬  ‫م ًدا صلى هللا عليه وسلم ُ‬                             ‫ح َّ‬
+                                                                                                              ‫ن ُم َ‬  ‫َان بِأَ َّ‬
+                                                                                                                                ‫اإليم ُ‬     ‫‪ ‬ثَالِ ًثا‪ِ ْ :‬‬
+‫‪ was the last‬صلى هللا عليه وسلم ‪ 3: To believe that Muhammad‬‬
+    ‫‪Prophet‬‬
+  ‫ن‬‫م َولَكِ ْ‬‫ن ِرجَالِ ُك ْ‬      ‫ح ٍد ِم ْ‬   ‫م ٌد أَبَا أَ َ‬‫ح َّ‬ ‫ان ُم َ‬ ‫ل تَ َعالَى‪ ﴿ :‬مَا َك َ‬        ‫ي ب َْع َد ُه؛ َكمَا َقا َ‬       ‫‪َ ‬ف َال نَ ِب َّ‬
+      ‫ما ﴾ [األحزاب‪.]40 :‬‬                      ‫ي ٍء َعلِي ً‬     ‫ش ْ‬ ‫ل َ‬       ‫ان َّ ُ ُ‬  ‫م ال َّن ِب ِيينَ و ََك َ‬  ‫خ ات َ َ‬        ‫ل َّ ِ‬
+                                                                                                                             ‫ّللا َو َ‬         ‫سو َ‬   ‫َر ُ‬
+                                                                          ‫ّللا بِك ِ‬
+ ‫ه‪،‬‬     ‫م ُ‬
+  ‫هللا بِ ِ‬    ‫سلَ ُه ُ‬ ‫ع مَا أَ ْر َ‬      ‫مي َ‬‫ج َِ‬‫َالس َال ُم بَلَّ ُغوا َ‬ ‫ص َال ُة و َّ‬ ‫م ال َّ‬ ‫م َعلَ ْي ِه ُ‬   ‫اعتِ َقا ُد أَنَّ ُه ْ‬
+                                                                                                                                        ‫‪َ ‬رابِ ًعا‪ْ :‬‬
+       ‫ح ْر ًفا وَلَ ْ‬
+       ‫م‬             ‫م َ‬   ‫س ِه ْ‬   ‫ع ْن ِد أ ْن ُف ِ‬  ‫ن ِ‬    ‫ه ِم ْ‬ ‫م ي َِزي ُدوا فِي ِ‬‫م ُي َغ ِي ُرو ُه وَلَ ْ‬‫ح ْر ًفا وَلَ ْ‬  ‫موا َ‬     ‫م ي َْك ُت ُ‬‫لَ ْ‬
+  ‫ين ﴾ [النحل‪:‬‬         ‫م ِب ُ‬  ‫غ ْال ُ‬  ‫ل إِ ًَّل ْالبَ َال ُ‬  ‫س ِ‬     ‫َل َعلَى ُّ‬
+                                                                   ‫الر ُ‬               ‫ل تَ َعالى‪َ ﴿ :‬فه ْ‬           ‫صو ُه؛ َكمَا َقا َ‬          ‫ُي ْن ِق ُ‬
+                                                                                                                                                    ‫‪]35‬‬
+
+‫‪a‬‬                                                                                                                                                         ‫‪7‬‬
+
+
+=== Slide 8 ===
+            ‫‪Islamic Aqeedah‬‬
+  ‫مي َ‬
+‫ع ‪‬‬    ‫َالس َال ُم بَلَّ ُغوا َ‬
+     ‫ج ِ‬                   ‫ص َال ُة و َّ‬     ‫م َعلَ ْي ِه ُ‬
+                                       ‫م ال َّ‬            ‫اع ِت َقا ُد أنَّ ُه ْ‬     ‫َ‬
+                                                                              ‫َرابِ ًعا‪ْ :‬‬
+    ‫م‬‫م ُي َغ ِي ُرو ُه وَلَ ْ‬‫ح ْر ًفا وَلَ ْ‬ ‫موا َ‬    ‫م ي َْك ُت ُ‬ ‫ه‪ ،‬لَ ْ‬       ‫م ُ‬
+                                                                          ‫هللا بِ ِ‬      ‫سلَ ُه ُ‬‫مَا أَ ْر َ‬
+    ‫صو ُه؛ َكمَا َقا َ‬
+    ‫ل‬                         ‫م ُي ْن ِق ُ‬‫ح ْر ًفا َولَ ْ‬  ‫م َ‬   ‫س ِه ْ‬‫ع ْن ِد أَ ْن ُف ِ‬
+                                                                                        ‫ن ِ‬  ‫ه ِم ْ‬‫يدوا فِي ِ‬‫ي َِز ُ‬
+    ‫ين ﴾ [النحل‪:‬‬            ‫م ِب ُ‬‫غ ْال ُ‬  ‫ل إِ ًَّل ْالبَ َال ُ‬‫س ِ‬     ‫َل َعلَى ُّ‬
+                                                                     ‫الر ُ‬                 ‫تَ َعالى‪َ ﴿ :‬فه ْ‬
+    ‫‪]35‬‬
+    ‫‪4: Believe that they delivered the message in full‬‬
+
+‫‪a‬‬                                                                                                                      ‫‪8‬‬
+
+
+=== Slide 9 ===
+             ‫‪Islamic Aqeedah‬‬
+    ‫الفرق المشهور بين النبي والرسول ‪ ،‬أن الرسول من أوحي إليه بشرع‬                                                      ‫‪‬‬
+   ‫وأمر بببليغه ‪ ،‬والنبي من أوحي إليه بشرع ولم يؤمر بببليغه ‪ ،‬ولكن هذا‬
+                     ‫الفرق ال يسلم من إشكال ‪ ،‬فإن النبي مأمور بالدعوة والببليغ‬
+    ‫والحكم ولهذا قال شيخ اإلسالم بن تيمية ‪ :‬الصواب أن الرسول هو من‬
+ ‫أرسل إلى قوم كفار مكذبين ‪ ،‬والنبي من أرسل إلى قوم مؤمنين بشريعة‬
+     ‫اة فِي َ‬
+    ‫ها‬             ‫رسول قبله يعلمهم ويحكم بينهم كما قال تعالى ‪( :‬إِنَّا أَ ْن َز ْل َنا َّ‬
+           ‫الب ْو َر َ‬
+  ‫موا ) فأنبياء بني اسرائيل يحكمون‬                          ‫ين أَ ْ‬
+                                                       ‫سل َ ُ‬    ‫ذ َ‬‫ون الَّ ِ‬
+                                                                           ‫الن ِبيُّ َ‬
+                                                                                   ‫ها َّ‬      ‫ح ُ‬
+                                                                                            ‫ك ُ‬
+                                                                                       ‫م بِ َ‬   ‫و ُنو ٌر يَ ْ‬
+                                                                                                            ‫ه ادى َ‬‫ُ‬
+  ‫بالبوراة البي أنزل هللا على موسى ‪ ،‬وأما قوله تعالى ‪ ( :‬وخاتم النبيين )‬
+  ‫ولم يقل خاتم المرسلين ؟ فألن خبم الرسالة ال يسبلزم خبم النبوة ‪ ،‬واما‬
+‫خبم النبوة فيسبلزم خبم الرسالة ولهذا قال عليه الصالة والسالم ‪ " :‬انه ال‬
+                                                        ‫نبي بعدي " ‪ ،‬ولم يقل ال رسول بعدي ‪.‬‬
+ ‫فعلم أنه صلى هللا عليه وسلم ال رسول بعده وال نبي بل هو خاتم النبيين‬                                             ‫ُ‬     ‫‪‬‬
+                                                              ‫والمرسلين عليهم الصالة والسالم ‪.‬‬
+
+‫‪a‬‬                                                                                                                      ‫‪9‬‬
+
+
+=== Slide 10 ===
+        Islamic Aqeedah
+   The well-known difference between a Prophet and a Messenger is
+    that a Messenger is one to whom a law is revealed and he is
+    commanded to convey it, whilst a Prophet is one to whom a law is
+    revealed but he is not commanded to convey it. But this
+    distinction is not free of problems, because a Prophet is also
+    commanded to call people, convey the Message and judge among
+    the people.
+
+a                                                                  10
+
+
+=== Slide 11 ===
+         Islamic Aqeedah
+   Hence Shaykh al-Islam Ibn Taymiyah said: The correct view is that
+    the Messenger is one who is sent to a disbelieving people, and the
+    Prophet is one who is sent to a believing people with the
+    sharee’ah of the Messenger who came before him, to teach them
+    and judge between them, as Allaah says (interpretation of the
+    meaning):
+   “Verily, We did send down the Tawraat (Torah) [to Moosa
+    (Moses)], therein was guidance and light, by which the Prophets,
+    who submitted themselves to Allaah’s Will, judged for the Jews”
+                                                [al-Maa’idah 5:44] 
+
+a                                                                   11
+
+
+=== Slide 12 ===
+         Islamic Aqeedah
+   So the Prophets of the Children of Israel judged by the Tawraat
+    which Allaah had revealed to Moosa.
+   With regard to the aayah,
+   “but he is the Messenger of Allaah and the last (end) of the
+    Prophets” [al-Ahzaab 33:40]
+
+a                                                                     12
+
+
+=== Slide 13 ===
+         Islamic Aqeedah
+   and why it did not say the last of the Messengers – the end of the
+    Message does not mean the end of Prophethood, but the end of
+    Prophethood does mean the end of the Message. Hence the
+    Prophet (peace and blessings of Allaah be upon him) said: “There
+    will be no Prophet after me,” and he did not say, there will be no
+    Messenger after me.
+   Thus we know that there is no Messenger and no Prophet after
+    him (peace and blessings of Allaah be upon him); he was the last
+    of the Prophets and of the Messengers, (peace and blessings of
+    Allaah be upon him).
+
+a                                                                        13
+
+
+=== Slide 14 ===
+         Islamic Aqeedah
+   From Prophets we have been told stories of some and ….
+   Some of the Prophets in Qur’an…
+   Four Prophets from among the Arabs
+   Prophets from the sons of Ya’qoob ‫األسباط‬
+   Prophets we know from the Sunnah (Sheeth, yoosha ibn noon
+    (Joshua the son of Nun)
+   Some who may be or may not be Prophets from the righteous ones
+    (Dhul Qarnayn, Tubba’, Al Khidr
+   Is Khidr alive?
+
+a                                                                14
+
+
+=== Slide 15 ===
+    Islamic Aqeedah
+
+a                     15
+
+
+=== Slide 16 ===
+         Islamic Aqeedah
+   Issyk-Kul from space, September 1992
+
+a                                          16
+
+
+=== Slide 17 ===
+         Islamic Aqeedah
+   About 118 rivers and streams flow into the lake
+   Max. length 178 kilometres (111 mi)[1]
+   Max. width   60.1 kilometres (37.3 mi)[1]
+   Surface area 6,236 square kilometres (2,408 sq mi)[1]
+   Average depth    278.4 metres (913 ft)[1]
+   Max. depth   668 metres (2,192 ft)[1][2]
+
+a                                                           17
+
+
+=== Slide 18 ===
+    Islamic Aqeedah
+
+a                     18
+
+
+=== Slide 19 ===
+    Islamic Aqeedah
+
+a                     19
+
+
+=== Slide 20 ===
+    Islamic Aqeedah
+
+a                     20
+
+
+=== Slide 21 ===
+    Islamic Aqeedah
+
+a                     21
+
+
+=== Slide 22 ===
+    Islamic Aqeedah
+
+a                     22
+
+
+=== Slide 23 ===
+    Islamic Aqeedah
+
+a                     23
+
