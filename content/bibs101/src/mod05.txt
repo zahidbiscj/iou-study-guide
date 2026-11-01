@@ -1,0 +1,1058 @@
+title: Legal Environment | আইনি পরিবেশ
+units: Unit 8
+pdf: Unit 8 - LegalEnvironment.pdf
+slides: 57
+
+@concept | Big picture — what is this module about? | বড় ছবি — এই মডিউলে কী শিখব?
+In Module 1 the **legal environment** was one of the six external forces. Here we open it up. Every day a business makes promises (contracts), sells products that could hurt someone (torts), owns ideas and brands (intellectual property), guarantees quality (warranties) and must not cheat consumers or kill competition (consumer protection and antitrust). This module explains the rules for each.
+
+Think of a phone shop in Dhaka. It signs a lease with the landlord (**contract**). It sells a charger that overheats and burns a customer (**tort / product liability**). It must not copy Samsung's logo (**trademark**). It promises "6 months' service warranty" (**express warranty**), and the phone must at least work as a phone (**implied warranty of merchantability**). If it and the other shops agree to fix high prices, that is an **antitrust** problem.
+
+### What you will learn (7 study questions)
+1. **5.1** Meaning and purpose of law; rule of law (slides 3–7).
+2. **5.2** Statutory vs common law (slides 8–12).
+3. **5.3** Tort law: negligence, strict liability, product liability, damages (slides 13–26).
+4. **5.4** Intellectual property: patents, copyrights, trademarks (slides 27–34).
+5. **5.5** Warranties: express and implied (slides 35–39).
+6. **5.6** Contracts: four elements, breach and remedies (slides 40–47).
+7. **5.7** Consumer protection and antitrust laws: Sherman, FTC and Clayton Acts (slides 48–57).
+
+### The 3-minute version
+- **Law** = rules of conduct enforced by a political authority. Purposes: **maintain order, establish standards, resolve conflict, protect rights**.
+- **Statutory law** = written by the legislature (Congress). **Common law** = made by judges through **precedent**.
+- **Tort** = a civil wrong causing harm; proved by **preponderance of the evidence** (>50%). **Negligence** = unintentional harm (5 elements); **strict liability** = liable for defective/ultrahazardous products without proving fault. Product claims: **design, manufacturing, failure-to-warn**. Damages: **compensatory** (restore) and **punitive** (punish).
+- **IP:** **patent** (inventions, 20 years), **copyright** (creative works, life + 70 years), **trademark** (brand names/logos).
+- **Warranty** = promise about quality: **express** (stated) or **implied** (merchantability, fitness for purpose).
+- **Contract** = legally enforceable agreement with **offer & acceptance, consideration, capacity, legality**. Breach → remedies: expectation, reliance, restitution, specific performance.
+- **Antitrust:** **Sherman Act 1890** (bans monopolies/trusts), **FTC Act** (creates the FTC; stops unfair/deceptive practices), **Clayton Act 1914** (mergers, interlocking directorates, price discrimination; legalizes unions and strikes).
+~~
+মডিউল ১-এ **আইনি পরিবেশ** ছয়টি বাহ্যিক শক্তির একটি ছিল। এখানে সেটি খুলে দেখব। প্রতিদিন একটি ব্যবসা প্রতিশ্রুতি দেয় (চুক্তি), এমন পণ্য বেচে যা কাউকে আঘাত করতে পারে (টর্ট), ধারণা ও ব্র্যান্ডের মালিক হয় (মেধাস্বত্ব), মানের নিশ্চয়তা দেয় (ওয়ারেন্টি), আর ভোক্তাকে ঠকাতে বা প্রতিযোগিতা নষ্ট করতে পারে না (ভোক্তা সুরক্ষা ও প্রতিযোগিতা আইন)। এই মডিউল প্রতিটির নিয়ম ব্যাখ্যা করে।
+
+ঢাকার একটি ফোনের দোকানের কথা ভাবো। এটি বাড়িওয়ালার সাথে ভাড়ার চুক্তি করে (**চুক্তি**)। এটি একটি চার্জার বেচে যা গরম হয়ে ক্রেতাকে পুড়িয়ে দেয় (**টর্ট / পণ্য দায়**)। এটি স্যামসাংয়ের লোগো নকল করতে পারে না (**ট্রেডমার্ক**)। এটি "৬ মাসের সার্ভিস ওয়ারেন্টি"-র প্রতিশ্রুতি দেয় (**প্রকাশ্য ওয়ারেন্টি**), আর ফোনটিকে অন্তত ফোন হিসেবে কাজ করতে হবে (**বিক্রয়যোগ্যতার অন্তর্নিহিত ওয়ারেন্টি**)। এটি ও অন্য দোকানগুলো মিলে দাম বাড়িয়ে রাখার চুক্তি করলে তা **প্রতিযোগিতা আইনের (অ্যান্টিট্রাস্ট)** সমস্যা।
+
+### কী শিখবে (৭টি স্টাডি প্রশ্ন)
+1. **৫.১** আইনের অর্থ ও উদ্দেশ্য; আইনের শাসন (স্লাইড ৩–৭)।
+2. **৫.২** সংবিধিবদ্ধ আইন বনাম কমন ল (স্লাইড ৮–১২)।
+3. **৫.৩** টর্ট আইন: অবহেলা, কঠোর দায়, পণ্য দায়, ক্ষতিপূরণ (স্লাইড ১৩–২৬)।
+4. **৫.৪** মেধাস্বত্ব: পেটেন্ট, কপিরাইট, ট্রেডমার্ক (স্লাইড ২৭–৩৪)।
+5. **৫.৫** ওয়ারেন্টি: প্রকাশ্য ও অন্তর্নিহিত (স্লাইড ৩৫–৩৯)।
+6. **৫.৬** চুক্তি: চারটি উপাদান, ভঙ্গ ও প্রতিকার (স্লাইড ৪০–৪৭)।
+7. **৫.৭** ভোক্তা সুরক্ষা ও প্রতিযোগিতা আইন: শারম্যান, FTC ও ক্লেটন আইন (স্লাইড ৪৮–৫৭)।
+
+### ৩ মিনিটের সংক্ষিপ্ত রূপ
+- **আইন** = রাজনৈতিক কর্তৃপক্ষ প্রয়োগ করে এমন আচরণের নিয়ম। উদ্দেশ্য: **শৃঙ্খলা রক্ষা, মানদণ্ড নির্ধারণ, বিরোধ নিষ্পত্তি, অধিকার রক্ষা**।
+- **সংবিধিবদ্ধ আইন** = আইনসভা (কংগ্রেস) লেখে। **কমন ল** = বিচারকরা **নজির (precedent)** দিয়ে তৈরি করেন।
+- **টর্ট** = ক্ষতিকর দেওয়ানি অন্যায়; প্রমাণ **সাক্ষ্যের প্রাধান্য** (>৫০%)। **অবহেলা** = অনিচ্ছাকৃত ক্ষতি (৫টি উপাদান); **কঠোর দায়** = দোষ প্রমাণ ছাড়াই ত্রুটিপূর্ণ/অতি-বিপজ্জনক পণ্যের দায়। পণ্যের দাবি: **নকশা, উৎপাদন, সতর্ক না করা**। ক্ষতিপূরণ: **পূরণমূলক** (আগের অবস্থায় ফেরানো) ও **শাস্তিমূলক** (শাস্তি দেওয়া)।
+- **মেধাস্বত্ব:** **পেটেন্ট** (উদ্ভাবন, ২০ বছর), **কপিরাইট** (সৃজনশীল কাজ, জীবনকাল + ৭০ বছর), **ট্রেডমার্ক** (ব্র্যান্ড নাম/লোগো)।
+- **ওয়ারেন্টি** = মানের প্রতিশ্রুতি: **প্রকাশ্য** (বলা) বা **অন্তর্নিহিত** (বিক্রয়যোগ্যতা, উদ্দেশ্যের উপযোগিতা)।
+- **চুক্তি** = আইনত বলবৎযোগ্য সমঝোতা, যাতে **প্রস্তাব ও গ্রহণ, প্রতিদান, সক্ষমতা, বৈধতা**। ভঙ্গ → প্রতিকার: প্রত্যাশা, নির্ভরতা, পুনঃস্থাপন, নির্দিষ্ট সম্পাদন।
+- **প্রতিযোগিতা আইন:** **শারম্যান আইন ১৮৯০** (একচেটিয়া/ট্রাস্ট নিষিদ্ধ), **FTC আইন** (FTC তৈরি; অন্যায্য/প্রতারণামূলক চর্চা বন্ধ), **ক্লেটন আইন ১৯১৪** (একীভূতকরণ, পরস্পর সংযুক্ত পরিচালক, মূল্য বৈষম্য; ইউনিয়ন ও ধর্মঘট বৈধ)।
+
+@words | Key words of this module | এই মডিউলের গুরুত্বপূর্ণ শব্দ
+Law | Rules of conduct enforced by a political authority | আইন | Traffic rules, company law | ট্রাফিক আইন, কোম্পানি আইন
+Rule of law | Everyone is accountable to public, equal, independently judged laws | আইনের শাসন | Even a minister can be sued | মন্ত্রীর বিরুদ্ধেও মামলা করা যায়
+Statutory law | Law passed by the legislature | সংবিধিবদ্ধ আইন | An Act of Parliament | সংসদের আইন
+Common law | Judge-made law based on precedent | কমন ল — নজিরভিত্তিক আইন | Following a past High Court ruling | হাইকোর্টের আগের রায় অনুসরণ
+Precedent / stare decisis | Deciding like cases alike, following earlier rulings | নজির | Lower courts follow higher courts | নিম্ন আদালত উচ্চ আদালতকে অনুসরণ করে
+Tort | Civil wrong that causes harm to a person or property | টর্ট — দেওয়ানি অন্যায় | A slippery shop floor injures a customer | পিচ্ছিল মেঝেতে ক্রেতা আহত
+Plaintiff / defendant | The person who sues / the person being sued | বাদী / বিবাদী | Customer vs shop | ক্রেতা বনাম দোকান
+Preponderance of the evidence | More than 50% likely true (civil standard) | সাক্ষ্যের প্রাধান্য | Civil case standard | দেওয়ানি মামলার মানদণ্ড
+Negligence | Harm from unintentional action; not acting as a reasonable person would | অবহেলা | Not putting a warning sign on a wet floor | ভেজা মেঝেতে সতর্কচিহ্ন না দেওয়া
+Strict liability | Liability without proving fault, for defective or ultrahazardous products | কঠোর দায় | Explosives company liable for any blast damage | বিস্ফোরক কোম্পানি যেকোনো ক্ষতির দায়ী
+Product liability | Responsibility for harm caused by defective products | পণ্য দায় | A pressure cooker that explodes | বিস্ফোরিত প্রেশার কুকার
+Compensatory damages | Money to restore the victim to their earlier position | পূরণমূলক ক্ষতিপূরণ | Paying medical bills and lost wages | চিকিৎসা খরচ ও হারানো মজুরি
+Punitive damages | Extra money to punish and deter very bad behaviour | শাস্তিমূলক ক্ষতিপূরণ | Huge award against a firm that hid a defect | ত্রুটি গোপনকারী প্রতিষ্ঠানের বিরুদ্ধে বিশাল অঙ্ক
+Intellectual property | Products of the mind protected by law | মেধাস্বত্ব | Logos, inventions, songs | লোগো, উদ্ভাবন, গান
+Patent | Right to exclude others from making/selling an invention (20 years) | পেটেন্ট | A new medicine formula | নতুন ওষুধের ফর্মুলা
+Copyright | Exclusive right to an original creative work (life + 70 years) | কপিরাইট | A novel, a film, software | উপন্যাস, চলচ্চিত্র, সফটওয়্যার
+Trademark | Word, symbol or design that identifies the source of goods | ট্রেডমার্ক | Aarong's logo, Nike's swoosh | আড়ংয়ের লোগো, নাইকির সোয়ুশ
+Warranty | Promise that goods meet stated standards | ওয়ারেন্টি | 1-year warranty on a fridge | ফ্রিজে ১ বছরের ওয়ারেন্টি
+Express warranty | Created by the seller's words, description or sample | প্রকাশ্য ওয়ারেন্টি | "This watch is waterproof" | "এই ঘড়ি পানিরোধী"
+Implied warranty | Imposed by law (UCC): merchantability, fitness for purpose | অন্তর্নিহিত ওয়ারেন্টি | A kettle must boil water | কেতলিতে পানি ফুটতে হবে
+Contract | Legally enforceable agreement | চুক্তি | A shop lease | দোকান ভাড়ার চুক্তি
+Consideration | Exchange of value in a contract | প্রতিদান | Money for goods | পণ্যের বদলে টাকা
+Capacity | Legal ability to contract (18+, sound mind, no duress) | চুক্তির সক্ষমতা | A 15-year-old can cancel a contract | ১৫ বছর বয়সী চুক্তি বাতিল করতে পারে
+Breach of contract | Failure without legal excuse to perform a promise in a contract | চুক্তিভঙ্গ | Supplier never delivers the fabric | সরবরাহকারী কাপড় পাঠালই না
+Specific performance | Court orders a party to actually do what it promised | নির্দিষ্ট সম্পাদন | Ordering the sale of a unique plot of land | একটি অনন্য জমি বিক্রির নির্দেশ
+Antitrust law | Laws that prevent practices that limit competition or fix prices | প্রতিযোগিতা আইন | Breaking up a monopoly | একচেটিয়া ভেঙে দেওয়া
+Interlocking directorate | Same person directs competing companies | পরস্পর সংযুক্ত পরিচালকত্ব | One person on the boards of two rival banks | দুটি প্রতিদ্বন্দ্বী ব্যাংকের পর্ষদে একই ব্যক্তি
+
+@slide 1,2 | Title and module learning outcomes | শিরোনাম ও মডিউলের শিখন ফলাফল
+BN:
+ইন্ট্রোডাকশন টু বিজনেস — আইনি পরিবেশ
+
+মডিউলের শিখন ফলাফল: ব্যবসার পরিবেশ নিয়ন্ত্রণ ও গঠনে আইনি ব্যবস্থার ভূমিকা সংক্ষেপে বলো। ৫.১: আইনের অর্থ ও উদ্দেশ্য ব্যাখ্যা করো। ৫.২: সংবিধিবদ্ধ আইন ও কমন লর পার্থক্য করো। ৫.৩: টর্ট আইনের সংজ্ঞা দাও এবং টর্ট আইনে পণ্য দায়ের ভূমিকা ব্যাখ্যা করো। ৫.৪: মেধাস্বত্ব আইনের উদ্দেশ্য ও বৈশিষ্ট্য ব্যাখ্যা করো। ৫.৫: ওয়ারেন্টি বর্ণনা করো। ৫.৬: আইনত বলবৎযোগ্য চুক্তির উপাদানগুলোর তালিকা দাও ও বর্ণনা করো, এবং চুক্তিভঙ্গের পরিণাম ব্যাখ্যা করো। ৫.৭: ভোক্তা সুরক্ষা ও প্রতিযোগিতা আইন সংক্ষেপে বলো।
+T:
+Seven outcomes = **study questions 5.1–5.7** (Unit 8). This module is all about **definitions and lists** — learn the exact wording of each definition and the items in each list. The slides follow US law, so answer with the US examples given.
+TB:
+সাতটি ফলাফল = **স্টাডি প্রশ্ন ৫.১–৫.৭** (ইউনিট ৮)। এই মডিউল পুরোটাই **সংজ্ঞা ও তালিকা** — প্রতিটি সংজ্ঞার হুবহু শব্দ ও প্রতিটি তালিকার আইটেম শেখো। স্লাইডগুলো মার্কিন আইন অনুসরণ করে, তাই প্রদত্ত মার্কিন উদাহরণ দিয়েই উত্তর দাও।
+
+@lesson 5.1 | Explain the meaning and purpose of law | আইনের অর্থ ও উদ্দেশ্য
+Slides 3–7. Sub-outcomes on slide 4: **5.1.1** define law; **5.1.2** explain the purposes of law; **5.1.3** explain "rule of law".
+~~
+স্লাইড ৩–৭। স্লাইড ৪-এর উপ-ফলাফল: **৫.১.১** আইনের সংজ্ঞা; **৫.১.২** আইনের উদ্দেশ্য; **৫.১.৩** "আইনের শাসন" ব্যাখ্যা।
+
+@slide 3,4 | The meaning and purpose of law — learning outcomes | আইনের অর্থ ও উদ্দেশ্য — শিখন ফলাফল
+BN:
+আইনের অর্থ ও উদ্দেশ্য
+
+শিখন ফলাফল: আইনের অর্থ ও উদ্দেশ্য। ৫.১: আইনের অর্থ ও উদ্দেশ্য ব্যাখ্যা করো। ৫.১.১: আইনের সংজ্ঞা দাও। ৫.১.২: আইনের উদ্দেশ্য ব্যাখ্যা করো। ৫.১.৩: "আইনের শাসন" ব্যাখ্যা করো।
+T:
+Three short items: a **definition**, a **list of four purposes**, and the **four parts of the rule of law**.
+TB:
+তিনটি ছোট বিষয়: একটি **সংজ্ঞা**, **চারটি উদ্দেশ্যের তালিকা**, আর **আইনের শাসনের চারটি অংশ**।
+
+@slide 5 | Understanding law | আইন বোঝা
+BN:
+আইন বোঝা • আইন হলো রীতি, সমঝোতা বা কর্তৃপক্ষ দ্বারা প্রতিষ্ঠিত আচরণ বা পদ্ধতির নিয়মের সমষ্টি। • এটি একটি সম্প্রদায় পরিচালনাকারী এবং রাজনৈতিক কর্তৃপক্ষ দ্বারা প্রয়োগকৃত সব নিয়মের সমগ্র সংকলনকে বোঝায়।
+IMG:
+A word cloud with "RULES" in the centre and words such as regulations, statutes, court, enforce, penalties, authority, government.
+T:
+Definition (5.1.1): **law is a set of rules of conduct or procedure established by custom, agreement or authority** — the whole body of rules **governing a community** and **enforced by a political authority** (the state). The key word is **enforced**: a rule with no penalty is just advice.
+TB:
+সংজ্ঞা (৫.১.১): **আইন হলো রীতি, সমঝোতা বা কর্তৃপক্ষ দ্বারা প্রতিষ্ঠিত আচরণ বা পদ্ধতির নিয়মের সমষ্টি** — একটি **সম্প্রদায় পরিচালনাকারী** নিয়মের সমগ্র সংকলন, যা **রাজনৈতিক কর্তৃপক্ষ** (রাষ্ট্র) **প্রয়োগ করে**। মূল শব্দ **প্রয়োগ**: শাস্তিহীন নিয়ম শুধু পরামর্শ।
+
+@slide 6 | Purposes of law | আইনের উদ্দেশ্য
+BN:
+আইনের উদ্দেশ্য — আইনের প্রধান উদ্দেশ্য • শৃঙ্খলা রক্ষা • মানদণ্ড নির্ধারণ • বিরোধ নিষ্পত্তি • ব্যক্তির অধিকার ও স্বাধীনতা রক্ষা। একটি সভ্য সমাজে শৃঙ্খলা রক্ষা এবং সমাজের মূল্যবোধ ও পরিস্থিতির ভিত্তিতে কোন ব্যক্তিগত আচরণ ও ব্যবসায়িক চর্চা সঠিক বা ভুল তা নির্ধারণে আইন প্রয়োজন।
+IMG:
+Pictures representing order and justice (scales, gavel).
+T:
+Four purposes (5.1.2) — memory trick **"ORSP"**: **O**rder (maintain order), **S**tandards (establish standards), **R**esolve conflict, **P**rotect rights and liberties. For business, law tells firms **which practices are right or wrong** in that society.
+TB:
+চারটি উদ্দেশ্য (৫.১.২): **শৃঙ্খলা রক্ষা, মানদণ্ড নির্ধারণ, বিরোধ নিষ্পত্তি, অধিকার ও স্বাধীনতা রক্ষা**। ব্যবসার জন্য আইন বলে দেয় সেই সমাজে **কোন চর্চা সঠিক বা ভুল**।
+E:
+Order: traffic laws. Standards: BSTI food-quality standards. Resolving conflict: courts settling a dispute between a supplier and a factory. Protecting rights: labor law protecting workers.
+EB:
+শৃঙ্খলা: ট্রাফিক আইন। মানদণ্ড: বিএসটিআইয়ের খাদ্যমান। বিরোধ নিষ্পত্তি: সরবরাহকারী ও কারখানার বিরোধে আদালত। অধিকার রক্ষা: শ্রমিকদের রক্ষায় শ্রম আইন।
+
+@slide 7 | Rule of law | আইনের শাসন
+BN:
+আইনের শাসন — যুক্তরাষ্ট্রের ফেডারেল আদালত আইনের শাসনকে এমন একটি নীতি হিসেবে সংজ্ঞায়িত করে যার অধীনে সব ব্যক্তি, প্রতিষ্ঠান ও সত্তা এমন আইনের কাছে জবাবদিহি করে যা: • প্রকাশ্যে জারি করা • সমানভাবে প্রয়োগ করা • স্বাধীনভাবে বিচার করা • এবং আন্তর্জাতিক মানবাধিকার নীতির সাথে সঙ্গতিপূর্ণ
+IMG:
+A picture of a courthouse.
+T:
+**Rule of law** (5.1.3) = **all persons, institutions and entities** — including the government and the powerful — are **accountable to laws** that are: (1) **publicly promulgated** (published), (2) **equally enforced**, (3) **independently adjudicated** (judged by independent courts), (4) **consistent with international human rights**. Businesses invest more where the rule of law is strong, because contracts will be enforced fairly.
+TB:
+**আইনের শাসন** (৫.১.৩) = **সব ব্যক্তি, প্রতিষ্ঠান ও সত্তা** — সরকার ও ক্ষমতাবানসহ — এমন **আইনের কাছে জবাবদিহি** করে যা: (১) **প্রকাশ্যে জারি**, (২) **সমানভাবে প্রয়োগ**, (৩) **স্বাধীনভাবে বিচার** (স্বাধীন আদালতে), (৪) **আন্তর্জাতিক মানবাধিকারের সাথে সঙ্গতিপূর্ণ**। আইনের শাসন শক্তিশালী হলে ব্যবসা বেশি বিনিয়োগ করে, কারণ চুক্তি ন্যায্যভাবে কার্যকর হবে।
+
+@check 5.1 | Quick check — Meaning of law | দ্রুত যাচাই — আইনের অর্থ
+Q: Which is NOT one of the main purposes of law listed on slide 6? | স্লাইড ৬-এ উল্লিখিত আইনের প্রধান উদ্দেশ্যের মধ্যে কোনটি নেই?
+O: Maintain order | Resolve conflict | *Maximize company profits | Protect individual rights and liberties
+OB: শৃঙ্খলা রক্ষা | বিরোধ নিষ্পত্তি | কোম্পানির মুনাফা সর্বোচ্চ করা | ব্যক্তির অধিকার ও স্বাধীনতা রক্ষা
+X: The four purposes are maintain order, establish standards, resolve conflict and protect individual rights and liberties. | চারটি উদ্দেশ্য: শৃঙ্খলা রক্ষা, মানদণ্ড নির্ধারণ, বিরোধ নিষ্পত্তি, অধিকার ও স্বাধীনতা রক্ষা।
+Q: Under the rule of law, laws must be… | আইনের শাসনে আইন অবশ্যই…
+O: secret and flexible | applied only to citizens, not the government | *publicly promulgated, equally enforced and independently adjudicated | written by companies
+OB: গোপন ও নমনীয় | শুধু নাগরিকদের উপর, সরকারের উপর নয় | প্রকাশ্যে জারি, সমানভাবে প্রয়োগ ও স্বাধীনভাবে বিচার | কোম্পানির লেখা
+X: All persons, institutions and entities are accountable to laws that are publicly promulgated, equally enforced, independently adjudicated and consistent with human rights. | সব ব্যক্তি, প্রতিষ্ঠান ও সত্তা প্রকাশ্য, সমানভাবে প্রয়োগকৃত, স্বাধীনভাবে বিচারকৃত ও মানবাধিকারসম্মত আইনের কাছে জবাবদিহি করে।
+
+@lesson 5.2 | Differentiate between statutory and common law | সংবিধিবদ্ধ আইন ও কমন লর পার্থক্য
+Slides 8–12. Sub-outcomes on slide 9: **5.2.1** define statutory law; **5.2.2** define common law. One line: **statutory = written by lawmakers; common = made by judges through precedent.**
+~~
+স্লাইড ৮–১২। স্লাইড ৯-এর উপ-ফলাফল: **৫.২.১** সংবিধিবদ্ধ আইনের সংজ্ঞা; **৫.২.২** কমন লর সংজ্ঞা। এক লাইনে: **সংবিধিবদ্ধ = আইনপ্রণেতাদের লেখা; কমন = নজিরের মাধ্যমে বিচারকদের তৈরি।**
+
+@slide 8,9 | Statutory and common law — learning outcomes | সংবিধিবদ্ধ আইন ও কমন ল — শিখন ফলাফল
+BN:
+সংবিধিবদ্ধ আইন ও কমন ল
+
+শিখন ফলাফল: সংবিধিবদ্ধ আইন ও কমন ল। ৫.২: সংবিধিবদ্ধ আইন ও কমন লর পার্থক্য করো। ৫.২.১: সংবিধিবদ্ধ আইনের সংজ্ঞা দাও। ৫.২.২: কমন লর সংজ্ঞা দাও।
+T:
+Two definitions — answer in a two-column table: **who makes it**, **how**, **advantage**.
+TB:
+দুটি সংজ্ঞা — দুই কলামের টেবিলে উত্তর দাও: **কে তৈরি করে**, **কীভাবে**, **সুবিধা**।
+
+@slide 10 | Statutory law | সংবিধিবদ্ধ আইন
+BN:
+সংবিধিবদ্ধ আইন — সংবিধিবদ্ধ আইন কংগ্রেস পাস করে এবং এটি যুক্তরাষ্ট্রের আইনের প্রধান উৎসগুলোর একটি। সংবিধান কংগ্রেসকে সংবিধানে নিষিদ্ধ নয় এমন যেকোনো বিষয়ে আইন বা সংবিধি পাসের ক্ষমতা দেয়। একটি নতুন সংবিধি সাধারণত "বিল" হিসেবে শুরু হয়, এবং সব বিলের মাত্র প্রায় ৭% আইনে পরিণত হয়। এগোতে একটি বিলকে হাউস ও সিনেটে সাধারণ সংখ্যাগরিষ্ঠ ভোট পেতে হয়। কংগ্রেস বিলটি অনুমোদন করলে তা প্রেসিডেন্টের কাছে যায়, যিনি স্বাক্ষর করে আইন করেন বা ভেটো দেন। প্রেসিডেন্ট ভেটো দিলে তা বাতিল করতে হাউস ও সিনেট দুই কক্ষেই দুই-তৃতীয়াংশ সংখ্যাগরিষ্ঠ ভোট লাগে।
+T:
+**Statutory law** = laws (statutes) **passed by Congress** (the legislature). The path: **bill → simple majority in the House and Senate → President signs (law) or vetoes**. A veto can be **overridden by a two-thirds majority in both houses**. Only about **7% of bills** become law.
+TB:
+**সংবিধিবদ্ধ আইন** = **কংগ্রেসে (আইনসভা) পাস হওয়া** আইন (সংবিধি)। পথ: **বিল → হাউস ও সিনেটে সাধারণ সংখ্যাগরিষ্ঠতা → প্রেসিডেন্টের স্বাক্ষর (আইন) বা ভেটো**। **দুই কক্ষে দুই-তৃতীয়াংশ ভোটে** ভেটো বাতিল করা যায়। মাত্র প্রায় **৭% বিল** আইন হয়।
+E:
+In Bangladesh, statutory laws are Acts passed by the Jatiya Sangsad, such as the Bangladesh Labour Act 2006 and the Consumer Rights Protection Act 2009.
+EB:
+বাংলাদেশে সংবিধিবদ্ধ আইন হলো জাতীয় সংসদে পাস হওয়া আইন, যেমন বাংলাদেশ শ্রম আইন ২০০৬ ও ভোক্তা-অধিকার সংরক্ষণ আইন ২০০৯।
+K:
+Numbers for MCQs: **~7%** of bills become law; **two-thirds** of both houses to override a veto.
+KB:
+MCQ-র সংখ্যা: **~৭%** বিল আইন হয়; ভেটো বাতিলে দুই কক্ষের **দুই-তৃতীয়াংশ**।
+
+@slide 11 | Common law | কমন ল
+BN:
+কমন ল — কমন ল নজিরের ধারণার উপর ভিত্তি করে, যা বিচারকদের পূর্ববর্তী রায়ের ভিত্তিতে সিদ্ধান্ত নিতে, অথবা অন্তত একই রকম তথ্যের মামলায় পূর্ববর্তী বিচারকদের যুক্তি বিবেচনা করতে বাধ্য করে। নজির বিচারকের উপর কতটা বাধ্যবাধকতা আরোপ করে তা আদালতের স্তরবিন্যাসের উপর নির্ভর করে। ইন্ডিয়ানা কোর্ট সিস্টেম যেমন বলে, "উচ্চ আদালত কোনো সিদ্ধান্ত দিলে নিম্ন আদালতকে তা মানতে হবে।" নজিরের এই নীতির সুবিধা হলো পূর্বানুমানযোগ্যতা।
+T:
+**Common law** = law made by **judges**, based on **precedent**: judges decide new cases the way **earlier similar cases** were decided (or at least consider their reasoning). **Court hierarchy** matters: **lower courts must follow higher courts**. The big advantage: **predictability** — people and businesses can guess how a court will rule.
+TB:
+**কমন ল** = **বিচারকদের** তৈরি আইন, **নজিরের** উপর ভিত্তি করে: বিচারকরা নতুন মামলা **আগের একই রকম মামলার** মতো সিদ্ধান্ত দেন (বা অন্তত সেই যুক্তি বিবেচনা করেন)। **আদালতের স্তরবিন্যাস** গুরুত্বপূর্ণ: **নিম্ন আদালতকে উচ্চ আদালত মানতে হয়**। বড় সুবিধা: **পূর্বানুমানযোগ্যতা** — মানুষ ও ব্যবসা অনুমান করতে পারে আদালত কী রায় দেবে।
+E:
+Bangladesh inherited the common-law system from Britain: the High Court Division must follow decisions of the Appellate Division of the Supreme Court.
+EB:
+বাংলাদেশ ব্রিটেন থেকে কমন ল ব্যবস্থা পেয়েছে: হাইকোর্ট বিভাগকে সুপ্রিম কোর্টের আপিল বিভাগের সিদ্ধান্ত মানতে হয়।
+
+@slide 12 | Class discussion: precedent and business | ক্লাস আলোচনা: নজির ও ব্যবসা
+BN:
+ক্লাস আলোচনা: নজির ও ব্যবসা — নজির ও স্টেয়ার ডিসাইসিসের ভূমিকা ব্যবসার পরিবেশে কীভাবে অবদান রাখে?
+T:
+**Stare decisis** (Latin: "to stand by things decided") = following precedent. It helps business because it makes the law **predictable and stable**: firms can plan contracts, investments and products knowing how courts will treat them, which lowers risk and encourages investment. The downside: precedent can change slowly when society changes.
+TB:
+**স্টেয়ার ডিসাইসিস** (ল্যাটিন: "সিদ্ধান্তের পক্ষে থাকা") = নজির অনুসরণ। এটি ব্যবসাকে সাহায্য করে কারণ আইন **পূর্বানুমানযোগ্য ও স্থিতিশীল** হয়: প্রতিষ্ঠানগুলো আদালত কীভাবে দেখবে জেনে চুক্তি, বিনিয়োগ ও পণ্যের পরিকল্পনা করতে পারে, ফলে ঝুঁকি কমে ও বিনিয়োগ বাড়ে। অসুবিধা: সমাজ বদলালেও নজির ধীরে বদলায়।
+
+@check 5.2 | Quick check — Statutory and common law | দ্রুত যাচাই — সংবিধিবদ্ধ ও কমন ল
+Q: Law based on judges following earlier rulings in similar cases is… | একই রকম মামলায় আগের রায় অনুসরণ করে বিচারকদের আইন হলো…
+O: statutory law | *common law | criminal law | contract law
+OB: সংবিধিবদ্ধ আইন | কমন ল | ফৌজদারি আইন | চুক্তি আইন
+X: Common law is based on precedence: judges decide based on prior rulings. Statutory law is passed by the legislature. | কমন ল নজিরভিত্তিক: বিচারকরা আগের রায়ের ভিত্তিতে সিদ্ধান্ত দেন। সংবিধিবদ্ধ আইন আইনসভা পাস করে।
+Q: If the US President vetoes a bill, Congress can override the veto with… | মার্কিন প্রেসিডেন্ট বিলে ভেটো দিলে কংগ্রেস তা বাতিল করতে পারে…
+O: a simple majority in the House only | *a two-thirds majority in both the House and the Senate | a court ruling | a public vote
+OB: শুধু হাউসে সাধারণ সংখ্যাগরিষ্ঠতায় | হাউস ও সিনেট দুই কক্ষে দুই-তৃতীয়াংশ ভোটে | আদালতের রায়ে | গণভোটে
+X: A two-thirds majority vote in both the House and the Senate is required to override a presidential veto. | প্রেসিডেন্টের ভেটো বাতিলে হাউস ও সিনেট দুই কক্ষে দুই-তৃতীয়াংশ ভোট লাগে।
+Q: The main advantage of the doctrine of precedent is… | নজিরের নীতির প্রধান সুবিধা হলো…
+O: speed | *predictability | lower taxes | secrecy
+OB: গতি | পূর্বানুমানযোগ্যতা | কম কর | গোপনীয়তা
+X: Slide 11: the upside of the doctrine of precedence is predictability. | স্লাইড ১১: নজিরের নীতির সুবিধা হলো পূর্বানুমানযোগ্যতা।
+
+@lesson 5.3 | Define tort law and explain product liability | টর্ট আইন ও পণ্য দায়
+Slides 13–26. Sub-outcomes on slide 14:
+- **5.3.1** Define tort law. **5.3.2** Negligence. **5.3.3** Strict liability. **5.3.4** The three bases for product liability claims. **5.3.5** Compensatory vs punitive damages.
+This is the **biggest lesson** of the module.
+~~
+স্লাইড ১৩–২৬। স্লাইড ১৪-এর উপ-ফলাফল:
+- **৫.৩.১** টর্ট আইনের সংজ্ঞা। **৫.৩.২** অবহেলা। **৫.৩.৩** কঠোর দায়। **৫.৩.৪** পণ্য দায়ের দাবির তিনটি ভিত্তি। **৫.৩.৫** পূরণমূলক বনাম শাস্তিমূলক ক্ষতিপূরণ।
+এটি মডিউলের **সবচেয়ে বড় পাঠ**।
+
+@slide 13,14 | Tort law — learning outcomes | টর্ট আইন — শিখন ফলাফল
+BN:
+টর্ট আইন
+
+শিখন ফলাফল: টর্ট আইন। ৫.৩: টর্ট আইনের সংজ্ঞা দাও এবং টর্ট আইনে পণ্য দায়ের ভূমিকা ব্যাখ্যা করো। ৫.৩.১: টর্ট আইনের সংজ্ঞা দাও। ৫.৩.২: টর্ট আইনে অবহেলার ধারণা ব্যাখ্যা করো। ৫.৩.৩: টর্ট আইনে কঠোর দায়ের ধারণা ব্যাখ্যা করো। ৫.৩.৪: পণ্য দায়ের দাবির তিনটি প্রধান ভিত্তি ব্যাখ্যা করো। ৫.৩.৫: পূরণমূলক ও শাস্তিমূলক ক্ষতিপূরণের পার্থক্য করো।
+T:
+Five sub-outcomes. The structure: **what a tort is → two ways to be liable (negligence, strict liability) → three kinds of product defect → two kinds of damages.**
+TB:
+পাঁচটি উপ-ফলাফল। কাঠামো: **টর্ট কী → দায়ী হওয়ার দুটি উপায় (অবহেলা, কঠোর দায়) → তিন ধরনের পণ্য ত্রুটি → দুই ধরনের ক্ষতিপূরণ।**
+
+@slide 15 | Understanding tort law | টর্ট আইন বোঝা
+BN:
+টর্ট আইন বোঝা — কমন ল এখতিয়ারে টর্ট হলো দেওয়ানি আইনের এমন লঙ্ঘন যা কোনো ব্যক্তি বা সম্পত্তির ক্ষতি বা আঘাত করে, এবং টর্টমূলক কাজ সম্পাদনকারীর উপর সংশ্লিষ্ট আইনি দায় তৈরি করে। টর্ট আইনে অন্যায়ের জন্য ক্ষতিপূরণ চেয়ে মামলা করার দায়িত্ব বাদীর।
+IMG:
+A photo of an open manhole with a fallen warning sign — someone could fall in.
+T:
+**Tort** = a **violation of civil law** that **causes harm or injury to a person or property**, creating **legal liability** for the person who did it. The **plaintiff** (injured person) must **file the lawsuit** to seek **damages** (money). The picture is a perfect tort: an open manhole with a fallen sign — if someone falls in, whoever was responsible is liable.
+TB:
+**টর্ট** = **দেওয়ানি আইনের লঙ্ঘন**, যা **কোনো ব্যক্তি বা সম্পত্তির ক্ষতি বা আঘাত** করে এবং যে করেছে তার **আইনি দায়** তৈরি করে। **বাদীকে** (আহত ব্যক্তি) **ক্ষতিপূরণ** (টাকা) চেয়ে **মামলা করতে** হয়। ছবিটি নিখুঁত টর্ট: খোলা ম্যানহোল, পড়ে থাকা সতর্কচিহ্ন — কেউ পড়ে গেলে দায়িত্বপ্রাপ্ত পক্ষ দায়ী।
+K:
+Practice question 1: a tort is "**a violation of civil law**" — not criminal law.
+KB:
+অনুশীলনী প্রশ্ন ১: টর্ট হলো "**দেওয়ানি আইনের লঙ্ঘন**" — ফৌজদারি আইন নয়।
+
+@slide 16 | Tort law and burden of proof | টর্ট আইন ও প্রমাণের দায়
+BN:
+টর্ট আইন ও প্রমাণের দায় — টর্ট মামলায় প্রমাণের দায় ফৌজদারি আইনের চেয়ে কম। ফৌজদারি মামলায় বিবাদীর দোষ যুক্তিসঙ্গত সন্দেহের ঊর্ধ্বে প্রমাণ করতে হয়। কিন্তু টর্ট আইনে বাদীকে শুধু সাক্ষ্যের প্রাধান্য প্রমাণ করতে হয় — অর্থাৎ প্রমাণের ভিত্তিতে বাদীর দাবি সত্য হওয়ার সম্ভাবনা ৫০ শতাংশের বেশি।
+T:
+Two standards of proof:
+- **Criminal case:** guilt **beyond a reasonable doubt** (very high).
+- **Tort (civil) case:** **preponderance of the evidence** = **more than 50% likely** true (lower).
+So it is **easier to win a tort case** than to convict someone of a crime.
+TB:
+প্রমাণের দুটি মানদণ্ড:
+- **ফৌজদারি মামলা:** দোষ **যুক্তিসঙ্গত সন্দেহের ঊর্ধ্বে** (খুব উঁচু)।
+- **টর্ট (দেওয়ানি) মামলা:** **সাক্ষ্যের প্রাধান্য** = সত্য হওয়ার সম্ভাবনা **৫০%-এর বেশি** (নিচু)।
+তাই অপরাধে দোষী সাব্যস্ত করার চেয়ে **টর্ট মামলা জেতা সহজ**।
+
+@slide 17 | Negligence and tort law | অবহেলা ও টর্ট আইন
+BN:
+অবহেলা ও টর্ট আইন — টর্ট আইনে অবহেলা হলো অনিচ্ছাকৃত কাজ থেকে উদ্ভূত ক্ষতি। অবহেলা নির্ধারণের মানদণ্ড হলো পরিস্থিতিতে একজন যুক্তিসঙ্গত ব্যক্তি কী করতেন। অর্থাৎ আইন ধরে নেয় যে প্রত্যেকের একজন যুক্তিসঙ্গত ব্যক্তির মতো আচরণ করার দায়িত্ব আছে।
+IMG:
+A picture of a "wet floor" or careless situation.
+T:
+**Negligence** = harm from **unintentional** action (you didn't mean it, but you were careless). The test is the **"reasonable person" standard**: what would a sensible, careful person have done in the same situation? Everyone has a **duty** to behave like that.
+TB:
+**অবহেলা** = **অনিচ্ছাকৃত** কাজ থেকে ক্ষতি (ইচ্ছে করে নয়, কিন্তু অসাবধান ছিলে)। পরীক্ষা হলো **"যুক্তিসঙ্গত ব্যক্তি" মানদণ্ড**: একই পরিস্থিতিতে একজন বিবেচক, সাবধান মানুষ কী করতেন? প্রত্যেকের এমন আচরণ করার **দায়িত্ব** আছে।
+E:
+A restaurant mops the floor and puts no "wet floor" sign; a customer slips and breaks an arm. No one intended it, but a reasonable restaurant would have put up a sign — negligence.
+EB:
+একটি রেস্টুরেন্ট মেঝে মুছে "ভেজা মেঝে" চিহ্ন দেয়নি; একজন ক্রেতা পিছলে হাত ভাঙলেন। কেউ ইচ্ছা করেনি, কিন্তু একটি যুক্তিসঙ্গত রেস্টুরেন্ট চিহ্ন দিত — অবহেলা।
+K:
+Practice question 2: negligence = "**harm that arises from unintentional action**".
+KB:
+অনুশীলনী প্রশ্ন ২: অবহেলা = "**অনিচ্ছাকৃত কাজ থেকে উদ্ভূত ক্ষতি**"।
+
+@slide 18 | The five elements in a negligence case | অবহেলা মামলার পাঁচটি উপাদান
+TXT:
+1. **Duty of due care:** Could the defendant have foreseen that the plaintiff would have been harmed by their action?
+2. **Breach:** Did the defendant fail to meet their duty of care?
+3. **Factual causation:** Did the defendant's failure to meet their duty of care cause the harm?
+4. **Proximate causation:** This element requires the plaintiff to prove that the defendant could reasonably foresee the general type of harm.
+5. **Damage:** Proof of harm – can include emotional, economic, or reputational damages.
+BN:
+1. **যথাযথ যত্নের দায়িত্ব:** বিবাদী কি অনুমান করতে পারতেন যে তার কাজে বাদী ক্ষতিগ্রস্ত হবেন?
+2. **লঙ্ঘন:** বিবাদী কি তার যত্নের দায়িত্ব পালনে ব্যর্থ হয়েছেন?
+3. **বাস্তব কার্যকারণ:** বিবাদীর দায়িত্ব পালনের ব্যর্থতাই কি ক্ষতির কারণ?
+4. **নিকটবর্তী কার্যকারণ:** বাদীকে প্রমাণ করতে হবে যে বিবাদী যুক্তিসঙ্গতভাবে এ ধরনের ক্ষতি অনুমান করতে পারতেন।
+5. **ক্ষতি:** ক্ষতির প্রমাণ — মানসিক, আর্থিক বা সুনামের ক্ষতি হতে পারে।
+T:
+To win a negligence case the plaintiff must prove **all five**: **Duty → Breach → Factual cause → Proximate cause → Damage**. Memory trick: **"Don't Break Fragile Pots, Dear"**. Apply it to the wet-floor case: the restaurant owed customers a duty (1); it didn't put up a sign (2); the wet floor caused the fall (3); a fall is exactly the kind of harm a wet floor could foreseeably cause (4); the broken arm and medical bills are the damage (5).
+TB:
+অবহেলা মামলা জিততে বাদীকে **পাঁচটিই** প্রমাণ করতে হয়: **দায়িত্ব → লঙ্ঘন → বাস্তব কারণ → নিকটবর্তী কারণ → ক্ষতি**। ভেজা মেঝের ঘটনায় প্রয়োগ করো: রেস্টুরেন্টের ক্রেতাদের প্রতি দায়িত্ব ছিল (১); চিহ্ন দেয়নি (২); ভেজা মেঝেই পড়ার কারণ (৩); পড়ে যাওয়া ঠিক সেই ক্ষতি যা ভেজা মেঝে থেকে অনুমেয় (৪); ভাঙা হাত ও চিকিৎসা খরচই ক্ষতি (৫)।
+K:
+List the five elements **in order** with one line each — a very likely written question.
+KB:
+পাঁচটি উপাদান **ক্রমানুসারে** প্রতিটির এক লাইনসহ লেখো — খুব সম্ভাব্য লিখিত প্রশ্ন।
+
+@slide 19 | Strict liability | কঠোর দায়
+BN:
+কঠোর দায় — কঠোর দায় স্বীকার করে যে কিছু পণ্য স্বভাবতই বিপজ্জনক; তাই কঠোর দায় হলো উল্লেখযোগ্যভাবে উচ্চতর স্তরের দায়, যা প্রযোজ্য হয় যখন টর্ট বা ক্ষতি অতি-বিপজ্জনক কার্যক্রম বা ত্রুটিপূর্ণ পণ্য থেকে ঘটে। কঠোর দায়ের মামলায় যথাযথ যত্নের দায়িত্ব, লঙ্ঘন ও নিকটবর্তী কার্যকারণের মতো প্রমাণের উপাদান অপ্রাসঙ্গিক।
+T:
+**Strict liability** = a **much higher level** of liability for harm from **ultrahazardous activities** (explosives, dangerous chemicals, wild animals) or **defective products**. The plaintiff does **not** need to prove duty, breach or proximate cause — if the dangerous activity/defective product caused harm, the defendant is liable **even if it was careful**.
+TB:
+**কঠোর দায়** = **অতি-বিপজ্জনক কার্যক্রম** (বিস্ফোরক, বিপজ্জনক রাসায়নিক, বন্য প্রাণী) বা **ত্রুটিপূর্ণ পণ্য** থেকে ক্ষতির **অনেক উচ্চতর স্তরের** দায়। বাদীকে দায়িত্ব, লঙ্ঘন বা নিকটবর্তী কারণ প্রমাণ করতে **হয় না** — বিপজ্জনক কাজ/ত্রুটিপূর্ণ পণ্য ক্ষতি করলে বিবাদী **সাবধান থাকলেও** দায়ী।
+E:
+A fireworks factory explodes and damages nearby houses. Even if it followed every safety rule, it is strictly liable because fireworks production is ultrahazardous.
+EB:
+একটি আতশবাজি কারখানা বিস্ফোরিত হয়ে আশপাশের বাড়ির ক্ষতি করল। সব নিরাপত্তা নিয়ম মানলেও এটি কঠোরভাবে দায়ী, কারণ আতশবাজি উৎপাদন অতি-বিপজ্জনক।
+K:
+Practice question 3: strict liability is "**a significantly higher level of** liability that applies when harm results from **ultrahazardous activity or defective products**".
+KB:
+অনুশীলনী প্রশ্ন ৩: কঠোর দায় হলো "**উল্লেখযোগ্যভাবে উচ্চতর স্তরের** দায়, যা প্রযোজ্য হয় যখন ক্ষতি **অতি-বিপজ্জনক কার্যক্রম বা ত্রুটিপূর্ণ পণ্য** থেকে আসে"।
+
+@slide 20 | Section picture slide | অংশের ছবি-স্লাইড
+TXT:
+(Picture only — the desk divider image. No text.)
+BN:
+(শুধু ছবি — ডেস্কের ছবি-স্লাইড। কোনো লেখা নেই।)
+T:
+Decorative divider before product liability claims.
+TB:
+পণ্য দায়ের দাবির আগে সাজসজ্জার স্লাইড।
+
+@slide 21 | Common product liability claims (negligence) | প্রচলিত পণ্য দায়ের দাবি (অবহেলা)
+TXT:
+In pursuing a product liability case based on negligence, plaintiffs generally claim one of the following:
+1. **Design defects:** buyer/plaintiff claims the manufacturer's design is inherently dangerous
+2. **Manufacturing defects:** the defect is not the design, but rather a failure in the manufacturing and/or quality control process
+3. **Failure-to-warn defects:** the manufacturer failed to provide adequate instructions regarding the product's use or warn the buyer of potential danger of misuse
+BN:
+অবহেলার ভিত্তিতে পণ্য দায়ের মামলায় বাদীরা সাধারণত এর একটি দাবি করেন:
+1. **নকশার ত্রুটি:** ক্রেতা/বাদী দাবি করেন উৎপাদকের নকশাই স্বভাবতই বিপজ্জনক
+2. **উৎপাদনের ত্রুটি:** ত্রুটি নকশায় নয়, বরং উৎপাদন এবং/অথবা মান নিয়ন্ত্রণ প্রক্রিয়ার ব্যর্থতায়
+3. **সতর্ক না করার ত্রুটি:** উৎপাদক পণ্য ব্যবহারের যথাযথ নির্দেশনা দেননি বা অপব্যবহারের সম্ভাব্য বিপদ সম্পর্কে ক্রেতাকে সতর্ক করেননি
+T:
+The **three bases for product liability** (5.3.4) — learn with an example each:
+1. **Design defect** → **every unit** is dangerous because the **design** is bad (a heater that tips over easily).
+2. **Manufacturing defect** → the design is fine but **one batch/unit** was made wrongly or slipped through **quality control** (a car with faulty brakes from one factory line).
+3. **Failure to warn** → no proper **instructions or warning** (a cleaning chemical without "do not mix with bleach").
+TB:
+**পণ্য দায়ের তিনটি ভিত্তি** (৫.৩.৪) — প্রতিটি উদাহরণসহ শেখো:
+1. **নকশার ত্রুটি** → **নকশা** খারাপ বলে **প্রতিটি পণ্য** বিপজ্জনক (সহজে উল্টে যাওয়া হিটার)।
+2. **উৎপাদনের ত্রুটি** → নকশা ঠিক কিন্তু **একটি ব্যাচ/পণ্য** ভুলভাবে তৈরি বা **মান নিয়ন্ত্রণ** পেরিয়ে গেছে (এক উৎপাদন লাইনের ত্রুটিপূর্ণ ব্রেকের গাড়ি)।
+3. **সতর্ক না করা** → যথাযথ **নির্দেশনা বা সতর্কবার্তা** নেই (ব্লিচের সাথে না মেশানোর সতর্কতা ছাড়া পরিষ্কারের রাসায়নিক)।
+K:
+Design = all units; manufacturing = some units; warning = missing instructions.
+KB:
+নকশা = সব পণ্য; উৎপাদন = কিছু পণ্য; সতর্কতা = নির্দেশনা নেই।
+
+@slide 22 | Product liability claims using strict liability | কঠোর দায়ের ভিত্তিতে পণ্য দায়ের দাবি
+BN:
+কঠোর দায়ের ভিত্তিতে পণ্য দায়ের দাবি — কঠোর দায়ের মামলায় ক্রেতাকে প্রমাণ করতে হয় না যে উৎপাদক বা বিক্রেতার আচরণ অযৌক্তিক ছিল। বাদীকে শুধু দেখাতে হয় যে বিবাদী একটি ত্রুটিপূর্ণ পণ্য উৎপাদন বা বিক্রি করেছেন এবং সেই ত্রুটি তার ক্ষতি করেছে। তিনটি মূল বিষয়: ● ত্রুটিপূর্ণ পণ্যের বিক্রেতা তখনই ক্ষতির দায়ী যদি তিনি সাধারণত এ ধরনের পণ্য বিক্রির ব্যবসায় থাকেন। ● বিবাদী (উৎপাদক বা বিক্রেতা) শুধু তখনই দায়ী যদি পণ্যটি ত্রুটিপূর্ণ হয়; অর্থাৎ ভোক্তা কেনার সময়ই ত্রুটি ছিল এবং ক্রেতার অপব্যবহার বা বড় পরিবর্তনে ত্রুটি হয়নি। ● কঠোর দায়ের মামলায় "প্রিভিটি" — চুক্তিভিত্তিক সম্পর্ক — লাগে না। অর্থাৎ ভোক্তা উৎপাদক, পরিবেশক ও খুচরা দোকান সবার বিরুদ্ধে মামলা করতে পারেন, যদিও প্রিভিটি শুধু ক্রেতা ও যার কাছ থেকে কিনেছেন তার মধ্যে।
+T:
+Under strict liability the buyer only proves: **the product was defective + the defect caused harm**. Three conditions:
+1. The seller must be **normally in the business** of selling that product (not a one-off private sale).
+2. The product was **defective when bought** — not damaged by the buyer's **misuse or changes**.
+3. **No "privity" needed** — the consumer can sue the **manufacturer, distributor and retailer**, not just the shop they bought from.
+TB:
+কঠোর দায়ে ক্রেতা শুধু প্রমাণ করেন: **পণ্য ত্রুটিপূর্ণ + ত্রুটিই ক্ষতির কারণ**। তিনটি শর্ত:
+1. বিক্রেতাকে সাধারণত ওই পণ্য **বিক্রির ব্যবসায়** থাকতে হবে (একবারের ব্যক্তিগত বিক্রি নয়)।
+2. **কেনার সময়ই** পণ্য ত্রুটিপূর্ণ ছিল — ক্রেতার **অপব্যবহার বা পরিবর্তনে** নষ্ট হয়নি।
+3. **"প্রিভিটি" লাগে না** — ভোক্তা শুধু যে দোকান থেকে কিনেছেন তা নয়, **উৎপাদক, পরিবেশক ও খুচরা বিক্রেতা** সবার বিরুদ্ধে মামলা করতে পারেন।
+E:
+A phone battery explodes because of a factory defect. The buyer can sue the shop, the importer and the manufacturer — but not if he had opened the phone and replaced the battery himself.
+EB:
+কারখানার ত্রুটিতে ফোনের ব্যাটারি বিস্ফোরিত হলো। ক্রেতা দোকান, আমদানিকারক ও উৎপাদক সবার বিরুদ্ধে মামলা করতে পারেন — কিন্তু তিনি নিজে ফোন খুলে ব্যাটারি বদলে থাকলে পারবেন না।
+
+@slide 23 | Compensatory and punitive damages | পূরণমূলক ও শাস্তিমূলক ক্ষতিপূরণ
+BN:
+পূরণমূলক ও শাস্তিমূলক ক্ষতিপূরণ — আদালত অন্যায়ের প্রতিকার করে আর্থিক পরিশোধের মাধ্যমে, যাকে "ক্ষতিপূরণ (damages)" বলে। পূরণমূলক ক্ষতিপূরণের উদ্দেশ্য অন্যায়ের ক্ষতি পূরণ করে বাদীকে ঘটনার আগের অবস্থায় ফেরানো। পূরণমূলক ক্ষতিপূরণ নির্ধারণে আদালত পুনরুদ্ধার নীতি মেনে অতীত ও ভবিষ্যতের খরচ হিসাব করে একটি একক এককালীন অঙ্ক দেয়। শাস্তিমূলক ক্ষতিপূরণ দেওয়া হয় চরম ক্ষেত্রে, যখন আচরণ এতটাই সামাজিকভাবে অগ্রহণযোগ্য যে আদালতকে বিবাদীকে দৃষ্টান্ত বানাতে হয়। এসব ক্ষেত্রে আদালত সাধারণত বিবাদীকে শাস্তি দিতে ও ভবিষ্যতে এমন আচরণ রোধ করতে উল্লেখযোগ্য শাস্তিমূলক ক্ষতিপূরণ দেয়।
+T:
+**Damages** = the money a court awards. Two kinds (5.3.5):
+- **Compensatory** → **restore** the plaintiff to where they were before; one **lump sum** for **past and future** costs (medical bills, lost wages, repairs).
+- **Punitive** → only in **extreme** cases of socially unacceptable behaviour; meant to **punish** the defendant and **deter** others.
+TB:
+**ক্ষতিপূরণ (damages)** = আদালতের দেওয়া টাকা। দুই ধরন (৫.৩.৫):
+- **পূরণমূলক** → বাদীকে আগের অবস্থায় **ফেরানো**; **অতীত ও ভবিষ্যতের** খরচের (চিকিৎসা, হারানো মজুরি, মেরামত) জন্য একটি **এককালীন** অঙ্ক।
+- **শাস্তিমূলক** → শুধু সামাজিকভাবে অগ্রহণযোগ্য **চরম** আচরণে; বিবাদীকে **শাস্তি** দিতে ও অন্যদের **নিরুৎসাহিত** করতে।
+E:
+A car maker knew about a dangerous fuel-tank design but hid it to save money. The victim gets compensatory damages for medical costs, and the court adds huge punitive damages to punish the cover-up.
+EB:
+একটি গাড়ি নির্মাতা বিপজ্জনক জ্বালানি-ট্যাংকের নকশার কথা জানত কিন্তু টাকা বাঁচাতে গোপন করেছিল। ভুক্তভোগী চিকিৎসা খরচের পূরণমূলক ক্ষতিপূরণ পান, আর গোপনের শাস্তি দিতে আদালত বিশাল শাস্তিমূলক ক্ষতিপূরণ যোগ করে।
+K:
+Compensatory = **restore**; punitive = **punish and deter**.
+KB:
+পূরণমূলক = **ফেরানো**; শাস্তিমূলক = **শাস্তি ও নিরুৎসাহিত করা**।
+
+@slide 24 | Practice question 1 — what is a tort? | অনুশীলনী প্রশ্ন ১ — টর্ট কী?
+BN:
+অনুশীলনী প্রশ্ন ১ — আইনি প্রেক্ষাপটে টর্ট হলো __________, যার প্রতিকার সাধারণত আর্থিক ক্ষতিপূরণের মাধ্যমে হয়। A. ফৌজদারি আইনের লঙ্ঘন B. সামাজিক চুক্তির লঙ্ঘন C. দেওয়ানি আইনের লঙ্ঘন D. কমন লর লঙ্ঘন
+T:
+**Answer: C — a violation of civil law.** (Slide 15.) Torts are civil, not criminal, and are remedied with money damages.
+TB:
+**উত্তর: C — দেওয়ানি আইনের লঙ্ঘন।** (স্লাইড ১৫।) টর্ট দেওয়ানি, ফৌজদারি নয়, এবং আর্থিক ক্ষতিপূরণে প্রতিকার হয়।
+
+@slide 25 | Practice question 2 — negligence | অনুশীলনী প্রশ্ন ২ — অবহেলা
+BN:
+অনুশীলনী প্রশ্ন ২ — অবহেলা হলো টর্টের একটি শ্রেণি, যাতে থাকে: A. ইচ্ছাকৃত কাজ থেকে উদ্ভূত ক্ষতি B. পরিকল্পিত বা বিদ্বেষপূর্ণ উদ্দেশ্য C. বিচারের এমন ভুল যাতে কোনো ক্ষতি হয় না D. অনিচ্ছাকৃত কাজ থেকে উদ্ভূত ক্ষতি
+T:
+**Answer: D — harm that arises from unintentional action.** A and B describe *intentional* torts. C is wrong because negligence requires **damage** (element 5).
+TB:
+**উত্তর: D — অনিচ্ছাকৃত কাজ থেকে উদ্ভূত ক্ষতি।** A ও B *ইচ্ছাকৃত* টর্ট। C ভুল কারণ অবহেলায় **ক্ষতি** (উপাদান ৫) থাকতে হয়।
+
+@slide 26 | Practice question 3 — strict liability | অনুশীলনী প্রশ্ন ৩ — কঠোর দায়
+BN:
+অনুশীলনী প্রশ্ন ৩ — কঠোর দায় হলো __________ দায়, যা প্রযোজ্য হয় যখন টর্ট বা ক্ষতি __________ থেকে ঘটে। A. উল্লেখযোগ্যভাবে উচ্চতর স্তরের; অতি-বিপজ্জনক কার্যক্রম বা ত্রুটিপূর্ণ পণ্য B. নিম্ন স্তরের; সাধারণ, দৈনন্দিন কার্যক্রম C. থেকে মুক্তি; শেষ ব্যবহারকারীর অবহেলা D. থেকে মুক্তি; শেষ ব্যবহারকারীর পণ্য অপব্যবহার
+T:
+**Answer: A — significantly higher level of; ultrahazardous activity or defective products.** (Slide 19.)
+TB:
+**উত্তর: A — উল্লেখযোগ্যভাবে উচ্চতর স্তরের; অতি-বিপজ্জনক কার্যক্রম বা ত্রুটিপূর্ণ পণ্য।** (স্লাইড ১৯।)
+
+@check 5.3 | Quick check — Tort law | দ্রুত যাচাই — টর্ট আইন
+Q: The burden of proof in a tort case is… | টর্ট মামলায় প্রমাণের দায়…
+O: beyond a reasonable doubt | *a preponderance of the evidence (more than 50%) | 100% certainty | a confession
+OB: যুক্তিসঙ্গত সন্দেহের ঊর্ধ্বে | সাক্ষ্যের প্রাধান্য (৫০%-এর বেশি) | ১০০% নিশ্চয়তা | স্বীকারোক্তি
+X: Tort lawsuits have a lower burden of proof than criminal law: only a preponderance of the evidence. | টর্ট মামলায় প্রমাণের দায় ফৌজদারির চেয়ে কম: শুধু সাক্ষ্যের প্রাধান্য।
+Q: A whole model of space heater tips over easily because of how it was engineered. This is a… | একটি হিটার মডেলের সব ইউনিট প্রকৌশলগত কারণে সহজে উল্টে যায়। এটি…
+O: manufacturing defect | *design defect | failure-to-warn defect | punitive damage
+OB: উৎপাদনের ত্রুটি | নকশার ত্রুটি | সতর্ক না করার ত্রুটি | শাস্তিমূলক ক্ষতিপূরণ
+X: When the manufacturer's design itself is inherently dangerous, it is a design defect (affects every unit). | উৎপাদকের নকশাই স্বভাবতই বিপজ্জনক হলে তা নকশার ত্রুটি (প্রতিটি পণ্যে)।
+Q: Damages meant to punish the defendant and deter similar behaviour are… | বিবাদীকে শাস্তি ও অনুরূপ আচরণ রোধের ক্ষতিপূরণ হলো…
+O: compensatory damages | *punitive damages | restitution | consideration
+OB: পূরণমূলক ক্ষতিপূরণ | শাস্তিমূলক ক্ষতিপূরণ | পুনঃস্থাপন | প্রতিদান
+X: Punitive damages are awarded in extreme cases to punish and deter; compensatory damages restore the plaintiff. | শাস্তিমূলক ক্ষতিপূরণ চরম ক্ষেত্রে শাস্তি ও নিরুৎসাহিত করতে; পূরণমূলক বাদীকে আগের অবস্থায় ফেরায়।
+
+@lesson 5.4 | Explain intellectual property law | মেধাস্বত্ব আইন ব্যাখ্যা করো
+Slides 27–34. Sub-outcomes on slide 28: **5.4.1** purpose and characteristics of IP law; **5.4.2** patents; **5.4.3** copyrights; **5.4.4** trademarks.
+Quick map: **patent → inventions; copyright → creative works; trademark → brand identity.**
+~~
+স্লাইড ২৭–৩৪। স্লাইড ২৮-এর উপ-ফলাফল: **৫.৪.১** মেধাস্বত্ব আইনের উদ্দেশ্য ও বৈশিষ্ট্য; **৫.৪.২** পেটেন্ট; **৫.৪.৩** কপিরাইট; **৫.৪.৪** ট্রেডমার্ক।
+দ্রুত মানচিত্র: **পেটেন্ট → উদ্ভাবন; কপিরাইট → সৃজনশীল কাজ; ট্রেডমার্ক → ব্র্যান্ড পরিচয়।**
+
+@slide 27,28 | Intellectual property — learning outcomes | মেধাস্বত্ব — শিখন ফলাফল
+BN:
+মেধাস্বত্ব
+
+শিখন ফলাফল: মেধাস্বত্ব। ৫.৪: মেধাস্বত্ব আইনের উদ্দেশ্য ও বৈশিষ্ট্য ব্যাখ্যা করো। ৫.৪.১: মেধাস্বত্ব আইনের উদ্দেশ্য ও বৈশিষ্ট্য ব্যাখ্যা করো। ৫.৪.২: পেটেন্ট ব্যাখ্যা করো। ৫.৪.৩: কপিরাইট ব্যাখ্যা করো। ৫.৪.৪: ট্রেডমার্ক ব্যাখ্যা করো।
+T:
+Four sub-outcomes: the **purpose** of IP law plus the **three forms**. For each form learn **what it protects, who grants it, and how long it lasts**.
+TB:
+চারটি উপ-ফলাফল: মেধাস্বত্ব আইনের **উদ্দেশ্য** এবং **তিনটি রূপ**। প্রতিটির জন্য শেখো **কী রক্ষা করে, কে দেয়, কতদিন চলে**।
+
+@slide 29 | Understanding intellectual property | মেধাস্বত্ব বোঝা
+BN:
+মেধাস্বত্ব বোঝা — মেধাস্বত্ব (IP) হলো একটি ধারণা — একটি অস্পর্শযোগ্য সম্পদ — আর পেটেন্ট, কপিরাইট ও ট্রেডমার্ক হলো মেধাস্বত্বের সংবিধিবদ্ধ রূপ। অর্থাৎ সংবিধির মানদণ্ড পূরণ করে এমন মেধাস্বত্ব আইনের সুরক্ষা পেতে পারে। সম্পত্তি বাস্তব হোক বা অস্পর্শযোগ্য, মূল্য সৃষ্টির চাবিকাঠি হলো প্রবেশ বা ব্যবহার নিয়ন্ত্রণের ক্ষমতা। মেধাস্বত্ব রক্ষার তিনটি প্রধান উপায়: ১. পেটেন্ট ২. ট্রেডমার্ক ৩. কপিরাইট
+IMG:
+A photo of someone holding a new product prototype.
+T:
+**Intellectual property** = an **idea — an intangible asset**. Its value comes from the **ability to control who uses it**. Three **statutory** (law-created) forms protect it: **patents, trademarks, copyrights**.
+TB:
+**মেধাস্বত্ব** = একটি **ধারণা — অস্পর্শযোগ্য সম্পদ**। এর মূল্য আসে **কে ব্যবহার করবে তা নিয়ন্ত্রণের ক্ষমতা** থেকে। তিনটি **সংবিধিবদ্ধ** (আইন-সৃষ্ট) রূপ একে রক্ষা করে: **পেটেন্ট, ট্রেডমার্ক, কপিরাইট**।
+
+@slide 30 | More on intellectual property law | মেধাস্বত্ব আইন — আরও
+BN:
+মেধাস্বত্ব আইন — আরও: মেধাস্বত্ব আইনের উদ্দেশ্য হলো এমন কাঠামো তৈরি করা যা মূল্য সৃষ্টিতে — বিশেষ করে নতুন ধারণা ও উদ্ভাবন তৈরিতে — উৎসাহ দেয়, আবার পণ্য বা সেবায় জনগণের প্রবেশাধিকারও নিশ্চিত করে। কর্নেল বিশ্ববিদ্যালয়ের আইন স্কুল অনুযায়ী, "মেধাস্বত্ব হলো মানুষের বুদ্ধির এমন যেকোনো সৃষ্টি যাকে আইন অন্যদের অননুমোদিত ব্যবহার থেকে রক্ষা করে।"
+T:
+**Purpose** (5.4.1): a **balance** — (1) **incentivize** people to create new ideas and inventions (they can profit from them), while (2) still providing **public access** (protection lasts only for a limited time). Definition (Cornell): "**any product of the human intellect that the law protects from unauthorized use by others.**"
+TB:
+**উদ্দেশ্য** (৫.৪.১): একটি **ভারসাম্য** — (১) মানুষকে নতুন ধারণা ও উদ্ভাবনে **উৎসাহ** দেওয়া (তা থেকে লাভ করতে পারে), আবার (২) **জনগণের প্রবেশাধিকার** রাখা (সুরক্ষা সীমিত সময়ের)। সংজ্ঞা (কর্নেল): "**মানুষের বুদ্ধির এমন যেকোনো সৃষ্টি যাকে আইন অন্যদের অননুমোদিত ব্যবহার থেকে রক্ষা করে।**"
+E:
+A pharmaceutical company spends years developing a new drug. A patent lets it earn back the cost; after it expires, other companies can make cheap generic versions for the public.
+EB:
+একটি ওষুধ কোম্পানি বছরের পর বছর নতুন ওষুধ তৈরি করে। পেটেন্ট তাকে খরচ তুলতে দেয়; মেয়াদ শেষে অন্য কোম্পানি জনগণের জন্য সস্তা জেনেরিক সংস্করণ বানাতে পারে।
+
+@slide 31 | Patents | পেটেন্ট
+BN:
+পেটেন্ট — মার্কিন পেটেন্ট ও ট্রেডমার্ক অফিসের দেওয়া পেটেন্ট সাধারণত আবেদন দাখিলের তারিখ থেকে ২০ বছর কার্যকর থাকে এবং শুধু যুক্তরাষ্ট্র ও তার অঞ্চলে প্রযোজ্য। পেটেন্ট উদ্ভাবককে পেটেন্টের মেয়াদে "অন্যদের যুক্তরাষ্ট্রে উদ্ভাবনটি তৈরি, ব্যবহার, বিক্রির প্রস্তাব বা বিক্রি করা, অথবা যুক্তরাষ্ট্রে উদ্ভাবনটি আমদানি করা থেকে বিরত রাখার অধিকার" দেয়। তিনটি মূল শ্রেণি: • ডিজাইন পেটেন্ট পণ্যের চেহারার উপর ভিত্তি করে এবং পণ্যের নকশা বা নকশার উপাদানের অননুমোদিত ব্যবহার রোধ করে • ইউটিলিটি পেটেন্ট ইস্যু করা পেটেন্টের ৯০% এবং উদ্ভাবন কীভাবে কাজ করে তা রক্ষা করে • প্ল্যান্ট পেটেন্ট ২০১৭ সালে ইস্যু করা পেটেন্টের ১%-এরও কম।
+T:
+**Patent** = granted by the **US Patent and Trademark Office (USPTO)**; lasts **20 years from filing**; valid **only in the US**. It gives the **right to exclude others** from making, using, selling or importing the invention. Three types:
+- **Design patent** → protects **appearance**.
+- **Utility patent** → protects **how it works** (**90%** of patents).
+- **Plant patent** → new plant varieties (**<1%**).
+TB:
+**পেটেন্ট** = **মার্কিন পেটেন্ট ও ট্রেডমার্ক অফিস (USPTO)** দেয়; **আবেদনের দিন থেকে ২০ বছর**; **শুধু যুক্তরাষ্ট্রে** বৈধ। এটি উদ্ভাবন তৈরি, ব্যবহার, বিক্রি বা আমদানি থেকে **অন্যদের বিরত রাখার অধিকার** দেয়। তিন ধরন:
+- **ডিজাইন পেটেন্ট** → **চেহারা** রক্ষা করে।
+- **ইউটিলিটি পেটেন্ট** → **কীভাবে কাজ করে** তা রক্ষা করে (পেটেন্টের **৯০%**)।
+- **প্ল্যান্ট পেটেন্ট** → নতুন উদ্ভিদ জাত (**<১%**)।
+E:
+The unique shape of a Coca-Cola bottle could get a design patent; a new phone-charging technology would get a utility patent. In Bangladesh, patents are granted by the DPDT (Department of Patents, Designs and Trademarks).
+EB:
+কোকা-কোলা বোতলের অনন্য আকৃতি ডিজাইন পেটেন্ট পেতে পারে; নতুন ফোন-চার্জিং প্রযুক্তি পাবে ইউটিলিটি পেটেন্ট। বাংলাদেশে পেটেন্ট দেয় পেটেন্ট, শিল্প-নকশা ও ট্রেডমার্কস অধিদপ্তর (DPDT)।
+
+@slide 32 | Copyrights | কপিরাইট
+BN:
+কপিরাইট — কপিরাইট নির্মাতাকে সীমিত সময়ের জন্য তার মৌলিক কাজের একচেটিয়া অধিকার দেয় এবং লাইব্রেরি অব কংগ্রেস এটি ইস্যু করে। কপিরাইট মালিককে "কপিরাইটকৃত কাজ পুনরুৎপাদন, এর ভিত্তিতে নতুন কাজ তৈরি, কাজের কপি বা ফোনো-রেকর্ড বিতরণ, কাজটি প্রকাশ্যে পরিবেশন, বা প্রকাশ্যে প্রদর্শনের একচেটিয়া অধিকার" দেয়।
+T:
+**Copyright** = the creator's **exclusive right to an original work** (books, music, films, software) for a **limited time**, issued by the **Library of Congress**. Five exclusive rights: **reproduce, prepare derivative works, distribute copies, perform publicly, display publicly**.
+TB:
+**কপিরাইট** = **মৌলিক কাজের** (বই, সংগীত, চলচ্চিত্র, সফটওয়্যার) উপর নির্মাতার **সীমিত সময়ের একচেটিয়া অধিকার**, ইস্যু করে **লাইব্রেরি অব কংগ্রেস**। পাঁচটি একচেটিয়া অধিকার: **পুনরুৎপাদন, এর ভিত্তিতে নতুন কাজ, কপি বিতরণ, প্রকাশ্য পরিবেশন, প্রকাশ্য প্রদর্শন**।
+E:
+Uploading a whole Bangla film to YouTube without permission breaks the producer's copyright (reproduce and distribute).
+EB:
+অনুমতি ছাড়া পুরো একটি বাংলা চলচ্চিত্র ইউটিউবে আপলোড করা প্রযোজকের কপিরাইট ভাঙে (পুনরুৎপাদন ও বিতরণ)।
+
+@slide 33 | Copyright terms | কপিরাইটের মেয়াদ
+BN:
+কপিরাইটের মেয়াদ — কপিরাইট এখন ১০০ বছরও ছাড়াতে পারে। কেউ কেউ মিকি মাউসের কপিরাইট নিয়ে ওয়াল্ট ডিজনির ঘটনাকে এর জন্য দায়ী (বা কৃতিত্ব) দেন। বর্তমান অবস্থায় "আইন ১ জানুয়ারি ১৯৭৮ বা তার পরে তৈরি ও বাস্তব মাধ্যমে স্থির করা কাজকে সৃষ্টির মুহূর্ত থেকেই স্বয়ংক্রিয়ভাবে রক্ষা করে এবং এর মেয়াদ লেখকের জীবনকাল এবং অতিরিক্ত ৭০ বছর।" কপিরাইটের মেয়াদ শেষ হলে কাজটিকে পাবলিক ডোমেইনে বলা হয়; অর্থাৎ অনুমতি বা ফি ছাড়াই উপকরণটি ব্যবহার করা যায়। তবে মেয়াদের এই পরিবর্তনের ফলে বিদ্যমান কপিরাইটগুলো কার্যত পাবলিক ডোমেইনে যাওয়া বন্ধ হয়ে গেছে।
+T:
+- For works created **on or after 1 January 1978**, copyright is **automatic** from the moment the work is fixed in a tangible form (written, recorded) and lasts the **author's life + 70 years** — it can exceed **100 years**. (The **Disney / Mickey Mouse** case is often linked to these long terms.)
+- When copyright expires, the work enters the **public domain** — anyone can use it free, without permission.
+TB:
+- **১ জানুয়ারি ১৯৭৮ বা পরে** তৈরি কাজের কপিরাইট বাস্তব রূপে (লেখা, রেকর্ড) স্থির হওয়ার মুহূর্ত থেকেই **স্বয়ংক্রিয়** এবং চলে **লেখকের জীবনকাল + ৭০ বছর** — **১০০ বছরও** ছাড়াতে পারে। (**ডিজনি / মিকি মাউস** ঘটনাকে প্রায়ই এই দীর্ঘ মেয়াদের সাথে যুক্ত করা হয়।)
+- কপিরাইট শেষ হলে কাজটি **পাবলিক ডোমেইনে** যায় — যে কেউ অনুমতি ছাড়া বিনামূল্যে ব্যবহার করতে পারে।
+E:
+Rabindranath Tagore died in 1941, so his works are now in the public domain — anyone can print his poems.
+EB:
+রবীন্দ্রনাথ ঠাকুর ১৯৪১ সালে মারা যান, তাই তাঁর রচনা এখন পাবলিক ডোমেইনে — যে কেউ তাঁর কবিতা ছাপতে পারে।
+K:
+Numbers: patent **20 years**; copyright **life + 70 years**.
+KB:
+সংখ্যা: পেটেন্ট **২০ বছর**; কপিরাইট **জীবনকাল + ৭০ বছর**।
+
+@slide 34 | Trademarks | ট্রেডমার্ক
+BN:
+ট্রেডমার্ক — USPTO ট্রেডমার্ককে সংজ্ঞায়িত করে "একটি শব্দ, বাক্যাংশ, প্রতীক বা নকশা, বা এগুলোর সমন্বয়, যা এক পক্ষের পণ্যের উৎসকে অন্যদের পণ্য থেকে চিহ্নিত ও আলাদা করে"। ট্রেডমার্ক/সার্ভিস মার্ক নিবন্ধনযোগ্য হতে একে অনন্য মনে হতে হবে। USPTO অনুযায়ী নিবন্ধন আবেদন প্রত্যাখ্যানের সবচেয়ে সাধারণ কারণ হলো নিবন্ধিত বা আগে দাখিল করা মার্কের সাথে "বিভ্রান্তির সম্ভাবনা"। তিনটি বিষয় বিবেচনা করা হয়: • দৃশ্যমান চেহারা • উচ্চারণ • অর্থ (অনুবাদে অর্থসহ)। মূল প্রশ্ন হলো প্রস্তাবিত মার্কটি কি "ভোক্তাদের মনে একই সাধারণ বাণিজ্যিক ধারণা তৈরি করে।" পণ্য ও সেবা সম্পর্কিত না হলে একই রকম বা হুবহু মার্কও নিবন্ধনযোগ্য হতে পারে।
+T:
+**Trademark** = "a **word, phrase, symbol or design** (or combination) that **identifies and distinguishes the source** of one party's goods from others". To register it must be **unique**. The most common reason for rejection: **"likelihood of confusion"** with an existing mark, judged by **appearance, sound and meaning** (even in translation). But **similar marks can be allowed if the goods are unrelated** (e.g. "Dove" soap and "Dove" chocolate).
+TB:
+**ট্রেডমার্ক** = "একটি **শব্দ, বাক্যাংশ, প্রতীক বা নকশা** (বা সমন্বয়) যা এক পক্ষের পণ্যের **উৎসকে চিহ্নিত ও আলাদা করে**"। নিবন্ধনে এটি **অনন্য** হতে হবে। প্রত্যাখ্যানের সবচেয়ে সাধারণ কারণ: বিদ্যমান মার্কের সাথে **"বিভ্রান্তির সম্ভাবনা"**, যা বিচার হয় **চেহারা, উচ্চারণ ও অর্থ** (অনুবাদেও) দিয়ে। তবে **পণ্য অসম্পর্কিত হলে একই রকম মার্কও অনুমোদিত হতে পারে** (যেমন "ডাভ" সাবান ও "ডাভ" চকলেট)।
+E:
+A shop selling sneakers called "Nikee" with a similar swoosh would be refused — confusingly similar in look and sound to Nike.
+EB:
+"Nikee" নামে একই রকম সোয়ুশসহ জুতা বেচা দোকান প্রত্যাখ্যাত হবে — চেহারা ও উচ্চারণে নাইকির সাথে বিভ্রান্তিকর মিল।
+
+@check 5.4 | Quick check — Intellectual property | দ্রুত যাচাই — মেধাস্বত্ব
+Q: A US patent generally lasts… | মার্কিন পেটেন্ট সাধারণত চলে…
+O: the inventor's life + 70 years | forever | *20 years from the filing date | 5 years
+OB: উদ্ভাবকের জীবনকাল + ৭০ বছর | চিরকাল | আবেদনের তারিখ থেকে ২০ বছর | ৫ বছর
+X: A patent is generally in force for a 20-year term from the date of filing. Life + 70 is copyright. | পেটেন্ট সাধারণত আবেদনের তারিখ থেকে ২০ বছর। জীবনকাল + ৭০ হলো কপিরাইট।
+Q: Which type of patent makes up about 90% of patents and protects how an invention works? | কোন ধরনের পেটেন্ট প্রায় ৯০% এবং উদ্ভাবন কীভাবে কাজ করে তা রক্ষা করে?
+O: Design patent | *Utility patent | Plant patent | Copyright
+OB: ডিজাইন পেটেন্ট | ইউটিলিটি পেটেন্ট | প্ল্যান্ট পেটেন্ট | কপিরাইট
+X: Utility patents make up 90% of patents issued and protect how inventions work; design patents protect appearance. | ইউটিলিটি পেটেন্ট ৯০% এবং উদ্ভাবন কীভাবে কাজ করে তা রক্ষা করে; ডিজাইন পেটেন্ট চেহারা রক্ষা করে।
+Q: The most common reason a trademark application is denied is… | ট্রেডমার্ক আবেদন প্রত্যাখ্যানের সবচেয়ে সাধারণ কারণ…
+O: it is too short | *likelihood of confusion with an existing mark | it uses colour | it is in English
+OB: খুব ছোট | বিদ্যমান মার্কের সাথে বিভ্রান্তির সম্ভাবনা | রং ব্যবহার | ইংরেজিতে লেখা
+X: The USPTO says the most common reason is a likelihood of confusion, judged by appearance, sound and meaning. | USPTO বলে সবচেয়ে সাধারণ কারণ বিভ্রান্তির সম্ভাবনা, যা চেহারা, উচ্চারণ ও অর্থ দিয়ে বিচার হয়।
+
+@lesson 5.5 | Describe warranties | ওয়ারেন্টি বর্ণনা করো
+Slides 35–39. Sub-outcomes on slide 36: **5.5.1** define warranty; **5.5.2** express warranties; **5.5.3** implied warranties; **5.5.4** the warranties provided by the **Uniform Commercial Code (UCC)**.
+~~
+স্লাইড ৩৫–৩৯। স্লাইড ৩৬-এর উপ-ফলাফল: **৫.৫.১** ওয়ারেন্টির সংজ্ঞা; **৫.৫.২** প্রকাশ্য ওয়ারেন্টি; **৫.৫.৩** অন্তর্নিহিত ওয়ারেন্টি; **৫.৫.৪** **ইউনিফর্ম কমার্শিয়াল কোড (UCC)**-এর দেওয়া ওয়ারেন্টি।
+
+@slide 35,36 | Warranties — learning outcomes | ওয়ারেন্টি — শিখন ফলাফল
+BN:
+ওয়ারেন্টি
+
+শিখন ফলাফল: ওয়ারেন্টি। ৫.৫: ওয়ারেন্টি বর্ণনা করো। ৫.৫.১: "ওয়ারেন্টি"-র সংজ্ঞা দাও। ৫.৫.২: প্রকাশ্য ওয়ারেন্টি ব্যাখ্যা করো। ৫.৫.৩: অন্তর্নিহিত ওয়ারেন্টি ব্যাখ্যা করো। ৫.৫.৪: ইউনিফর্ম কমার্শিয়াল কোডের দেওয়া ওয়ারেন্টি ব্যাখ্যা করো।
+T:
+The **UCC** is the set of US rules for commercial sales. It defines **how express warranties are created** (2-313) and the two **implied warranties**.
+TB:
+**UCC** হলো বাণিজ্যিক বিক্রির মার্কিন নিয়মের সংকলন। এটি **প্রকাশ্য ওয়ারেন্টি কীভাবে তৈরি হয়** (২-৩১৩) এবং দুটি **অন্তর্নিহিত ওয়ারেন্টি** সংজ্ঞায়িত করে।
+
+@slide 37 | Understanding warranties | ওয়ারেন্টি বোঝা
+BN:
+ওয়ারেন্টি বোঝা — ওয়ারেন্টি হলো এই প্রতিশ্রুতি যে বিক্রীত পণ্য ঘোষিত কার্যক্ষমতার মানদণ্ড পূরণ করবে। উৎপাদক বা বিক্রেতা ওয়ারেন্টি দিলে এবং ক্রেতা সেই ওয়ারেন্টির উপর নির্ভর করে কেনার সিদ্ধান্ত নিলে একটি চুক্তিগত দায়বদ্ধতা (ও সংশ্লিষ্ট আইনি দায়) তৈরি হয়। ওয়ারেন্টি লিখিত বা মৌখিক হতে পারে। আইন উৎপাদকের উপর বিক্রয়যোগ্যতা বা উপযোগিতার নির্দিষ্ট মান পূরণের ওয়ারেন্টি আরোপ করতে পারে। ওয়ারেন্টির ধরন: • প্রকাশ্য ওয়ারেন্টি • অন্তর্নিহিত ওয়ারেন্টি
+T:
+**Warranty** (5.5.1) = **a promise that goods sold will meet stated standards of performance**. It creates a **contractual obligation** when the buyer **relies on it** to decide to buy. It can be **written or oral**, and the **law itself can impose** one. Two types: **express** and **implied**.
+TB:
+**ওয়ারেন্টি** (৫.৫.১) = **বিক্রীত পণ্য ঘোষিত কার্যক্ষমতার মান পূরণ করবে — এই প্রতিশ্রুতি**। ক্রেতা এর **উপর নির্ভর করে** কিনলে এটি **চুক্তিগত দায়বদ্ধতা** তৈরি করে। এটি **লিখিত বা মৌখিক** হতে পারে, আর **আইন নিজেই** একটি আরোপ করতে পারে। দুই ধরন: **প্রকাশ্য** ও **অন্তর্নিহিত**।
+
+@slide 38 | Express warranties | প্রকাশ্য ওয়ারেন্টি
+BN:
+প্রকাশ্য ওয়ারেন্টি — প্রকাশ্য ওয়ারেন্টি তৈরি হয় বিক্রেতার কথা বা কাজের ভিত্তিতে (অর্থাৎ যা স্পষ্টভাবে বলা হয়েছে)। ইউনিফর্ম কমার্শিয়াল কোড ২-৩১৩ অনুযায়ী বিক্রেতা তিনভাবে প্রকাশ্য ওয়ারেন্টি তৈরি করতে পারেন: ১. তথ্যের ঘোষণা বা প্রতিশ্রুতি দিয়ে ২. পণ্যের বর্ণনা দিয়ে ৩. নমুনা বা মডেল দিয়ে। তিনটি ক্ষেত্রেই কোড অনুযায়ী বিক্রেতার কথা বা কাজ "দর-কষাকষির ভিত্তির অংশ" হতে হবে। খেয়াল করো, প্রকাশ্য ওয়ারেন্টি তৈরিতে বিক্রেতাকে "ওয়ারেন্টি" বা "গ্যারান্টি" শব্দ ব্যবহার করতে হয় না।
+T:
+**Express warranty** = created by the **seller's words or actions**. Three ways (UCC 2-313):
+1. An **affirmation of fact or promise** ("this jacket is 100% waterproof").
+2. A **description of the goods** ("pure silk saree").
+3. A **sample or model** (the fabric swatch you were shown).
+It must be **part of the basis of the bargain**, and the seller **does not need to say "warranty" or "guarantee"**.
+TB:
+**প্রকাশ্য ওয়ারেন্টি** = **বিক্রেতার কথা বা কাজে** তৈরি। তিনটি উপায় (UCC ২-৩১৩):
+1. **তথ্যের ঘোষণা বা প্রতিশ্রুতি** ("এই জ্যাকেট ১০০% পানিরোধী")।
+2. **পণ্যের বর্ণনা** ("খাঁটি সিল্কের শাড়ি")।
+3. **নমুনা বা মডেল** (তোমাকে দেখানো কাপড়ের নমুনা)।
+এটি **দর-কষাকষির ভিত্তির অংশ** হতে হবে, আর বিক্রেতাকে **"ওয়ারেন্টি" বা "গ্যারান্টি" বলতে হয় না**।
+E:
+A shopkeeper shows you a sample of thick cotton and says "the curtains will be exactly this fabric". If the curtains arrive in thin polyester, he has broken an express warranty — even though he never used the word "warranty".
+EB:
+একজন দোকানদার মোটা সুতির নমুনা দেখিয়ে বললেন "পর্দা ঠিক এই কাপড়েরই হবে"। পর্দা পাতলা পলিয়েস্টারে এলে তিনি প্রকাশ্য ওয়ারেন্টি ভেঙেছেন — যদিও "ওয়ারেন্টি" শব্দটি কখনো বলেননি।
+
+@slide 39 | Implied warranties | অন্তর্নিহিত ওয়ারেন্টি
+BN:
+অন্তর্নিহিত ওয়ারেন্টি — অন্তর্নিহিত ওয়ারেন্টি কোনো নির্দিষ্ট উৎপাদক বা বিক্রেতা নয়, ইউনিফর্ম কমার্শিয়াল কোড তৈরি করে। অন্তর্নিহিত ওয়ারেন্টির দুটি শ্রেণি: • বিক্রয়যোগ্যতার ওয়ারেন্টি: বাদ বা পরিবর্তন না করা হলে বিক্রয় চুক্তিতে বিক্রয়যোগ্যতার অন্তর্নিহিত ওয়ারেন্টি থাকে, যার সংজ্ঞা "যে সাধারণ উদ্দেশ্যে এমন পণ্য ব্যবহৃত হয় তার জন্য উপযোগী"। এই ওয়ারেন্টি বলা বা লেখার দরকার নেই; এটি কোডের আরোপিত দায়বদ্ধতা। • উপযোগিতার ওয়ারেন্টি: বাদ বা পরিবর্তন না করা হলে, পণ্যের নির্দিষ্ট ব্যবহার সম্পর্কে বিক্রেতার জানা থাকলে একটি অন্তর্নিহিত ওয়ারেন্টি তৈরি হয় যে পণ্যটি সেই উদ্দেশ্যের জন্য উপযোগী হবে।
+T:
+**Implied warranties** are created **by the law (UCC)**, not by the seller — they exist automatically unless excluded. Two kinds:
+- **Merchantability** → goods must be **fit for their ordinary purpose** (a kettle must boil water; shoes must be wearable).
+- **Fitness for a particular purpose** → if the seller **knows the buyer's special purpose**, the goods must be fit **for that purpose**.
+TB:
+**অন্তর্নিহিত ওয়ারেন্টি** বিক্রেতা নয়, **আইন (UCC)** তৈরি করে — বাদ না দিলে স্বয়ংক্রিয়ভাবে থাকে। দুই ধরন:
+- **বিক্রয়যোগ্যতা** → পণ্য **সাধারণ উদ্দেশ্যের জন্য উপযোগী** হতে হবে (কেতলিতে পানি ফুটতে হবে; জুতা পরা যেতে হবে)।
+- **নির্দিষ্ট উদ্দেশ্যের উপযোগিতা** → বিক্রেতা **ক্রেতার বিশেষ উদ্দেশ্য জানলে**, পণ্য **সেই উদ্দেশ্যের** উপযোগী হতে হবে।
+E:
+Fitness: you tell the hardware seller "I need paint for an outdoor wall that gets heavy monsoon rain", and he recommends a brand. If it washes off in the first rain, the implied warranty of fitness is broken.
+EB:
+উপযোগিতা: তুমি হার্ডওয়্যার বিক্রেতাকে বললে "ভারী বর্ষার বৃষ্টি পড়ে এমন বাইরের দেয়ালের জন্য রং চাই", তিনি একটি ব্র্যান্ড সুপারিশ করলেন। প্রথম বৃষ্টিতেই ধুয়ে গেলে উপযোগিতার অন্তর্নিহিত ওয়ারেন্টি ভঙ্গ।
+K:
+Express = **said** by the seller; implied = **imposed by law**. Merchantability = **ordinary** purpose; fitness = **particular** purpose the seller knew about.
+KB:
+প্রকাশ্য = বিক্রেতার **বলা**; অন্তর্নিহিত = **আইনের আরোপিত**। বিক্রয়যোগ্যতা = **সাধারণ** উদ্দেশ্য; উপযোগিতা = বিক্রেতার জানা **নির্দিষ্ট** উদ্দেশ্য।
+
+@check 5.5 | Quick check — Warranties | দ্রুত যাচাই — ওয়ারেন্টি
+Q: A seller shows a sample of fabric and the buyer orders based on it. This creates… | বিক্রেতা কাপড়ের নমুনা দেখালেন এবং ক্রেতা তার ভিত্তিতে অর্ডার দিলেন। এতে তৈরি হয়…
+O: an implied warranty of merchantability | *an express warranty | a patent | strict liability
+OB: বিক্রয়যোগ্যতার অন্তর্নিহিত ওয়ারেন্টি | প্রকাশ্য ওয়ারেন্টি | পেটেন্ট | কঠোর দায়
+X: UCC 2-313: an express warranty can be created by an affirmation, a description, or a sample or model. | UCC ২-৩১৩: ঘোষণা, বর্ণনা বা নমুনা/মডেল দিয়ে প্রকাশ্য ওয়ারেন্টি তৈরি হয়।
+Q: The implied warranty of merchantability means goods must be… | বিক্রয়যোগ্যতার অন্তর্নিহিত ওয়ারেন্টি মানে পণ্যকে অবশ্যই…
+O: the cheapest on the market | *fit for the ordinary purpose for which such goods are used | fit for any purpose the buyer imagines | made in the USA
+OB: বাজারে সবচেয়ে সস্তা | এমন পণ্য যে সাধারণ উদ্দেশ্যে ব্যবহৃত হয় তার উপযোগী | ক্রেতার কল্পিত যেকোনো উদ্দেশ্যের উপযোগী | যুক্তরাষ্ট্রে তৈরি
+X: Merchantability = fit for the ordinary purpose for which such goods are used; it is imposed by the code without being stated. | বিক্রয়যোগ্যতা = সাধারণ উদ্দেশ্যের উপযোগী; না বললেও কোড এটি আরোপ করে।
+
+@lesson 5.6 | List the elements of a contract and the consequences of breach | চুক্তির উপাদান ও ভঙ্গের পরিণাম
+Slides 40–47. Sub-outcomes on slide 41: **5.6.1** define contract; **5.6.2** the four elements; **5.6.3** define breach; **5.6.4** legal remedies.
+Four elements — memory trick **"OCCL"**: **O**ffer & acceptance, **C**onsideration, **C**apacity, **L**egality.
+~~
+স্লাইড ৪০–৪৭। স্লাইড ৪১-এর উপ-ফলাফল: **৫.৬.১** চুক্তির সংজ্ঞা; **৫.৬.২** চারটি উপাদান; **৫.৬.৩** চুক্তিভঙ্গের সংজ্ঞা; **৫.৬.৪** আইনি প্রতিকার।
+চারটি উপাদান — **"OCCL"**: **O**ffer & acceptance (প্রস্তাব ও গ্রহণ), **C**onsideration (প্রতিদান), **C**apacity (সক্ষমতা), **L**egality (বৈধতা)।
+
+@slide 40,41 | Contracts — learning outcomes | চুক্তি — শিখন ফলাফল
+BN:
+চুক্তি
+
+শিখন ফলাফল: চুক্তি। ৫.৬: আইনত বলবৎযোগ্য চুক্তির উপাদানগুলোর তালিকা দাও ও বর্ণনা করো, এবং চুক্তিভঙ্গের পরিণাম ব্যাখ্যা করো। ৫.৬.১: "চুক্তি"-র সংজ্ঞা দাও। ৫.৬.২: আইনত বলবৎযোগ্য চুক্তির চারটি উপাদান চিহ্নিত করো। ৫.৬.৩: "চুক্তিভঙ্গ"-এর সংজ্ঞা দাও। ৫.৬.৪: চুক্তিভঙ্গের আইনি প্রতিকার ব্যাখ্যা করো।
+T:
+A classic exam question: **list and describe the four elements, then explain breach and remedies**. Notice the slides put practice question 4 (slide 43) *before* the answer (slide 44) — try it first.
+TB:
+একটি ক্লাসিক পরীক্ষার প্রশ্ন: **চারটি উপাদান তালিকা দাও ও বর্ণনা করো, তারপর ভঙ্গ ও প্রতিকার ব্যাখ্যা করো**। খেয়াল করো স্লাইডে অনুশীলনী প্রশ্ন ৪ (স্লাইড ৪৩) উত্তরের (স্লাইড ৪৪) *আগে* দেওয়া — আগে চেষ্টা করো।
+
+@slide 42 | What is a contract? | চুক্তি কী?
+BN:
+চুক্তি কী? "বিজনেস ল অ্যান্ড দ্য লিগ্যাল এনভায়রনমেন্ট"-এর লেখকরা চুক্তিকে "আইনত বলবৎযোগ্য সমঝোতা" হিসেবে সংজ্ঞায়িত করেন, এবং উল্লেখ করেন যে দিনে আমরা অনেক সাধারণ প্রতিশ্রুতি (যেমন "পরে ফোন দেব") ও আনুষ্ঠানিক অঙ্গীকার করি, কিন্তু এগুলো অবশ্যই বৈধ চুক্তি নয়। চুক্তিতে প্রতিটি পক্ষ কী অঙ্গীকার করছে তার বিস্তারিতকে কভেন্যান্ট বলে। পরের অংশে আলোচনা হবে, একটি বৈধ — অর্থাৎ আইনত বলবৎযোগ্য — চুক্তির কয়েকটি উপাদান আছে।
+T:
+**Contract** (5.6.1) = **a legally enforceable agreement**. Not every promise is a contract — "I'll call you later" can't be taken to court. The specific promises each party makes inside a contract are called **covenants**.
+TB:
+**চুক্তি** (৫.৬.১) = **আইনত বলবৎযোগ্য সমঝোতা**। প্রতিটি প্রতিশ্রুতি চুক্তি নয় — "পরে ফোন দেব" নিয়ে আদালতে যাওয়া যায় না। চুক্তির ভেতরে প্রতিটি পক্ষের নির্দিষ্ট প্রতিশ্রুতিকে **কভেন্যান্ট** বলে।
+
+@slide 43 | Practice question 4 — elements of a contract | অনুশীলনী প্রশ্ন ৪ — চুক্তির উপাদান
+BN:
+অনুশীলনী প্রশ্ন ৪ — আইনত বলবৎযোগ্য চুক্তির চারটি উপাদান: A. প্রস্তাব ও গ্রহণ, প্রতিদান, সক্ষমতা ও বৈধতা B. একটি প্রস্তাব, একটি গ্রহণ এবং উভয় পক্ষের মূল্যের বিনিময় C. একটি প্রস্তাব, একটি গ্রহণ এবং উভয় পক্ষের সম্পাদন D. লিখিত প্রস্তাব ও গ্রহণ এবং উভয় পক্ষের মূল্যের বিনিময়
+T:
+**Answer: A — offer & acceptance, consideration, capacity and legality.** B, C and D each miss capacity and legality; D also wrongly requires writing (acceptance can be oral or by performance).
+TB:
+**উত্তর: A — প্রস্তাব ও গ্রহণ, প্রতিদান, সক্ষমতা ও বৈধতা।** B, C ও D-তে সক্ষমতা ও বৈধতা নেই; D আবার ভুলভাবে লিখিত হওয়া বাধ্যতামূলক বলে (গ্রহণ মৌখিক বা কাজের মাধ্যমেও হতে পারে)।
+
+@slide 44 | Elements of legal contracts | বৈধ চুক্তির উপাদান
+TXT:
+Four required elements to an enforceable contract:
+1. **Offer & Acceptance:** one party proposes an agreement that includes specific terms. An offer can be accepted in writing, in person, over the phone or by performance that clearly communicates the accepting party agrees to the terms.
+2. **Consideration:** consideration is the exchange of value. Value can be an exchange of money for property or services or an exchange of property and/or services as long as both parties receive a measurable benefit.
+3. **Legal Capacity:** the parties must be at least 18 years old and of sound mind. A minor who signs a contract has the right to cancel it. A person with mental illness or a disability, or who is under the influence of drugs or alcohol, or who signs under duress does not have the mental capacity to enter into a contract.
+4. **Legality:** the contract must be for an activity that is legal.
+
+If any one of these elements is missing, a contract may be voided, releasing the parties from any associated obligations.
+BN:
+বলবৎযোগ্য চুক্তির চারটি আবশ্যিক উপাদান:
+1. **প্রস্তাব ও গ্রহণ:** এক পক্ষ নির্দিষ্ট শর্তসহ একটি সমঝোতা প্রস্তাব করে। প্রস্তাব লিখিতভাবে, সামনাসামনি, ফোনে বা এমন কাজের মাধ্যমে গ্রহণ করা যায় যা স্পষ্টভাবে বোঝায় গ্রহণকারী পক্ষ শর্তে রাজি।
+2. **প্রতিদান:** প্রতিদান হলো মূল্যের বিনিময়। মূল্য হতে পারে সম্পত্তি বা সেবার বিনিময়ে টাকা, অথবা সম্পত্তি এবং/অথবা সেবার বিনিময় — যতক্ষণ উভয় পক্ষ পরিমাপযোগ্য সুবিধা পায়।
+3. **আইনি সক্ষমতা:** পক্ষগুলোর বয়স অন্তত ১৮ এবং সুস্থ মস্তিষ্কের হতে হবে। চুক্তিতে স্বাক্ষরকারী নাবালকের তা বাতিলের অধিকার আছে। মানসিক অসুস্থতা বা প্রতিবন্ধিতাসম্পন্ন, মাদক বা মদের প্রভাবে থাকা, বা চাপের মুখে স্বাক্ষরকারী ব্যক্তির চুক্তি করার মানসিক সক্ষমতা নেই।
+4. **বৈধতা:** চুক্তিটি বৈধ কোনো কার্যক্রমের জন্য হতে হবে।
+
+এগুলোর যেকোনো একটি না থাকলে চুক্তি বাতিল হতে পারে, এবং পক্ষগুলো সংশ্লিষ্ট দায় থেকে মুক্ত হয়।
+T:
+The **four elements** (5.6.2) with what to remember about each:
+1. **Offer & acceptance** — clear terms proposed and agreed; acceptance can be **written, in person, by phone or by performance**.
+2. **Consideration** — **exchange of value**; **both** sides get a measurable benefit.
+3. **Capacity** — **18+ and of sound mind**; minors can cancel; no drugs/alcohol, no **duress** (pressure/threats).
+4. **Legality** — the purpose must be **legal**.
+**Missing any one → the contract may be void.**
+TB:
+**চারটি উপাদান** (৫.৬.২) ও প্রতিটির মনে রাখার বিষয়:
+1. **প্রস্তাব ও গ্রহণ** — স্পষ্ট শর্ত প্রস্তাব ও সম্মতি; গ্রহণ হতে পারে **লিখিত, সামনাসামনি, ফোনে বা কাজের মাধ্যমে**।
+2. **প্রতিদান** — **মূল্যের বিনিময়**; **উভয়** পক্ষ পরিমাপযোগ্য সুবিধা পায়।
+3. **সক্ষমতা** — **১৮+ ও সুস্থ মস্তিষ্ক**; নাবালক বাতিল করতে পারে; মাদক/মদ নয়, **চাপ/হুমকি** নয়।
+4. **বৈধতা** — উদ্দেশ্য **বৈধ** হতে হবে।
+**যেকোনো একটি না থাকলে → চুক্তি বাতিল হতে পারে।**
+E:
+A contract to smuggle gold is void (illegality). A 16-year-old who signs up for an expensive gym membership can cancel it (capacity). A "gift" promise with nothing in return is not a contract (no consideration).
+EB:
+সোনা চোরাচালানের চুক্তি বাতিল (অবৈধতা)। ১৬ বছর বয়সী কেউ দামি জিমের সদস্যপদে স্বাক্ষর করলে বাতিল করতে পারে (সক্ষমতা)। বিনিময়ে কিছু না পাওয়া "উপহারের" প্রতিশ্রুতি চুক্তি নয় (প্রতিদান নেই)।
+K:
+Draw a 4-row table: element | meaning | example. That is a full-mark answer for 5.6.2.
+KB:
+৪ সারির টেবিল আঁকো: উপাদান | অর্থ | উদাহরণ। এটি ৫.৬.২-এর পূর্ণ নম্বরের উত্তর।
+
+@slide 45 | Breaches of contract | চুক্তিভঙ্গ
+BN:
+চুক্তিভঙ্গ — ইউনিভার্সিটি অব নিউ মেক্সিকোর জুডিশিয়াল এডুকেশন সেন্টার চুক্তিভঙ্গকে সংজ্ঞায়িত করে "আইনি অজুহাত ছাড়া চুক্তির সম্পূর্ণ বা আংশিক অংশ গঠনকারী যেকোনো প্রতিশ্রুতি পালনে ব্যর্থতা" হিসেবে। এর মধ্যে আছে শিল্পের মান বা যেকোনো প্রকাশ্য বা অন্তর্নিহিত ওয়ারেন্টির (বিক্রয়যোগ্যতার অন্তর্নিহিত ওয়ারেন্টিসহ) শর্ত পূরণ করে কাজ না করা। ভঙ্গ গুরুতর (material) হলে ভঙ্গ না করা পক্ষ চুক্তির দায় থেকে মুক্ত হয়। অর্থাৎ পক্ষটি "দায়মুক্ত" হয় এবং চুক্তিভঙ্গের সব প্রতিকারের অধিকার পায়। ভঙ্গ গুরুতর না হলে ভঙ্গ না করা পক্ষ চুক্তিতে বাঁধা থাকে কিন্তু ভঙ্গের ফলে ক্ষতির জন্য মামলা করতে পারে। যেমন, সময় যেখানে "অত্যাবশ্যক" নয় সেখানে পণ্য বা সেবা পেতে সামান্য দেরি হলে ক্রেতাকে চুক্তি অনুযায়ী মূল্য দিতে হয় এবং দেরিতে হওয়া ক্ষতি আদায়ে মামলা করতে পারে।
+T:
+**Breach of contract** (5.6.3) = "**a failure, without legal excuse, to perform any promise** that forms all or part of the contract" — including not meeting industry standards or warranties. Two kinds:
+- **Material breach** (serious) → the innocent party is **discharged** (released from its own duties) and can use **all remedies**.
+- **Immaterial breach** (minor) → the innocent party must **still perform** but can **sue for damages** (e.g. a small delay when time is not "of the essence": pay for the goods, then claim the cost of the delay).
+TB:
+**চুক্তিভঙ্গ** (৫.৬.৩) = "**আইনি অজুহাত ছাড়া** চুক্তির সম্পূর্ণ বা আংশিক অংশ গঠনকারী **যেকোনো প্রতিশ্রুতি পালনে ব্যর্থতা**" — শিল্পের মান বা ওয়ারেন্টি পূরণ না করাসহ। দুই ধরন:
+- **গুরুতর ভঙ্গ** → নির্দোষ পক্ষ **দায়মুক্ত** হয় (নিজের দায়িত্ব থেকে মুক্ত) এবং **সব প্রতিকার** নিতে পারে।
+- **লঘু ভঙ্গ** → নির্দোষ পক্ষকে **তবুও দায়িত্ব পালন** করতে হয় কিন্তু **ক্ষতিপূরণের মামলা** করতে পারে (যেমন সময় যেখানে "অত্যাবশ্যক" নয় সেখানে সামান্য দেরি: পণ্যের দাম দাও, তারপর দেরির খরচ দাবি করো)।
+E:
+A supplier never delivers the fabric for an export order → material breach: the factory can cancel and buy elsewhere. The supplier delivers two days late with no harm to the shipment → immaterial: the factory pays but can claim any extra cost.
+EB:
+একটি সরবরাহকারী রপ্তানি অর্ডারের কাপড় পাঠালই না → গুরুতর ভঙ্গ: কারখানা চুক্তি বাতিল করে অন্য জায়গা থেকে কিনতে পারে। সরবরাহকারী দুই দিন দেরিতে পাঠাল, চালানে ক্ষতি নেই → লঘু ভঙ্গ: কারখানা দাম দেবে কিন্তু বাড়তি খরচ দাবি করতে পারে।
+K:
+Practice question 5 asks for this definition: "a failure, without legal excuse, to perform any promise that forms all or part of a contract".
+KB:
+অনুশীলনী প্রশ্ন ৫ এই সংজ্ঞাই চায়: "আইনি অজুহাত ছাড়া চুক্তির সম্পূর্ণ বা আংশিক অংশ গঠনকারী যেকোনো প্রতিশ্রুতি পালনে ব্যর্থতা"।
+
+@slide 46 | Legal remedies for breaches of contract | চুক্তিভঙ্গের আইনি প্রতিকার
+TXT:
+The method a court uses to compensate an injured party is referred to as a "remedy". Damages for breach of contract are based on three interests:
+- **Expectation:** designed to put the plaintiff in the position they would have been in had the contract been fully executed
+- **Reliance:** designed to put the plaintiff in the position they would have been in if the contract would have never been made
+- **Restitution:** if an injured party cannot prove expectation or reliance damages, their final option is restitution. Restitution may arise in a situation where there is a discharge of duties.
+
+**Specific performance:** when monetary damages are insufficient to compensate the plaintiff for the breach, a court can order specific performance which compels one party to perform, as nearly as practicable, their duties specified in the contract.
+BN:
+আদালত ক্ষতিগ্রস্ত পক্ষকে যে পদ্ধতিতে ক্ষতিপূরণ দেয় তাকে "প্রতিকার" বলে। চুক্তিভঙ্গের ক্ষতিপূরণ তিনটি স্বার্থের উপর ভিত্তি করে:
+- **প্রত্যাশা:** চুক্তি পুরোপুরি সম্পাদিত হলে বাদী যে অবস্থায় থাকতেন সেখানে তাকে পৌঁছে দেওয়া
+- **নির্ভরতা:** চুক্তি কখনো না হলে বাদী যে অবস্থায় থাকতেন সেখানে তাকে ফিরিয়ে দেওয়া
+- **পুনঃস্থাপন:** ক্ষতিগ্রস্ত পক্ষ প্রত্যাশা বা নির্ভরতার ক্ষতি প্রমাণ করতে না পারলে শেষ বিকল্প পুনঃস্থাপন। দায়মুক্তির পরিস্থিতিতে পুনঃস্থাপন আসতে পারে।
+
+**নির্দিষ্ট সম্পাদন:** আর্থিক ক্ষতিপূরণ যখন চুক্তিভঙ্গের ক্ষতি পূরণে যথেষ্ট নয়, তখন আদালত নির্দিষ্ট সম্পাদনের আদেশ দিতে পারে, যা এক পক্ষকে যতটা সম্ভব চুক্তিতে উল্লিখিত দায়িত্ব পালনে বাধ্য করে।
+T:
+Remedies (5.6.4):
+- **Expectation** → put the plaintiff where they **would be if the contract had been completed** (the profit they expected).
+- **Reliance** → put the plaintiff where they **would be if there had never been a contract** (money spent relying on it).
+- **Restitution** → the **last option**: return any benefit given (e.g. hand back the deposit).
+- **Specific performance** → when **money is not enough**, the court **orders the party to actually do** what it promised (usually for **unique** things like land or rare items).
+TB:
+প্রতিকার (৫.৬.৪):
+- **প্রত্যাশা** → **চুক্তি সম্পূর্ণ হলে** বাদী যেখানে থাকতেন সেখানে পৌঁছানো (প্রত্যাশিত মুনাফা)।
+- **নির্ভরতা** → **চুক্তি কখনো না হলে** বাদী যেখানে থাকতেন সেখানে ফেরানো (চুক্তির উপর নির্ভর করে খরচ করা টাকা)।
+- **পুনঃস্থাপন** → **শেষ বিকল্প**: দেওয়া সুবিধা ফেরত (যেমন অগ্রিম ফেরত দেওয়া)।
+- **নির্দিষ্ট সম্পাদন** → **টাকা যথেষ্ট না হলে** আদালত পক্ষকে প্রতিশ্রুত কাজটি **সত্যিই করতে আদেশ** দেয় (সাধারণত জমি বা দুর্লভ জিনিসের মতো **অনন্য** বস্তুর ক্ষেত্রে)।
+E:
+A seller agrees to sell you a specific plot of land next to your factory, then refuses. No other plot is the same, so the court can order **specific performance** — he must sell it to you.
+EB:
+একজন বিক্রেতা তোমার কারখানার পাশের নির্দিষ্ট জমি বেচতে রাজি হয়ে পরে অস্বীকার করলেন। অন্য কোনো জমি একই রকম নয়, তাই আদালত **নির্দিষ্ট সম্পাদনের** আদেশ দিতে পারে — তাকে জমিটি তোমার কাছে বেচতে হবে।
+
+@slide 47 | Practice question 5 — breach of contract | অনুশীলনী প্রশ্ন ৫ — চুক্তিভঙ্গ
+BN:
+অনুশীলনী প্রশ্ন ৫ — কোনটি "চুক্তিভঙ্গ" সবচেয়ে ভালোভাবে বর্ণনা করে? A. ভাঙা মৌখিক প্রতিশ্রুতি B. ভাঙা লিখিত প্রতিশ্রুতি C. পূরণ না হওয়া প্রত্যাশা D. আইনি অজুহাত ছাড়া চুক্তির সম্পূর্ণ বা আংশিক অংশ গঠনকারী যেকোনো প্রতিশ্রুতি পালনে ব্যর্থতা
+T:
+**Answer: D.** A, B and C are too general — a broken promise is only a breach if the promise is **part of a contract** and there is **no legal excuse**.
+TB:
+**উত্তর: D।** A, B ও C অতিরিক্ত সাধারণ — ভাঙা প্রতিশ্রুতি তখনই ভঙ্গ যখন প্রতিশ্রুতিটি **চুক্তির অংশ** এবং **কোনো আইনি অজুহাত নেই**।
+
+@check 5.6 | Quick check — Contracts | দ্রুত যাচাই — চুক্তি
+Q: Which element is missing when a 16-year-old signs a contract? | ১৬ বছর বয়সী কেউ চুক্তিতে স্বাক্ষর করলে কোন উপাদান অনুপস্থিত?
+O: Consideration | Legality | *Legal capacity | Offer & acceptance
+OB: প্রতিদান | বৈধতা | আইনি সক্ষমতা | প্রস্তাব ও গ্রহণ
+X: Parties must be at least 18 and of sound mind; a minor who signs a contract has the right to cancel it. | পক্ষগুলোর বয়স অন্তত ১৮ ও সুস্থ মস্তিষ্ক হতে হবে; নাবালক চুক্তি বাতিলের অধিকার রাখে।
+Q: "Consideration" in a contract means… | চুক্তিতে "প্রতিদান" মানে…
+O: being polite | *the exchange of value between the parties | the court's decision | a written signature
+OB: ভদ্র আচরণ | পক্ষগুলোর মধ্যে মূল্যের বিনিময় | আদালতের সিদ্ধান্ত | লিখিত স্বাক্ষর
+X: Consideration is the exchange of value, as long as both parties receive a measurable benefit. | প্রতিদান হলো মূল্যের বিনিময়, যতক্ষণ উভয় পক্ষ পরিমাপযোগ্য সুবিধা পায়।
+Q: When money cannot fairly compensate (e.g. a unique plot of land), a court may order… | টাকা ন্যায্যভাবে পূরণ করতে না পারলে (যেমন অনন্য জমি) আদালত আদেশ দিতে পারে…
+O: punitive damages | *specific performance | restitution only | a new contract
+OB: শাস্তিমূলক ক্ষতিপূরণ | নির্দিষ্ট সম্পাদন | শুধু পুনঃস্থাপন | নতুন চুক্তি
+X: Specific performance compels a party to perform its contract duties when monetary damages are insufficient. | টাকা যথেষ্ট না হলে নির্দিষ্ট সম্পাদন পক্ষকে চুক্তির দায়িত্ব পালনে বাধ্য করে।
+
+@lesson 5.7 | Summarize consumer protection and antitrust laws | ভোক্তা সুরক্ষা ও প্রতিযোগিতা আইন
+Slides 48–57. Sub-outcomes on slide 49:
+- **5.7.1** Why consumer protection is needed. **5.7.2** Several consumer protection laws. **5.7.3** The goal of antitrust legislation. **5.7.4** Sherman Act. **5.7.5** FTC Act. **5.7.6** Clayton Act.
+Three antitrust laws in date order: **Sherman (1890) → FTC Act (1914) → Clayton (1914)**.
+~~
+স্লাইড ৪৮–৫৭। স্লাইড ৪৯-এর উপ-ফলাফল:
+- **৫.৭.১** ভোক্তা সুরক্ষা কেন দরকার। **৫.৭.২** কয়েকটি ভোক্তা সুরক্ষা আইন। **৫.৭.৩** প্রতিযোগিতা আইনের লক্ষ্য। **৫.৭.৪** শারম্যান আইন। **৫.৭.৫** FTC আইন। **৫.৭.৬** ক্লেটন আইন।
+তারিখ অনুযায়ী তিনটি প্রতিযোগিতা আইন: **শারম্যান (১৮৯০) → FTC আইন (১৯১৪) → ক্লেটন (১৯১৪)**।
+
+@slide 48,49 | Consumer protection and antitrust — learning outcomes | ভোক্তা সুরক্ষা ও প্রতিযোগিতা আইন — শিখন ফলাফল
+BN:
+ভোক্তা সুরক্ষা ও প্রতিযোগিতা আইন
+
+শিখন ফলাফল: ভোক্তা সুরক্ষা ও প্রতিযোগিতা আইন। ৫.৭: ভোক্তা সুরক্ষা ও প্রতিযোগিতা আইন সংক্ষেপে বলো। ৫.৭.১: ভোক্তা সুরক্ষা আইন কেন দরকার তা ব্যাখ্যা করো। ৫.৭.২: কয়েকটি ভোক্তা সুরক্ষা আইন সংক্ষেপে বলো। ৫.৭.৩: প্রতিযোগিতা আইনের লক্ষ্য ব্যাখ্যা করো। ৫.৭.৪: শারম্যান আইনের বিধান সংক্ষেপে বলো। ৫.৭.৫: ফেডারেল ট্রেড কমিশন আইনের বিধান সংক্ষেপে বলো। ৫.৭.৬: ক্লেটন আইনের বিধান সংক্ষেপে বলো।
+T:
+Six sub-outcomes, but they are short. Learn **one key fact per law**.
+TB:
+ছয়টি উপ-ফলাফল, তবে ছোট। প্রতিটি আইনের **একটি মূল তথ্য** শেখো।
+
+@slide 50 | Consumer protection law | ভোক্তা সুরক্ষা আইন
+BN:
+ভোক্তা সুরক্ষা আইন — অসাধু ব্যবসায়িক চর্চা বা সম্ভাব্য বিপজ্জনক পণ্য থেকে ভোক্তাদের রক্ষার লক্ষ্যে নানা আইন ভোক্তা বিষয় নিয়ন্ত্রণ করে। ভোক্তা সুরক্ষা আইনের মধ্যে রয়েছে এসব বিষয়ের সংবিধি: • পণ্য নিরাপত্তা • ভোক্তা ঋণ • গাড়ির নিরাপত্তা
+IMG:
+A picture representing consumer safety.
+T:
+**Why it is needed** (5.7.1): to protect consumers from **unscrupulous (dishonest) business practices** and **dangerous products** — consumers usually know far less than the seller. Three areas: **product safety, consumer credit, automotive safety**.
+TB:
+**কেন দরকার** (৫.৭.১): ভোক্তাদের **অসাধু ব্যবসায়িক চর্চা** ও **বিপজ্জনক পণ্য** থেকে রক্ষা করতে — ভোক্তা সাধারণত বিক্রেতার চেয়ে অনেক কম জানে। তিনটি ক্ষেত্র: **পণ্য নিরাপত্তা, ভোক্তা ঋণ, গাড়ির নিরাপত্তা**।
+E:
+Bangladesh's Directorate of National Consumer Rights Protection (under the Consumer Rights Protection Act 2009) fines shops for selling expired food or charging above the printed price.
+EB:
+বাংলাদেশের জাতীয় ভোক্তা-অধিকার সংরক্ষণ অধিদপ্তর (ভোক্তা-অধিকার সংরক্ষণ আইন ২০০৯-এর অধীনে) মেয়াদোত্তীর্ণ খাবার বিক্রি বা গায়ের দামের বেশি নেওয়ায় দোকানকে জরিমানা করে।
+
+@slide 51 | Consumer protection legislation | ভোক্তা সুরক্ষা আইনসমূহ
+TXT:
+- **Product Safety:** the federal **Consumer Product Safety Act (CPSA)** established the Consumer Product Safety Commission and authorized it to develop and enforce standards, including the right to ban products. The federal **Food and Drug Act (FDA)** mandates regulation of food, drugs, cosmetics, biologics, medical products, and tobacco.
+- **Consumer Credit:** the federal **Fair Credit Reporting Act (FCRA)** promotes the accuracy, fairness, and privacy of information in the files of consumer reporting agencies. It requires credit reporting agencies to allow consumers to review their credit on file and verify any information a consumer disputes.
+- **Automotive Safety:** the **Highway Safety Act** established the **National Highway Traffic Safety Administration (NHTSA)**, charged with promoting vehicle safety innovations, addressing vehicle defects, setting safety standards for cars and trucks, and educating Americans to make safer choices when driving, riding, or walking.
+BN:
+- **পণ্য নিরাপত্তা:** কেন্দ্রীয় **ভোক্তা পণ্য নিরাপত্তা আইন (CPSA)** ভোক্তা পণ্য নিরাপত্তা কমিশন প্রতিষ্ঠা করে এবং পণ্য নিষিদ্ধ করার অধিকারসহ মানদণ্ড তৈরি ও প্রয়োগের ক্ষমতা দেয়। কেন্দ্রীয় **খাদ্য ও ওষুধ আইন (FDA)** খাদ্য, ওষুধ, প্রসাধনী, বায়োলজিক্স, চিকিৎসা পণ্য ও তামাক নিয়ন্ত্রণ বাধ্যতামূলক করে।
+- **ভোক্তা ঋণ:** কেন্দ্রীয় **ন্যায্য ঋণ প্রতিবেদন আইন (FCRA)** ভোক্তা প্রতিবেদন সংস্থার ফাইলের তথ্যের নির্ভুলতা, ন্যায্যতা ও গোপনীয়তা নিশ্চিত করে। এটি ঋণ প্রতিবেদন সংস্থাকে ভোক্তাদের তাদের ক্রেডিট রেকর্ড দেখতে এবং ভোক্তার আপত্তি করা তথ্য যাচাই করতে বাধ্য করে।
+- **গাড়ির নিরাপত্তা:** **হাইওয়ে সেফটি অ্যাক্ট** **জাতীয় মহাসড়ক ট্রাফিক নিরাপত্তা প্রশাসন (NHTSA)** প্রতিষ্ঠা করে, যার দায়িত্ব যানবাহন নিরাপত্তায় উদ্ভাবন, যানবাহনের ত্রুটি সমাধান, গাড়ি ও ট্রাকের নিরাপত্তা মান নির্ধারণ, এবং গাড়ি চালানো, চড়া বা হাঁটার সময় নিরাপদ সিদ্ধান্তে মার্কিনিদের শিক্ষিত করা।
+T:
+Match **law → area → key job** (5.7.2):
+- **CPSA** → product safety → created the **Consumer Product Safety Commission**; can **ban** dangerous products.
+- **Food and Drug Act** → regulates **food, drugs, cosmetics, medical products, tobacco**.
+- **FCRA** → consumer credit → **accurate, fair, private** credit files; consumers can **review and dispute** them.
+- **Highway Safety Act** → created **NHTSA** → **vehicle safety** standards and defects.
+TB:
+**আইন → ক্ষেত্র → মূল কাজ** মেলাও (৫.৭.২):
+- **CPSA** → পণ্য নিরাপত্তা → **ভোক্তা পণ্য নিরাপত্তা কমিশন** তৈরি; বিপজ্জনক পণ্য **নিষিদ্ধ** করতে পারে।
+- **খাদ্য ও ওষুধ আইন** → **খাদ্য, ওষুধ, প্রসাধনী, চিকিৎসা পণ্য, তামাক** নিয়ন্ত্রণ।
+- **FCRA** → ভোক্তা ঋণ → **নির্ভুল, ন্যায্য, গোপন** ক্রেডিট ফাইল; ভোক্তা **দেখতে ও আপত্তি** করতে পারে।
+- **হাইওয়ে সেফটি অ্যাক্ট** → **NHTSA** তৈরি → **যানবাহন নিরাপত্তা** মান ও ত্রুটি।
+
+@slide 52 | Goal of antitrust legislation | প্রতিযোগিতা আইনের লক্ষ্য
+BN:
+প্রতিযোগিতা আইনের লক্ষ্য — প্রতিযোগিতা (অ্যান্টিট্রাস্ট) আইন এক ধরনের ভোক্তা সুরক্ষা, যার লক্ষ্য প্রতিযোগিতা সীমিত বা দাম নিয়ন্ত্রণ করে এমন অন্যায্য ব্যবসায়িক চর্চা রোধ করা। প্রতিযোগিতা আইনের লক্ষ্য একটি প্রতিযোগিতামূলক বাজার তৈরি ও বজায় রাখা, যা দাম, মান, পছন্দ ও উদ্ভাবনের সুবিধা দেয়। FTC ও মার্কিন বিচার বিভাগের (DOJ) প্রতিযোগিতা বিভাগের মতো সংস্থার মিশন হলো প্রতিযোগিতা আইন এবং এর মাধ্যমে প্রতিযোগিতামূলক বাজারের নিয়ম প্রয়োগ করা। তিনটি মূল কেন্দ্রীয় প্রতিযোগিতা আইন: ১. শারম্যান আইন ২. ফেডারেল ট্রেড কমিশন আইন ৩. ক্লেটন আইন
+T:
+**Antitrust law** = a kind of consumer protection that **prevents unfair practices that limit competition or control prices**. **Goal** (5.7.3): a **competitive market** that gives consumers benefits in **price, quality, choice and innovation**. Enforced by the **FTC** and the **Department of Justice (DOJ) Antitrust Division**. Three core laws: **Sherman, FTC Act, Clayton**.
+TB:
+**প্রতিযোগিতা (অ্যান্টিট্রাস্ট) আইন** = এক ধরনের ভোক্তা সুরক্ষা যা **প্রতিযোগিতা সীমিত বা দাম নিয়ন্ত্রণকারী অন্যায্য চর্চা রোধ করে**। **লক্ষ্য** (৫.৭.৩): একটি **প্রতিযোগিতামূলক বাজার**, যা ভোক্তাকে **দাম, মান, পছন্দ ও উদ্ভাবনে** সুবিধা দেয়। প্রয়োগ করে **FTC** ও **বিচার বিভাগের (DOJ) প্রতিযোগিতা বিভাগ**। তিনটি মূল আইন: **শারম্যান, FTC আইন, ক্লেটন**।
+E:
+Bangladesh has the Competition Act 2012 and the Bangladesh Competition Commission, which investigates price-fixing by syndicates (e.g. in edible oil or eggs).
+EB:
+বাংলাদেশে প্রতিযোগিতা আইন ২০১২ ও বাংলাদেশ প্রতিযোগিতা কমিশন আছে, যা সিন্ডিকেটের দাম নির্ধারণ (যেমন ভোজ্যতেল বা ডিমে) তদন্ত করে।
+
+@slide 53 | The Sherman Act | শারম্যান আইন
+BN:
+শারম্যান আইন — ১৮৯০ সালের শারম্যান অ্যান্টিট্রাস্ট আইন ছিল একচেটিয়া ব্যবসায়িক চর্চা নিষিদ্ধকারী প্রথম কেন্দ্রীয় আইন। এই আইন কেন্দ্রীয় সরকারকে এমন ট্রাস্ট ভেঙে দেওয়ার ক্ষমতা দেয়, যা মালিকানা কয়েকজন ট্রাস্টির হাতে কেন্দ্রীভূত করে কার্যত বাণিজ্য সীমিত করত। ১৮৯৫ সালে সুপ্রিম কোর্টের একটি রায় আইনটির পরিধি সীমিত করে, রায় দেয় যে আইনটি শুধু অযৌক্তিক বাণিজ্য-বাধা নিষিদ্ধ করে।
+T:
+**Sherman Antitrust Act (1890)** = the **first federal law to outlaw monopolistic practices**. It let the government **dissolve trusts** (groups that concentrated ownership in a few hands and restrained trade). A **1895 Supreme Court** decision narrowed it to **only "unreasonable" restraints of trade**.
+TB:
+**শারম্যান অ্যান্টিট্রাস্ট আইন (১৮৯০)** = **একচেটিয়া চর্চা নিষিদ্ধকারী প্রথম কেন্দ্রীয় আইন**। এটি সরকারকে **ট্রাস্ট ভেঙে দেওয়ার** ক্ষমতা দেয় (যে গোষ্ঠী মালিকানা কয়েকজনের হাতে জমিয়ে বাণিজ্য সীমিত করত)। **১৮৯৫ সালের সুপ্রিম কোর্টের** রায় একে **শুধু "অযৌক্তিক" বাণিজ্য-বাধায়** সীমিত করে।
+E:
+Standard Oil, which once controlled about 90% of US oil refining, was broken up into many companies in 1911 under the Sherman Act.
+EB:
+একসময় মার্কিন তেল পরিশোধনের প্রায় ৯০% নিয়ন্ত্রণকারী স্ট্যান্ডার্ড অয়েল ১৯১১ সালে শারম্যান আইনে অনেক কোম্পানিতে ভেঙে দেওয়া হয়।
+
+@slide 54 | The Federal Trade Commission Act | ফেডারেল ট্রেড কমিশন আইন
+BN:
+ফেডারেল ট্রেড কমিশন আইন — ফেডারেল ট্রেড কমিশন আইন একটি কেন্দ্রীয় ভোক্তা সুরক্ষা আইন, যা ফেডারেল ট্রেড কমিশন তৈরি করে — বাণিজ্যের মানদণ্ড তৈরি ও প্রয়োগের দায়িত্বপ্রাপ্ত একটি সংস্থা। কমিশনের ক্ষমতা: • বাণিজ্যে বা বাণিজ্যকে প্রভাবিত করে এমন অন্যায্য প্রতিযোগিতার পদ্ধতি এবং অন্যায্য বা প্রতারণামূলক কাজ বা চর্চা রোধ করা • ভোক্তার ক্ষতিকর আচরণের জন্য আর্থিক প্রতিকার ও অন্যান্য সুরাহা চাওয়া • কোন কাজ বা চর্চা অন্যায্য বা প্রতারণামূলক তা নির্দিষ্টভাবে সংজ্ঞায়িত করে নিয়ম তৈরি এবং এমন কাজ রোধে শর্ত নির্ধারণ • বাণিজ্যে নিয়োজিত সত্তার সংগঠন, ব্যবসা, চর্চা ও ব্যবস্থাপনা সম্পর্কে তথ্য সংগ্রহ ও তদন্ত করা
+T:
+The **FTC Act** **created the Federal Trade Commission**. Its four powers: (1) **prevent unfair competition and unfair or deceptive practices**; (2) seek **money and other relief** for harmed consumers; (3) **write rules** defining unfair/deceptive practices; (4) **gather information and investigate** businesses.
+TB:
+**FTC আইন** **ফেডারেল ট্রেড কমিশন তৈরি করে**। এর চারটি ক্ষমতা: (১) **অন্যায্য প্রতিযোগিতা ও অন্যায্য বা প্রতারণামূলক চর্চা রোধ**; (২) ক্ষতিগ্রস্ত ভোক্তার জন্য **টাকা ও অন্যান্য প্রতিকার** চাওয়া; (৩) অন্যায্য/প্রতারণামূলক চর্চা সংজ্ঞায়িত করে **নিয়ম তৈরি**; (৪) ব্যবসা সম্পর্কে **তথ্য সংগ্রহ ও তদন্ত**।
+E:
+The FTC fines companies for false advertising, e.g. claiming a weight-loss pill works without scientific proof.
+EB:
+FTC মিথ্যা বিজ্ঞাপনের জন্য কোম্পানিকে জরিমানা করে, যেমন বৈজ্ঞানিক প্রমাণ ছাড়া ওজন কমানোর বড়ি কাজ করে বলে দাবি করা।
+
+@slide 55 | The Clayton Act | ক্লেটন আইন
+BN:
+ক্লেটন আইন — ১৯১৪ সালের ক্লেটন অ্যান্টিট্রাস্ট আইন শারম্যান আইনকে স্পষ্ট ও শক্তিশালী করার জন্য তৈরি। FTC-র সাইট উল্লেখ করে যে আইনটি "শারম্যান আইন যেসব নির্দিষ্ট চর্চা স্পষ্টভাবে নিষিদ্ধ করে না সেগুলো মোকাবিলা করে, যেমন একীভূতকরণ ও পরস্পর সংযুক্ত পরিচালকত্ব (অর্থাৎ একই ব্যক্তি প্রতিযোগী কোম্পানিগুলোর ব্যবসায়িক সিদ্ধান্ত নেওয়া)।" মূল্য বৈষম্য ও প্রতিযোগিতাবিরোধী একীভূতকরণ ও অধিগ্রহণ নিষিদ্ধ করার পাশাপাশি ক্লেটন আইন ধর্মঘট, বয়কট ও শ্রমিক ইউনিয়নের বৈধতা প্রতিষ্ঠা করে।
+T:
+**Clayton Antitrust Act (1914)** = **clarifies and strengthens the Sherman Act**. It targets practices Sherman did not clearly ban:
+- **Anti-competitive mergers and acquisitions**.
+- **Interlocking directorates** — **the same person** making decisions for **competing companies**.
+- **Price discrimination** (charging different customers different prices to hurt competition).
+And it **established the legality of strikes, boycotts and labor unions**.
+TB:
+**ক্লেটন অ্যান্টিট্রাস্ট আইন (১৯১৪)** = **শারম্যান আইনকে স্পষ্ট ও শক্তিশালী করে**। শারম্যান যা স্পষ্টভাবে নিষিদ্ধ করেনি তা লক্ষ্য করে:
+- **প্রতিযোগিতাবিরোধী একীভূতকরণ ও অধিগ্রহণ**।
+- **পরস্পর সংযুক্ত পরিচালকত্ব** — **একই ব্যক্তি** **প্রতিযোগী কোম্পানিগুলোর** সিদ্ধান্ত নেন।
+- **মূল্য বৈষম্য** (প্রতিযোগিতা নষ্ট করতে ভিন্ন ক্রেতার কাছে ভিন্ন দাম)।
+আর এটি **ধর্মঘট, বয়কট ও শ্রমিক ইউনিয়নের বৈধতা** প্রতিষ্ঠা করে।
+K:
+Trap: **"interlocking directorates" and "labor unions legal" → Clayton**, not Sherman. **"First antitrust law" → Sherman.** **"Created a commission to stop deceptive practices" → FTC Act.**
+KB:
+ফাঁদ: **"পরস্পর সংযুক্ত পরিচালকত্ব" ও "শ্রমিক ইউনিয়ন বৈধ" → ক্লেটন**, শারম্যান নয়। **"প্রথম প্রতিযোগিতা আইন" → শারম্যান।** **"প্রতারণা রোধে কমিশন তৈরি" → FTC আইন।**
+
+@slide 56 | Class discussion: antitrust and consumer protection | ক্লাস আলোচনা: প্রতিযোগিতা আইন ও ভোক্তা সুরক্ষা
+BN:
+ক্লাস আলোচনা: প্রতিযোগিতা আইন ও ভোক্তা সুরক্ষা — খবরে সবসময়ই কোনো না কোনো প্রস্তাবিত একীভূতকরণ বা অধিগ্রহণ ভোক্তাদের উপর প্রভাবের জন্য যাচাইয়ের মুখে থাকে। একীভূত কোম্পানিগুলো কম খরচ ও বেশি দক্ষতার প্রতিশ্রুতি দিলেও ভোক্তা অধিকারকর্মীরা কম প্রতিযোগিতার কারণে বেশি দাম ও খারাপ সেবার বিষয়ে সতর্ক করেন। নিচের একীভূতকরণ ও অধিগ্রহণগুলো বিবেচনা করো। তোমার কি মনে হয় প্রতিযোগিতা ও ভোক্তা সুরক্ষা নিয়ম সত্যিই কাজ করে? • কমকাস্ট ও এটিঅ্যান্ডটি ব্রডব্যান্ড • ফেসবুক ও ইনস্টাগ্রাম • অ্যামাজন ও হোল ফুডস
+T:
+A balanced view: all three deals were **approved**. Supporters say they brought **lower costs and better products** (Instagram grew hugely inside Facebook). Critics say they **reduced competition** — e.g. Facebook bought a fast-growing rival, and the FTC later sued (2020) arguing the purchase helped create a monopoly. So the laws work partly: they **review** deals, but regulators may underestimate future competition, especially in technology.
+TB:
+একটি ভারসাম্যপূর্ণ মত: তিনটি চুক্তিই **অনুমোদিত** হয়েছিল। সমর্থকরা বলেন এগুলো **কম খরচ ও ভালো পণ্য** এনেছে (ফেসবুকের ভেতরে ইনস্টাগ্রাম বিশাল বড় হয়েছে)। সমালোচকরা বলেন এগুলো **প্রতিযোগিতা কমিয়েছে** — যেমন ফেসবুক দ্রুত বাড়তে থাকা প্রতিদ্বন্দ্বী কিনে নেয়, আর পরে (২০২০) FTC মামলা করে যে এই কেনা একচেটিয়া তৈরিতে সাহায্য করেছে। তাই আইন আংশিক কাজ করে: চুক্তিগুলো **যাচাই** করে, কিন্তু নিয়ন্ত্রকরা ভবিষ্যতের প্রতিযোগিতা, বিশেষত প্রযুক্তিতে, কম অনুমান করতে পারেন।
+
+@slide 57 | Quick review | দ্রুত পুনরালোচনা
+BN:
+দ্রুত পুনরালোচনা • আইনের অর্থ ও উদ্দেশ্য কী? • সংবিধিবদ্ধ আইন ও কমন লর পার্থক্য কী? • টর্ট আইন কী? টর্ট আইনে পণ্য দায়ের ভূমিকা কী? • মেধাস্বত্ব আইনের উদ্দেশ্য ও বৈশিষ্ট্য কী? • ওয়ারেন্টি কী? • আইনত বলবৎযোগ্য চুক্তির উপাদান ও চুক্তিভঙ্গের পরিণাম কী? • ভোক্তা সুরক্ষা ও প্রতিযোগিতা আইন কী করে?
+T:
+Seven review questions = study questions 5.1–5.7. Test yourself with the lists: 4 purposes of law; 4 parts of rule of law; 5 negligence elements; 3 product defects; 2 damages; 3 IP types; 2 warranty types (+2 implied); 4 contract elements; 4 remedies; 3 antitrust laws.
+TB:
+সাতটি পুনরালোচনা প্রশ্ন = স্টাডি প্রশ্ন ৫.১–৫.৭। তালিকাগুলো দিয়ে নিজেকে যাচাই করো: আইনের ৪ উদ্দেশ্য; আইনের শাসনের ৪ অংশ; অবহেলার ৫ উপাদান; ৩ পণ্য ত্রুটি; ২ ক্ষতিপূরণ; ৩ মেধাস্বত্ব; ২ ওয়ারেন্টি (+২ অন্তর্নিহিত); চুক্তির ৪ উপাদান; ৪ প্রতিকার; ৩ প্রতিযোগিতা আইন।
+
+@check 5.7 | Quick check — Consumer protection and antitrust | দ্রুত যাচাই — ভোক্তা সুরক্ষা ও প্রতিযোগিতা আইন
+Q: Which was the first federal law to outlaw monopolistic business practices? | একচেটিয়া ব্যবসায়িক চর্চা নিষিদ্ধকারী প্রথম কেন্দ্রীয় আইন কোনটি?
+O: Clayton Act | FTC Act | *Sherman Antitrust Act (1890) | Fair Credit Reporting Act
+OB: ক্লেটন আইন | FTC আইন | শারম্যান অ্যান্টিট্রাস্ট আইন (১৮৯০) | ন্যায্য ঋণ প্রতিবেদন আইন
+X: The Sherman Antitrust Act of 1890 was the first federal act to outlaw monopolistic business practices. | ১৮৯০ সালের শারম্যান আইন একচেটিয়া চর্চা নিষিদ্ধকারী প্রথম কেন্দ্রীয় আইন।
+Q: The same person sitting on the boards of two competing companies (interlocking directorate) is addressed by… | একই ব্যক্তি দুটি প্রতিযোগী কোম্পানির পর্ষদে থাকা (পরস্পর সংযুক্ত পরিচালকত্ব) কোন আইনের আওতায়?
+O: the Sherman Act | *the Clayton Act | the Highway Safety Act | the Food and Drug Act
+OB: শারম্যান আইন | ক্লেটন আইন | হাইওয়ে সেফটি অ্যাক্ট | খাদ্য ও ওষুধ আইন
+X: The Clayton Act (1914) addresses mergers and interlocking directorates, which the Sherman Act did not clearly prohibit. | ক্লেটন আইন (১৯১৪) একীভূতকরণ ও পরস্পর সংযুক্ত পরিচালকত্ব নিয়ে, যা শারম্যান আইন স্পষ্টভাবে নিষিদ্ধ করেনি।
+Q: Which law lets consumers review their credit files and dispute errors? | কোন আইন ভোক্তাদের তাদের ক্রেডিট ফাইল দেখতে ও ভুলে আপত্তি করতে দেয়?
+O: CPSA | *Fair Credit Reporting Act (FCRA) | Sherman Act | Clayton Act
+OB: CPSA | ন্যায্য ঋণ প্রতিবেদন আইন (FCRA) | শারম্যান আইন | ক্লেটন আইন
+X: The FCRA promotes accuracy, fairness and privacy of credit information and lets consumers review and dispute it. | FCRA ক্রেডিট তথ্যের নির্ভুলতা, ন্যায্যতা ও গোপনীয়তা নিশ্চিত করে এবং ভোক্তাকে দেখতে ও আপত্তি করতে দেয়।
+
+@together | Put it together — tables and patterns | সব একসাথে — টেবিল ও প্যাটার্ন
+### 1. The lists of this module
+<div class="tbl"><table><thead><tr><th>Topic</th><th>List</th></tr></thead><tbody>
+<tr><td>Purposes of law</td><td>Maintain order · establish standards · resolve conflict · protect rights and liberties</td></tr>
+<tr><td>Rule of law</td><td>Publicly promulgated · equally enforced · independently adjudicated · consistent with human rights</td></tr>
+<tr><td>Negligence (5 elements)</td><td>Duty of due care · breach · factual causation · proximate causation · damage</td></tr>
+<tr><td>Product liability bases</td><td>Design defect · manufacturing defect · failure to warn</td></tr>
+<tr><td>Damages</td><td>Compensatory (restore) · punitive (punish/deter)</td></tr>
+<tr><td>IP</td><td>Patent (20 yrs; design/utility/plant) · copyright (life + 70) · trademark (likelihood of confusion)</td></tr>
+<tr><td>Warranties</td><td>Express (affirmation, description, sample) · implied (merchantability, fitness)</td></tr>
+<tr><td>Contract elements</td><td>Offer & acceptance · consideration · capacity · legality</td></tr>
+<tr><td>Contract remedies</td><td>Expectation · reliance · restitution · specific performance</td></tr>
+<tr><td>Consumer protection</td><td>CPSA · Food and Drug Act · FCRA · Highway Safety Act (NHTSA)</td></tr>
+<tr><td>Antitrust</td><td>Sherman 1890 (monopolies/trusts) · FTC Act (FTC; unfair/deceptive practices) · Clayton 1914 (mergers, interlocking directorates, price discrimination; unions legal)</td></tr>
+</tbody></table></div>
+
+### 2. Easy-to-confuse pairs
+- Statutory (legislature) ↔ common law (judges, precedent).
+- Criminal (beyond reasonable doubt) ↔ tort (preponderance, >50%).
+- Negligence (must prove fault, 5 elements) ↔ strict liability (no fault needed; ultrahazardous/defective).
+- Design defect (all units) ↔ manufacturing defect (some units).
+- Patent (invention) ↔ copyright (creative work) ↔ trademark (brand).
+- Express (said) ↔ implied (imposed by UCC). Merchantability (ordinary use) ↔ fitness (particular use).
+- Material breach (discharged) ↔ immaterial breach (still perform, sue for damages).
+- Expectation (as if completed) ↔ reliance (as if never made).
+~~
+### ১. এই মডিউলের তালিকা
+<div class="tbl"><table><thead><tr><th>বিষয়</th><th>তালিকা</th></tr></thead><tbody>
+<tr><td>আইনের উদ্দেশ্য</td><td>শৃঙ্খলা রক্ষা · মানদণ্ড নির্ধারণ · বিরোধ নিষ্পত্তি · অধিকার ও স্বাধীনতা রক্ষা</td></tr>
+<tr><td>আইনের শাসন</td><td>প্রকাশ্যে জারি · সমানভাবে প্রয়োগ · স্বাধীনভাবে বিচার · মানবাধিকারসম্মত</td></tr>
+<tr><td>অবহেলা (৫ উপাদান)</td><td>যথাযথ যত্নের দায়িত্ব · লঙ্ঘন · বাস্তব কার্যকারণ · নিকটবর্তী কার্যকারণ · ক্ষতি</td></tr>
+<tr><td>পণ্য দায়ের ভিত্তি</td><td>নকশার ত্রুটি · উৎপাদনের ত্রুটি · সতর্ক না করা</td></tr>
+<tr><td>ক্ষতিপূরণ</td><td>পূরণমূলক (ফেরানো) · শাস্তিমূলক (শাস্তি/নিরুৎসাহ)</td></tr>
+<tr><td>মেধাস্বত্ব</td><td>পেটেন্ট (২০ বছর; ডিজাইন/ইউটিলিটি/প্ল্যান্ট) · কপিরাইট (জীবনকাল + ৭০) · ট্রেডমার্ক (বিভ্রান্তির সম্ভাবনা)</td></tr>
+<tr><td>ওয়ারেন্টি</td><td>প্রকাশ্য (ঘোষণা, বর্ণনা, নমুনা) · অন্তর্নিহিত (বিক্রয়যোগ্যতা, উপযোগিতা)</td></tr>
+<tr><td>চুক্তির উপাদান</td><td>প্রস্তাব ও গ্রহণ · প্রতিদান · সক্ষমতা · বৈধতা</td></tr>
+<tr><td>চুক্তির প্রতিকার</td><td>প্রত্যাশা · নির্ভরতা · পুনঃস্থাপন · নির্দিষ্ট সম্পাদন</td></tr>
+<tr><td>ভোক্তা সুরক্ষা</td><td>CPSA · খাদ্য ও ওষুধ আইন · FCRA · হাইওয়ে সেফটি অ্যাক্ট (NHTSA)</td></tr>
+<tr><td>প্রতিযোগিতা আইন</td><td>শারম্যান ১৮৯০ (একচেটিয়া/ট্রাস্ট) · FTC আইন (FTC; অন্যায্য/প্রতারণামূলক চর্চা) · ক্লেটন ১৯১৪ (একীভূতকরণ, পরস্পর সংযুক্ত পরিচালকত্ব, মূল্য বৈষম্য; ইউনিয়ন বৈধ)</td></tr>
+</tbody></table></div>
+
+### ২. সহজে গুলিয়ে যাওয়া জোড়া
+- সংবিধিবদ্ধ (আইনসভা) ↔ কমন ল (বিচারক, নজির)।
+- ফৌজদারি (যুক্তিসঙ্গত সন্দেহের ঊর্ধ্বে) ↔ টর্ট (সাক্ষ্যের প্রাধান্য, >৫০%)।
+- অবহেলা (দোষ প্রমাণ, ৫ উপাদান) ↔ কঠোর দায় (দোষ প্রমাণ লাগে না; অতি-বিপজ্জনক/ত্রুটিপূর্ণ)।
+- নকশার ত্রুটি (সব পণ্য) ↔ উৎপাদনের ত্রুটি (কিছু পণ্য)।
+- পেটেন্ট (উদ্ভাবন) ↔ কপিরাইট (সৃজনশীল কাজ) ↔ ট্রেডমার্ক (ব্র্যান্ড)।
+- প্রকাশ্য (বলা) ↔ অন্তর্নিহিত (UCC আরোপিত)। বিক্রয়যোগ্যতা (সাধারণ ব্যবহার) ↔ উপযোগিতা (নির্দিষ্ট ব্যবহার)।
+- গুরুতর ভঙ্গ (দায়মুক্ত) ↔ লঘু ভঙ্গ (দায়িত্ব পালন, ক্ষতিপূরণের মামলা)।
+- প্রত্যাশা (সম্পূর্ণ হলে যেমন) ↔ নির্ভরতা (কখনো না হলে যেমন)।
+
+@midterm | Exam answers — study questions 5.1 to 5.7 | পরীক্ষার উত্তর — স্টাডি প্রশ্ন ৫.১ থেকে ৫.৭
+### 5.1 Explain the meaning and purpose of law (slides 3–7)
+**Law** is a set of rules of conduct or procedure established by custom, agreement or authority — the whole body of rules governing a community and enforced by a political authority. Its purposes are to **maintain order, establish standards, resolve conflict and protect individual rights and liberties**; in business it defines which practices are right or wrong. The **rule of law** is the principle that all persons, institutions and entities are accountable to laws that are publicly promulgated, equally enforced, independently adjudicated and consistent with international human rights.
+
+### 5.2 Differentiate between statutory and common law (slides 8–12)
+**Statutory law** is passed by the legislature (Congress): a bill needs a simple majority in the House and Senate and the President's signature; a veto can be overridden by two-thirds of both houses (only about 7% of bills become law). **Common law** is made by judges through **precedent** (stare decisis): judges decide cases based on prior rulings in similar cases, and lower courts must follow higher courts. Its main advantage is **predictability**, which supports a stable business climate.
+
+### 5.3 Define tort law and explain product liability (slides 13–26)
+A **tort** is a violation of civil law that causes harm or injury to a person or property and creates legal liability; the plaintiff sues for damages and must prove only a **preponderance of the evidence** (>50%). **Negligence** is harm from unintentional action, judged by the reasonable-person standard, and requires five elements: duty of due care, breach, factual causation, proximate causation and damage. **Strict liability** is a much higher level of liability for ultrahazardous activities and defective products, where fault need not be proved. **Product liability** claims are based on **design defects, manufacturing defects or failure to warn**; under strict liability the buyer only shows the product was defective and caused harm, and can sue the manufacturer, distributor and retailer (no privity needed). Courts award **compensatory damages** (to restore the victim) and, in extreme cases, **punitive damages** (to punish and deter).
+
+### 5.4 Explain intellectual property law (slides 27–34)
+**Intellectual property** is any product of the human intellect that the law protects from unauthorized use. IP law aims to **encourage new ideas and inventions while still providing public access**. **Patents** (USPTO) give the right to exclude others from making or selling an invention for **20 years** (design, utility — 90%, and plant patents). **Copyrights** (Library of Congress) give exclusive rights to reproduce, adapt, distribute, perform and display original works, lasting the **author's life + 70 years**, after which works enter the public domain. **Trademarks** are words, phrases, symbols or designs that identify the source of goods; they must be unique and are refused if there is a likelihood of confusion (appearance, sound, meaning).
+
+### 5.5 Describe warranties (slides 35–39)
+A **warranty** is a promise that goods sold will meet stated standards of performance; written or oral, it creates a contractual obligation when the buyer relies on it. **Express warranties** are created by the seller's words or actions — an affirmation of fact or promise, a description of the goods, or a sample or model (UCC 2-313) — without needing the word "warranty". **Implied warranties** are imposed by the UCC: **merchantability** (fit for the ordinary purpose of such goods) and **fitness for a particular purpose** (when the seller knows the buyer's specific use).
+
+### 5.6 List the elements of a contract and explain breach (slides 40–47)
+A **contract** is a legally enforceable agreement. It needs four elements: (1) **offer and acceptance** (accepted in writing, in person, by phone or by performance), (2) **consideration** (an exchange of value benefiting both parties), (3) **legal capacity** (18+, sound mind, not intoxicated or under duress) and (4) **legality**. If any element is missing the contract may be void. A **breach** is a failure, without legal excuse, to perform any promise in the contract. A **material** breach discharges the other party; an **immaterial** breach still requires performance but allows a suit for damages. Remedies are based on **expectation** (as if the contract were completed), **reliance** (as if it were never made) or **restitution**; where money is insufficient, a court may order **specific performance**.
+
+### 5.7 Summarize consumer protection and antitrust laws (slides 48–57)
+**Consumer protection** laws protect consumers from dishonest practices and dangerous products: the **CPSA** (Consumer Product Safety Commission, can ban products), the **Food and Drug Act** (food, drugs, cosmetics, medical products, tobacco), the **Fair Credit Reporting Act** (accurate, fair, private credit files consumers can review and dispute) and the **Highway Safety Act** (NHTSA, vehicle safety). **Antitrust** laws prevent practices that limit competition or fix prices, to keep markets competitive in price, quality, choice and innovation; they are enforced by the FTC and the DOJ. The **Sherman Act (1890)** was the first to outlaw monopolies and dissolve trusts; the **FTC Act** created the Federal Trade Commission to stop unfair or deceptive practices, seek relief, make rules and investigate; the **Clayton Act (1914)** strengthened Sherman by banning anti-competitive mergers, interlocking directorates and price discrimination, and legalized strikes, boycotts and unions.
+~~
+### ৫.১ আইনের অর্থ ও উদ্দেশ্য (স্লাইড ৩–৭)
+**আইন** হলো রীতি, সমঝোতা বা কর্তৃপক্ষ দ্বারা প্রতিষ্ঠিত আচরণ বা পদ্ধতির নিয়মের সমষ্টি — একটি সম্প্রদায় পরিচালনাকারী ও রাজনৈতিক কর্তৃপক্ষ প্রয়োগকৃত নিয়মের সমগ্র সংকলন। এর উদ্দেশ্য **শৃঙ্খলা রক্ষা, মানদণ্ড নির্ধারণ, বিরোধ নিষ্পত্তি এবং ব্যক্তির অধিকার ও স্বাধীনতা রক্ষা**; ব্যবসায় এটি ঠিক করে কোন চর্চা সঠিক বা ভুল। **আইনের শাসন** হলো এই নীতি যে সব ব্যক্তি, প্রতিষ্ঠান ও সত্তা এমন আইনের কাছে জবাবদিহি করে যা প্রকাশ্যে জারি, সমানভাবে প্রয়োগ, স্বাধীনভাবে বিচার এবং আন্তর্জাতিক মানবাধিকারসম্মত।
+
+### ৫.২ সংবিধিবদ্ধ আইন ও কমন লর পার্থক্য (স্লাইড ৮–১২)
+**সংবিধিবদ্ধ আইন** আইনসভা (কংগ্রেস) পাস করে: বিলের জন্য হাউস ও সিনেটে সাধারণ সংখ্যাগরিষ্ঠতা ও প্রেসিডেন্টের স্বাক্ষর লাগে; দুই কক্ষের দুই-তৃতীয়াংশ ভেটো বাতিল করতে পারে (মাত্র প্রায় ৭% বিল আইন হয়)। **কমন ল** বিচারকরা **নজির** (স্টেয়ার ডিসাইসিস) দিয়ে তৈরি করেন: একই রকম মামলায় আগের রায়ের ভিত্তিতে সিদ্ধান্ত হয়, এবং নিম্ন আদালতকে উচ্চ আদালত মানতে হয়। এর প্রধান সুবিধা **পূর্বানুমানযোগ্যতা**, যা স্থিতিশীল ব্যবসায়িক পরিবেশ দেয়।
+
+### ৫.৩ টর্ট আইন ও পণ্য দায় (স্লাইড ১৩–২৬)
+**টর্ট** হলো দেওয়ানি আইনের এমন লঙ্ঘন যা ব্যক্তি বা সম্পত্তির ক্ষতি করে ও আইনি দায় তৈরি করে; বাদী ক্ষতিপূরণের মামলা করেন এবং শুধু **সাক্ষ্যের প্রাধান্য** (>৫০%) প্রমাণ করতে হয়। **অবহেলা** হলো অনিচ্ছাকৃত কাজ থেকে ক্ষতি, যুক্তিসঙ্গত-ব্যক্তি মানদণ্ডে বিচার হয়, এবং পাঁচটি উপাদান লাগে: যথাযথ যত্নের দায়িত্ব, লঙ্ঘন, বাস্তব কার্যকারণ, নিকটবর্তী কার্যকারণ ও ক্ষতি। **কঠোর দায়** অতি-বিপজ্জনক কাজ ও ত্রুটিপূর্ণ পণ্যের জন্য অনেক উচ্চতর দায়, যেখানে দোষ প্রমাণ লাগে না। **পণ্য দায়ের** দাবির ভিত্তি **নকশার ত্রুটি, উৎপাদনের ত্রুটি বা সতর্ক না করা**; কঠোর দায়ে ক্রেতা শুধু দেখান পণ্য ত্রুটিপূর্ণ ছিল ও ক্ষতি করেছে, এবং উৎপাদক, পরিবেশক ও খুচরা বিক্রেতা সবার বিরুদ্ধে মামলা করতে পারেন (প্রিভিটি লাগে না)। আদালত **পূরণমূলক ক্ষতিপূরণ** (ক্ষতিগ্রস্তকে আগের অবস্থায় ফেরাতে) এবং চরম ক্ষেত্রে **শাস্তিমূলক ক্ষতিপূরণ** (শাস্তি ও নিরুৎসাহ) দেয়।
+
+### ৫.৪ মেধাস্বত্ব আইন (স্লাইড ২৭–৩৪)
+**মেধাস্বত্ব** হলো মানুষের বুদ্ধির এমন সৃষ্টি যাকে আইন অননুমোদিত ব্যবহার থেকে রক্ষা করে। এর লক্ষ্য **নতুন ধারণা ও উদ্ভাবনে উৎসাহ দেওয়া, আবার জনগণের প্রবেশাধিকার রাখা**। **পেটেন্ট** (USPTO) **২০ বছর** উদ্ভাবন তৈরি বা বিক্রি থেকে অন্যদের বিরত রাখার অধিকার দেয় (ডিজাইন, ইউটিলিটি — ৯০%, প্ল্যান্ট)। **কপিরাইট** (লাইব্রেরি অব কংগ্রেস) মৌলিক কাজ পুনরুৎপাদন, রূপান্তর, বিতরণ, পরিবেশন ও প্রদর্শনের একচেটিয়া অধিকার দেয়, চলে **লেখকের জীবনকাল + ৭০ বছর**, তারপর কাজ পাবলিক ডোমেইনে যায়। **ট্রেডমার্ক** হলো পণ্যের উৎস চিহ্নিতকারী শব্দ, বাক্যাংশ, প্রতীক বা নকশা; এটি অনন্য হতে হয় এবং বিভ্রান্তির সম্ভাবনা (চেহারা, উচ্চারণ, অর্থ) থাকলে প্রত্যাখ্যাত হয়।
+
+### ৫.৫ ওয়ারেন্টি (স্লাইড ৩৫–৩৯)
+**ওয়ারেন্টি** হলো বিক্রীত পণ্য ঘোষিত কার্যক্ষমতার মান পূরণ করবে — এই প্রতিশ্রুতি; লিখিত বা মৌখিক, ক্রেতা নির্ভর করলে চুক্তিগত দায় তৈরি করে। **প্রকাশ্য ওয়ারেন্টি** তৈরি হয় বিক্রেতার কথা বা কাজে — তথ্যের ঘোষণা বা প্রতিশ্রুতি, পণ্যের বর্ণনা, বা নমুনা/মডেল (UCC ২-৩১৩) — "ওয়ারেন্টি" শব্দ ছাড়াই। **অন্তর্নিহিত ওয়ারেন্টি** UCC আরোপ করে: **বিক্রয়যোগ্যতা** (এমন পণ্যের সাধারণ উদ্দেশ্যের উপযোগী) ও **নির্দিষ্ট উদ্দেশ্যের উপযোগিতা** (বিক্রেতা ক্রেতার নির্দিষ্ট ব্যবহার জানলে)।
+
+### ৫.৬ চুক্তির উপাদান ও ভঙ্গ (স্লাইড ৪০–৪৭)
+**চুক্তি** হলো আইনত বলবৎযোগ্য সমঝোতা। এর চারটি উপাদান: (১) **প্রস্তাব ও গ্রহণ** (লিখিত, সামনাসামনি, ফোনে বা কাজে গ্রহণ), (২) **প্রতিদান** (উভয় পক্ষের উপকারী মূল্যের বিনিময়), (৩) **আইনি সক্ষমতা** (১৮+, সুস্থ মস্তিষ্ক, নেশাগ্রস্ত বা চাপের মুখে নয়) ও (৪) **বৈধতা**। কোনো উপাদান না থাকলে চুক্তি বাতিল হতে পারে। **চুক্তিভঙ্গ** হলো আইনি অজুহাত ছাড়া চুক্তির কোনো প্রতিশ্রুতি পালনে ব্যর্থতা। **গুরুতর** ভঙ্গ অন্য পক্ষকে দায়মুক্ত করে; **লঘু** ভঙ্গে দায়িত্ব পালন করতে হয় কিন্তু ক্ষতিপূরণের মামলা করা যায়। প্রতিকারের ভিত্তি **প্রত্যাশা** (চুক্তি সম্পূর্ণ হলে যেমন), **নির্ভরতা** (চুক্তি না হলে যেমন) বা **পুনঃস্থাপন**; টাকা যথেষ্ট না হলে আদালত **নির্দিষ্ট সম্পাদনের** আদেশ দিতে পারে।
+
+### ৫.৭ ভোক্তা সুরক্ষা ও প্রতিযোগিতা আইন (স্লাইড ৪৮–৫৭)
+**ভোক্তা সুরক্ষা** আইন অসাধু চর্চা ও বিপজ্জনক পণ্য থেকে ভোক্তাকে রক্ষা করে: **CPSA** (ভোক্তা পণ্য নিরাপত্তা কমিশন, পণ্য নিষিদ্ধ করতে পারে), **খাদ্য ও ওষুধ আইন** (খাদ্য, ওষুধ, প্রসাধনী, চিকিৎসা পণ্য, তামাক), **ন্যায্য ঋণ প্রতিবেদন আইন** (নির্ভুল, ন্যায্য, গোপন ক্রেডিট ফাইল যা ভোক্তা দেখতে ও আপত্তি করতে পারেন) ও **হাইওয়ে সেফটি অ্যাক্ট** (NHTSA, যানবাহন নিরাপত্তা)। **প্রতিযোগিতা** আইন প্রতিযোগিতা সীমিত বা দাম নির্ধারণকারী চর্চা রোধ করে, যাতে দাম, মান, পছন্দ ও উদ্ভাবনে বাজার প্রতিযোগিতামূলক থাকে; FTC ও DOJ প্রয়োগ করে। **শারম্যান আইন (১৮৯০)** প্রথম একচেটিয়া নিষিদ্ধ ও ট্রাস্ট ভাঙার আইন; **FTC আইন** অন্যায্য বা প্রতারণামূলক চর্চা রোধ, প্রতিকার চাওয়া, নিয়ম তৈরি ও তদন্তের জন্য ফেডারেল ট্রেড কমিশন তৈরি করে; **ক্লেটন আইন (১৯১৪)** প্রতিযোগিতাবিরোধী একীভূতকরণ, পরস্পর সংযুক্ত পরিচালকত্ব ও মূল্য বৈষম্য নিষিদ্ধ করে শারম্যানকে শক্তিশালী করে, এবং ধর্মঘট, বয়কট ও ইউনিয়ন বৈধ করে।
+
+@quiz | Module 5 quiz — 10 questions | মডিউল ৫ কুইজ — ১০টি প্রশ্ন
+Q: Laws passed by Congress are called… | কংগ্রেসে পাস হওয়া আইনকে বলে…
+O: common law | *statutory law | tort law | precedent
+OB: কমন ল | সংবিধিবদ্ধ আইন | টর্ট আইন | নজির
+X: Statutory laws are passed by Congress (the legislature); common law is made by judges through precedent. | সংবিধিবদ্ধ আইন কংগ্রেস পাস করে; কমন ল বিচারকরা নজির দিয়ে তৈরি করেন।
+Q: Which is the FIRST element of a negligence case? | অবহেলা মামলার প্রথম উপাদান কোনটি?
+O: Damage | Breach | *Duty of due care | Proximate causation
+OB: ক্ষতি | লঙ্ঘন | যথাযথ যত্নের দায়িত্ব | নিকটবর্তী কার্যকারণ
+X: The five elements in order: duty of due care, breach, factual causation, proximate causation, damage. | পাঁচ উপাদান ক্রমানুসারে: যথাযথ যত্নের দায়িত্ব, লঙ্ঘন, বাস্তব কার্যকারণ, নিকটবর্তী কার্যকারণ, ক্ষতি।
+Q: In a strict liability case, which of these must the plaintiff prove? | কঠোর দায়ের মামলায় বাদীকে কোনটি প্রমাণ করতে হয়?
+O: That the defendant breached a duty of care | That the defendant acted unreasonably | *That the product was defective and the defect caused the harm | That there was privity of contract
+OB: বিবাদী যত্নের দায়িত্ব লঙ্ঘন করেছেন | বিবাদী অযৌক্তিক আচরণ করেছেন | পণ্য ত্রুটিপূর্ণ ছিল এবং ত্রুটিই ক্ষতি করেছে | চুক্তির প্রিভিটি ছিল
+X: Under strict liability, the plaintiff only shows a defective product caused harm; duty, breach and privity are not required. | কঠোর দায়ে বাদী শুধু দেখান ত্রুটিপূর্ণ পণ্য ক্ষতি করেছে; দায়িত্ব, লঙ্ঘন ও প্রিভিটি লাগে না।
+Q: A batch of cars has faulty brakes because of a mistake on one assembly line; the design is fine. This is a… | একটি অ্যাসেম্বলি লাইনের ভুলে এক ব্যাচ গাড়ির ব্রেক ত্রুটিপূর্ণ; নকশা ঠিক আছে। এটি…
+O: design defect | *manufacturing defect | failure-to-warn defect | breach of trademark
+OB: নকশার ত্রুটি | উৎপাদনের ত্রুটি | সতর্ক না করার ত্রুটি | ট্রেডমার্ক লঙ্ঘন
+X: A manufacturing defect is a failure in the manufacturing or quality-control process, not in the design. | উৎপাদনের ত্রুটি হলো উৎপাদন বা মান নিয়ন্ত্রণ প্রক্রিয়ার ব্যর্থতা, নকশার নয়।
+Q: Copyright for a work created after 1 January 1978 lasts… | ১ জানুয়ারি ১৯৭৮-এর পর তৈরি কাজের কপিরাইট চলে…
+O: 20 years from filing | 50 years | *the author's life plus 70 years | forever
+OB: আবেদন থেকে ২০ বছর | ৫০ বছর | লেখকের জীবনকাল + ৭০ বছর | চিরকাল
+X: Copyright lasts the author's life plus an additional 70 years; patents last 20 years. | কপিরাইট চলে লেখকের জীবনকাল + ৭০ বছর; পেটেন্ট ২০ বছর।
+Q: A word, phrase, symbol or design that identifies the source of goods is a… | পণ্যের উৎস চিহ্নিতকারী শব্দ, বাক্যাংশ, প্রতীক বা নকশা হলো…
+O: patent | copyright | *trademark | warranty
+OB: পেটেন্ট | কপিরাইট | ট্রেডমার্ক | ওয়ারেন্টি
+X: The USPTO defines a trademark as a word, phrase, symbol or design that identifies and distinguishes the source of goods. | USPTO ট্রেডমার্ককে পণ্যের উৎস চিহ্নিত ও আলাদা করার শব্দ, বাক্যাংশ, প্রতীক বা নকশা হিসেবে সংজ্ঞায়িত করে।
+Q: A buyer tells the seller she needs boots for mountain climbing; the seller recommends a pair. Which warranty applies? | একজন ক্রেতা বিক্রেতাকে বললেন পাহাড়ে চড়ার জন্য বুট দরকার; বিক্রেতা একজোড়া সুপারিশ করলেন। কোন ওয়ারেন্টি প্রযোজ্য?
+O: Express warranty by sample | Implied warranty of merchantability | *Implied warranty of fitness for a particular purpose | No warranty
+OB: নমুনার প্রকাশ্য ওয়ারেন্টি | বিক্রয়যোগ্যতার অন্তর্নিহিত ওয়ারেন্টি | নির্দিষ্ট উদ্দেশ্যের উপযোগিতার অন্তর্নিহিত ওয়ারেন্টি | কোনো ওয়ারেন্টি নেই
+X: When the seller knows the particular use, an implied warranty arises that the goods will be fit for that purpose. | বিক্রেতা নির্দিষ্ট ব্যবহার জানলে পণ্য সেই উদ্দেশ্যের উপযোগী হবে — এমন অন্তর্নিহিত ওয়ারেন্টি তৈরি হয়।
+Q: Which is NOT one of the four elements of an enforceable contract? | বলবৎযোগ্য চুক্তির চারটি উপাদানের মধ্যে কোনটি নয়?
+O: Consideration | Capacity | Legality | *A signature witnessed by a lawyer
+OB: প্রতিদান | সক্ষমতা | বৈধতা | আইনজীবীর সাক্ষ্যসহ স্বাক্ষর
+X: The four elements are offer & acceptance, consideration, capacity and legality. A lawyer's witness is not required. | চারটি উপাদান: প্রস্তাব ও গ্রহণ, প্রতিদান, সক্ষমতা ও বৈধতা। আইনজীবীর সাক্ষ্য লাগে না।
+Q: Expectation damages aim to put the plaintiff in the position they would be in if… | প্রত্যাশামূলক ক্ষতিপূরণের লক্ষ্য বাদীকে সেই অবস্থায় আনা যেখানে তিনি থাকতেন যদি…
+O: the contract had never been made | *the contract had been fully performed | the defendant were punished | the case were dismissed
+OB: চুক্তি কখনো না হতো | চুক্তি পুরোপুরি সম্পাদিত হতো | বিবাদীর শাস্তি হতো | মামলা খারিজ হতো
+X: Expectation = as if the contract had been fully executed; reliance = as if it had never been made. | প্রত্যাশা = চুক্তি সম্পূর্ণ হলে যেমন; নির্ভরতা = চুক্তি কখনো না হলে যেমন।
+Q: The Clayton Act (1914) did all of these EXCEPT… | ক্লেটন আইন (১৯১৪) নিচের সবগুলো করেছে, একটি ছাড়া…
+O: banned anti-competitive mergers | addressed interlocking directorates | established the legality of labor unions and strikes | *became the first federal law against monopolies in 1890
+OB: প্রতিযোগিতাবিরোধী একীভূতকরণ নিষিদ্ধ | পরস্পর সংযুক্ত পরিচালকত্ব মোকাবিলা | শ্রমিক ইউনিয়ন ও ধর্মঘটের বৈধতা প্রতিষ্ঠা | ১৮৯০ সালে একচেটিয়ার বিরুদ্ধে প্রথম কেন্দ্রীয় আইন হওয়া
+X: The first federal antitrust law (1890) was the Sherman Act; the Clayton Act strengthened it in 1914. | প্রথম কেন্দ্রীয় প্রতিযোগিতা আইন (১৮৯০) শারম্যান আইন; ক্লেটন আইন ১৯১৪ সালে একে শক্তিশালী করে।
+
+@summary | Module 5 summary — one page | মডিউল ৫ সারাংশ — এক পৃষ্ঠা
+- **Law** = rules enforced by a political authority; purposes: order, standards, resolve conflict, protect rights. **Rule of law**: public, equal, independent, human-rights consistent.
+- **Statutory** (Congress; bill → majority → President; veto override 2/3) vs **common law** (judges, precedent, predictability).
+- **Tort** = civil wrong; preponderance of evidence. **Negligence** (unintentional; reasonable person; 5 elements) vs **strict liability** (ultrahazardous/defective; no fault). Product defects: **design, manufacturing, failure to warn**; no privity needed. Damages: **compensatory** vs **punitive**.
+- **IP:** patent (USPTO, 20 years; design/utility 90%/plant), copyright (Library of Congress; life + 70; public domain), trademark (likelihood of confusion: look, sound, meaning).
+- **Warranty:** express (affirmation, description, sample) vs implied (merchantability, fitness for a particular purpose).
+- **Contract:** offer & acceptance, consideration, capacity (18+), legality. Breach: material vs immaterial. Remedies: expectation, reliance, restitution, specific performance.
+- **Consumer protection:** CPSA, Food and Drug Act, FCRA, Highway Safety Act/NHTSA. **Antitrust:** Sherman 1890, FTC Act, Clayton 1914.
+
+**Next:** Module 6 — Business Ethics (ethical vs legal, codes of ethics, ethical challenges, CSR).
+~~
+- **আইন** = রাজনৈতিক কর্তৃপক্ষ প্রয়োগকৃত নিয়ম; উদ্দেশ্য: শৃঙ্খলা, মানদণ্ড, বিরোধ নিষ্পত্তি, অধিকার রক্ষা। **আইনের শাসন**: প্রকাশ্য, সমান, স্বাধীন, মানবাধিকারসম্মত।
+- **সংবিধিবদ্ধ** (কংগ্রেস; বিল → সংখ্যাগরিষ্ঠতা → প্রেসিডেন্ট; ভেটো বাতিল ২/৩) বনাম **কমন ল** (বিচারক, নজির, পূর্বানুমানযোগ্যতা)।
+- **টর্ট** = দেওয়ানি অন্যায়; সাক্ষ্যের প্রাধান্য। **অবহেলা** (অনিচ্ছাকৃত; যুক্তিসঙ্গত ব্যক্তি; ৫ উপাদান) বনাম **কঠোর দায়** (অতি-বিপজ্জনক/ত্রুটিপূর্ণ; দোষ প্রমাণ নয়)। পণ্যের ত্রুটি: **নকশা, উৎপাদন, সতর্ক না করা**; প্রিভিটি লাগে না। ক্ষতিপূরণ: **পূরণমূলক** বনাম **শাস্তিমূলক**।
+- **মেধাস্বত্ব:** পেটেন্ট (USPTO, ২০ বছর; ডিজাইন/ইউটিলিটি ৯০%/প্ল্যান্ট), কপিরাইট (লাইব্রেরি অব কংগ্রেস; জীবনকাল + ৭০; পাবলিক ডোমেইন), ট্রেডমার্ক (বিভ্রান্তির সম্ভাবনা: চেহারা, উচ্চারণ, অর্থ)।
+- **ওয়ারেন্টি:** প্রকাশ্য (ঘোষণা, বর্ণনা, নমুনা) বনাম অন্তর্নিহিত (বিক্রয়যোগ্যতা, নির্দিষ্ট উদ্দেশ্যের উপযোগিতা)।
+- **চুক্তি:** প্রস্তাব ও গ্রহণ, প্রতিদান, সক্ষমতা (১৮+), বৈধতা। ভঙ্গ: গুরুতর বনাম লঘু। প্রতিকার: প্রত্যাশা, নির্ভরতা, পুনঃস্থাপন, নির্দিষ্ট সম্পাদন।
+- **ভোক্তা সুরক্ষা:** CPSA, খাদ্য ও ওষুধ আইন, FCRA, হাইওয়ে সেফটি অ্যাক্ট/NHTSA। **প্রতিযোগিতা আইন:** শারম্যান ১৮৯০, FTC আইন, ক্লেটন ১৯১৪।
+
+**পরবর্তী:** মডিউল ৬ — ব্যবসায়িক নৈতিকতা (নৈতিক বনাম আইনগত, নৈতিকতার বিধি, নৈতিক চ্যালেঞ্জ, CSR)।
