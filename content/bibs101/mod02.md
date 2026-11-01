@@ -1,0 +1,1869 @@
+# BIBS 101 · Module 2 — Economic Environment
+
+**অর্থনৈতিক পরিবেশ** · Units 3–4 · 64 slides · PDF: `Unit 3 and 4 - EconEnvironment.pdf`
+
+## Big picture — what is this module about? · বড় ছবি — এই মডিউলে কী শিখব?
+
+In Module 1 you saw that the **economic environment** is one of the six forces acting on every business. This module opens that box. It asks: **why do we have to make choices, how do different countries organize their economies, how are prices decided, and how do we know if an economy is healthy or sick?**
+
+Think about onions in Bangladesh. Every year before Eid, the price of onions jumps. Why? Many families want to buy more (**demand rises**) while the amount reaching the market may fall if imports stop or the harvest is poor (**supply falls**). When demand is bigger than supply, there is a **shortage** and the price goes up until buyers and sellers balance again (**equilibrium**). If the whole economy slows down and people lose jobs, shops sell less everywhere — that is the **business cycle** at work.
+
+What you will learn (7 study questions)
+
+- **2.1** What economics is: scarcity, opportunity cost, division of labor, specialization, economies of scale, micro vs macro, monetary vs fiscal policy (slides 3–16).
+- **2.2** Economic systems: market, planned (command) and mixed (slides 17–22).
+- **2.3** The law of demand, the demand curve and what shifts demand (slides 23–31).
+- **2.4** The law of supply, the supply curve and what shifts supply (slides 32–39).
+- **2.5** Equilibrium, surplus and shortage (slides 40–46).
+- **2.6** How economists measure the health of an economy: GDP, unemployment, inflation, CPI, consumer confidence (slides 47–55).
+- **2.7** The business cycle: expansion, peak, contraction, trough; recession and depression (slides 56–64).
+
+The 3-minute version
+
+- **Scarcity:** resources are limited, wants are not → we must choose. **Opportunity cost** = what you give up when you choose.
+- **Micro** = individual households, workers, firms; **macro** = the whole economy (growth, unemployment, inflation). Governments use **monetary policy** (central bank, interest rates) and **fiscal policy** (government spending and taxes).
+- **Market economy:** supply and demand decide; **planned economy:** the government decides; **mixed:** both.
+- **Law of demand:** price ↑ → quantity demanded ↓. **Law of supply:** price ↑ → quantity supplied ↑.
+- A **price change** moves you **along** a curve; **other factors** (income, tastes, input costs, technology…) **shift** the whole curve.
+- **Equilibrium** is where supply = demand. Price above it → **surplus**; price below it → **shortage**. Market pressure pushes the price back to equilibrium.
+- Three economic goals: **growth (GDP), high employment, price stability**.
+- Business cycle: **expansion → peak → contraction → trough** → expansion again. A long, deep contraction is a **recession**; one that does not recover is a **depression**.
+
+মডিউল ১-এ দেখেছ, **অর্থনৈতিক পরিবেশ** প্রতিটি ব্যবসার উপর কাজ করা ছয়টি শক্তির একটি। এই মডিউল সেই বাক্সটি খুলে দেখায়। প্রশ্নগুলো হলো: **আমাদের কেন বেছে নিতে হয়, বিভিন্ন দেশ কীভাবে অর্থনীতি সাজায়, দাম কীভাবে ঠিক হয়, আর একটি অর্থনীতি সুস্থ না অসুস্থ তা কীভাবে বুঝি?**
+
+বাংলাদেশের পেঁয়াজের কথা ভাবো। প্রতি বছর ঈদের আগে পেঁয়াজের দাম লাফিয়ে বাড়ে। কেন? অনেক পরিবার বেশি কিনতে চায় (**চাহিদা বাড়ে**), আবার আমদানি বন্ধ হলে বা ফলন কম হলে বাজারে কম পেঁয়াজ আসে (**যোগান কমে**)। চাহিদা যোগানের চেয়ে বেশি হলে **ঘাটতি** হয় এবং দাম বাড়তে থাকে যতক্ষণ না ক্রেতা ও বিক্রেতা আবার ভারসাম্যে আসে (**ভারসাম্য বা ইকুইলিব্রিয়াম**)। পুরো অর্থনীতি ধীর হয়ে মানুষ চাকরি হারালে সব জায়গায় দোকানের বিক্রি কমে — এটাই **ব্যবসা চক্র**।
+
+কী শিখবে (৭টি স্টাডি প্রশ্ন)
+
+- **২.১** অর্থনীতি কী: দুষ্প্রাপ্যতা, সুযোগ ব্যয়, শ্রমবিভাগ, বিশেষায়ণ, বৃহদায়তনের সুবিধা, ব্যষ্টি বনাম সামষ্টিক, মুদ্রানীতি বনাম রাজস্বনীতি (স্লাইড ৩–১৬)।
+- **২.২** অর্থনৈতিক ব্যবস্থা: বাজার, পরিকল্পিত (কমান্ড) ও মিশ্র (স্লাইড ১৭–২২)।
+- **২.৩** চাহিদার বিধি, চাহিদা রেখা ও চাহিদা পরিবর্তনের কারণ (স্লাইড ২৩–৩১)।
+- **২.৪** যোগানের বিধি, যোগান রেখা ও যোগান পরিবর্তনের কারণ (স্লাইড ৩২–৩৯)।
+- **২.৫** ভারসাম্য, উদ্বৃত্ত ও ঘাটতি (স্লাইড ৪০–৪৬)।
+- **২.৬** অর্থনীতির স্বাস্থ্য কীভাবে মাপা হয়: জিডিপি, বেকারত্ব, মূল্যস্ফীতি, CPI, ভোক্তা আস্থা (স্লাইড ৪৭–৫৫)।
+- **২.৭** ব্যবসা চক্র: সম্প্রসারণ, শিখর, সংকোচন, তলদেশ; মন্দা ও মহামন্দা (স্লাইড ৫৬–৬৪)।
+
+৩ মিনিটের সংক্ষিপ্ত রূপ
+
+- **দুষ্প্রাপ্যতা:** সম্পদ সীমিত, চাওয়া অসীম → বেছে নিতেই হয়। **সুযোগ ব্যয়** = বেছে নেওয়ার সময় যা ছেড়ে দিতে হয়।
+- **ব্যষ্টি (মাইক্রো)** = আলাদা পরিবার, শ্রমিক, প্রতিষ্ঠান; **সামষ্টিক (ম্যাক্রো)** = পুরো অর্থনীতি (প্রবৃদ্ধি, বেকারত্ব, মূল্যস্ফীতি)। সরকার **মুদ্রানীতি** (কেন্দ্রীয় ব্যাংক, সুদের হার) ও **রাজস্বনীতি** (সরকারি ব্যয় ও কর) ব্যবহার করে।
+- **বাজার অর্থনীতি:** চাহিদা-যোগান সিদ্ধান্ত নেয়; **পরিকল্পিত অর্থনীতি:** সরকার সিদ্ধান্ত নেয়; **মিশ্র:** দুটোই।
+- **চাহিদার বিধি:** দাম ↑ → চাহিদার পরিমাণ ↓। **যোগানের বিধি:** দাম ↑ → যোগানের পরিমাণ ↑।
+- **দামের পরিবর্তন** রেখার **উপর দিয়ে চলাচল** ঘটায়; **অন্য কারণ** (আয়, রুচি, উপকরণের খরচ, প্রযুক্তি…) পুরো রেখাকে **সরিয়ে দেয়**।
+- **ভারসাম্য** যেখানে যোগান = চাহিদা। দাম তার উপরে → **উদ্বৃত্ত**; নিচে → **ঘাটতি**। বাজারের চাপ দামকে আবার ভারসাম্যে ফেরায়।
+- তিনটি অর্থনৈতিক লক্ষ্য: **প্রবৃদ্ধি (জিডিপি), উচ্চ কর্মসংস্থান, মূল্য স্থিতিশীলতা**।
+- ব্যবসা চক্র: **সম্প্রসারণ → শিখর → সংকোচন → তলদেশ** → আবার সম্প্রসারণ। দীর্ঘ, গভীর সংকোচন হলো **মন্দা (recession)**; যা আর ঘুরে দাঁড়ায় না তা **মহামন্দা (depression)**।
+
+## Key words of this module · এই মডিউলের গুরুত্বপূর্ণ শব্দ
+
+| Term | Meaning | অর্থ | Example |
+|---|---|---|---|
+| Economics | The study of how people, businesses and societies make choices about using limited resources | অর্থনীতি — সীমিত সম্পদ ব্যবহারে মানুষের পছন্দ-অপছন্দের পাঠ | Choosing between a new phone and saving for fees |
+| Scarcity | Resources are limited; there are never enough to meet all needs and wants | দুষ্প্রাপ্যতা — সম্পদ সীমিত | Only 24 hours in a day |
+| Opportunity cost | What you give up to get something you want | সুযোগ ব্যয় — যা পেতে যা ছাড়তে হয় | Working a shift instead of attending class |
+| Division of labor | Work split into tasks done by different workers | শ্রমবিভাগ | One worker cuts, another sews, another irons |
+| Specialization | Focusing on tasks where you have an advantage | বিশেষায়ণ | An engineer doing only engineering work |
+| Economies of scale | Average cost per unit falls as production rises | বৃহদায়তনের সুবিধা — উৎপাদন বাড়লে প্রতি একক খরচ কমে | 10,000 shirts cost less each than 100 |
+| Microeconomics | Study of individual households, workers and firms | ব্যষ্টিক অর্থনীতি | How a family spends its budget |
+| Macroeconomics | Study of the economy as a whole | সামষ্টিক অর্থনীতি | National unemployment rate |
+| Monetary policy | Central bank policy on interest rates and lending | মুদ্রানীতি | Bangladesh Bank raising the policy rate |
+| Fiscal policy | Government spending and taxes, set by the legislature | রাজস্বনীতি | The national budget passed by Parliament |
+| Market economy | Supply and demand decide what is produced and at what price | বাজার অর্থনীতি | Prices of clothes set by shops and buyers |
+| Planned (command) economy | The government decides production, prices and wages | পরিকল্পিত/কমান্ড অর্থনীতি | Former Soviet Union, North Korea |
+| Mixed economy | Has features of both market and planned systems | মিশ্র অর্থনীতি | Bangladesh: private shops + state-run railways |
+| Demand | Amount consumers are willing and able to buy at each price | চাহিদা | How much rice people buy at each price |
+| Quantity demanded | Units bought at one specific price | চাহিদার পরিমাণ | 600 million gallons at $1.40 |
+| Law of demand | Higher price → lower quantity demanded (other things equal) | চাহিদার বিধি | Mango price rises → people buy fewer |
+| Ceteris paribus | "All other things held equal" | অন্যান্য সব অপরিবর্তিত থাকলে | Only price changes, nothing else |
+| Normal / inferior good | Demand rises / falls when income rises | স্বাভাবিক / নিকৃষ্ট পণ্য | Beef (normal) vs coarse rice (inferior) |
+| Substitute | Can be used instead of another good | বিকল্প পণ্য | Tea and coffee; e-books and print books |
+| Complement | Used together with another good | পরিপূরক পণ্য | Cereal and milk; car and fuel |
+| Supply | Amount producers are willing to sell at each price | যোগান | How many eggs farms sell at each price |
+| Law of supply | Higher price → higher quantity supplied | যোগানের বিধি | Higher egg price → farms sell more |
+| Equilibrium | Price where quantity demanded = quantity supplied | ভারসাম্য | $1.40 and 600 million gallons |
+| Surplus | Excess supply: price above equilibrium | উদ্বৃত্ত — অতিরিক্ত যোগান | Unsold tomatoes at a high price |
+| Shortage | Excess demand: price below equilibrium | ঘাটতি — অতিরিক্ত চাহিদা | Long queues for cheap TCB goods |
+| GDP | Total value of goods and services produced in a country in a year | মোট দেশজ উৎপাদন (জিডিপি) | Bangladesh's yearly output |
+| Inflation / deflation | General rise / fall in prices | মূল্যস্ফীতি / মূল্যহ্রাস | Prices up 9% in a year |
+| CPI | Consumer Price Index — measures price changes of a household basket | ভোক্তা মূল্য সূচক | Food, housing, transport, education… |
+| Business cycle | Expansions and contractions around a long-term growth trend | ব্যবসা চক্র | Boom years and slow years |
+| Recession | Significant decline in economic activity lasting more than a few months | মন্দা | 2008 Great Recession |
+
+### Slides 1–2 · Title and module learning outcomes
+*শিরোনাম ও মডিউলের শিখন ফলাফল*
+
+> Introduction to Business Economic Environment
+> Module Learning Outcomes Explain fundamental economic principles and describe how they shape the business environment 2.1: Explain what economics is and why it’s important 2.2: Describe the difference between major different economic systems 2.3: Explain the law of demand 2.4: Explain the law of supply 2.5: Explain market equilibrium, surplus, and shortage 2.6: Describe how economists evaluate the health of an economy 2.7: Identify and explain the four stages of an economy (expansion, peak, contraction, and trough), and describe their impact on business operations
+
+ইন্ট্রোডাকশন টু বিজনেস — অর্থনৈতিক পরিবেশ
+
+মডিউলের শিখন ফলাফল: মৌলিক অর্থনৈতিক নীতিগুলো ব্যাখ্যা করো এবং সেগুলো কীভাবে ব্যবসার পরিবেশ গঠন করে তা বর্ণনা করো। ২.১: অর্থনীতি কী এবং কেন গুরুত্বপূর্ণ তা ব্যাখ্যা করো। ২.২: প্রধান বিভিন্ন অর্থনৈতিক ব্যবস্থার পার্থক্য বর্ণনা করো। ২.৩: চাহিদার বিধি ব্যাখ্যা করো। ২.৪: যোগানের বিধি ব্যাখ্যা করো। ২.৫: বাজার ভারসাম্য, উদ্বৃত্ত ও ঘাটতি ব্যাখ্যা করো। ২.৬: অর্থনীতিবিদরা কীভাবে অর্থনীতির স্বাস্থ্য মূল্যায়ন করেন তা বর্ণনা করো। ২.৭: অর্থনীতির চারটি পর্যায় (সম্প্রসারণ, শিখর, সংকোচন ও তলদেশ) চিহ্নিত ও ব্যাখ্যা করো এবং ব্যবসায়িক কার্যক্রমে তাদের প্রভাব বর্ণনা করো।
+
+**Tutor explains:** These seven outcomes are **exactly study questions 2.1–2.7** on your official sheet (Units 3 & 4). This is the most "technical" module of the midterm because it has **graphs** — demand curve, supply curve, equilibrium and the business cycle. Don't worry: each graph has only one idea, and we will go through them slowly.
+
+**Exam tip:** For 2.3, 2.4, 2.5 and 2.7, **draw the graph** in your answer. A labelled graph earns marks quickly.
+
+**টিউটর বুঝিয়ে বলছেন:** এই সাতটি ফলাফল হুবহু তোমার অফিসিয়াল তালিকার **স্টাডি প্রশ্ন ২.১–২.৭** (ইউনিট ৩ ও ৪)। মিডটার্মের সবচেয়ে "টেকনিক্যাল" মডিউল এটি, কারণ এখানে **গ্রাফ** আছে — চাহিদা রেখা, যোগান রেখা, ভারসাম্য ও ব্যবসা চক্র। চিন্তা কোরো না: প্রতিটি গ্রাফে মাত্র একটি ধারণা, আর আমরা ধীরে ধীরে দেখব।
+
+**পরীক্ষার টিপস:** ২.৩, ২.৪, ২.৫ ও ২.৭-এর উত্তরে **গ্রাফ আঁকো**। নামসহ গ্রাফ দ্রুত নম্বর এনে দেয়।
+
+
+
+## Study question 2.1 — Explain what economics is and why it is important
+**অর্থনীতি কী এবং কেন গুরুত্বপূর্ণ**
+
+Slides 3–16. Sub-outcomes on slide 4:
+
+- **2.1.1** Explain scarcity.
+- **2.1.2** Explain opportunity cost.
+- **2.1.3** Explain division of labor and specialization.
+- **2.1.4** Distinguish between macroeconomics and microeconomics.
+
+Chain of ideas: **scarcity → choice → opportunity cost**; to get more from scarce resources we use **division of labor, specialization and economies of scale**; we study all this at two levels, **micro and macro**.
+
+স্লাইড ৩–১৬। স্লাইড ৪-এর উপ-ফলাফল:
+
+- **২.১.১** দুষ্প্রাপ্যতা ব্যাখ্যা করো।
+- **২.১.২** সুযোগ ব্যয় ব্যাখ্যা করো।
+- **২.১.৩** শ্রমবিভাগ ও বিশেষায়ণ ব্যাখ্যা করো।
+- **২.১.৪** সামষ্টিক ও ব্যষ্টিক অর্থনীতির পার্থক্য করো।
+
+ধারণার শিকল: **দুষ্প্রাপ্যতা → বেছে নেওয়া → সুযোগ ব্যয়**; সীমিত সম্পদ থেকে বেশি পেতে আমরা **শ্রমবিভাগ, বিশেষায়ণ ও বৃহদায়তনের সুবিধা** ব্যবহার করি; এসব দুই স্তরে পড়ি — **ব্যষ্টি ও সামষ্টিক**।
+
+### Slides 3–4 · What is economics? — learning outcomes
+*অর্থনীতি কী? — শিখন ফলাফল*
+
+> What is Economics?
+> Learning Outcomes: What is Economics? 2.1: Explain what economics is and why it’s important 2.1.1: Explain scarcity 2.1.2: Explain opportunity cost 2.1.3: Explain division of labor and specialization 2.1.4: Distinguish between macroeconomics and microeconomics
+
+অর্থনীতি কী?
+
+শিখন ফলাফল: অর্থনীতি কী? ২.১: অর্থনীতি কী এবং কেন গুরুত্বপূর্ণ তা ব্যাখ্যা করো। ২.১.১: দুষ্প্রাপ্যতা ব্যাখ্যা করো। ২.১.২: সুযোগ ব্যয় ব্যাখ্যা করো। ২.১.৩: শ্রমবিভাগ ও বিশেষায়ণ ব্যাখ্যা করো। ২.১.৪: সামষ্টিক ও ব্যষ্টিক অর্থনীতির পার্থক্য করো।
+
+**Tutor explains:** Section title and the four things you must explain. Notice the question also asks **why economics is important**: because every person, business and government faces **scarcity** and must make choices — economics helps them make **better** choices.
+
+**টিউটর বুঝিয়ে বলছেন:** অংশের শিরোনাম ও যে চারটি জিনিস ব্যাখ্যা করতে হবে। খেয়াল করো, প্রশ্নে **অর্থনীতি কেন গুরুত্বপূর্ণ** তাও জানতে চাওয়া হয়েছে: কারণ প্রত্যেক মানুষ, ব্যবসা ও সরকার **দুষ্প্রাপ্যতার** মুখোমুখি হয় এবং বেছে নিতে হয় — অর্থনীতি তাদের **ভালো** সিদ্ধান্ত নিতে সাহায্য করে।
+
+
+
+### Slide 5 · Section picture slide
+*অংশের ছবি-স্লাইড*
+
+> (Picture only — a desk with a calendar and office items under a dark banner. No text.)
+
+(শুধু ছবি — অন্ধকার ব্যানারের নিচে ক্যালেন্ডার ও অফিসের জিনিসসহ ডেস্ক। কোনো লেখা নেই।)
+
+**Tutor explains:** A decorative divider with no text. Nothing to learn here — continue to the next slide on scarcity.
+
+**টিউটর বুঝিয়ে বলছেন:** লেখাবিহীন একটি সাজসজ্জার স্লাইড। এখানে শেখার কিছু নেই — পরের স্লাইডে দুষ্প্রাপ্যতায় যাও।
+
+
+
+### Slide 6 · Understanding economics and scarcity
+*অর্থনীতি ও দুষ্প্রাপ্যতা বোঝা*
+
+> Understanding Economics and Scarcity The resources that we value—time, money, labor, tools, land, and raw materials—exist in a limited supply. There are simply never enough resources to meet all our needs and desires. This condition is known as scarcity. Every society, at every level, must make choices about how it uses its resources. Economics helps us understand the decisions that individuals, families, businesses, or societies make, given the fact that there are never enough resources to address all needs and desires.
+
+অর্থনীতি ও দুষ্প্রাপ্যতা বোঝা — আমরা যে সম্পদগুলোকে মূল্য দিই — সময়, টাকা, শ্রম, যন্ত্রপাতি, জমি ও কাঁচামাল — সেগুলো সীমিত পরিমাণে আছে। আমাদের সব প্রয়োজন ও আকাঙ্ক্ষা পূরণের মতো যথেষ্ট সম্পদ কখনোই থাকে না। এই অবস্থাকে বলে দুষ্প্রাপ্যতা। প্রতিটি সমাজকে, প্রতিটি স্তরে, তার সম্পদ কীভাবে ব্যবহার করবে সে বিষয়ে সিদ্ধান্ত নিতে হয়। অর্থনীতি আমাদের বুঝতে সাহায্য করে ব্যক্তি, পরিবার, ব্যবসা বা সমাজ কী সিদ্ধান্ত নেয়, যখন সব প্রয়োজন ও আকাঙ্ক্ষা মেটানোর মতো সম্পদ কখনোই থাকে না।
+
+**Tutor explains:** **Scarcity** = limited resources + unlimited wants. The resources listed: **time, money, labor, tools, land, raw materials**. Because of scarcity, **every society at every level must choose**. That gives us a working definition: **economics is the study of the choices people, businesses and societies make when resources are scarce.** That is also why it is important.
+
+**Example:** You have 500 tk for the week. You want lunch every day, mobile data and a new book. You cannot buy everything — that is scarcity. The government also has a limited budget: more money for roads means less for hospitals.
+
+**Exam tip:** Exam definition: "**Scarcity** is the condition in which resources such as time, money, labor, tools, land and raw materials are limited, so there are never enough to satisfy all needs and wants."
+
+**টিউটর বুঝিয়ে বলছেন:** **দুষ্প্রাপ্যতা** = সীমিত সম্পদ + অসীম চাওয়া। স্লাইডে উল্লেখিত সম্পদ: **সময়, টাকা, শ্রম, যন্ত্রপাতি, জমি, কাঁচামাল**। দুষ্প্রাপ্যতার কারণে **প্রতিটি সমাজকে প্রতিটি স্তরে বেছে নিতে হয়**। এ থেকে একটি কার্যকর সংজ্ঞা পাই: **অর্থনীতি হলো সম্পদ সীমিত থাকা অবস্থায় মানুষ, ব্যবসা ও সমাজ যে সিদ্ধান্ত নেয় তার পাঠ।** এ কারণেই এটি গুরুত্বপূর্ণ।
+
+**উদাহরণ:** সপ্তাহে তোমার কাছে ৫০০ টাকা। তুমি প্রতিদিন দুপুরের খাবার, মোবাইল ডেটা আর একটি নতুন বই চাও। সব কেনা সম্ভব নয় — এটাই দুষ্প্রাপ্যতা। সরকারের বাজেটও সীমিত: রাস্তায় বেশি টাকা দিলে হাসপাতালে কম যায়।
+
+**পরীক্ষার টিপস:** পরীক্ষার সংজ্ঞা: "**দুষ্প্রাপ্যতা** হলো এমন অবস্থা যেখানে সময়, টাকা, শ্রম, যন্ত্রপাতি, জমি ও কাঁচামালের মতো সম্পদ সীমিত, তাই সব প্রয়োজন ও আকাঙ্ক্ষা মেটানোর মতো যথেষ্ট কখনোই থাকে না।"
+
+
+
+### Slide 7 · The concept of opportunity cost
+*সুযোগ ব্যয়ের ধারণা*
+
+> The Concept of Opportunity Cost Every time you make a choice about how to use resources, you are also choosing to forego other options. Economists use the term opportunity cost to indicate what must be given up to obtain something that’s desired. A fundamental principle of economics is that every choice has an opportunity cost.
+
+সুযোগ ব্যয়ের ধারণা — প্রতিবার সম্পদ কীভাবে ব্যবহার করবে সে বিষয়ে সিদ্ধান্ত নেওয়ার সময় তুমি অন্য বিকল্পগুলোও ছেড়ে দিচ্ছ। কাঙ্ক্ষিত কিছু পেতে যা ছেড়ে দিতে হয়, তা বোঝাতে অর্থনীতিবিদরা সুযোগ ব্যয় শব্দটি ব্যবহার করেন। অর্থনীতির একটি মৌলিক নীতি হলো, প্রতিটি সিদ্ধান্তেরই একটি সুযোগ ব্যয় আছে।
+
+**Tutor explains:** The two doors explain it perfectly: if you go through the **blue door**, the **red door** is the opportunity cost — the option you gave up. Opportunity cost is **not always money**; it can be time, fun, or another chance. And it is the **next best** alternative you give up, not every alternative.
+
+**Example:** If you spend Friday evening studying for BIBS, the opportunity cost might be the cricket match with friends you missed. A farmer who plants jute on a field gives up the rice he could have grown there.
+
+**Exam tip:** Learn the principle as written: "**Every choice has an opportunity cost.**"
+
+**টিউটর বুঝিয়ে বলছেন:** দুটি দরজা পুরোপুরি ব্যাখ্যা করে: তুমি **নীল দরজা** দিয়ে গেলে **লাল দরজাটি** তোমার সুযোগ ব্যয় — যে বিকল্পটি ছেড়ে দিলে। সুযোগ ব্যয় **সবসময় টাকা নয়**; এটা সময়, আনন্দ বা অন্য কোনো সুযোগ হতে পারে। আর এটি ছেড়ে দেওয়া **পরবর্তী সেরা** বিকল্প, সব বিকল্প নয়।
+
+**উদাহরণ:** শুক্রবার সন্ধ্যায় BIBS পড়লে সুযোগ ব্যয় হতে পারে বন্ধুদের সাথে মিস করা ক্রিকেট ম্যাচ। একজন কৃষক জমিতে পাট লাগালে সেখানে যে ধান হতে পারত তা ছেড়ে দেন।
+
+**পরীক্ষার টিপস:** নীতিটি হুবহু শেখো: "**প্রতিটি সিদ্ধান্তেরই একটি সুযোগ ব্যয় আছে।**"
+
+
+
+### Slide 8 · Class discussion: individual and societal opportunity cost
+*ক্লাস আলোচনা: ব্যক্তিগত ও সামাজিক সুযোগ ব্যয়*
+
+> Class Discussion: Individual and Societal Opportunity Cost • What are some individual decisions you make that involve opportunity cost? • What are some societal decisions that involve opportunity cost?
+
+ক্লাস আলোচনা: ব্যক্তিগত ও সামাজিক সুযোগ ব্যয় • তুমি কোন কোন ব্যক্তিগত সিদ্ধান্ত নাও যাতে সুযোগ ব্যয় জড়িত? • কোন কোন সামাজিক সিদ্ধান্তে সুযোগ ব্যয় জড়িত?
+
+**Tutor explains:** Model answers:
+
+- **Individual:** working part-time vs studying full-time; buying a phone vs saving; sleeping in vs going to the gym.
+- **Societal (government/country):** spending on the military vs schools; building a bridge vs a hospital; using farmland for a factory vs crops.
+
+**Example:** Bangladesh spent a huge amount on the Padma Bridge. The opportunity cost is what else that money could have built — but the government judged the bridge more valuable.
+
+**টিউটর বুঝিয়ে বলছেন:** নমুনা উত্তর:
+
+- **ব্যক্তিগত:** খণ্ডকালীন চাকরি বনাম পূর্ণকালীন পড়াশোনা; ফোন কেনা বনাম সঞ্চয়; বেশি ঘুমানো বনাম জিমে যাওয়া।
+- **সামাজিক (সরকার/দেশ):** সামরিক খাতে ব্যয় বনাম স্কুলে; সেতু বনাম হাসপাতাল নির্মাণ; কৃষিজমিতে কারখানা বনাম ফসল।
+
+**উদাহরণ:** বাংলাদেশ পদ্মা সেতুতে বিশাল অর্থ ব্যয় করেছে। সুযোগ ব্যয় হলো সেই টাকায় আর কী তৈরি হতে পারত — তবে সরকার সেতুটিকেই বেশি মূল্যবান মনে করেছে।
+
+
+
+### Slide 9 · Division of labor and specialization
+*শ্রমবিভাগ ও বিশেষায়ণ*
+
+> - **Division of labor.** The work required to produce a good or service is separated into tasks performed by different workers instead of all tasks being performed by all workers.
+> - **Specialization.** When workers or firms focus on tasks for which they have an advantage within the overall production process (special skills, talents, and interests).
+
+- **শ্রমবিভাগ।** একটি পণ্য বা সেবা উৎপাদনের কাজকে বিভিন্ন কাজে ভাগ করে আলাদা আলাদা শ্রমিক দিয়ে করানো হয়, সব শ্রমিক সব কাজ করার বদলে।
+- **বিশেষায়ণ।** যখন শ্রমিক বা প্রতিষ্ঠান পুরো উৎপাদন প্রক্রিয়ার মধ্যে সেই কাজে মনোযোগ দেয় যেখানে তাদের সুবিধা আছে (বিশেষ দক্ষতা, প্রতিভা ও আগ্রহ)।
+
+**Tutor explains:** **Division of labor** is about **splitting the job**; **specialization** is about **who does which part** — the person (or firm) best at it. Together they raise output because workers become fast and skilled at one task and don't waste time switching. This idea comes from **Adam Smith** (his famous pin-factory example) — practice question 3 mentions "Smith's theory".
+
+**Example:** In a Gazipur garment factory, one line cuts fabric, one sews collars, one sews sleeves, one checks quality and one packs. Each worker specializes, and the factory makes thousands of shirts a day — far more than if each worker made whole shirts.
+
+**Exam tip:** "Distinguish": division of labor = **dividing the work into tasks**; specialization = **focusing on the tasks where you have an advantage**.
+
+**টিউটর বুঝিয়ে বলছেন:** **শ্রমবিভাগ** হলো **কাজকে ভাগ করা**; **বিশেষায়ণ** হলো **কোন অংশ কে করবে** — যে ব্যক্তি (বা প্রতিষ্ঠান) সেটায় সবচেয়ে ভালো। দুটো মিলে উৎপাদন বাড়ে, কারণ শ্রমিকরা একটি কাজে দ্রুত ও দক্ষ হয় এবং কাজ বদলাতে সময় নষ্ট হয় না। এই ধারণা **অ্যাডাম স্মিথ**-এর (তাঁর বিখ্যাত আলপিন কারখানার উদাহরণ) — অনুশীলনী প্রশ্ন ৩-এ "স্মিথের তত্ত্ব" উল্লেখ আছে।
+
+**উদাহরণ:** গাজীপুরের একটি পোশাক কারখানায় এক লাইন কাপড় কাটে, এক লাইন কলার সেলাই করে, এক লাইন হাতা, এক লাইন মান যাচাই করে, এক লাইন প্যাক করে। প্রত্যেক শ্রমিক বিশেষায়িত, তাই কারখানা দিনে হাজার হাজার শার্ট বানায় — প্রত্যেকে পুরো শার্ট বানালে যত হতো তার চেয়ে অনেক বেশি।
+
+**পরীক্ষার টিপস:** "পার্থক্য": শ্রমবিভাগ = **কাজকে ছোট ছোট কাজে ভাগ করা**; বিশেষায়ণ = **যে কাজে সুবিধা আছে তাতে মনোযোগ দেওয়া**।
+
+
+
+### Slide 10 · Economies of scale
+*বৃহদায়তনের সুবিধা*
+
+> Economies of Scale Economies of scale: As the level of production increases, the average cost of producing each individual unit declines. It is often most efficient to specialize and take advantage of economies of scale and then use their income to trade for other goods and services. When workers can use their income to purchase other goods and services the need, they do not need to know anything about electronics or sound systems to play music – they just download music on a device like a phone or a computer, and listen.
+
+বৃহদায়তনের সুবিধা — উৎপাদনের পরিমাণ বাড়লে প্রতিটি একক উৎপাদনের গড় খরচ কমে যায়। প্রায়ই সবচেয়ে দক্ষ উপায় হলো বিশেষায়িত হয়ে বৃহদায়তনের সুবিধা নেওয়া এবং তারপর সেই আয় দিয়ে অন্য পণ্য ও সেবা কেনা। শ্রমিকরা যখন তাদের আয় দিয়ে প্রয়োজনীয় অন্য পণ্য ও সেবা কিনতে পারেন, তখন গান শুনতে তাদের ইলেকট্রনিক্স বা সাউন্ড সিস্টেম সম্পর্কে কিছুই জানতে হয় না — তারা শুধু ফোন বা কম্পিউটারে গান ডাউনলোড করে শোনেন।
+
+**Tutor explains:** **Economies of scale:** produce more → **average cost per unit falls** (machines, rent and management are spread over more units, and bulk buying is cheaper). The second idea: because of specialization, you don't need to make everything yourself — you **earn income in your specialty and trade** it for what others make. You can enjoy music without knowing anything about electronics.
+
+**Example:** A bakery that makes 100 loaves a day pays 3,000 tk rent → 30 tk rent per loaf. If it makes 1,000 loaves with the same oven and shop → only 3 tk per loaf. That is economies of scale.
+
+**Exam tip:** Definition to write: "**Economies of scale** occur when the average cost of producing each unit declines as the level of production increases."
+
+**টিউটর বুঝিয়ে বলছেন:** **বৃহদায়তনের সুবিধা:** বেশি উৎপাদন → **প্রতি এককের গড় খরচ কমে** (মেশিন, ভাড়া ও ব্যবস্থাপনার খরচ বেশি এককে ভাগ হয়, আর একসাথে বেশি কিনলে সস্তা)। দ্বিতীয় ধারণা: বিশেষায়ণের কারণে সবকিছু নিজে বানাতে হয় না — নিজের **বিশেষ কাজে আয় করে বিনিময় করো** অন্যদের তৈরি জিনিসের সাথে। ইলেকট্রনিক্স না জেনেও গান উপভোগ করতে পারো।
+
+**উদাহরণ:** একটি বেকারি দিনে ১০০ পাউরুটি বানায়, ভাড়া ৩,০০০ টাকা → প্রতি পাউরুটিতে ৩০ টাকা ভাড়া। একই ওভেন ও দোকানে ১,০০০ পাউরুটি বানালে → প্রতিটিতে মাত্র ৩ টাকা। এটাই বৃহদায়তনের সুবিধা।
+
+**পরীক্ষার টিপস:** লেখার সংজ্ঞা: "**বৃহদায়তনের সুবিধা** তখন ঘটে যখন উৎপাদনের পরিমাণ বাড়ার সাথে প্রতি একক উৎপাদনের গড় খরচ কমে যায়।"
+
+
+
+### Slide 11 · Microeconomics and macroeconomics
+*ব্যষ্টিক ও সামষ্টিক অর্থনীতি*
+
+> Microeconomics and Macroeconomics Microeconomics focuses on the actions of individual agents within the economy, like households, workers, and businesses. In microeconomics households make decisions about how to spend their budgets. Individuals make decisions about whether to work, and how much money they should save for the future. Macroeconomics studies the economy as a whole. It focuses on goals such as growth in the standard of living, low unemployment, and low inflation. In macroeconomics governments use monetary policy and fiscal policy to achieve macroeconomic goals, such as lowering unemployment and increasing economic growth.
+
+ব্যষ্টিক ও সামষ্টিক অর্থনীতি — ব্যষ্টিক অর্থনীতি অর্থনীতির ভেতরের আলাদা আলাদা এজেন্ট, যেমন পরিবার, শ্রমিক ও ব্যবসার কার্যক্রমের উপর মনোযোগ দেয়। ব্যষ্টিক অর্থনীতিতে পরিবার সিদ্ধান্ত নেয় তাদের বাজেট কীভাবে খরচ করবে। ব্যক্তি সিদ্ধান্ত নেয় কাজ করবে কি না এবং ভবিষ্যতের জন্য কত টাকা সঞ্চয় করবে। সামষ্টিক অর্থনীতি পুরো অর্থনীতিকে একসাথে অধ্যয়ন করে। এটি জীবনযাত্রার মানের প্রবৃদ্ধি, কম বেকারত্ব ও কম মূল্যস্ফীতির মতো লক্ষ্যের উপর মনোযোগ দেয়। সামষ্টিক অর্থনীতিতে সরকার বেকারত্ব কমানো ও অর্থনৈতিক প্রবৃদ্ধি বাড়ানোর মতো সামষ্টিক লক্ষ্য অর্জনে মুদ্রানীতি ও রাজস্বনীতি ব্যবহার করে।
+
+**Tutor explains:** Think of a forest: **micro** looks at **individual trees** (one household, one worker, one firm); **macro** looks at **the whole forest** (the national economy). Micro questions: how does a family spend its budget? should I work or study? how much to save? Macro goals: **rising standard of living, low unemployment, low inflation** — pursued by governments through **monetary and fiscal policy**.
+
+**Example:** Micro: why the price of hilsa rose at Karwan Bazar this week. Macro: why Bangladesh's inflation rate is 9% this year.
+
+**Exam tip:** Q2.1.4 answer in a table: Micro — individual agents (households, workers, businesses) — budgets, work, saving. Macro — the economy as a whole — growth, unemployment, inflation; tools: monetary and fiscal policy.
+
+**টিউটর বুঝিয়ে বলছেন:** একটি বনের কথা ভাবো: **ব্যষ্টি** দেখে **আলাদা আলাদা গাছ** (একটি পরিবার, একজন শ্রমিক, একটি প্রতিষ্ঠান); **সামষ্টিক** দেখে **পুরো বন** (জাতীয় অর্থনীতি)। ব্যষ্টির প্রশ্ন: একটি পরিবার বাজেট কীভাবে খরচ করে? কাজ করব না পড়ব? কত সঞ্চয় করব? সামষ্টিক লক্ষ্য: **জীবনযাত্রার মান বৃদ্ধি, কম বেকারত্ব, কম মূল্যস্ফীতি** — সরকার **মুদ্রানীতি ও রাজস্বনীতির** মাধ্যমে এগুলো অর্জনের চেষ্টা করে।
+
+**উদাহরণ:** ব্যষ্টি: এই সপ্তাহে কারওয়ান বাজারে ইলিশের দাম কেন বাড়ল। সামষ্টিক: এই বছর বাংলাদেশের মূল্যস্ফীতি কেন ৯%।
+
+**পরীক্ষার টিপস:** প্রশ্ন ২.১.৪-এর উত্তর টেবিলে: ব্যষ্টি — আলাদা এজেন্ট (পরিবার, শ্রমিক, ব্যবসা) — বাজেট, কাজ, সঞ্চয়। সামষ্টিক — পুরো অর্থনীতি — প্রবৃদ্ধি, বেকারত্ব, মূল্যস্ফীতি; হাতিয়ার: মুদ্রানীতি ও রাজস্বনীতি।
+
+
+
+### Slide 12 · Monetary and fiscal policies
+*মুদ্রানীতি ও রাজস্বনীতি*
+
+> Monetary and Fiscal Policies Macroeconomic policy pursues its goals through monetary policy and fiscal policy: Monetary policy, which involves policies that affect bank lending interest rates, and financial capital markets, is conducted by a nation’s central bank. For the United States, this is the Federal Reserve. Fiscal policy, which involves government spending and taxes, is determined by a nation’s legislative body. For the United States, this is the Congress and the executive branch, which establishes a Federal Budget.
+
+মুদ্রানীতি ও রাজস্বনীতি — সামষ্টিক অর্থনৈতিক নীতি তার লক্ষ্য অর্জন করে মুদ্রানীতি ও রাজস্বনীতির মাধ্যমে: মুদ্রানীতি — যা ব্যাংকের ঋণের সুদের হার ও আর্থিক পুঁজিবাজারকে প্রভাবিত করে — দেশের কেন্দ্রীয় ব্যাংক পরিচালনা করে। যুক্তরাষ্ট্রে এটি ফেডারেল রিজার্ভ। রাজস্বনীতি — যা সরকারি ব্যয় ও কর নিয়ে — দেশের আইনসভা নির্ধারণ করে। যুক্তরাষ্ট্রে এটি কংগ্রেস ও নির্বাহী বিভাগ, যারা ফেডারেল বাজেট তৈরি করে।
+
+**Tutor explains:** Two tools of macroeconomic policy — learn **who** runs each and **what** it controls:
+
+- **Monetary policy** → run by the **central bank** (US: **Federal Reserve**) → controls **interest rates, bank lending, financial markets**.
+- **Fiscal policy** → set by the **legislature** (US: **Congress + executive branch**, through the **Federal Budget**) → controls **government spending and taxes**.
+
+Trick: **M**onetary = **M**oney and interest rates; **F**iscal = **F**ederal budget (spending and taxes).
+
+**Example:** In Bangladesh, **Bangladesh Bank** runs monetary policy (e.g. raising the policy interest rate to fight inflation); **Parliament** passes the yearly **national budget** (fiscal policy) with spending on roads and schools and taxes like VAT.
+
+**Exam tip:** MCQ trap: "Who conducts monetary policy in the US?" → the **Federal Reserve**, not Congress.
+
+**টিউটর বুঝিয়ে বলছেন:** সামষ্টিক নীতির দুটি হাতিয়ার — প্রতিটি **কে** চালায় আর **কী** নিয়ন্ত্রণ করে শেখো:
+
+- **মুদ্রানীতি** → **কেন্দ্রীয় ব্যাংক** চালায় (যুক্তরাষ্ট্রে **ফেডারেল রিজার্ভ**) → **সুদের হার, ব্যাংক ঋণ, আর্থিক বাজার** নিয়ন্ত্রণ করে।
+- **রাজস্বনীতি** → **আইনসভা** নির্ধারণ করে (যুক্তরাষ্ট্রে **কংগ্রেস + নির্বাহী বিভাগ**, **ফেডারেল বাজেটের** মাধ্যমে) → **সরকারি ব্যয় ও কর** নিয়ন্ত্রণ করে।
+
+কৌশল: **M**onetary = **M**oney ও সুদের হার; **F**iscal = **F**ederal বাজেট (ব্যয় ও কর)।
+
+**উদাহরণ:** বাংলাদেশে **বাংলাদেশ ব্যাংক** মুদ্রানীতি চালায় (যেমন মূল্যস্ফীতি কমাতে নীতি সুদহার বাড়ানো); **জাতীয় সংসদ** বার্ষিক **জাতীয় বাজেট** (রাজস্বনীতি) পাস করে — রাস্তা ও স্কুলে ব্যয় এবং ভ্যাটের মতো কর।
+
+**পরীক্ষার টিপস:** MCQ ফাঁদ: "যুক্তরাষ্ট্রে মুদ্রানীতি কে পরিচালনা করে?" → **ফেডারেল রিজার্ভ**, কংগ্রেস নয়।
+
+
+
+### Slide 13 · Practice question 1 — the family vacation
+*অনুশীলনী প্রশ্ন ১ — পারিবারিক ভ্রমণ*
+
+> Practice Question 1 Suppose that a family decides to spend all of their available money on a fancy vacation instead of purchasing a much needed new automobile. From an economist’s perspective, which of the following statements about this decision are likely to be true? A. The decision is rational in the sense that it reflects the family’s preference for vacations over new automobiles. B. The decision is irrational because anyone can see that choosing a vacation over a much needed automobile is an improper use of scarce resources. C. The decision must have been made haphazardly and is therefore irrational.
+
+অনুশীলনী প্রশ্ন ১ — ধরো একটি পরিবার খুব দরকারি নতুন গাড়ি কেনার বদলে হাতের সব টাকা একটি দামি ভ্রমণে খরচ করার সিদ্ধান্ত নিল। একজন অর্থনীতিবিদের দৃষ্টিতে এই সিদ্ধান্ত সম্পর্কে কোন বক্তব্য সম্ভবত সত্য? A. সিদ্ধান্তটি যৌক্তিক (rational), কারণ এটি নতুন গাড়ির চেয়ে ভ্রমণের প্রতি পরিবারের পছন্দ প্রকাশ করে। B. সিদ্ধান্তটি অযৌক্তিক, কারণ সবাই বোঝে দরকারি গাড়ির বদলে ভ্রমণ বেছে নেওয়া সীমিত সম্পদের অনুচিত ব্যবহার। C. সিদ্ধান্তটি এলোমেলোভাবে নেওয়া হয়েছে, তাই অযৌক্তিক।
+
+**Tutor explains:** **Answer: A.** Economists do not judge people's tastes. They assume people make choices that reflect **their own preferences** — so the family's choice is **rational for them**. The opportunity cost of the vacation is the new car they gave up.
+
+**টিউটর বুঝিয়ে বলছেন:** **উত্তর: A।** অর্থনীতিবিদরা মানুষের পছন্দের বিচার করেন না। তাঁরা ধরে নেন মানুষ **নিজেদের পছন্দ** অনুযায়ী সিদ্ধান্ত নেয় — তাই পরিবারের সিদ্ধান্তটি **তাদের জন্য যৌক্তিক**। ভ্রমণের সুযোগ ব্যয় হলো ছেড়ে দেওয়া নতুন গাড়িটি।
+
+
+
+### Slide 14 · Practice question 2 — traffic and opportunity cost
+*অনুশীলনী প্রশ্ন ২ — যানজট ও সুযোগ ব্যয়*
+
+> Practice Question 2 Take a stab at this question (you’ll need to do some multiplication). Every day, 500,000 drivers in Los Angeles incur an additional 30 minutes of traffic delays when commuting by car to their jobs. In Boston, the delays amount to 45 minutes for 200,000 drivers. If the price of time is $15/hour in Los Angeles and $25/hour in Boston, which city incurs the largest opportunity cost? A. Los Angeles B. Boston C. Neither
+
+অনুশীলনী প্রশ্ন ২ — প্রশ্নটি চেষ্টা করো (একটু গুণ করতে হবে)। প্রতিদিন লস অ্যাঞ্জেলেসে ৫,০০,০০০ চালক গাড়িতে কাজে যেতে বাড়তি ৩০ মিনিট যানজটে আটকে থাকেন। বোস্টনে ২,০০,০০০ চালকের দেরি ৪৫ মিনিট। লস অ্যাঞ্জেলেসে সময়ের দাম ঘণ্টায় $১৫ এবং বোস্টনে ঘণ্টায় $২৫ হলে কোন শহরের সুযোগ ব্যয় সবচেয়ে বেশি? A. লস অ্যাঞ্জেলেস B. বোস্টন C. কোনোটিই নয়
+
+**Tutor explains:** **Answer: C — neither (they are equal).** Work it out: opportunity cost = drivers × hours lost × value of an hour.
+
+- Los Angeles: 500,000 × 0.5 hour × $15 = **$3,750,000** a day.
+- Boston: 200,000 × 0.75 hour × $25 = **$3,750,000** a day.
+
+Both cities lose exactly the same value of time. The lesson: **time has a price** — time stuck in traffic is time not spent working or resting.
+
+**Example:** Dhaka's traffic jams cost millions of working hours every day — a huge opportunity cost for the economy.
+
+**টিউটর বুঝিয়ে বলছেন:** **উত্তর: C — কোনোটিই নয় (দুটো সমান)।** হিসাব করো: সুযোগ ব্যয় = চালকের সংখ্যা × নষ্ট ঘণ্টা × প্রতি ঘণ্টার মূল্য।
+
+- লস অ্যাঞ্জেলেস: ৫,০০,০০০ × ০.৫ ঘণ্টা × $১৫ = দিনে **$৩৭,৫০,০০০**।
+- বোস্টন: ২,০০,০০০ × ০.৭৫ ঘণ্টা × $২৫ = দিনে **$৩৭,৫০,০০০**।
+
+দুই শহরই ঠিক সমান মূল্যের সময় হারায়। শিক্ষা: **সময়েরও দাম আছে** — যানজটে কাটানো সময় কাজ বা বিশ্রামে কাটানো যায় না।
+
+**উদাহরণ:** ঢাকার যানজট প্রতিদিন লাখ লাখ কর্মঘণ্টা নষ্ট করে — অর্থনীতির জন্য বিশাল সুযোগ ব্যয়।
+
+
+
+### Slide 15 · Practice question 3 — Smith's specialization
+*অনুশীলনী প্রশ্ন ৩ — স্মিথের বিশেষায়ণ*
+
+> Practice Question 3 Smith’s theory of the division and specialization of labor implies that a worker skilled in engineering will: A. negatively affect economic output if employed in anything but engineering B. yield economic output that is suboptimal if she were employed in something other than engineering-type functions C. improve economic output
+
+অনুশীলনী প্রশ্ন ৩ — স্মিথের শ্রমবিভাগ ও বিশেষায়ণ তত্ত্ব অনুযায়ী প্রকৌশলে দক্ষ একজন কর্মী: A. প্রকৌশল ছাড়া অন্য কিছুতে নিয়োজিত হলে অর্থনৈতিক উৎপাদনে নেতিবাচক প্রভাব ফেলবেন B. প্রকৌশল-ধরনের কাজ ছাড়া অন্য কিছুতে নিয়োজিত হলে সর্বোত্তমের চেয়ে কম (suboptimal) উৎপাদন দেবেন C. অর্থনৈতিক উৎপাদন বাড়াবেন
+
+**Tutor explains:** **Answer: B.** If the engineer works outside her specialty she still produces something (so A, "negative effect", is too strong), but **less than her best** — "suboptimal". Output is highest when people work where they have an advantage. C is incomplete: it doesn't mention specialization at all.
+
+**টিউটর বুঝিয়ে বলছেন:** **উত্তর: B।** প্রকৌশলী নিজের বিশেষ ক্ষেত্রের বাইরে কাজ করলেও কিছু উৎপাদন করেন (তাই A, "নেতিবাচক প্রভাব", অতিরিক্ত কঠোর), কিন্তু **তাঁর সেরার চেয়ে কম** — "suboptimal"। মানুষ যেখানে সুবিধা আছে সেখানে কাজ করলে উৎপাদন সর্বোচ্চ হয়। C অসম্পূর্ণ: এতে বিশেষায়ণের কথাই নেই।
+
+
+
+### Slide 16 · Practice question 4 — two farms
+*অনুশীলনী প্রশ্ন ৪ — দুটি খামার*
+
+> Practice Question 4 An economy is composed entirely of two equally sized farms A and B producing both eggs and milk. Farm A is better at producing eggs than Farm B which is better at producing milk. Then in order to maximize output, Farm A should: A. Abandon the production of milk to fully specialize in the production of eggs and then trade with Farm B for milk. B. Produce both eggs and milk on its own and sell its excess eggs to B for additional milk. C. Reduce its production of eggs in order to commit resources to learn how to better produce milk.
+
+অনুশীলনী প্রশ্ন ৪ — একটি অর্থনীতি সমান আকারের দুটি খামার A ও B নিয়ে গঠিত, দুটোই ডিম ও দুধ উৎপাদন করে। খামার A ডিম উৎপাদনে খামার B-এর চেয়ে ভালো, আর খামার B দুধ উৎপাদনে ভালো। তাহলে মোট উৎপাদন সর্বোচ্চ করতে খামার A-র উচিত: A. দুধ উৎপাদন বাদ দিয়ে পুরোপুরি ডিমে বিশেষায়িত হওয়া এবং দুধের জন্য খামার B-র সাথে বিনিময় করা। B. নিজে ডিম ও দুধ দুটোই উৎপাদন করা এবং বাড়তি ডিম B-র কাছে বিক্রি করে বাড়তি দুধ নেওয়া। C. দুধ উৎপাদন ভালোভাবে শেখার জন্য সম্পদ দিতে ডিম উৎপাদন কমানো।
+
+**Tutor explains:** **Answer: A — specialize and trade.** Farm A focuses on eggs (its advantage), Farm B on milk, and they trade. Total eggs + milk in the economy is higher than if each farm did both. This is the same logic that makes countries trade — you will see it again in Module 3 as **comparative advantage**.
+
+**টিউটর বুঝিয়ে বলছেন:** **উত্তর: A — বিশেষায়িত হও ও বিনিময় করো।** খামার A ডিমে (তার সুবিধা), খামার B দুধে মনোযোগ দেয়, তারপর বিনিময় করে। প্রত্যেকে দুটোই করলে যত হতো, তার চেয়ে অর্থনীতিতে মোট ডিম + দুধ বেশি হয়। এই একই যুক্তিতে দেশগুলো বাণিজ্য করে — মডিউল ৩-এ **তুলনামূলক সুবিধা** হিসেবে আবার দেখবে।
+
+
+
+## Quick check — What is economics? · দ্রুত যাচাই — অর্থনীতি কী?
+
+1. You choose to attend a tutorial instead of working a paid shift. The lost wages are your…  
+   তুমি বেতনের শিফটে কাজের বদলে টিউটোরিয়ালে যেতে বেছে নিলে। হারানো মজুরি হলো তোমার…  
+   - A scarcity · দুষ্প্রাপ্যতা
+   - B opportunity cost · সুযোগ ব্যয়
+   - C economy of scale · বৃহদায়তনের সুবিধা
+   - D fiscal policy · রাজস্বনীতি
+   **Answer:** B — Opportunity cost is what must be given up to obtain something desired — here, the wages from the shift.  
+   সুযোগ ব্যয় হলো কাঙ্ক্ষিত কিছু পেতে যা ছেড়ে দিতে হয় — এখানে শিফটের মজুরি।
+
+2. Studying a country's unemployment rate and inflation is part of…  
+   একটি দেশের বেকারত্বের হার ও মূল্যস্ফীতি অধ্যয়ন হলো…  
+   - A microeconomics · ব্যষ্টিক অর্থনীতি
+   - B macroeconomics · সামষ্টিক অর্থনীতি
+   - C division of labor · শ্রমবিভাগ
+   - D a planned economy · পরিকল্পিত অর্থনীতি
+   **Answer:** B — Macroeconomics studies the economy as a whole: growth, unemployment and inflation.  
+   সামষ্টিক অর্থনীতি পুরো অর্থনীতি অধ্যয়ন করে: প্রবৃদ্ধি, বেকারত্ব ও মূল্যস্ফীতি।
+
+3. Changing interest rates through the central bank is…  
+   কেন্দ্রীয় ব্যাংকের মাধ্যমে সুদের হার পরিবর্তন হলো…  
+   - A fiscal policy · রাজস্বনীতি
+   - B monetary policy · মুদ্রানীতি
+   - C specialization · বিশেষায়ণ
+   - D microeconomics · ব্যষ্টিক অর্থনীতি
+   **Answer:** B — Monetary policy (interest rates, bank lending) is conducted by the central bank — the Federal Reserve in the US. Fiscal policy is spending and taxes.  
+   মুদ্রানীতি (সুদের হার, ব্যাংক ঋণ) কেন্দ্রীয় ব্যাংক পরিচালনা করে — যুক্তরাষ্ট্রে ফেডারেল রিজার্ভ। রাজস্বনীতি হলো ব্যয় ও কর।
+
+4. As a factory produces more, the average cost of each unit falls. This is called…  
+   একটি কারখানা বেশি উৎপাদন করলে প্রতি এককের গড় খরচ কমে। একে বলে…  
+   - A opportunity cost · সুযোগ ব্যয়
+   - B scarcity · দুষ্প্রাপ্যতা
+   - C economies of scale · বৃহদায়তনের সুবিধা
+   - D inflation · মূল্যস্ফীতি
+   **Answer:** C — Economies of scale: as the level of production increases, the average cost of producing each unit declines.  
+   বৃহদায়তনের সুবিধা: উৎপাদন বাড়লে প্রতি এককের গড় খরচ কমে।
+
+## Study question 2.2 — Describe the major economic systems
+**প্রধান অর্থনৈতিক ব্যবস্থাগুলো বর্ণনা করো**
+
+Slides 17–22. Sub-outcome on slide 18:
+
+- **2.2.1** Distinguish between **market, planned and mixed** economies.
+
+Every economy must answer **three questions**: (1) **What** to produce? (2) **How** and by whom? (3) **Who** gets it? The economic system is simply who answers these questions — the **market** (buyers and sellers), the **government**, or **both**.
+
+স্লাইড ১৭–২২। স্লাইড ১৮-এর উপ-ফলাফল:
+
+- **২.২.১** **বাজার, পরিকল্পিত ও মিশ্র** অর্থনীতির পার্থক্য করো।
+
+প্রতিটি অর্থনীতিকে **তিনটি প্রশ্নের** উত্তর দিতে হয়: (১) **কী** উৎপাদন হবে? (২) **কীভাবে** ও কে করবে? (৩) **কে** পাবে? অর্থনৈতিক ব্যবস্থা মানে হলো এই প্রশ্নগুলোর উত্তর কে দেয় — **বাজার** (ক্রেতা-বিক্রেতা), **সরকার**, নাকি **দুটোই**।
+
+### Slides 17–18 · Economic systems — learning outcomes
+*অর্থনৈতিক ব্যবস্থা — শিখন ফলাফল*
+
+> Economic Systems
+> Learning Outcomes: Economic Systems 2.2: Describe and differentiate between major different economic systems 2.2.1: Distinguish between market, planned, and mixed economies
+
+অর্থনৈতিক ব্যবস্থা
+
+শিখন ফলাফল: অর্থনৈতিক ব্যবস্থা। ২.২: প্রধান বিভিন্ন অর্থনৈতিক ব্যবস্থা বর্ণনা ও পার্থক্য করো। ২.২.১: বাজার, পরিকল্পিত ও মিশ্র অর্থনীতির পার্থক্য করো।
+
+**Tutor explains:** Section title. Only one sub-outcome, but it has **three** systems to compare. Prepare a three-column table: market | planned | mixed.
+
+**টিউটর বুঝিয়ে বলছেন:** অংশের শিরোনাম। উপ-ফলাফল একটি, কিন্তু তুলনা করতে হবে **তিনটি** ব্যবস্থা। তিন কলামের একটি টেবিল তৈরি রাখো: বাজার | পরিকল্পিত | মিশ্র।
+
+
+
+### Slide 19 · Market economies
+*বাজার অর্থনীতি*
+
+> Market Economies A market is any situation that brings together buyers and sellers of goods and services. In a market economy, decisions about that products are available and at what prices are determined through the interaction of supply and demand. A competitive market has a large numbers of buyers and sellers, so no one can control the market price.
+> A free market is one in which the government does not intervene in any way. A free and competitive market economy is the ideal type of market economy because what is supplied is exactly what consumers demand.
+
+বাজার অর্থনীতি — বাজার হলো এমন যেকোনো পরিস্থিতি যা পণ্য ও সেবার ক্রেতা ও বিক্রেতাদের একত্র করে। বাজার অর্থনীতিতে কোন পণ্য পাওয়া যাবে এবং কী দামে, তা চাহিদা ও যোগানের পারস্পরিক ক্রিয়ায় নির্ধারিত হয়। একটি প্রতিযোগিতামূলক বাজারে বিপুল সংখ্যক ক্রেতা ও বিক্রেতা থাকে, তাই কেউ একা বাজারদর নিয়ন্ত্রণ করতে পারে না। মুক্ত বাজার হলো যেখানে সরকার কোনোভাবেই হস্তক্ষেপ করে না। মুক্ত ও প্রতিযোগিতামূলক বাজার অর্থনীতি হলো আদর্শ ধরনের বাজার অর্থনীতি, কারণ যা যোগান দেওয়া হয় তা ঠিক ভোক্তারা যা চায় তাই।
+
+**Tutor explains:** Four key terms:
+
+- **Market** = any situation that brings **buyers and sellers** together (a bazaar, a website, a phone call).
+- **Market economy** = **supply and demand** decide what is available and at what price.
+- **Competitive market** = **many** buyers and sellers, so **no one can control the price**.
+- **Free market** = the **government does not intervene** at all.
+
+A free + competitive market is the **ideal** type, because what is supplied is exactly what consumers demand.
+
+**Example:** A vegetable bazaar with fifty sellers: if one seller asks 80 tk for potatoes while everyone else asks 50 tk, nobody buys from him — no single seller controls the price.
+
+**টিউটর বুঝিয়ে বলছেন:** চারটি মূল শব্দ:
+
+- **বাজার** = যেকোনো পরিস্থিতি যা **ক্রেতা ও বিক্রেতাকে** একত্র করে (হাট, ওয়েবসাইট, ফোন কল)।
+- **বাজার অর্থনীতি** = **চাহিদা ও যোগান** ঠিক করে কী পাওয়া যাবে ও কী দামে।
+- **প্রতিযোগিতামূলক বাজার** = **অনেক** ক্রেতা ও বিক্রেতা, তাই **কেউ দাম নিয়ন্ত্রণ করতে পারে না**।
+- **মুক্ত বাজার** = **সরকার কোনো হস্তক্ষেপ করে না**।
+
+মুক্ত + প্রতিযোগিতামূলক বাজার হলো **আদর্শ** ধরন, কারণ যা যোগান দেওয়া হয় তা ঠিক ভোক্তারা যা চায়।
+
+**উদাহরণ:** পঞ্চাশজন বিক্রেতার একটি সবজির বাজার: সবাই আলু ৫০ টাকায় বেচলে কেউ ৮০ টাকা চাইলে তার কাছ থেকে কেউ কিনবে না — কোনো একজন বিক্রেতা দাম নিয়ন্ত্রণ করতে পারে না।
+
+
+
+### Slide 20 · Planned economies
+*পরিকল্পিত অর্থনীতি*
+
+> Planned Economies In a planned or command economy economic effort is devoted to goals passed down from a ruler or ruling class, and resources and businesses are owned by the government. The government decides which goods and services will be provided and what prices will be charged for them. The government decides what methods of production will be used and how much workers will be paid. Some necessities like health care and education are provided free, as long as the state determines you need them.
+
+পরিকল্পিত অর্থনীতি — পরিকল্পিত বা কমান্ড অর্থনীতিতে অর্থনৈতিক প্রচেষ্টা শাসক বা শাসক শ্রেণির ঠিক করে দেওয়া লক্ষ্যে নিয়োজিত হয়, এবং সম্পদ ও ব্যবসা সরকারের মালিকানাধীন থাকে। সরকার ঠিক করে কোন পণ্য ও সেবা দেওয়া হবে এবং কী দাম নেওয়া হবে। সরকার ঠিক করে কোন উৎপাদন পদ্ধতি ব্যবহার হবে এবং শ্রমিকদের কত বেতন দেওয়া হবে। স্বাস্থ্যসেবা ও শিক্ষার মতো কিছু প্রয়োজনীয় জিনিস বিনামূল্যে দেওয়া হয়, যতক্ষণ রাষ্ট্র মনে করে তোমার সেগুলো দরকার।
+
+**Tutor explains:** In a **planned (command)** economy the **government owns resources and businesses** and decides **everything**: which goods, what prices, which production methods, and how much workers are paid. Goals come **from the top** (a ruler or ruling class). Some necessities (health care, education) are **free — if the state decides you need them**. The weakness: planners cannot know what millions of people really want, so there are often shortages of some goods and waste of others.
+
+**Example:** The former Soviet Union, Cuba and North Korea are classic examples of command economies.
+
+**টিউটর বুঝিয়ে বলছেন:** **পরিকল্পিত (কমান্ড)** অর্থনীতিতে **সম্পদ ও ব্যবসার মালিক সরকার** এবং সরকারই **সব** ঠিক করে: কোন পণ্য, কী দাম, কোন উৎপাদন পদ্ধতি, শ্রমিকদের কত বেতন। লক্ষ্য আসে **উপর থেকে** (শাসক বা শাসক শ্রেণি)। কিছু প্রয়োজনীয় জিনিস (স্বাস্থ্যসেবা, শিক্ষা) **বিনামূল্যে — যদি রাষ্ট্র মনে করে তোমার দরকার**। দুর্বলতা: পরিকল্পনাকারীরা লাখ লাখ মানুষের আসল চাওয়া জানতে পারেন না, তাই প্রায়ই কিছু পণ্যের ঘাটতি আর কিছুর অপচয় হয়।
+
+**উদাহরণ:** সাবেক সোভিয়েত ইউনিয়ন, কিউবা ও উত্তর কোরিয়া কমান্ড অর্থনীতির ক্লাসিক উদাহরণ।
+
+
+
+### Slide 21 · Economic systems and globalization
+*অর্থনৈতিক ব্যবস্থা ও বিশ্বায়ন*
+
+> Economic Systems and Globalization More countries’ economies are evolving into a mixed-economy which has characteristics of more than one system. The last few decades have seen globalization evolve as a result of growth in commercial and financial networks that cross national borders, making businesses and workers from different economies increasingly interdependent.
+
+অর্থনৈতিক ব্যবস্থা ও বিশ্বায়ন — আরও বেশি দেশের অর্থনীতি মিশ্র অর্থনীতিতে রূপ নিচ্ছে, যাতে একাধিক ব্যবস্থার বৈশিষ্ট্য থাকে। গত কয়েক দশকে জাতীয় সীমানা পেরিয়ে যাওয়া বাণিজ্যিক ও আর্থিক নেটওয়ার্কের বৃদ্ধির ফলে বিশ্বায়ন বিকশিত হয়েছে, যা বিভিন্ন অর্থনীতির ব্যবসা ও শ্রমিকদের ক্রমশ পরস্পর নির্ভরশীল করে তুলছে।
+
+**Tutor explains:** **Mixed economy** = characteristics of **more than one** system (markets + government). **Most countries today are mixed.** **Globalization** = commercial and financial networks crossing borders, making businesses and workers in different countries **interdependent**.
+
+**Example:** Bangladesh is a mixed economy: private companies (Square, Pran, BRAC Bank) compete in markets, while the government runs Bangladesh Railway, sets fuel prices and sells low-price goods through TCB.
+
+**টিউটর বুঝিয়ে বলছেন:** **মিশ্র অর্থনীতি** = **একাধিক** ব্যবস্থার বৈশিষ্ট্য (বাজার + সরকার)। **আজ বেশিরভাগ দেশই মিশ্র।** **বিশ্বায়ন** = সীমানা পেরিয়ে যাওয়া বাণিজ্যিক ও আর্থিক নেটওয়ার্ক, যা বিভিন্ন দেশের ব্যবসা ও শ্রমিকদের **পরস্পর নির্ভরশীল** করে।
+
+**উদাহরণ:** বাংলাদেশ একটি মিশ্র অর্থনীতি: বেসরকারি কোম্পানি (স্কয়ার, প্রাণ, ব্র্যাক ব্যাংক) বাজারে প্রতিযোগিতা করে, আর সরকার বাংলাদেশ রেলওয়ে চালায়, জ্বালানির দাম ঠিক করে এবং টিসিবির মাধ্যমে কম দামে পণ্য বিক্রি করে।
+
+
+
+### Slide 22 · Economic systems recap
+*অর্থনৈতিক ব্যবস্থার পুনরালোচনা*
+
+> Economic Systems Recap Economic systems determine:
+> 1. What goods and services should be produced to meet consumer needs? 2. How should they be produced, and who should produce them? 3. Who should receive goods and services?
+> Free market: these decisions are made by the collective decisions of the market. Producers and consumers make rational decisions about what will satisfy their self interest and maximize profits. Even in market economies governments will maintain the rule of law, create public goods and services such as roads and education, and step in when the market gets things wrong. In a planned economy the government makes most decisions about what will be produced and what the prices will be.
+
+অর্থনৈতিক ব্যবস্থার পুনরালোচনা — অর্থনৈতিক ব্যবস্থা নির্ধারণ করে:
+
+- ভোক্তার চাহিদা মেটাতে কোন পণ্য ও সেবা উৎপাদন করা উচিত? ২. সেগুলো কীভাবে উৎপাদন করা হবে এবং কে করবে? ৩. পণ্য ও সেবা কে পাবে?
+
+মুক্ত বাজার: এই সিদ্ধান্তগুলো বাজারের সম্মিলিত সিদ্ধান্তে হয়। উৎপাদক ও ভোক্তারা যৌক্তিক সিদ্ধান্ত নেয় যা তাদের নিজস্ব স্বার্থ পূরণ করে ও মুনাফা সর্বোচ্চ করে। বাজার অর্থনীতিতেও সরকার আইনের শাসন বজায় রাখে, রাস্তা ও শিক্ষার মতো জনপণ্য ও সেবা তৈরি করে, এবং বাজার ভুল করলে হস্তক্ষেপ করে। পরিকল্পিত অর্থনীতিতে সরকার কী উৎপাদন হবে ও দাম কত হবে সে বিষয়ে বেশিরভাগ সিদ্ধান্ত নেয়।
+
+**Tutor explains:** This recap slide **is the model answer** to Q2.2. Start with the **three questions** every system answers (what? how/who? for whom?). Then:
+
+- **Free market:** answered by the **collective decisions of the market** — producers and consumers act in **self-interest** and to maximize profit. Even here, government keeps the **rule of law**, provides **public goods** (roads, education) and **steps in when the market gets things wrong**.
+- **Planned:** the **government** makes most decisions about production and prices.
+- **Mixed:** a combination of both.
+
+**Exam tip:** Write the three economic questions first — examiners look for them. Then a 3-column table: who decides / who owns resources / example.
+
+**টিউটর বুঝিয়ে বলছেন:** এই পুনরালোচনা স্লাইডটিই প্রশ্ন ২.২-এর **নমুনা উত্তর**। শুরু করো **তিনটি প্রশ্ন** দিয়ে, যা প্রতিটি ব্যবস্থা উত্তর দেয় (কী? কীভাবে/কে? কার জন্য?)। তারপর:
+
+- **মুক্ত বাজার:** **বাজারের সম্মিলিত সিদ্ধান্তে** উত্তর আসে — উৎপাদক ও ভোক্তা **নিজ স্বার্থে** ও মুনাফা সর্বোচ্চ করতে কাজ করে। এখানেও সরকার **আইনের শাসন** রাখে, **জনপণ্য** (রাস্তা, শিক্ষা) দেয় এবং **বাজার ভুল করলে হস্তক্ষেপ করে**।
+- **পরিকল্পিত:** উৎপাদন ও দামের বেশিরভাগ সিদ্ধান্ত নেয় **সরকার**।
+- **মিশ্র:** দুটোর সমন্বয়।
+
+**পরীক্ষার টিপস:** প্রথমে তিনটি অর্থনৈতিক প্রশ্ন লেখো — পরীক্ষকরা এগুলো খোঁজেন। তারপর ৩ কলামের টেবিল: কে সিদ্ধান্ত নেয় / সম্পদের মালিক কে / উদাহরণ।
+
+
+
+## Quick check — Economic systems · দ্রুত যাচাই — অর্থনৈতিক ব্যবস্থা
+
+1. In which system does the government own resources and decide prices, production methods and wages?  
+   কোন ব্যবস্থায় সরকার সম্পদের মালিক এবং দাম, উৎপাদন পদ্ধতি ও বেতন ঠিক করে?  
+   - A Free market economy · মুক্ত বাজার অর্থনীতি
+   - B Planned (command) economy · পরিকল্পিত (কমান্ড) অর্থনীতি
+   - C Competitive market · প্রতিযোগিতামূলক বাজার
+   - D Mixed economy · মিশ্র অর্থনীতি
+   **Answer:** B — In a planned or command economy, resources and businesses are owned by the government, which decides goods, prices, methods and pay.  
+   পরিকল্পিত বা কমান্ড অর্থনীতিতে সম্পদ ও ব্যবসা সরকারের, এবং সরকারই পণ্য, দাম, পদ্ধতি ও বেতন ঠিক করে।
+
+2. A market with so many buyers and sellers that no one can control the price is a…  
+   এত বেশি ক্রেতা-বিক্রেতার বাজার যে কেউ দাম নিয়ন্ত্রণ করতে পারে না, তা হলো…  
+   - A competitive market · প্রতিযোগিতামূলক বাজার
+   - B command market · কমান্ড বাজার
+   - C monopoly · একচেটিয়া বাজার
+   - D planned market · পরিকল্পিত বাজার
+   **Answer:** A — Slide 19: a competitive market has large numbers of buyers and sellers, so no one can control the market price.  
+   স্লাইড ১৯: প্রতিযোগিতামূলক বাজারে বিপুল ক্রেতা-বিক্রেতা থাকে, তাই কেউ বাজারদর নিয়ন্ত্রণ করতে পারে না।
+
+3. Most countries' economies today are best described as…  
+   আজ বেশিরভাগ দেশের অর্থনীতিকে সবচেয়ে ভালোভাবে বলা যায়…  
+   - A pure free markets · বিশুদ্ধ মুক্ত বাজার
+   - B pure command economies · বিশুদ্ধ কমান্ড অর্থনীতি
+   - C mixed economies · মিশ্র অর্থনীতি
+   - D barter economies · বিনিময় অর্থনীতি
+   **Answer:** C — Slide 21: more countries' economies are evolving into mixed economies with characteristics of more than one system.  
+   স্লাইড ২১: আরও বেশি দেশের অর্থনীতি একাধিক ব্যবস্থার বৈশিষ্ট্যসহ মিশ্র অর্থনীতিতে রূপ নিচ্ছে।
+
+## Study question 2.3 — Explain the law of demand
+**চাহিদার বিধি ব্যাখ্যা করো**
+
+Slides 23–31. Sub-outcomes on slide 24:
+
+- **2.3.1** Explain the law of demand.
+- **2.3.2** Explain a demand curve.
+- **2.3.3** Explain the factors that change demand.
+
+The single most important distinction in this lesson: **change in quantity demanded** (caused only by the product's **own price** → a **movement along** the curve) vs **change in demand** (caused by **other factors** → the **whole curve shifts** left or right).
+
+স্লাইড ২৩–৩১। স্লাইড ২৪-এর উপ-ফলাফল:
+
+- **২.৩.১** চাহিদার বিধি ব্যাখ্যা করো।
+- **২.৩.২** চাহিদা রেখা ব্যাখ্যা করো।
+- **২.৩.৩** চাহিদা পরিবর্তনের কারণগুলো ব্যাখ্যা করো।
+
+এই পাঠের সবচেয়ে গুরুত্বপূর্ণ পার্থক্য: **চাহিদার পরিমাণের পরিবর্তন** (শুধু পণ্যের **নিজের দামের** কারণে → রেখার **উপর দিয়ে চলাচল**) বনাম **চাহিদার পরিবর্তন** (**অন্য কারণে** → **পুরো রেখা** ডানে বা বামে **সরে যায়**)।
+
+### Slides 23–24 · Demand — learning outcomes
+*চাহিদা — শিখন ফলাফল*
+
+> Demand
+> Learning Outcomes: Demand 2.3: Explain the law of demand 2.3.1: Explain the law of demand 2.3.2: Explain a demand curve 2.3.3: Explain the factors that change demand
+
+চাহিদা
+
+শিখন ফলাফল: চাহিদা। ২.৩: চাহিদার বিধি ব্যাখ্যা করো। ২.৩.১: চাহিদার বিধি ব্যাখ্যা করো। ২.৩.২: চাহিদা রেখা ব্যাখ্যা করো। ২.৩.৩: চাহিদা পরিবর্তনের কারণগুলো ব্যাখ্যা করো।
+
+**Tutor explains:** Section title and outcomes: the **law**, the **curve**, and the **factors**. A complete answer to Q2.3 covers all three, with a small graph.
+
+**টিউটর বুঝিয়ে বলছেন:** অংশের শিরোনাম ও ফলাফল: **বিধি**, **রেখা** ও **কারণসমূহ**। প্রশ্ন ২.৩-এর পূর্ণ উত্তরে তিনটিই থাকবে, একটি ছোট গ্রাফসহ।
+
+
+
+### Slide 25 · What is demand?
+*চাহিদা কী?*
+
+> What is Demand? Demand: the amount of some good or service consumers are willing and able to purchase at each price. Price: what a buyer pays for a unit of a specific good or service. Quantity demanded: total number of units purchased at a specific price. The law of demand states that, other things being equal, a higher price typically leads to a lower quantity demanded.
+
+চাহিদা কী? চাহিদা: প্রতিটি দামে ভোক্তারা কোনো পণ্য বা সেবার যে পরিমাণ কিনতে ইচ্ছুক ও সক্ষম। দাম: একটি নির্দিষ্ট পণ্য বা সেবার প্রতি এককের জন্য ক্রেতা যা পরিশোধ করে। চাহিদার পরিমাণ: একটি নির্দিষ্ট দামে কেনা মোট এককের সংখ্যা। চাহিদার বিধি বলে, অন্যান্য সব কিছু সমান থাকলে, বেশি দাম সাধারণত কম চাহিদার পরিমাণের দিকে নিয়ে যায়।
+
+**Tutor explains:** Notice **"willing AND able"** — wanting something is not demand unless you can also pay for it. **Demand** is the whole list of amounts at **each** price; **quantity demanded** is the amount at **one** price. **Law of demand:** other things equal, **higher price → lower quantity demanded** (and lower price → higher quantity demanded). The graph shows it with gasoline: at $1.00 people buy 800 million gallons; at $2.20 only 420 million.
+
+**Example:** When beef costs 650 tk/kg, a family buys 2 kg for a feast; at 800 tk/kg they buy 1 kg and add chicken instead.
+
+**Exam tip:** Law of demand — write it exactly: "**Other things being equal, a higher price typically leads to a lower quantity demanded.**"
+
+**টিউটর বুঝিয়ে বলছেন:** **"ইচ্ছুক এবং সক্ষম"** খেয়াল করো — কিছু চাইলেই চাহিদা হয় না, যদি না তুমি তার দামও দিতে পারো। **চাহিদা** হলো **প্রতিটি** দামে পরিমাণের পুরো তালিকা; **চাহিদার পরিমাণ** হলো **একটি** দামে পরিমাণ। **চাহিদার বিধি:** অন্য সব সমান থাকলে, **দাম বেশি → চাহিদার পরিমাণ কম** (আর দাম কম → চাহিদার পরিমাণ বেশি)। গ্রাফে পেট্রলের উদাহরণ: $১.০০ দামে মানুষ ৮০ কোটি গ্যালন কেনে; $২.২০-এ মাত্র ৪২ কোটি।
+
+**উদাহরণ:** গরুর মাংস ৬৫০ টাকা কেজি হলে একটি পরিবার দাওয়াতের জন্য ২ কেজি কেনে; ৮০০ টাকা হলে ১ কেজি কেনে আর বাকিটা মুরগি দিয়ে পূরণ করে।
+
+**পরীক্ষার টিপস:** চাহিদার বিধি হুবহু লেখো: "**অন্যান্য সব কিছু সমান থাকলে, বেশি দাম সাধারণত কম চাহিদার পরিমাণের দিকে নিয়ে যায়।**"
+
+
+
+### Slide 26 · Demand curve
+*চাহিদা রেখা*
+
+> Demand Curve A demand curve shows the relationship between quantity demanded and price in a given market on a graph (right).
+
+চাহিদা রেখা — চাহিদা রেখা একটি নির্দিষ্ট বাজারে চাহিদার পরিমাণ ও দামের সম্পর্ক গ্রাফে দেখায় (ডানে)।
+
+**Tutor explains:** How to read the graph: **price on the vertical (Y) axis**, **quantity on the horizontal (X) axis**. The demand curve **slopes downward** (top-left to bottom-right) because of the law of demand. Each dot is one price–quantity pair from the **demand schedule** (the table of prices and quantities).
+
+**Exam tip:** When drawing: label the axes "Price" and "Quantity", draw a line sloping **down**, and label it **D**.
+
+**টিউটর বুঝিয়ে বলছেন:** গ্রাফ পড়ার নিয়ম: **দাম উল্লম্ব (Y) অক্ষে**, **পরিমাণ অনুভূমিক (X) অক্ষে**। চাহিদার বিধির কারণে চাহিদা রেখা **নিচের দিকে নামে** (উপর-বাম থেকে নিচ-ডানে)। প্রতিটি বিন্দু **চাহিদা সূচির** (দাম ও পরিমাণের টেবিল) একটি দাম–পরিমাণ জোড়া।
+
+**পরীক্ষার টিপস:** আঁকার সময়: অক্ষের নাম দাও "Price" ও "Quantity", **নিচে নামা** রেখা আঁকো, এবং নাম দাও **D**।
+
+
+
+### Slide 27 · The ceteris paribus assumption
+*সেটেরিস প্যারিবাস অনুমান*
+
+> The Ceteris Paribus Assumption Ceteris Paribus: the assumption behind a demand curve or a supply curve is that no relevant economic factors, other than the product’s price, is changing. Any given demand or supply curve is based on the ceteris paribus assumption that all else is held equal: a supply curve and a demand curve is the relationship between two, and only two, variables when all other variables are held equal.
+
+সেটেরিস প্যারিবাস অনুমান — সেটেরিস প্যারিবাস: চাহিদা বা যোগান রেখার পেছনের অনুমান হলো, পণ্যের দাম ছাড়া অন্য কোনো প্রাসঙ্গিক অর্থনৈতিক উপাদান বদলাচ্ছে না। যেকোনো চাহিদা বা যোগান রেখা এই সেটেরিস প্যারিবাস অনুমানের উপর ভিত্তি করে যে বাকি সব সমান রাখা হয়েছে: যোগান রেখা ও চাহিদা রেখা হলো দুটি, এবং কেবল দুটি, চলকের সম্পর্ক, যখন অন্য সব চলক সমান রাখা হয়।
+
+**Tutor explains:** **Ceteris paribus** is Latin for **"all other things being equal"**. A demand (or supply) curve shows the link between **only two variables — price and quantity** — while **everything else is frozen** (incomes, tastes, other prices…). If one of those "other things" changes, the curve itself moves (next slides). This is why the law of demand says "other things being equal".
+
+**Exam tip:** MCQ: "Ceteris paribus means…" → "all other things held equal / constant".
+
+**টিউটর বুঝিয়ে বলছেন:** **সেটেরিস প্যারিবাস** ল্যাটিন শব্দ, অর্থ **"অন্য সব কিছু সমান থাকলে"**। চাহিদা (বা যোগান) রেখা **কেবল দুটি চলকের — দাম ও পরিমাণ** — সম্পর্ক দেখায়, **বাকি সব স্থির রেখে** (আয়, রুচি, অন্য দাম…)। ওই "অন্য কিছু"র একটি বদলালে রেখাটাই সরে যায় (পরের স্লাইড)। এ কারণেই চাহিদার বিধিতে বলা হয় "অন্যান্য সব সমান থাকলে"।
+
+**পরীক্ষার টিপস:** MCQ: "Ceteris paribus মানে…" → "অন্য সব কিছু সমান/স্থির রেখে"।
+
+
+
+### Slide 28 · Change in quantity demanded (movement along the curve)
+*চাহিদার পরিমাণের পরিবর্তন (রেখার উপর দিয়ে চলাচল)*
+
+> Change in Quantity Demanded A change in quantity demanded refers to a movement along the demand curve, which is caused only by price change.
+
+চাহিদার পরিমাণের পরিবর্তন — চাহিদার পরিমাণের পরিবর্তন বলতে চাহিদা রেখার উপর দিয়ে চলাচল বোঝায়, যা কেবল দামের পরিবর্তনের কারণে ঘটে।
+
+**Tutor explains:** When **only the product's own price** changes, buyers **slide along the same curve**: price up → move **up and left** (buy less); price down → move **down and right** (buy more). **The curve does not move.** Economists call this a **"change in quantity demanded"** — not a "change in demand".
+
+**Example:** Mobile data price drops from 100 tk to 70 tk for 5 GB, so students buy more packs. Same demand curve, different point — a change in quantity demanded.
+
+**টিউটর বুঝিয়ে বলছেন:** **শুধু পণ্যের নিজের দাম** বদলালে ক্রেতারা **একই রেখার উপর দিয়ে সরে**: দাম বাড়লে → **উপরে-বামে** (কম কেনে); দাম কমলে → **নিচে-ডানে** (বেশি কেনে)। **রেখা নড়ে না।** অর্থনীতিবিদরা একে বলেন **"চাহিদার পরিমাণের পরিবর্তন"** — "চাহিদার পরিবর্তন" নয়।
+
+**উদাহরণ:** ৫ জিবি মোবাইল ডেটার দাম ১০০ টাকা থেকে কমে ৭০ টাকা হলো, তাই শিক্ষার্থীরা বেশি প্যাক কেনে। একই চাহিদা রেখা, ভিন্ন বিন্দু — চাহিদার পরিমাণের পরিবর্তন।
+
+
+
+### Slide 29 · Change in demand (shift of the curve)
+*চাহিদার পরিবর্তন (রেখার স্থানান্তর)*
+
+> Change in Demand A change in demand refers to a shift in the entire demand curve. The entire demand curve will either shift right or shift left. Factors affecting demand: preferences, incomes, prices of substitutes and complements, expectations, population, etc.
+
+চাহিদার পরিবর্তন — চাহিদার পরিবর্তন বলতে পুরো চাহিদা রেখার স্থানান্তর বোঝায়। পুরো চাহিদা রেখা হয় ডানে না হয় বামে সরে যাবে। চাহিদাকে প্রভাবিত করার উপাদান: পছন্দ, আয়, বিকল্প ও পরিপূরক পণ্যের দাম, প্রত্যাশা, জনসংখ্যা ইত্যাদি।
+
+**Tutor explains:** When something **other than price** changes, the **whole curve shifts**: **right = demand increases** (more bought at every price); **left = demand decreases**. Learn the six shifters from the picture — **"PIPES"** helps: **P**references (tastes), **I**ncome, **P**rices of related goods (substitutes and complements), **E**xpectations, **S**ize/composition of population.
+
+**Example:** Before Eid, families have bonuses (income up) and expect to celebrate, so the whole demand curve for clothes shifts **right** — more shirts are bought at every price.
+
+**Exam tip:** The classic exam trap: "The price of tea rises, so people buy less tea." Is that a change in demand? **No** — it is a **change in quantity demanded** (movement along). "Coffee becomes cheaper, so people buy less tea at every price" → **change in demand** (shift left).
+
+**টিউটর বুঝিয়ে বলছেন:** **দাম ছাড়া অন্য কিছু** বদলালে **পুরো রেখা সরে যায়**: **ডানে = চাহিদা বাড়ে** (প্রতিটি দামে বেশি কেনা হয়); **বামে = চাহিদা কমে**। ছবি থেকে ছয়টি কারণ শেখো — **"PIPES"** সাহায্য করবে: **P**references (রুচি/পছন্দ), **I**ncome (আয়), **P**rices of related goods (বিকল্প ও পরিপূরকের দাম), **E**xpectations (প্রত্যাশা), **S**ize/গঠন (জনসংখ্যা)।
+
+**উদাহরণ:** ঈদের আগে পরিবারগুলো বোনাস পায় (আয় বাড়ে) এবং উৎসবের প্রত্যাশা থাকে, তাই পোশাকের পুরো চাহিদা রেখা **ডানে** সরে — প্রতিটি দামে বেশি শার্ট কেনা হয়।
+
+**পরীক্ষার টিপস:** ক্লাসিক পরীক্ষার ফাঁদ: "চায়ের দাম বাড়ায় মানুষ কম চা কেনে।" এটা কি চাহিদার পরিবর্তন? **না** — এটা **চাহিদার পরিমাণের পরিবর্তন** (রেখার উপর চলাচল)। "কফি সস্তা হওয়ায় মানুষ প্রতিটি দামে কম চা কেনে" → **চাহিদার পরিবর্তন** (বামে সরে)।
+
+
+
+### Slide 30 · Factors affecting demand (1)
+*চাহিদাকে প্রভাবিত করার উপাদান (১)*
+
+> Factors Affecting Demand Income: As income increases, the demand for normal goods increases. A product whose demand falls when income rises is called an inferior good. Preferences: From 1980 to 2012 the per-person consumption of chicken rose by 48 lbs a year while the per-person consumption of beef fell by 20 lbs. This change in consumption would shift the demand curve for chicken to the right and the demand curve for beef to the left. Composition of population: The percentage of the U.S. population that is elderly is projected to be 20% by the year 2030. That’s a 7.4% increase from 2000. A shift in population composition like this would lead to an increase of demand for nursing homes and hearing aids.
+
+চাহিদাকে প্রভাবিত করার উপাদান — আয়: আয় বাড়লে স্বাভাবিক পণ্যের চাহিদা বাড়ে। আয় বাড়লে যে পণ্যের চাহিদা কমে, তাকে নিকৃষ্ট পণ্য বলে। পছন্দ: ১৯৮০ থেকে ২০১২ সালের মধ্যে মাথাপিছু মুরগির মাংস খাওয়া বছরে ৪৮ পাউন্ড বেড়েছে, আর মাথাপিছু গরুর মাংস খাওয়া ২০ পাউন্ড কমেছে। এই পরিবর্তন মুরগির চাহিদা রেখাকে ডানে আর গরুর মাংসের চাহিদা রেখাকে বামে সরাবে। জনসংখ্যার গঠন: ২০৩০ সালের মধ্যে যুক্তরাষ্ট্রের জনসংখ্যার ২০% বয়স্ক হবে বলে প্রক্ষেপণ করা হয়েছে, যা ২০০০ সালের তুলনায় ৭.৪% বেশি। জনসংখ্যার গঠনের এমন পরিবর্তন নার্সিং হোম ও শ্রবণযন্ত্রের চাহিদা বাড়াবে।
+
+**Tutor explains:** Three factors explained with the slide's own examples:
+
+- **Income:** income ↑ → demand for **normal goods** ↑. An **inferior good** is the opposite: income ↑ → its demand ↓ (people switch to better goods).
+- **Preferences (tastes):** US chicken consumption up 48 lbs/person, beef down 20 lbs → chicken demand shifts **right**, beef demand shifts **left**.
+- **Composition of population:** US elderly share projected to reach **20% by 2030** → more demand for **nursing homes and hearing aids**.
+
+**Example:** In Bangladesh, when a family's income rises, they buy less coarse rice and more fine rice (coarse rice = inferior good) and more meat and fish (normal goods).
+
+**টিউটর বুঝিয়ে বলছেন:** স্লাইডের নিজস্ব উদাহরণসহ তিনটি উপাদান:
+
+- **আয়:** আয় ↑ → **স্বাভাবিক পণ্যের** চাহিদা ↑। **নিকৃষ্ট পণ্য** উল্টো: আয় ↑ → তার চাহিদা ↓ (মানুষ ভালো পণ্যে চলে যায়)।
+- **পছন্দ (রুচি):** যুক্তরাষ্ট্রে মাথাপিছু মুরগি খাওয়া ৪৮ পাউন্ড বেড়েছে, গরু ২০ পাউন্ড কমেছে → মুরগির চাহিদা **ডানে**, গরুর চাহিদা **বামে**।
+- **জনসংখ্যার গঠন:** যুক্তরাষ্ট্রে বয়স্কদের অংশ **২০৩০-এর মধ্যে ২০%** হবে → **নার্সিং হোম ও শ্রবণযন্ত্রের** চাহিদা বাড়বে।
+
+**উদাহরণ:** বাংলাদেশে একটি পরিবারের আয় বাড়লে তারা মোটা চাল কম ও সরু চাল বেশি কেনে (মোটা চাল = নিকৃষ্ট পণ্য), আর মাছ-মাংস বেশি কেনে (স্বাভাবিক পণ্য)।
+
+
+
+### Slide 31 · Factors affecting demand (2)
+*চাহিদাকে প্রভাবিত করার উপাদান (২)*
+
+> More Factors Affecting Demand Changes in price of related goods: The demand for a product can be affected by changes in the prices of related goods like substitutes and complements. • A substitute is a good or service that can used in place of another good or service like electronic books and print books. If the price for a substitute decreases, demand for that item would increase and would lower demand for the item with the relatively higher price. • Complements are goods that are often used together like breakfast cereal and milk. A lower price for breakfast cereal would increase demand for that good and likely increase demand for milk, its complement. Changes in expectations about future prices or other factors that affect demand: if the price of an item is expected to rise in the future, demand may be increased now as people buy more to stock up.
+
+আরও উপাদান — সম্পর্কিত পণ্যের দামের পরিবর্তন: একটি পণ্যের চাহিদা বিকল্প ও পরিপূরকের মতো সম্পর্কিত পণ্যের দামের পরিবর্তনে প্রভাবিত হতে পারে। • বিকল্প হলো এমন পণ্য বা সেবা যা অন্য পণ্য বা সেবার জায়গায় ব্যবহার করা যায়, যেমন ইলেকট্রনিক বই ও ছাপা বই। কোনো বিকল্পের দাম কমলে সেই পণ্যের চাহিদা বাড়বে এবং তুলনামূলক বেশি দামের পণ্যের চাহিদা কমবে। • পরিপূরক হলো এমন পণ্য যা প্রায়ই একসাথে ব্যবহৃত হয়, যেমন ব্রেকফাস্ট সিরিয়াল ও দুধ। সিরিয়ালের দাম কমলে সেটির চাহিদা বাড়বে এবং সম্ভবত তার পরিপূরক দুধের চাহিদাও বাড়বে। ভবিষ্যতের দাম বা চাহিদাকে প্রভাবিত করে এমন অন্যান্য বিষয়ে প্রত্যাশার পরিবর্তন: কোনো পণ্যের দাম ভবিষ্যতে বাড়বে বলে আশা করা হলে মানুষ মজুত করতে এখনই বেশি কিনতে পারে, ফলে চাহিদা বাড়ে।
+
+**Tutor explains:**
+- **Substitutes** (used instead of each other — e-books/print books): if the **substitute gets cheaper**, demand for **our** product **falls**.
+- **Complements** (used together — cereal/milk): if cereal gets **cheaper**, people buy more cereal **and more milk**. So: complement price ↓ → our demand ↑.
+- **Expectations:** if people **expect prices to rise**, they **buy more now** (stock up) → demand ↑ today.
+
+**Example:** Substitutes: tea and coffee; Pathao and Uber. Complements: phone and SIM card; rice and lentils. Expectations: when news says the soybean oil price will rise next month, people buy extra bottles today.
+
+**Exam tip:** Memorize the direction table: substitute price ↓ → our demand ↓; substitute price ↑ → our demand ↑; complement price ↓ → our demand ↑; complement price ↑ → our demand ↓.
+
+**টিউটর বুঝিয়ে বলছেন:**
+- **বিকল্প** (একটির বদলে আরেকটি — ই-বুক/ছাপা বই): **বিকল্প সস্তা হলে** **আমাদের** পণ্যের চাহিদা **কমে**।
+- **পরিপূরক** (একসাথে ব্যবহৃত — সিরিয়াল/দুধ): সিরিয়াল **সস্তা হলে** মানুষ বেশি সিরিয়াল **এবং বেশি দুধ** কেনে। তাই: পরিপূরকের দাম ↓ → আমাদের চাহিদা ↑।
+- **প্রত্যাশা:** মানুষ **দাম বাড়বে আশা করলে** **এখনই বেশি কেনে** (মজুত করে) → আজকের চাহিদা ↑।
+
+**উদাহরণ:** বিকল্প: চা ও কফি; পাঠাও ও উবার। পরিপূরক: ফোন ও সিম কার্ড; চাল ও ডাল। প্রত্যাশা: আগামী মাসে সয়াবিন তেলের দাম বাড়বে খবরে মানুষ আজই বাড়তি বোতল কেনে।
+
+**পরীক্ষার টিপস:** দিকের টেবিল মুখস্থ করো: বিকল্পের দাম ↓ → আমাদের চাহিদা ↓; বিকল্পের দাম ↑ → আমাদের চাহিদা ↑; পরিপূরকের দাম ↓ → আমাদের চাহিদা ↑; পরিপূরকের দাম ↑ → আমাদের চাহিদা ↓।
+
+
+
+## Quick check — Demand · দ্রুত যাচাই — চাহিদা
+
+1. The price of mangoes falls and people buy more mangoes. On the graph this is…  
+   আমের দাম কমায় মানুষ বেশি আম কেনে। গ্রাফে এটি হলো…  
+   - A a shift of the demand curve to the right · চাহিদা রেখার ডানে স্থানান্তর
+   - B a movement along the demand curve · চাহিদা রেখার উপর দিয়ে চলাচল
+   - C a shift of the demand curve to the left · চাহিদা রেখার বামে স্থানান্তর
+   - D a shift of the supply curve · যোগান রেখার স্থানান্তর
+   **Answer:** B — A change in the product's own price causes a change in quantity demanded — a movement along the same curve.  
+   পণ্যের নিজের দামের পরিবর্তনে চাহিদার পরিমাণ বদলায় — একই রেখার উপর দিয়ে চলাচল।
+
+2. E-books become much cheaper. What happens to the demand for print books?  
+   ই-বুক অনেক সস্তা হলো। ছাপা বইয়ের চাহিদার কী হবে?  
+   - A It shifts right · ডানে সরবে
+   - B It shifts left · বামে সরবে
+   - C It does not change · বদলাবে না
+   - D Quantity demanded rises along the curve · রেখা বরাবর চাহিদার পরিমাণ বাড়বে
+   **Answer:** B — E-books are a substitute. When a substitute's price falls, demand for the other good decreases (shifts left).  
+   ই-বুক একটি বিকল্প। বিকল্পের দাম কমলে অন্য পণ্যের চাহিদা কমে (বামে সরে)।
+
+3. A good whose demand FALLS when income rises is called…  
+   আয় বাড়লে যে পণ্যের চাহিদা কমে তাকে বলে…  
+   - A a normal good · স্বাভাবিক পণ্য
+   - B a complement · পরিপূরক
+   - C an inferior good · নিকৃষ্ট পণ্য
+   - D a substitute · বিকল্প
+   **Answer:** C — Slide 30: a product whose demand falls when income rises is called an inferior good.  
+   স্লাইড ৩০: আয় বাড়লে যে পণ্যের চাহিদা কমে তাকে নিকৃষ্ট পণ্য বলে।
+
+## Study question 2.4 — Explain the law of supply
+**যোগানের বিধি ব্যাখ্যা করো**
+
+Slides 32–39. Sub-outcomes on slide 33:
+
+- **2.4.1** Explain the law of supply.
+- **2.4.2** Explain a supply curve.
+- **2.4.3** Explain the factors that change supply.
+
+Supply is the **mirror image** of demand: the curve slopes **upward**, because sellers want to sell more when the price is higher. The same movement-vs-shift rule applies.
+
+স্লাইড ৩২–৩৯। স্লাইড ৩৩-এর উপ-ফলাফল:
+
+- **২.৪.১** যোগানের বিধি ব্যাখ্যা করো।
+- **২.৪.২** যোগান রেখা ব্যাখ্যা করো।
+- **২.৪.৩** যোগান পরিবর্তনের কারণগুলো ব্যাখ্যা করো।
+
+যোগান হলো চাহিদার **আয়নায় প্রতিবিম্ব**: রেখা **উপরের দিকে** ওঠে, কারণ দাম বেশি হলে বিক্রেতারা বেশি বেচতে চায়। চলাচল-বনাম-স্থানান্তরের নিয়ম এখানেও খাটে।
+
+### Slides 32–33 · Supply — learning outcomes
+*যোগান — শিখন ফলাফল*
+
+> Supply
+> Learning Outcomes: Supply 2.4: Explain the law of supply 2.4.1: Explain the law of supply 2.4.2: Explain a supply curve 2.4.3: Explain the factors that change supply
+
+যোগান
+
+শিখন ফলাফল: যোগান। ২.৪: যোগানের বিধি ব্যাখ্যা করো। ২.৪.১: যোগানের বিধি ব্যাখ্যা করো। ২.৪.২: যোগান রেখা ব্যাখ্যা করো। ২.৪.৩: যোগান পরিবর্তনের কারণগুলো ব্যাখ্যা করো।
+
+**Tutor explains:** Same structure as demand: **law, curve, factors**. If you understood lesson 2.3, this lesson is quick.
+
+**টিউটর বুঝিয়ে বলছেন:** চাহিদার মতোই কাঠামো: **বিধি, রেখা, কারণ**। পাঠ ২.৩ বুঝে থাকলে এই পাঠ দ্রুত শেষ হবে।
+
+
+
+### Slide 34 · What is supply?
+*যোগান কী?*
+
+> - The **law of supply** says that a higher price typically leads to a higher quantity supplied.
+> - A **supply curve** (right) shows the relationship between quantity supplied and price on a graph.
+
+- **যোগানের বিধি** বলে, বেশি দাম সাধারণত বেশি যোগানের পরিমাণের দিকে নিয়ে যায়।
+- **যোগান রেখা** (ডানে) গ্রাফে যোগানের পরিমাণ ও দামের সম্পর্ক দেখায়।
+
+**Tutor explains:** **Law of supply:** **higher price → higher quantity supplied.** Why? A higher price means **more profit per unit**, so existing producers produce more and new producers join. The supply curve therefore **slopes upward** (bottom-left to top-right) — the opposite of demand.
+
+**Example:** When the price of eggs rises to 15 tk each, poultry farmers keep more hens and sell more eggs; some new farms open.
+
+**টিউটর বুঝিয়ে বলছেন:** **যোগানের বিধি:** **দাম বেশি → যোগানের পরিমাণ বেশি।** কেন? বেশি দাম মানে **প্রতি এককে বেশি মুনাফা**, তাই বর্তমান উৎপাদকরা বেশি উৎপাদন করে এবং নতুন উৎপাদকরা যোগ দেয়। তাই যোগান রেখা **উপরের দিকে ওঠে** (নিচ-বাম থেকে উপর-ডানে) — চাহিদার উল্টো।
+
+**উদাহরণ:** ডিমের দাম ১৫ টাকা হলে খামারিরা বেশি মুরগি রাখেন ও বেশি ডিম বেচেন; কিছু নতুন খামারও খোলে।
+
+
+
+### Slide 35 · Supply curve
+*যোগান রেখা*
+
+> Supply Curve When economists talk about supply, they mean the amount of some good or service a producer is willing to supply at each price. A rise in price almost always results in an increase in the quantity supplied of that good or service, while a fall in price would result in a reduction of quantity supplied. When economists refer to quantity supplied, they mean only a certain point on the supply curve, or one quantity on the supply schedule.
+
+যোগান রেখা — অর্থনীতিবিদরা যোগান বলতে বোঝান প্রতিটি দামে একজন উৎপাদক কোনো পণ্য বা সেবার যে পরিমাণ যোগান দিতে ইচ্ছুক। দাম বাড়লে প্রায় সবসময় সেই পণ্য বা সেবার যোগানের পরিমাণ বাড়ে, আর দাম কমলে যোগানের পরিমাণ কমে। অর্থনীতিবিদরা যোগানের পরিমাণ বলতে যোগান রেখার শুধু একটি নির্দিষ্ট বিন্দু, অথবা যোগান সূচির একটি পরিমাণ বোঝান।
+
+**Tutor explains:** Same pair of words as demand: **supply** = the whole relationship (amount willing to supply at **each** price); **quantity supplied** = **one point** on the curve / one row of the **supply schedule**. Price rise → quantity supplied rises (move **up** the curve); price fall → quantity supplied falls.
+
+**Exam tip:** "Supply" vs "quantity supplied" — the same trap as demand. Price change = change in **quantity supplied**.
+
+**টিউটর বুঝিয়ে বলছেন:** চাহিদার মতোই শব্দজোড়া: **যোগান** = পুরো সম্পর্ক (**প্রতিটি** দামে যোগান দিতে ইচ্ছুক পরিমাণ); **যোগানের পরিমাণ** = রেখার **একটি বিন্দু** / **যোগান সূচির** একটি সারি। দাম বাড়লে → যোগানের পরিমাণ বাড়ে (রেখা বেয়ে **উপরে**); দাম কমলে → কমে।
+
+**পরীক্ষার টিপস:** "যোগান" বনাম "যোগানের পরিমাণ" — চাহিদার মতোই ফাঁদ। দামের পরিবর্তন = **যোগানের পরিমাণের** পরিবর্তন।
+
+
+
+### Slide 36 · Supply curve example (graph)
+*যোগান রেখার উদাহরণ (গ্রাফ)*
+
+> Supply Curve Example
+
+যোগান রেখার উদাহরণ
+
+**Tutor explains:** Read the graph point by point: at **$1.00** suppliers offer **500** million gallons; at **$2.20** they offer **720** million. As price rises, quantity supplied rises — the law of supply in action. Compare it with the demand graph on slide 25: the demand line went **down**, this one goes **up**.
+
+**টিউটর বুঝিয়ে বলছেন:** গ্রাফটি বিন্দু ধরে পড়ো: **$১.০০**-এ সরবরাহকারীরা **৫০ কোটি** গ্যালন দেয়; **$২.২০**-এ **৭২ কোটি**। দাম বাড়লে যোগানের পরিমাণ বাড়ে — যোগানের বিধি কাজ করছে। স্লাইড ২৫-এর চাহিদা গ্রাফের সাথে তুলনা করো: চাহিদার রেখা **নামছিল**, এটি **উঠছে**।
+
+
+
+### Slide 37 · Supply schedule example (table)
+*যোগান সূচির উদাহরণ (টেবিল)*
+
+> Price (per gallon)Quantity supplied (millions of gallons)
+> 
+> $1.00500
+> $1.20550
+> $1.40600
+> $1.60640
+> $1.80680
+> $2.00700
+> $2.20720
+
+যোগান সূচি — দাম (প্রতি গ্যালন) ও যোগানের পরিমাণ (মিলিয়ন গ্যালন): $১.০০ → ৫০০; $১.২০ → ৫৫০; $১.৪০ → ৬০০; $১.৬০ → ৬৪০; $১.৮০ → ৬৮০; $২.০০ → ৭০০; $২.২০ → ৭২০।
+
+**Tutor explains:** A **supply schedule** is the same information as the supply curve, written as a **table**. Each row is one "quantity supplied". The numbers only go up as price goes up — that is the law of supply. Keep these numbers: on slide 42 they meet the demand numbers at **$1.40 / 600**.
+
+**টিউটর বুঝিয়ে বলছেন:** **যোগান সূচি** হলো যোগান রেখার একই তথ্য, **টেবিল** আকারে। প্রতিটি সারি একটি "যোগানের পরিমাণ"। দাম বাড়ার সাথে সংখ্যাগুলো কেবল বাড়ে — এটাই যোগানের বিধি। সংখ্যাগুলো মনে রাখো: স্লাইড ৪২-এ এগুলো চাহিদার সংখ্যার সাথে **$১.৪০ / ৬০০**-তে মিলবে।
+
+
+
+### Slide 38 · Factors affecting supply
+*যোগানকে প্রভাবিত করার উপাদান*
+
+> Factors Affecting Supply A shift in supply means a change in the quantity supplied at every price. Cost of inputs: when the cost of labor, materials, machinery, etc. decreases, it makes it less expensive for firms to produce outputs, so their profits increase, and they will be incentivized to produce more outputs. If the cost of inputs increases, their profits will go down and they will be incentivized to produce less outputs. Other factors can affect the cost of production, including: • Weather or natural conditions • New technologies for production • Government policies (taxes, subsidies)
+
+যোগানকে প্রভাবিত করার উপাদান — যোগানের স্থানান্তর মানে প্রতিটি দামে যোগানের পরিমাণের পরিবর্তন। উপকরণের খরচ: শ্রম, উপকরণ, যন্ত্রপাতি ইত্যাদির খরচ কমলে প্রতিষ্ঠানের উৎপাদন সস্তা হয়, মুনাফা বাড়ে, এবং তারা বেশি উৎপাদনে উৎসাহিত হয়। উপকরণের খরচ বাড়লে মুনাফা কমে এবং তারা কম উৎপাদনে উৎসাহিত হয়। উৎপাদন খরচকে প্রভাবিত করে এমন অন্য উপাদান: • আবহাওয়া বা প্রাকৃতিক অবস্থা • উৎপাদনের নতুন প্রযুক্তি • সরকারি নীতি (কর, ভর্তুকি)
+
+**Tutor explains:** A **shift in supply** = a change in quantity supplied **at every price** (the whole curve moves). The main shifter is the **cost of inputs**: inputs cheaper → more profit → **supply ↑ (shift right)**; inputs dearer → **supply ↓ (shift left)**. Other shifters: **weather/natural conditions, new technology, government policy (taxes, subsidies)**.
+
+**Example:** A flood destroys rice fields (bad natural conditions) → rice supply shifts left. The government gives a fertilizer subsidy → farmers' costs fall → supply shifts right. A new machine harvests faster (technology) → supply shifts right.
+
+**টিউটর বুঝিয়ে বলছেন:** **যোগানের স্থানান্তর** = **প্রতিটি দামে** যোগানের পরিমাণের পরিবর্তন (পুরো রেখা সরে)। প্রধান কারণ **উপকরণের খরচ**: উপকরণ সস্তা → বেশি মুনাফা → **যোগান ↑ (ডানে সরে)**; উপকরণ দামি → **যোগান ↓ (বামে সরে)**। অন্য কারণ: **আবহাওয়া/প্রাকৃতিক অবস্থা, নতুন প্রযুক্তি, সরকারি নীতি (কর, ভর্তুকি)**।
+
+**উদাহরণ:** বন্যায় ধানক্ষেত নষ্ট (খারাপ প্রাকৃতিক অবস্থা) → চালের যোগান বামে সরে। সরকার সারে ভর্তুকি দিল → কৃষকের খরচ কমল → যোগান ডানে সরে। নতুন মেশিন দ্রুত ধান কাটে (প্রযুক্তি) → যোগান ডানে সরে।
+
+
+
+### Slide 39 · Shifts in supply (graphs)
+*যোগানের স্থানান্তর (গ্রাফ)*
+
+> Shifts in Supply
+
+যোগানের স্থানান্তর
+
+**Tutor explains:** Learn the two lists as pairs of opposites:
+
+- Good weather ↔ poor weather
+- Input prices fall ↔ input prices rise
+- Better technology ↔ decline in technology (rare)
+- Lower taxes / cheaper regulations ↔ higher taxes / costlier regulations
+
+The first of each pair shifts supply **right** (increase); the second shifts it **left** (decrease).
+
+**Exam tip:** In an answer, draw two supply curves S0 and S1 with an arrow, and write the cause beside the arrow.
+
+**টিউটর বুঝিয়ে বলছেন:** দুটি তালিকা বিপরীত জোড়া হিসেবে শেখো:
+
+- ভালো আবহাওয়া ↔ খারাপ আবহাওয়া
+- উপকরণের দাম কমে ↔ উপকরণের দাম বাড়ে
+- উন্নত প্রযুক্তি ↔ প্রযুক্তির অবনতি (বিরল)
+- কম কর / সস্তা নিয়ম ↔ বেশি কর / ব্যয়বহুল নিয়ম
+
+প্রতিটি জোড়ার প্রথমটি যোগানকে **ডানে** (বৃদ্ধি), দ্বিতীয়টি **বামে** (হ্রাস) সরায়।
+
+**পরীক্ষার টিপস:** উত্তরে দুটি যোগান রেখা S0 ও S1 আঁকো, একটি তীরসহ, এবং তীরের পাশে কারণটি লেখো।
+
+
+
+## Quick check — Supply · দ্রুত যাচাই — যোগান
+
+1. According to the law of supply, a higher price typically leads to…  
+   যোগানের বিধি অনুযায়ী বেশি দাম সাধারণত নিয়ে যায়…  
+   - A a lower quantity supplied · কম যোগানের পরিমাণে
+   - B a higher quantity supplied · বেশি যোগানের পরিমাণে
+   - C a lower demand · কম চাহিদায়
+   - D no change · কোনো পরিবর্তন নয়
+   **Answer:** B — Slide 34: the law of supply says a higher price typically leads to a higher quantity supplied.  
+   স্লাইড ৩৪: যোগানের বিধি বলে বেশি দাম সাধারণত বেশি যোগানের পরিমাণ আনে।
+
+2. The cost of cotton and wages rises sharply for garment makers. The supply curve of shirts will…  
+   পোশাক উৎপাদকদের তুলা ও মজুরির খরচ অনেক বাড়ল। শার্টের যোগান রেখা…  
+   - A shift right · ডানে সরবে
+   - B shift left · বামে সরবে
+   - C stay the same; quantity supplied moves along it · একই থাকবে; রেখা বরাবর পরিমাণ বদলাবে
+   - D become vertical · উল্লম্ব হবে
+   **Answer:** B — A rise in input prices reduces profit, so firms produce less at every price — supply decreases (shifts left).  
+   উপকরণের দাম বাড়লে মুনাফা কমে, তাই প্রতিটি দামে কম উৎপাদন হয় — যোগান কমে (বামে সরে)।
+
+3. Which of these would shift supply to the RIGHT?  
+   কোনটি যোগানকে ডানে সরাবে?  
+   - A Higher product taxes · বেশি পণ্য কর
+   - B Poor weather · খারাপ আবহাওয়া
+   - C Improved technology · উন্নত প্রযুক্তি
+   - D A rise in input prices · উপকরণের দাম বৃদ্ধি
+   **Answer:** C — Improved technology lowers production costs and increases supply. The other three decrease supply.  
+   উন্নত প্রযুক্তি উৎপাদন খরচ কমায় ও যোগান বাড়ায়। বাকি তিনটি যোগান কমায়।
+
+## Study question 2.5 — Explain market equilibrium, surplus and shortage
+**বাজার ভারসাম্য, উদ্বৃত্ত ও ঘাটতি**
+
+Slides 40–46. Sub-outcomes on slide 41:
+
+- **2.5.1** Explain surpluses and shortages.
+- **2.5.2** Explain equilibrium price and quantity.
+
+Put the demand curve and the supply curve on **one graph**. Where they **cross** is equilibrium. Using the slides' gasoline numbers: equilibrium = **$1.40 and 600 million gallons**.
+
+স্লাইড ৪০–৪৬। স্লাইড ৪১-এর উপ-ফলাফল:
+
+- **২.৫.১** উদ্বৃত্ত ও ঘাটতি ব্যাখ্যা করো।
+- **২.৫.২** ভারসাম্য দাম ও পরিমাণ ব্যাখ্যা করো।
+
+চাহিদা রেখা ও যোগান রেখা **একটি গ্রাফে** রাখো। যেখানে তারা **ছেদ করে** সেটাই ভারসাম্য। স্লাইডের পেট্রলের সংখ্যায়: ভারসাম্য = **$১.৪০ ও ৬০ কোটি গ্যালন**।
+
+### Slides 40–41 · Equilibrium — learning outcomes
+*ভারসাম্য — শিখন ফলাফল*
+
+> Equilibrium
+> Learning Outcomes: Equilibrium 2.5: Explain market equilibrium, surplus, and shortage 2.5.1: Explain surpluses and shortages 2.5.2: Explain equilibrium price and quantity
+
+ভারসাম্য
+
+শিখন ফলাফল: ভারসাম্য। ২.৫: বাজার ভারসাম্য, উদ্বৃত্ত ও ঘাটতি ব্যাখ্যা করো। ২.৫.১: উদ্বৃত্ত ও ঘাটতি ব্যাখ্যা করো। ২.৫.২: ভারসাম্য দাম ও পরিমাণ ব্যাখ্যা করো।
+
+**Tutor explains:** **Equilibrium** means **balance** — the point where buyers and sellers agree, with nothing left over and no one left waiting.
+
+**টিউটর বুঝিয়ে বলছেন:** **ভারসাম্য** মানে **সমতা** — যে বিন্দুতে ক্রেতা ও বিক্রেতা একমত, কিছু বাড়তি থাকে না, কেউ অপেক্ষায় থাকে না।
+
+
+
+### Slide 42 · Equilibrium price and quantity
+*ভারসাম্য দাম ও পরিমাণ*
+
+> Equilibrium, Price, and Quantity The equilibrium price and equilibrium quantity occur where the supply and demand curves cross since the quantity demanded is equal to the quantity supplied.
+
+ভারসাম্য, দাম ও পরিমাণ — ভারসাম্য দাম ও ভারসাম্য পরিমাণ সেখানে ঘটে যেখানে যোগান ও চাহিদা রেখা ছেদ করে, কারণ সেখানে চাহিদার পরিমাণ যোগানের পরিমাণের সমান।
+
+**Tutor explains:** **Equilibrium price** and **equilibrium quantity** are found where **S and D cross**, because there **quantity demanded = quantity supplied**. Check with the tables: at $1.40 buyers want **600** (demand schedule) and sellers offer **600** (supply schedule). At any other price the two numbers differ.
+
+**Exam tip:** Draw: a down-sloping D, an up-sloping S, mark the crossing **E**, draw dotted lines to the axes and label them **P\*** (equilibrium price) and **Q\*** (equilibrium quantity).
+
+**টিউটর বুঝিয়ে বলছেন:** **ভারসাম্য দাম** ও **ভারসাম্য পরিমাণ** পাওয়া যায় যেখানে **S ও D ছেদ করে**, কারণ সেখানে **চাহিদার পরিমাণ = যোগানের পরিমাণ**। টেবিল দিয়ে মিলিয়ে দেখো: $১.৪০-এ ক্রেতারা **৬০০** চায় (চাহিদা সূচি) আর বিক্রেতারা **৬০০** দেয় (যোগান সূচি)। অন্য যেকোনো দামে সংখ্যা দুটো আলাদা।
+
+**পরীক্ষার টিপস:** আঁকো: নিচে নামা D, উপরে ওঠা S, ছেদবিন্দুতে **E** লেখো, অক্ষ পর্যন্ত ডট রেখা টেনে নাম দাও **P\*** (ভারসাম্য দাম) ও **Q\*** (ভারসাম্য পরিমাণ)।
+
+
+
+### Slide 43 · Surplus and shortage
+*উদ্বৃত্ত ও ঘাটতি*
+
+> - When the price is **below** the equilibrium level, excess demand or a **shortage** will exist.
+> - If the price is **above** the equilibrium level, excess supply or a **surplus** will exist.
+> - In either case, economic pressures will push the price toward the equilibrium level.
+
+- দাম ভারসাম্য স্তরের **নিচে** থাকলে অতিরিক্ত চাহিদা বা **ঘাটতি** থাকবে।
+- দাম ভারসাম্য স্তরের **উপরে** থাকলে অতিরিক্ত যোগান বা **উদ্বৃত্ত** থাকবে।
+- উভয় ক্ষেত্রে অর্থনৈতিক চাপ দামকে ভারসাম্য স্তরের দিকে ঠেলে দেবে।
+
+**Tutor explains:** Memory rule: **Above → surplus ("too much")**, **Below → shortage ("too little")**. Think of it as: **high** price → sellers want to sell a lot but buyers buy little → goods **pile up**. **Low** price → buyers want a lot but sellers offer little → **queues**. Either way the price moves back to equilibrium.
+
+**Exam tip:** Don't mix them up in the exam: **surplus = excess supply = price ABOVE equilibrium**; **shortage = excess demand = price BELOW equilibrium**.
+
+**টিউটর বুঝিয়ে বলছেন:** মনে রাখার নিয়ম: **উপরে → উদ্বৃত্ত ("অনেক বেশি")**, **নিচে → ঘাটতি ("অনেক কম")**। এভাবে ভাবো: **বেশি** দাম → বিক্রেতা অনেক বেচতে চায় কিন্তু ক্রেতা কম কেনে → পণ্য **জমে যায়**। **কম** দাম → ক্রেতা অনেক চায় কিন্তু বিক্রেতা কম দেয় → **লাইন** পড়ে। উভয় ক্ষেত্রে দাম আবার ভারসাম্যে ফিরে আসে।
+
+**পরীক্ষার টিপস:** পরীক্ষায় গুলিয়ে ফেলো না: **উদ্বৃত্ত = অতিরিক্ত যোগান = দাম ভারসাম্যের উপরে**; **ঘাটতি = অতিরিক্ত চাহিদা = দাম ভারসাম্যের নিচে**।
+
+
+
+### Slide 44 · Surplus (graph)
+*উদ্বৃত্ত (গ্রাফ)*
+
+> Surplus • If the price is above the equilibrium level, excess supply or a surplus will exist.
+
+উদ্বৃত্ত • দাম ভারসাম্য স্তরের উপরে থাকলে অতিরিক্ত যোগান বা উদ্বৃত্ত থাকবে।
+
+**Tutor explains:** Work out the surplus from the graph: at **$1.80**, buyers want **500** million gallons but sellers offer **680** million. **Surplus = 680 − 500 = 180 million gallons** left unsold. Sellers then **cut prices** to get rid of the stock, which moves the market back down toward $1.40.
+
+**Example:** After a bumper harvest, farmers bring huge loads of tomatoes to market at 40 tk/kg, but buyers won't take that many. By evening sellers drop the price to 20 tk to avoid throwing tomatoes away — a surplus pushing price down.
+
+**টিউটর বুঝিয়ে বলছেন:** গ্রাফ থেকে উদ্বৃত্ত হিসাব করো: **$১.৮০**-এ ক্রেতারা **৫০ কোটি** গ্যালন চায়, কিন্তু বিক্রেতারা **৬৮ কোটি** দেয়। **উদ্বৃত্ত = ৬৮০ − ৫০০ = ১৮০ মিলিয়ন (১৮ কোটি) গ্যালন** অবিক্রীত থাকে। তখন বিক্রেতারা মজুত ছাড়তে **দাম কমায়**, ফলে বাজার আবার $১.৪০-এর দিকে নামে।
+
+**উদাহরণ:** বাম্পার ফলনের পর কৃষকরা ৪০ টাকা কেজিতে বাজারে প্রচুর টমেটো আনেন, কিন্তু ক্রেতারা এত নেয় না। সন্ধ্যায় টমেটো ফেলে না দিতে বিক্রেতারা দাম ২০ টাকায় নামান — উদ্বৃত্ত দাম নামিয়ে দেয়।
+
+
+
+### Slide 45 · Shortage (graph)
+*ঘাটতি (গ্রাফ)*
+
+> Shortage • When the price is below the
+> equilibrium level, excess demand or a shortage will exist.
+> • In either case of surplus or
+> shortage, economic pressures will push the price toward the equilibrium level.
+
+ঘাটতি • দাম ভারসাম্য স্তরের নিচে থাকলে অতিরিক্ত চাহিদা বা ঘাটতি থাকবে। • উদ্বৃত্ত বা ঘাটতি — উভয় ক্ষেত্রে অর্থনৈতিক চাপ দামকে ভারসাম্য স্তরের দিকে ঠেলে দেবে।
+
+**Tutor explains:** At **$1.20**, buyers want **700** million gallons but sellers offer only **550** million. **Shortage = 700 − 550 = 150 million gallons.** Buyers compete for the limited goods (queues, "sold out" signs), so sellers can **raise prices**, moving the market back up toward $1.40.
+
+**Example:** When onion imports stopped in 2019, there were far fewer onions at the old low price than people wanted — a shortage — and the price shot up.
+
+**টিউটর বুঝিয়ে বলছেন:** **$১.২০**-এ ক্রেতারা **৭০ কোটি** গ্যালন চায়, কিন্তু বিক্রেতারা দেয় মাত্র **৫৫ কোটি**। **ঘাটতি = ৭০০ − ৫৫০ = ১৫০ মিলিয়ন (১৫ কোটি) গ্যালন।** ক্রেতারা সীমিত পণ্যের জন্য প্রতিযোগিতা করে (লাইন, "স্টক শেষ"), তাই বিক্রেতারা **দাম বাড়াতে** পারে, বাজার আবার $১.৪০-এর দিকে ওঠে।
+
+**উদাহরণ:** ২০১৯ সালে পেঁয়াজ আমদানি বন্ধ হলে আগের কম দামে মানুষ যত চাইত তার চেয়ে অনেক কম পেঁয়াজ ছিল — ঘাটতি — আর দাম লাফিয়ে বাড়ল।
+
+
+
+### Slide 46 · Equilibrium and economic efficiency
+*ভারসাম্য ও অর্থনৈতিক দক্ষতা*
+
+> Equilibrium and Economic Efficiency If a market is not at equilibrium economic pressures will move the market towards the equilibrium price and equilibrium quantity. This balance is a natural function of a free-market economy. Economists typically define efficiency as: when it is impossible to improve a situation for one party without imposing a cost on another. If a situation is inefficient, if becomes possible to benefit at least one party without imposing costs on others.
+
+ভারসাম্য ও অর্থনৈতিক দক্ষতা — বাজার ভারসাম্যে না থাকলে অর্থনৈতিক চাপ বাজারকে ভারসাম্য দাম ও ভারসাম্য পরিমাণের দিকে নিয়ে যাবে। এই ভারসাম্য মুক্তবাজার অর্থনীতির একটি স্বাভাবিক কাজ। অর্থনীতিবিদরা সাধারণত দক্ষতাকে এভাবে সংজ্ঞায়িত করেন: যখন অন্য পক্ষের উপর খরচ না চাপিয়ে এক পক্ষের অবস্থার উন্নতি করা অসম্ভব। কোনো অবস্থা অদক্ষ হলে, অন্যদের উপর খরচ না চাপিয়েও অন্তত এক পক্ষকে লাভবান করা সম্ভব হয়।
+
+**Tutor explains:** Two ideas:
+
+- Moving back to equilibrium is a **natural function of a free market** — nobody orders it; surpluses and shortages fix themselves through price.
+- **Efficiency** (economists' definition): you **cannot make one party better off without making another worse off**. If you can help someone without hurting anyone, the situation is **inefficient**. At equilibrium the market is efficient.
+
+**Example:** If a shop has unsold bread at closing time and hungry customers would happily buy it at a lower price, both could be better off — that is inefficient. Lowering the price until it sells out moves toward efficiency.
+
+**টিউটর বুঝিয়ে বলছেন:** দুটি ধারণা:
+
+- আবার ভারসাম্যে ফেরা **মুক্তবাজারের স্বাভাবিক কাজ** — কেউ নির্দেশ দেয় না; দামের মাধ্যমে উদ্বৃত্ত ও ঘাটতি নিজে থেকেই ঠিক হয়।
+- **দক্ষতা** (অর্থনীতিবিদদের সংজ্ঞা): **অন্য কাউকে ক্ষতিগ্রস্ত না করে এক পক্ষের অবস্থার উন্নতি করা যায় না**। কাউকে ক্ষতি না করে কাউকে সাহায্য করা গেলে, অবস্থাটি **অদক্ষ**। ভারসাম্যে বাজার দক্ষ।
+
+**উদাহরণ:** দোকান বন্ধের সময় অবিক্রীত রুটি আছে আর ক্ষুধার্ত ক্রেতারা কম দামে খুশি হয়ে কিনবে — দুজনেরই লাভ সম্ভব, তাই এটা অদক্ষ। সব বিক্রি না হওয়া পর্যন্ত দাম কমালে দক্ষতার দিকে যাওয়া হয়।
+
+
+
+## Quick check — Equilibrium · দ্রুত যাচাই — ভারসাম্য
+
+1. Using the slides' gasoline data, what is the equilibrium price?  
+   স্লাইডের পেট্রলের তথ্য অনুযায়ী ভারসাম্য দাম কত?  
+   - A $1.00 · $১.০০
+   - B $1.40 · $১.৪০
+   - C $1.80 · $১.৮০
+   - D $2.20 · $২.২০
+   **Answer:** B — At $1.40 quantity demanded (600) equals quantity supplied (600), so this is where the curves cross.  
+   $১.৪০-এ চাহিদার পরিমাণ (৬০০) যোগানের পরিমাণের (৬০০) সমান, তাই রেখা দুটি এখানে ছেদ করে।
+
+2. The price is set ABOVE equilibrium. What exists?  
+   দাম ভারসাম্যের উপরে রাখা হলো। কী থাকবে?  
+   - A A shortage (excess demand) · ঘাটতি (অতিরিক্ত চাহিদা)
+   - B A surplus (excess supply) · উদ্বৃত্ত (অতিরিক্ত যোগান)
+   - C Equilibrium · ভারসাম্য
+   - D Inflation · মূল্যস্ফীতি
+   **Answer:** B — Above equilibrium, quantity supplied exceeds quantity demanded — a surplus. Pressure pushes price down.  
+   ভারসাম্যের উপরে যোগানের পরিমাণ চাহিদার পরিমাণের চেয়ে বেশি — উদ্বৃত্ত। চাপ দাম নামায়।
+
+3. At $1.20 buyers want 700 and sellers offer 550 (million gallons). The shortage is…  
+   $১.২০-এ ক্রেতারা ৭০০ চায় আর বিক্রেতারা ৫৫০ দেয় (মিলিয়ন গ্যালন)। ঘাটতি…  
+   - A 550 · ৫৫০
+   - B 700 · ৭০০
+   - C 150 · ১৫০
+   - D 1,250 · ১,২৫০
+   **Answer:** C — Shortage = quantity demanded − quantity supplied = 700 − 550 = 150 million gallons.  
+   ঘাটতি = চাহিদার পরিমাণ − যোগানের পরিমাণ = ৭০০ − ৫৫০ = ১৫০ মিলিয়ন গ্যালন।
+
+## Study question 2.6 — Describe how economists evaluate the health of an economy
+**অর্থনীতির স্বাস্থ্য মূল্যায়ন**
+
+Slides 47–55. Sub-outcome on slide 48:
+
+- **2.6.1** Explain the use of GDP as an economic indicator.
+
+Like a doctor checks temperature, pulse and blood pressure, economists check **three goals**: **growth (GDP)**, **high employment (unemployment rate)** and **price stability (inflation, CPI)** — plus the **Consumer Confidence Index**.
+
+স্লাইড ৪৭–৫৫। স্লাইড ৪৮-এর উপ-ফলাফল:
+
+- **২.৬.১** অর্থনৈতিক নির্দেশক হিসেবে জিডিপির ব্যবহার ব্যাখ্যা করো।
+
+ডাক্তার যেমন তাপমাত্রা, নাড়ি ও রক্তচাপ দেখেন, অর্থনীতিবিদরা দেখেন **তিনটি লক্ষ্য**: **প্রবৃদ্ধি (জিডিপি)**, **উচ্চ কর্মসংস্থান (বেকারত্বের হার)** ও **মূল্য স্থিতিশীলতা (মূল্যস্ফীতি, CPI)** — সাথে **ভোক্তা আস্থা সূচক**।
+
+### Slides 47–48 · Health of the economy — learning outcomes
+*অর্থনীতির স্বাস্থ্য — শিখন ফলাফল*
+
+> Health of the Economy
+> Learning Outcomes: Health of the Economy 2.6: Describe how economists evaluate the health of an economy 2.6.1: Explain the use of GDP as an economic indicator
+
+অর্থনীতির স্বাস্থ্য
+
+শিখন ফলাফল: অর্থনীতির স্বাস্থ্য। ২.৬: অর্থনীতিবিদরা কীভাবে অর্থনীতির স্বাস্থ্য মূল্যায়ন করেন তা বর্ণনা করো। ২.৬.১: অর্থনৈতিক নির্দেশক হিসেবে জিডিপির ব্যবহার ব্যাখ্যা করো।
+
+**Tutor explains:** Section title. The study question asks **how** economists evaluate health — so your answer lists the **indicators** (GDP, unemployment, inflation/CPI, consumer confidence) and what each tells us.
+
+**টিউটর বুঝিয়ে বলছেন:** অংশের শিরোনাম। স্টাডি প্রশ্নে জানতে চাওয়া হয়েছে অর্থনীতিবিদরা **কীভাবে** স্বাস্থ্য মূল্যায়ন করেন — তাই উত্তরে **নির্দেশকগুলোর** তালিকা দাও (জিডিপি, বেকারত্ব, মূল্যস্ফীতি/CPI, ভোক্তা আস্থা) এবং প্রতিটি কী বলে।
+
+
+
+### Slide 49 · Economic indicators and economic goals
+*অর্থনৈতিক নির্দেশক ও অর্থনৈতিক লক্ষ্য*
+
+> Economic Indicators and Economic Goals An economic indicator is a statistic that provides valuable information about the economy. Lagging economic indicators report the status of the economy a few months in the past. Leading economic indicators predict the status of the economy three to twelve months into the future. The world’s market based economies all share the following three main goals: 1. Growth 2. High employment 3. Price stability
+
+অর্থনৈতিক নির্দেশক ও অর্থনৈতিক লক্ষ্য — অর্থনৈতিক নির্দেশক হলো এমন একটি পরিসংখ্যান যা অর্থনীতি সম্পর্কে মূল্যবান তথ্য দেয়। পশ্চাৎবর্তী (lagging) নির্দেশক কয়েক মাস আগের অর্থনীতির অবস্থা জানায়। অগ্রবর্তী (leading) নির্দেশক তিন থেকে বারো মাস পরের অর্থনীতির অবস্থা পূর্বাভাস দেয়। বিশ্বের সব বাজারভিত্তিক অর্থনীতির তিনটি প্রধান লক্ষ্য একই: ১. প্রবৃদ্ধি ২. উচ্চ কর্মসংস্থান ৩. মূল্য স্থিতিশীলতা
+
+**Tutor explains:**
+- An **economic indicator** = a **statistic** that gives useful information about the economy.
+- **Lagging indicators** look **backward** — they report the economy a few months **in the past**.
+- **Leading indicators** look **forward** — they predict the economy **3 to 12 months** ahead.
+- Three goals shared by all market economies: **1. Growth, 2. High employment, 3. Price stability.** The next slides cover each one.
+
+**Example:** Leading: new factory orders this month (they predict production next season). Lagging: last quarter's unemployment figures.
+
+**Exam tip:** MCQ: "Which indicator predicts the economy 3–12 months ahead?" → **leading indicator**.
+
+**টিউটর বুঝিয়ে বলছেন:**
+- **অর্থনৈতিক নির্দেশক** = অর্থনীতি সম্পর্কে দরকারি তথ্য দেয় এমন একটি **পরিসংখ্যান**।
+- **পশ্চাৎবর্তী (lagging) নির্দেশক** **পেছনে** তাকায় — কয়েক মাস **আগের** অর্থনীতির খবর দেয়।
+- **অগ্রবর্তী (leading) নির্দেশক** **সামনে** তাকায় — **৩ থেকে ১২ মাস** পরের অর্থনীতির পূর্বাভাস দেয়।
+- সব বাজার অর্থনীতির তিনটি লক্ষ্য: **১. প্রবৃদ্ধি, ২. উচ্চ কর্মসংস্থান, ৩. মূল্য স্থিতিশীলতা।** পরের স্লাইডগুলোতে প্রতিটি।
+
+**উদাহরণ:** অগ্রবর্তী: এই মাসের কারখানার নতুন অর্ডার (আগামী মৌসুমের উৎপাদনের পূর্বাভাস দেয়)। পশ্চাৎবর্তী: গত প্রান্তিকের বেকারত্বের পরিসংখ্যান।
+
+**পরীক্ষার টিপস:** MCQ: "কোন নির্দেশক ৩–১২ মাস পরের অর্থনীতির পূর্বাভাস দেয়?" → **অগ্রবর্তী (leading) নির্দেশক**।
+
+
+
+### Slide 50 · Section picture slide
+*অংশের ছবি-স্লাইড*
+
+> (Picture only — the desk divider image again. No text.)
+
+(শুধু ছবি — আবার ডেস্কের ছবি-স্লাইড। কোনো লেখা নেই।)
+
+**Tutor explains:** A decorative divider before the three goals. Nothing to learn — continue to "Growth".
+
+**টিউটর বুঝিয়ে বলছেন:** তিনটি লক্ষ্যের আগে একটি সাজসজ্জার স্লাইড। শেখার কিছু নেই — "প্রবৃদ্ধি"-তে যাও।
+
+
+
+### Slide 51 · Growth — GDP
+*প্রবৃদ্ধি — জিডিপি*
+
+> Growth Measuring growth with Gross Domestic Product (GDP) involves counting up the production of millions of different goods and services produced in a given year and summing them to a total dollar value using the price at which each product was sold. GDP only refers to the goods produced within a particular country. Intermediate goods, goods like plywood or steel that are used as inputs to produce other goods, are not included in this calculation. This would cause a double accounting.
+
+প্রবৃদ্ধি — মোট দেশজ উৎপাদন (জিডিপি) দিয়ে প্রবৃদ্ধি মাপতে একটি নির্দিষ্ট বছরে উৎপাদিত লাখ লাখ ভিন্ন পণ্য ও সেবার উৎপাদন গুনে, প্রতিটি পণ্য যে দামে বিক্রি হয়েছে সেই দাম ব্যবহার করে মোট ডলার মূল্যে যোগ করা হয়। জিডিপি কেবল একটি নির্দিষ্ট দেশের ভেতরে উৎপাদিত পণ্যকেই বোঝায়। মধ্যবর্তী পণ্য — যেমন প্লাইউড বা ইস্পাত, যা অন্য পণ্য উৎপাদনে উপকরণ হিসেবে ব্যবহৃত হয় — এই হিসাবে ধরা হয় না। তা করলে দুবার গণনা (ডাবল কাউন্টিং) হবে।
+
+**Tutor explains:** **GDP (Gross Domestic Product)** = the **total value** of all goods and services **produced within a country** in **one year**, counted at the prices they sold for. Two rules to remember:
+
+- **Only inside the country** ("domestic").
+- **Intermediate goods are NOT counted** (plywood, steel used to make other things) — counting them would be **double counting**, because their value is already inside the final product's price.
+
+Rising GDP = the economy is **growing**.
+
+**Example:** A furniture maker buys plywood for 3,000 tk and sells a table for 8,000 tk. GDP counts only the **8,000 tk table** — not 8,000 + 3,000, because the plywood is already inside the table's price.
+
+**Exam tip:** Q2.6.1 answer: define GDP, say it measures **growth**, mention "within a country" and "intermediate goods excluded to avoid double counting".
+
+**টিউটর বুঝিয়ে বলছেন:** **জিডিপি (মোট দেশজ উৎপাদন)** = **এক বছরে** **একটি দেশের ভেতরে উৎপাদিত** সব পণ্য ও সেবার **মোট মূল্য**, বিক্রয়মূল্যে হিসাব করা। দুটি নিয়ম মনে রাখো:
+
+- **শুধু দেশের ভেতরে** ("দেশজ")।
+- **মধ্যবর্তী পণ্য গোনা হয় না** (প্লাইউড, ইস্পাত যা অন্য জিনিস বানাতে লাগে) — গুনলে **দুবার গণনা** হবে, কারণ তাদের মূল্য চূড়ান্ত পণ্যের দামের মধ্যেই আছে।
+
+জিডিপি বাড়া = অর্থনীতি **বাড়ছে**।
+
+**উদাহরণ:** একজন আসবাব নির্মাতা ৩,০০০ টাকায় প্লাইউড কিনে ৮,০০০ টাকায় একটি টেবিল বেচেন। জিডিপিতে শুধু **৮,০০০ টাকার টেবিল** গোনা হয় — ৮,০০০ + ৩,০০০ নয়, কারণ প্লাইউডের দাম টেবিলের দামের ভেতরেই আছে।
+
+**পরীক্ষার টিপস:** প্রশ্ন ২.৬.১-এর উত্তর: জিডিপির সংজ্ঞা দাও, বলো এটি **প্রবৃদ্ধি** মাপে, "দেশের ভেতরে" এবং "দুবার গণনা এড়াতে মধ্যবর্তী পণ্য বাদ" উল্লেখ করো।
+
+
+
+### Slide 52 · High employment — three types of unemployment
+*উচ্চ কর্মসংস্থান — তিন ধরনের বেকারত্ব*
+
+> High Employment A country’s unemployment level is one of the most important economic indicators. Unemployment can create a slow down in the economy which can lead to even more unemployment. Three categories of unemployment: • Cyclical unemployment occurs when there is not enough total demand in the economy to provide jobs for everyone who wants to work. • Structural unemployment occurs when a labor market is unable to provide jobs for everyone who wants to work because there is a mismatch between the skills of the unemployed workers and the skills needed in available jobs. • Frictional unemployment is the time period between jobs when a worker is searching or transitioning from one job to another. Sometimes also called search unemployment.
+
+উচ্চ কর্মসংস্থান — একটি দেশের বেকারত্বের হার সবচেয়ে গুরুত্বপূর্ণ অর্থনৈতিক নির্দেশকগুলোর একটি। বেকারত্ব অর্থনীতিকে ধীর করে দিতে পারে, যা আরও বেকারত্ব ডেকে আনে। বেকারত্বের তিনটি ধরন: • চক্রাকার বেকারত্ব ঘটে যখন যারা কাজ করতে চায় তাদের সবার জন্য চাকরি দেওয়ার মতো যথেষ্ট মোট চাহিদা অর্থনীতিতে থাকে না। • কাঠামোগত বেকারত্ব ঘটে যখন বেকার শ্রমিকদের দক্ষতা আর খালি চাকরির প্রয়োজনীয় দক্ষতার মধ্যে অমিলের কারণে শ্রমবাজার কাজ করতে ইচ্ছুক সবাইকে চাকরি দিতে পারে না। • ঘর্ষণজনিত বেকারত্ব হলো দুই চাকরির মাঝের সময়, যখন একজন শ্রমিক চাকরি খুঁজছেন বা এক চাকরি থেকে অন্য চাকরিতে যাচ্ছেন। একে কখনো অনুসন্ধান বেকারত্বও বলে।
+
+**Tutor explains:** Unemployment is dangerous because it **feeds itself**: jobless people spend less → businesses sell less → more layoffs. Three types — memorize the **cause** of each:
+
+- **Cyclical** → **not enough total demand** in the economy (it follows the business cycle — recessions).
+- **Structural** → **skills mismatch**: workers' skills don't match the jobs available.
+- **Frictional** (search) → the **time between jobs** while searching or moving.
+
+**Example:** Cyclical: factories lay off workers during a slowdown in export orders. Structural: typists lose jobs when offices computerize, but there are vacancies for software developers they can't fill. Frictional: a fresh graduate spends three months applying before joining a bank.
+
+**Exam tip:** Keywords for MCQs: "not enough demand" → cyclical; "mismatch of skills" → structural; "between jobs / searching" → frictional.
+
+**টিউটর বুঝিয়ে বলছেন:** বেকারত্ব বিপজ্জনক কারণ এটি **নিজেকে বাড়ায়**: বেকার মানুষ কম খরচ করে → ব্যবসার বিক্রি কমে → আরও ছাঁটাই। তিন ধরন — প্রতিটির **কারণ** মুখস্থ করো:
+
+- **চক্রাকার** → অর্থনীতিতে **মোট চাহিদা যথেষ্ট নয়** (ব্যবসা চক্র অনুসরণ করে — মন্দায়)।
+- **কাঠামোগত** → **দক্ষতার অমিল**: শ্রমিকদের দক্ষতা খালি চাকরির সাথে মেলে না।
+- **ঘর্ষণজনিত** (অনুসন্ধান) → চাকরি খোঁজা বা বদলানোর সময়ে **দুই চাকরির মাঝের সময়**।
+
+**উদাহরণ:** চক্রাকার: রপ্তানি অর্ডার কমার সময় কারখানা শ্রমিক ছাঁটাই করে। কাঠামোগত: অফিস কম্পিউটারাইজড হওয়ায় টাইপিস্টরা চাকরি হারান, কিন্তু সফটওয়্যার ডেভেলপারের যে পদগুলো খালি তা তাঁরা পূরণ করতে পারেন না। ঘর্ষণজনিত: একজন নতুন গ্র্যাজুয়েট ব্যাংকে যোগ দেওয়ার আগে তিন মাস আবেদন করে কাটান।
+
+**পরীক্ষার টিপস:** MCQ-র মূল শব্দ: "যথেষ্ট চাহিদা নেই" → চক্রাকার; "দক্ষতার অমিল" → কাঠামোগত; "দুই চাকরির মাঝে / খোঁজা" → ঘর্ষণজনিত।
+
+
+
+### Slide 53 · Price stability — inflation and deflation
+*মূল্য স্থিতিশীলতা — মূল্যস্ফীতি ও মূল্যহ্রাস*
+
+> Price Stability Price stability occurs when prices remain largely unchanged and there isn’t rapid inflation or deflation. Inflation: the rise in the general price level of goods and services during a period of time. Deflation: the decrease in the general price level of goods and services during a period of time. Hyperinflation: a rapid rise in inflation. Most economists believe that a steady level of low-to-moderate inflation is are ideal.
+
+মূল্য স্থিতিশীলতা — মূল্য স্থিতিশীলতা তখন থাকে যখন দাম মোটামুটি অপরিবর্তিত থাকে এবং দ্রুত মূল্যস্ফীতি বা মূল্যহ্রাস হয় না। মূল্যস্ফীতি: একটি সময়ে পণ্য ও সেবার সাধারণ দামস্তরের বৃদ্ধি। মূল্যহ্রাস: একটি সময়ে পণ্য ও সেবার সাধারণ দামস্তরের হ্রাস। অতিমূল্যস্ফীতি: মূল্যস্ফীতির দ্রুত বৃদ্ধি। বেশিরভাগ অর্থনীতিবিদ মনে করেন, স্থির, কম-থেকে-মাঝারি মূল্যস্ফীতিই আদর্শ।
+
+**Tutor explains:** Four terms:
+
+- **Price stability:** prices stay **largely unchanged** — no rapid inflation or deflation.
+- **Inflation:** the **general price level rises** over time.
+- **Deflation:** the **general price level falls** over time.
+- **Hyperinflation:** **very rapid** inflation.
+
+The ideal is **not zero** inflation: most economists prefer a **steady, low-to-moderate** inflation rate.
+
+**Example:** If a shopping bag that cost 1,000 tk last year costs 1,090 tk this year, inflation is 9%. Zimbabwe in 2008 had hyperinflation — prices doubled every day.
+
+**টিউটর বুঝিয়ে বলছেন:** চারটি শব্দ:
+
+- **মূল্য স্থিতিশীলতা:** দাম **মোটামুটি অপরিবর্তিত** — দ্রুত মূল্যস্ফীতি বা মূল্যহ্রাস নেই।
+- **মূল্যস্ফীতি:** সময়ের সাথে **সাধারণ দামস্তর বাড়ে**।
+- **মূল্যহ্রাস:** সময়ের সাথে **সাধারণ দামস্তর কমে**।
+- **অতিমূল্যস্ফীতি:** **খুব দ্রুত** মূল্যস্ফীতি।
+
+আদর্শ **শূন্য** মূল্যস্ফীতি **নয়**: বেশিরভাগ অর্থনীতিবিদ **স্থির, কম-থেকে-মাঝারি** মূল্যস্ফীতি পছন্দ করেন।
+
+**উদাহরণ:** গত বছর যে বাজারের ব্যাগ ১,০০০ টাকায় হতো তা এ বছর ১,০৯০ টাকা হলে মূল্যস্ফীতি ৯%। ২০০৮ সালে জিম্বাবুয়েতে অতিমূল্যস্ফীতি ছিল — প্রতিদিন দাম দ্বিগুণ হতো।
+
+
+
+### Slide 54 · Consumer Price Index (CPI)
+*ভোক্তা মূল্য সূচক (CPI)*
+
+> Consumer Price Index (CPI) Consumer Price Index (CPI): measures changes in the price level of consumer goods and and services purchase by households. The CPI market basket consists of 8 major groups: • Food and beverages • Housing • Apparel • Transportation • Medical care • Recreation • Education and communication • Other goods and services
+
+ভোক্তা মূল্য সূচক (CPI): পরিবারগুলোর কেনা ভোক্তা পণ্য ও সেবার দামস্তরের পরিবর্তন মাপে। CPI-এর বাজার ঝুড়িতে ৮টি প্রধান গোষ্ঠী: • খাদ্য ও পানীয় • বাসস্থান • পোশাক • যাতায়াত • চিকিৎসা • বিনোদন • শিক্ষা ও যোগাযোগ • অন্যান্য পণ্য ও সেবা
+
+**Tutor explains:** The **CPI** is how **inflation is measured**: economists track the price of a **"market basket"** of what a typical household buys. Learn the **8 groups**: food & beverages, housing, apparel (clothing), transportation, medical care, recreation, education & communication, other goods & services. If the basket costs more this year, CPI rises → inflation.
+
+**Example:** Bangladesh Bureau of Statistics (BBS) publishes Bangladesh's CPI every month — the inflation figure you hear on the news comes from it.
+
+**Exam tip:** MCQ: "Which measures changes in the price of goods bought by households?" → **CPI**. "Which measures how optimistic consumers feel?" → **CCI** (next slide).
+
+**টিউটর বুঝিয়ে বলছেন:** **CPI** দিয়েই **মূল্যস্ফীতি মাপা হয়**: অর্থনীতিবিদরা একটি সাধারণ পরিবারের কেনাকাটার **"বাজার ঝুড়ির"** দাম অনুসরণ করেন। **৮টি গোষ্ঠী** শেখো: খাদ্য ও পানীয়, বাসস্থান, পোশাক, যাতায়াত, চিকিৎসা, বিনোদন, শিক্ষা ও যোগাযোগ, অন্যান্য পণ্য ও সেবা। এ বছর ঝুড়ির খরচ বেশি হলে CPI বাড়ে → মূল্যস্ফীতি।
+
+**উদাহরণ:** বাংলাদেশ পরিসংখ্যান ব্যুরো (বিবিএস) প্রতি মাসে বাংলাদেশের CPI প্রকাশ করে — খবরে যে মূল্যস্ফীতির হার শোনো তা এখান থেকেই আসে।
+
+**পরীক্ষার টিপস:** MCQ: "পরিবারের কেনা পণ্যের দামের পরিবর্তন কোনটি মাপে?" → **CPI**। "ভোক্তারা কতটা আশাবাদী তা কোনটি মাপে?" → **CCI** (পরের স্লাইড)।
+
+
+
+### Slide 55 · Consumer Confidence Index (CCI)
+*ভোক্তা আস্থা সূচক (CCI)*
+
+> Consumer Confidence Index The Consumer Confidence Index (CCI) measures the degree of optimism that consumers feel about the overall state of the economy and their personal financial situation. How confident people feel about the stability of their incomes determines their spending activity and therefore serves as one of the key indicators for the overall shape of the economy. If consumer confidence is lower, they are more likely to spend less and save more. If businesses can make predictions about consumer confidence, they can gauge the willingness of consumers to buy new products. If confidence is dropping and consumers are expected to buy less, producers will tend to lower their production.
+
+ভোক্তা আস্থা সূচক — ভোক্তা আস্থা সূচক (CCI) মাপে ভোক্তারা অর্থনীতির সার্বিক অবস্থা ও নিজেদের আর্থিক অবস্থা নিয়ে কতটা আশাবাদী। মানুষ নিজের আয়ের স্থিতিশীলতা নিয়ে কতটা আস্থাশীল, তা তাদের খরচের পরিমাণ নির্ধারণ করে, তাই এটি অর্থনীতির সার্বিক অবস্থার একটি মূল নির্দেশক। ভোক্তা আস্থা কম হলে তারা কম খরচ ও বেশি সঞ্চয় করার সম্ভাবনা বেশি। ব্যবসা ভোক্তা আস্থা আগে থেকে অনুমান করতে পারলে নতুন পণ্য কেনার প্রতি ভোক্তার আগ্রহ বুঝতে পারে। আস্থা কমছে এবং ভোক্তারা কম কিনবে বলে মনে হলে উৎপাদকরা উৎপাদন কমানোর প্রবণতা দেখায়।
+
+**Tutor explains:** The **CCI** measures how **optimistic** consumers feel about the economy and their own finances. The chain: **low confidence → people spend less and save more → businesses expect lower sales → producers cut production.** That's why businesses watch it: it helps them **gauge** whether customers will buy new products. (CCI is a **leading** indicator — it hints at future spending.)
+
+**Example:** If people fear job losses, they postpone buying a new fridge or motorbike. Walton and Runner would then produce fewer units that quarter.
+
+**টিউটর বুঝিয়ে বলছেন:** **CCI** মাপে ভোক্তারা অর্থনীতি ও নিজেদের আর্থিক অবস্থা নিয়ে কতটা **আশাবাদী**। শিকল: **কম আস্থা → মানুষ কম খরচ ও বেশি সঞ্চয় করে → ব্যবসা কম বিক্রির আশা করে → উৎপাদক উৎপাদন কমায়।** এ কারণে ব্যবসাগুলো এটি দেখে: ক্রেতারা নতুন পণ্য কিনবে কি না তা **আন্দাজ** করতে সাহায্য করে। (CCI একটি **অগ্রবর্তী** নির্দেশক — ভবিষ্যতের খরচের ইঙ্গিত দেয়।)
+
+**উদাহরণ:** মানুষ চাকরি হারানোর ভয় পেলে নতুন ফ্রিজ বা মোটরবাইক কেনা পিছিয়ে দেয়। তখন ওয়ালটন ও রানার সেই প্রান্তিকে কম উৎপাদন করবে।
+
+
+
+## Quick check — Health of the economy · দ্রুত যাচাই — অর্থনীতির স্বাস্থ্য
+
+1. Why are intermediate goods such as steel NOT included in GDP?  
+   ইস্পাতের মতো মধ্যবর্তী পণ্য জিডিপিতে কেন ধরা হয় না?  
+   - A They are imported · এগুলো আমদানি করা
+   - B They are too cheap · এগুলো খুব সস্তা
+   - C Counting them would cause double counting · গুনলে দুবার গণনা হবে
+   - D They are services · এগুলো সেবা
+   **Answer:** C — Their value is already included in the price of the final goods, so counting them separately would double count.  
+   তাদের মূল্য চূড়ান্ত পণ্যের দামে আগেই আছে, তাই আলাদা গুনলে দুবার গণনা হবে।
+
+2. A worker loses her job because her skills no longer match the jobs available. This is…  
+   দক্ষতা খালি চাকরির সাথে না মেলায় একজন শ্রমিক চাকরি হারালেন। এটি…  
+   - A cyclical unemployment · চক্রাকার বেকারত্ব
+   - B structural unemployment · কাঠামোগত বেকারত্ব
+   - C frictional unemployment · ঘর্ষণজনিত বেকারত্ব
+   - D deflation · মূল্যহ্রাস
+   **Answer:** B — Structural unemployment comes from a mismatch between the skills of unemployed workers and the skills needed in available jobs.  
+   কাঠামোগত বেকারত্ব আসে বেকার শ্রমিকদের দক্ষতা ও খালি চাকরির প্রয়োজনীয় দক্ষতার অমিল থেকে।
+
+3. Which indicator measures changes in the price of a basket of goods bought by households?  
+   পরিবারের কেনা পণ্যের ঝুড়ির দামের পরিবর্তন কোন নির্দেশক মাপে?  
+   - A GDP · জিডিপি
+   - B CCI · CCI
+   - C CPI · CPI
+   - D Unemployment rate · বেকারত্বের হার
+   **Answer:** C — The Consumer Price Index (CPI) tracks a market basket of 8 major groups.  
+   ভোক্তা মূল্য সূচক (CPI) ৮টি প্রধান গোষ্ঠীর বাজার ঝুড়ি অনুসরণ করে।
+
+## Study question 2.7 — Identify the four stages of an economy and their impact on business
+**অর্থনীতির চারটি পর্যায় ও ব্যবসায় তাদের প্রভাব**
+
+Slides 56–64. Sub-outcomes on slide 57:
+
+- **2.7.1** Explain the business cycle.
+- **2.7.2** Differentiate between expansion, recession and depression.
+
+Picture a wave: the economy rises (**expansion**) to a top (**peak**), falls (**contraction**) to a bottom (**trough**), then rises again — always around a **long-term growth trend** line.
+
+স্লাইড ৫৬–৬৪। স্লাইড ৫৭-এর উপ-ফলাফল:
+
+- **২.৭.১** ব্যবসা চক্র ব্যাখ্যা করো।
+- **২.৭.২** সম্প্রসারণ, মন্দা ও মহামন্দার পার্থক্য করো।
+
+একটি ঢেউ কল্পনা করো: অর্থনীতি উঠছে (**সম্প্রসারণ**) চূড়া পর্যন্ত (**শিখর**), নামছে (**সংকোচন**) তলা পর্যন্ত (**তলদেশ**), তারপর আবার উঠছে — সবসময় একটি **দীর্ঘমেয়াদি প্রবৃদ্ধির প্রবণতা** রেখার চারপাশে।
+
+### Slides 56–57 · Economic stages — learning outcomes
+*অর্থনৈতিক পর্যায় — শিখন ফলাফল*
+
+> Economic Stages
+> Learning Outcomes: Economic Stages 2.7: Identify and explain the four stages of an economy (expansion, peak, contraction, and trough) and describe their impact on business operations 2.7.1: Explain the business cycle 2.7.2: Differentiate between expansion, recession, and depression
+
+অর্থনৈতিক পর্যায়
+
+শিখন ফলাফল: অর্থনৈতিক পর্যায়। ২.৭: অর্থনীতির চারটি পর্যায় (সম্প্রসারণ, শিখর, সংকোচন ও তলদেশ) চিহ্নিত ও ব্যাখ্যা করো এবং ব্যবসায়িক কার্যক্রমে তাদের প্রভাব বর্ণনা করো। ২.৭.১: ব্যবসা চক্র ব্যাখ্যা করো। ২.৭.২: সম্প্রসারণ, মন্দা ও মহামন্দার পার্থক্য করো।
+
+**Tutor explains:** The study question has a second half that students forget: **"describe their impact on business operations"**. For each stage, say what happens to **sales, hiring, prices and investment**.
+
+**টিউটর বুঝিয়ে বলছেন:** স্টাডি প্রশ্নের দ্বিতীয় অর্ধেক শিক্ষার্থীরা ভুলে যায়: **"ব্যবসায়িক কার্যক্রমে তাদের প্রভাব বর্ণনা করো"**। প্রতিটি পর্যায়ে **বিক্রি, নিয়োগ, দাম ও বিনিয়োগের** কী হয় তা বলো।
+
+
+
+### Slide 58 · The business cycle (graph)
+*ব্যবসা চক্র (গ্রাফ)*
+
+> The Business Cycle • The business cycle refers to
+> economy-wide expansions and contractions in the level of economic activities around a long-term growth trend.
+
+ব্যবসা চক্র • ব্যবসা চক্র বলতে একটি দীর্ঘমেয়াদি প্রবৃদ্ধির প্রবণতার চারপাশে অর্থনৈতিক কার্যক্রমের স্তরে অর্থনীতিব্যাপী সম্প্রসারণ ও সংকোচন বোঝায়।
+
+**Tutor explains:** Read the graph: the **straight line** is the long-term **growth trend** (economies generally grow over time). The **wavy line** is **actual** output, swinging above and below the trend. The four stages in order: **trough → expansion → peak → contraction → trough…** It is a **cycle** — it repeats.
+
+**Exam tip:** Draw this in the exam: axes "GDP" and "Time", a straight trend line, a wave around it, and label the four stages.
+
+**টিউটর বুঝিয়ে বলছেন:** গ্রাফটি পড়ো: **সোজা রেখা** হলো দীর্ঘমেয়াদি **প্রবৃদ্ধির প্রবণতা** (অর্থনীতি সাধারণত সময়ের সাথে বাড়ে)। **ঢেউ খেলানো রেখা** হলো **প্রকৃত** উৎপাদন, যা প্রবণতার উপরে-নিচে দোলে। চারটি পর্যায় ক্রমানুসারে: **তলদেশ → সম্প্রসারণ → শিখর → সংকোচন → তলদেশ…** এটি একটি **চক্র** — বারবার ঘটে।
+
+**পরীক্ষার টিপস:** পরীক্ষায় এটি আঁকো: অক্ষ "GDP" ও "Time", একটি সোজা প্রবণতা রেখা, তার চারপাশে একটি ঢেউ, এবং চারটি পর্যায়ের নাম দাও।
+
+
+
+### Slide 59 · Class discussion: the business cycle and you
+*ক্লাস আলোচনা: ব্যবসা চক্র ও তুমি*
+
+> Class Discussion: The Business Cycle and You What is usually the best time in the business cycle to:
+> • look for a job? • start a business? • buy stock or property? a) Trough
+> b) Expansion
+> c) Peak d) Contraction
+
+ক্লাস আলোচনা: ব্যবসা চক্র ও তুমি — ব্যবসা চক্রের সাধারণত কোন সময়টি সবচেয়ে ভালো: • চাকরি খোঁজার জন্য? • ব্যবসা শুরুর জন্য? • শেয়ার বা সম্পত্তি কেনার জন্য? a) তলদেশ b) সম্প্রসারণ c) শিখর d) সংকোচন
+
+**Tutor explains:** Reasonable answers:
+
+- **Look for a job → expansion** (firms are hiring).
+- **Start a business → trough or early expansion** (costs, rents and wages are low, and demand is about to rise).
+- **Buy stock or property → trough** (prices are lowest; you "buy low" and benefit when the economy recovers).
+- **Peak** is usually the worst time to buy — prices are highest and a contraction is coming.
+
+**টিউটর বুঝিয়ে বলছেন:** যুক্তিসঙ্গত উত্তর:
+
+- **চাকরি খোঁজা → সম্প্রসারণ** (প্রতিষ্ঠানগুলো নিয়োগ দিচ্ছে)।
+- **ব্যবসা শুরু → তলদেশ বা সম্প্রসারণের শুরু** (খরচ, ভাড়া ও মজুরি কম, আর চাহিদা বাড়তে চলেছে)।
+- **শেয়ার বা সম্পত্তি কেনা → তলদেশ** (দাম সর্বনিম্ন; "কম দামে কেনো", অর্থনীতি ঘুরে দাঁড়ালে লাভ)।
+- **শিখর** সাধারণত কেনার সবচেয়ে খারাপ সময় — দাম সর্বোচ্চ আর সংকোচন আসছে।
+
+
+
+### Slide 60 · Stages of the economy
+*অর্থনীতির পর্যায়সমূহ*
+
+> - **Expansion:** characterized by increasing employment, economic growth, and upward pressure on prices.
+> - **Peak:** the highest point of the business cycle, when the economy is producing at maximum allowable output, employment is at or above full employment, and inflationary pressures on prices are evident.
+> - **Contraction:** a correction typically following a peak where growth slows, employment declines (unemployment increases), and pricing pressures subside.
+> - **Trough:** the slowing ceases. At this point the economy has hit the bottom from which the next stage is expansion.
+
+- **সম্প্রসারণ:** বাড়তি কর্মসংস্থান, অর্থনৈতিক প্রবৃদ্ধি এবং দামের উপর ঊর্ধ্বমুখী চাপ এর বৈশিষ্ট্য।
+- **শিখর:** ব্যবসা চক্রের সর্বোচ্চ বিন্দু, যখন অর্থনীতি সর্বোচ্চ সম্ভাব্য উৎপাদন করছে, কর্মসংস্থান পূর্ণ কর্মসংস্থানে বা তার উপরে, এবং দামের উপর মূল্যস্ফীতির চাপ স্পষ্ট।
+- **সংকোচন:** সাধারণত শিখরের পরে আসা একটি সংশোধন, যেখানে প্রবৃদ্ধি ধীর হয়, কর্মসংস্থান কমে (বেকারত্ব বাড়ে), এবং দামের চাপ কমে আসে।
+- **তলদেশ:** ধীরগতি থেমে যায়। এই বিন্দুতে অর্থনীতি তলায় পৌঁছেছে, যেখান থেকে পরের পর্যায় সম্প্রসারণ।
+
+**Tutor explains:** This is the **core slide for Q2.7**. For each stage, learn three signals — **jobs, growth, prices** — and add the **business impact**:
+
+- **Expansion:** jobs ↑, growth ↑, prices rising → businesses **hire, invest, increase production, launch products**.
+- **Peak:** maximum output, full employment, **inflation** visible → businesses run at full capacity, costs and wages are high; smart firms prepare for a slowdown.
+- **Contraction:** growth slows, **unemployment ↑**, price pressure eases → sales fall; businesses **cut costs, reduce stock, freeze hiring or lay off**.
+- **Trough:** the fall **stops** — the bottom → businesses that survived prepare to **expand again**; good time to buy cheap assets.
+
+**Example:** Bangladesh's garment sector in 2020: COVID orders were cancelled (contraction), factories laid off workers; by late 2020 the fall stopped (trough); in 2021 orders boomed (expansion) and factories hired again.
+
+**Exam tip:** A 4-row table (stage | what happens | impact on business) is the best format for this answer.
+
+**টিউটর বুঝিয়ে বলছেন:** প্রশ্ন ২.৭-এর **মূল স্লাইড** এটি। প্রতিটি পর্যায়ের তিনটি সংকেত শেখো — **চাকরি, প্রবৃদ্ধি, দাম** — এবং **ব্যবসায় প্রভাব** যোগ করো:
+
+- **সম্প্রসারণ:** চাকরি ↑, প্রবৃদ্ধি ↑, দাম বাড়ছে → ব্যবসা **নিয়োগ দেয়, বিনিয়োগ করে, উৎপাদন বাড়ায়, নতুন পণ্য আনে**।
+- **শিখর:** সর্বোচ্চ উৎপাদন, পূর্ণ কর্মসংস্থান, **মূল্যস্ফীতি** দৃশ্যমান → ব্যবসা পূর্ণ সক্ষমতায় চলে, খরচ ও মজুরি বেশি; বুদ্ধিমান প্রতিষ্ঠান মন্দার প্রস্তুতি নেয়।
+- **সংকোচন:** প্রবৃদ্ধি ধীর, **বেকারত্ব ↑**, দামের চাপ কমে → বিক্রি কমে; ব্যবসা **খরচ কমায়, মজুত কমায়, নিয়োগ বন্ধ বা ছাঁটাই করে**।
+- **তলদেশ:** পতন **থামে** — তলা → টিকে থাকা ব্যবসাগুলো **আবার সম্প্রসারণের** প্রস্তুতি নেয়; সস্তায় সম্পদ কেনার ভালো সময়।
+
+**উদাহরণ:** ২০২০ সালে বাংলাদেশের পোশাক খাত: কোভিডে অর্ডার বাতিল (সংকোচন), কারখানায় ছাঁটাই; ২০২০-এর শেষে পতন থামে (তলদেশ); ২০২১-এ অর্ডার বেড়ে যায় (সম্প্রসারণ) আর কারখানা আবার নিয়োগ দেয়।
+
+**পরীক্ষার টিপস:** এই উত্তরের সবচেয়ে ভালো রূপ ৪ সারির টেবিল (পর্যায় | কী ঘটে | ব্যবসায় প্রভাব)।
+
+
+
+### Slide 61 · Business cycle fluctuations
+*ব্যবসা চক্রের ওঠানামা*
+
+> Business Cycle Fluctuations Business cycle fluctuations occur around a long-term growth trend just like economic cycles, but unlike economic cycles they are measured in terms of the growth rate of real gross domestic product (Real GDP). Real GDP is the inflation adjusted value of the goods and services produced by labor and property located in the United States.
+
+ব্যবসা চক্রের ওঠানামা — ব্যবসা চক্রের ওঠানামা অর্থনৈতিক চক্রের মতোই একটি দীর্ঘমেয়াদি প্রবৃদ্ধির প্রবণতার চারপাশে ঘটে, কিন্তু অর্থনৈতিক চক্রের মতো নয়, এগুলো প্রকৃত মোট দেশজ উৎপাদনের (রিয়েল জিডিপি) প্রবৃদ্ধির হার দিয়ে মাপা হয়। রিয়েল জিডিপি হলো যুক্তরাষ্ট্রে অবস্থিত শ্রম ও সম্পত্তি দ্বারা উৎপাদিত পণ্য ও সেবার মূল্যস্ফীতি-সমন্বিত মূল্য।
+
+**Tutor explains:** The business cycle is measured by the **growth rate of Real GDP**. **Real GDP** = GDP **adjusted for inflation**. Why adjust? If prices rise 10% but the economy produces the same amount, normal (nominal) GDP looks 10% bigger — but nothing more was really produced. Real GDP removes that price effect, so it shows **true growth**.
+
+**Exam tip:** Definition: "**Real GDP is the inflation-adjusted value of goods and services produced.**"
+
+**টিউটর বুঝিয়ে বলছেন:** ব্যবসা চক্র মাপা হয় **রিয়েল জিডিপির প্রবৃদ্ধির হার** দিয়ে। **রিয়েল জিডিপি** = **মূল্যস্ফীতি-সমন্বিত** জিডিপি। কেন সমন্বয়? দাম ১০% বাড়লে কিন্তু অর্থনীতি একই পরিমাণ উৎপাদন করলে সাধারণ (নমিনাল) জিডিপি ১০% বড় দেখায় — অথচ আসলে বেশি কিছু উৎপাদন হয়নি। রিয়েল জিডিপি দামের প্রভাব বাদ দেয়, তাই **প্রকৃত প্রবৃদ্ধি** দেখায়।
+
+**পরীক্ষার টিপস:** সংজ্ঞা: "**রিয়েল জিডিপি হলো উৎপাদিত পণ্য ও সেবার মূল্যস্ফীতি-সমন্বিত মূল্য।**"
+
+
+
+### Slide 62 · Recessions and depressions
+*মন্দা ও মহামন্দা*
+
+> Recessions and Depressions The National Bureau of Economic Research defines a recession as ―a significant decline in economic activity spread across the economy, lasting more than a few months, normally visible in real GDP, real income, employment, industrial production.‖ If the economy does not begin to expand again, then the economy may be considered to be in a state of depression.
+
+মন্দা ও মহামন্দা — ন্যাশনাল ব্যুরো অব ইকোনমিক রিসার্চ মন্দাকে সংজ্ঞায়িত করে এভাবে: "পুরো অর্থনীতিজুড়ে ছড়িয়ে পড়া অর্থনৈতিক কার্যক্রমের উল্লেখযোগ্য হ্রাস, যা কয়েক মাসের বেশি স্থায়ী হয় এবং সাধারণত রিয়েল জিডিপি, প্রকৃত আয়, কর্মসংস্থান ও শিল্প উৎপাদনে দৃশ্যমান হয়।" অর্থনীতি যদি আবার সম্প্রসারিত হতে শুরু না করে, তাহলে অর্থনীতিকে মহামন্দা অবস্থায় আছে বলে ধরা হতে পারে।
+
+**Tutor explains:** Q2.7.2 asks you to differentiate three words:
+
+- **Expansion:** the economy is growing (more jobs, more output).
+- **Recession** (NBER definition): a **significant decline** in economic activity, **spread across the economy**, lasting **more than a few months**, visible in **real GDP, real income, employment and industrial production**.
+- **Depression:** a recession where the economy **does not begin to expand again** — deeper and much longer (e.g. the 1930s Great Depression).
+
+**Example:** The 2008 global financial crisis caused a recession in the US (the "Great Recession"); the 1930s Great Depression lasted about a decade with very high unemployment.
+
+**Exam tip:** Learn the four parts of the recession definition: **significant decline + across the economy + more than a few months + visible in real GDP, income, employment, production.**
+
+**টিউটর বুঝিয়ে বলছেন:** প্রশ্ন ২.৭.২-এ তিনটি শব্দের পার্থক্য চাওয়া হয়েছে:
+
+- **সম্প্রসারণ:** অর্থনীতি বাড়ছে (বেশি চাকরি, বেশি উৎপাদন)।
+- **মন্দা** (NBER-এর সংজ্ঞা): অর্থনৈতিক কার্যক্রমের **উল্লেখযোগ্য হ্রাস**, **পুরো অর্থনীতিজুড়ে**, **কয়েক মাসের বেশি** স্থায়ী, **রিয়েল জিডিপি, প্রকৃত আয়, কর্মসংস্থান ও শিল্প উৎপাদনে** দৃশ্যমান।
+- **মহামন্দা:** এমন মন্দা যেখানে অর্থনীতি **আবার সম্প্রসারিত হতে শুরু করে না** — আরও গভীর ও অনেক দীর্ঘ (যেমন ১৯৩০-এর মহামন্দা)।
+
+**উদাহরণ:** ২০০৮-এর বৈশ্বিক আর্থিক সংকট যুক্তরাষ্ট্রে মন্দা ঘটিয়েছিল ("মহা-মন্দা/Great Recession"); ১৯৩০-এর মহামন্দা প্রায় এক দশক চলেছিল, বেকারত্ব ছিল অনেক বেশি।
+
+**পরীক্ষার টিপস:** মন্দার সংজ্ঞার চারটি অংশ শেখো: **উল্লেখযোগ্য হ্রাস + পুরো অর্থনীতিজুড়ে + কয়েক মাসের বেশি + রিয়েল জিডিপি, আয়, কর্মসংস্থান, উৎপাদনে দৃশ্যমান।**
+
+
+
+### Slide 63 · Practice question 5 — which phase?
+*অনুশীলনী প্রশ্ন ৫ — কোন পর্যায়?*
+
+> Practice Question 5 If the economy is currently experiencing high growth and inflation combined with low unemployment, it is likely to be at which phase of the business cycle? A. recession or contraction B. expansion C. trough
+
+অনুশীলনী প্রশ্ন ৫ — অর্থনীতিতে বর্তমানে উচ্চ প্রবৃদ্ধি ও মূল্যস্ফীতির সাথে কম বেকারত্ব থাকলে সম্ভবত এটি ব্যবসা চক্রের কোন পর্যায়ে? A. মন্দা বা সংকোচন B. সম্প্রসারণ C. তলদেশ
+
+**Tutor explains:** **Answer: B — expansion.** High growth + rising prices (inflation) + low unemployment = the signals of expansion on slide 60. Recession/contraction would show **rising** unemployment; a trough is the **bottom**, not a period of high growth.
+
+**টিউটর বুঝিয়ে বলছেন:** **উত্তর: B — সম্প্রসারণ।** উচ্চ প্রবৃদ্ধি + বাড়তি দাম (মূল্যস্ফীতি) + কম বেকারত্ব = স্লাইড ৬০-এর সম্প্রসারণের সংকেত। মন্দা/সংকোচনে বেকারত্ব **বাড়ে**; তলদেশ হলো **তলা**, উচ্চ প্রবৃদ্ধির সময় নয়।
+
+
+
+### Slide 64 · Quick review
+*দ্রুত পুনরালোচনা*
+
+> Quick Review • What is economics? • What are planned and market economic systems and how do they differ? • What is the law of demand? • What is the law of supply? • What are market equilibrium, surplus, and shortage? • How do economists evaluate the health of an economy? • What are the four stages of the economy? How do they impact business operations?
+
+দ্রুত পুনরালোচনা • অর্থনীতি কী? • পরিকল্পিত ও বাজার অর্থনৈতিক ব্যবস্থা কী এবং কীভাবে আলাদা? • চাহিদার বিধি কী? • যোগানের বিধি কী? • বাজার ভারসাম্য, উদ্বৃত্ত ও ঘাটতি কী? • অর্থনীতিবিদরা কীভাবে অর্থনীতির স্বাস্থ্য মূল্যায়ন করেন? • অর্থনীতির চারটি পর্যায় কী? সেগুলো ব্যবসায়িক কার্যক্রমকে কীভাবে প্রভাবিত করে?
+
+**Tutor explains:** These seven review questions are exactly study questions 2.1–2.7 in plain words. Say each answer aloud in 3–4 sentences. If one feels weak, use the **Go to** menu to jump back to that lesson.
+
+**টিউটর বুঝিয়ে বলছেন:** এই সাতটি পুনরালোচনা প্রশ্ন সহজ ভাষায় হুবহু স্টাডি প্রশ্ন ২.১–২.৭। প্রতিটির উত্তর ৩–৪ বাক্যে জোরে বলো। কোনোটি দুর্বল মনে হলে **Go to** মেনু দিয়ে সেই পাঠে ফিরে যাও।
+
+
+
+## Quick check — Business cycle · দ্রুত যাচাই — ব্যবসা চক্র
+
+1. Which stage is the highest point of the business cycle, with maximum output and inflationary pressure?  
+   কোন পর্যায় ব্যবসা চক্রের সর্বোচ্চ বিন্দু, সর্বোচ্চ উৎপাদন ও মূল্যস্ফীতির চাপসহ?  
+   - A Trough · তলদেশ
+   - B Expansion · সম্প্রসারণ
+   - C Peak · শিখর
+   - D Contraction · সংকোচন
+   **Answer:** C — Peak: maximum allowable output, employment at or above full employment, and evident inflationary pressure.  
+   শিখর: সর্বোচ্চ সম্ভাব্য উৎপাদন, পূর্ণ বা তার বেশি কর্মসংস্থান, এবং স্পষ্ট মূল্যস্ফীতির চাপ।
+
+2. During a contraction, a business is MOST likely to…  
+   সংকোচনের সময় একটি ব্যবসা সবচেয়ে বেশি সম্ভাব্যভাবে…  
+   - A hire many new workers · অনেক নতুন কর্মী নিয়োগ দেবে
+   - B open new branches · নতুন শাখা খুলবে
+   - C cut costs and reduce production · খরচ কমাবে ও উৎপাদন কমাবে
+   - D raise prices sharply · দাম অনেক বাড়াবে
+   **Answer:** C — In a contraction growth slows and unemployment rises, so sales fall and firms cut costs and production.  
+   সংকোচনে প্রবৃদ্ধি ধীর ও বেকারত্ব বাড়ে, তাই বিক্রি কমে এবং প্রতিষ্ঠান খরচ ও উৎপাদন কমায়।
+
+3. If a recession continues and the economy does not begin to expand again, it may be called…  
+   মন্দা চলতে থাকলে এবং অর্থনীতি আবার সম্প্রসারিত না হলে একে বলা হতে পারে…  
+   - A an expansion · সম্প্রসারণ
+   - B a peak · শিখর
+   - C a depression · মহামন্দা
+   - D economies of scale · বৃহদায়তনের সুবিধা
+   **Answer:** C — Slide 62: if the economy does not begin to expand again, it may be considered to be in a depression.  
+   স্লাইড ৬২: অর্থনীতি আবার সম্প্রসারিত না হলে তাকে মহামন্দা অবস্থায় ধরা হতে পারে।
+
+## Put it together — tables and patterns · সব একসাথে — টেবিল ও প্যাটার্ন
+
+1. Movement vs shift — the rule that solves most demand/supply questions
+
+What changed?Demand sideSupply side
+
+The product's **own price**Change in **quantity demanded** — movement along DChange in **quantity supplied** — movement along S
+
+**Anything else**Change in **demand** — D shifts (income, preferences, substitutes/complements, expectations, population)Change in **supply** — S shifts (input costs, weather, technology, taxes/subsidies/regulation)
+
+2. The gasoline numbers from the slides
+
+PriceQuantity demandedQuantity suppliedResult
+
+$1.20700550Shortage of 150
+
+**$1.40****600****600****Equilibrium**
+
+$1.80500680Surplus of 180
+
+3. Economic systems
+
+MarketPlanned (command)Mixed
+
+Who decides what/how/for whom?Buyers and sellers (supply and demand)Government / ruling classBoth
+
+Who owns resources?Private individuals and firmsGovernmentBoth
+
+Prices set bySupply and demandGovernmentMostly markets, some government control
+
+4. Business cycle and business decisions
+
+StageSignalsWhat businesses do
+
+ExpansionJobs ↑, growth ↑, prices risingHire, invest, expand, launch products
+
+PeakMaximum output, full employment, inflationFull capacity; costs high; prepare for slowdown
+
+ContractionGrowth slows, unemployment ↑, price pressure easesCut costs, reduce stock, freeze hiring/lay off
+
+TroughThe fall stops — bottomPrepare to expand; buy assets cheaply
+
+5. Pairs that are easy to confuse
+
+- Micro (individuals) ↔ Macro (whole economy)
+- Monetary (central bank, interest rates) ↔ Fiscal (legislature, spending and taxes)
+- Leading (predicts 3–12 months ahead) ↔ Lagging (reports the past)
+- CPI (prices of a household basket) ↔ CCI (consumer optimism)
+- Recession (significant decline > a few months) ↔ Depression (no recovery)
+
+১. চলাচল বনাম স্থানান্তর — যে নিয়মে বেশিরভাগ চাহিদা/যোগান প্রশ্নের সমাধান
+
+কী বদলেছে?চাহিদার দিকযোগানের দিক
+
+পণ্যের **নিজের দাম****চাহিদার পরিমাণের** পরিবর্তন — D বরাবর চলাচল**যোগানের পরিমাণের** পরিবর্তন — S বরাবর চলাচল
+
+**অন্য যেকোনো কিছু****চাহিদার** পরিবর্তন — D সরে (আয়, পছন্দ, বিকল্প/পরিপূরক, প্রত্যাশা, জনসংখ্যা)**যোগানের** পরিবর্তন — S সরে (উপকরণের খরচ, আবহাওয়া, প্রযুক্তি, কর/ভর্তুকি/নিয়ম)
+
+২. স্লাইডের পেট্রলের সংখ্যা
+
+দামচাহিদার পরিমাণযোগানের পরিমাণফল
+
+$১.২০৭০০৫৫০১৫০ ঘাটতি
+
+**$১.৪০****৬০০****৬০০****ভারসাম্য**
+
+$১.৮০৫০০৬৮০১৮০ উদ্বৃত্ত
+
+৩. অর্থনৈতিক ব্যবস্থা
+
+বাজারপরিকল্পিত (কমান্ড)মিশ্র
+
+কী/কীভাবে/কার জন্য — কে ঠিক করে?ক্রেতা ও বিক্রেতা (চাহিদা ও যোগান)সরকার / শাসক শ্রেণিদুটোই
+
+সম্পদের মালিক কে?ব্যক্তি ও বেসরকারি প্রতিষ্ঠানসরকারদুটোই
+
+দাম ঠিক করেচাহিদা ও যোগানসরকারমূলত বাজার, কিছু সরকারি নিয়ন্ত্রণ
+
+৪. ব্যবসা চক্র ও ব্যবসায়িক সিদ্ধান্ত
+
+পর্যায়সংকেতব্যবসা কী করে
+
+সম্প্রসারণচাকরি ↑, প্রবৃদ্ধি ↑, দাম বাড়ছেনিয়োগ, বিনিয়োগ, সম্প্রসারণ, নতুন পণ্য
+
+শিখরসর্বোচ্চ উৎপাদন, পূর্ণ কর্মসংস্থান, মূল্যস্ফীতিপূর্ণ সক্ষমতা; খরচ বেশি; মন্দার প্রস্তুতি
+
+সংকোচনপ্রবৃদ্ধি ধীর, বেকারত্ব ↑, দামের চাপ কমেখরচ কমানো, মজুত কমানো, নিয়োগ বন্ধ/ছাঁটাই
+
+তলদেশপতন থামে — তলাসম্প্রসারণের প্রস্তুতি; সস্তায় সম্পদ কেনা
+
+৫. যে জোড়াগুলো সহজে গুলিয়ে যায়
+
+- ব্যষ্টি (ব্যক্তি) ↔ সামষ্টিক (পুরো অর্থনীতি)
+- মুদ্রানীতি (কেন্দ্রীয় ব্যাংক, সুদের হার) ↔ রাজস্বনীতি (আইনসভা, ব্যয় ও কর)
+- অগ্রবর্তী (৩–১২ মাস পরের পূর্বাভাস) ↔ পশ্চাৎবর্তী (অতীতের খবর)
+- CPI (পরিবারের ঝুড়ির দাম) ↔ CCI (ভোক্তার আশাবাদ)
+- মন্দা (কয়েক মাসের বেশি উল্লেখযোগ্য হ্রাস) ↔ মহামন্দা (পুনরুদ্ধার হয় না)
+
+## Exam answers — study questions 2.1 to 2.7 · পরীক্ষার উত্তর — স্টাডি প্রশ্ন ২.১ থেকে ২.৭
+
+2.1 Explain what economics is and why it is important (slides 3–16)
+
+Resources such as time, money, labor, tools, land and raw materials are limited — this is **scarcity** — so every individual, business and society must make choices. **Economics** is the study of those choices, and it matters because it helps us use scarce resources well. Every choice has an **opportunity cost**: what must be given up to obtain what is desired. Output can be increased through **division of labor** (splitting work into tasks done by different workers), **specialization** (focusing on tasks where one has an advantage) and **economies of scale** (average cost per unit falls as production increases). **Microeconomics** studies individual households, workers and firms; **macroeconomics** studies the whole economy (growth, unemployment, inflation), which governments influence through **monetary policy** (central bank — the Federal Reserve) and **fiscal policy** (government spending and taxes — Congress).
+
+2.2 Describe the major economic systems (slides 17–22)
+
+Every economic system answers three questions: what to produce, how and by whom, and who receives it. In a **market economy** these are decided by the interaction of supply and demand; a competitive market has many buyers and sellers so no one controls price, and a free market has no government intervention (though governments still keep the rule of law, provide public goods and correct market failures). In a **planned (command) economy** the government owns resources and businesses and decides what is produced, prices, methods and wages. A **mixed economy** combines both; most countries are now mixed, and globalization makes economies interdependent.
+
+2.3 Explain the law of demand (slides 23–31)
+
+**Demand** is the amount consumers are willing and able to buy at each price. **Law of demand:** other things equal (ceteris paribus), a higher price leads to a lower quantity demanded. The **demand curve** slopes downward. A change in the product's own price causes a **change in quantity demanded** (movement along the curve). A **change in demand** (shift of the whole curve) is caused by other factors: **income** (normal vs inferior goods), **preferences**, **population composition**, **prices of related goods** (substitutes, complements) and **expectations**.
+
+2.4 Explain the law of supply (slides 32–39)
+
+**Supply** is the amount producers are willing to supply at each price. **Law of supply:** a higher price leads to a higher quantity supplied, so the **supply curve** slopes upward (e.g. $1.00 → 500, $2.20 → 720 million gallons). A price change moves along the curve (change in quantity supplied). The curve **shifts** when the **cost of inputs** changes, or with **weather/natural conditions**, **technology** and **government policy** (taxes, subsidies, regulation): cheaper inputs or better technology shift supply right; higher costs or taxes shift it left.
+
+2.5 Explain market equilibrium, surplus and shortage (slides 40–46)
+
+**Equilibrium** price and quantity are where the supply and demand curves cross, because quantity demanded equals quantity supplied (slides: $1.40 and 600 million gallons). If the price is **above** equilibrium there is excess supply — a **surplus** (at $1.80: 680 − 500 = 180). If the price is **below** equilibrium there is excess demand — a **shortage** (at $1.20: 700 − 550 = 150). In either case market pressure pushes the price back to equilibrium, a natural function of a free market; at equilibrium the market is **efficient** (no one can be made better off without making someone worse off).
+
+2.6 Describe how economists evaluate the health of an economy (slides 47–55)
+
+Economists use **economic indicators** — statistics about the economy, either **leading** (predict 3–12 months ahead) or **lagging** (report the past) — to check three goals: **growth, high employment and price stability**. Growth is measured by **GDP**, the total value of goods and services produced within a country in a year (intermediate goods excluded to avoid double counting). Employment is checked through the **unemployment rate** (cyclical, structural, frictional). Price stability is checked through **inflation/deflation**, measured by the **CPI** (a household market basket of 8 groups). The **Consumer Confidence Index** shows how optimistic consumers are, which predicts spending.
+
+2.7 Identify the four stages of an economy and their impact on business (slides 56–64)
+
+The **business cycle** is the economy-wide expansions and contractions around a long-term growth trend, measured by real (inflation-adjusted) GDP growth.
+
+- **Expansion** — employment and growth increase, prices rise → businesses hire, invest and expand.
+- **Peak** — maximum output, full employment, inflation → firms operate at full capacity, costs are high.
+- **Contraction** — growth slows, unemployment rises, price pressure eases → firms cut costs, production and staff.
+- **Trough** — the decline stops at the bottom; the next stage is expansion → firms prepare to grow.
+
+A **recession** is a significant decline in activity across the economy lasting more than a few months; if the economy does not begin to expand again, it is a **depression**.
+
+২.১ অর্থনীতি কী এবং কেন গুরুত্বপূর্ণ (স্লাইড ৩–১৬)
+
+সময়, টাকা, শ্রম, যন্ত্রপাতি, জমি ও কাঁচামালের মতো সম্পদ সীমিত — এটাই **দুষ্প্রাপ্যতা** — তাই প্রত্যেক ব্যক্তি, ব্যবসা ও সমাজকে বেছে নিতে হয়। **অর্থনীতি** হলো এই সিদ্ধান্তের পাঠ, এবং এটি গুরুত্বপূর্ণ কারণ এটি সীমিত সম্পদ ভালোভাবে ব্যবহারে সাহায্য করে। প্রতিটি সিদ্ধান্তের একটি **সুযোগ ব্যয়** আছে: কাঙ্ক্ষিত কিছু পেতে যা ছাড়তে হয়। **শ্রমবিভাগ** (কাজকে ভাগ করে আলাদা শ্রমিক দিয়ে করানো), **বিশেষায়ণ** (যে কাজে সুবিধা আছে তাতে মনোযোগ) ও **বৃহদায়তনের সুবিধা** (উৎপাদন বাড়লে প্রতি এককের গড় খরচ কমে) দিয়ে উৎপাদন বাড়ানো যায়। **ব্যষ্টিক অর্থনীতি** আলাদা পরিবার, শ্রমিক ও প্রতিষ্ঠান নিয়ে; **সামষ্টিক অর্থনীতি** পুরো অর্থনীতি নিয়ে (প্রবৃদ্ধি, বেকারত্ব, মূল্যস্ফীতি), যা সরকার **মুদ্রানীতি** (কেন্দ্রীয় ব্যাংক — ফেডারেল রিজার্ভ) ও **রাজস্বনীতি** (সরকারি ব্যয় ও কর — কংগ্রেস) দিয়ে প্রভাবিত করে।
+
+২.২ প্রধান অর্থনৈতিক ব্যবস্থা (স্লাইড ১৭–২২)
+
+প্রতিটি অর্থনৈতিক ব্যবস্থা তিনটি প্রশ্নের উত্তর দেয়: কী উৎপাদন হবে, কীভাবে ও কে করবে, কে পাবে। **বাজার অর্থনীতিতে** চাহিদা ও যোগানের পারস্পরিক ক্রিয়ায় এগুলো ঠিক হয়; প্রতিযোগিতামূলক বাজারে অনেক ক্রেতা-বিক্রেতা থাকায় কেউ দাম নিয়ন্ত্রণ করে না, আর মুক্ত বাজারে সরকারের হস্তক্ষেপ নেই (তবুও সরকার আইনের শাসন রাখে, জনপণ্য দেয় ও বাজারের ভুল শোধরায়)। **পরিকল্পিত (কমান্ড) অর্থনীতিতে** সরকার সম্পদ ও ব্যবসার মালিক এবং কী উৎপাদন হবে, দাম, পদ্ধতি ও মজুরি ঠিক করে। **মিশ্র অর্থনীতি** দুটোর সমন্বয়; আজ বেশিরভাগ দেশ মিশ্র, আর বিশ্বায়ন অর্থনীতিগুলোকে পরস্পর নির্ভরশীল করছে।
+
+২.৩ চাহিদার বিধি (স্লাইড ২৩–৩১)
+
+**চাহিদা** হলো প্রতিটি দামে ভোক্তারা যে পরিমাণ কিনতে ইচ্ছুক ও সক্ষম। **চাহিদার বিধি:** অন্য সব সমান থাকলে (সেটেরিস প্যারিবাস), বেশি দাম কম চাহিদার পরিমাণ আনে। **চাহিদা রেখা** নিচে নামে। পণ্যের নিজের দাম বদলালে **চাহিদার পরিমাণের পরিবর্তন** (রেখা বরাবর চলাচল) হয়। **চাহিদার পরিবর্তন** (পুরো রেখার স্থানান্তর) হয় অন্য কারণে: **আয়** (স্বাভাবিক বনাম নিকৃষ্ট পণ্য), **পছন্দ**, **জনসংখ্যার গঠন**, **সম্পর্কিত পণ্যের দাম** (বিকল্প, পরিপূরক) ও **প্রত্যাশা**।
+
+২.৪ যোগানের বিধি (স্লাইড ৩২–৩৯)
+
+**যোগান** হলো প্রতিটি দামে উৎপাদকরা যে পরিমাণ যোগান দিতে ইচ্ছুক। **যোগানের বিধি:** বেশি দাম বেশি যোগানের পরিমাণ আনে, তাই **যোগান রেখা** উপরে ওঠে (যেমন $১.০০ → ৫০০, $২.২০ → ৭২০ মিলিয়ন গ্যালন)। দামের পরিবর্তন রেখা বরাবর চলাচল (যোগানের পরিমাণের পরিবর্তন)। রেখা **সরে যায়** যখন **উপকরণের খরচ** বদলায়, অথবা **আবহাওয়া/প্রাকৃতিক অবস্থা**, **প্রযুক্তি** ও **সরকারি নীতি** (কর, ভর্তুকি, নিয়ম) বদলায়: সস্তা উপকরণ বা উন্নত প্রযুক্তি যোগানকে ডানে, বেশি খরচ বা কর বামে সরায়।
+
+২.৫ বাজার ভারসাম্য, উদ্বৃত্ত ও ঘাটতি (স্লাইড ৪০–৪৬)
+
+**ভারসাম্য** দাম ও পরিমাণ সেখানে যেখানে যোগান ও চাহিদা রেখা ছেদ করে, কারণ সেখানে চাহিদার পরিমাণ = যোগানের পরিমাণ (স্লাইডে: $১.৪০ ও ৬০০ মিলিয়ন গ্যালন)। দাম ভারসাম্যের **উপরে** হলে অতিরিক্ত যোগান — **উদ্বৃত্ত** ($১.৮০-এ: ৬৮০ − ৫০০ = ১৮০)। দাম ভারসাম্যের **নিচে** হলে অতিরিক্ত চাহিদা — **ঘাটতি** ($১.২০-এ: ৭০০ − ৫৫০ = ১৫০)। উভয় ক্ষেত্রে বাজারের চাপ দামকে ভারসাম্যে ফেরায়, যা মুক্তবাজারের স্বাভাবিক কাজ; ভারসাম্যে বাজার **দক্ষ** (কাউকে ক্ষতি না করে কারও উন্নতি সম্ভব নয়)।
+
+২.৬ অর্থনীতির স্বাস্থ্য মূল্যায়ন (স্লাইড ৪৭–৫৫)
+
+অর্থনীতিবিদরা **অর্থনৈতিক নির্দেশক** — অর্থনীতি সম্পর্কে পরিসংখ্যান, যা **অগ্রবর্তী** (৩–১২ মাস পরের পূর্বাভাস) বা **পশ্চাৎবর্তী** (অতীতের খবর) — দিয়ে তিনটি লক্ষ্য যাচাই করেন: **প্রবৃদ্ধি, উচ্চ কর্মসংস্থান ও মূল্য স্থিতিশীলতা**। প্রবৃদ্ধি মাপা হয় **জিডিপি** দিয়ে — এক বছরে দেশের ভেতরে উৎপাদিত পণ্য ও সেবার মোট মূল্য (দুবার গণনা এড়াতে মধ্যবর্তী পণ্য বাদ)। কর্মসংস্থান যাচাই হয় **বেকারত্বের হার** দিয়ে (চক্রাকার, কাঠামোগত, ঘর্ষণজনিত)। মূল্য স্থিতিশীলতা যাচাই হয় **মূল্যস্ফীতি/মূল্যহ্রাস** দিয়ে, যা **CPI** (৮টি গোষ্ঠীর পারিবারিক বাজার ঝুড়ি) দিয়ে মাপা হয়। **ভোক্তা আস্থা সূচক** দেখায় ভোক্তারা কতটা আশাবাদী, যা খরচের পূর্বাভাস দেয়।
+
+২.৭ অর্থনীতির চার পর্যায় ও ব্যবসায় প্রভাব (স্লাইড ৫৬–৬৪)
+
+**ব্যবসা চক্র** হলো দীর্ঘমেয়াদি প্রবৃদ্ধির প্রবণতার চারপাশে অর্থনীতিব্যাপী সম্প্রসারণ ও সংকোচন, যা রিয়েল (মূল্যস্ফীতি-সমন্বিত) জিডিপির প্রবৃদ্ধি দিয়ে মাপা হয়।
+
+- **সম্প্রসারণ** — কর্মসংস্থান ও প্রবৃদ্ধি বাড়ে, দাম বাড়ে → ব্যবসা নিয়োগ, বিনিয়োগ ও সম্প্রসারণ করে।
+- **শিখর** — সর্বোচ্চ উৎপাদন, পূর্ণ কর্মসংস্থান, মূল্যস্ফীতি → প্রতিষ্ঠান পূর্ণ সক্ষমতায় চলে, খরচ বেশি।
+- **সংকোচন** — প্রবৃদ্ধি ধীর, বেকারত্ব বাড়ে, দামের চাপ কমে → প্রতিষ্ঠান খরচ, উৎপাদন ও কর্মী কমায়।
+- **তলদেশ** — পতন তলায় থামে; পরের পর্যায় সম্প্রসারণ → প্রতিষ্ঠান বৃদ্ধির প্রস্তুতি নেয়।
+
+**মন্দা** হলো পুরো অর্থনীতিজুড়ে কয়েক মাসের বেশি স্থায়ী উল্লেখযোগ্য হ্রাস; অর্থনীতি আবার সম্প্রসারিত না হলে তা **মহামন্দা**।
+
+## Module 2 quiz — 10 questions · মডিউল ২ কুইজ — ১০টি প্রশ্ন
+
+1. Scarcity means…  
+   দুষ্প্রাপ্যতা মানে…  
+   - A resources are unlimited · সম্পদ অসীম
+   - B resources are limited, so there are never enough to meet all needs and wants · সম্পদ সীমিত, তাই সব চাওয়া মেটানোর মতো যথেষ্ট কখনো থাকে না
+   - C prices are always high · দাম সবসময় বেশি
+   - D only poor countries face choices · শুধু গরিব দেশকে বেছে নিতে হয়
+   **Answer:** B — Scarcity: valued resources exist in limited supply, so every society at every level must make choices.  
+   দুষ্প্রাপ্যতা: মূল্যবান সম্পদ সীমিত, তাই প্রতিটি সমাজকে প্রতিটি স্তরে বেছে নিতে হয়।
+
+2. Fiscal policy involves…  
+   রাজস্বনীতি হলো…  
+   - A interest rates set by the central bank · কেন্দ্রীয় ব্যাংকের ঠিক করা সুদের হার
+   - B government spending and taxes set by the legislature · আইনসভার ঠিক করা সরকারি ব্যয় ও কর
+   - C supply and demand · চাহিদা ও যোগান
+   - D the division of labor · শ্রমবিভাগ
+   **Answer:** B — Fiscal policy = government spending and taxes, determined by the legislature (Congress in the US). Monetary policy is the central bank's.  
+   রাজস্বনীতি = সরকারি ব্যয় ও কর, আইনসভা নির্ধারণ করে (যুক্তরাষ্ট্রে কংগ্রেস)। মুদ্রানীতি কেন্দ্রীয় ব্যাংকের।
+
+3. In a free market economy, what is produced and at what price is decided by…  
+   মুক্ত বাজার অর্থনীতিতে কী উৎপাদন হবে ও কী দামে, তা ঠিক করে…  
+   - A the ruling class · শাসক শ্রেণি
+   - B a central planning office · কেন্দ্রীয় পরিকল্পনা দপ্তর
+   - C the interaction of supply and demand · চাহিদা ও যোগানের পারস্পরিক ক্রিয়া
+   - D the central bank only · শুধু কেন্দ্রীয় ব্যাংক
+   **Answer:** C — In a market economy, decisions about products and prices are determined through the interaction of supply and demand.  
+   বাজার অর্থনীতিতে পণ্য ও দামের সিদ্ধান্ত চাহিদা ও যোগানের পারস্পরিক ক্রিয়ায় ঠিক হয়।
+
+4. "Ceteris paribus" means…  
+   "সেটেরিস প্যারিবাস" মানে…  
+   - A prices always rise · দাম সবসময় বাড়ে
+   - B all other things held equal · অন্য সব কিছু সমান রেখে
+   - C supply equals demand · যোগান = চাহিদা
+   - D let the market decide · বাজারকে সিদ্ধান্ত নিতে দাও
+   **Answer:** B — A demand or supply curve assumes no relevant factor other than price is changing — all else held equal.  
+   চাহিদা বা যোগান রেখা ধরে নেয় দাম ছাড়া আর কিছু বদলাচ্ছে না — বাকি সব সমান।
+
+5. The price of milk falls. What happens to the demand for breakfast cereal (a complement)?  
+   দুধের দাম কমল। ব্রেকফাস্ট সিরিয়ালের (পরিপূরক) চাহিদার কী হবে?  
+   - A It increases (shifts right) · বাড়বে (ডানে সরবে)
+   - B It decreases (shifts left) · কমবে (বামে সরবে)
+   - C Only quantity demanded changes · শুধু চাহিদার পরিমাণ বদলাবে
+   - D Nothing · কিছুই না
+   **Answer:** A — Complements are used together: cheaper milk means people buy more milk and more cereal, so cereal demand shifts right.  
+   পরিপূরক একসাথে ব্যবহৃত হয়: দুধ সস্তা হলে মানুষ বেশি দুধ ও বেশি সিরিয়াল কেনে, তাই সিরিয়ালের চাহিদা ডানে সরে।
+
+6. A government subsidy to rice farmers will most likely…  
+   ধানচাষিদের সরকারি ভর্তুকি সম্ভবত…  
+   - A shift rice supply left · চালের যোগান বামে সরাবে
+   - B shift rice supply right · চালের যোগান ডানে সরাবে
+   - C shift rice demand left · চালের চাহিদা বামে সরাবে
+   - D create a surplus of demand · চাহিদার উদ্বৃত্ত তৈরি করবে
+   **Answer:** B — Subsidies lower production costs, so farmers supply more at every price — supply shifts right.  
+   ভর্তুকি উৎপাদন খরচ কমায়, তাই কৃষকরা প্রতিটি দামে বেশি যোগান দেন — যোগান ডানে সরে।
+
+7. When the price is BELOW equilibrium…  
+   দাম ভারসাম্যের নিচে থাকলে…  
+   - A a surplus exists and prices fall · উদ্বৃত্ত থাকে ও দাম কমে
+   - B a shortage exists and prices tend to rise · ঘাটতি থাকে ও দাম বাড়ার প্রবণতা থাকে
+   - C the market is efficient · বাজার দক্ষ
+   - D supply shifts left · যোগান বামে সরে
+   **Answer:** B — Below equilibrium, quantity demanded exceeds quantity supplied (shortage); pressure pushes price up toward equilibrium.  
+   ভারসাম্যের নিচে চাহিদার পরিমাণ যোগানের চেয়ে বেশি (ঘাটতি); চাপ দামকে ভারসাম্যের দিকে তোলে।
+
+8. Which of these is one of the three main economic goals of market economies?  
+   বাজার অর্থনীতির তিনটি প্রধান লক্ষ্যের একটি কোনটি?  
+   - A Hyperinflation · অতিমূল্যস্ফীতি
+   - B Price stability · মূল্য স্থিতিশীলতা
+   - C High unemployment · উচ্চ বেকারত্ব
+   - D Deflation · মূল্যহ্রাস
+   **Answer:** B — The three goals: growth, high employment and price stability.  
+   তিনটি লক্ষ্য: প্রবৃদ্ধি, উচ্চ কর্মসংস্থান ও মূল্য স্থিতিশীলতা।
+
+9. A fresh graduate is between jobs while searching for the right one. This is…  
+   একজন নতুন গ্র্যাজুয়েট উপযুক্ত চাকরি খুঁজতে খুঁজতে দুই চাকরির মাঝে আছেন। এটি…  
+   - A cyclical unemployment · চক্রাকার বেকারত্ব
+   - B structural unemployment · কাঠামোগত বেকারত্ব
+   - C frictional unemployment · ঘর্ষণজনিত বেকারত্ব
+   - D a recession · মন্দা
+   **Answer:** C — Frictional (search) unemployment is the time between jobs while searching or transitioning.  
+   ঘর্ষণজনিত (অনুসন্ধান) বেকারত্ব হলো খোঁজা বা বদলানোর সময়ে দুই চাকরির মাঝের সময়।
+
+10. Which correctly lists the stages of the business cycle in order, starting from the bottom?  
+   তলা থেকে শুরু করে ব্যবসা চক্রের পর্যায়গুলোর সঠিক ক্রম কোনটি?  
+   - A Peak → trough → expansion → contraction · শিখর → তলদেশ → সম্প্রসারণ → সংকোচন
+   - B Trough → expansion → peak → contraction · তলদেশ → সম্প্রসারণ → শিখর → সংকোচন
+   - C Expansion → trough → peak → contraction · সম্প্রসারণ → তলদেশ → শিখর → সংকোচন
+   - D Contraction → peak → trough → expansion · সংকোচন → শিখর → তলদেশ → সম্প্রসারণ
+   **Answer:** B — From the trough (bottom) the economy expands to a peak, then contracts back to a trough.  
+   তলদেশ (তলা) থেকে অর্থনীতি সম্প্রসারিত হয়ে শিখরে যায়, তারপর সংকুচিত হয়ে আবার তলদেশে নামে।
+
+## Module 2 summary — one page · মডিউল ২ সারাংশ — এক পৃষ্ঠা
+
+- **Scarcity** → choices → **opportunity cost** (every choice has one).
+- **Division of labor** (split tasks), **specialization** (focus on your advantage), **economies of scale** (more output → lower average cost).
+- **Micro** = individual agents; **macro** = whole economy. **Monetary policy** = central bank, interest rates (Federal Reserve). **Fiscal policy** = spending and taxes (Congress/budget).
+- **Systems:** market (supply and demand), planned/command (government), mixed (both; most countries).
+- **Law of demand:** price ↑ → quantity demanded ↓ (curve slopes down). Shifters: income, preferences, population, substitutes/complements, expectations.
+- **Law of supply:** price ↑ → quantity supplied ↑ (curve slopes up). Shifters: input costs, weather, technology, taxes/subsidies/regulation.
+- **Own price → movement along; anything else → shift.**
+- **Equilibrium** where S = D ($1.40, 600). Above → **surplus**; below → **shortage**; pressure returns price to equilibrium.
+- **Health of the economy:** goals = growth (GDP), high employment (cyclical/structural/frictional), price stability (inflation, CPI); plus CCI; leading vs lagging indicators.
+- **Business cycle:** expansion → peak → contraction → trough; measured by real GDP. **Recession** = significant decline > a few months; **depression** = no recovery.
+
+**Next:** Module 3 — Global Environment (why nations trade, measuring trade, entering global markets, trade barriers and agreements).
+
+- **দুষ্প্রাপ্যতা** → বেছে নেওয়া → **সুযোগ ব্যয়** (প্রতিটি সিদ্ধান্তে আছে)।
+- **শ্রমবিভাগ** (কাজ ভাগ), **বিশেষায়ণ** (নিজের সুবিধায় মনোযোগ), **বৃহদায়তনের সুবিধা** (বেশি উৎপাদন → কম গড় খরচ)।
+- **ব্যষ্টি** = আলাদা এজেন্ট; **সামষ্টিক** = পুরো অর্থনীতি। **মুদ্রানীতি** = কেন্দ্রীয় ব্যাংক, সুদের হার (ফেডারেল রিজার্ভ)। **রাজস্বনীতি** = ব্যয় ও কর (কংগ্রেস/বাজেট)।
+- **ব্যবস্থা:** বাজার (চাহিদা ও যোগান), পরিকল্পিত/কমান্ড (সরকার), মিশ্র (দুটোই; বেশিরভাগ দেশ)।
+- **চাহিদার বিধি:** দাম ↑ → চাহিদার পরিমাণ ↓ (রেখা নামে)। স্থানান্তরের কারণ: আয়, পছন্দ, জনসংখ্যা, বিকল্প/পরিপূরক, প্রত্যাশা।
+- **যোগানের বিধি:** দাম ↑ → যোগানের পরিমাণ ↑ (রেখা ওঠে)। স্থানান্তরের কারণ: উপকরণের খরচ, আবহাওয়া, প্রযুক্তি, কর/ভর্তুকি/নিয়ম।
+- **নিজের দাম → রেখা বরাবর চলাচল; অন্য কিছু → স্থানান্তর।**
+- **ভারসাম্য** যেখানে S = D ($১.৪০, ৬০০)। উপরে → **উদ্বৃত্ত**; নিচে → **ঘাটতি**; চাপ দামকে ভারসাম্যে ফেরায়।
+- **অর্থনীতির স্বাস্থ্য:** লক্ষ্য = প্রবৃদ্ধি (জিডিপি), উচ্চ কর্মসংস্থান (চক্রাকার/কাঠামোগত/ঘর্ষণজনিত), মূল্য স্থিতিশীলতা (মূল্যস্ফীতি, CPI); সাথে CCI; অগ্রবর্তী বনাম পশ্চাৎবর্তী নির্দেশক।
+- **ব্যবসা চক্র:** সম্প্রসারণ → শিখর → সংকোচন → তলদেশ; রিয়েল জিডিপি দিয়ে মাপা। **মন্দা** = কয়েক মাসের বেশি উল্লেখযোগ্য হ্রাস; **মহামন্দা** = পুনরুদ্ধার নেই।
+
+**পরবর্তী:** মডিউল ৩ — বৈশ্বিক পরিবেশ (দেশগুলো কেন বাণিজ্য করে, বাণিজ্য পরিমাপ, বৈশ্বিক বাজারে প্রবেশ, বাণিজ্য বাধা ও চুক্তি)।
