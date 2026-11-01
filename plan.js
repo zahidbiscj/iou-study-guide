@@ -139,6 +139,7 @@
   function css() {
     var st = document.createElement('style');
     st.textContent = '.plan{margin:34px 0 8px}.plan h2{font-size:22px;margin:0 0 4px;color:var(--brand)}.plan .sub{color:var(--muted);font-size:14px;margin-bottom:14px}' +
+      '#plTop .pl-card{padding:10px 12px;margin:8px 0}#plTop .pl-mod{padding:6px 0}#plTop .pl-mod small{font-size:11px}#plTop .pl-bar{height:5px;margin-top:4px}#plTop .pl-card>div{margin-top:6px!important}' +
       '.pl-card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:16px;margin:12px 0}' +
       '.pl-top{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px}' +
       '.pl-stat{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:12px}.pl-stat b{display:block;font-size:24px;color:var(--brand)}.pl-stat span{font-size:12px;color:var(--muted)}' +
@@ -273,7 +274,7 @@
     h += '<div class="pl-card"><div style="display:flex;justify-content:space-between;font-size:13px"><b>You vs the plan</b><span>you ' + r1(eq) + ' · plan ' + expEnd + ' of ' + totalN + ' modules</span></div>' +
       '<div class="pl-bar"><i style="width:' + Math.round(eq / totalN * 100) + '%"></i></div><div class="pl-bar"><i style="width:' + Math.round(expEnd / totalN * 100) + '%;background:#c9b458"></i></div>' +
       '<div style="font-size:11px;color:var(--muted)">green = you · yellow = where the plan says you should be today · সবুজ = তুমি, হলুদ = পরিকল্পনা</div></div>';
-    h += '<!--PL:TOP-->' + '<div style="font-size:14px;font-weight:700;color:var(--brand);margin:2px 0 6px">👇 Module-er naam ba Start → e click koro · Click a module to start</div>' + dayCard(tDay, before ? 'First day' : 'Today · আজ') + '<details style="margin-top:6px"><summary style="cursor:pointer;font-weight:700;padding:6px 0">📅 Tomorrow · আগামীকাল — tap to open' + (nDay && !nDay.rest && !nDay.rev ? ' (' + nDay.parts.map(function (pt) { return SUBJ[pt.sub].name; }).join(' + ') + ')' : '') + '</summary>' + dayCard(nDay, before ? 'Day 2' : 'Tomorrow · আগামীকাল') + '</details>';
+    h += '<!--PL:TOP-->' + dayCard(tDay, before ? 'First day' : 'Today · আজ') + dayCard(nDay, before ? 'Day 2' : 'Tomorrow · আগামীকাল');
     /* by subject */
     h += '<!--PL:SUBJ-->' + '<div class="pl-card"><b>By subject · বিষয় অনুযায়ী</b> <span style="font-size:12px;color:var(--muted)">(tap a subject to see every module)</span><div class="pl-sp" style="margin-top:8px">';
     ORDER.forEach(function (k) {
