@@ -237,7 +237,7 @@
     var tDay = idx >= 0 ? plan[idx] : (before ? plan[0] : null), nDay = idx >= 0 ? plan[idx + 1] : (before ? plan[1] : null);
 
     var h = '<h2>📊 Student Progress Report · শিক্ষার্থীর অগ্রগতি রিপোর্ট</h2><div class="sub">Updates by itself as you study — no ticking. A module counts as <b>completed</b> only when you have opened <b>every step</b> and <b>finished its 5-question quiz</b>. · নিজে নিজেই আপডেট হয়; মডিউল শেষ = সব ধাপ + কুইজ শেষ।</div>';
-    h += '<div class="pl-top">' +
+    h += '<!--PL:REST-->' + '<div class="pl-top">' +
       '<div class="pl-stat"><b>' + overall + '%</b><span>Overall progress</span></div>' +
       '<div class="pl-stat"><b>' + doneN + '/' + totalN + '</b><span>Modules completed</span></div>' +
       '<div class="pl-stat"><b>' + qN + '/' + totalN + '</b><span>Quizzes finished</span></div>' +
@@ -273,9 +273,9 @@
     h += '<div class="pl-card"><div style="display:flex;justify-content:space-between;font-size:13px"><b>You vs the plan</b><span>you ' + r1(eq) + ' · plan ' + expEnd + ' of ' + totalN + ' modules</span></div>' +
       '<div class="pl-bar"><i style="width:' + Math.round(eq / totalN * 100) + '%"></i></div><div class="pl-bar"><i style="width:' + Math.round(expEnd / totalN * 100) + '%;background:#c9b458"></i></div>' +
       '<div style="font-size:11px;color:var(--muted)">green = you · yellow = where the plan says you should be today · সবুজ = তুমি, হলুদ = পরিকল্পনা</div></div>';
-    h += dayCard(tDay, before ? 'First day' : 'Today · আজ') + dayCard(nDay, before ? 'Day 2' : 'Tomorrow · আগামীকাল');
+    h += '<!--PL:TOP-->' + dayCard(tDay, before ? 'First day' : 'Today · আজ') + dayCard(nDay, before ? 'Day 2' : 'Tomorrow · আগামীকাল');
     /* by subject */
-    h += '<div class="pl-card"><b>By subject · বিষয় অনুযায়ী</b> <span style="font-size:12px;color:var(--muted)">(tap a subject to see every module)</span><div class="pl-sp" style="margin-top:8px">';
+    h += '<!--PL:SUBJ-->' + '<div class="pl-card"><b>By subject · বিষয় অনুযায়ী</b> <span style="font-size:12px;color:var(--muted)">(tap a subject to see every module)</span><div class="pl-sp" style="margin-top:8px">';
     ORDER.forEach(function (k) {
       var l = mods[k], dn = 0, f = 0, ex = 0, mm = 0, dm = 0;
       l.forEach(function (m) { var i = INFO[m.id]; if (i.complete) dn++; f += i.frac; mm += m.mins; dm += m.mins * i.frac; });
@@ -292,7 +292,7 @@
     var days = lg.days || {}, doneBy = {};
     Object.keys(lg.done || {}).forEach(function (id) { doneBy[lg.done[id]] = (doneBy[lg.done[id]] || 0) + 1; });
     var mx = Math.max.apply(null, plan.map(function (d) { return Math.max(d.mods.length, doneBy[d.date] || 0); }).concat([1]));
-    h += '<div class="pl-card"><b>Daily progress · প্রতিদিনের অগ্রগতি</b> <span style="font-size:12px;color:var(--muted)">grey = planned modules, green = modules you completed</span><div class="pl-chart">';
+    h += '<!--PL:CHART-->' + '<div class="pl-card"><b>Daily progress · প্রতিদিনের অগ্রগতি</b> <span style="font-size:12px;color:var(--muted)">grey = planned modules, green = modules you completed</span><div class="pl-chart">';
     plan.forEach(function (d) { h += '<div title="' + nice(d.date) + ': planned ' + d.mods.length + ', completed ' + (doneBy[d.date] || 0) + '"><i class="p" style="height:' + Math.round(d.mods.length / mx * 100) + '%"></i><i class="d" style="height:' + Math.round((doneBy[d.date] || 0) / mx * 100) + '%"></i></div>'; });
     h += '</div>';
     var ds = Object.keys(days).filter(function (d) { return days[d].s || days[d].q || days[d].m; }).sort().reverse();
@@ -300,7 +300,7 @@
       '<p style="color:var(--muted);font-size:13px;margin:8px 0 0">Your daily activity will appear here after you study.</p>';
     h += '</div>';
     /* timetable */
-    h += '<details class="pl-card"' + (after ? ' open' : '') + '><summary>Full 30-day timetable · সম্পূর্ণ সময়সূচি</summary><div class="pl-days" style="margin-top:10px">';
+    h += '<!--PL:REST-->' + '<details class="pl-card"' + (after ? ' open' : '') + '><summary>Full 30-day timetable · সম্পূর্ণ সময়সূচি</summary><div class="pl-days" style="margin-top:10px">';
     plan.forEach(function (d) {
       var dn = d.mods.filter(function (m) { return INFO[m.id].complete; }).length, st;
       if (d.rest) st = '😴 rest';
@@ -322,7 +322,10 @@
       '<button class="pl-go" id="plIcs" type="button">📅 Add to phone calendar (.ics)</button><button class="pl-go" id="plNote" type="button">🔔 Notify me when I open the site</button></div>' +
       '<p style="font-size:12px;color:var(--muted);margin:8px 0 0">The calendar file adds one reminder per study day (1–30 Nov, skipping rest days) with that day\'s subjects and modules — import it into Google/Apple Calendar and your phone will remind you. The browser notification works only when the site is open. · ক্যালেন্ডার ফাইল ইমপোর্ট করলে প্রতিদিন ফোনে রিমাইন্ডার আসবে।</p></div>';
     h += '<p style="font-size:12px;color:var(--muted)">ℹ️ The report is saved in <b>this browser</b> and is private to whoever is using it — each student sees their own progress. Opening the site on another phone or computer starts a fresh report. · রিপোর্টটি এই ব্রাউজারে সংরক্ষিত।</p>';
-    root.innerHTML = h;
+    var seg = h.split(/<!--PL:(TOP|CHART|SUBJ|REST)-->/), out = { TOP: seg[0], CHART: '', SUBJ: '', REST: '' };
+    for (var q = 1; q < seg.length; q += 2) out[seg[q]] += seg[q + 1];
+    $('#plTop', root).innerHTML = out.TOP; $('#plChart', root).innerHTML = out.CHART;
+    $('#plSubj', root).innerHTML = out.SUBJ; $('#plRest', root).innerHTML = out.REST;
     var nameEl = $('#plName', root), who = function () { return (nameEl && nameEl.value.trim()) || 'Student'; };
     var summary = function () { return '📊 ' + who() + ' — IOU study progress\n' + overall + '% overall · ' + doneN + '/' + totalN + ' modules + quizzes done\n🔥 streak ' + streak + ' day(s) · ' + daysLeft + ' days left to 30 Nov\n' + (eq >= expEnd ? '✅ on/ahead of plan' : '⚠️ behind plan') + '\n' + location.origin + location.pathname; };
     nameEl.addEventListener('change', function () { try { localStorage.setItem('plan-name', nameEl.value.trim()); } catch (e) { /* storage unavailable */ } });
