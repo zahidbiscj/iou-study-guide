@@ -236,7 +236,7 @@
     var idx = plan.map(function (d) { return d.date; }).indexOf(today);
     var tDay = idx >= 0 ? plan[idx] : (before ? plan[0] : null), nDay = idx >= 0 ? plan[idx + 1] : (before ? plan[1] : null);
 
-    var h = '<h2>📊 Student Progress Report · শিক্ষার্থীর অগ্রগতি রিপোর্ট</h2><div class="sub">Updates by itself as you study — no ticking. A module counts as <b>completed</b> only when you have opened <b>every step</b> and <b>finished its 5-question quiz</b>. · নিজে নিজেই আপডেট হয়; মডিউল শেষ = সব ধাপ + কুইজ শেষ।</div>';
+    var h = '<!--PL:REST--><h2>📊 Student Progress Report · শিক্ষার্থীর অগ্রগতি রিপোর্ট</h2><div class="sub">Updates by itself as you study — no ticking. A module counts as <b>completed</b> only when you have opened <b>every step</b> and <b>finished its 5-question quiz</b>. · নিজে নিজেই আপডেট হয়; মডিউল শেষ = সব ধাপ + কুইজ শেষ।</div>';
     h += '<!--PL:REST-->' + '<div class="pl-top">' +
       '<div class="pl-stat"><b>' + overall + '%</b><span>Overall progress</span></div>' +
       '<div class="pl-stat"><b>' + doneN + '/' + totalN + '</b><span>Modules completed</span></div>' +
@@ -273,7 +273,7 @@
     h += '<div class="pl-card"><div style="display:flex;justify-content:space-between;font-size:13px"><b>You vs the plan</b><span>you ' + r1(eq) + ' · plan ' + expEnd + ' of ' + totalN + ' modules</span></div>' +
       '<div class="pl-bar"><i style="width:' + Math.round(eq / totalN * 100) + '%"></i></div><div class="pl-bar"><i style="width:' + Math.round(expEnd / totalN * 100) + '%;background:#c9b458"></i></div>' +
       '<div style="font-size:11px;color:var(--muted)">green = you · yellow = where the plan says you should be today · সবুজ = তুমি, হলুদ = পরিকল্পনা</div></div>';
-    h += '<!--PL:TOP-->' + '<div class="pl-card" style="border-color:var(--brand-2,#2f7d5b);background:var(--paper)"><b>👇 এখান থেকে শুরু · Start here</b><div style="font-size:14px;margin-top:4px">আজ ও আগামীকালের পড়া নিচে। মডিউলের নাম বা <b>Start / Continue →</b> বোতামে ক্লিক করো। মডিউলের সব ধাপ ও ৫-প্রশ্নের কুইজ শেষ হলে অগ্রগতি নিজে থেকে আপডেট হবে।<br><span style="color:var(--muted)">Click a module name or the Start / Continue → button. Finish every step and its 5-question quiz — your progress updates by itself.</span></div></div>' + dayCard(tDay, before ? 'First day' : 'Today · আজ') + dayCard(nDay, before ? 'Day 2' : 'Tomorrow · আগামীকাল');
+    h += '<!--PL:TOP-->' + '<div style="font-size:14px;font-weight:700;color:var(--brand);margin:2px 0 6px">👇 Module-er naam ba Start → e click koro · Click a module to start</div>' + dayCard(tDay, before ? 'First day' : 'Today · আজ') + '<details style="margin-top:6px"><summary style="cursor:pointer;font-weight:700;padding:6px 0">📅 Tomorrow · আগামীকাল — tap to open' + (nDay && !nDay.rest && !nDay.rev ? ' (' + nDay.parts.map(function (pt) { return SUBJ[pt.sub].name; }).join(' + ') + ')' : '') + '</summary>' + dayCard(nDay, before ? 'Day 2' : 'Tomorrow · আগামীকাল') + '</details>';
     /* by subject */
     h += '<!--PL:SUBJ-->' + '<div class="pl-card"><b>By subject · বিষয় অনুযায়ী</b> <span style="font-size:12px;color:var(--muted)">(tap a subject to see every module)</span><div class="pl-sp" style="margin-top:8px">';
     ORDER.forEach(function (k) {
