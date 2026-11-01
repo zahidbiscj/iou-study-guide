@@ -34,7 +34,7 @@ TITLES = [
     (1, 'Nature of Economics, Scarcity & the PPC', 'অর্থনীতির প্রকৃতি, দুষ্প্রাপ্যতা ও উৎপাদন সম্ভাবনা রেখা'),
     (2, 'Economic Systems & the Circular Flow', 'অর্থনৈতিক ব্যবস্থা ও আয়ের বৃত্তাকার প্রবাহ'),
     (3, 'Demand, Supply & Market Equilibrium', 'চাহিদা, যোগান ও বাজার ভারসাম্য'),
-    (4, 'Government Intervention & Price Elasticity of Demand', 'সরকারি হস্তক্ষেপ ও চাহিদার দাম স্থিতিস্থাপকতা'),
+    (4, 'Double Shifts & Price Elasticity of Demand', 'যুগপৎ সরণ ও চাহিদার দাম স্থিতিস্থাপকতা'),
     (5, 'PED & Total Revenue, Elasticity of Supply, Income & Cross Elasticity', 'PED ও মোট আয়, যোগানের স্থিতিস্থাপকতা, আয় ও আড়াআড়ি স্থিতিস্থাপকতা'),
     (6, 'Economic Costs & Short-Run Production', 'অর্থনৈতিক ব্যয় ও স্বল্পমেয়াদি উৎপাদন'),
     (7, 'Short-Run & Long-Run Costs, Economies of Scale', 'স্বল্প ও দীর্ঘমেয়াদি ব্যয়, বৃহদায়তন উৎপাদনের সুবিধা'),

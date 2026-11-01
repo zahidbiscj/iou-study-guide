@@ -180,3 +180,156 @@ raw('circ2',
     + '<text x="190" y="146" text-anchor="middle" class="sm">green = money</text><text x="190" y="160" text-anchor="middle" class="sm">gold = real things</text></g></svg>',
     'The slide 17 picture (McConnell & Brue, Fig 2.2): two markets. Households sell resources in the resource market and buy products in the product market; businesses do the opposite.',
     'স্লাইড ১৭-এর ছবি (ম্যাককনেল ও ব্রু, চিত্র ২.২): দুটি বাজার। পরিবার সম্পদ বাজারে সম্পদ বিক্রি করে ও পণ্য বাজারে পণ্য কেনে; ব্যবসা করে ঠিক উল্টোটা।')
+
+# =====================================================================
+# Lecture 3 — demand, supply, equilibrium, government intervention
+# =====================================================================
+D0 = ((10, 90), (90, 10)); S0 = ((10, 10), (90, 90))
+def clip(x1, y1, x2, y2, lo=0.0, hi=98.0):
+    """Clip a segment to the plot box (Liang-Barsky)."""
+    dx, dy = x2 - x1, y2 - y1; t0, t1 = 0.0, 1.0
+    for p_, q_ in ((-dx, x1 - lo), (dx, hi - x1), (-dy, y1 - lo), (dy, hi - y1)):
+        if p_ == 0:
+            if q_ < 0: return None
+            continue
+        r = q_ / p_
+        if p_ < 0: t0 = max(t0, r)
+        else: t1 = min(t1, r)
+    if t0 > t1: return None
+    return x1 + t0 * dx, y1 + t0 * dy, x1 + t1 * dx, y1 + t1 * dy
+
+def ln(seg, cls, name, dx=0, dy=0, dash=False, lab_at=1):
+    (x1, y1), (x2, y2) = seg
+    x1, y1, x2, y2 = clip(x1 + dx, y1 + dy, x2 + dx, y2 + dy, 2, 94); dx = dy = 0
+    it = [('ln', x1 + dx, y1 + dy, x2 + dx, y2 + dy, cls, dash)]
+    lx, ly = (x2 + dx, y2 + dy) if lab_at else (x1 + dx, y1 + dy)
+    it.append(('tx', lx + 1.5, ly + 1, name, 't' + cls[-1]))
+    return it
+
+# demand schedule for computers (slide 8/9): P 2000..1200, Q 1000..5000
+pts = [(1000, 2000), (2000, 1800), (3000, 1600), (4000, 1400), (5000, 1200)]
+def mq(q): return q / 60.0
+def mp(p): return (p - 1000) / 12.0
+items = [('cu', [(mq(q), mp(p)) for q, p in pts], 'l1'), ('tx', mq(5000) + 1, mp(1200) - 4, 'D', 't1')]
+for q, p in pts:
+    items += [('pt', mq(q), mp(p)), ('gd', mq(q), mp(p)), ('xt', mq(q), '%d' % q), ('yt', mp(p), '$%d' % p)]
+plot('dcurve', 'Quantity of computers demanded per week', 'Price ($)', items,
+     'The demand schedule (slide 8) plotted as a demand curve: each row of the table is one point. Higher price → lower quantity demanded.',
+     'চাহিদা সূচি (স্লাইড ৮) চাহিদা রেখায় আঁকা: ছকের প্রতিটি সারি একটি বিন্দু। দাম বেশি → চাহিদার পরিমাণ কম।')
+
+plot('dmove', 'Quantity', 'Price', ln(D0, 'l1', 'D') + [
+    ('pt', 30, 70), ('gd', 30, 70), ('tx', 32, 73, 'A', 't3'), ('pt', 60, 40), ('gd', 60, 40), ('tx', 62, 43, 'B', 't3'),
+    ('ar', 34, 66, 56, 44), ('xt', 30, 'Q1'), ('xt', 60, 'Q2'), ('yt', 70, 'P1'), ('yt', 40, 'P2')],
+    'Movement ALONG the demand curve: only the good\'s own price changes (P1 → P2), so quantity demanded changes (Q1 → Q2). The curve itself stays put.',
+    'চাহিদা রেখা **বরাবর** চলাচল: শুধু পণ্যের নিজের দাম বদলায় (P1 → P2), তাই চাহিদার পরিমাণ বদলায় (Q1 → Q2)। রেখা নিজে সরে না।')
+
+plot('dshift', 'Quantity', 'Price', ln(D0, 'l1', 'D') + ln(D0, 'l2', 'D1', dx=18) + ln(D0, 'l3', 'D2', dx=-16) + [
+    ('gy', 68, 50), ('pt', 34, 50), ('pt', 50, 50), ('pt', 68, 50), ('ar', 52, 56, 64, 56, 'l2'), ('ar', 48, 44, 36, 44, 'l3'),
+    ('yt', 50, 'P'), ('xt', 34, 'Q2'), ('xt', 50, 'Q'), ('xt', 68, 'Q1'), ('gx', 34, 50), ('gx', 50, 50), ('gx', 68, 50)],
+    'SHIFT of demand: something other than price changes. D → D1 (right) = increase: more bought at the same price. D → D2 (left) = decrease.',
+    'চাহিদার **সরণ**: দাম ছাড়া অন্য কিছু বদলায়। D → D1 (ডানে) = বৃদ্ধি: একই দামে বেশি কেনা হয়। D → D2 (বাঁয়ে) = হ্রাস।')
+
+plot('scurve', 'Quantity supplied', 'Price', ln(S0, 'l2', 'S') + [
+    ('pt', 30, 30), ('gd', 30, 30), ('pt', 70, 70), ('gd', 70, 70), ('ar', 34, 34, 66, 66, 'l3'),
+    ('xt', 30, 'Q1'), ('xt', 70, 'Q2'), ('yt', 30, 'P1'), ('yt', 70, 'P2')],
+    'Law of supply: the supply curve slopes UP. A higher price (P1 → P2) brings a larger quantity supplied (Q1 → Q2): a movement along S.',
+    'যোগানের নিয়ম: যোগান রেখা **ওপরের দিকে** ওঠে। দাম বাড়লে (P1 → P2) যোগানের পরিমাণ বাড়ে (Q1 → Q2): S বরাবর চলাচল।')
+
+plot('sshift', 'Quantity', 'Price', ln(S0, 'l2', 'S') + ln(S0, 'l1', 'S1', dx=18) + ln(S0, 'l3', 'S2', dx=-16) + [
+    ('gy', 68, 50), ('pt', 34, 50), ('pt', 50, 50), ('pt', 68, 50), ('ar', 52, 46, 64, 46, 'l1'), ('ar', 48, 54, 36, 54, 'l3'),
+    ('yt', 50, 'P'), ('xt', 34, 'Q2'), ('xt', 50, 'Q'), ('xt', 68, 'Q1'), ('gx', 34, 50), ('gx', 50, 50), ('gx', 68, 50)],
+    'SHIFT of supply: S → S1 (right) = increase in supply (more offered at the same price); S → S2 (left) = decrease.',
+    'যোগানের **সরণ**: S → S1 (ডানে) = যোগান বৃদ্ধি (একই দামে বেশি বিক্রির প্রস্তাব); S → S2 (বাঁয়ে) = হ্রাস।')
+
+plot('eq', 'Quantity', 'Price', ln(D0, 'l4', 'D') + ln(S0, 'l2', 'S') + [
+    ('pt', 50, 50), ('gd', 50, 50), ('tx', 53, 52, 'E', 't3'), ('yt', 50, 'Pe = 3'), ('xt', 50, 'Qe = 60')],
+    'Equilibrium (slide 25): demand = supply at point E. The market-clearing price is 3 and quantity is 60. No shortage, no surplus, no tendency to change.',
+    'ভারসাম্য (স্লাইড ২৫): E বিন্দুতে চাহিদা = যোগান। বাজার-পরিষ্কারক দাম ৩, পরিমাণ ৬০। ঘাটতি নেই, উদ্বৃত্ত নেই, বদলের প্রবণতা নেই।')
+
+plot('diseq', 'Quantity', 'Price', ln(D0, 'l4', 'D') + ln(S0, 'l2', 'S') + [
+    ('pt', 50, 50), ('tx', 53, 50, 'E', 't3'), ('gy', 70, 70), ('gy', 70, 30), ('ln', 30, 70, 70, 70, 'l3'), ('ln', 30, 30, 70, 30, 'l1'),
+    ('tx', 32, 74, 'Excess supply (surplus)', 't3'), ('ar', 50, 76, 50, 58, 'l3'),
+    ('tx', 32, 22, 'Excess demand (shortage)', 't1'), ('ar', 50, 24, 50, 42, 'l1'), ('yt', 70, 'high P'), ('yt', 30, 'low P')],
+    'Disequilibrium (slide 26): above E, quantity supplied > quantity demanded → surplus pushes price DOWN. Below E, demand > supply → shortage pushes price UP.',
+    'ভারসাম্যহীনতা (স্লাইড ২৬): E-র ওপরে যোগান > চাহিদা → উদ্বৃত্ত দামকে **নামায়**। E-র নিচে চাহিদা > যোগান → ঘাটতি দামকে **ওঠায়**।')
+
+plot('ceiling', 'Quantity of wheat', 'Price of wheat', ln(D0, 'l4', 'D') + ln(S0, 'l2', 'S') + [
+    ('pt', 50, 50), ('gd', 50, 50), ('ln', 0, 32, 96, 32, 'l3'), ('tx', 70, 34, 'Price ceiling P1', 't3'),
+    ('gx', 32, 32), ('gx', 68, 32), ('ln', 32, 27, 68, 27, 'l1'), ('tx', 36, 21, '← shortage (excess demand) →', 't1'),
+    ('yt', 50, 'Pe'), ('yt', 32, 'P1'), ('xt', 32, 'Qs'), ('xt', 50, 'Qe'), ('xt', 68, 'Qd')],
+    'Price ceiling (maximum price) set BELOW equilibrium: buyers want Qd but sellers offer only Qs → a persistent shortage, queues, rationing, black markets.',
+    'দামের সর্বোচ্চ সীমা (price ceiling) ভারসাম্যের **নিচে**: ক্রেতা চায় Qd, বিক্রেতা দেয় শুধু Qs → স্থায়ী ঘাটতি, লাইন, রেশনিং, কালোবাজার।')
+
+plot('floor', 'Quantity of wheat', 'Price of wheat', ln(D0, 'l4', 'D') + ln(S0, 'l2', 'S') + [
+    ('pt', 50, 50), ('gd', 50, 50), ('ln', 0, 68, 96, 68, 'l3'), ('tx', 2, 71, 'Price floor P2', 't3'),
+    ('gx', 32, 68), ('gx', 68, 68), ('ln', 32, 74, 68, 74, 'l1'), ('tx', 34, 77, '← surplus (excess supply) →', 't1'),
+    ('yt', 50, 'Pe'), ('yt', 68, 'P2'), ('xt', 32, 'Qd'), ('xt', 50, 'Qe'), ('xt', 68, 'Qs')],
+    'Price floor (minimum price) set ABOVE equilibrium: sellers offer Qs but buyers take only Qd → a persistent surplus the government must buy, store or destroy.',
+    'দামের সর্বনিম্ন সীমা (price floor) ভারসাম্যের **ওপরে**: বিক্রেতা দেয় Qs, ক্রেতা নেয় শুধু Qd → স্থায়ী উদ্বৃত্ত, যা সরকারকে কিনতে, মজুদ বা নষ্ট করতে হয়।')
+
+def shiftfig(key, which, up, cap, capb):
+    if which == 'D':
+        new = ln(D0, 'l3', 'D1', dx=24 if up else -24)
+        e1 = (62, 62) if up else (38, 38)
+        base = ln(D0, 'l4', 'D') + ln(S0, 'l2', 'S')
+    else:
+        new = ln(S0, 'l3', 'S1', dx=24 if up else -24)
+        e1 = (62, 38) if up else (38, 62)
+        base = ln(D0, 'l4', 'D') + ln(S0, 'l2', 'S')
+    it = base + new + [('pt', 50, 50), ('gd', 50, 50), ('tx', 52, 54, 'E', 't3'), ('pt', e1[0], e1[1]), ('gd', e1[0], e1[1]), ('tx', e1[0] + 2, e1[1] + 4, 'E1', 't3'),
+                       ('yt', 50, 'P'), ('yt', e1[1], 'P1'), ('xt', 50, 'Q'), ('xt', e1[0], 'Q1')]
+    plot(key, 'Quantity', 'Price', it, cap, capb)
+
+shiftfig('d_inc', 'D', True, 'Demand increases (D → D1): at the old price P there is excess demand, so price rises to P1 and quantity rises to Q1. Both P and Q go UP.',
+         'চাহিদা বাড়ে (D → D1): পুরোনো দাম P-তে অতিরিক্ত চাহিদা, তাই দাম P1-এ ও পরিমাণ Q1-এ ওঠে। P ও Q দুটোই **বাড়ে**।')
+shiftfig('d_dec', 'D', False, 'Demand decreases (D → D1): at P there is excess supply, so price falls to P1 and quantity falls to Q1. Both P and Q go DOWN.',
+         'চাহিদা কমে (D → D1): P-তে অতিরিক্ত যোগান, তাই দাম P1-এ ও পরিমাণ Q1-এ নামে। P ও Q দুটোই **কমে**।')
+shiftfig('s_inc', 'S', True, 'Supply increases (S → S1): at P there is excess supply, so price FALLS to P1 and quantity RISES to Q1.',
+         'যোগান বাড়ে (S → S1): P-তে অতিরিক্ত যোগান, তাই দাম P1-এ **নামে** আর পরিমাণ Q1-এ **বাড়ে**।')
+shiftfig('s_dec', 'S', False, 'Supply decreases (S → S1): at P there is excess demand, so price RISES to P1 and quantity FALLS to Q1.',
+         'যোগান কমে (S → S1): P-তে অতিরিক্ত চাহিদা, তাই দাম P1-এ **ওঠে** আর পরিমাণ Q1-এ **নামে**।')
+
+# =====================================================================
+# Lecture 4 — double shifts and price elasticity of demand
+# =====================================================================
+def dbl(key, ddx, sdx, cap, capb):
+    # D: x + y = 100 + ddx ; S: y = x - sdx  -> E1 x = (100 + ddx + sdx)/2
+    x1 = (100 + ddx + sdx) / 2.0; y1 = x1 - sdx
+    it = ln(D0, 'l4', 'D') + ln(S0, 'l2', 'S') + ln(D0, 'l4', 'D1', dx=ddx, dash=True) + ln(S0, 'l2', 'S1', dx=sdx, dash=True) + [
+        ('pt', 50, 50), ('gd', 50, 50), ('tx', 52, 54, 'E', 't3'), ('pt', x1, y1), ('gd', x1, y1), ('tx', x1 + 2, y1 + 4, 'E1', 't3'),
+        ('yt', 50, 'P'), ('yt', y1, 'P1'), ('xt', 50, 'Q'), ('xt', x1, 'Q1')]
+    plot(key, 'Quantity', 'Price', it, cap, capb)
+
+dbl('dbl_up_up', 10, 30, 'Demand ↑ and supply ↑ (here supply rises more): quantity rises for sure; price falls because the supply increase is bigger. If demand rose more, price would rise.',
+    'চাহিদা ↑ ও যোগান ↑ (এখানে যোগান বেশি বাড়ে): পরিমাণ নিশ্চিতভাবে বাড়ে; যোগান বৃদ্ধি বড় বলে দাম কমে। চাহিদা বেশি বাড়লে দাম বাড়ত।')
+dbl('dbl_dn_dn', -10, -30, 'Demand ↓ and supply ↓ (here supply falls more): quantity falls for sure; price rises because the supply decrease is bigger.',
+    'চাহিদা ↓ ও যোগান ↓ (এখানে যোগান বেশি কমে): পরিমাণ নিশ্চিতভাবে কমে; যোগান হ্রাস বড় বলে দাম বাড়ে।')
+dbl('dbl_up_dn', 26, -14, 'Demand ↑ and supply ↓: price rises for sure. Quantity depends on which change is bigger (here the demand increase is bigger, so Q rises a little).',
+    'চাহিদা ↑ ও যোগান ↓: দাম নিশ্চিতভাবে বাড়ে। পরিমাণ নির্ভর করে কোন পরিবর্তন বড় তার ওপর (এখানে চাহিদা বৃদ্ধি বড়, তাই Q একটু বাড়ে)।')
+dbl('dbl_dn_up', -26, 14, 'Demand ↓ and supply ↑: price falls for sure. Quantity depends on which change is bigger (here the demand decrease is bigger, so Q falls a little).',
+    'চাহিদা ↓ ও যোগান ↑: দাম নিশ্চিতভাবে কমে। পরিমাণ নির্ভর করে কোন পরিবর্তন বড় তার ওপর (এখানে চাহিদা হ্রাস বড়, তাই Q একটু কমে)।')
+
+plot('elastic', 'Quantity demanded', 'Price (£)', [
+    ('area', [(0, 0), (0, 70), (17, 70), (17, 0)], 'fl2'), ('area', [(0, 0), (0, 49), (68, 49), (68, 0)], 'fl'),
+    ('ln', 0, 79, 90, 40, 'l4'), ('tx', 91, 40, 'D', 't4'), ('pt', 17, 70), ('pt', 68, 49), ('gd', 17, 70), ('gd', 68, 49),
+    ('yt', 70, '10'), ('yt', 49, '7'), ('xt', 17, '5'), ('xt', 68, '20'), ('tx', 30, 80, 'Flat curve: elastic, |E| > 1', 't4')],
+    'Elastic demand (slide 16): price falls a little (£10 → £7, −30%) but quantity jumps (5 → 20, +300%). The curve is FLAT; total revenue rises (green area > gold area).',
+    'স্থিতিস্থাপক চাহিদা (স্লাইড ১৬): দাম সামান্য কমে (£১০ → £৭, −৩০%) কিন্তু পরিমাণ লাফ দেয় (৫ → ২০, +৩০০%)। রেখা **চ্যাপ্টা**; মোট আয় বাড়ে (সবুজ অংশ > সোনালি অংশ)।')
+
+plot('inelastic', 'Quantity demanded', 'Price (£)', [
+    ('area', [(0, 0), (0, 80), (40, 80), (40, 0)], 'fl2'), ('area', [(0, 0), (0, 40), (48, 40), (48, 0)], 'fl'),
+    ('ln', 36, 96, 52, 16, 'l4'), ('tx', 53, 14, 'D', 't4'), ('pt', 40, 80), ('pt', 48, 40), ('gd', 40, 80), ('gd', 48, 40),
+    ('yt', 80, '10'), ('yt', 40, '5'), ('xt', 40, '5'), ('xt', 48, '6'), ('tx', 56, 70, 'Steep: inelastic, |E| < 1', 't4')],
+    'Inelastic demand (slide 17): price halves (£10 → £5, −50%) but quantity hardly moves (5 → 6, +20%). The curve is STEEP; total revenue falls when price falls.',
+    'অস্থিতিস্থাপক চাহিদা (স্লাইড ১৭): দাম অর্ধেক হয় (£১০ → £৫, −৫০%) কিন্তু পরিমাণ প্রায় নড়ে না (৫ → ৬, +২০%)। রেখা **খাড়া**; দাম কমলে মোট আয় কমে।')
+
+def mini(ox, title, body):
+    return '<g transform="translate(%d 0)"><line class="ax" x1="14" y1="160" x2="118" y2="160"/><line class="ax" x1="14" y1="160" x2="14" y2="22"/>%s<text x="66" y="182" text-anchor="middle" class="sm">%s</text></g>' % (ox, body, title)
+raw('ped_extremes',
+    '<svg viewBox="0 0 380 200" role="img" aria-label="Perfectly inelastic, unit elastic and perfectly elastic demand">'
+    + mini(0, '(a) Perfectly inelastic, E = 0', '<line class="l4" x1="60" y1="30" x2="60" y2="160"/><text x="64" y="36" class="t4">D</text>')
+    + mini(126, '(b) Unit elastic, E = 1', '<path class="l4" d="M24 30 Q40 120 112 140"/><text x="96" y="132" class="t4">D</text>')
+    + mini(252, '(c) Perfectly elastic, E = ∞', '<line class="l4" x1="14" y1="80" x2="118" y2="80"/><text x="100" y="74" class="t4">D</text>')
+    + '<text x="190" y="198" text-anchor="middle" class="sm">vertical axis = Price · horizontal axis = Quantity</text></svg>',
+    'The three special (extreme/unit) cases on slide 18: vertical D (E = 0), rectangular-hyperbola D (E = 1), horizontal D (E = ∞).',
+    'স্লাইড ১৮-এর তিনটি বিশেষ ক্ষেত্র: খাড়া D (E = ০), আয়তাকার পরাবৃত্ত D (E = ১), আনুভূমিক D (E = ∞)।')
