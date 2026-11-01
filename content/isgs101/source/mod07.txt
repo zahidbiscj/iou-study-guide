@@ -1,0 +1,39 @@
+# Raw text extracted from Islamic(mod07).pdf — 4 slides
+(Machine extraction with pdftotext. Arabic may appear reversed or without vowels; the module lessons contain the corrected Arabic.)
+
+=== Slide 1 ===
+    Islamic Aqeedah
+        ‫العقيدة‬
+
+a                     1
+
+
+=== Slide 2 ===
+         Islamic Aqeedah
+   - variations in their physical shapes and status
+   -They cannot be described as being male or female
+   They do not eat or drink
+   They do not get bored or tired
+   Dwelling place of the angels
+
+a                                                       2
+
+
+=== Slide 3 ===
+         Islamic Aqeedah
+   The numbers of the angels
+   The names of the angels
+   The death of the angels
+   Attributes
+   Honorable and modest
+   Ability to take different shapes
+   Their great speed
+
+a                                      3
+
+
+=== Slide 4 ===
+    Islamic Aqeedah
+
+a                     4
+

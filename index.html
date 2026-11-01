@@ -1,3 +1,5 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>IOU Study Guide — ENES, ISGS, FPEC &amp; BIBS</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -473,6 +475,50 @@ body.lang-bn .mq-en { display: none !important; }
 .cstep table td, .cstep table th { vertical-align: top; }
 .pair.wide { grid-template-columns: 1fr; }
 .pair pre { background: var(--brand-soft); border-radius: 10px; padding: 10px 12px; overflow-x: auto; font-size: 13.5px; line-height: 1.5; white-space: pre; }
+
+/* ISGS modules: slide-by-slide course */
+.subtabs { display: flex; gap: 8px; flex-wrap: wrap; margin: 2px 0 14px; }
+.subtabs a { padding: 8px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); text-decoration: none; font-weight: 700; font-size: 14px; }
+.subtabs a:hover { border-color: var(--brand-2); }
+.subtabs a.on { background: var(--brand); color: #fff; border-color: var(--brand); }
+.mgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 12px; margin-top: 14px; }
+.mcard { display: block; position: relative; text-decoration: none; color: var(--ink); background: var(--paper); border: 1.5px solid var(--line); border-radius: var(--radius); padding: 14px 16px 14px 64px; box-shadow: var(--shadow); min-height: 96px; }
+.mcard:hover { border-color: var(--brand-2); background: var(--brand-soft); }
+.mcard .mnum { position: absolute; left: 14px; top: 14px; width: 38px; height: 38px; border-radius: 50%; background: var(--brand); color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 17px; }
+.mcard b { display: block; color: var(--brand); font-size: 16px; line-height: 1.35; }
+.mcard .mbn { display: block; color: var(--gold-ink); font-size: 14.5px; margin-top: 2px; }
+.mcard .mmeta { display: block; color: var(--muted); font-size: 12.5px; margin-top: 6px; }
+.mcard.soon { opacity: .62; cursor: default; }
+.mcard.soon:hover { background: var(--paper); border-color: var(--line); }
+.mcard.soon .mnum { background: var(--muted); }
+.mprog { display: block; height: 5px; border-radius: 3px; background: var(--line); margin-top: 8px; overflow: hidden; }
+.mprog u { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--gold), var(--brand-2)); text-decoration: none; }
+.mod-links { display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: center; margin: 6px 0 2px; font-size: 14px; font-weight: 600; }
+.mod-links a { color: var(--brand); text-decoration: none; }
+.mod-links a:hover { text-decoration: underline; }
+.mod-links button { background: none; border: 0; padding: 0; font: inherit; font-weight: 600; color: var(--brand); cursor: pointer; }
+.mchips { display: flex; gap: 6px; overflow-x: auto; padding: 8px 0 2px; scrollbar-width: thin; }
+.mchips .wiz-chip { flex: 0 0 auto; min-width: 34px; padding: 4px 9px; }
+.slidebar { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 4px 12px; align-items: center; background: var(--brand-soft); border: 1px solid var(--line); border-radius: 10px; padding: 8px 12px; font-size: 13.5px; font-weight: 600; color: var(--brand); margin: 4px 0 8px; }
+.slidebar a { color: var(--brand); }
+blockquote.slidetext { margin: 4px 0 12px; padding: 8px 14px 6px; background: var(--bg); border-left: 4px solid var(--brand-2); border-radius: 0 10px 10px 0; }
+blockquote.slidetext .sl { display: block; font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+blockquote.slidetext p { margin: 5px 0; font-style: italic; }
+.ar { direction: rtl; text-align: right; font-family: 'Amiri', 'Noto Naskh Arabic', 'Traditional Arabic', serif; font-size: 25px; line-height: 2.1; margin: 8px 0 12px; padding: 6px 14px; background: var(--gold-soft); border-radius: 10px; }
+.ar-in { font-family: 'Amiri', 'Noto Naskh Arabic', 'Traditional Arabic', serif; font-size: 1.18em; }
+.lab-E, .lab-K, .lab-N, .lab-W { padding: 7px 11px; border-radius: 0 8px 8px 0; }
+.lab-E { background: var(--gold-soft); border-left: 3px solid var(--gold); }
+.lab-K { background: var(--brand-soft); border-left: 3px solid var(--brand-2); }
+.lab-N { background: var(--bg); border-left: 3px dashed var(--muted); }
+.lab-W { background: var(--red-soft); border-left: 3px solid var(--red); }
+.tbl { overflow-x: auto; margin: 8px 0 12px; }
+.mod-loading, .mod-soon { color: var(--muted); padding: 24px 4px; font-weight: 600; }
+.mstep > h2:first-child { margin-top: 8px; }
+.mstep h3 { margin: 14px 0 6px; font-size: 17px; color: var(--brand); }
+.mod-intro { margin: 4px 0 8px; }
+.mstep .pair { grid-template-columns: 1fr; }
+.mstep .tbl table { font-size: 14.5px; }
+.mstep .tbl th, .mstep .tbl td { padding: 8px 10px; vertical-align: top; }
 </style>
 
 <div class="progress" id="progress"></div>
@@ -502,12 +548,17 @@ body.lang-bn .mq-en { display: none !important; }
         <div class="chooser-cards">
           <a class="chooser-card" href="#subject-enes"><b>ENES 101 · English Language Studies</b><span>Midterm course: Modules 1–15, MCQ quizzes &amp; 59 study questions answered</span></a>
           <a class="chooser-card" href="#subject-bibs"><b>BIBS 101 · Introduction to Business</b><span>51 study questions, step-by-step answers &amp; quiz</span></a>
-          <a class="chooser-card" href="#subject-isgs"><b>ISGS 101 · Islamic Studies 1</b><span>Assignment guide, 40-question midterm Q&amp;A</span></a>
+          <a class="chooser-card" href="#subject-isgs"><b>ISGS 101 · Islamic Studies 1</b><span>Modules (slide by slide), assignment guide, 40-question midterm Q&amp;A</span></a>
           <a class="chooser-card" href="#subject-fpec"><b>FPEC 101 · Principles of Economics</b><span>Final-exam step-by-step course (18 lessons) &amp; midterm Q&amp;A</span></a>
         </div>
       </section>
 
       <div data-subject="isgs">
+      <nav class="subtabs" aria-label="ISGS 101 sections">
+        <a href="#isgs-modules" data-menu="modules isgsmod">📚 Modules · মডিউল (slide by slide)</a>
+        <a href="#isgs-midterm" data-menu="midterm">📝 Midterm Q&amp;A · মিডটার্ম</a>
+        <a href="#isgs-assignment" data-menu="assignment">✍️ Assignment · অ্যাসাইনমেন্ট</a>
+      </nav>
       <section class="hero" data-part="menu">
         <div class="kicker">Islamic Studies 1 · ISGS 101 · Fall 2026</div>
         <h1>Learn it step by step</h1>
@@ -515,10 +566,32 @@ body.lang-bn .mq-en { display: none !important; }
         <p>Your private-tutor notes for the assignment and the midterm. Every idea is explained simply, with examples and evidence, in English and Bangla.</p>
         <p class="bn-only">অ্যাসাইনমেন্ট ও মিডটার্মের জন্য তোমার প্রাইভেট টিউটরের নোট। প্রতিটি ধারণা সহজভাবে, উদাহরণ ও দলিলসহ, ইংরেজি ও বাংলায় ব্যাখ্যা করা হয়েছে।</p>
         <div class="cards">
+          <a class="card" href="#isgs-modules"><b>Modules (slide by slide)</b><span>Every slide in English + Bangla with explanation, examples and a 5-question quiz · প্রতিটি স্লাইড ধাপে ধাপে</span></a>
           <a class="card" href="#isgs-assignment"><b>Assignment guide</b><span>Step by step: choose Tawheed or Messengers, then plan, write and submit · ধাপে ধাপে</span></a>
           <a class="card" href="#isgs-midterm"><b>Midterm Q&amp;A</b><span>40 study questions, with a quick check after every 4 · প্রতি ৪টি প্রশ্ন পর কুইজ</span></a>
         </div>
       </section>
+
+<section id="isgsmodules" class="part" data-part="modules">
+<h1 class="chapter">Modules — slide by slide<span class="chapter-bn" style="display:block">মডিউল — স্লাইড ধরে ধরে</span></h1>
+<p>Pick a module. Each one opens as a step-by-step lesson in this order: <b>big picture (teacher explains) → key words → every slide with English text, Bangla translation, explanation and examples → comparison tables → midterm connection → 5-question quiz → summary</b>. You can jump to any slide or section from inside the module.</p>
+<p class="bn-only">একটি মডিউল বেছে নাও। প্রতিটি মডিউল ধাপে ধাপে খুলবে: <b>বড় ছবি (শিক্ষক বুঝিয়ে বলছেন) → গুরুত্বপূর্ণ শব্দ → প্রতিটি স্লাইডের ইংরেজি লেখা, বাংলা অনুবাদ, ব্যাখ্যা ও উদাহরণ → তুলনা ছক → মিডটার্ম সংযোগ → ৫ প্রশ্নের কুইজ → সারসংক্ষেপ</b>। মডিউলের ভেতর থেকে যেকোনো স্লাইড বা অংশে সরাসরি যেতে পারবে।</p>
+<div class="mgrid" id="modGrid"></div>
+<p class="wiz-meta">Original slides: <code>slides/Islamic Studies 1 (ISGS 101)/</code> · Printable notes: <code>content/isgs101/</code></p>
+</section>
+
+<section id="isgsmod" class="part" data-part="isgsmod">
+<a class="back-link" href="#isgs-modules">← All modules · সব মডিউল</a>
+<h1 class="chapter mod-title"></h1><div class="chapter-bn mod-title-bn"></div>
+<div class="mod-links"><a id="modPrev" href="#">← Previous module</a><a id="modNext" href="#">Next module →</a><a id="modPdf" href="#" target="_blank" rel="noopener">Open full PDF ↗</a><button id="modRestart" type="button">↺ Start over · শুরু থেকে</button></div>
+<div class="wiz-top">
+  <div class="course-pick"><label>Go to · যান <select id="modJump" aria-label="Jump to a section or slide"></select></label></div>
+  <div class="mchips" id="modChips" aria-label="Slide numbers"></div>
+  <div class="wiz-bar"><i></i></div><div class="wiz-meta"></div>
+</div>
+<div class="mod-body" id="modBody"></div>
+<div class="wiz-nav"><button class="btn mod-back" type="button">← Back · পেছনে</button><button class="btn wiz-next mod-next" type="button">Next · পরবর্তী →</button></div>
+</section>
 
 <section id="midterm" class="part" data-part="midterm">
 <a class="back-link" href="#isgs-assignment">Assignment guide (step by step) → · অ্যাসাইনমেন্ট গাইড</a>
@@ -6570,6 +6643,7 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
 <button class="iconbtn totop" id="toTop" type="button" aria-label="Back to top">↑</button>
 
 
+<script src="isgs/index.js" charset="utf-8"></script>
 <script>
 /* ISGS 101 Study Guide — script.js */
 (function () {
@@ -6984,6 +7058,167 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
     return { goTo: goTo };
   })();
 
+  /* ---------- ISGS modules: slide-by-slide course ---------- */
+  var modData = {};
+  window.ISGS_REG = function (n, d) { modData[n] = d; };
+  var mods = (function () {
+    var LIST = window.ISGS_MODS || [];
+    var root = $('#isgsmod'), gridEl = $('#modGrid');
+    var titleEl = $('.mod-title', root), titleBn = $('.mod-title-bn', root), jump = $('#modJump'), chipsEl = $('#modChips');
+    var barEl = $('.wiz-bar i', root), metaEl = $('.wiz-meta', root), body = $('#modBody');
+    var backBtn = $('.mod-back', root), nextBtn = $('.mod-next', root);
+    var prevA = $('#modPrev'), nextA = $('#modNext'), pdfA = $('#modPdf'), restartBtn = $('#modRestart');
+    var BND = '০১২৩৪৫৬৭৮৯';
+    function bnum(n) { return String(n).replace(/\d/g, function (d) { return BND.charAt(+d); }); }
+    function pad(n) { return (n < 10 ? '0' : '') + n; }
+    function meta(n) { for (var i = 0; i < LIST.length; i++) { if (LIST[i].n === n) return LIST[i]; } return null; }
+    var pos = store.get('isgs-mod-pos', {}), seen = store.get('isgs-mod-seen', {});
+    var cur = 0, steps = [], els = [], idx = 0, slideStep = {};
+
+    function paintGrid() {
+      gridEl.innerHTML = '';
+      LIST.forEach(function (m) {
+        var sv = seen[m.n], pct = sv && sv.t ? Math.min(100, Math.round(sv.v.length / sv.t * 100)) : 0;
+        var a = document.createElement(m.ready ? 'a' : 'div'); a.className = 'mcard' + (m.ready ? '' : ' soon');
+        if (m.ready) a.href = '#isgs-mod-' + pad(m.n);
+        a.innerHTML = '<span class="mnum"></span><b></b><span class="mbn"></span><span class="mmeta"></span><i class="mprog"><u></u></i>';
+        $('.mnum', a).textContent = m.n; $('b', a).textContent = m.t; $('.mbn', a).textContent = m.tb;
+        $('.mmeta', a).textContent = m.slides + ' slides · ' + (m.ready ? (pct ? pct + '% done · ' + pct + '% সম্পন্ন' : 'not started · শুরু হয়নি') : 'coming soon · শীঘ্রই আসছে');
+        $('u', a).style.width = pct + '%';
+        gridEl.appendChild(a);
+      });
+    }
+
+    function setHeader(n) {
+      var m = meta(n);
+      titleEl.textContent = 'Module ' + n + ' — ' + m.t; titleBn.textContent = 'মডিউল ' + bnum(n) + ' — ' + m.tb;
+      prevA.hidden = n <= 1; prevA.href = '#isgs-mod-' + pad(n - 1); prevA.textContent = '← Module ' + (n - 1);
+      nextA.hidden = n >= LIST.length; nextA.href = '#isgs-mod-' + pad(n + 1); nextA.textContent = 'Module ' + (n + 1) + ' →';
+      pdfA.href = 'slides/Islamic%20Studies%201%20(ISGS%20101)/Islamic(mod' + pad(n) + ').pdf';
+    }
+
+    function fail(msg) {
+      steps = []; els = []; chipsEl.innerHTML = ''; jump.innerHTML = '';
+      body.innerHTML = '<p class="mod-soon"></p>'; $('.mod-soon', body).textContent = msg;
+      barEl.style.width = '0'; metaEl.textContent = ''; backBtn.disabled = true; nextBtn.disabled = true;
+    }
+
+    function open(n, where) {
+      var m = meta(n);
+      if (!m) { location.hash = '#isgs-modules'; return; }
+      var same = cur === n && els.length;
+      cur = n; setHeader(n);
+      $$('[data-mod]').forEach(function (a) { a.classList.toggle('on', +a.getAttribute('data-mod') === n); });
+      if (same) { show(resolve(where), true); return; }
+      if (!m.ready) { fail('This module is being prepared — it will appear here soon. · এই মডিউলটি তৈরি হচ্ছে, শীঘ্রই এখানে আসবে।'); return; }
+      body.innerHTML = '<p class="mod-loading">Loading… · লোড হচ্ছে…</p>';
+      if (modData[n]) { build(n, where); return; }
+      var s = document.createElement('script'); s.charset = 'utf-8'; s.src = 'isgs/mod' + pad(n) + '.js';
+      s.onload = function () { if (modData[n]) build(n, where); else if (cur === n) fail('Could not load this module. · মডিউলটি লোড হয়নি।'); };
+      s.onerror = function () { if (cur === n) fail('Could not load this module — check your connection and reload. · মডিউলটি লোড হয়নি, ইন্টারনেট দেখে আবার চেষ্টা করো।'); };
+      document.head.appendChild(s);
+    }
+
+    var KIND_PRE = { concept: ['A · ', 'ক · '], words: ['B · ', 'খ · '], together: ['D · ', 'ঘ · '], midterm: ['E · ', 'ঙ · '], quiz: ['F · ', 'চ · '], summary: ['G · ', 'ছ · '], check: ['', ''], slide: ['', ''] };
+    var KIND_JUMP = { concept: 'Understand first', words: 'Understand first', slide: 'Slide by slide', check: 'Slide by slide', together: 'Exam and review', midterm: 'Exam and review', quiz: 'Exam and review', summary: 'Exam and review' };
+    var KIND_JUMP_BN = { 'Understand first': 'আগে বুঝি', 'Slide by slide': 'স্লাইড ধরে ধরে', 'Exam and review': 'পরীক্ষা ও পুনরালোচনা' };
+
+    function slideLabel(sl, bn) {
+      var a = sl[0], b = sl[sl.length - 1];
+      if (bn) return a === b ? 'স্লাইড ' + bnum(a) : 'স্লাইড ' + bnum(a) + '–' + bnum(b);
+      return a === b ? 'Slide ' + a : 'Slides ' + a + '–' + b;
+    }
+
+    function build(n, where) {
+      var d = modData[n]; if (!d || cur !== n) return;
+      steps = d.steps; body.innerHTML = ''; els = []; slideStep = {}; jump.innerHTML = ''; chipsEl.innerHTML = '';
+      var groups = {};
+      steps.forEach(function (st, i) {
+        var div = document.createElement('div'); div.className = 'mstep'; div.hidden = true; div.setAttribute('data-id', st.id);
+        var h = document.createElement('h2'), pre = KIND_PRE[st.k] || ['', ''];
+        var label = st.k === 'slide' ? slideLabel(st.sl, false) + ' · ' : pre[0], labelBn = st.k === 'slide' ? slideLabel(st.sl, true) + ' · ' : pre[1];
+        h.appendChild(document.createTextNode(label + st.t));
+        var sp = document.createElement('span'); sp.className = 'bn'; sp.textContent = labelBn + st.tb; h.appendChild(sp);
+        div.appendChild(h);
+        if (st.k === 'quiz') {
+          var intro = document.createElement('p'); intro.className = 'mod-intro'; intro.textContent = 'Five questions to test this whole module. Tap an answer — you get the explanation in English and Bangla. · পুরো মডিউল যাচাইয়ের পাঁচটি প্রশ্ন। উত্তরে ট্যাপ করো — ইংরেজি ও বাংলায় ব্যাখ্যা পাবে।';
+          div.appendChild(intro);
+        }
+        if (st.h) div.insertAdjacentHTML('beforeend', st.h);
+        if (st.z) {
+          div.appendChild(buildMini({ h: st.k === 'quiz' ? '📝 Module quiz · মডিউল কুইজ' : '✅ Quick check · দ্রুত যাচাই', t: 'Module ' + n, tb: 'মডিউল ' + bnum(n), items: st.z.items }));
+        }
+        body.appendChild(div); els.push(div);
+        var g = KIND_JUMP[st.k] || 'More';
+        if (!groups[g]) { groups[g] = document.createElement('optgroup'); groups[g].label = g + ' · ' + (KIND_JUMP_BN[g] || ''); jump.appendChild(groups[g]); }
+        var o = document.createElement('option'); o.value = i;
+        o.textContent = (st.k === 'slide' ? slideLabel(st.sl, false) + ' · ' : (pre[0] || '✅ ')) + st.t;
+        groups[g].appendChild(o);
+        if (st.k === 'slide') {
+          st.sl.forEach(function (s) {
+            slideStep[s] = i;
+            var c = document.createElement('button'); c.type = 'button'; c.className = 'wiz-chip'; c.textContent = s;
+            c.title = 'Slide ' + s + ' · স্লাইড ' + bnum(s); c.setAttribute('data-step', i);
+            c.addEventListener('click', function () { show(i, true); });
+            chipsEl.appendChild(c);
+          });
+        }
+      });
+      show(resolve(where), false);
+      window.scrollTo(0, 0);
+    }
+
+    function resolve(where) {
+      if (!where) where = pos[cur];
+      if (!where) return 0;
+      for (var i = 0; i < steps.length; i++) { if (steps[i].id === where) return i; }
+      var m = /^s(\d+)$/.exec(where);
+      if (m && slideStep[+m[1]] !== undefined) return slideStep[+m[1]];
+      return 0;
+    }
+
+    function show(i, scroll) {
+      if (!els.length) return;
+      idx = Math.max(0, Math.min(els.length - 1, i));
+      els.forEach(function (e) { e.hidden = true; });
+      els[idx].hidden = false;
+      var st = steps[idx];
+      barEl.style.width = Math.round(((idx + 1) / steps.length) * 100) + '%';
+      metaEl.textContent = 'Module ' + cur + ' · Step ' + (idx + 1) + ' of ' + steps.length + (st.k === 'slide' ? ' · ' + slideLabel(st.sl, false) + ' of ' + modData[cur].slides : '');
+      jump.value = String(idx);
+      var v = seen[cur] && seen[cur].v ? seen[cur].v : [];
+      if (v.indexOf(st.id) === -1) v.push(st.id);
+      seen[cur] = { v: v, t: steps.length }; store.set('isgs-mod-seen', seen);
+      pos[cur] = st.id; store.set('isgs-mod-pos', pos);
+      $$('.wiz-chip', chipsEl).forEach(function (c) {
+        var si = +c.getAttribute('data-step'), sid = steps[si].id;
+        c.classList.toggle('cur', si === idx); c.classList.toggle('done', si !== idx && v.indexOf(sid) !== -1);
+        if (si === idx) { chipsEl.scrollLeft = Math.max(0, c.offsetLeft - chipsEl.clientWidth / 2 + c.offsetWidth / 2); }
+      });
+      backBtn.disabled = idx === 0;
+      var last = idx === els.length - 1, nm = meta(cur + 1);
+      if (last) { nextBtn.disabled = false; nextBtn.textContent = nm ? 'Next: Module ' + (cur + 1) + ' →' : 'All modules · সব মডিউল'; }
+      else { nextBtn.disabled = false; nextBtn.textContent = 'Next · পরবর্তী →'; }
+      try { history.replaceState(null, '', '#isgs-mod-' + pad(cur) + '-' + st.id); } catch (e) { /* ignore */ }
+      if (scroll) window.scrollTo({ top: Math.max(0, root.getBoundingClientRect().top + window.pageYOffset - 70), behavior: 'auto' });
+    }
+
+    backBtn.addEventListener('click', function () { show(idx - 1, true); });
+    nextBtn.addEventListener('click', function () {
+      if (idx < els.length - 1) { show(idx + 1, true); return; }
+      location.hash = meta(cur + 1) ? '#isgs-mod-' + pad(cur + 1) + '-concept' : '#isgs-modules';
+    });
+    jump.addEventListener('change', function () { show(+jump.value, true); });
+    restartBtn.addEventListener('click', function () { show(0, true); });
+    document.addEventListener('keydown', function (e) {
+      if (current !== 'isgs' || part !== 'isgsmod' || e.altKey || e.ctrlKey || e.metaKey) return;
+      var t = e.target && e.target.tagName; if (t === 'INPUT' || t === 'SELECT' || t === 'TEXTAREA') return;
+      if (e.key === 'ArrowRight') { nextBtn.click(); } else if (e.key === 'ArrowLeft') { if (!backBtn.disabled) backBtn.click(); }
+    });
+    paintGrid();
+    return { open: open, paintGrid: paintGrid, count: LIST.length };
+  })();
+
   /* ---------- Sidebar ---------- */
   var nav = $('#toc');
   function slug(s, i) { return 's' + i + '-' + s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 40); }
@@ -6995,8 +7230,14 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
     var a = document.createElement('a'); a.href = href; a.textContent = text; nav.appendChild(tag(a, subj)); if (part) a.setAttribute('data-part', part); return a;
   }
   sideHead('ISGS 101 · Menu', 'isgs');
+  sideLink('Modules · মডিউল (slide by slide)', '#isgs-modules', 'isgs').setAttribute('data-menu', 'modules isgsmod');
   sideLink('Assignment guide · অ্যাসাইনমেন্ট', '#isgs-assignment', 'isgs').setAttribute('data-menu', 'assignment');
   sideLink('Midterm Q&A · মিডটার্ম', '#isgs-midterm', 'isgs').setAttribute('data-menu', 'midterm');
+  sideHead('Modules', 'isgs', 'modules isgsmod');
+  (window.ISGS_MODS || []).forEach(function (m) {
+    var a = sideLink('Module ' + m.n + ' · ' + m.t + (m.ready ? '' : ' (soon)'), '#isgs-mod-' + (m.n < 10 ? '0' : '') + m.n, 'isgs', 'modules isgsmod');
+    a.setAttribute('data-mod', m.n);
+  });
   sideHead('Assignment · steps', 'isgs', 'assignment');
   [['L1', '1 · Understand the assignment'], ['choose', '2 · Choose your topic'], ['L2', 'A · Tawheed essay'], ['L3', 'B · Messengers essay'], ['L4', '3 · Write the essay'], ['L5', '4 · Submission checklist']].forEach(function (l) {
     sideLink(l[1], '#wiz-' + l[0], 'isgs', 'assignment').setAttribute('data-wiz', l[0]);
@@ -7081,7 +7322,7 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
         el.hidden = !subjOk || !partOk;
       } else { el.hidden = !partOk; }
     });
-    $$('[data-menu]').forEach(function (a) { a.classList.toggle('on', a.getAttribute('data-menu') === part); });
+    $$('[data-menu]').forEach(function (a) { a.classList.toggle('on', a.getAttribute('data-menu').split(' ').indexOf(part) !== -1); });
   }
   function applySubject(key) {
     var known = SUBJECTS.some(function (s) { return s.key === key; });
@@ -7107,6 +7348,9 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
     if (me) { part = me[1] === 'course' ? 'enescourse' : 'enesmid'; applySubject('enes'); window.scrollTo(0, 0); return; }
     var mec = /^ecourse-(E\d+)$/.exec(id);
     if (mec) { part = 'enescourse'; applySubject('enes'); ecourse.goTo(mec[1]); return; }
+    if (id === 'isgs-modules') { part = 'modules'; applySubject('isgs'); mods.paintGrid(); window.scrollTo(0, 0); return; }
+    var mm = /^isgs-mod-(\d+)(?:-(\w+))?$/.exec(id);
+    if (mm) { part = 'isgsmod'; applySubject('isgs'); mods.open(parseInt(mm[1], 10), mm[2]); return; }
     var mp = /^isgs-(assignment|midterm)$/.exec(id);
     if (mp) { part = mp[1]; applySubject('isgs'); window.scrollTo(0, 0); return; }
     var mf = /^fpec-(final|midterm)$/.exec(id);
@@ -7181,7 +7425,7 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
   function buildMini(b) {
     var wrap = mk('section', 'miniquiz');
     var head = mk('div', 'mq-head');
-    head.appendChild(mk('span', '', '✅ Quick check · দ্রুত যাচাই'));
+    head.appendChild(mk('span', '', b.h || '✅ Quick check · দ্রুত যাচাই'));
     head.appendChild(mk('span', 'mq-range', b.t + ' · ' + b.tb));
     wrap.appendChild(head);
     var answered = 0, correct = 0, boxes = [];

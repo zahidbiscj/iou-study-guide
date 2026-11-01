@@ -1,0 +1,487 @@
+# Raw text extracted from Islamic(mod05).pdf — 33 slides
+(Machine extraction with pdftotext. Arabic may appear reversed or without vowels; the module lessons contain the corrected Arabic.)
+
+=== Slide 1 ===
+    Islamic Aqeedah
+        ‫العقيدة‬
+
+a                     1
+
+
+=== Slide 2 ===
+         Islamic Aqeedah
+   Worship ('Ebaadah) in the Islamic view, includes more than just fasting,
+    paying Zakaah, Hajj and animal sacrifices. It includes emotions like love,
+    trust, and fear, all of which have degrees which should only be directed
+    to God. Allaah has addressed these emotions and warned against
+    excesses in them as follows:
+
+a                                                                                2
+
+
+=== Slide 3 ===
+         Islamic Aqeedah
+   "There are among men those who take (for worship) others besides
+    Allaah as equals to Him. They love them as they should only love
+    Allaah. But those who believe have a much greater love of Allaah...“
+    "Will you not fight people who broke their oaths, plotted to expel
+    the messenger and were the first to (attack) you? Do you fear them?
+    Allaah has more right to be feared if you are truly believers.“
+   "Put your trust in Allaah if you are truly believers."
+
+a                                                                      3
+
+
+=== Slide 4 ===
+          Islamic Aqeedah
+   Since the term 'Ebaadah means total obedience and Allaah is considered the
+    ultimate Lawgiver, the implementation of secular legal systems not based on
+    divine law (Sharee'ah) is an act of disbelief in the divine law and belief in the
+    correctness of such systems, such a belief constitutes a form of worshipping
+    other than Allaah (Shirk). Allaah said in the Qur'aan: "Those who do not rule
+    by what Allaah has revealed are disbelievers (Kaafiroon)
+
+a                                                                                   4
+
+
+=== Slide 5 ===
+          Islamic Aqeedah
+   On one occasion, the Prophet's companion 'Adee ibn Haatim, who was a
+    convert from Christianity, heard the Prophet (saws) recite the Qur'anic verse,
+    "They have taken their rabbis and monks as lords besides Allaah," so he said:
+    'Surely we did not worship them,' The Prophet (saws) turned to him and said
+    'Did they not make forbidden (Haraam) what Allaah had made allowable
+    (Halaal), and you all made it Haraam, and did they not make Halaal what
+    Allaah made Haraam and you all made it Halaal?' He replied, 'We certainly
+    did.' The Prophet (saws) then said, 'That was how you worshipped them'.
+
+a                                                                                5
+
+
+=== Slide 6 ===
+         Islamic Aqeedah
+   Hence, a significant part of Tawheed al-'Ebaadah involves the
+    implementation of Sharee'ah, especially in lands where Muslims form
+    the majority of the population. Divine law has to be re- introduced in
+    the many so-called Muslim countries where governments now rule
+    according to imported capitalist or communist constitutions, and
+    Islamic law is either totally extinct or relegated to a few areas of
+    minor importance.
+
+a                                                                        6
+
+
+=== Slide 7 ===
+         Islamic Aqeedah
+   Likewise, Muslim countries, where Islamic law is on the books but
+    secular laws are in force, have also to be brought in line with the
+    Sharee'ah as it pertains to all aspects of life. The acceptance of non-
+    Islamic rule in place of Sharee'ah in Muslim lands is Shirk and an act of
+    Kufr. Those in a position to change it must do so, while those unable
+    to do so must speak out against the rule of Kufr and call for the
+    implementation of Sharee'ah. If even this becomes impossible, un-
+    Islamic government must be sincerely hated and despised for the
+    pleasure of God and the upholding of Tawheed.
+
+a                                                                           7
+
+
+=== Slide 8 ===
+         ‫‪Islamic Aqeedah‬‬
+                                                                    ‫أركان اإليمان‬   ‫‪‬‬
+
+‫‪ ‬عن عمر بن الخطاب رضي هللا عنه قال ‪ :‬بينما نحن جلوس عند رسول هللا صلى هللا‬
+‫عليه وسلم ذات يوم ‪ ،‬إذ طلع علينا رجل شديد بياض الثياب ‪ ،‬شديد سواد الشعر ‪ ،‬ال‬
+‫يرى عليه أثر السفر ‪ ،‬وال يعرفه منا أحد ‪ ،‬حتى جلس إلى النبي صلى هللا عليه وسلم‬
+‫فأسند ركبته إلى ركبتيه ‪ ،‬ووضع كفيه على فخذيه ‪ ،‬وقال ‪ " :‬يا محمد أخبرني عن‬
+‫اإلسالم " ‪ ،‬فقال له ‪ ( :‬اإلسالم أن تشهد أن ال إله إال هللا وأن محمدا رسول هللا ‪ ،‬وتقيم‬
+‫الصالة وتؤتي الزكاة ‪ ،‬وتصوم رمضان ‪ ،‬وتحج البيت إن استطعت إليه سبيال ) ‪ ،‬قال ‪" :‬‬
+                                                  ‫صدقت " ‪ ،‬فعجبنا له يسأله ويصدقه ‪،‬‬
+
+‫‪a‬‬                                                                                    ‫‪8‬‬
+
+
+=== Slide 9 ===
+          ‫‪Islamic Aqeedah‬‬
+                                                                       ‫أركان اإليمان‬    ‫‪‬‬
+
+‫قال ‪ " :‬أخبرني عن اإليمان " قال ‪ ( :‬أن تؤمن باهلل ومالئكته وكتبه ورسله واليوم اآلخر ‪،‬‬
+‫وتؤمن بالقدر خيره وشره ) ‪ ،‬قال ‪ " :‬صدقت " ‪ ،‬قال ‪ " :‬فأخبرني عن اإلحسان " ‪ ،‬قال ‪ ( :‬أن‬
+‫تعبد هللا كأنك تراه ‪ ،‬فإن لم تكن تراه فإنه يراك ) ‪ ،‬قال ‪ " :‬فأخبرني عن الساعة " ‪ ،‬قال ‪( :‬‬
+‫ما المسؤول بأعلم من السائل ) ‪ ،‬قال ‪ " :‬فأخبرني عن أماراتها " ‪ ،‬قال ‪ ( :‬أن تلد األمة ربتها‬
+‫‪ ،‬وأن ترى الحفاة العراة العالة رعاء الشاء ‪ ،‬يتطاولون في البنيان ) ثم انطلق فلبث مليا ‪ ،‬ثم‬
+‫قال ‪ ( :‬يا عمر ‪ ،‬أتدري من السائل ؟ ) ‪ ،‬قلت ‪" :‬هللا ورسوله أعلم " ‪ ،‬قال ‪ ( :‬فإنه جبريل‬
+                                                          ‫أتاكم يعلمكم دينكم ) رواه مسلم ‪.‬‬
+
+‫‪a‬‬                                                                                        ‫‪9‬‬
+
+
+=== Slide 10 ===
+         Islamic Aqeedah
+   the hadeeth of Jibreel which was narrated by Muslim in his Saheeh (8)
+    from ‘Umar ibn al-Khattaab who said:
+   One daywhen we were with the Messenger of Allaah (peace and blessings
+    of Allaah be upon him), thereappeared before us a man whose clothes
+    were exceedingly white and his hair was exceedingly black, and there
+    were no signs of travel on him. No one among us recognized him. He came
+    and sat down by the Prophet (peace and blessings of Allaah be upon him)
+    and rested his knees against his and placed the palms on his hands on his
+    thighs. He said: “O Muhammad, tell me about Islam.”
+
+a                                                                           10
+
+
+=== Slide 11 ===
+         Islamic Aqeedah
+   ” The Messenger of Allaah (peace and blessings of Allaah be upon him)
+    said: “Islam is to testify that there is none worthy of worship except
+    Allaah and that Muhammad is the Messenger of Allaah, to establish regular
+    prayer, to pay zakaah, to fast Ramadaan and to go on pilgrimage to the
+    House if you are able to.” He said: “You have spoke the truth.” And we
+    were amazed at his asking that and saying that he had spoken the truth.
+
+a                                                                           11
+
+
+=== Slide 12 ===
+         Islamic Aqeedah
+   Then he said: “Tell me about eemaan (faith, belief),” He said: “It means
+    believing in Allaah, His angels, His Books, His Messengers, and the Last
+    Day, and believing in al-qadar (the divine will and decree), both good and
+    bad.” He said: “You have spoken the truth.” He said: “Tell me about
+    ihsaan.” He said: “It means worshipping Allaah as if you can see Him, and
+    although you cannot see Him, He can see you.”
+
+a                                                                                12
+
+
+=== Slide 13 ===
+         Islamic Aqeedah
+   He said: “Tell me about the Hour.” He said: “The one who is being asked
+    does not know more about it than the one who is asking.” He said: “Then
+    tell me about its signs.” He said: “The slave-girl will give birth to her
+    mistress, and you will see the barefoot, naked, destitute herdsmen
+    competing in constructing lofty buildings.” Then he departed and I stayed
+    for a while. Then he said to me: “O ‘Umar, do you know who the
+    questioner was?” I said: “Allaah and His Messenger know best.” He said:
+    “That was Jibreel, who came to teach you your religion.”
+
+a                                                                               13
+
+
+=== Slide 14 ===
+          Islamic Aqeedah
+                                                               ‫ما معنى اإليمان باهلل؟‬    
+‫ وأسمائه‬، ‫ وألوهيته‬، ‫ وربوبيته‬، ‫ اإليمان باهلل هو االعتقاد الجازم بوجوده سبحانه وتعالى‬
+                                                                             . ‫وصفاته‬
+                       . ًّ ‫ فمن آمن بها فهو المؤمن حقا‬، ‫ اإليمان باهلل يتضمن أربعة أمور‬
+                                                       ‫ اإليمان بوجود هللا تعالى‬:‫ األول‬
+    ‫ فضال ً عن األدلة الشرعية الكثيرة التي‬، ‫ووجود هللا تعالى قد دل عليه العقل والفطرة‬    
+                                                                      .‫تدل على ذلك‬
+   Faith in Allaah means believing firmly in His existence, Lordship and Divinity, and
+    in His Names and Attributes.
+   Faith in Allaah implies four things, whoever believes in them is a true believer.
+   1 – Belief in the existence of Allaah.
+   The existence of Allaah is something indicated by reason and by man's innate
+    nature, let alone the large amount of shar’i (revelatory) evidence to that effect.
+
+a                                                                                        14
+
+
+=== Slide 15 ===
+            Islamic Aqeedah
+‫ فإن كل مخلوق قد فطر على اإليمان‬:‫ ـ أما داللة الفطرة على وجوده‬1 
+‫ وال ينصرف عن مقتضى هذه‬،‫بخالقه من غير سبق تفكير أو تعليم‬
+‫ ولذلك قال النبي صلى‬،‫الفطرة إال من طرأ على قلبه ما يصرفه عنها‬
+،‫ه‬    َ ‫و‬
+ ِ ِ‫دان‬         ُ ‫و‬
+        ِ ‫اه ُي َه‬ َ َ‫ف َأب‬
+                          َ ، ‫فط َر ِة‬       َ ‫مولُود إِال ُيولَ ُد‬
+                                     ِ ‫علَى ال‬                    َ ‫من‬ ِ ‫ما‬َ ( : ‫هللا عليه وسلم‬
+       . )2658( ‫) ومسلم‬1358( ‫ه ) رواه البخاري‬                             َ ِ‫مج‬
+                                                                     ِ ِ‫سان‬    َ ‫ أَو ُي‬، ‫ه‬       ِ ‫أَو ُي َن‬
+                                                                                          ِ ِ‫ص َران‬
+   (i) The evidence of man’s innate nature that Allaah exists: every man has
+    been created with an innate belief in his Creator without having to first
+    think about it or be taught, and no one deviates from this innate nature
+    except the one who has been exposed to misguiding influences. Hence the
+    Prophet (peace and blessings of Allaah be upon him) said: “There is no
+    child who is not born in a state of fitrah (the natural inclination of man),
+    but his parents make him a Jew, a Christian or a Magian.” Narrated by
+    al-Bukhaari, 1358; Muslim, 2658.
+
+a                                                                                                          15
+
+
+=== Slide 16 ===
+           Islamic Aqeedah
+        ‫ ـ وأما داللة العقل على وجود هللا تعالى؛ فألن هذه المخلوقات‬2 
+    ‫ج َد نفسها‬
+             ِ ‫ إذ ال يمكن أن تو‬،‫سابقها والحقها ال بد لها من خالق أوجدها‬
+                                      . ‫ وال يمكن أن توجد صدفة‬، ‫بنفسها‬
+        َ
+‫ ألنه‬، ‫نفسه‬ ‫ فهي ال يمكن أن توجد نفسها بنفسها ألن الشيء ال يَخلق‬
+                            !‫ فكيف يكون خالقاً ؟‬،‫قبل وجوده معدوم‬
+    (ii) The evidence of reason that Allaah exists: all these created
+     things, past, present and future, must have a Creator Who brought
+     them into existence, because it is not possible for them to have
+     created themselves or to have come into existence by accident.
+    It is impossible for them to have come into existence by
+     themselves because a thing cannot create itself: before it existed
+     it was non-existent, so how could it be a creator?!
+a                                                                         16
+
+
+=== Slide 17 ===
+            Islamic Aqeedah
+    ‫ وألن وجودها‬، ‫ ألن كل حادث ال بد له من محدث‬، ‫وال يمكن أن توجد صدفة‬          
+      ‫ واالرتباط الملتحم‬، ‫ والتناسق المتآلف‬، ‫على هذا النظام البديع المحكم‬
+     ‫ وبين الكائنات بعضها مع بعض يمنع منعاً باتا ًّ أن‬، ‫بين األسباب ومسبباتها‬
+    ‫ إذ الموجود صدفة ليس على نظام في أصل وجوده‬، ‫يكون وجودها صدفة‬
+                                             !‫ فكيف يكون منتظماً حال بقائه ؟‬،
+     And it is impossible for them to have come into existence by accident,
+      because everything that happens must have a cause. Moreover, this
+      creation is done in a wondrous and precise manner, and every created
+      being is in harmony with the rest of creation, and there is a strong
+      connection between cause and effect. All of this makes it impossible
+      that this universe could have come into being accidentally, because
+      what happens accidentally does not happen in a precise and perfect
+      manner, so how could it remain so precisely balanced?
+
+a                                                                               17
+
+
+=== Slide 18 ===
+            Islamic Aqeedah
+           َ ‫ وال أن تو‬،‫نفسها بنفسها‬
+    ،‫جد صدفة‬                     َ   ‫جد هذه المخلوقات‬   ِ ‫وإذا لم يمكن أن ُتو‬      
+                                                    ٌ ‫ج‬
+                             . ‫د وهو هللا رب العالمين‬ ِ ‫تعين أن يكون لها مو‬
+     ‫وقـد ذكر هللا تعالى هذا الدليل العقلي والبرهان القطعي في سورة‬                 
+              َ ‫خالِ ُق‬
+. 35/ ‫ون ) الطور‬      َ ‫م ال‬ ُ ‫شيء أَم‬
+                           ُ ‫ه‬             َ ‫من‬
+                                     َ ‫غي ِر‬            ُ ‫ ( أَم‬: ‫ حيث قال‬،‫الطور‬
+                                              ِ ‫خ ِل ُقوا‬
+     If it is not possible for these things to have created themselves or to
+      have come into existence by accident, then there must be One Who
+      brought them into existence, namely Allaah the Lord of the Worlds.
+     Allaah has mentioned this rational evidence and definitive proof in
+      Soorat al-Toor, where He says (interpretation of the meaning):
+     “Were they created by nothing? Or were they themselves the
+      creators?”[al-Toor 52:35]
+a                                                                                  18
+
+
+=== Slide 19 ===
+          Islamic Aqeedah
+‫ فتعين أن يكون‬،‫ وال هم الذين خلقوا أنفسهم‬، ‫يعني أنهم لم يخلقوا من غير خالق‬      
+‫ ولهذا لما سمع جبير بن مطعم رسول هللا صلى هللا‬، ‫خالقهم هو هللا تبارك وتعالى‬
+‫ ( أم خلقوا من غير شيء أم هم‬: ‫عليه وسلم يقرأ سورة الطور فبلغ هذه اآليات‬
+‫ أم عندهـم خزائن ربك أم هم‬. ‫ أم خلقوا السمـوات واألرض بل ال يوقنـون‬. ‫الخالقون‬
+، ‫ ( كاد قلبي أن يطير‬: ‫ وكان جبير يومئذ مشركاً قال‬. 37-35/ ‫المسيطرون ) الطور‬
+               . ‫وذلك أول ما وقر اإليمان في قلبي ) رواه البخاري في عدة مواضع‬
+   They were not created without a Creator, and they did not create themselves,
+    so their Creator must be Allaah, may He be blessed and exalted. Hence when
+    Jubayr ibn Mut’im heard the Messenger of Allaah (peace and blessings of Allaah
+    be upon him) reciting Soorat al-Toor, and he reached these verses
+    (interpretation of the meaning):
+   “Were they created by nothing? Or were they themselves the creators?
+    Or did they create the heavens and the earth? Nay, but they have no firm
+    Belief.
+
+a                                                                                19
+
+
+=== Slide 20 ===
+         Islamic Aqeedah
+   Or are with them the treasures of your Lord? Or are they the
+    tyrants with the authority to do as they like?”
+   [al-Toor 52:35-37]
+   Jabayeer was a mushrik at that time, and said: “My heart almost
+    soared, and that was the first moment that faith entered my
+    heart.” Narrated by al-Bukhaari in several places.
+
+a                                                                     20
+
+
+=== Slide 21 ===
+          Islamic Aqeedah
+   We will give you an example that will help to explain that:
+   If a person were to tell you of a beautiful palace, surrounded by gardens
+    among which rivers flowed, filled with furniture and couches, decorated with
+    all kinds of luxuries and adornments, and told you that this palace and all that
+    it contains created itself, or came into existence like that by accident without
+    anyone building it, you would hasten to deny that and regard it as a lie, and
+    you would regard this as foolish speech. So after that can it be possible that
+    this wondrous, vast and well balanced universe with its earth, heavens and
+    stars, could have created itself or come into being by accident with no
+    Creator?!
+   This rational evidence was understood by a Bedouin who lived in the desert
+    and who expressed it most eloquently, when he was asked, “How do you know
+    your Lord?” He said: “If you see the camel dung you know that a camel has
+    passed this way, and if you see a footstep you know that a person has passed
+    this way, so the heaven with its stars and the earth with its mountain passes
+    and the oceans with their high waves all point to the existence of the All-
+    Hearing, All-Seeing.”
+a                                                                                  21
+
+
+=== Slide 22 ===
+         Islamic Aqeedah
+                                             ‫ اإليمان بربوبيته تعالى‬:ً‫ ثانيا‬
+                              .‫ بأنه وحده الرب ال شريك له وال معين‬:‫ أي‬
+‫ وال‬، ‫ فال خالق إال هللا‬، ‫ والتدبير‬، ‫ والملك‬، ‫ هو من له الخلق‬: ‫ والرب‬
+                                     ، ‫ وال مدبر لألمور إال هللا‬،‫مالك إال هللا‬
+   2 – Belief in the Lordship of Allaah.
+   i.e., belief that He alone is the Lord, with no partner or helper.
+   The Lord (Rabb) is the One Who has the power of creation,
+    dominion and control. There is no Creator except Allaah, no
+    Sovereign except Allaah, no controller of affairs except Allaah.
+
+a                                                                           22
+
+
+=== Slide 23 ===
+                 ‫‪Islamic Aqeedah‬‬
+‫ق َواألَم ُر ) األعراف ‪ . 45/‬وقال تعالى ‪( :‬‬                                 ‫خل ُ‬ ‫ه ال َ‬      ‫‪ ‬قال هللا تعالى ‪ ( :‬أَال لَ ُ‬
+‫من‬    ‫صا َر َو َ‬‫ع َواألَب َ‬      ‫َّ‬
+                            ‫السم َ‬          ‫من يَم ِل ُ‬
+                                            ‫ك‬            ‫ض أَ َّ‬        ‫َ‬
+                                                               ‫ما ِء َواألر ِ‬        ‫الس َ‬‫َّ‬            ‫ن‬‫م َ‬‫كم ِ‬    ‫من يَر ُز ُق ُ‬     ‫ُقل َ‬
+‫من ُي َدبِ ُر األَم َر‬    ‫ي َو َ‬‫ح ِ‬      ‫ن ال َ‬  ‫م َ‬
+                                                   ‫ت ِ‬  ‫م ِي َ‬‫ج ال َ‬   ‫ت َو ُيخ ِر ُ‬     ‫ميِ ِ‬     ‫ن ال َ‬    ‫م َ‬ ‫ي ِ‬    ‫ح َّ‬  ‫ج ال َ‬    ‫ُيخ ِر ُ‬
+‫ون ) يونس‪ . 31/‬وقال تعالى ‪ُ ( :‬ي َدبِ ُر األَم َر‬                            ‫فال تَ َّت ُق َ‬     ‫ف ُقل أَ َ‬       ‫ون َّ ُ‬
+                                                                                                              ‫ّللا َ‬        ‫س َي ُقولُ َ‬    ‫ف َ‬     ‫َ‬
+  ‫م َّ ُ‬     ‫ذلِ ُ‬
+                 ‫ه ) السجدة ‪ . 5/‬وقال ‪َ ( :‬‬                     ‫ج إِلَي ِ‬  ‫م يَع ُر ُ‬ ‫ض ثُ َّ‬             ‫َ‬
+‫ّللا‬      ‫ك ُ‬                                                                                   ‫ما ِء إِلَى األر ِ‬                 ‫َّ‬
+                                                                                                                               ‫الس َ‬         ‫ن‬‫م َ‬ ‫ِ‬
+‫مير )‬      ‫من قِط ِ‬      ‫ون ِ‬ ‫ك َ‬   ‫ما يَم ِل ُ‬ ‫ه َ‬ ‫من ُدونِ ِ‬    ‫ون ِ‬    ‫ع َ‬   ‫ين تَد ُ‬       ‫ذ َ‬  ‫ك َوالَّ ِ‬  ‫مل ُ‬  ‫ه ال ُ‬     ‫كم ل َ ُ‬    ‫َربُّ ُ‬
+                                                                                                                             ‫فاطر‪. 13/‬‬
+
+‫‪a‬‬                                                                                                                                                 ‫‪23‬‬
+
+
+=== Slide 24 ===
+         Islamic Aqeedah
+                                                ‫ اإليمان بألوهيته‬: ‫ الثالث‬
+                                      . ‫ بأنه اإلله الحق ال شريك له‬: ‫ أي‬
+‫ وهذا هو معنى‬، ً‫ (المعبود) حبا ًّ وتعظيما‬: ‫ و(اإلله) بمعنى (المألوه) أي‬
+                                         ٌّ
+                                ‫حق إال هللا‬ َ ‫ ال معبو‬: ‫(ال إله إال هللا) أي‬
+                                            ‫د‬
+   3 – Belief in His Divinity
+   i.e., that He is the One True God, with no partner or associate.
+   Al-Ilaah (God) means the One Who is loved, i.e., the One Who is
+    worshipped out of love and veneration. This is what is meant by
+    Laa ilaaha ill-Allaah (there is no god but Allaah), i.e., there is none
+    who is rightfully worshipped except Allaah
+a                                                                         24
+
+
+=== Slide 25 ===
+                 ‫‪Islamic Aqeedah‬‬
+    ‫م ) البقرة ‪. 163/‬‬             ‫حي ُ‬    ‫ن َّ‬
+                                       ‫الر ِ‬     ‫م ُ‬
+                                                   ‫الرح َ‬ ‫و َّ‬    ‫ه إال ُ‬
+                                                                ‫ه َ‬         ‫د ال إِلَ َ‬‫ح ٌ‬
+                                                                                         ‫وا ِ‬‫ه َ‬   ‫كم إِلَ ٌ‬     ‫وإِلَ ُه ُ‬
+                                                                                                                          ‫‪ . ‬قال تعالى ‪َ ( :‬‬
+                                              ‫ُ‬                          ‫ِ‬
+           ‫قائِماً بِال ِ‬‫م َ‬       ‫وأولُو ال ِ‬      ‫ك ُ‬                 ‫ه إال ُ‬                     ‫َ‬
+                                                                                              ‫ّللا أنَّ ُ‬ ‫ه َد َّ ُ‬
+‫ط ال‬
+   ‫قس ِ‬                      ‫عل ِ‬               ‫ة َ‬   ‫مالئِ َ‬ ‫وال َ‬‫و َ‬‫ه َ‬       ‫ه ال إِلَ َ ِ‬                         ‫ش ِ‬‫وقال تعالى ‪َ ( :‬‬
+                                                                                                                                         ‫ه إال ُ‬
+                                                                    ‫يم ) آل عمران ‪. 18/‬‬                      ‫حكِ ُ‬ ‫زي ُز ال َ‬    ‫و ال َ‬
+                                                                                                                               ‫ع ِ‬     ‫ه َ‬        ‫إِلَ َ ِ‬
+       ‫‪ ‬وكل ما اتخذ إلهاً مع هللا يعبد من دونه فألوهيته باطلة ‪ ،‬قـال هللا تعـالى ‪( :‬‬
+     ‫علِ ُّ‬
+     ‫ي‬      ‫و ال َ‬
+                 ‫ه َ‬‫ّللا ُ‬
+                        ‫ن َّ َ‬ ‫وأَ َّ‬‫ل َ‬ ‫ط ُ‬‫و البَا ِ‬    ‫ه ُ‬
+                                                       ‫ه َ‬   ‫من ُدونِ ِ‬    ‫ون ِ‬‫ع َ‬  ‫ما يَد ُ‬‫ن َ‬       ‫وأَ َّ‬‫ق َ‬‫ح ُّ‬  ‫و ال َ‬   ‫ّللا ُ‬
+                                                                                                                            ‫ه َ‬    ‫ن َّ َ‬ ‫ك بِأَ َّ‬     ‫َ‬
+                                                                                                                                                   ‫ذل ِ َ‬
+                                                                                                                      ‫ك ِبي ُر ) الحج ‪. 62/‬‬          ‫ال َ‬
+
+‫‪a‬‬                                                                                                                                                      ‫‪25‬‬
+
+
+=== Slide 26 ===
+           Islamic Aqeedah
+                                                           ‫ اإليمان بأسمائه وصفاته‬: ‫ الرابع‬
+       ‫ أو سنة رسوله صلى هللا عليه‬، ‫ إثبات ما أثبته هللا لنفسه في كتابه‬: ‫ أي‬
+    ، ‫وسلم من األسماء والصفات على الوجه الالئق به سبحانه من غير تحريف‬
+            َ ‫لِل األَس‬
+        ‫ما ُء‬       ِ َّ ِ ‫و‬
+                           َ ( : ‫ قال هللا تعالى‬. ‫ وال تمثيل‬، ‫ ومن غير تكييف‬، ‫وال تعطيل‬
+          ‫كانُوا‬
+               َ ‫ما‬
+                  َ ‫ن‬َ ‫س ُيج َزو‬َ ‫ه‬     َ ‫ون فِي أَس‬
+                                  ِ ِ ‫مائ‬         َ ‫ح ُد‬
+                                                       ِ ‫ين ُيل‬
+                                                             َ ‫ذ‬ِ َّ‫ذ ُروا ال‬
+                                                                            َ ‫و‬       ُ ‫ع‬
+                                                                                 َ ِ‫وه ب‬
+                                                                              َ ‫ها‬           َ ‫حس َنى‬
+                                                                                         ُ ‫فاد‬       ُ ‫ال‬
+                                                                        . 180/ ‫ون ) األعراف‬     َ ُ‫مل‬
+                                                                                                    َ ‫يَع‬
+   4 – Belief in His Names and Attributes.
+   i.e., affirming the names and attributes which Allaah has affirmed for
+    Himself in His Book and in the Sunnah of His Messenger (peace and
+    blessings of Allaah be upon him) in a manner that befits Him, without
+    distorting or denying the meanings, or asking how, or likening Him to His
+    creation.
+a                                                                                                      26
+
+
+=== Slide 27 ===
+         Islamic Aqeedah
+   Allaah says (interpretation of the meaning):
+   “And (all) the Most Beautiful Names belong to Allaah, so call on
+    Him by them, and leave the company of those who belie or deny
+    (or utter impious speech against) His Names. They will be requited
+    for what they used to do”
+   [al-A’raaf 7:180]
+
+a                                                                    27
+
+
+=== Slide 28 ===
+    Islamic Aqeedah
+
+a                     28
+
+
+=== Slide 29 ===
+    Islamic Aqeedah
+
+a                     29
+
+
+=== Slide 30 ===
+    Islamic Aqeedah
+
+a                     30
+
+
+=== Slide 31 ===
+    Islamic Aqeedah
+
+a                     31
+
+
+=== Slide 32 ===
+    Islamic Aqeedah
+
+a                     32
+
+
+=== Slide 33 ===
+    Islamic Aqeedah
+
+a                     33
+
