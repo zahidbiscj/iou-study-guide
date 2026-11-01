@@ -659,3 +659,34 @@ plot('kinked', 'Quantity', 'Price', [
     ('pt', 50, 60), ('gd', 50, 60), ('yt', 60, 'P (sticky)')],
     'Kinked demand (McConnell & Brue p. 456): above the current price demand is elastic (rivals ignore increases); below it, inelastic (rivals match cuts). The kink creates a gap in MR, so MC can move (MC1 → MC2) without changing price or output: sticky prices.',
     'বাঁকানো চাহিদা (ম্যাককনেল ও ব্রু পৃ. ৪৫৬): বর্তমান দামের ওপরে চাহিদা স্থিতিস্থাপক (দাম বাড়ালে প্রতিদ্বন্দ্বী মানে না); নিচে অস্থিতিস্থাপক (দাম কমালে প্রতিদ্বন্দ্বীও কমায়)। বাঁকে MR-এ ফাঁক তৈরি হয়, তাই MC বদলালেও (MC1 → MC2) দাম-উৎপাদন একই: অনমনীয় দাম।')
+
+# =====================================================================
+# Lectures 13-15 — labour market, Lorenz curve, externalities
+# =====================================================================
+plot2('labour', [
+    ('Market', 'Quantity of labour', 'Wage', ln(D0, 'l4', 'D = MRP') + ln(S0, 'l2', 'S') + [('pt', 50, 50), ('gd', 50, 50), ('yt', 50, 'Wc'), ('xt', 50, 'Qc')]),
+    ('Firm (wage taker)', 'Quantity of labour', 'Wage', [('ln', 0, 50, 94, 50, 'l2'), ('tx', 46, 54, 'S = MRC = Wc', 't2'), ('ln', 4, 92, 80, 10, 'l4'), ('tx', 66, 18, 'd = MRP', 't4'),
+        ('pt', 42.5, 50), ('gx', 42.5, 50), ('xt', 42.5, 'qc'), ('area', [(0, 0), (0, 50), (42.5, 50), (42.5, 0)], 'fl')])],
+    'Purely competitive labour market (slides 18–19): market demand (MRP) and supply set the wage Wc. Each firm takes Wc as given (MRC = Wc, a horizontal line) and hires up to MRP = MRC; the shaded area is its total wage cost.',
+    'বিশুদ্ধ প্রতিযোগিতামূলক শ্রমবাজার (স্লাইড ১৮–১৯): বাজারের চাহিদা (MRP) ও যোগান মজুরি Wc ঠিক করে। প্রতিটি ফার্ম Wc মেনে নেয় (MRC = Wc, আনুভূমিক) এবং MRP = MRC পর্যন্ত নিয়োগ করে; ছায়াযুক্ত অংশ মোট মজুরি ব্যয়।', h=230)
+
+plot('minwage', 'Quantity of labour', 'Wage', ln(D0, 'l4', 'D') + ln(S0, 'l2', 'S') + [
+    ('pt', 50, 50), ('gd', 50, 50), ('ln', 0, 66, 94, 66, 'l3'), ('tx', 2, 69, 'minimum wage', 't3'), ('gx', 34, 66), ('gx', 66, 66),
+    ('ln', 34, 74, 66, 74, 'l1'), ('tx', 36, 77, 'unemployment', 't1'), ('xt', 34, 'Qd'), ('xt', 50, 'Qe'), ('xt', 66, 'Qs'), ('yt', 50, 'We')],
+    'A minimum wage above the equilibrium wage is a price floor in the labour market: firms hire fewer workers (Qd) while more people want jobs (Qs). Whether jobs are really lost depends on labour demand and supply conditions (slide 25).',
+    'ভারসাম্য মজুরির ওপরে ন্যূনতম মজুরি শ্রমবাজারে সর্বনিম্ন দামসীমা: ফার্ম কম শ্রমিক নেয় (Qd), অথচ বেশি মানুষ কাজ চায় (Qs)। আসলেই চাকরি কমে কি না তা শ্রমের চাহিদা-যোগানের অবস্থার ওপর নির্ভর করে (স্লাইড ২৫)।')
+
+plot('lorenz', 'Cumulative % of households', 'Cumulative % of income', [
+    ('area', [(0, 0), (20, 3.4), (40, 12.1), (60, 26.4), (80, 49.3), (96, 96)], 'fl3'),
+    ('ln', 0, 0, 96, 96, 'l1'), ('tx', 52, 62, 'line of perfect equality', 't1'),
+    ('cu', [(0, 0), (20, 3.4), (40, 12.1), (60, 26.4), (80, 49.3), (96, 96)], 'l4'), ('tx', 66, 26, 'Lorenz curve', 't4'),
+    ('pt', 20, 3.4), ('pt', 40, 12.1), ('tx', 40, 46, 'A', 't3'), ('tx', 76, 14, 'B', 't4'),
+    ('xt', 20, '20'), ('xt', 40, '40'), ('xt', 60, '60'), ('xt', 80, '80')],
+    'Lorenz curve (slides 6–9): bottom 20% of households get 3.4% of income, bottom 40% get 12.1%, and so on. The further the curve sags below the diagonal, the more unequal the income. Gini = A ÷ (A + B): 0 = complete equality, 1 = complete inequality.',
+    'লরেঞ্জ রেখা (স্লাইড ৬–৯): নিচের ২০% পরিবার আয়ের ৩.৪% পায়, নিচের ৪০% পায় ১২.১%, ইত্যাদি। রেখা কর্ণ থেকে যত নিচে ঝোলে, আয় তত অসম। গিনি = A ÷ (A + B): ০ = পূর্ণ সমতা, ১ = পূর্ণ অসমতা।')
+
+plot2('externality', [
+    ('Negative externality', 'Q', 'P', ln(D0, 'l4', 'D') + ln(S0, 'l2', 'S') + ln(S0, 'l3', 'St', dx=-20) + [('pt', 50, 50), ('pt', 40, 60), ('xt', 50, 'Qe'), ('xt', 40, 'Qo'), ('gx', 50, 50), ('gx', 40, 60), ('tx', 2, 6, 'Qe > Qo: overproduction', 't3')]),
+    ('Positive externality', 'Q', 'P', ln(D0, 'l4', 'D') + ln(D0, 'l1', 'Dt', dx=20) + ln(S0, 'l2', 'S') + [('pt', 50, 50), ('pt', 60, 60), ('xt', 50, 'Qe'), ('xt', 60, 'Qo'), ('gx', 50, 50), ('gx', 60, 60), ('tx', 2, 6, 'Qe < Qo: underproduction', 't1')])],
+    'Externalities (slides 15–16): with external costs, the market supply S ignores them; the true supply St (all costs) is higher, so the market overproduces (Qe > Qo). With external benefits, demand D ignores them; the true demand Dt is higher, so the market underproduces (Qe < Qo).',
+    'বাহ্যিকতা (স্লাইড ১৫–১৬): বাহ্যিক ব্যয় থাকলে বাজারের যোগান S তা উপেক্ষা করে; প্রকৃত যোগান St (সব ব্যয়) ওপরে, তাই বাজার বেশি উৎপাদন করে (Qe > Qo)। বাহ্যিক সুবিধা থাকলে চাহিদা D তা উপেক্ষা করে; প্রকৃত চাহিদা Dt ডানে, তাই বাজার কম উৎপাদন করে (Qe < Qo)।', h=230)
