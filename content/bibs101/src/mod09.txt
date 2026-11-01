@@ -1,0 +1,439 @@
+title: Management | ব্যবস্থাপনা
+units: Units 14–15
+pdf: Unit 14 and 15 - Management.pdf
+slides: 74
+
+@concept | Big picture | বড় ছবি
+A business is run by **managers** — people who get results through others. This module answers six study questions: **9.1** levels and skills of managers (slides 3–13); **9.2** management theory (14–23); **9.3** planning (24–30); **9.4** organizing and structures (31–42); **9.5** management and leadership styles (43–57); **9.6** controlling (58–74).
+
+**3-minute version:** Three levels: **top** (long-range goals), **middle** (allocate resources, oversee first-line), **first-line** (supervise workers). Katz's three skills: **technical, human, conceptual** (top managers need most conceptual; first-line most technical; human skill is vital at every level). Theory: **Taylor** (scientific management, "one best way", 4 principles), **Gilbreths** (motion study), **Fayol** (5 duties, 14 principles). Today's functions: **planning, organizing, staffing, leading, controlling, motivating**. Plans: **strategic, tactical, operational, contingency**; **SWOT** = strengths, weaknesses, opportunities, threats. Structures: **divisional, functional, matrix**. Styles: **autocratic, laissez-faire, democratic**; leadership: **transformational, transactional, narcissistic**. Control process: **set standards → measure → compare → correct → use information**; **SMART** objectives; **Balanced Scorecard**.
+~~
+ব্যবসা চালান **ম্যানেজাররা** — যারা অন্যদের দিয়ে ফল আনেন। ছয়টি স্টাডি প্রশ্ন: **৯.১** ম্যানেজারের স্তর ও দক্ষতা (স্লাইড ৩–১৩); **৯.২** ব্যবস্থাপনা তত্ত্ব (১৪–২৩); **৯.৩** পরিকল্পনা (২৪–৩০); **৯.৪** সংগঠন ও কাঠামো (৩১–৪২); **৯.৫** ব্যবস্থাপনা ও নেতৃত্বের ধরন (৪৩–৫৭); **৯.৬** নিয়ন্ত্রণ (৫৮–৭৪)।
+
+**৩ মিনিটের সারাংশ:** তিন স্তর: **শীর্ষ** (দীর্ঘমেয়াদি লক্ষ্য), **মধ্যম** (সম্পদ বণ্টন, প্রথম সারির ম্যানেজারদের তত্ত্বাবধান), **প্রথম সারি** (কর্মী তত্ত্বাবধান)। ক্যাটজের তিন দক্ষতা: **কারিগরি, মানবিক, ধারণাগত** (শীর্ষে ধারণাগত বেশি; প্রথম সারিতে কারিগরি বেশি; মানবিক সব স্তরে জরুরি)। তত্ত্ব: **টেইলর** (বৈজ্ঞানিক ব্যবস্থাপনা, "একটি সেরা উপায়", ৪ নীতি), **গিলব্রেথ** (গতি অধ্যয়ন), **ফায়োল** (৫ কর্তব্য, ১৪ নীতি)। আজকের কাজ: **পরিকল্পনা, সংগঠন, কর্মী নিয়োগ, নেতৃত্ব, নিয়ন্ত্রণ, প্রেষণা**। পরিকল্পনা: **কৌশলগত, কৌশল-বাস্তবায়নমূলক (ট্যাকটিক্যাল), কার্যকরী, জরুরি**; **SWOT** = শক্তি, দুর্বলতা, সুযোগ, হুমকি। কাঠামো: **বিভাগীয়, কার্যভিত্তিক, ম্যাট্রিক্স**। ধরন: **স্বৈরতান্ত্রিক, ছেড়ে-দেওয়া, গণতান্ত্রিক**; নেতৃত্ব: **রূপান্তরমূলক, লেনদেনমূলক, আত্মমুগ্ধ**। নিয়ন্ত্রণ প্রক্রিয়া: **মান ঠিক → পরিমাপ → তুলনা → সংশোধন → তথ্য ব্যবহার**; **SMART** লক্ষ্য; **ব্যালান্সড স্কোরকার্ড**।
+
+@slide 1,2 | Title and outcomes | শিরোনাম ও ফলাফল
+T:
+Six outcomes = study questions **9.1–9.6** (Units 14 & 15) — the biggest module (74 slides). Learn the **lists**.
+TB:
+ছয়টি ফলাফল = স্টাডি প্রশ্ন **৯.১–৯.৬** (ইউনিট ১৪ ও ১৫) — সবচেয়ে বড় মডিউল (৭৪ স্লাইড)। **তালিকাগুলো** শেখো।
+
+@lesson 9.1 | Levels of management and key skills | ব্যবস্থাপনার স্তর ও মূল দক্ষতা
+Slides 3–13.
+~~
+স্লাইড ৩–১৩।
+
+@slide 3,4,5,6 | Three levels of management | ব্যবস্থাপনার তিন স্তর
+T:
+- **Top managers** — set **organizational objectives and goals**, **scan the external environment** for opportunities, help develop **long-range plans**, make **critical decisions** for the whole organization.
+- **Middle managers** — **allocate resources** to achieve the top managers' goals and **oversee first-line managers**.
+- **First-line managers** — **coordinate activities** developed by middle managers, **supervise non-managerial employees** and report back upward.
+TB:
+- **শীর্ষ ম্যানেজার** — **প্রতিষ্ঠানের লক্ষ্য ও উদ্দেশ্য** ঠিক করেন, সুযোগের জন্য **বাহ্যিক পরিবেশ পর্যবেক্ষণ** করেন, **দীর্ঘমেয়াদি পরিকল্পনা** তৈরিতে সাহায্য করেন, পুরো প্রতিষ্ঠানের **গুরুত্বপূর্ণ সিদ্ধান্ত** নেন।
+- **মধ্যম ম্যানেজার** — শীর্ষ ম্যানেজারদের লক্ষ্য অর্জনে **সম্পদ বণ্টন** করেন ও **প্রথম সারির ম্যানেজারদের তত্ত্বাবধান** করেন।
+- **প্রথম সারির ম্যানেজার** — মধ্যম ম্যানেজারদের তৈরি কার্যক্রম **সমন্বয়** করেন, **অ-ব্যবস্থাপনা কর্মীদের তত্ত্বাবধান** করেন ও উপরে প্রতিবেদন দেন।
+E:
+Bank: the CEO (top), a regional manager (middle), a branch counter supervisor (first-line).
+EB:
+ব্যাংক: সিইও (শীর্ষ), আঞ্চলিক ব্যবস্থাপক (মধ্যম), শাখার কাউন্টার সুপারভাইজার (প্রথম সারি)।
+
+@slide 7,8,9 | Managerial skills (Katz) | ব্যবস্থাপনা দক্ষতা (ক্যাটজ)
+T:
+**Robert Katz** — three critical skill sets:
+- **Technical skills** — a **learned capacity** in a field; **first-line managers** use them daily.
+- **Conceptual skills** — generating ideas **creatively and intuitively**, seeing the big picture, forming mental abstractions; critical for **upper managers**.
+- **Human skills** — **social, interpersonal and leadership skills**: evaluate inefficiencies, make unpopular choices **and** create a healthy environment for development.
+The **importance of each skill depends on the level**: top → most conceptual; first-line → most technical; **human skill matters at every level**. Global managers also need skills for **global management issues**.
+TB:
+**রবার্ট ক্যাটজ** — তিনটি গুরুত্বপূর্ণ দক্ষতা:
+- **কারিগরি দক্ষতা** — কোনো ক্ষেত্রে **শেখা সক্ষমতা**; **প্রথম সারির ম্যানেজাররা** প্রতিদিন ব্যবহার করেন।
+- **ধারণাগত দক্ষতা** — **সৃজনশীল ও স্বজ্ঞাতভাবে** ধারণা তৈরি, বড় ছবি দেখা, মানসিক বিমূর্ততা তৈরি; **উচ্চ ম্যানেজারদের** জন্য সবচেয়ে জরুরি।
+- **মানবিক দক্ষতা** — **সামাজিক, আন্তঃব্যক্তিক ও নেতৃত্বের দক্ষতা**: অদক্ষতা মূল্যায়ন, অপ্রিয় সিদ্ধান্ত **এবং** উন্নয়নের সুস্থ পরিবেশ তৈরি।
+**প্রতিটি দক্ষতার গুরুত্ব স্তরভেদে আলাদা**: শীর্ষে সবচেয়ে ধারণাগত; প্রথম সারিতে সবচেয়ে কারিগরি; **মানবিক দক্ষতা সব স্তরে গুরুত্বপূর্ণ**। বৈশ্বিক ম্যানেজারদের **বৈশ্বিক ব্যবস্থাপনার** দক্ষতাও লাগে।
+K:
+Trick: **Top = Think (conceptual); Middle = People (human); First-line = Do (technical)**.
+KB:
+কৌশল: **শীর্ষ = ভাবা (ধারণাগত); মধ্যম = মানুষ (মানবিক); প্রথম সারি = করা (কারিগরি)**।
+
+@slide 10,11,12,13 | Practice questions 1–4 | অনুশীলনী ১–৪
+T:
+**Q1: C** — middle managers supervise front-line managers and relay progress and challenges. **Q2: A** — technical skill = a learned capacity in a field of work. **Q3: B** — writing a mission statement for a new venture = conceptual skill. **Q4: D** — delivering the opening/keynote speech = human skill (communication and leadership).
+TB:
+**প্রশ্ন ১: C** — মধ্যম ম্যানেজাররা প্রথম সারির ম্যানেজারদের তত্ত্বাবধান করেন ও অগ্রগতি/চ্যালেঞ্জ জানান। **প্রশ্ন ২: A** — কারিগরি দক্ষতা = কাজের ক্ষেত্রে শেখা সক্ষমতা। **প্রশ্ন ৩: B** — নতুন উদ্যোগের লক্ষ্য বিবৃতি লেখা = ধারণাগত দক্ষতা। **প্রশ্ন ৪: D** — উদ্বোধনী/মূল বক্তব্য দেওয়া = মানবিক দক্ষতা (যোগাযোগ ও নেতৃত্ব)।
+
+@check 9.1 | Quick check | দ্রুত যাচাই
+Q: Which level scans the external environment and sets organizational goals? | কোন স্তর বাহ্যিক পরিবেশ পর্যবেক্ষণ ও প্রতিষ্ঠানের লক্ষ্য ঠিক করে?
+O: First-line | Middle | *Top | Supervisors
+OB: প্রথম সারি | মধ্যম | শীর্ষ | সুপারভাইজার
+X: Top managers set goals and scan the environment. | শীর্ষ ম্যানেজাররা লক্ষ্য ঠিক করেন ও পরিবেশ দেখেন।
+Q: Writing a mission statement for a new venture uses mainly… | নতুন উদ্যোগের লক্ষ্য বিবৃতি লেখায় প্রধানত ব্যবহৃত হয়…
+O: technical skills | human skills | *conceptual skills | none
+OB: কারিগরি দক্ষতা | মানবিক দক্ষতা | ধারণাগত দক্ষতা | কোনোটিই নয়
+X: Conceptual skills involve forming ideas and understanding the big picture. | ধারণাগত দক্ষতায় ধারণা তৈরি ও বড় ছবি বোঝা।
+Q: First-line managers most often use… | প্রথম সারির ম্যানেজাররা সবচেয়ে বেশি ব্যবহার করেন…
+O: *technical skills daily | no skills | only conceptual skills | only legal skills
+OB: প্রতিদিন কারিগরি দক্ষতা | কোনো দক্ষতা নয় | শুধু ধারণাগত দক্ষতা | শুধু আইনি দক্ষতা
+X: Slide 7. | স্লাইড ৭।
+
+@lesson 9.2 | Management theory and key functions | ব্যবস্থাপনা তত্ত্ব ও মূল কাজ
+Slides 14–23.
+~~
+স্লাইড ১৪–২৩।
+
+@slide 14,15,16,17 | Taylor's scientific management | টেইলরের বৈজ্ঞানিক ব্যবস্থাপনা
+T:
+**Scientific management** = analyzing work flows to **improve economic efficiency, especially labor productivity**. **Taylorism** is the **first form** ("classical perspective"). Taylor did **scientific time studies** to cut process time. **Four principles:** (1) study each job scientifically to find the **"one best way"** (replacing "rule of thumb"); (2) **hire the right workers and train them**; (3) **monitor performance** and give instruction; (4) **divide work between management (plans, trains) and labor (executes)**.
+TB:
+**বৈজ্ঞানিক ব্যবস্থাপনা** = কাজের প্রবাহ বিশ্লেষণ করে **অর্থনৈতিক দক্ষতা, বিশেষত শ্রম উৎপাদনশীলতা বাড়ানো**। **টেইলরবাদ** **প্রথম রূপ** ("ধ্রুপদী দৃষ্টিভঙ্গি")। টেইলর প্রক্রিয়ার সময় কমাতে **বৈজ্ঞানিক সময় অধ্যয়ন** করেন। **চার নীতি:** (১) প্রতিটি কাজ বৈজ্ঞানিকভাবে দেখে **"একটি সেরা উপায়"** বের করা ("আন্দাজে চলা"র বদলে); (২) **সঠিক কর্মী নিয়োগ ও প্রশিক্ষণ**; (৩) **কর্মক্ষমতা পর্যবেক্ষণ** ও নির্দেশনা; (৪) **কাজ ভাগ: ব্যবস্থাপনা (পরিকল্পনা, প্রশিক্ষণ), শ্রমিক (বাস্তবায়ন)**।
+
+@slide 18 | The Gilbreths | গিলব্রেথ দম্পতি
+T:
+**Frank and Lillian Gilbreth** developed a **motion study**: they **filmed workers** and recorded how long each motion took, aiming to make the process more efficient by **reducing motions**. Difference from Taylor: **Taylor reduced process time; the Gilbreths reduced motions** and showed more concern for **workers' welfare**.
+TB:
+**ফ্র্যাঙ্ক ও লিলিয়ান গিলব্রেথ** **গতি অধ্যয়ন** তৈরি করেন: শ্রমিকদের **ছবি ধারণ** করে প্রতিটি গতিতে কত সময় লাগে রেকর্ড করেন, লক্ষ্য **গতি কমিয়ে** প্রক্রিয়া আরও দক্ষ করা। টেইলর থেকে পার্থক্য: **টেইলর প্রক্রিয়ার সময় কমাতেন; গিলব্রেথরা গতি কমাতেন** এবং **শ্রমিকের কল্যাণ** নিয়ে বেশি চিন্তা করতেন।
+
+@slide 19,20,21 | Henri Fayol | অঁরি ফায়োল
+T:
+**Fayol** (mining engineer): when a horse broke its leg and **nobody had the authority to buy a new one, the mine shut down** — this showed him the need for management structure. His book *General and Industrial Management* lists **five duties** — **Foresight** (plan), **Organization** (provide resources), **Command** (select and lead workers), **Coordinate** (fit efforts together by communication), **Control** (verify and correct) — and **14 principles**, including **scalar chain** (unbroken chain of command), **unity of command** (orders from **one** superior), **unity of direction** (similar activities under one person), **division of work** (specialization). He did not see them as rigid or exhaustive.
+TB:
+**ফায়োল** (খনি প্রকৌশলী): একটি ঘোড়ার পা ভাঙলে **নতুন ঘোড়া কেনার ক্ষমতা কারও না থাকায় খনি বন্ধ হয়ে যায়** — এতে তিনি ব্যবস্থাপনা কাঠামোর প্রয়োজন বোঝেন। তাঁর বই *General and Industrial Management*-এ **পাঁচ কর্তব্য** — **দূরদর্শিতা** (পরিকল্পনা), **সংগঠন** (সম্পদ দেওয়া), **আদেশ** (কর্মী বাছাই ও নেতৃত্ব), **সমন্বয়** (যোগাযোগে প্রচেষ্টা মেলানো), **নিয়ন্ত্রণ** (যাচাই ও সংশোধন) — এবং **১৪ নীতি**, যার মধ্যে **স্কেলার চেইন** (অবিচ্ছিন্ন আদেশ-শৃঙ্খল), **আদেশের ঐক্য** (**একজন** উর্ধ্বতনের নির্দেশ), **নির্দেশনার ঐক্য** (অনুরূপ কাজ একজনের দায়িত্বে), **কাজের বিভাজন** (বিশেষায়ণ)। তিনি এগুলো কঠোর বা সম্পূর্ণ মনে করতেন না।
+K:
+Fayol's five: **F-O-C-C-C** — Foresight, Organization, Command, Coordinate, Control.
+KB:
+ফায়োলের পাঁচ: দূরদর্শিতা, সংগঠন, আদেশ, সমন্বয়, নিয়ন্ত্রণ।
+
+@slide 22,23 | Key functions today and discussion | আজকের মূল কাজ ও আলোচনা
+T:
+Today's management functions: **planning, organizing, staffing, leading/directing, controlling/monitoring, motivating**. Discussion: Taylor's emphasis on **efficiency and training** is still valid, but treating workers as **machines** is obsolete; Fayol's rigid **chain of command** runs against today's **flatter structures**; classical theories fit **routine, large-scale** work such as factories and call centres.
+TB:
+আজকের ব্যবস্থাপনার কাজ: **পরিকল্পনা, সংগঠন, কর্মী নিয়োগ, নেতৃত্ব/নির্দেশনা, নিয়ন্ত্রণ/পর্যবেক্ষণ, প্রেষণা**। আলোচনা: টেইলরের **দক্ষতা ও প্রশিক্ষণের** জোর এখনো বৈধ, কিন্তু শ্রমিককে **যন্ত্র** ভাবা অচল; ফায়োলের কঠোর **আদেশ-শৃঙ্খল** আজকের **সমতল কাঠামোর** বিপরীত; ধ্রুপদী তত্ত্ব **নিত্যনৈমিত্তিক, বড় পরিসরের** কাজে (কারখানা, কল সেন্টার) মানায়।
+
+@check 9.2 | Quick check | দ্রুত যাচাই
+Q: Taylor's scientific management looked for… | টেইলরের বৈজ্ঞানিক ব্যবস্থাপনা খুঁজত…
+O: rule-of-thumb methods | *the "one best way" to perform each job | maximum worker freedom | fewer managers
+OB: আন্দাজের পদ্ধতি | প্রতিটি কাজের "একটি সেরা উপায়" | শ্রমিকের সর্বোচ্চ স্বাধীনতা | কম ম্যানেজার
+X: Principle 1. | নীতি ১।
+Q: The Gilbreths differed from Taylor by focusing on… | গিলব্রেথরা টেইলর থেকে আলাদা ছিলেন মনোযোগে…
+O: reducing wages | *reducing motions (and showing more concern for workers' welfare) | removing training | eliminating plans
+OB: মজুরি কমানো | গতি কমানো (এবং শ্রমিকের কল্যাণে বেশি চিন্তা) | প্রশিক্ষণ বাদ | পরিকল্পনা বাদ
+X: Slide 18. | স্লাইড ১৮।
+Q: Which is one of Fayol's five duties? | ফায়োলের পাঁচ কর্তব্যের একটি কোনটি?
+O: Motivation | Marketing | *Coordinate | Branding
+OB: প্রেষণা | মার্কেটিং | সমন্বয় | ব্র্যান্ডিং
+X: Foresight, organization, command, coordinate, control. | দূরদর্শিতা, সংগঠন, আদেশ, সমন্বয়, নিয়ন্ত্রণ।
+
+@lesson 9.3 | Types of planning and decision making | পরিকল্পনা ও সিদ্ধান্ত গ্রহণের ধরন
+Slides 24–30.
+~~
+স্লাইড ২৪–৩০।
+
+@slide 24,25,26,27 | Understanding planning | পরিকল্পনা বোঝা
+T:
+**Planning** = thinking about and organizing the **activities needed to achieve a goal**; the **business plan** is the foundation. Without solid strategic, operational and contingency plans, goals are hard to meet. **Vision statement** — gives employees something to **rally behind** and tells the world **where the company is going**. **Mission statement** — **how the business will turn the vision into reality**; the base for setting specific goals; **planning cannot begin until the mission is set**.
+TB:
+**পরিকল্পনা** = **লক্ষ্য অর্জনের প্রয়োজনীয় কাজ** নিয়ে ভাবা ও সংগঠিত করা; **ব্যবসা পরিকল্পনা** এর ভিত্তি। দৃঢ় কৌশলগত, কার্যকরী ও জরুরি পরিকল্পনা ছাড়া লক্ষ্য পূরণ কঠিন। **ভিশন বিবৃতি** — কর্মীদের **একত্র হওয়ার** কিছু দেয় এবং **কোম্পানি কোথায় যাচ্ছে** জানায়। **মিশন বিবৃতি** — **কীভাবে ভিশনকে বাস্তব করা হবে** তা বলে; নির্দিষ্ট লক্ষ্যের ভিত্তি; **মিশন ঠিক না হওয়া পর্যন্ত পরিকল্পনা শুরু হয় না**।
+
+@slide 28 | Types of plans | পরিকল্পনার ধরন
+T:
+- **Strategic plans** — translate the **mission** into **long-term goals and short-term objectives**.
+- **Tactical plans** — turn strategy into **specific actions** at each layer of the organization.
+- **Operational plans** — **detailed standards, activities and budgets** to implement tactical plans.
+- **Contingency plans** — the **course of action** if **possible future events** happen ("Plan B").
+TB:
+- **কৌশলগত পরিকল্পনা** — **মিশনকে** **দীর্ঘমেয়াদি লক্ষ্য ও স্বল্পমেয়াদি উদ্দেশ্যে** রূপ দেয়।
+- **ট্যাকটিক্যাল পরিকল্পনা** — কৌশলকে প্রতিষ্ঠানের প্রতিটি স্তরে **নির্দিষ্ট কাজে** রূপ দেয়।
+- **কার্যকরী পরিকল্পনা** — ট্যাকটিক্যাল পরিকল্পনা বাস্তবায়নের **বিস্তারিত মান, কাজ ও বাজেট**।
+- **জরুরি পরিকল্পনা** — **সম্ভাব্য ভবিষ্যৎ ঘটনা** ঘটলে **কর্মপন্থা** ("প্ল্যান বি")।
+E:
+Strategic: "be Bangladesh's top mobile bank by 2030". Tactical: open 500 agent points this year. Operational: each branch's weekly targets. Contingency: backup plan if the network goes down.
+EB:
+কৌশলগত: "২০৩০-এর মধ্যে বাংলাদেশের শীর্ষ মোবাইল ব্যাংক"। ট্যাকটিক্যাল: এ বছর ৫০০ এজেন্ট পয়েন্ট। কার্যকরী: প্রতি শাখার সাপ্তাহিক লক্ষ্য। জরুরি: নেটওয়ার্ক বন্ধ হলে বিকল্প পরিকল্পনা।
+
+@slide 29,30 | SWOT analysis | SWOT বিশ্লেষণ
+T:
+**SWOT** = a key planning tool for **projecting expectations, anticipating problems and guiding decisions**; it examines **internal and external factors**: **S**trengths and **W**eaknesses are **internal**; **O**pportunities and **T**hreats are **external**. Planning helps organizations reach goals by giving **direction**, **anticipating change**, **reducing risk** and **coordinating effort**.
+TB:
+**SWOT** = **প্রত্যাশা প্রক্ষেপণ, সমস্যা অনুমান ও সিদ্ধান্ত পরিচালনার** মূল পরিকল্পনা সরঞ্জাম; এটি **অভ্যন্তরীণ ও বাহ্যিক বিষয়** দেখে: **শক্তি** ও **দুর্বলতা** **অভ্যন্তরীণ**; **সুযোগ** ও **হুমকি** **বাহ্যিক**। পরিকল্পনা **দিকনির্দেশনা**, **পরিবর্তন অনুমান**, **ঝুঁকি হ্রাস** ও **প্রচেষ্টা সমন্বয়ের** মাধ্যমে লক্ষ্য অর্জনে সাহায্য করে।
+K:
+Internal = S, W; External = O, T.
+KB:
+অভ্যন্তরীণ = শক্তি, দুর্বলতা; বাহ্যিক = সুযোগ, হুমকি।
+
+@check 9.3 | Quick check | দ্রুত যাচাই
+Q: Plans that translate the mission into long-term goals are… | মিশনকে দীর্ঘমেয়াদি লক্ষ্যে রূপ দেওয়া পরিকল্পনা হলো…
+O: operational | tactical | *strategic | contingency
+OB: কার্যকরী | ট্যাকটিক্যাল | কৌশলগত | জরুরি
+X: Strategic plans do this. | কৌশলগত পরিকল্পনা এটি করে।
+Q: In SWOT, opportunities and threats are… | SWOT-এ সুযোগ ও হুমকি হলো…
+O: internal | *external | the same | optional
+OB: অভ্যন্তরীণ | বাহ্যিক | একই | ঐচ্ছিক
+X: Strengths and weaknesses are internal. | শক্তি ও দুর্বলতা অভ্যন্তরীণ।
+Q: A backup plan for possible future events is a… | সম্ভাব্য ভবিষ্যৎ ঘটনার বিকল্প পরিকল্পনা…
+O: vision | *contingency plan | strategic plan | mission statement
+OB: ভিশন | জরুরি পরিকল্পনা | কৌশলগত পরিকল্পনা | মিশন বিবৃতি
+X: Contingency plans lay out a response to possible events. | জরুরি পরিকল্পনা সম্ভাব্য ঘটনার সাড়া ঠিক করে।
+
+@lesson 9.4 | Organizing and organizational structures | সংগঠন ও সাংগঠনিক কাঠামো
+Slides 31–42.
+~~
+স্লাইড ৩১–৪২।
+
+@slide 31,32,33,34,35 | Organizing | সংগঠন
+T:
+**Organizing** = **assigning tasks, grouping tasks into departments, delegating authority and allocating resources**. Managers coordinate employees, resources, policies and procedures to support the plan. Because many "assets" are employees, **specialization and division of work** matter — **right people in the right jobs** reduce redundancy and inefficiency. **Benefits:** it **harmonizes individual goals with firm objectives**; supports **expansion**; improves **efficiency and reduces waste**; makes the **chain of command clear**.
+TB:
+**সংগঠন** = **কাজ বণ্টন, কাজকে বিভাগে গুচ্ছ করা, কর্তৃত্ব অর্পণ ও সম্পদ বরাদ্দ**। ম্যানেজাররা পরিকল্পনা সমর্থনে কর্মী, সম্পদ, নীতি ও পদ্ধতি সমন্বয় করেন। অনেক "সম্পদ" কর্মী বলে **বিশেষায়ণ ও কাজের বিভাজন** গুরুত্বপূর্ণ — **সঠিক কাজে সঠিক মানুষ** পুনরাবৃত্তি ও অদক্ষতা কমায়। **সুবিধা:** **ব্যক্তির লক্ষ্যকে প্রতিষ্ঠানের উদ্দেশ্যের সাথে মেলায়**; **সম্প্রসারণে** সহায়ক; **দক্ষতা** বাড়ায় ও **অপচয় কমায়**; **আদেশ-শৃঙ্খল স্পষ্ট** করে।
+
+@slide 36 | Org charts and span of control | সংগঠন চার্ট ও নিয়ন্ত্রণ পরিসর
+T:
+An **organization chart** shows **positions and their relationships**, the **chain of command** and the **number of layers**. **Span of control** = the number of subordinates one supervisor has. **Few layers → wide span** (each manager oversees many); **narrow span** = few subordinates per manager (more layers).
+TB:
+**সংগঠন চার্ট** **পদ ও তাদের সম্পর্ক**, **আদেশ-শৃঙ্খল** ও **স্তরের সংখ্যা** দেখায়। **নিয়ন্ত্রণ পরিসর** = একজন সুপারভাইজারের অধীনস্থের সংখ্যা। **কম স্তর → প্রশস্ত পরিসর** (প্রতি ম্যানেজার অনেককে দেখেন); **সংকীর্ণ পরিসর** = প্রতি ম্যানেজারের অধীনে কম কর্মী (বেশি স্তর)।
+
+@slide 37,38 | Divisional structure | বিভাগীয় কাঠামো
+T:
+**Divisional structure** — each division has **all resources and functions** it needs for its **product line or geography**. **Product departmentalization**: all activities for a product under **one manager**. **Geographic departmentalization**: grouping by region (e.g. Asia-Pacific, Latin America) — important when **tastes or brand response differ across regions**.
+TB:
+**বিভাগীয় কাঠামো** — প্রতিটি বিভাগের **পণ্যসারি বা ভূগোলের** জন্য **সব সম্পদ ও কাজ** থাকে। **পণ্যভিত্তিক বিভাগ**: একটি পণ্যের সব কাজ **একজন ম্যানেজারের** অধীনে। **ভৌগোলিক বিভাগ**: অঞ্চল অনুযায়ী গুচ্ছ (যেমন এশিয়া-প্যাসিফিক, লাতিন আমেরিকা) — যখন **অঞ্চলভেদে রুচি বা ব্র্যান্ডের সাড়া ভিন্ন**।
+
+@slide 39,40 | Functional structure | কার্যভিত্তিক কাঠামো
+T:
+**Functional structure** — divided by **areas of specialty** (marketing, finance, operations); top team = several **functional heads**; communication flows **within departments** and across through **department heads**. **Advantages:** **increased specialization**; suits **larger firms with homogeneous goods**. **Disadvantages:** departments may **not communicate**, reducing **flexibility and innovation**; **tunnel vision**.
+TB:
+**কার্যভিত্তিক কাঠামো** — **বিশেষত্বের ক্ষেত্র** (মার্কেটিং, ফিন্যান্স, অপারেশনস) অনুযায়ী ভাগ; শীর্ষ দলে কয়েকজন **কার্যপ্রধান**; যোগাযোগ **বিভাগের ভেতরে** এবং **বিভাগপ্রধানদের** মাধ্যমে বিভাগের মধ্যে। **সুবিধা:** **বেশি বিশেষায়ণ**; **সমজাতীয় পণ্যের বড় প্রতিষ্ঠানে** মানায়। **অসুবিধা:** বিভাগগুলো **যোগাযোগ নাও করতে পারে**, ফলে **নমনীয়তা ও উদ্ভাবন** কমে; **টানেল ভিশন**।
+
+@slide 41,42 | Matrix structure | ম্যাট্রিক্স কাঠামো
+T:
+**Matrix structure** — people grouped by **two perspectives at once**: **function and product**; **product lines managed horizontally, functions vertically**. Best for **large companies** that can justify the complexity. **Advantages:** **communication across task boundaries** plus **specialization**. **Disadvantages:** **complex chain of command** (two bosses), **higher costs**, **conflicting loyalties**, and **blurred authority** that hampers decisions and conflict resolution.
+TB:
+**ম্যাট্রিক্স কাঠামো** — মানুষ **একসাথে দুটি দৃষ্টিকোণে** গুচ্ছ: **কার্য ও পণ্য**; **পণ্যসারি অনুভূমিকভাবে, কার্য উল্লম্বভাবে** পরিচালিত। জটিলতার ন্যায্যতা দিতে পারে এমন **বড় প্রতিষ্ঠানের** জন্য সেরা। **সুবিধা:** **কাজের সীমানা পেরিয়ে যোগাযোগ** ও **বিশেষায়ণ**। **অসুবিধা:** **আদেশ-শৃঙ্খল জটিল** (দুই বস), **বেশি খরচ**, **পরস্পরবিরোধী আনুগত্য**, এবং **অস্পষ্ট কর্তৃত্ব** যা সিদ্ধান্ত ও দ্বন্দ্ব নিষ্পত্তি বাধা দেয়।
+K:
+Two bosses → **matrix**; by specialty → **functional**; by product/region → **divisional**.
+KB:
+দুই বস → **ম্যাট্রিক্স**; বিশেষত্ব অনুযায়ী → **কার্যভিত্তিক**; পণ্য/অঞ্চল অনুযায়ী → **বিভাগীয়**।
+
+@check 9.4 | Quick check | দ্রুত যাচাই
+Q: An organization grouped by marketing, finance and operations uses a… | মার্কেটিং, ফিন্যান্স ও অপারেশনস অনুযায়ী গুচ্ছ প্রতিষ্ঠান ব্যবহার করে…
+O: divisional structure | *functional structure | matrix structure | no structure
+OB: বিভাগীয় কাঠামো | কার্যভিত্তিক কাঠামো | ম্যাট্রিক্স কাঠামো | কোনো কাঠামো নয়
+X: Functional = areas of specialty. | কার্যভিত্তিক = বিশেষত্বের ক্ষেত্র।
+Q: Employees reporting to both a functional manager and a product manager is typical of… | কার্যভিত্তিক ও পণ্য ম্যানেজার দুজনকে রিপোর্ট করা কর্মী দেখা যায়…
+O: divisional | functional | *matrix | sole proprietorship
+OB: বিভাগীয় | কার্যভিত্তিক | ম্যাট্রিক্স | একক মালিকানায়
+X: Matrix structures combine function and product. | ম্যাট্রিক্স কার্য ও পণ্য মেলায়।
+Q: A "wide span of control" means… | "প্রশস্ত নিয়ন্ত্রণ পরিসর" মানে…
+O: *each manager oversees many subordinates (few layers) | each manager oversees few | no managers | many layers
+OB: প্রতি ম্যানেজার অনেককে দেখেন (কম স্তর) | প্রতি ম্যানেজার অল্প কয়েকজনকে দেখেন | ম্যানেজার নেই | অনেক স্তর
+X: Few layers → wide span. | কম স্তর → প্রশস্ত পরিসর।
+
+@lesson 9.5 | Management and leadership styles | ব্যবস্থাপনা ও নেতৃত্বের ধরন
+Slides 43–57.
+~~
+স্লাইড ৪৩–৫৭।
+
+@slide 43,44,45,46 | Leading and management styles | নেতৃত্ব ও ব্যবস্থাপনার ধরন
+T:
+Managers must act as **leaders** at any level. Three management styles: **autocratic/authoritarian, laissez-faire/free-rein, participative/democratic**.
+TB:
+ম্যানেজারদের যেকোনো স্তরে **নেতা** হিসেবে কাজ করতে হয়। তিন ব্যবস্থাপনা ধরন: **স্বৈরতান্ত্রিক, ছেড়ে-দেওয়া (ফ্রি-রেইন), অংশগ্রহণমূলক/গণতান্ত্রিক**।
+
+@slide 47,48,49 | Autocratic, laissez-faire, democratic | স্বৈরতান্ত্রিক, ছেড়ে-দেওয়া, গণতান্ত্রিক
+T:
+<div class="tbl"><table><thead><tr><th>Style</th><th>How it works</th><th>Best when</th></tr></thead><tbody>
+<tr><td><b>Autocratic</b></td><td>Decision power with the manager; ignores subordinates' input; quick but poor engagement</td><td><b>Crisis</b> situations; <b>low-skill</b> workforce</td></tr>
+<tr><td><b>Laissez-faire</b></td><td>"Hands-off": delegates with little direction; can reduce productivity and cohesion</td><td>Workers are <b>skilled, self-motivated, accountable</b>; <b>creative/innovative</b> teams</td></tr>
+<tr><td><b>Democratic</b></td><td>Shares decision-making; employees feel invested; surfaces experience and solutions</td><td><b>Transition</b> periods (merger, change)</td></tr>
+</tbody></table></div>
+TB:
+<div class="tbl"><table><thead><tr><th>ধরন</th><th>কীভাবে কাজ করে</th><th>কখন সেরা</th></tr></thead><tbody>
+<tr><td><b>স্বৈরতান্ত্রিক</b></td><td>সিদ্ধান্ত ম্যানেজারের হাতে; অধস্তনের মতামত উপেক্ষা; দ্রুত কিন্তু সম্পৃক্ততা কম</td><td><b>সংকটকালে</b>; <b>কম-দক্ষ</b> কর্মীবাহিনী</td></tr>
+<tr><td><b>ছেড়ে-দেওয়া</b></td><td>"হাত-গুটানো": কম নির্দেশনায় দায়িত্ব অর্পণ; উৎপাদনশীলতা ও সংহতি কমাতে পারে</td><td>কর্মীরা <b>দক্ষ, স্ব-প্রণোদিত, জবাবদিহিতাশীল</b>; <b>সৃজনশীল/উদ্ভাবনী</b> দল</td></tr>
+<tr><td><b>গণতান্ত্রিক</b></td><td>সিদ্ধান্ত ভাগ করেন; কর্মীরা সম্পৃক্ত অনুভব করেন; অভিজ্ঞতা ও সমাধান বেরিয়ে আসে</td><td><b>পরিবর্তনকালে</b> (একীভূতকরণ, রূপান্তর)</td></tr>
+</tbody></table></div>
+
+@slide 50,51,52,53 | Transformational, transactional, narcissistic leaders | রূপান্তরমূলক, লেনদেনমূলক, আত্মমুগ্ধ নেতা
+T:
+- **Transformational** — works with followers to **identify needed change, share an inspiring vision** and bring change together; raises **motivation, morale and performance**; often a **role model**.
+- **Transactional** — focuses on **supervision, organization and performance**; finds **faults or deviations** and gains compliance through **rewards and punishments** (**contingent reward** + **management by exception**); keeps the **status quo**.
+- **Narcissistic** — **visionary and charismatic**, but listens only to **supporting** views, needs **constant affirmation**, creating a **culture of yes-people**, **fierce internal competition** and shifting alliances.
+TB:
+- **রূপান্তরমূলক** — অনুসারীদের সাথে **প্রয়োজনীয় পরিবর্তন চিহ্নিত ও অনুপ্রেরণাদায়ী ভিশন ভাগ** করে পরিবর্তন আনেন; **প্রেষণা, মনোবল ও কর্মক্ষমতা** বাড়ান; প্রায়ই **আদর্শ**।
+- **লেনদেনমূলক** — **তত্ত্বাবধান, সংগঠন ও কর্মক্ষমতায়** মনোযোগ; **দোষ বা বিচ্যুতি** খুঁজে **পুরস্কার ও শাস্তির** মাধ্যমে আনুগত্য আদায় (**শর্তযুক্ত পুরস্কার** + **ব্যতিক্রমে ব্যবস্থাপনা**); **স্থিতাবস্থা** রক্ষা করেন।
+- **আত্মমুগ্ধ** — **দূরদর্শী ও ক্যারিশম্যাটিক**, কিন্তু শুধু **সমর্থনকারী** মত শোনেন, **অবিরাম প্রশংসা** চান, ফলে **হ্যাঁ-বলা লোকের সংস্কৃতি**, **তীব্র অভ্যন্তরীণ প্রতিযোগিতা** ও বদলানো জোট।
+
+@slide 54 | Corporate culture | কর্পোরেট সংস্কৃতি
+T:
+The **leadership style of managers** usually reflects the organization's **underlying values**. **Corporate culture** = the **set of attitudes, values and standards of behavior that distinguishes one organization from another**. It is intangible but strongly affects **morale and success**.
+TB:
+ম্যানেজারদের **নেতৃত্বের ধরন** সাধারণত প্রতিষ্ঠানের **অন্তর্নিহিত মূল্যবোধ** প্রকাশ করে। **কর্পোরেট সংস্কৃতি** = **এক প্রতিষ্ঠানকে অন্যটি থেকে আলাদা করা মনোভাব, মূল্যবোধ ও আচরণের মানদণ্ডের সমষ্টি**। এটি অদৃশ্য হলেও **মনোবল ও সাফল্যে** বড় প্রভাব ফেলে।
+
+@slide 55,56,57 | Practice questions 5–7 | অনুশীলনী ৫–৭
+T:
+**Q5: C** — the manager keeps decision control and disregards subordinates' input = **authoritarian**. **Q6: D** — focus on **maintaining the status quo and performance standards** = **transactional**. **Q7: C** — a **democratic** style suits **organizations in transition** such as a merger.
+TB:
+**প্রশ্ন ৫: C** — ম্যানেজার সিদ্ধান্ত-নিয়ন্ত্রণ রাখেন ও অধস্তনের মত উপেক্ষা করেন = **স্বৈরতান্ত্রিক**। **প্রশ্ন ৬: D** — **স্থিতাবস্থা ও কর্মক্ষমতার মান রক্ষায়** মনোযোগ = **লেনদেনমূলক**। **প্রশ্ন ৭: C** — **গণতান্ত্রিক** ধরন **একীভূতকরণের মতো পরিবর্তনকালীন প্রতিষ্ঠানে** মানায়।
+
+@check 9.5 | Quick check | দ্রুত যাচাই
+Q: Which style is MOST useful in a crisis? | সংকটে কোন ধরন সবচেয়ে উপযোগী?
+O: Laissez-faire | Democratic | *Autocratic | Narcissistic
+OB: ছেড়ে-দেওয়া | গণতান্ত্রিক | স্বৈরতান্ত্রিক | আত্মমুগ্ধ
+X: Autocratic decision-making is quick and useful in crises. | স্বৈরতান্ত্রিক সিদ্ধান্ত দ্রুত ও সংকটে উপযোগী।
+Q: A leader who rewards good work and intervenes only when standards are not met is… | যিনি ভালো কাজে পুরস্কার দেন ও মান না মিললেই হস্তক্ষেপ করেন তিনি…
+O: transformational | narcissistic | *transactional | laissez-faire
+OB: রূপান্তরমূলক | আত্মমুগ্ধ | লেনদেনমূলক | ছেড়ে-দেওয়া
+X: Contingent reward and management by exception. | শর্তযুক্ত পুরস্কার ও ব্যতিক্রমে ব্যবস্থাপনা।
+Q: A culture of "yes-people" is a risk of… | "হ্যাঁ-বলা লোকের" সংস্কৃতির ঝুঁকি…
+O: transformational leaders | *narcissistic leaders | democratic managers | none
+OB: রূপান্তরমূলক নেতার | আত্মমুগ্ধ নেতার | গণতান্ত্রিক ম্যানেজারের | কোনোটিই নয়
+X: Narcissistic leaders need constant affirmation. | আত্মমুগ্ধ নেতারা অবিরাম প্রশংসা চান।
+
+@lesson 9.6 | Control in management | ব্যবস্থাপনায় নিয়ন্ত্রণ
+Slides 58–74.
+~~
+স্লাইড ৫৮–৭৪।
+
+@slide 58,59,60,63 | What control is and why it matters | নিয়ন্ত্রণ কী ও কেন গুরুত্বপূর্ণ
+T:
+**Control** = **observing a process, measuring performance against a set metric and improving it**. **Top managers** set strategic objectives and measure overall success; **middle managers** measure success in their **span** (division, region, product); **line managers** control **workers' actions**. **Why important:** it shows whether **planning, organizing and leading** worked; **directs behavior** toward goals; **coordinates activities and integrates resources**.
+TB:
+**নিয়ন্ত্রণ** = **প্রক্রিয়া পর্যবেক্ষণ, নির্ধারিত মাপকাঠির বিপরীতে কর্মক্ষমতা পরিমাপ ও উন্নতি**। **শীর্ষ ম্যানেজাররা** কৌশলগত লক্ষ্য ঠিক করে সামগ্রিক সাফল্য মাপেন; **মধ্যম ম্যানেজাররা** নিজ **পরিসরে** (বিভাগ, অঞ্চল, পণ্য) সাফল্য মাপেন; **লাইন ম্যানেজাররা** **কর্মীদের কাজ** নিয়ন্ত্রণ করেন। **কেন গুরুত্বপূর্ণ:** **পরিকল্পনা, সংগঠন ও নেতৃত্ব** কাজ করেছে কি না দেখায়; আচরণকে লক্ষ্যের দিকে **চালিত** করে; **কাজ সমন্বয় ও সম্পদ একীভূত** করে।
+
+@slide 61,62 | The control process | নিয়ন্ত্রণ প্রক্রিয়া
+T:
+Five **cyclical** steps: (1) **set standards and goals**; (2) **measure performance**; (3) **compare actual performance to the standards**; (4) **take corrective action**; (5) **use the information to set future standards**. It is like **continuous navigation** — repeated checking and correcting — and should be **proactive**.
+TB:
+পাঁচটি **চক্রাকার** ধাপ: (১) **মান ও লক্ষ্য ঠিক করা**; (২) **কর্মক্ষমতা পরিমাপ**; (৩) **প্রকৃত কর্মক্ষমতা মানের সাথে তুলনা**; (৪) **সংশোধনমূলক ব্যবস্থা**; (৫) **ভবিষ্যৎ মান ঠিক করতে তথ্য ব্যবহার**। এটি **অবিরাম নেভিগেশনের** মতো — বারবার দেখা ও ঠিক করা — এবং **সক্রিয়** হওয়া উচিত।
+K:
+Memory: **S-M-C-C-U** — Set, Measure, Compare, Correct, Use.
+KB:
+মনে রাখো: ঠিক, পরিমাপ, তুলনা, সংশোধন, ব্যবহার।
+
+@slide 64,65,66 | Standards and SMART objectives | মান ও SMART লক্ষ্য
+T:
+Standards guide decisions; stated in **money** (costs, profit) or **other terms** (units produced, defects, quality, customer satisfaction). **S.M.A.R.T.** objectives are **Specific, Measurable, Achievable, Realistic, Time-constrained**. (Everyday example: "Score 80% in the next BIBS test by 30 November by studying 1 hour daily.")
+TB:
+মান সিদ্ধান্ত পরিচালনা করে; **টাকায়** (খরচ, মুনাফা) বা **অন্যভাবে** (উৎপাদিত একক, ত্রুটি, মান, ক্রেতার সন্তুষ্টি) বলা যায়। **S.M.A.R.T.** লক্ষ্য হলো **নির্দিষ্ট, পরিমাপযোগ্য, অর্জনযোগ্য, বাস্তবসম্মত, সময়-সীমিত**। (দৈনন্দিন উদাহরণ: "প্রতিদিন ১ ঘণ্টা পড়ে ৩০ নভেম্বরের মধ্যে পরবর্তী BIBS টেস্টে ৮০% নম্বর পাওয়া।")
+
+@slide 67,68,69,70 | Performance measurement and the Balanced Scorecard | কর্মক্ষমতা পরিমাপ ও ব্যালান্সড স্কোরকার্ড
+T:
+**Performance measurement** = collecting, analyzing and reporting performance information; the yardstick is a **performance metric**. Development: **describe objectives → evaluate measurements → identify the right metric → set targets and interpretation → document the metric and procedures**. The **Balanced Scorecard** analyzes KPIs from **four perspectives**: **Financial** ("how do we look to shareholders?"), **Customer** ("how do customers see us?"), **Internal business process** ("what must we excel at?"), **Learning and growth** ("how can we keep improving and create value?").
+TB:
+**কর্মক্ষমতা পরিমাপ** = কর্মক্ষমতার তথ্য সংগ্রহ, বিশ্লেষণ ও প্রতিবেদন; মাপকাঠি **পারফরম্যান্স মেট্রিক**। উন্নয়ন: **উদ্দেশ্য বর্ণনা → পরিমাপ মূল্যায়ন → সঠিক মেট্রিক চিহ্নিত → লক্ষ্যমাত্রা ও ব্যাখ্যা ঠিক → মেট্রিক ও পদ্ধতি নথিভুক্ত**। **ব্যালান্সড স্কোরকার্ড** **চার দৃষ্টিকোণ** থেকে KPI বিশ্লেষণ করে: **আর্থিক** ("শেয়ারহোল্ডারদের কাছে আমরা কেমন?"), **ক্রেতা** ("ক্রেতারা আমাদের কীভাবে দেখে?"), **অভ্যন্তরীণ ব্যবসায়িক প্রক্রিয়া** ("কিসে আমাদের সেরা হতে হবে?"), **শেখা ও বৃদ্ধি** ("কীভাবে উন্নতি ও মূল্য সৃষ্টি চালিয়ে যাব?")।
+
+@slide 71,72,73,74 | Corrective action, practice questions, review | সংশোধনমূলক ব্যবস্থা, অনুশীলনী, পুনরালোচনা
+T:
+**Corrective action** = a **planned response** to fix the problem; first **identify the problem accurately**, implement **quickly** with a **map of checkpoints and deadlines**, then **review whether it works**. **Q8: B** — effective control means a **process to measure performance against an established target**. **Q9: C** — SMART = **Specific, Measurable, Achievable, Realistic, Time-constrained**. Slide 74 lists the six study questions.
+TB:
+**সংশোধনমূলক ব্যবস্থা** = সমস্যা ঠিক করার **পরিকল্পিত সাড়া**; আগে **সমস্যা নির্ভুলভাবে চিহ্নিত** করো, **চেকপয়েন্ট ও সময়সীমার মানচিত্রসহ দ্রুত** বাস্তবায়ন করো, তারপর **কাজ করছে কি না পর্যালোচনা** করো। **প্রশ্ন ৮: B** — কার্যকর নিয়ন্ত্রণ মানে **প্রতিষ্ঠিত লক্ষ্যের বিপরীতে কর্মক্ষমতা মাপার প্রক্রিয়া**। **প্রশ্ন ৯: C** — SMART = **নির্দিষ্ট, পরিমাপযোগ্য, অর্জনযোগ্য, বাস্তবসম্মত, সময়-সীমিত**। স্লাইড ৭৪-এ ছয়টি স্টাডি প্রশ্ন।
+
+@check 9.6 | Quick check | দ্রুত যাচাই
+Q: What is step 4 of the control process? | নিয়ন্ত্রণ প্রক্রিয়ার ৪র্থ ধাপ কোনটি?
+O: Measure performance | Set standards | *Take corrective action | Compare results
+OB: কর্মক্ষমতা পরিমাপ | মান ঠিক করা | সংশোধনমূলক ব্যবস্থা | ফল তুলনা
+X: Set → measure → compare → correct → use. | ঠিক → পরিমাপ → তুলনা → সংশোধন → ব্যবহার।
+Q: In SMART, the "T" stands for… | SMART-এ "T" মানে…
+O: Teamwork | Trust | *Time-constrained | Technical
+OB: টিমওয়ার্ক | বিশ্বাস | সময়-সীমিত | কারিগরি
+X: Specific, Measurable, Achievable, Realistic, Time-constrained. | নির্দিষ্ট, পরিমাপযোগ্য, অর্জনযোগ্য, বাস্তবসম্মত, সময়-সীমিত।
+Q: Which is NOT a Balanced Scorecard perspective? | কোনটি ব্যালান্সড স্কোরকার্ডের দৃষ্টিকোণ নয়?
+O: Financial | Customer | Learning and growth | *Political
+OB: আর্থিক | ক্রেতা | শেখা ও বৃদ্ধি | রাজনৈতিক
+X: The four are financial, customer, internal business process, learning and growth. | চারটি: আর্থিক, ক্রেতা, অভ্যন্তরীণ প্রক্রিয়া, শেখা ও বৃদ্ধি।
+
+@midterm | Exam answers 9.1–9.6 | পরীক্ষার উত্তর ৯.১–৯.৬
+### 9.1 Levels and skills (slides 3–13)
+**Top managers** set goals, scan the environment, develop long-range plans and make critical decisions; **middle managers** allocate resources and oversee first-line managers; **first-line managers** coordinate activities and supervise workers. Katz's skills: **technical** (learned capacity; first-line), **conceptual** (creative ideas, big picture; top), **human** (social, interpersonal, leadership; all levels).
+
+### 9.2 Management theory and functions (slides 14–23)
+**Taylor**: scientific management — find the "one best way", hire and train right, monitor, divide work between management and labor. **Gilbreths**: motion study, reduce motions, concern for welfare. **Fayol**: five duties (foresight, organization, command, coordination, control) and 14 principles (scalar chain, unity of command, unity of direction, division of work…). Today: planning, organizing, staffing, leading, controlling, motivating.
+
+### 9.3 Planning (slides 24–30)
+Planning organizes the activities needed to reach a goal; vision and mission come first. **Strategic** plans (long-term), **tactical** (specific actions), **operational** (detailed standards and budgets), **contingency** (response to possible events). **SWOT** examines internal strengths/weaknesses and external opportunities/threats.
+
+### 9.4 Organizing and structures (slides 31–42)
+Organizing = assigning tasks, grouping into departments, delegating authority, allocating resources; it harmonizes goals, supports growth, reduces waste and clarifies chain of command. Org chart shows chain of command and span of control. **Divisional** (product/geography), **functional** (specialty; specialization but silos), **matrix** (function + product; communication but two bosses and conflict).
+
+### 9.5 Styles (slides 43–57)
+**Autocratic** (crisis, low-skill), **laissez-faire** (skilled, creative teams), **democratic** (transitions). Leadership: **transformational** (vision, inspires change), **transactional** (rewards and exceptions, status quo), **narcissistic** (charismatic, yes-people). Style shapes corporate culture.
+
+### 9.6 Control (slides 58–74)
+Control = observing, measuring against a standard and improving; it shows whether planning, organizing and leading worked, directs behavior and coordinates resources. Steps: set standards → measure → compare → corrective action → use information. SMART objectives; performance metrics; Balanced Scorecard (financial, customer, internal process, learning and growth).
+~~
+### ৯.১ স্তর ও দক্ষতা (স্লাইড ৩–১৩)
+**শীর্ষ ম্যানেজার** লক্ষ্য ঠিক করেন, পরিবেশ দেখেন, দীর্ঘমেয়াদি পরিকল্পনা করেন ও গুরুত্বপূর্ণ সিদ্ধান্ত নেন; **মধ্যম ম্যানেজার** সম্পদ বণ্টন করেন ও প্রথম সারির ম্যানেজারদের তত্ত্বাবধান করেন; **প্রথম সারির ম্যানেজার** কাজ সমন্বয় ও কর্মী তত্ত্বাবধান করেন। ক্যাটজের দক্ষতা: **কারিগরি** (শেখা সক্ষমতা; প্রথম সারি), **ধারণাগত** (সৃজনশীল ধারণা, বড় ছবি; শীর্ষ), **মানবিক** (সামাজিক, আন্তঃব্যক্তিক, নেতৃত্ব; সব স্তর)।
+
+### ৯.২ ব্যবস্থাপনা তত্ত্ব ও কাজ (স্লাইড ১৪–২৩)
+**টেইলর**: বৈজ্ঞানিক ব্যবস্থাপনা — "একটি সেরা উপায়", সঠিক নিয়োগ ও প্রশিক্ষণ, পর্যবেক্ষণ, ব্যবস্থাপনা ও শ্রমিকের কাজ ভাগ। **গিলব্রেথ**: গতি অধ্যয়ন, গতি কমানো, কল্যাণ-চিন্তা। **ফায়োল**: পাঁচ কর্তব্য (দূরদর্শিতা, সংগঠন, আদেশ, সমন্বয়, নিয়ন্ত্রণ) ও ১৪ নীতি (স্কেলার চেইন, আদেশের ঐক্য, নির্দেশনার ঐক্য, কাজের বিভাজন…)। আজ: পরিকল্পনা, সংগঠন, কর্মী নিয়োগ, নেতৃত্ব, নিয়ন্ত্রণ, প্রেষণা।
+
+### ৯.৩ পরিকল্পনা (স্লাইড ২৪–৩০)
+পরিকল্পনা লক্ষ্য অর্জনের কাজ সংগঠিত করে; আগে ভিশন ও মিশন। **কৌশলগত** (দীর্ঘমেয়াদি), **ট্যাকটিক্যাল** (নির্দিষ্ট কাজ), **কার্যকরী** (বিস্তারিত মান ও বাজেট), **জরুরি** (সম্ভাব্য ঘটনার সাড়া)। **SWOT** অভ্যন্তরীণ শক্তি/দুর্বলতা ও বাহ্যিক সুযোগ/হুমকি দেখে।
+
+### ৯.৪ সংগঠন ও কাঠামো (স্লাইড ৩১–৪২)
+সংগঠন = কাজ বণ্টন, বিভাগে গুচ্ছ, কর্তৃত্ব অর্পণ, সম্পদ বরাদ্দ; এটি লক্ষ্য মেলায়, প্রবৃদ্ধি সমর্থন করে, অপচয় কমায় ও আদেশ-শৃঙ্খল স্পষ্ট করে। সংগঠন চার্ট আদেশ-শৃঙ্খল ও নিয়ন্ত্রণ পরিসর দেখায়। **বিভাগীয়** (পণ্য/ভূগোল), **কার্যভিত্তিক** (বিশেষত্ব; বিশেষায়ণ কিন্তু বিচ্ছিন্নতা), **ম্যাট্রিক্স** (কার্য + পণ্য; যোগাযোগ কিন্তু দুই বস ও দ্বন্দ্ব)।
+
+### ৯.৫ ধরন (স্লাইড ৪৩–৫৭)
+**স্বৈরতান্ত্রিক** (সংকট, কম-দক্ষ), **ছেড়ে-দেওয়া** (দক্ষ, সৃজনশীল দল), **গণতান্ত্রিক** (পরিবর্তনকাল)। নেতৃত্ব: **রূপান্তরমূলক** (ভিশন, পরিবর্তনে অনুপ্রেরণা), **লেনদেনমূলক** (পুরস্কার ও ব্যতিক্রম, স্থিতাবস্থা), **আত্মমুগ্ধ** (ক্যারিশমা, হ্যাঁ-বলা লোক)। ধরন কর্পোরেট সংস্কৃতি গড়ে।
+
+### ৯.৬ নিয়ন্ত্রণ (স্লাইড ৫৮–৭৪)
+নিয়ন্ত্রণ = পর্যবেক্ষণ, মানের বিপরীতে পরিমাপ ও উন্নতি; এটি পরিকল্পনা, সংগঠন ও নেতৃত্ব কাজ করেছে কি না দেখায়, আচরণ চালিত করে ও সম্পদ সমন্বয় করে। ধাপ: মান ঠিক → পরিমাপ → তুলনা → সংশোধন → তথ্য ব্যবহার। SMART লক্ষ্য; পারফরম্যান্স মেট্রিক; ব্যালান্সড স্কোরকার্ড (আর্থিক, ক্রেতা, অভ্যন্তরীণ প্রক্রিয়া, শেখা ও বৃদ্ধি)।
+
+@quiz | Module 9 quiz — 10 questions | মডিউল ৯ কুইজ — ১০টি প্রশ্ন
+Q: Which skill is MOST important to top managers? | শীর্ষ ম্যানেজারদের জন্য কোন দক্ষতা সবচেয়ে গুরুত্বপূর্ণ?
+O: Technical | *Conceptual | Clerical | Mechanical
+OB: কারিগরি | ধারণাগত | কেরানির | যান্ত্রিক
+X: Conceptual skills are critical for upper management. | ধারণাগত দক্ষতা উচ্চ ব্যবস্থাপনার জন্য সবচেয়ে জরুরি।
+Q: Who coordinates activities and supervises non-managerial employees? | কে কাজ সমন্বয় ও অ-ব্যবস্থাপনা কর্মী তত্ত্বাবধান করেন?
+O: Top managers | Middle managers | *First-line managers | Shareholders
+OB: শীর্ষ ম্যানেজার | মধ্যম ম্যানেজার | প্রথম সারির ম্যানেজার | শেয়ারহোল্ডার
+X: First-line managers. | প্রথম সারির ম্যানেজার।
+Q: Which theorist first studied the "one best way" with time studies? | সময় অধ্যয়নে "একটি সেরা উপায়" কে প্রথম খুঁজেছিলেন?
+O: Fayol | Gilbreth | *Taylor | Katz
+OB: ফায়োল | গিলব্রেথ | টেইলর | ক্যাটজ
+X: Frederick Taylor. | ফ্রেডেরিক টেইলর।
+Q: "Unity of command" means employees… | "আদেশের ঐক্য" মানে কর্মীরা…
+O: have many bosses | *receive orders from only one superior | give orders | have no boss
+OB: অনেক বস পান | শুধু একজন উর্ধ্বতনের নির্দেশ পান | নির্দেশ দেন | কোনো বস নেই
+X: One of Fayol's principles. | ফায়োলের নীতির একটি।
+Q: Plans that give detailed standards, activities and budgets are… | বিস্তারিত মান, কাজ ও বাজেটের পরিকল্পনা হলো…
+O: strategic | tactical | *operational | contingency
+OB: কৌশলগত | ট্যাকটিক্যাল | কার্যকরী | জরুরি
+X: Operational plans guide implementation of tactical plans. | কার্যকরী পরিকল্পনা ট্যাকটিক্যাল পরিকল্পনা বাস্তবায়ন পরিচালনা করে।
+Q: The "O" and "T" in SWOT are… | SWOT-এর "O" ও "T" হলো…
+O: internal | *external | optional | financial
+OB: অভ্যন্তরীণ | বাহ্যিক | ঐচ্ছিক | আর্থিক
+X: Opportunities and threats come from the external environment. | সুযোগ ও হুমকি বাহ্যিক পরিবেশ থেকে আসে।
+Q: A structure where employees report to both a functional and a product manager is… | কার্যভিত্তিক ও পণ্য ম্যানেজার দুজনকে রিপোর্ট করার কাঠামো হলো…
+O: divisional | functional | *matrix | flat
+OB: বিভাগীয় | কার্যভিত্তিক | ম্যাট্রিক্স | সমতল
+X: Matrix structure. | ম্যাট্রিক্স কাঠামো।
+Q: A hands-off style that works best with skilled, self-motivated, creative staff is… | দক্ষ, স্ব-প্রণোদিত, সৃজনশীল কর্মীদের জন্য সেরা হাত-গুটানো ধরন…
+O: autocratic | democratic | *laissez-faire | transactional
+OB: স্বৈরতান্ত্রিক | গণতান্ত্রিক | ছেড়ে-দেওয়া | লেনদেনমূলক
+X: Laissez-faire works when workers can work independently. | ছেড়ে-দেওয়া ধরন কাজ করে যখন কর্মীরা স্বাধীনভাবে কাজ করতে পারে।
+Q: The correct order of the control process starts with… | নিয়ন্ত্রণ প্রক্রিয়ার সঠিক ক্রম শুরু হয়…
+O: corrective action | *setting standards and goals | measuring performance | comparing results
+OB: সংশোধনমূলক ব্যবস্থায় | মান ও লক্ষ্য ঠিক করায় | কর্মক্ষমতা পরিমাপে | ফল তুলনায়
+X: Set → measure → compare → correct → use. | ঠিক → পরিমাপ → তুলনা → সংশোধন → ব্যবহার।
+Q: S.M.A.R.T. objectives are… | S.M.A.R.T. লক্ষ্য হলো…
+O: Strategic, manageable, actionable, relevant, timely | *Specific, measurable, achievable, realistic, time-constrained | Simple, modern, accurate, rapid, total | Specific, manageable, achievable, replicable, time-bound
+OB: কৌশলগত, ব্যবস্থাপনাযোগ্য, কার্যকর, প্রাসঙ্গিক, সময়োপযোগী | নির্দিষ্ট, পরিমাপযোগ্য, অর্জনযোগ্য, বাস্তবসম্মত, সময়-সীমিত | সরল, আধুনিক, নির্ভুল, দ্রুত, সম্পূর্ণ | নির্দিষ্ট, ব্যবস্থাপনাযোগ্য, অর্জনযোগ্য, পুনরাবৃত্তিযোগ্য, সময়-সীমিত
+X: Slide 73. | স্লাইড ৭৩।
+
+@summary | Module 9 summary | মডিউল ৯ সারাংশ
+- 3 levels; Katz's technical/conceptual/human skills.
+- Taylor, Gilbreths, Fayol; 6 functions today.
+- Plans: strategic, tactical, operational, contingency; SWOT.
+- Structures: divisional, functional, matrix; span of control.
+- Styles: autocratic/laissez-faire/democratic; transformational/transactional/narcissistic.
+- Control: 5 steps, SMART, Balanced Scorecard.
+
+**You have finished all 9 modules — good luck in the midterm!**
+~~
+- ৩ স্তর; ক্যাটজের কারিগরি/ধারণাগত/মানবিক দক্ষতা।
+- টেইলর, গিলব্রেথ, ফায়োল; আজকের ৬টি কাজ।
+- পরিকল্পনা: কৌশলগত, ট্যাকটিক্যাল, কার্যকরী, জরুরি; SWOT।
+- কাঠামো: বিভাগীয়, কার্যভিত্তিক, ম্যাট্রিক্স; নিয়ন্ত্রণ পরিসর।
+- ধরন: স্বৈরতান্ত্রিক/ছেড়ে-দেওয়া/গণতান্ত্রিক; রূপান্তরমূলক/লেনদেনমূলক/আত্মমুগ্ধ।
+- নিয়ন্ত্রণ: ৫ ধাপ, SMART, ব্যালান্সড স্কোরকার্ড।
+
+**তুমি ৯টি মডিউলই শেষ করেছ — মিডটার্মের জন্য শুভকামনা!**
