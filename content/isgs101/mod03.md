@@ -1,0 +1,950 @@
+# ISGS 101 — Module 3: Review of conditions 6–7 and the creed of Ahl as-Sunnah on Names & Attributes
+
+**মডিউল ৩: শর্ত ৬–৭-এর পুনরালোচনা ও নাম-গুণাবলিতে আহলুস সুন্নাহর আকীদা**
+
+Source: `slides/Islamic Studies 1 (ISGS 101)/Islamic(mod03).pdf` (22 slides). English + Bangla study notes. Text marked "Added by the teacher" is an explanation added to the slide, not slide text.
+
+## Big picture — how should we speak about Allah? / বড় ছবি — আল্লাহ সম্পর্কে আমরা কীভাবে কথা বলব?
+
+### English
+
+**Concept:** Module 2 ended with love of Allah. This module asks the next natural question: **if I love Allah, how do I describe Him correctly?** The Quran tells us Allah's **Names** (Ar-Rahman, As-Sami', Al-Basir…) and **Attributes** (He hears, He sees, He rose over the Throne, He has a Hand…). How should we understand them? This is the branch of Tawheed called **Tawheed al-Asma wa Sifat** (unity of Allah's Names and Attributes).
+
+**Example:** Imagine a visitor reading a letter from a king he has never met. The letter says "I see you, I hear you, I am merciful." The visitor has **three choices**: (1) *accept it exactly as written and not ask how* — this is the path of Ahl as-Sunnah; (2) *say "the king can't really hear or see; those words mean something else"* — denying or twisting; (3) *say "the king hears just like I do, with ears like mine"* — comparing him to humans. The module teaches the **middle road**.
+
+#### The one-line rule of Ahl as-Sunnah
+
+**"Affirm what Allah and His Messenger ﷺ affirmed, without distorting (tahrif), denying (ta'til), asking how (takyif), or likening to creation (tamthil)."** And remember: "**There is nothing like Him, and He is the All-Hearing, the All-Seeing**" (42:11).
+
+#### What you will cover (3-minute version)
+
+1. **Slides 1–5** repeat the **sixth and seventh conditions** of the Shahadah (sincerity and love) from Module 2.
+2. **Slide 6** is a heading: **Tawheed ar-Rububiyyah** — it asks for its definition and evidence (the slide gives no answer; the teacher's explanation below does).
+3. **Slides 7–16** give the **creed of Ahl as-Sunnah on Names & Attributes**, with quotes from **Ibn 'Abd al-Barr, Ibn Baz and Shaykh ar-Rajihi**, and the rulings about **denial** and **mis-interpretation (ta'wil)**.
+4. **Slides 17–18** list the **five aspects** of Tawheed al-Asma wa Sifat — what you must do and avoid.
+5. **Slides 19–22** are blank.
+
+**Added by the teacher (not on the slide):** **About the sources.** This approach follows the school of Ahl as-Sunnah wal-Jama'ah as taught by the scholars quoted on the slides. Other schools (such as the Ash'aris, mentioned on slides 13–16) differ in the *interpretation* of some attributes. For your exam, **follow your teacher's slides** — they are the standard — and remember the respectful tone of the quotes: the Ash'aris are **not** called disbelievers.
+
+**Exam tip:** In the exam this module supports **Q19** (meaning of *"Laysa ka-mithlihi shay'"*), **Q5–Q6** (differences and examples of the categories of Tawheed), **Q21** (Ahl as-Sunnah) and the Names & Attributes principles in the teacher's revision session ⭐ (seven key principles — in the "Put it together" step).
+
+### বাংলা
+
+**ধারণা:** মডিউল ২ শেষ হয়েছিল আল্লাহর ভালোবাসা দিয়ে। এই মডিউল পরের স্বাভাবিক প্রশ্ন করে: **আল্লাহকে ভালোবাসলে তাঁকে সঠিকভাবে বর্ণনা করব কীভাবে?** কুরআন আমাদের আল্লাহর **নাম** (আর-রহমান, আস-সামী', আল-বাসীর…) ও **গুণাবলি** (তিনি শোনেন, দেখেন, আরশের ওপর উঠেছেন, তাঁর হাত আছে…) জানায়। এগুলো আমরা কীভাবে বুঝব? তাওহীদের এই শাখার নাম **তাওহীদুল আসমা ওয়াস সিফাত** (আল্লাহর নাম ও গুণাবলিতে একত্ব)।
+
+**উদাহরণ:** একজন আগন্তুক এমন এক রাজার চিঠি পড়ছে যাকে সে কখনো দেখেনি। চিঠিতে লেখা "আমি তোমাকে দেখি, শুনি, আমি দয়ালু।" আগন্তুকের **তিনটি পথ**: (১) *যেমন লেখা আছে তেমনই মেনে নেওয়া, "কীভাবে" না জিজ্ঞেস করা* — এটাই আহলুস সুন্নাহর পথ; (২) *বলা "রাজা আসলে শোনেন-দেখেন না; এসব কথার অন্য অর্থ"* — অস্বীকার বা বিকৃতি; (৩) *বলা "রাজা ঠিক আমার মতোই শোনেন, আমার মতো কান দিয়ে"* — মানুষের সাথে তুলনা। এই মডিউল **মধ্যপন্থা** শেখায়।
+
+#### আহলুস সুন্নাহর এক লাইনের নিয়ম
+
+**"আল্লাহ ও তাঁর রাসূল ﷺ যা সাব্যস্ত করেছেন তা সাব্যস্ত করো — বিকৃতি (তাহরীফ), অস্বীকার (তা'তীল), 'কীভাবে' নির্ধারণ (তাকয়ীফ) ও সৃষ্টির সাথে তুলনা (তামসীল) ছাড়া।"** আর মনে রাখো: "**তাঁর মতো কিছুই নেই, আর তিনি সর্বশ্রোতা, সর্বদ্রষ্টা**" (৪২:১১)।
+
+#### কী কী পড়বে (৩ মিনিটের সারকথা)
+
+1. **স্লাইড ১–৫** মডিউল ২-এর শাহাদাহর **ষষ্ঠ ও সপ্তম শর্ত** (ইখলাস ও ভালোবাসা) পুনরাবৃত্তি করে।
+2. **স্লাইড ৬** একটি শিরোনাম: **তাওহীদুর রুবুবিয়্যাহ** — এর সংজ্ঞা ও প্রমাণ চাওয়া হয়েছে (স্লাইডে উত্তর নেই; নিচের শিক্ষকের ব্যাখ্যায় আছে)।
+3. **স্লাইড ৭–১৬** আসমা ওয়াস সিফাতে **আহলুস সুন্নাহর আকীদা**, **ইবনে আব্দুল বার, ইবনে বায ও শাইখ আর-রাজিহী**-র উক্তিসহ, এবং **অস্বীকার** ও **ভুল ব্যাখ্যা (তা'ওয়ীল)**-এর বিধান।
+4. **স্লাইড ১৭–১৮** তাওহীদুল আসমা ওয়াস সিফাতের **পাঁচটি দিক** — কী করতে হবে ও কী এড়াতে হবে।
+5. **স্লাইড ১৯–২২** ফাঁকা।
+
+**শিক্ষকের সংযোজন (স্লাইডে নেই):** **উৎস সম্পর্কে।** এই পদ্ধতি স্লাইডে উদ্ধৃত আলিমদের শেখানো আহলুস সুন্নাহ ওয়াল জামাআহর মত। অন্য মতাদর্শ (যেমন আশআরী, স্লাইড ১৩–১৬-তে উল্লিখিত) কিছু গুণাবলির *ব্যাখ্যায়* ভিন্নমত পোষণ করে। পরীক্ষার জন্য **শিক্ষকের স্লাইড অনুসরণ করো** — সেটাই মান — এবং উদ্ধৃতিগুলোর শ্রদ্ধাশীল সুর মনে রাখো: আশআরীদের **কাফির বলা হয়নি**।
+
+**পরীক্ষার টিপস:** পরীক্ষায় এই মডিউল সহায়ক **প্রশ্ন ১৯** (*"লাইসা কামিসলিহী শাইউন"*-এর অর্থ), **প্রশ্ন ৫–৬** (তাওহীদের প্রকারের পার্থক্য ও উদাহরণ), **প্রশ্ন ২১** (আহলুস সুন্নাহ) এবং শিক্ষকের রিভিশন সেশনের নাম-গুণাবলির নীতিমালা ⭐ ("সব একসাথে" ধাপে সাতটি মূলনীতি)।
+
+## Key words of this module / এই মডিউলের গুরুত্বপূর্ণ শব্দ
+
+### English
+
+The four "don'ts" are the heart of this module — learn their Arabic names.
+
+| Term | Meaning | Example |
+|---|---|---|
+| **Asma'** [[ar: الأسماء]] | Allah's Names | Ar-Rahman, Al-Hayy, As-Sami' |
+| **Sifat** [[ar: الصفات]] | Allah's Attributes | Hearing, seeing, mercy, rising over the Throne (*istiwa'*) |
+| **Tahrif** [[ar: تحريف]] | Distorting: changing the words or meaning of a text | "Hand" → "only power" |
+| **Ta'til** [[ar: تعطيل]] | Denying / emptying: rejecting a name or attribute | "Allah has no attributes" |
+| **Takyif** [[ar: تكييف]] | Asking or fixing *how* an attribute is | "How exactly does He rise over the Throne?" |
+| **Tamthil / Tashbih** [[ar: تمثيل / تشبيه]] | Likening Allah to creation | "His hearing is like my hearing" |
+| **Ta'wil** [[ar: تأويل]] | (Here) giving a text a meaning other than its apparent meaning | *istiwa'* = *istila'* (taking control) |
+| **Tafwid** [[ar: تفويض]] | Leaving the meaning entirely to Allah ("only Allah knows what it means") | Rejected on slide 11 |
+| **Zahir** [[ar: ظاهر]] | Apparent meaning of a text | "Hand" means hand — fitting for Allah |
+| **Bid'ah / Mubtadi'** [[ar: بدعة / مبتدع]] | Innovation / one who innovates in religion | One who leaves the path of Ahl as-Sunnah |
+| **Jahmiyyah, Mu'tazilah, Khawarij** | Groups of early innovators named on slide 8 | They denied the attributes |
+| **Ash'ariyyah** [[ar: الأشاعرة]] | A school that interprets many attributes (slides 13–16) | Not disbelievers, per Ibn Baz |
+| **'Abd** [[ar: عبد]] | Servant/slave — used before Allah's Names in personal names | 'Abdullah, 'Abdur-Rahman |
+
+### বাংলা
+
+চারটি "করো না"-ই এই মডিউলের প্রাণ — আরবি নামগুলো শিখে নাও।
+
+| শব্দ | অর্থ | উদাহরণ |
+|---|---|---|
+| **আসমা'** [[ar: الأسماء]] | আল্লাহর নামসমূহ | আর-রহমান, আল-হাইয়্য, আস-সামী' |
+| **সিফাত** [[ar: الصفات]] | আল্লাহর গুণাবলি | শোনা, দেখা, দয়া, আরশের ওপর উঠা (*ইসতিওয়া*) |
+| **তাহরীফ** [[ar: تحريف]] | বিকৃতি: পাঠ বা অর্থ পরিবর্তন | "হাত" → "শুধু ক্ষমতা" |
+| **তা'তীল** [[ar: تعطيل]] | অস্বীকার/শূন্য করা: কোনো নাম বা গুণ প্রত্যাখ্যান | "আল্লাহর কোনো গুণ নেই" |
+| **তাকয়ীফ** [[ar: تكييف]] | গুণ "কেমন" তা জিজ্ঞেস বা নির্ধারণ | "ঠিক কীভাবে আরশে উঠেছেন?" |
+| **তামসীল / তাশবীহ** [[ar: تمثيل / تشبيه]] | আল্লাহকে সৃষ্টির সাথে তুলনা | "তাঁর শোনা আমার শোনার মতো" |
+| **তা'ওয়ীল** [[ar: تأويل]] | (এখানে) পাঠকে তার প্রকাশ্য অর্থ ছাড়া অন্য অর্থ দেওয়া | *ইসতিওয়া* = *ইসতিলা'* (কর্তৃত্ব নেওয়া) |
+| **তাফউয়ীদ** [[ar: تفويض]] | অর্থ সম্পূর্ণ আল্লাহর ওপর ছেড়ে দেওয়া ("এর অর্থ কেবল আল্লাহই জানেন") | স্লাইড ১১-তে প্রত্যাখ্যাত |
+| **যাহির** [[ar: ظاهر]] | পাঠের প্রকাশ্য অর্থ | "হাত" মানে হাত — আল্লাহর শানের উপযোগী |
+| **বিদআত / মুবতাদি'** [[ar: بدعة / مبتدع]] | দীনে নতুন সংযোজন / যে তা করে | যে আহলুস সুন্নাহর পথ ছাড়ে |
+| **জাহমিয়্যাহ, মু'তাযিলা, খাওয়ারিজ** | স্লাইড ৮-এ উল্লিখিত প্রাচীন বিদআতী দল | তারা গুণাবলি অস্বীকার করেছে |
+| **আশআরিয়্যাহ** [[ar: الأشاعرة]] | যে মতাদর্শ অনেক গুণ ব্যাখ্যা করে (স্লাইড ১৩–১৬) | ইবনে বাযের মতে কাফির নয় |
+| **'আব্দ** [[ar: عبد]] | দাস — আল্লাহর নামের আগে নামকরণে ব্যবহৃত | আব্দুল্লাহ, আব্দুর রহমান |
+
+## Slides 1–2 — Cover and the poem (repeated) / প্রচ্ছদ ও কবিতা (পুনরাবৃত্তি)
+
+### English
+
+> Islamic Aqeedah (العقيدة)
+>
+> What are the conditions of: Laa ilaaha ill-Allaah?
+
+> **العلم واليقين والقبول *** والانقياد فادر ما أقول**
+>
+> **والصدق والإخلاص والمحبة *** وفقك الله لما أحبه**
+
+> "Knowledge, certainty, submission and following. So listen to what I say. Truthfulness, sincerity and love. May Allaah help you to do that which He loves."
+
+**Teacher explains:** These two slides are **exactly the same as slides 1–2 of Module 2**: the cover and Hafiz al-Hakami's poem of the **seven conditions**. The teacher repeats them to remind you where we stopped: conditions 1–5 were in Module 2; **conditions 6 and 7 follow right now (slides 3–5)**, and then the lesson moves to Names & Attributes.
+
+**Exam tip:** If you did not memorise the poem yet, do it now — it is the answer to **Q15**. See Module 2, slides 1–2 for the explanation.
+
+### বাংলা
+
+> ইসলামী আকীদা (العقيدة)
+>
+> লা ইলাহা ইল্লাল্লাহ-র শর্তগুলো কী কী?
+
+> **العلم واليقين والقبول *** والانقياد فادر ما أقول**
+>
+> **والصدق والإخلاص والمحبة *** وفقك الله لما أحبه**
+
+> "ইলম, ইয়াক্বীন, গ্রহণ ও আনুগত্য — আমি যা বলছি তা জেনে নাও। সত্যবাদিতা, ইখলাস ও ভালোবাসা। আল্লাহ তোমাকে সেই কাজের তাওফীক দিন যা তিনি ভালোবাসেন।"
+
+**শিক্ষক বুঝিয়ে বলছেন:** এই দুটি স্লাইড **মডিউল ২-এর স্লাইড ১–২-এর হুবহু একই**: প্রচ্ছদ ও হাফিয আল-হাকামীর **সাত শর্তের** কবিতা। শিক্ষক পুনরাবৃত্তি করেছেন যাতে মনে পড়ে আমরা কোথায় থেমেছিলাম: শর্ত ১–৫ ছিল মডিউল ২-এ; **শর্ত ৬ ও ৭ এখনই আসছে (স্লাইড ৩–৫)**, তারপর পাঠ নাম-গুণাবলিতে যাবে।
+
+**পরীক্ষার টিপস:** কবিতা এখনো মুখস্থ না হলে এখনই করো — এটি **প্রশ্ন ১৫**-এর উত্তর। ব্যাখ্যার জন্য দেখো মডিউল ২, স্লাইড ১–২।
+
+## Slides 3–5 — Conditions 6 and 7 — sincerity and love (repeated) / শর্ত ৬ ও ৭ — ইখলাস ও ভালোবাসা (পুনরাবৃত্তি)
+
+### English
+
+> **والسادس (الإخلاص) وهو تصفية العمل عن جميع شوائب الشرك، قال تبارك وتعالى: «ألا لله الدين الخالص» وقال: «قل الله أعبد مخلصا له ديني». وفي الصحيح عن أبي هريرة عن النبي صلى الله عليه وسلم قال: «أسعد الناس بشفاعتي من قال لا إله إلا الله خالصا من قلبه أو نفسه»...**
+
+> [Slide 3] The sixth condition is sincerity, which means that actions are free from any element of shirk. Allaah says: "Surely, the religion (i.e. the worship and the obedience) is for Allaah only." [al-Zumar 39:3] "Say (O Muhammad): 'Allaah Alone I worship by doing religious deeds sincerely for His sake only.'" [al-Zumar 39:14] In al-Saheeh it is narrated from Abu Hurayrah that the Prophet ﷺ said: "The most deserving of my intercession are those who say Laa ilaaha ill-Allaah sincerely from the heart or from the soul."
+
+> **والسابع (المحبة) لهذه الكلمة ولما اقتضته ودلت عليه ولأهلها العاملين بها الملتزمين لشروطها وبغض ما ناقض ذلك، قال الله تعالى: «ومن الناس من يتخذ من دون الله أندادا يحبونهم كحب الله والذين آمنوا أشد حبا لله».**
+
+> [Slide 4] The seventh condition is love for this word and for what it implies and indicates, and love for the people who act upon it and adhere to its conditions, and hate whoever or whatever goes against it. Allaah says: "And of mankind are some who take (for worship) others besides Allaah as rivals (to Allaah). They love them as they love Allaah." [al-Baqarah 2:165]
+>
+> [Slide 5] Allaah tells us that those who believe love Allaah more, because they do not associate anything with Him in that love, as is done by those among the mushrikeen who claim to love Him but who also take others as rivals to Him whom they love as they love Him. In al-Saheehayn it is narrated from Anas that the Messenger of Allaah ﷺ said: "No one of you truly believes until I am more beloved to him than his son, his father and all of mankind."
+
+**Teacher explains:** These three slides **repeat Module 2, slides 19–21** word for word (the Arabic of slide 5 is the same as Module 2's slide 21). In one minute:
+
+- **Sincerity (ikhlas)** = deeds purified from every trace of shirk, **for Allah alone** (39:3, 39:14; the intercession hadith).
+- **Love (mahabbah)** = love of the word, its meaning, its people; hatred of what opposes it; Allah above all other loves (2:165).
+- **Why believers love Allah more**: they do **not share** that love with any rival; and love of the Prophet ﷺ must exceed love of child, parent and all people (Anas).
+
+**Teacher explains:** Full explanations with examples: Module 2, slides 19–22.
+
+**Exam tip:** Do not skip the **link between love and Names & Attributes**: the more you know Allah's Names and Attributes (the topic of the next slides), the more you love Him. **Knowing Him leads to loving Him.**
+
+### বাংলা
+
+> **والسادس (الإخلاص) وهو تصفية العمل عن جميع شوائب الشرك، قال تبارك وتعالى: «ألا لله الدين الخالص» وقال: «قل الله أعبد مخلصا له ديني». وفي الصحيح عن أبي هريرة عن النبي صلى الله عليه وسلم قال: «أسعد الناس بشفاعتي من قال لا إله إلا الله خالصا من قلبه أو نفسه»...**
+
+> [স্লাইড ৩] ষষ্ঠ শর্ত হলো ইখলাস — আমল শিরকের যেকোনো মিশ্রণ থেকে মুক্ত। আল্লাহ বলেন: "জেনে রাখো, নিখাদ আনুগত্য কেবল আল্লাহরই জন্য।" [আয-যুমার ৩৯:৩] "বলো: 'আমি আল্লাহরই ইবাদত করি, তাঁর জন্য আমার দীনকে একনিষ্ঠ করে।'" [আয-যুমার ৩৯:১৪] সহীহ গ্রন্থে আবূ হুরায়রা থেকে বর্ণিত, নবী ﷺ বলেছেন: "আমার শাফাআতে সবচেয়ে সৌভাগ্যবান সেই ব্যক্তি, যে অন্তর থেকে বা আত্মা থেকে একনিষ্ঠভাবে লা ইলাহা ইল্লাল্লাহ বলেছে।"
+
+> **والسابع (المحبة) لهذه الكلمة ولما اقتضته ودلت عليه ولأهلها العاملين بها الملتزمين لشروطها وبغض ما ناقض ذلك، قال الله تعالى: «ومن الناس من يتخذ من دون الله أندادا يحبونهم كحب الله والذين آمنوا أشد حبا لله».**
+
+> [স্লাইড ৪] সপ্তম শর্ত হলো এই কালিমা এবং যা এটি দাবি ও নির্দেশ করে তার প্রতি ভালোবাসা; যারা এর ওপর আমল করে ও এর শর্ত মেনে চলে তাদের ভালোবাসা; আর যা এর বিরোধী তা অপছন্দ করা। আল্লাহ বলেন: "মানুষের মধ্যে কিছু আছে যারা আল্লাহ ছাড়া অন্যদের সমকক্ষ রূপে গ্রহণ করে। তারা তাদের ভালোবাসে যেমন আল্লাহকে ভালোবাসা উচিত।" [আল-বাকারা ২:১৬৫]
+>
+> [স্লাইড ৫] আল্লাহ আমাদের জানান যে মুমিনরা আল্লাহকে বেশি ভালোবাসে, কারণ তারা সেই ভালোবাসায় তাঁর সাথে কাউকে শরীক করে না — যেমনটি করে সেই মুশরিকরা যারা তাঁকে ভালোবাসার দাবি করে কিন্তু সমকক্ষ বানিয়ে তাদেরকে আল্লাহর মতোই ভালোবাসে। সহীহাইনে আনাস থেকে বর্ণিত, রাসূলুল্লাহ ﷺ বলেছেন: "তোমাদের কেউ প্রকৃত মুমিন হবে না, যতক্ষণ না আমি তার কাছে তার সন্তান, তার পিতা এবং সব মানুষের চেয়ে প্রিয় হই।"
+
+**শিক্ষক বুঝিয়ে বলছেন:** এই তিনটি স্লাইড **মডিউল ২-এর স্লাইড ১৯–২১-এর হুবহু পুনরাবৃত্তি** (স্লাইড ৫-এর আরবি মডিউল ২-এর স্লাইড ২১-এর মতোই)। এক মিনিটে:
+
+- **ইখলাস** = আমল শিরকের প্রতিটি চিহ্ন থেকে পবিত্র, **শুধু আল্লাহর জন্য** (৩৯:৩, ৩৯:১৪; শাফাআতের হাদীস)।
+- **মাহাব্বাহ** = কালিমা, তার অর্থ, তার অনুসারীদের ভালোবাসা; যা বিরোধী তার প্রতি অপছন্দ; আল্লাহ অন্য সব ভালোবাসার ঊর্ধ্বে (২:১৬৫)।
+- **মুমিনরা আল্লাহকে বেশি ভালোবাসে কেন**: তারা সেই ভালোবাসা কোনো সমকক্ষের সাথে **ভাগ করে না**; আর রাসূল ﷺ-এর ভালোবাসা সন্তান, পিতা-মাতা ও সব মানুষের ভালোবাসার ঊর্ধ্বে হতে হবে (আনাস)।
+
+**শিক্ষক বুঝিয়ে বলছেন:** উদাহরণসহ পূর্ণ ব্যাখ্যা: মডিউল ২, স্লাইড ১৯–২২।
+
+**পরীক্ষার টিপস:** **ভালোবাসা ও নাম-গুণাবলির সংযোগ** উপেক্ষা করো না: আল্লাহর নাম-গুণাবলি (পরের স্লাইডগুলোর বিষয়) যত বেশি জানবে, তাঁকে তত বেশি ভালোবাসবে। **চিনলেই ভালোবাসা জন্মায়।**
+
+## Slide 6 — Tawheed ar-Rububiyyah (heading and questions) / তাওহীদুর রুবুবিয়্যাহ (শিরোনাম ও প্রশ্ন)
+
+### English
+
+> **أقسام التوحيد — توحيد الربوبية**
+
+> Categories of Tawheed — Tawheed ar-Rububiyyah.
+>
+> What is Tawheed ar-Ruboobeeyah (maintaining the Unity of Lordship)?
+>
+> Mention some of the evidences from Quraan and Sunnah for it.
+
+**Teacher explains:** Slide 6 is a **section heading plus two exam-style questions** — the slide gives no answer. Here is the answer, so that you can write it.
+
+**Added by the teacher (not on the slide):** **Definition.** Tawheed ar-Rububiyyah = believing that **Allah alone is the Lord (Rabb)**: the sole **Creator, Owner, Sustainer and Controller** of everything; nothing happens without His permission (revision session ⭐). *Rabb* is the one who creates, owns, cares for and rules.
+
+**Evidence from the Quran:** "**Is there any creator other than Allah who provides for you from the heavens and the earth?**" (35:3). "**Allah is the Creator of all things, and He is the Guardian over all things.**" (39:62). "**Surely His are the creation and the command.**" (7:54). "**Indeed Allah is the [constant] Provider, the Possessor of firm strength.**" (51:58). The teacher's revision session also gives **29:61**: if you ask the people "Who created the heavens and the earth and subjected the sun and the moon?" they will certainly say "Allah" — meaning that **most people, even the idolaters, accepted this part of Tawheed.**
+
+**Evidence from the Sunnah:** the Prophet ﷺ said (hadith in Abu Dawud and at-Tirmidhi): "**Indeed Allah is the One Who sets prices, the One Who withholds and extends, the Provider.**" Also the **hadith of fitrah** (Bukhari and Muslim): every child is born on *fitrah* (natural belief in his Creator), then his parents make him a Jew, a Christian or a Magian — showing that **belief in the Lord is built into human nature** (revision session: Quran 7:172).
+
+**Example:** Rain falls. A farmer's crop grows. Who made the rain, the soil and the seed grow? A Muslim says: "Allah." Even many non-Muslims say: "God / the Creator." That is **Rububiyyah**: recognising Allah as the Lord of everything. But it is **not enough** to make someone a Muslim, because it must also come with **worship of Him alone** (Tawheed al-Ibadah).
+
+**Exam tip:** Teacher's revision session ⭐: "Recognising Allah's ultimate control **fosters patience**; **impatience reflects weakness in belief**; **seeking protection from anything other than Allah undermines Tawheed**." Add one such sentence to your Rububiyyah answer.
+
+### বাংলা
+
+> **أقسام التوحيد — توحيد الربوبية**
+
+> তাওহীদের প্রকারভেদ — তাওহীদুর রুবুবিয়্যাহ।
+>
+> তাওহীদুর রুবুবিয়্যাহ (প্রভুত্বে একত্ব বজায় রাখা) কী?
+>
+> কুরআন ও সুন্নাহ থেকে এর কিছু প্রমাণ উল্লেখ করো।
+
+**শিক্ষক বুঝিয়ে বলছেন:** স্লাইড ৬ হলো একটি **শিরোনাম ও দুটি পরীক্ষা-ধাঁচের প্রশ্ন** — স্লাইডে উত্তর নেই। উত্তরটা এখানে দিচ্ছি, যাতে তুমি লিখতে পারো।
+
+**শিক্ষকের সংযোজন (স্লাইডে নেই):** **সংজ্ঞা।** তাওহীদুর রুবুবিয়্যাহ = বিশ্বাস করা যে **আল্লাহই একমাত্র রব**: সবকিছুর একমাত্র **সৃষ্টিকর্তা, মালিক, প্রতিপালক ও পরিচালক**; তাঁর অনুমতি ছাড়া কিছুই ঘটে না (রিভিশন সেশন ⭐)। *রব* তিনি যিনি সৃষ্টি করেন, মালিক, লালন-পালন করেন ও শাসন করেন।
+
+**কুরআন থেকে প্রমাণ:** "**আল্লাহ ছাড়া কি এমন কোনো স্রষ্টা আছে যে আকাশ ও পৃথিবী থেকে তোমাদের রিযিক দেয়?**" (৩৫:৩)। "**আল্লাহ সবকিছুর স্রষ্টা এবং তিনি সবকিছুর তত্ত্বাবধায়ক।**" (৩৯:৬২)। "**জেনে রাখো, সৃষ্টি ও আদেশ তাঁরই।**" (৭:৫৪)। "**নিশ্চয় আল্লাহই রিযিকদাতা, প্রবল শক্তির অধিকারী।**" (৫১:৫৮)। শিক্ষকের রিভিশন সেশনে **২৯:৬১**ও আছে: তুমি যদি তাদের জিজ্ঞেস করো "কে আকাশ ও পৃথিবী সৃষ্টি করেছেন এবং চন্দ্র-সূর্যকে নিয়ন্ত্রণে রেখেছেন?" তারা অবশ্যই বলবে "আল্লাহ" — অর্থাৎ **অধিকাংশ মানুষ, এমনকি মুশরিকরাও তাওহীদের এই অংশ মানত।**
+
+**সুন্নাহ থেকে প্রমাণ:** নবী ﷺ বলেছেন (আবূ দাউদ ও তিরমিযীর হাদীস): "**নিশ্চয় আল্লাহই মূল্য নির্ধারণকারী, সংকুচিতকারী ও প্রসারণকারী, রিযিকদাতা।**" এছাড়া **ফিতরাহর হাদীস** (বুখারী ও মুসলিম): প্রতিটি শিশু *ফিতরাহ*-র (স্রষ্টায় স্বাভাবিক বিশ্বাস) ওপর জন্মায়, তারপর তার বাবা-মা তাকে ইহুদি, খ্রিস্টান বা অগ্নিপূজারী বানায় — প্রমাণ যে **রবের প্রতি বিশ্বাস মানুষের স্বভাবজাত** (রিভিশন সেশন: কুরআন ৭:১৭২)।
+
+**উদাহরণ:** বৃষ্টি পড়ে। কৃষকের ফসল গজায়। বৃষ্টি, মাটি আর বীজ কে বাড়ায়? মুসলিম বলে: "আল্লাহ।" অনেক অমুসলিমও বলে: "ঈশ্বর/স্রষ্টা।" এটাই **রুবুবিয়্যাহ**: আল্লাহকে সবকিছুর রব হিসেবে স্বীকার। কিন্তু এটি **যথেষ্ট নয়** মুসলিম হতে, কারণ এর সাথে **একমাত্র তাঁর ইবাদত**ও (তাওহীদুল ইবাদাহ) থাকতে হবে।
+
+**পরীক্ষার টিপস:** শিক্ষকের রিভিশন সেশন ⭐: "আল্লাহর চূড়ান্ত নিয়ন্ত্রণ মানলে **ধৈর্য আসে**; **অধৈর্য ঈমানের দুর্বলতা**; **আল্লাহ ছাড়া অন্য কিছুর কাছে আশ্রয় চাইলে তাওহীদ ক্ষুণ্ণ হয়**।" রুবুবিয়্যাহর উত্তরে এমন একটি বাক্য যোগ করো।
+
+## Slide 7 — Asma wa Sifat — the creed of Ahl as-Sunnah (1) / আসমা ওয়াস সিফাত — আহলুস সুন্নাহর আকীদা (১)
+
+### English
+
+> **توحيد الأسماء والصفات — أولا: عقيدة أهل السنة والجماعة في توحيد الأسماء والصفات: أنهم يؤمنون بما جاء في كتاب الله عز وجل، وبما ثبت عن رسول الله صلى الله عليه وسلم، من غير تأويل ولا تمثيل، ومن غير تحريف ولا تعطيل، فيصفون الله تعالى بما وصف به نفسه وبما وصفه به رسوله صلى الله عليه وسلم.**
+
+> Firstly: The teaching of Ahl as-Sunnah wa'l-Jamaa'ah with regard to Tawheed ar-Ruboobeeyah [sic — the Arabic heading and the content are about Tawheed al-Asma wa Sifat] (maintaining the Unity of Lordship):
+>
+> that they believe in what it says in the Book of Allah, may He be glorified and exalted, and in that which is proven from the Messenger of Allah ﷺ, without any misinterpretation (interpreting them in a way other than they appear to mean) or likening Him to His creation, and without distorting the meaning or denying the Divine names and attributes.
+>
+> So they ascribe to Allah, may He be exalted, that which He has ascribed to Himself and that which His Messenger ﷺ has ascribed to Him.
+
+**Added by the teacher (not on the slide):** **A typo on the slide.** The Arabic heading says توحيد الأسماء والصفات (Tawheed al-Asma wa Sifat) and the paragraph is about Names & Attributes, but the English line mistakenly says "Ruboobeeyah". In the exam, write **Asma wa Sifat**.
+
+**Teacher explains:** This is the **core sentence** of the module. Ahl as-Sunnah believe in what is in **(1) the Book of Allah** and **(2) what is authentically proven from the Messenger ﷺ**, and they do it with **four "withouts"**:
+
+- **Without ta'wil** — not explaining the text away to a meaning other than its apparent one.
+- **Without tamthil** — not likening Allah to His creation.
+- **Without tahrif** — not distorting the meaning.
+- **Without ta'til** — not denying/emptying the Names and Attributes.
+
+**Teacher explains:** And then the positive side: "**they ascribe to Allah what He ascribed to Himself, and what His Messenger ascribed to Him**" — no less, no more. We do not name Allah with names He has not named Himself with.
+
+**Example:** Imagine you have a trusted map made by the owner of the land. If the map says "river here", you do **not** say "that's just a symbol for a road" (ta'wil/tahrif); you do not say "there is no river" (ta'til); you do not say "it flows exactly like the river in my village" (tamthil); you do not demand "tell me exactly how many litres it carries" (takyif).
+
+**Exam tip:** **Q-pattern:** "Explain the creed of Ahl as-Sunnah in the Names and Attributes." Write the **two sources** and the **four withouts**, then the sentence: "They describe Allah by what He described Himself and what His Messenger ﷺ described Him."
+
+### বাংলা
+
+> **توحيد الأسماء والصفات — أولا: عقيدة أهل السنة والجماعة في توحيد الأسماء والصفات: أنهم يؤمنون بما جاء في كتاب الله عز وجل، وبما ثبت عن رسول الله صلى الله عليه وسلم، من غير تأويل ولا تمثيل، ومن غير تحريف ولا تعطيل، فيصفون الله تعالى بما وصف به نفسه وبما وصفه به رسوله صلى الله عليه وسلم.**
+
+> প্রথমত: তাওহীদুর রুবুবিয়্যাহ [sic — আরবি শিরোনাম ও বিষয়বস্তু আসলে তাওহীদুল আসমা ওয়াস সিফাত সম্পর্কে] (প্রভুত্বে একত্ব বজায় রাখা) বিষয়ে আহলুস সুন্নাহ ওয়াল জামাআহর শিক্ষা:
+>
+> তারা আল্লাহর কিতাবে যা এসেছে এবং রাসূলুল্লাহ ﷺ থেকে যা প্রমাণিত তাতে বিশ্বাস করে — কোনো ভুল ব্যাখ্যা (প্রকাশ্য অর্থ ছাড়া অন্য অর্থে ব্যাখ্যা) বা তাঁকে সৃষ্টির সাথে তুলনা ছাড়া, এবং অর্থ বিকৃতি বা আল্লাহর নাম ও গুণ অস্বীকার ছাড়া।
+>
+> তাই তারা আল্লাহর জন্য তা-ই সাব্যস্ত করে যা তিনি নিজের জন্য সাব্যস্ত করেছেন এবং যা তাঁর রাসূল ﷺ তাঁর জন্য সাব্যস্ত করেছেন।
+
+**শিক্ষকের সংযোজন (স্লাইডে নেই):** **স্লাইডের একটি ভুল।** আরবি শিরোনাম توحيد الأسماء والصفات (তাওহীদুল আসমা ওয়াস সিফাত) এবং অনুচ্ছেদ নাম-গুণাবলি নিয়ে, কিন্তু ইংরেজি লাইনে ভুল করে "Ruboobeeyah" লেখা। পরীক্ষায় লেখো **আসমা ওয়াস সিফাত**।
+
+**শিক্ষক বুঝিয়ে বলছেন:** এটি মডিউলের **মূল বাক্য**। আহলুস সুন্নাহ বিশ্বাস করে **(১) আল্লাহর কিতাবে** যা আছে এবং **(২) রাসূল ﷺ থেকে যা সহীহভাবে প্রমাণিত** তাতে — এবং তা করে **চারটি "ছাড়া"** সহ:
+
+- **তা'ওয়ীল ছাড়া** — পাঠকে তার প্রকাশ্য অর্থ ছাড়া অন্য অর্থে ব্যাখ্যা না করা।
+- **তামসীল ছাড়া** — আল্লাহকে সৃষ্টির সাথে তুলনা না করা।
+- **তাহরীফ ছাড়া** — অর্থ বিকৃত না করা।
+- **তা'তীল ছাড়া** — নাম-গুণাবলি অস্বীকার/শূন্য না করা।
+
+**শিক্ষক বুঝিয়ে বলছেন:** আর ইতিবাচক দিক: "**আল্লাহ নিজের জন্য যা সাব্যস্ত করেছেন এবং তাঁর রাসূল তাঁর জন্য যা সাব্যস্ত করেছেন, তারা তা-ই সাব্যস্ত করে**" — কম নয়, বেশিও নয়। আল্লাহ নিজেকে যে নামে ডাকেননি, আমরা সে নামে তাঁকে ডাকি না।
+
+**উদাহরণ:** জমির মালিকের আঁকা একটি বিশ্বস্ত মানচিত্র তোমার কাছে আছে। মানচিত্রে "এখানে নদী" লেখা থাকলে তুমি বলো না "এটা শুধু রাস্তার প্রতীক" (তা'ওয়ীল/তাহরীফ); বলো না "নদী নেই" (তা'তীল); বলো না "এটা ঠিক আমার গ্রামের নদীর মতোই বয়ে যায়" (তামসীল); দাবিও করো না "ঠিক কত লিটার বয় বলো" (তাকয়ীফ)।
+
+**পরীক্ষার টিপস:** **প্রশ্নের ধাঁচ:** "নাম-গুণাবলিতে আহলুস সুন্নাহর আকীদা ব্যাখ্যা করো।" **দুটি উৎস** ও **চারটি "ছাড়া"** লেখো, তারপর বাক্য: "আল্লাহ নিজেকে ও তাঁর রাসূল ﷺ তাঁকে যেভাবে বর্ণনা করেছেন তারা সেভাবেই বর্ণনা করে।"
+
+## Slide 8 — Ibn 'Abd al-Barr — the consensus of Ahl as-Sunnah / ইবনে আব্দুল বার — আহলুস সুন্নাহর ইজমা
+
+### English
+
+> **قال ابن عبد البر رحمه الله تعالى: «أهل السنة مجمعون على الإقرار بالصفات الواردة كلها في القرآن والسنة، والإيمان بها، وحملها على الحقيقة لا على المجاز، إلا أنهم لا يكيفون شيئا من ذلك، ولا يحدون فيه صفة محصورة. وأما أهل البدع والجهمية والمعتزلة كلها والخوارج فكلهم ينكرها، ولا يحمل شيئا منها على الحقيقة» انتهى من «التمهيد» (7/145).**
+
+> Ibn 'Abd al-Barr (may Allah have mercy on him) said:
+>
+> Ahl as-Sunnah unanimously agreed on affirming and believing in all the divine attributes mentioned in the Qur'an and Sunnah, and understanding them in a true sense (as they appear to be), not as being metaphorical. But they do not discuss how any of them are. As for the innovators, Jahamis and Mu'tazilah, and the Khaarijis, all of them deny them and do not understand any of them in a true sense (as they appear to be). End quote from at-Tamheed, 7/145.
+
+**Teacher explains:** Ibn 'Abd al-Barr (a great scholar of Andalusia) reports the **agreement (ijma')** of Ahl as-Sunnah on **four points**:
+
+1. **Affirm** all the attributes mentioned in the Quran and Sunnah.
+2. **Believe** in them.
+3. Understand them in the **real (true) sense** (*'ala al-haqiqah*) — **not as metaphor** (*majaz*).
+4. **Do not ask "how"** (*la yukayyifun*) and do not set a limit or shape for them.
+
+**Teacher explains:** In contrast, the **innovators** — the **Jahmiyyah, Mu'tazilah and Khawarij** — **denied** the attributes and did not take any of them in their true sense.
+
+**Example:** The Quran says Allah "**hears**" (*sami'*). Ahl as-Sunnah say: "He **really hears**" — not "this is just a poetic way of saying He knows." But *how* He hears — we do not know and do not ask, because "there is nothing like Him".
+
+**Exam tip:** One-line memory: **"Real meaning, no metaphor, no 'how'."** Put it in Q-answers about Names and Attributes.
+
+### বাংলা
+
+> **قال ابن عبد البر رحمه الله تعالى: «أهل السنة مجمعون على الإقرار بالصفات الواردة كلها في القرآن والسنة، والإيمان بها، وحملها على الحقيقة لا على المجاز، إلا أنهم لا يكيفون شيئا من ذلك، ولا يحدون فيه صفة محصورة. وأما أهل البدع والجهمية والمعتزلة كلها والخوارج فكلهم ينكرها، ولا يحمل شيئا منها على الحقيقة» انتهى من «التمهيد» (7/145).**
+
+> ইবনে আব্দুল বার (আল্লাহ তাঁর প্রতি রহম করুন) বলেছেন:
+>
+> আহলুস সুন্নাহ সর্বসম্মতভাবে একমত যে কুরআন ও সুন্নাহয় উল্লিখিত সব ঐশী গুণাবলি স্বীকার ও বিশ্বাস করতে হবে এবং সেগুলোকে প্রকৃত অর্থে (যেভাবে প্রকাশ পায়) বুঝতে হবে, রূপক অর্থে নয়। কিন্তু তারা এর কোনোটির "কীভাবে" নিয়ে আলোচনা করে না। আর বিদআতীরা, জাহমিয়্যাহ ও মু'তাযিলারা এবং খাওয়ারিজরা — তারা সবাই এগুলো অস্বীকার করে এবং কোনোটিকেই প্রকৃত অর্থে (যেভাবে প্রকাশ পায়) নেয় না। (আত-তামহীদ থেকে উদ্ধৃতি সমাপ্ত, ৭/১৪৫)
+
+**শিক্ষক বুঝিয়ে বলছেন:** ইবনে আব্দুল বার (আন্দালুসের একজন মহান আলিম) আহলুস সুন্নাহর **ইজমা (ঐকমত্য)** বর্ণনা করেছেন **চারটি বিষয়ে**:
+
+1. কুরআন-সুন্নাহয় উল্লিখিত সব গুণ **স্বীকার** করা।
+2. সেগুলোতে **বিশ্বাস** করা।
+3. **প্রকৃত অর্থে** (*আলাল হাকীকাহ*) বোঝা — **রূপক** (*মাজায*) অর্থে নয়।
+4. **"কীভাবে" জিজ্ঞেস না করা** (*লা ইউকাইয়িফূন*) এবং সেগুলোর কোনো সীমা বা আকার নির্ধারণ না করা।
+
+**শিক্ষক বুঝিয়ে বলছেন:** বিপরীতে **বিদআতীরা** — **জাহমিয়্যাহ, মু'তাযিলা ও খাওয়ারিজ** — গুণাবলি **অস্বীকার** করেছে এবং কোনোটিকেই প্রকৃত অর্থে নেয়নি।
+
+**উদাহরণ:** কুরআন বলে আল্লাহ "**শোনেন**" (*সামী'*)। আহলুস সুন্নাহ বলে: "তিনি **সত্যিই শোনেন**" — "এটা কেবল জানার একটি কাব্যিক প্রকাশ" নয়। কিন্তু তিনি *কীভাবে* শোনেন — আমরা জানি না, জিজ্ঞেসও করি না, কারণ "তাঁর মতো কিছুই নেই"।
+
+**পরীক্ষার টিপস:** এক লাইনে মনে রাখো: **"প্রকৃত অর্থ, রূপক নয়, 'কীভাবে' নয়।"** নাম-গুণাবলির প্রশ্নের উত্তরে এটি লেখো।
+
+## Slide 9 — The ruling on denying the Names and Attributes / নাম ও গুণাবলি অস্বীকারের বিধান
+
+### English
+
+> **ثانيا: من أنكر أسماء الله أو صفاته بالكلية ونفاها عن الله تعالى، كما هو حال الباطنية وغلاة الجهمية، فهو كافر خارج عن الملة مكذب للقرآن والسنة خارق لإجماع الأمة. وكذا من جحد اسما من أسماء الله أو صفة من صفاته مما ثبت لله تعالى في كتابه فهو كافر؛ لأن مقتضى جحده أنه مكذب بالقرآن.**
+
+> Secondly: The one who denies the names and attributes of Allah altogether and does not ascribe them to Allah, may He be exalted, as is the case with the baatinis (esoteric sects) and the extreme Jahamis, is a kaafir who is beyond the pale of Islam, disbelieves in the Qur'an and Sunnah, and goes against the consensus (ijmaa') of the ummah.
+>
+> The same applies to anyone who denies any of the names or attributes of Allah that Allah, may He be exalted, has affirmed in His Book; he is a disbeliever, because what is implied by his denial is that he rejects the Qur'an.
+
+**Teacher explains:** Now the **ruling (hukm)**: two cases of **denial (juhud / ta'til)**:
+
+- **Total denial** — someone who says Allah has **no Names or Attributes at all** (like the Batiniyyah and the extreme Jahmiyyah). The slide's ruling: **kufr**, outside Islam, because it rejects the Quran, the Sunnah and the consensus.
+- **Denial of a single established name or attribute** — if he **denies** something Allah affirmed in the Quran, e.g. says "Allah is not Ar-Rahman" — **kufr**, because it means **rejecting a statement of the Quran**.
+
+**Teacher explains:** The reasoning is simple: **denying what the Quran clearly states is denying the Quran itself**.
+
+**Added by the teacher (not on the slide):** **Important caution.** These are rulings about the **belief** — "this belief is kufr". Applying such a ruling to a **specific person** is a serious matter for qualified scholars, who check the conditions (e.g., knowledge, no ambiguity, no excuse). The next slide (10) shows an important **exception**: the one who gives a **mistaken interpretation (ta'wil)** is **not** called a disbeliever. Students should never use these words to label people casually.
+
+**Exam tip:** Short answer: **"Whoever denies the Names or Attributes altogether, or denies one that Allah affirmed in the Quran, has rejected the Quran, and this is kufr (slide 9)."** Then immediately add the **contrast** with ta'wil (slide 10) to show balance.
+
+### বাংলা
+
+> **ثانيا: من أنكر أسماء الله أو صفاته بالكلية ونفاها عن الله تعالى، كما هو حال الباطنية وغلاة الجهمية، فهو كافر خارج عن الملة مكذب للقرآن والسنة خارق لإجماع الأمة. وكذا من جحد اسما من أسماء الله أو صفة من صفاته مما ثبت لله تعالى في كتابه فهو كافر؛ لأن مقتضى جحده أنه مكذب بالقرآن.**
+
+> দ্বিতীয়ত: যে ব্যক্তি আল্লাহর নাম ও গুণাবলি সম্পূর্ণরূপে অস্বীকার করে এবং আল্লাহ তাআলার জন্য তা সাব্যস্ত করে না — যেমন বাতিনী (গূঢ়ার্থবাদী) সম্প্রদায় ও চরমপন্থী জাহমিয়্যাহ করে — সে কাফির, মিল্লাত থেকে বহির্ভূত, কুরআন ও সুন্নাহকে মিথ্যা বলেছে এবং উম্মাহর ইজমা (ঐকমত্য) লঙ্ঘন করেছে।
+>
+> একইভাবে যে কেউ আল্লাহর কিতাবে সাব্যস্ত কোনো নাম বা গুণ অস্বীকার করে সেও কাফির, কারণ তার অস্বীকারের দাবি হলো সে কুরআনকে মিথ্যা বলছে।
+
+**শিক্ষক বুঝিয়ে বলছেন:** এবার **বিধান (হুকুম)**: **অস্বীকার (জুহূদ/তা'তীল)**-এর দুটি ক্ষেত্র:
+
+- **সম্পূর্ণ অস্বীকার** — কেউ বলে আল্লাহর **কোনো নাম বা গুণই নেই** (বাতিনিয়্যাহ ও চরম জাহমিয়্যাহর মতো)। স্লাইডের বিধান: **কুফর**, ইসলাম-বহির্ভূত, কারণ এতে কুরআন, সুন্নাহ ও ইজমা প্রত্যাখ্যাত হয়।
+- **একটি প্রতিষ্ঠিত নাম বা গুণ অস্বীকার** — আল্লাহ কুরআনে যা সাব্যস্ত করেছেন তা কেউ **অস্বীকার** করলে, যেমন বলল "আল্লাহ আর-রহমান নন" — **কুফর**, কারণ এর অর্থ **কুরআনের একটি বক্তব্য প্রত্যাখ্যান**।
+
+**শিক্ষক বুঝিয়ে বলছেন:** যুক্তি সহজ: **কুরআন যা স্পষ্ট বলেছে তা অস্বীকার করা মানে কুরআনকেই অস্বীকার করা।**
+
+**শিক্ষকের সংযোজন (স্লাইডে নেই):** **গুরুত্বপূর্ণ সতর্কতা।** এগুলো **বিশ্বাসের** বিধান — "এই বিশ্বাস কুফর"। কোনো **নির্দিষ্ট ব্যক্তির** ওপর এই বিধান প্রয়োগ করা যোগ্য আলিমদের গুরুতর দায়িত্ব, যাঁরা শর্ত যাচাই করেন (যেমন জ্ঞান, অস্পষ্টতা না থাকা, অজুহাত না থাকা)। পরের স্লাইড (১০) একটি গুরুত্বপূর্ণ **ব্যতিক্রম** দেখায়: **ভুল ব্যাখ্যা (তা'ওয়ীল)** যে করে তাকে কাফির বলা হয় **না**। ছাত্রদের এই শব্দগুলো কখনো অবলীলায় মানুষকে তকমা দিতে ব্যবহার করা উচিত নয়।
+
+**পরীক্ষার টিপস:** সংক্ষিপ্ত উত্তর: **"যে নাম-গুণাবলি সম্পূর্ণ অস্বীকার করে, বা কুরআনে আল্লাহ যা সাব্যস্ত করেছেন তার কোনোটি অস্বীকার করে, সে কুরআন প্রত্যাখ্যান করেছে — এটি কুফর (স্লাইড ৯)।"** তারপর ভারসাম্য দেখাতে সঙ্গে সঙ্গে তা'ওয়ীলের (স্লাইড ১০) পার্থক্য যোগ করো।
+
+## Slide 10 — The ruling on mis-interpretation (ta'wil) / ভুল ব্যাখ্যা (তা'ওয়ীল)-এর বিধান
+
+### English
+
+> **وأما من تأول شيئا من صفات الله وحرفها عن معناها، كمن يؤول صفة اليد على أنها القدرة، ويقول استوى يعني استولى، ونحو ذلك، فهو مخطئ فيما تأوله على غير ظاهره، مبتدع بقدر ما عنده من المخالفة للسنة، والخروج عن طريق أهل السنة والجماعة؛ وفيه من البدعة بقدر ما فيه من المخالفة، ولكنه ليس بكافر لمجرد هذا التأويل، وقد يكون معذورا باجتهاده وتأويله، بحسب حاله من العلم والإيمان، وإنما المدار في ذلك على طلب ما جاء به الرسول صلى الله عليه وسلم، والحرص على متابعته.**
+
+> With regard to the one who misinterprets any of the attributes of Allah and distorts its meaning, such as those who misinterpret the attribute of the hand as referring to His power, and they say that istiwa' (rising over the Throne) means taking control of it, and so on, he is mistaken in interpreting it in a manner other than the apparent meaning, and he is an innovator in so far as what he believes is contrary to the Sunnah, and he has strayed from the path of Ahl as-Sunnah wa'l-Jamaa'ah.
+>
+> But he is not a disbeliever just because of this misinterpretation, and he may be excused for his efforts to understand, depending on his level of knowledge and faith. Rather the measuring stick in that regard is the extent to which he sought to learn what the Messenger ﷺ taught and the extent of his keenness to follow him.
+
+**Teacher explains:** This slide gives the **balanced ruling**: someone who **gives a wrong interpretation** is in a **different category** from someone who **denies**.
+
+**Examples on the slide:**
+
+- "**Yad** (Hand) means only **power** (*qudrah*)" — instead of a real attribute (a Hand befitting Allah).
+- "***Istiwa'*** (rising over the Throne) means **istila'** (taking control)" — instead of Allah being above the Throne in the way that befits Him.
+
+**Teacher explains:** **The ruling:** (1) he is **mistaken**; (2) he is an **innovator (mubtadi')** *to the degree* that he contradicts the Sunnah — the Arabic says *"bi-qadr"*: proportional, not total; (3) he has left the path of Ahl as-Sunnah; (4) **but he is not a kafir** merely because of this ta'wil; (5) he **may be excused** because of his *ijtihad* (effort), depending on his knowledge and faith.
+
+**The "measuring stick" (mudar)** = how seriously he **sought what the Messenger ﷺ brought** and how **eager he was to follow**. A sincere seeker who makes a mistake is judged differently from a stubborn opponent.
+
+**Example:** Two students misunderstand a teacher's instruction. One tried hard, asked, studied — and still got it wrong. The other ignored the teacher completely. Both are "wrong", but they are **not the same**.
+
+**Exam tip:** Compare in your exam: **Denial (juhud) = kufr** (slide 9) vs **Ta'wil (misinterpretation) = mistake/innovation, not kufr** (slide 10). This contrast is one of the most testable points of the module.
+
+### বাংলা
+
+> **وأما من تأول شيئا من صفات الله وحرفها عن معناها، كمن يؤول صفة اليد على أنها القدرة، ويقول استوى يعني استولى، ونحو ذلك، فهو مخطئ فيما تأوله على غير ظاهره، مبتدع بقدر ما عنده من المخالفة للسنة، والخروج عن طريق أهل السنة والجماعة؛ وفيه من البدعة بقدر ما فيه من المخالفة، ولكنه ليس بكافر لمجرد هذا التأويل، وقد يكون معذورا باجتهاده وتأويله، بحسب حاله من العلم والإيمان، وإنما المدار في ذلك على طلب ما جاء به الرسول صلى الله عليه وسلم، والحرص على متابعته.**
+
+> আর যে ব্যক্তি আল্লাহর কোনো গুণের ভুল ব্যাখ্যা করে ও তার অর্থ বিকৃত করে — যেমন যারা "হাত" গুণকে "ক্ষমতা" বলে ব্যাখ্যা করে এবং বলে *ইসতিওয়া* (আরশের ওপর উঠা) মানে তার ওপর কর্তৃত্ব নেওয়া, ইত্যাদি — সে প্রকাশ্য অর্থ ছাড়া অন্য অর্থে ব্যাখ্যা করায় ভুল করেছে, আর সুন্নাহর বিপরীত যা বিশ্বাস করে সেই পরিমাণে সে বিদআতী, এবং সে আহলুস সুন্নাহ ওয়াল জামাআহর পথ থেকে বিচ্যুত।
+>
+> কিন্তু শুধু এই ভুল ব্যাখ্যার কারণে সে কাফির নয়, এবং তার জ্ঞান ও ঈমানের অবস্থা অনুযায়ী বোঝার চেষ্টার কারণে সে ক্ষমাযোগ্যও হতে পারে। এ বিষয়ে মাপকাঠি হলো রাসূল ﷺ যা শিখিয়েছেন তা জানতে সে কতটা চেষ্টা করেছে এবং তাঁর অনুসরণে কতটা আগ্রহী ছিল।
+
+**শিক্ষক বুঝিয়ে বলছেন:** এই স্লাইড **ভারসাম্যপূর্ণ বিধান** দেয়: যে **ভুল ব্যাখ্যা করে** সে **অস্বীকারকারী** থেকে **ভিন্ন শ্রেণির**।
+
+**স্লাইডের উদাহরণ:**
+
+- "**ইয়াদ** (হাত) মানে শুধু **ক্ষমতা** (*কুদরাহ*)" — আল্লাহর শানের উপযোগী প্রকৃত গুণ নয়।
+- "***ইসতিওয়া*** (আরশের ওপর উঠা) মানে **ইসতিলা'** (কর্তৃত্ব গ্রহণ)" — আল্লাহ তাঁর শানের উপযোগী ভাবে আরশের ওপর আছেন, এমন নয়।
+
+**শিক্ষক বুঝিয়ে বলছেন:** **বিধান:** (১) সে **ভুল করেছে**; (২) সে **বিদআতী (মুবতাদি')** — সুন্নাহর বিরোধিতার *পরিমাণ অনুযায়ী*; আরবিতে "*বি-ক্বাদর*" — আনুপাতিক, পুরোপুরি নয়; (৩) সে আহলুস সুন্নাহর পথ ছেড়েছে; (৪) **কিন্তু শুধু এই তা'ওয়ীলের কারণে সে কাফির নয়**; (৫) তার *ইজতিহাদ* (প্রচেষ্টা)-র কারণে সে **ক্ষমাযোগ্য** হতে পারে, জ্ঞান ও ঈমান অনুযায়ী।
+
+**"মাপকাঠি" (মাদার)** = **রাসূল ﷺ যা এনেছেন তা সে কতটা আন্তরিকভাবে খুঁজেছে** এবং **অনুসরণে কতটা আগ্রহী ছিল**। যে আন্তরিক অনুসন্ধানকারী ভুল করে সে জেদী বিরোধী থেকে ভিন্নভাবে বিবেচিত।
+
+**উদাহরণ:** দুই ছাত্র শিক্ষকের নির্দেশ ভুল বুঝেছে। একজন অনেক চেষ্টা করেছে, জিজ্ঞেস করেছে, পড়েছে — তবু ভুল করেছে। অন্যজন শিক্ষকের কথা পুরো উপেক্ষা করেছে। দুজনই "ভুল", কিন্তু **এক নয়**।
+
+**পরীক্ষার টিপস:** পরীক্ষায় তুলনা করো: **অস্বীকার (জুহূদ) = কুফর** (স্লাইড ৯) বনাম **তা'ওয়ীল (ভুল ব্যাখ্যা) = ভুল/বিদআত, কুফর নয়** (স্লাইড ১০)। এই পার্থক্য মডিউলের সবচেয়ে পরীক্ষাযোগ্য বিষয়গুলোর একটি।
+
+## Quick check — slides 6–10 / দ্রুত যাচাই — স্লাইড ৬–১০
+
+**1. Saying that Allah's "Hand" (yad) means only "power" is an example of:**  
+আল্লাহর "হাত" (ইয়াদ) মানে শুধু "ক্ষমতা" বলা কিসের উদাহরণ?  
+- A. Affirming the attribute as it appears
+- B. Misinterpreting (ta'wil) / distorting the attribute
+- C. Praising Allah
+- D. Asking about the details of how
+
+✔ Answer: **B. Misinterpreting (ta'wil) / distorting the attribute** — Slide 10 gives exactly this example: interpreting the hand as power instead of its apparent meaning.  
+✔ উত্তর: স্লাইড ১০-এ ঠিক এই উদাহরণ: হাতকে তার প্রকাশ্য অর্থের বদলে ক্ষমতা বলে ব্যাখ্যা করা।
+
+**2. According to Ibn 'Abd al-Barr, how do Ahl as-Sunnah understand the attributes?**  
+ইবনে আব্দুল বারের মতে আহলুস সুন্নাহ গুণাবলি কীভাবে বোঝে?  
+- A. As metaphors only
+- B. In their true sense, without asking "how"
+- C. By denying them
+- D. By comparing them to human attributes
+
+✔ Answer: **B. In their true sense, without asking "how"** — Slide 8: understood "in a true sense (as they appear to be), not as being metaphorical", but "they do not discuss how any of them are".  
+✔ উত্তর: স্লাইড ৮: "প্রকৃত অর্থে (যেভাবে প্রকাশ পায়), রূপক অর্থে নয়", কিন্তু "তারা এর কোনোটির কীভাবে নিয়ে আলোচনা করে না"।
+
+**3. What is the ruling on the one who denies a name of Allah that is affirmed in the Quran (slide 9)?**  
+কুরআনে সাব্যস্ত আল্লাহর কোনো নাম যে অস্বীকার করে তার বিধান কী (স্লাইড ৯)?  
+- A. A small mistake only
+- B. He is a disbeliever, because he rejects the Quran
+- C. He is excused automatically
+- D. Nothing — it is only an opinion
+
+✔ Answer: **B. He is a disbeliever, because he rejects the Quran** — Slide 9: he is a disbeliever "because what is implied by his denial is that he rejects the Qur'an". (Compare: ta'wil is not kufr.)  
+✔ উত্তর: স্লাইড ৯: সে কাফির, "কারণ তার অস্বীকারের দাবি হলো সে কুরআনকে মিথ্যা বলছে"। (তুলনা: তা'ওয়ীল কুফর নয়।)
+
+## Slides 11–12 — Ibn Baz — do not interpret and do not "leave the meaning" / ইবনে বায — তা'ওয়ীল নয়, অর্থ "ছেড়ে দেওয়া"ও নয়
+
+### English
+
+> **قال ابن باز رحمه الله: «لا يجوز تأويل الصفات، ولا صرفها عن ظاهرها اللائق بالله، ولا تفويضها، بل هذا كله من اعتقاد أهل البدع، أما أهل السنة والجماعة فلا يؤولون آيات الصفات وأحاديثها ولا يصرفونها عن ظاهرها ولا يفوضونها، بل يعتقدون أن جميع ما دلت عليه من المعنى كله حق ثابت لله لائق به سبحانه لا يشابه فيه خلقه» انتهى من «مجموع فتاوى ابن باز» (2/106-107).**
+
+> [Slide 11] Ibn Baaz (may Allah have mercy on him) said: It is not permissible to misinterpret the divine attributes or to understand them in any way other than their apparent meaning in a manner that is befitting to Allah, or to say that knowledge of what is meant belongs only to Allah. Rather all of that comes under the heading of the beliefs of the innovators.
+>
+> [Slide 12] As for Ahl as-Sunnah wa'l-Jamaa'ah, they do not misinterpret the verses and hadeeths that speak of the divine attributes, and they do not understand them in a way other than the apparent meaning, and they do not say that knowledge of what is meant belongs only to Allah. Rather they believe that every meaning (of these attributes) that may be indicated is true in a manner that is befitting to Allah, may He be exalted, without likening Him to His creation. End quote from Majmoo' Fataawa Ibn Baaz, 2/106–107.
+
+**Teacher explains:** **Shaykh Ibn Baz** (the former Grand Mufti of Saudi Arabia) names **three things that are not permissible**:
+
+1. **Ta'wil** — giving the attribute another meaning.
+2. **Sarf 'an az-zahir** — turning it away from its **apparent meaning that befits Allah**.
+3. **Tafwid** — saying "**only Allah knows what it means**" and leaving the meaning empty.
+
+**Teacher explains:** **Why also reject tafwid?** Because the Quran and Sunnah were revealed **in clear Arabic to be understood**; the words *hand*, *face*, *hearing* have known meanings. What we do **not** know is the **kayfiyyah** — *how* they are for Allah. So Ahl as-Sunnah say: **the meaning is known, the "how" is unknown.**
+
+The positive statement: every meaning the text indicates is **true and established** for Allah, **in a way befitting Him**, "**without likening Him to His creation**".
+
+**Example:** If you read "the **face** of Allah", you understand "face" (known meaning). You do **not** imagine a human face (that would be tamthil) and you do not say "I have no idea what face means" (tafwid). You say: "He has a Face, as befits His majesty — I don't know how."
+
+**Exam tip:** **Three rejected paths:** ta'wil ✗, tafwid ✗, tashbih ✗ (likening). **One accepted path:** affirm the true meaning, leave the *how* to Allah. (This exactly follows Imam Malik's famous reply about *istiwa'*: "The istiwa' is known, the how is unknown, belief in it is obligatory, and asking about it is an innovation." — widely reported by scholars.)
+
+### বাংলা
+
+> **قال ابن باز رحمه الله: «لا يجوز تأويل الصفات، ولا صرفها عن ظاهرها اللائق بالله، ولا تفويضها، بل هذا كله من اعتقاد أهل البدع، أما أهل السنة والجماعة فلا يؤولون آيات الصفات وأحاديثها ولا يصرفونها عن ظاهرها ولا يفوضونها، بل يعتقدون أن جميع ما دلت عليه من المعنى كله حق ثابت لله لائق به سبحانه لا يشابه فيه خلقه» انتهى من «مجموع فتاوى ابن باز» (2/106-107).**
+
+> [স্লাইড ১১] ইবনে বায (আল্লাহ তাঁর প্রতি রহম করুন) বলেছেন: ঐশী গুণাবলির ভুল ব্যাখ্যা করা, বা আল্লাহর শানের উপযোগী প্রকাশ্য অর্থ ছাড়া অন্য অর্থে বোঝা, বা বলা যে "এর অর্থ কেবল আল্লাহই জানেন" — এসব জায়েয নয়। বরং এ সবই বিদআতীদের বিশ্বাসের অন্তর্ভুক্ত।
+>
+> [স্লাইড ১২] আর আহলুস সুন্নাহ ওয়াল জামাআহ গুণাবলি সম্পর্কিত আয়াত ও হাদীসের ভুল ব্যাখ্যা করে না, প্রকাশ্য অর্থ ছাড়া অন্য অর্থে বোঝে না, এবং বলে না যে "এর অর্থ কেবল আল্লাহই জানেন"। বরং তারা বিশ্বাস করে যে (এই গুণাবলির) যে অর্থ নির্দেশিত হয় তার সবই সত্য — আল্লাহ তাআলার শানের উপযোগী ভাবে, সৃষ্টির সাথে তুলনা ছাড়া। (মাজমূ' ফাতাওয়া ইবনে বায, ২/১০৬–১০৭ থেকে উদ্ধৃতি সমাপ্ত)
+
+**শিক্ষক বুঝিয়ে বলছেন:** **শাইখ ইবনে বায** (সৌদি আরবের সাবেক গ্র্যান্ড মুফতি) **তিনটি জিনিস নাজায়েয** বলেছেন:
+
+1. **তা'ওয়ীল** — গুণকে অন্য অর্থ দেওয়া।
+2. **সারফ আনিয-যাহির** — আল্লাহর শানের উপযোগী **প্রকাশ্য অর্থ** থেকে ঘুরিয়ে দেওয়া।
+3. **তাফউয়ীদ** — "**এর অর্থ কেবল আল্লাহই জানেন**" বলে অর্থকে শূন্য রাখা।
+
+**শিক্ষক বুঝিয়ে বলছেন:** **তাফউয়ীদও কেন প্রত্যাখ্যাত?** কারণ কুরআন-সুন্নাহ **স্পষ্ট আরবিতে বোঝার জন্য** নাযিল হয়েছে; *হাত*, *মুখমণ্ডল*, *শ্রবণ* শব্দের পরিচিত অর্থ আছে। যা আমরা **জানি না** তা হলো **কাইফিয়্যাহ** — আল্লাহর জন্য সেগুলো *কেমন*। তাই আহলুস সুন্নাহ বলে: **অর্থ জানা, "কেমন" অজানা।**
+
+ইতিবাচক বক্তব্য: পাঠ যে অর্থ নির্দেশ করে তার সবই আল্লাহর জন্য **সত্য ও প্রতিষ্ঠিত**, **তাঁর শানের উপযোগী ভাবে**, "**সৃষ্টির সাথে তুলনা ছাড়া**"।
+
+**উদাহরণ:** "আল্লাহর **মুখমণ্ডল**" পড়লে তুমি "মুখমণ্ডল" মানে বোঝো (পরিচিত অর্থ)। তুমি মানুষের মুখ কল্পনা **করো না** (সেটা তামসীল) এবং বলো না "মুখমণ্ডল মানে কী আমি জানি না" (তাফউয়ীদ)। তুমি বলো: "তাঁর মহিমার উপযোগী মুখমণ্ডল আছে — কীভাবে তা জানি না।"
+
+**পরীক্ষার টিপস:** **তিনটি প্রত্যাখ্যাত পথ:** তা'ওয়ীল ✗, তাফউয়ীদ ✗, তাশবীহ ✗ (তুলনা)। **একটি গ্রহণযোগ্য পথ:** প্রকৃত অর্থ সাব্যস্ত করো, *কেমন* তা আল্লাহর ওপর ছেড়ে দাও। (এটি ইমাম মালিকের *ইসতিওয়া* সম্পর্কে বিখ্যাত উত্তরের সাথে মেলে: "ইসতিওয়া জানা, কেমন তা অজানা, এতে ঈমান ওয়াজিব, আর এ নিয়ে প্রশ্ন করা বিদআত" — আলিমদের কাছে বহুল বর্ণিত।)
+
+## Slides 13–14 — Ibn Baz on the Ash'aris / আশআরীদের সম্পর্কে ইবনে বায
+
+### English
+
+> **وسئل رحمه الله: هل الأشاعرة من أهل السنة والجماعة أم لا؟ وهل نحكم عليهم من المذهب أم كفار؟ فأجاب: «الأشاعرة من أهل السنة في غالب الأمور، ولكنهم ليسوا منهم في تأويل الصفات، وليسوا بكفار، بل فيهم الأئمة والعلماء والأخيار، ولكنهم غلطوا في تأويل بعض الصفات، فهم خالفوا أهل السنة في مسائل؛ منها تأويل غالب الصفات، وقد أخطأوا في تأويلها، والذي عليه أهل السنة والجماعة إمرار آيات الصفات وأحاديثها كما جاءت من غير تأويل ولا تعطيل ولا تحريف ولا تشبيه» انتهى من «مجموع فتاوى ابن باز» (28/256).**
+
+> [Slide 13] He was also asked (may Allah have mercy on him): Are the Ash'aris among Ahl as-Sunnah wa'l-Jamaa'ah or not? Do we regard them as being fellow Sunnis or as being disbelievers?
+>
+> [Slide 14] He replied: The Ash'aris are among Ahl as-Sunnah with regard to most matters, but they are not among them with regard to interpretation of the divine attributes, but they are not disbelievers either. Rather among them are some leading scholars and good people, but they erred in their interpretation of some of the divine attributes.
+>
+> They differed from Ahl as-Sunnah in some issues, such as the interpretation of most of the divine attributes, in which they were mistaken. The view of Ahl as-Sunnah wa'l-Jamaa'ah is to accept the verses and hadeeths that speak of the divine attributes as they came, without interpreting them (in a way other than the apparent meaning), denying them, distorting the meaning or likening Allah to His creation. End quote from Majmoo' Fataawa Ibn Baaz, 28/256.
+
+**Teacher explains:** This is a **question-and-answer (fatwa)**. The question: "Are the Ash'aris Ahl as-Sunnah or disbelievers?" Ibn Baz's balanced answer has **four parts**:
+
+1. They are Ahl as-Sunnah **in most matters**.
+2. They are **not** with Ahl as-Sunnah **in the interpretation (ta'wil) of the attributes**.
+3. They are **not disbelievers** — "among them are leading scholars and good people".
+4. They **erred** in interpreting some attributes; the position of Ahl as-Sunnah is to pass the texts "**as they came**" — **no ta'wil, no ta'til, no tahrif, no tashbih**.
+
+**Teacher explains:** Notice the **tone**: respectful, fair, and precise. A student of knowledge should **not** insult Muslim scholars even while correcting their mistakes.
+
+**Example:** A doctor disagrees with another doctor's treatment on one issue. He says: "He is a fine doctor in most things, but on this point I believe he is mistaken." That is the style of the fatwa.
+
+**Exam tip:** Exam pattern: **"Are the Ash'aris Ahl as-Sunnah?"** → "In most matters yes; in the ta'wil of the attributes no; they are not disbelievers; they erred; the correct path is to accept the texts as they came without the four things."
+
+### বাংলা
+
+> **وسئل رحمه الله: هل الأشاعرة من أهل السنة والجماعة أم لا؟ وهل نحكم عليهم من المذهب أم كفار؟ فأجاب: «الأشاعرة من أهل السنة في غالب الأمور، ولكنهم ليسوا منهم في تأويل الصفات، وليسوا بكفار، بل فيهم الأئمة والعلماء والأخيار، ولكنهم غلطوا في تأويل بعض الصفات، فهم خالفوا أهل السنة في مسائل؛ منها تأويل غالب الصفات، وقد أخطأوا في تأويلها، والذي عليه أهل السنة والجماعة إمرار آيات الصفات وأحاديثها كما جاءت من غير تأويل ولا تعطيل ولا تحريف ولا تشبيه» انتهى من «مجموع فتاوى ابن باز» (28/256).**
+
+> [স্লাইড ১৩] তাঁকে (আল্লাহ তাঁর প্রতি রহম করুন) জিজ্ঞেস করা হয়েছিল: আশআরীরা কি আহলুস সুন্নাহ ওয়াল জামাআহর অন্তর্ভুক্ত নাকি নয়? আমরা কি তাদের সুন্নী ভাই ধরব, নাকি কাফির?
+>
+> [স্লাইড ১৪] তিনি উত্তর দিলেন: আশআরীরা অধিকাংশ বিষয়ে আহলুস সুন্নাহর অন্তর্ভুক্ত, কিন্তু ঐশী গুণাবলির ব্যাখ্যায় তারা তাদের অন্তর্ভুক্ত নয়, তবে তারা কাফিরও নয়। বরং তাদের মধ্যে অনেক প্রধান আলিম ও সৎ মানুষ আছেন, কিন্তু তারা কিছু গুণের ব্যাখ্যায় ভুল করেছেন।
+>
+> তারা কিছু বিষয়ে আহলুস সুন্নাহর সাথে ভিন্নমত পোষণ করেছেন, যেমন অধিকাংশ গুণের ব্যাখ্যা — যাতে তারা ভুল করেছেন। আহলুস সুন্নাহ ওয়াল জামাআহর মত হলো গুণাবলি সম্পর্কিত আয়াত ও হাদীস যেভাবে এসেছে সেভাবেই মেনে নেওয়া — প্রকাশ্য অর্থ ছাড়া অন্য অর্থে ব্যাখ্যা, অস্বীকার, অর্থ বিকৃতি বা আল্লাহকে সৃষ্টির সাথে তুলনা ছাড়া। (মাজমূ' ফাতাওয়া ইবনে বায, ২৮/২৫৬ থেকে উদ্ধৃতি সমাপ্ত)
+
+**শিক্ষক বুঝিয়ে বলছেন:** এটি একটি **প্রশ্নোত্তর (ফতোয়া)**। প্রশ্ন: "আশআরীরা কি আহলুস সুন্নাহ, নাকি কাফির?" ইবনে বাযের ভারসাম্যপূর্ণ উত্তরে **চারটি অংশ**:
+
+1. তারা **অধিকাংশ বিষয়ে** আহলুস সুন্নাহ।
+2. **গুণাবলির ব্যাখ্যায় (তা'ওয়ীল)** তারা আহলুস সুন্নাহর সাথে **নয়**।
+3. তারা **কাফির নয়** — "তাদের মধ্যে প্রধান আলিম ও সৎ মানুষ আছেন"।
+4. তারা কিছু গুণ ব্যাখ্যায় **ভুল করেছেন**; আহলুস সুন্নাহর অবস্থান হলো পাঠগুলো "**যেভাবে এসেছে**" সেভাবে পাস করা — **তা'ওয়ীল নয়, তা'তীল নয়, তাহরীফ নয়, তাশবীহ নয়**।
+
+**শিক্ষক বুঝিয়ে বলছেন:** **সুর** খেয়াল করো: শ্রদ্ধাশীল, ন্যায্য ও সুনির্দিষ্ট। জ্ঞান-অন্বেষী ছাত্রের উচিত মুসলিম আলিমদের ভুল সংশোধন করার সময়ও **অপমান না করা**।
+
+**উদাহরণ:** এক ডাক্তার অন্য ডাক্তারের একটি চিকিৎসায় দ্বিমত করল। সে বলে: "তিনি অধিকাংশ বিষয়ে চমৎকার ডাক্তার, কিন্তু এই বিষয়ে আমার মতে তিনি ভুল করেছেন।" ফতোয়ার ধরনটা এমনই।
+
+**পরীক্ষার টিপস:** পরীক্ষার ধাঁচ: **"আশআরীরা কি আহলুস সুন্নাহ?"** → "অধিকাংশ বিষয়ে হ্যাঁ; গুণাবলির তা'ওয়ীলে না; তারা কাফির নয়; তারা ভুল করেছেন; সঠিক পথ হলো চারটি জিনিস ছাড়া পাঠগুলো যেভাবে এসেছে সেভাবে মানা।"
+
+## Slides 15–16 — Shaykh ar-Rajihi — denial versus ta'wil / শাইখ আর-রাজিহী — অস্বীকার বনাম তা'ওয়ীল
+
+### English
+
+> **وسئل الشيخ عبد العزيز الراجحي: هل إذا ثبت على الأشاعرة صفة تأولوها هل يكفرون؟ فأجاب: «لا، المتأول لا يكفر، الجاحد من جحد اسما من أسماء الله كفر، قال الله تعالى: ﴿وهم يكفرون بالرحمن﴾ إذا جحد اسما من الأسماء أو صفة من الصفات بدون تأويل كفر، قال الله تعالى: ﴿الرحمن على العرش استوى﴾ لو أنكر الآية كفر، لكن إذا أولها بالاستيلاء يكون له شبهة، يدرأ بها عنه التكفير» انتهى.**
+
+> [Slide 15] Shaykh 'Abd al-'Azeez ar-Raajihi was asked: If it is proven that the Ash'aris have misinterpreted one of the divine attributes, are they to be regarded as disbelievers?
+>
+> [Slide 16] He replied: No, the one who misinterprets and misunderstands some (of the divine attributes) is not to be regarded as a disbeliever; the one who denies one of the names of Allah becomes a disbeliever. Allah, may He be exalted, says: "while they disbelieve in the Most Beneficent (Allah)" [ar-Ra'd 13:30]. If he denies one of the names or attributes of Allah without misinterpreting it, then he becomes a disbeliever.
+>
+> And Allah says: "The Most Beneficent (Allah) Istawa (rose over) the (Mighty) Throne (in a manner that suits His Majesty)" [Ta-Ha 20:5]. If he denies this verse, he becomes a disbeliever, but if he misinterprets it as referring to taking control, then in that case he is confused, therefore we cannot say that he is a disbeliever. End quote.
+
+**Teacher explains:** Shaykh 'Abd al-'Aziz ar-Rajihi (a contemporary Saudi scholar) answers the same question as slide 13 and **summarises the key rule**:
+
+- **The one who gives ta'wil** ("misinterprets") — is **not** a disbeliever.
+- **The one who denies (al-jahid)** a name or attribute — is a disbeliever.
+
+**Teacher explains:** **Two examples from the Quran:** (1) **13:30** — "*they disbelieve in Ar-Rahman*": rejecting a **Name** (Ar-Rahman) = disbelief; the verse itself condemns them for it. (2) **20:5** — "*Ar-Rahman rose over the Throne*" (*istawa*): if someone **denies the verse itself** he becomes a disbeliever; but if he **explains *istawa* as "took control"**, there is a *shubhah* (a doubt/confusion) in his mind, which **protects him from takfir**.
+
+**Key difference in one sentence:** **Denying the text** (saying "no, Allah did not say it") ≠ **misunderstanding the text** (saying "He said it, but it means something else").
+
+**Example:** A student says "the exam never had question 5" (denying a fact) versus "question 5 asks about X, not Y" (misreading). The first denies; the second misunderstands.
+
+**Exam tip:** **Mnemonic: "Jahid = kafir; Mu'awwil = mistaken."** (Jahid = denier; Mu'awwil = misinterpreter.) Use verses **13:30** and **20:5** as the two examples.
+
+### বাংলা
+
+> **وسئل الشيخ عبد العزيز الراجحي: هل إذا ثبت على الأشاعرة صفة تأولوها هل يكفرون؟ فأجاب: «لا، المتأول لا يكفر، الجاحد من جحد اسما من أسماء الله كفر، قال الله تعالى: ﴿وهم يكفرون بالرحمن﴾ إذا جحد اسما من الأسماء أو صفة من الصفات بدون تأويل كفر، قال الله تعالى: ﴿الرحمن على العرش استوى﴾ لو أنكر الآية كفر، لكن إذا أولها بالاستيلاء يكون له شبهة، يدرأ بها عنه التكفير» انتهى.**
+
+> [স্লাইড ১৫] শাইখ আব্দুল আযীয আর-রাজিহীকে জিজ্ঞেস করা হয়েছিল: আশআরীরা কোনো ঐশী গুণের ভুল ব্যাখ্যা করেছে প্রমাণিত হলে তাদের কি কাফির গণ্য করা হবে?
+>
+> [স্লাইড ১৬] তিনি উত্তর দিলেন: না, যে (গুণাবলির) ভুল ব্যাখ্যা ও ভুল বোঝে তাকে কাফির গণ্য করা হয় না; যে আল্লাহর কোনো নাম অস্বীকার করে সে কাফির হয়ে যায়। আল্লাহ তাআলা বলেন: "অথচ তারা পরম করুণাময়কে (আল্লাহকে) অস্বীকার করে" [আর-রা'দ ১৩:৩০]। যদি সে আল্লাহর কোনো নাম বা গুণ ব্যাখ্যা ছাড়া অস্বীকার করে, তবে সে কাফির হয়ে যায়।
+>
+> আর আল্লাহ বলেন: "পরম করুণাময় (আল্লাহ) মহান আরশের ওপর ইসতিওয়া করেছেন (তাঁর মহিমার উপযোগী ভাবে)" [তা-হা ২০:৫]। যে এই আয়াত অস্বীকার করে সে কাফির হয়ে যায়; কিন্তু যদি সে একে "কর্তৃত্ব গ্রহণ" বলে ব্যাখ্যা করে, তবে এ ক্ষেত্রে সে বিভ্রান্ত, তাই আমরা তাকে কাফির বলতে পারি না। (উদ্ধৃতি সমাপ্ত।)
+
+**শিক্ষক বুঝিয়ে বলছেন:** শাইখ আব্দুল আযীয আর-রাজিহী (একজন সমসাময়িক সৌদি আলিম) স্লাইড ১৩-এর একই প্রশ্নের উত্তর দিয়েছেন এবং **মূল নিয়মটির সারসংক্ষেপ** করেছেন:
+
+- **যে তা'ওয়ীল করে** ("ভুল ব্যাখ্যা") — সে কাফির **নয়**।
+- **যে অস্বীকার করে (আল-জাহিদ)** কোনো নাম বা গুণ — সে কাফির।
+
+**শিক্ষক বুঝিয়ে বলছেন:** **কুরআন থেকে দুটি উদাহরণ:** (১) **১৩:৩০** — "*তারা আর-রহমানকে অস্বীকার করে*": একটি **নাম** (আর-রহমান) প্রত্যাখ্যান = কুফর; আয়াত নিজেই এজন্য তাদের নিন্দা করেছে। (২) **২০:৫** — "*আর-রহমান আরশের ওপর ইসতিওয়া করেছেন*": কেউ **আয়াতটিই অস্বীকার** করলে সে কাফির হয়; কিন্তু যে *ইসতিওয়া*-কে "কর্তৃত্ব নিলেন" ব্যাখ্যা করে তার মনে *শুবহা* (সংশয়/বিভ্রান্তি) আছে, যা তাকে **তাকফীর থেকে রক্ষা করে**।
+
+**এক বাক্যে মূল পার্থক্য:** **পাঠকেই অস্বীকার করা** (বলা "না, আল্লাহ এ কথা বলেননি") ≠ **পাঠ ভুল বোঝা** (বলা "তিনি বলেছেন, কিন্তু এর অর্থ অন্য কিছু")।
+
+**উদাহরণ:** এক ছাত্র বলল "পরীক্ষায় প্রশ্ন ৫ ছিলই না" (তথ্য অস্বীকার) বনাম "প্রশ্ন ৫ X নিয়ে, Y নিয়ে নয়" (ভুল পড়া)। প্রথমজন অস্বীকার করছে; দ্বিতীয়জন ভুল বুঝছে।
+
+**পরীক্ষার টিপস:** **স্মরণসূত্র: "জাহিদ = কাফির; মু'আওয়িল = ভুলকারী।"** (জাহিদ = অস্বীকারকারী; মু'আওয়িল = ব্যাখ্যাকারী।) দুটি উদাহরণ হিসেবে **১৩:৩০** ও **২০:৫** আয়াত ব্যবহার করো।
+
+## Slide 17 — The five aspects of Asma wa Sifat (1–2) / আসমা ওয়াস সিফাতের পাঁচটি দিক (১–২)
+
+### English
+
+> **توحيد الأسماء والصفات**
+
+> This category has five main aspects.
+>
+> 1: Allah must be referred to according to how He and His Prophet have described Him without explaining away His names and attributes by giving them meaning other than their obvious meanings.
+>
+> 2: Referring to Allah as He referred to Himself without giving Him any new names or attributes.
+
+**Teacher explains:** Now the module gives a **practical checklist**. Tawheed al-Asma wa Sifat has **five aspects**. Here are the first two:
+
+1. **Describe Allah as He and His Prophet ﷺ described Him**, without explaining away His Names and Attributes by giving them a meaning other than the obvious one. *(This is the rule of slides 7–16 in a single sentence.)*
+2. **Call Allah only by the names and attributes He gave Himself** — **do not invent new ones.** Names are *tawqifiyyah* (they depend on revelation). Example: we do not call Allah "The Engineer of the universe" or "The Great Architect" or "Father" — these are **not** among His Names in the Quran and authentic Sunnah, even if the idea sounds nice.
+
+**Example:** You may call your teacher "Sir" or "Professor" — but you cannot invent a **title for the Head of State** that the state has never given him. Only the owner of a name can give it; Allah named Himself, so we **follow** that.
+
+**Exam tip:** Revision session ⭐ (principles 1 and 7): "Accept Allah's names and attributes as described in the Qur'an and Sunnah, without adding or altering" and "**Allah alone has the right to name Himself**."
+
+### বাংলা
+
+> **توحيد الأسماء والصفات**
+
+> এই প্রকারের পাঁচটি মূল দিক আছে।
+>
+> ১: আল্লাহ ও তাঁর নবী তাঁকে যেভাবে বর্ণনা করেছেন সেভাবেই তাঁকে উল্লেখ করতে হবে — তাঁর নাম ও গুণাবলির প্রকাশ্য অর্থ ছাড়া অন্য অর্থ দিয়ে সেগুলো এড়িয়ে না গিয়ে।
+>
+> ২: আল্লাহ নিজেকে যেভাবে উল্লেখ করেছেন সেভাবেই তাঁকে উল্লেখ করা — তাঁকে নতুন কোনো নাম বা গুণ না দিয়ে।
+
+**শিক্ষক বুঝিয়ে বলছেন:** এবার মডিউল একটি **ব্যবহারিক তালিকা** দেয়। তাওহীদুল আসমা ওয়াস সিফাতের **পাঁচটি দিক**। প্রথম দুটি:
+
+1. **আল্লাহকে সেভাবেই বর্ণনা করো যেভাবে তিনি ও তাঁর নবী ﷺ বর্ণনা করেছেন** — নাম-গুণাবলির প্রকাশ্য অর্থ ছাড়া অন্য অর্থ দিয়ে এড়িয়ে না গিয়ে। *(এটি স্লাইড ৭–১৬-এর নিয়ম এক বাক্যে।)*
+2. **আল্লাহকে কেবল সেসব নাম-গুণে ডাকো যা তিনি নিজে নিজেকে দিয়েছেন** — **নতুন নাম বানিও না।** নাম *তাওকীফিয়্যাহ* (ওহীর ওপর নির্ভরশীল)। উদাহরণ: আমরা আল্লাহকে "মহাবিশ্বের প্রকৌশলী", "মহান স্থপতি" বা "পিতা" বলি না — কুরআন ও সহীহ সুন্নাহয় এগুলো তাঁর নাম **নয়**, ধারণাটি যত সুন্দরই শোনাক।
+
+**উদাহরণ:** তুমি শিক্ষককে "স্যার" বা "প্রফেসর" বলতে পারো — কিন্তু রাষ্ট্রপ্রধানের এমন **উপাধি বানাতে** পারো না যা রাষ্ট্র তাঁকে কখনো দেয়নি। নামের মালিকই নাম দিতে পারেন; আল্লাহ নিজের নাম নিজে বলেছেন, তাই আমরা তা **অনুসরণ** করি।
+
+**পরীক্ষার টিপস:** রিভিশন সেশন ⭐ (নীতি ১ ও ৭): "কুরআন-সুন্নাহয় বর্ণিত আল্লাহর নাম-গুণাবলি যোগ বা পরিবর্তন ছাড়া মানো" এবং "**নিজের নাম দেওয়ার অধিকার শুধু আল্লাহরই**।"
+
+## Slide 18 — The five aspects of Asma wa Sifat (3–5) / আসমা ওয়াস সিফাতের পাঁচটি দিক (৩–৫)
+
+### English
+
+> 3: Allah is referred to without giving Him the attributes of His creation.
+>
+> 4: Man not to be given the attributes of Allah.
+>
+> 5: Allah's names in the definite form cannot be given to His creation unless preceded by the prefix 'Abd (Slave of) or servant of.
+>
+> Many names in indefinite form like Raoof and Raheem are allowable.
+
+1. **Do not give Allah the attributes of His creation.** Example: "Allah gets tired", "Allah needs help" — wrong. This is the rule against **tamthil**. Quran 42:11 — "Nothing is like Him."
+2. **Do not give humans the attributes that belong only to Allah.** Example: to say a human knows the unseen or is all-powerful or never makes mistakes — wrong (revision session: "we do not attribute Allah's unique qualities to creation, e.g. infallibility, omnipotence").
+3. **Names in the definite form** (with "Al-" / "Ar-": *Ar-Rahman*, *Al-Khaliq*, *Ar-Razzaq*) **cannot be used for a human unless "'Abd" comes before them**: *'Abdur-Rahman* ("servant of the Most Merciful"), *'Abdul-Khaliq*, *'Abdur-Razzaq*. So **naming a child "Ar-Rahman" alone or "Al-Khaliq" is not allowed.**
+4. **Names in an indefinite form** (without "Al-") such as **Ra'uf** and **Rahim** are **allowed** for people, because the Quran itself uses them for the Prophet ﷺ (*ra'uf rahim*, 9:128) — but with the meaning suited to a human.
+
+**Teacher explains:** **Why the rule on definite names?** "Ar-Rahman" with the definite article means **the One with complete mercy that belongs to Him alone**. Naming a person that suggests he shares that rank. Adding "'Abd" fixes the meaning: "servant of Ar-Rahman".
+
+**Example:** Naming your baby **Ra'uf** is fine; naming him **Ar-Ra'uf** is not. Naming him **'Abdur-Ra'uf** is perfect: "servant of the Most Compassionate".
+
+**Exam tip:** **Practical usage:** when choosing a Muslim name, check this rule. Revision-session link ⭐: principles 3, 4, 5 — "no anthropomorphism", "we do not attribute Allah's unique qualities to creation", "Allah's names in the definite form apply only to Him but not to creation without 'Abd".
+
+### বাংলা
+
+> ৩: আল্লাহকে উল্লেখ করতে হবে তাঁর সৃষ্টির গুণ তাঁকে না দিয়ে।
+>
+> ৪: মানুষকে আল্লাহর গুণ দেওয়া যাবে না।
+>
+> ৫: আল্লাহর নামের "আল-" (নির্দিষ্ট) রূপ সৃষ্টির জন্য ব্যবহার করা যাবে না, যদি না তার আগে 'আব্দ' (দাস) উপসর্গ থাকে।
+>
+> 'রাউফ' ও 'রহীম'-এর মতো অনেক অনির্দিষ্ট রূপের নাম অনুমোদিত।
+
+1. **আল্লাহকে সৃষ্টির গুণ দিও না।** উদাহরণ: "আল্লাহ ক্লান্ত হন", "আল্লাহর সাহায্য দরকার" — ভুল। এটি **তামসীল**-বিরোধী নিয়ম। কুরআন ৪২:১১ — "তাঁর মতো কিছুই নেই।"
+2. **মানুষকে শুধু আল্লাহর গুণ দিও না।** উদাহরণ: কোনো মানুষ গায়েব জানে, সর্বশক্তিমান, কখনো ভুল করে না — এমন বলা ভুল (রিভিশন সেশন: "আল্লাহর অনন্য গুণ — যেমন নির্ভুলতা, সর্বশক্তি — সৃষ্টিকে দিই না")।
+3. **নির্দিষ্ট রূপের নাম** ("আল-"/"আর-" সহ: *আর-রহমান*, *আল-খালিক*, *আর-রাযযাক*) **মানুষের জন্য ব্যবহার করা যাবে না, যদি না আগে "আব্দ" থাকে**: *আব্দুর রহমান* ("পরম দয়ালুর দাস"), *আব্দুল খালিক*, *আব্দুর রাযযাক*। তাই **সন্তানের নাম শুধু "আর-রহমান" বা "আল-খালিক" রাখা জায়েয নয়।**
+4. **অনির্দিষ্ট রূপের নাম** ("আল-" ছাড়া) যেমন **রাউফ** ও **রহীম** মানুষের জন্য **জায়েয**, কারণ কুরআন নিজেই নবী ﷺ-এর জন্য এগুলো ব্যবহার করেছে (*রাউফুর রহীম*, ৯:১২৮) — তবে মানুষের উপযোগী অর্থে।
+
+**শিক্ষক বুঝিয়ে বলছেন:** **নির্দিষ্ট নামের নিয়ম কেন?** "আর-রহমান" নির্দিষ্ট রূপে মানে **পূর্ণ দয়ার অধিকারী, যা একান্ত তাঁর**। কোনো মানুষের এমন নাম রাখলে সে ওই মর্যাদায় শরীক বোঝায়। "আব্দ" যোগ অর্থ ঠিক করে দেয়: "আর-রহমানের দাস"।
+
+**উদাহরণ:** সন্তানের নাম **রাউফ** রাখা ঠিক; **আর-রাউফ** রাখা ঠিক নয়। **আব্দুর রাউফ** রাখা চমৎকার: "পরম স্নেহশীলের দাস"।
+
+**পরীক্ষার টিপস:** **ব্যবহারিক প্রয়োগ:** মুসলিম নাম বাছাইয়ের সময় এই নিয়ম দেখো। রিভিশন সেশনের সাথে সংযোগ ⭐: নীতি ৩, ৪, ৫ — "মানবরূপ আরোপ নয়", "আল্লাহর অনন্য গুণ সৃষ্টিকে দেওয়া নয়", "আল্লাহর নির্দিষ্ট রূপের নাম 'আব্দ' ছাড়া সৃষ্টির জন্য নয়"।
+
+## Slides 19–22 — Blank closing slides / ফাঁকা শেষ স্লাইডসমূহ
+
+### English
+
+Slides 19, 20, 21 and 22 are **blank** in the PDF — each shows only the green "Islamic Aqeedah" heading and a page number (checked on the page images). **Nothing is missing.**
+
+#### Self-test (answer aloud)
+
+1. What are the four "withouts" of Ahl as-Sunnah in the Names and Attributes?
+2. What is the difference between **denial (juhud)** and **misinterpretation (ta'wil)**?
+3. Why do Ahl as-Sunnah reject **tafwid**?
+4. Why can't we name a child "Ar-Rahman" but we can name him "Ra'uf"?
+5. What is the "five aspects" checklist?
+
+### বাংলা
+
+স্লাইড ১৯, ২০, ২১ ও ২২ পিডিএফে **ফাঁকা** — প্রতিটিতে শুধু সবুজ "Islamic Aqeedah" শিরোনাম ও পৃষ্ঠা নম্বর (পৃষ্ঠার ছবি দেখে নিশ্চিত)। **কিছু বাদ পড়েনি।**
+
+#### আত্মপরীক্ষা (জোরে উত্তর দাও)
+
+1. নাম-গুণাবলিতে আহলুস সুন্নাহর চারটি "ছাড়া" কী কী?
+2. **অস্বীকার (জুহূদ)** ও **ভুল ব্যাখ্যা (তা'ওয়ীল)**-এর পার্থক্য কী?
+3. আহলুস সুন্নাহ **তাফউয়ীদ** প্রত্যাখ্যান করে কেন?
+4. সন্তানের নাম "আর-রহমান" রাখা যায় না কেন, কিন্তু "রাউফ" রাখা যায় কেন?
+5. "পাঁচটি দিক"-এর তালিকা কী?
+
+## Quick check — slides 11–18 / দ্রুত যাচাই — স্লাইড ১১–১৮
+
+**1. Which name is allowed for a person WITHOUT the prefix 'Abd, according to slide 18?**  
+স্লাইড ১৮ অনুযায়ী "আব্দ" উপসর্গ ছাড়া কোন নামটি মানুষের জন্য জায়েয?  
+- A. Ar-Rahman
+- B. Al-Khaliq
+- C. Ra'uf (indefinite form)
+- D. Al-Hayy
+
+✔ Answer: **C. Ra'uf (indefinite form)** — Names in the indefinite form such as Raoof and Raheem are allowed; definite forms (Ar-Rahman, Al-Khaliq) need 'Abd before them.  
+✔ উত্তর: অনির্দিষ্ট রূপের নাম (রাউফ, রহীম) জায়েয; নির্দিষ্ট রূপের নামের (আর-রহমান, আল-খালিক) আগে "আব্দ" লাগে।
+
+**2. "Calling Allah 'The Architect of the Universe'" violates which of the five aspects?**  
+"আল্লাহকে 'মহাবিশ্বের স্থপতি' বলা" পাঁচ দিকের কোনটি লঙ্ঘন করে?  
+- A. Referring to Allah as He referred to Himself, without new names
+- B. Using the Names with 'Abd
+- C. Believing in the Hereafter
+- D. Praying five times
+
+✔ Answer: **A. Referring to Allah as He referred to Himself, without new names** — Slide 17, aspect 2: do not give Allah new names or attributes that He did not give Himself.  
+✔ উত্তর: স্লাইড ১৭, দিক ২: আল্লাহ নিজেকে যে নাম-গুণ দেননি তা তাঁকে দেওয়া যাবে না।
+
+**3. "Saying a human being is all-knowing and never makes mistakes" violates:**  
+"কোনো মানুষ সর্বজ্ঞ ও কখনো ভুল করে না — এ কথা বলা" কোনটি লঙ্ঘন করে?  
+- A. Aspect 4: giving humans attributes that belong to Allah
+- B. Aspect 5: names with 'Abd
+- C. Aspect 1 only
+- D. Nothing — it is allowed
+
+✔ Answer: **A. Aspect 4: giving humans attributes that belong to Allah** — Slide 18, aspect 4: "Man not to be given the attributes of Allah." (Revision session: infallibility and omnipotence belong to Allah alone.)  
+✔ উত্তর: স্লাইড ১৮, দিক ৪: "মানুষকে আল্লাহর গুণ দেওয়া যাবে না।" (রিভিশন সেশন: নির্ভুলতা ও সর্বশক্তি একমাত্র আল্লাহর।)
+
+## Put it together — Names & Attributes at a glance / সব একসাথে — নাম ও গুণাবলি এক নজরে
+
+### English
+
+#### 1. The four rejected paths and the one accepted path
+
+| Path | What it means | Example | Verdict |
+|---|---|---|---|
+| **Tahrif** (distorting) | Changing the meaning of the text | "Hand" = "power" | Wrong (innovation) |
+| **Ta'til** (denying) | Rejecting the Name/Attribute | "Allah has no attributes" | **Kufr** if the text is denied |
+| **Takyif** (asking "how") | Determining how the attribute is | "How exactly does He rise?" | Not allowed |
+| **Tamthil / Tashbih** (likening) | Comparing to creation | "His hearing is like mine" | Not allowed |
+| **Ta'wil / Tafwid** | Different meaning / leaving the meaning empty | *istawa* = *istawla* ; "no one knows the meaning" | Rejected by Ibn Baz (slide 11) |
+| ✔ **Ahl as-Sunnah** | Affirm the true meaning, leave the "how" to Allah, no likening | "He really hears — not like us" | **Accepted** |
+
+#### 2. Denier vs misinterpreter
+
+|  | Jahid (denier) | Mu'awwil (misinterpreter) |
+|---|---|---|
+| What he says | "Allah did not say / does not have it" | "Allah said it, but it means something else" |
+| Ruling (slides 9, 10, 16) | **Kufr** (rejects the Quran) | Mistaken; an innovator *by degree*; **not** a disbeliever; may be excused |
+| Example | Denying the name Ar-Rahman (13:30) | *Istawa* = "took control" (20:5) |
+
+#### 3. The teacher's seven principles of Asma wa Sifat (revision session ⭐)
+
+1. Accept Allah's names and attributes as described in the Quran and Sunnah, **without adding or altering**.
+2. **No anthropomorphism** — the attributes are real, but **not like humans'** (e.g., He sees and hears but not as humans do).
+3. Allah's names (e.g., "The Merciful") apply **only to Him in a definite form**, not to creation **without "'Abd"**.
+4. We do **not attribute** Allah's unique qualities (infallibility, omnipotence) **to creation**.
+5. **Names imply attributes**, but not every attribute has a name.
+6. **Avoid speculative reasoning** about Allah's attributes (no "how" questions).
+7. **Allah alone has the right to name Himself.** And remember: "**There is nothing like Him**" (42:11).
+
+#### 4. Q19 — "Laysa ka-mithlihi shay'"
+
+لَيْسَ كَمِثْلِهِ شَيْءٌ وَهُوَ السَّمِيعُ الْبَصِيرُ — "**There is nothing like Him, and He is the All-Hearing, the All-Seeing.**" (42:11). The verse **denies likeness (tamthil)** in the first half and **affirms the attributes** (hearing, seeing) in the second. So: **affirm without likening.**
+
+### বাংলা
+
+#### ১. চারটি প্রত্যাখ্যাত পথ ও একটি গ্রহণযোগ্য পথ
+
+| পথ | অর্থ | উদাহরণ | রায় |
+|---|---|---|---|
+| **তাহরীফ** (বিকৃতি) | পাঠের অর্থ বদলানো | "হাত" = "ক্ষমতা" | ভুল (বিদআত) |
+| **তা'তীল** (অস্বীকার) | নাম/গুণ প্রত্যাখ্যান | "আল্লাহর কোনো গুণ নেই" | পাঠ অস্বীকার করলে **কুফর** |
+| **তাকয়ীফ** ("কেমন" নির্ধারণ) | গুণ কেমন তা ঠিক করা | "ঠিক কীভাবে উঠেছেন?" | জায়েয নয় |
+| **তামসীল / তাশবীহ** (তুলনা) | সৃষ্টির সাথে তুলনা | "তাঁর শোনা আমার মতো" | জায়েয নয় |
+| **তা'ওয়ীল / তাফউয়ীদ** | ভিন্ন অর্থ / অর্থ শূন্য রাখা | *ইসতিওয়া* = *ইসতিওলা*; "অর্থ কেউ জানে না" | ইবনে বায প্রত্যাখ্যান করেছেন (স্লাইড ১১) |
+| ✔ **আহলুস সুন্নাহ** | প্রকৃত অর্থ সাব্যস্ত, "কেমন" আল্লাহর ওপর ছেড়ে দেওয়া, তুলনা নয় | "তিনি সত্যিই শোনেন — আমাদের মতো নয়" | **গ্রহণযোগ্য** |
+
+#### ২. অস্বীকারকারী বনাম ভুল ব্যাখ্যাকারী
+
+|  | জাহিদ (অস্বীকারকারী) | মু'আওয়িল (ব্যাখ্যাকারী) |
+|---|---|---|
+| সে কী বলে | "আল্লাহ বলেননি / তাঁর এটি নেই" | "আল্লাহ বলেছেন, কিন্তু এর অর্থ অন্য কিছু" |
+| বিধান (স্লাইড ৯, ১০, ১৬) | **কুফর** (কুরআন প্রত্যাখ্যান) | ভুলকারী; *মাত্রা অনুযায়ী* বিদআতী; কাফির **নয়**; ক্ষমাযোগ্য হতে পারে |
+| উদাহরণ | আর-রহমান নাম অস্বীকার (১৩:৩০) | *ইসতিওয়া* = "কর্তৃত্ব নিলেন" (২০:৫) |
+
+#### ৩. আসমা ওয়াস সিফাতে শিক্ষকের সাতটি নীতি (রিভিশন সেশন ⭐)
+
+1. কুরআন-সুন্নাহয় বর্ণিত আল্লাহর নাম-গুণাবলি **যোগ বা পরিবর্তন ছাড়া** মানো।
+2. **মানবরূপ আরোপ নয়** — গুণাবলি বাস্তব, কিন্তু **মানুষের মতো নয়** (যেমন তিনি দেখেন-শোনেন কিন্তু মানুষের মতো নয়)।
+3. আল্লাহর নাম (যেমন "পরম দয়ালু") **নির্দিষ্ট রূপে শুধু তাঁর জন্য**, সৃষ্টির জন্য **"আব্দ" ছাড়া নয়**।
+4. আল্লাহর অনন্য গুণ (নির্ভুলতা, সর্বশক্তি) **সৃষ্টিকে আরোপ করি না**।
+5. **নাম গুণ নির্দেশ করে**, কিন্তু প্রতিটি গুণের নাম নেই।
+6. আল্লাহর গুণ নিয়ে **কল্পনাভিত্তিক যুক্তি এড়াও** ("কেমন" প্রশ্ন নয়)।
+7. **নিজের নাম দেওয়ার অধিকার শুধু আল্লাহরই।** আর মনে রাখো: "**তাঁর মতো কিছুই নেই**" (৪২:১১)।
+
+#### ৪. প্রশ্ন ১৯ — "লাইসা কামিসলিহী শাইউন"
+
+لَيْسَ كَمِثْلِهِ شَيْءٌ وَهُوَ السَّمِيعُ الْبَصِيرُ — "**তাঁর মতো কিছুই নেই, আর তিনি সর্বশ্রোতা, সর্বদ্রষ্টা।**" (৪২:১১)। আয়াতের প্রথম অংশ **তুলনা (তামসীল) অস্বীকার** করে, দ্বিতীয় অংশ **গুণাবলি (শোনা, দেখা) সাব্যস্ত** করে। অতএব: **তুলনা ছাড়া সাব্যস্ত করো।**
+
+## Midterm connection — questions answered by this module / মিডটার্মের সাথে সংযোগ — এই মডিউল যেসব প্রশ্নের উত্তর দেয়
+
+### English
+
+Full answers on the site: Q19 · Q5 · Q6 · Q21. Model answers below:
+
+#### Q19 — The meaning of Allah's saying "Laysa ka-mithlihi shay'"
+
+**"There is nothing like Him"** (42:11): Allah is **unique** in His Essence, Names, Attributes and actions; **nothing in creation resembles Him**. The verse closes with "*and He is the All-Hearing, the All-Seeing*" to show that the **attributes are real** — so we **affirm them without likening Him to creation** and **without denying them**.
+
+#### Q5/Q6 (part) — The category "Tawheed al-Asma wa Sifat" and an example
+
+It means **believing in Allah's Names and Attributes as He and His Messenger ﷺ described Him, without distorting, denying, asking how, or likening.** **Example:** Allah **hears and sees** (*As-Sami' Al-Basir*) — really, but **not like humans**. The five aspects (slides 17–18) apply.
+
+#### Tawheed ar-Rububiyyah — definition and evidence (slide 6)
+
+**Allah alone is the Creator, Owner, Sustainer and Controller of all things.** Evidence: 35:3, 39:62, 7:54, 51:58 (and 29:61 shows people accept it); hadith "Allah is the One Who sets prices… the Provider".
+
+#### Q21a — Ahl as-Sunnah wal-Jama'ah
+
+**Those who follow the Sunnah of the Prophet ﷺ and the way of his Companions**, in belief and practice. In Names and Attributes: they affirm what Allah and His Messenger affirmed, **without ta'wil, tahrif, ta'til, takyif or tamthil**.
+
+#### Likely long-answer topics ⭐
+
+- The creed of Ahl as-Sunnah in Names and Attributes (slides 7, 8, 11–12).
+- The ruling on **denying** vs **misinterpreting** (slides 9, 10, 15–16).
+- The five aspects (slides 17–18) and the teacher's seven principles.
+
+**Exam tip:** The teacher's revision session lists the seven principles of Asma wa Sifat nearly word-for-word as in the "Put it together" step ⭐.
+
+### বাংলা
+
+সাইটে পূর্ণ উত্তর: প্রশ্ন ১৯ · প্রশ্ন ৫ · প্রশ্ন ৬ · প্রশ্ন ২১। নিচে মডেল উত্তর:
+
+#### প্রশ্ন ১৯ — আল্লাহর বাণী "লাইসা কামিসলিহী শাইউন"-এর অর্থ
+
+**"তাঁর মতো কিছুই নেই"** (৪২:১১): আল্লাহ তাঁর সত্তা, নাম, গুণাবলি ও কর্মে **অনন্য**; **সৃষ্টির কিছুই তাঁর সদৃশ নয়**। আয়াত শেষ হয়েছে "*আর তিনি সর্বশ্রোতা, সর্বদ্রষ্টা*" বলে, যাতে বোঝা যায় **গুণাবলি বাস্তব** — তাই আমরা **সৃষ্টির সাথে তুলনা না করে** এবং **অস্বীকার না করে** সাব্যস্ত করি।
+
+#### প্রশ্ন ৫/৬ (অংশ) — "তাওহীদুল আসমা ওয়াস সিফাত" ও একটি উদাহরণ
+
+এর অর্থ **আল্লাহর নাম ও গুণাবলিকে তিনি ও তাঁর রাসূল ﷺ যেভাবে বর্ণনা করেছেন সেভাবে বিশ্বাস করা — বিকৃতি, অস্বীকার, "কেমন" জিজ্ঞাসা বা তুলনা ছাড়া।** **উদাহরণ:** আল্লাহ **শোনেন ও দেখেন** (*আস-সামী' আল-বাসীর*) — সত্যিই, কিন্তু **মানুষের মতো নয়**। পাঁচটি দিক (স্লাইড ১৭–১৮) প্রযোজ্য।
+
+#### তাওহীদুর রুবুবিয়্যাহ — সংজ্ঞা ও প্রমাণ (স্লাইড ৬)
+
+**আল্লাহই একমাত্র সবকিছুর স্রষ্টা, মালিক, প্রতিপালক ও পরিচালক।** প্রমাণ: ৩৫:৩, ৩৯:৬২, ৭:৫৪, ৫১:৫৮ (আর ২৯:৬১ দেখায় মানুষ তা মানে); হাদীস "আল্লাহই মূল্য নির্ধারণকারী… রিযিকদাতা"।
+
+#### প্রশ্ন ২১ক — আহলুস সুন্নাহ ওয়াল জামাআহ
+
+**যারা নবী ﷺ-এর সুন্নাহ ও তাঁর সাহাবীদের পথ অনুসরণ করে**, বিশ্বাস ও আমলে। নাম-গুণাবলিতে: আল্লাহ ও তাঁর রাসূল যা সাব্যস্ত করেছেন তারা তা-ই সাব্যস্ত করে, **তা'ওয়ীল, তাহরীফ, তা'তীল, তাকয়ীফ বা তামসীল ছাড়া**।
+
+#### সম্ভাব্য দীর্ঘ উত্তরের বিষয় ⭐
+
+- নাম-গুণাবলিতে আহলুস সুন্নাহর আকীদা (স্লাইড ৭, ৮, ১১–১২)।
+- **অস্বীকার** বনাম **ভুল ব্যাখ্যা**-র বিধান (স্লাইড ৯, ১০, ১৫–১৬)।
+- পাঁচটি দিক (স্লাইড ১৭–১৮) ও শিক্ষকের সাতটি নীতি।
+
+**পরীক্ষার টিপস:** শিক্ষকের রিভিশন সেশনে আসমা ওয়াস সিফাতের সাতটি নীতি প্রায় হুবহু "সব একসাথে" ধাপের মতোই আছে ⭐।
+
+## Module quiz — 5 questions / মডিউল কুইজ — ৫টি প্রশ্ন
+
+**1. Which set lists the four things Ahl as-Sunnah avoid regarding Allah's Names and Attributes?**  
+আল্লাহর নাম-গুণাবলির ক্ষেত্রে আহলুস সুন্নাহ যে চারটি জিনিস এড়ায় তার সঠিক তালিকা কোনটি?  
+- A. Ta'wil, tamthil, tahrif, ta'til
+- B. Salah, zakah, sawm, hajj
+- C. Knowledge, action, calling, patience
+- D. Love, hope, fear, trust
+
+✔ Answer: **A. Ta'wil, tamthil, tahrif, ta'til** — Slide 7: "without any misinterpretation (ta'wil) or likening (tamthil), and without distorting (tahrif) or denying (ta'til)". (Asking "how" = takyif is also rejected.)  
+✔ উত্তর: স্লাইড ৭: "ভুল ব্যাখ্যা (তা'ওয়ীল) বা তুলনা (তামসীল) ছাড়া, এবং বিকৃতি (তাহরীফ) বা অস্বীকার (তা'তীল) ছাড়া"। ("কেমন" জিজ্ঞাসা = তাকয়ীফও প্রত্যাখ্যাত।)
+
+**2. A man says: "The verse about Allah's rising over the Throne is false; Allah did not say it." What is the ruling according to the slides?**  
+এক ব্যক্তি বলে: "আল্লাহর আরশের ওপর উঠার আয়াত মিথ্যা; আল্লাহ এটি বলেননি।" স্লাইড অনুযায়ী বিধান কী?  
+- A. A harmless opinion
+- B. Disbelief, because he denies a verse of the Quran
+- C. He is an innovator only
+- D. He is excused automatically
+
+✔ Answer: **B. Disbelief, because he denies a verse of the Quran** — Slide 16: "If he denies this verse, he becomes a disbeliever" — compare the one who misinterprets it as "taking control", who is not called a disbeliever.  
+✔ উত্তর: স্লাইড ১৬: "যে এই আয়াত অস্বীকার করে সে কাফির হয়ে যায়" — তুলনা করো যে একে "কর্তৃত্ব গ্রহণ" বলে ব্যাখ্যা করে, তাকে কাফির বলা হয় না।
+
+**3. Why do Ahl as-Sunnah also reject "tafwid" (saying only Allah knows what the attribute means)?**  
+আহলুস সুন্নাহ "তাফউয়ীদ" (বলা যে অর্থ কেবল আল্লাহই জানেন) প্রত্যাখ্যান করে কেন?  
+- A. Because the meaning is known (true and established); only the "how" is unknown
+- B. Because attributes have no meaning
+- C. Because the Quran is hard to understand
+- D. Because they prefer metaphors
+
+✔ Answer: **A. Because the meaning is known (true and established); only the "how" is unknown** — Slides 11–12 (Ibn Baz): every meaning the text indicates is true and befitting to Allah; we do not say that knowledge of what is meant belongs only to Allah.  
+✔ উত্তর: স্লাইড ১১–১২ (ইবনে বায): পাঠ যে অর্থ নির্দেশ করে তার সবই সত্য ও আল্লাহর শানের উপযোগী; আমরা বলি না যে অর্থ কেবল আল্লাহই জানেন।
+
+**4. What was Ibn Baz's answer about the Ash'aris (slides 13–14)?**  
+আশআরীদের সম্পর্কে ইবনে বাযের উত্তর কী ছিল (স্লাইড ১৩–১৪)?  
+- A. They are disbelievers
+- B. They are Ahl as-Sunnah in most matters, not in ta'wil of the attributes, and they are not disbelievers
+- C. They are exactly the same as Ahl as-Sunnah in everything
+- D. They should be ignored
+
+✔ Answer: **B. They are Ahl as-Sunnah in most matters, not in ta'wil of the attributes, and they are not disbelievers** — He said they are among Ahl as-Sunnah in most matters but not in the interpretation of the attributes; they are not disbelievers and include leading scholars, but they erred.  
+✔ উত্তর: তিনি বলেছেন তারা অধিকাংশ বিষয়ে আহলুস সুন্নাহ, কিন্তু গুণাবলির ব্যাখ্যায় নয়; তারা কাফির নয়, তাদের মধ্যে প্রধান আলিম আছেন, তবে তারা ভুল করেছেন।
+
+**5. Which of these names may be given to a person WITHOUT "'Abd" in front of it?**  
+নিচের কোন নামটি "আব্দ" ছাড়া মানুষকে দেওয়া যায়?  
+- A. Ar-Rahman
+- B. Al-Khaliq
+- C. Ar-Razzaq
+- D. Raheem (indefinite form)
+
+✔ Answer: **D. Raheem (indefinite form)** — Slide 18: Allah's names in the definite form (with Al-/Ar-) cannot be given to creation unless preceded by 'Abd; indefinite forms such as Raoof and Raheem are allowed.  
+✔ উত্তর: স্লাইড ১৮: আল্লাহর নির্দিষ্ট রূপের নাম ("আল-/আর-" সহ) "আব্দ" ছাড়া সৃষ্টিকে দেওয়া যায় না; রাউফ, রহীমের মতো অনির্দিষ্ট রূপ জায়েয।
+
+## Module summary / মডিউলের সারসংক্ষেপ
+
+### English
+
+#### Remember these 10 lines
+
+1. Slides 1–5 repeat the poem and conditions **6 (sincerity)** and **7 (love)** from Module 2.
+2. **Tawheed ar-Rububiyyah** = Allah alone is Creator, Owner, Sustainer and Controller (35:3, 39:62, 7:54, 51:58; people accept it, 29:61).
+3. **Tawheed al-Asma wa Sifat** = believe in Allah's Names and Attributes as He and His Messenger ﷺ described Him.
+4. **Four withouts:** no **ta'wil**, no **tamthil**, no **tahrif**, no **ta'til** (plus no **takyif** — "how").
+5. Attributes are understood in their **true sense, not as metaphors**; the "how" is not asked (Ibn 'Abd al-Barr).
+6. **Denier (jahid)** of a Name/Attribute affirmed in the Quran = **kufr**; **misinterpreter (mu'awwil)** = mistaken, innovator by degree, **not** kafir, may be excused.
+7. **Tafwid** ("only Allah knows the meaning") and **ta'wil** are both rejected (Ibn Baz); the meaning is known, the *how* is unknown.
+8. Ash'aris: Ahl as-Sunnah in most matters, not in ta'wil of attributes, **not disbelievers** (Ibn Baz).
+9. **Five aspects:** describe as He described; no new names; no creation-attributes for Allah; no Allah-attributes for creation; definite names need **'Abd** (indefinite like Ra'uf/Raheem are fine).
+10. **42:11** — "Nothing is like Him, and He is the All-Hearing, the All-Seeing."
+
+#### Before you go to Module 4
+
+- Can you list the four withouts and give one example of each?
+- Can you explain denial vs misinterpretation with verses 13:30 and 20:5?
+- Did you score 4 or 5 in the quiz? If not, re-read slides 7–18.
+
+**Next:** Module 4 — Tawheed al-Asma wa Sifat in more detail.
+
+### বাংলা
+
+#### এই ১০ লাইন মনে রাখো
+
+1. স্লাইড ১–৫ মডিউল ২-এর কবিতা এবং শর্ত **৬ (ইখলাস)** ও **৭ (ভালোবাসা)** পুনরাবৃত্তি করে।
+2. **তাওহীদুর রুবুবিয়্যাহ** = আল্লাহই একমাত্র স্রষ্টা, মালিক, প্রতিপালক ও পরিচালক (৩৫:৩, ৩৯:৬২, ৭:৫৪, ৫১:৫৮; মানুষ তা মানে, ২৯:৬১)।
+3. **তাওহীদুল আসমা ওয়াস সিফাত** = আল্লাহর নাম-গুণাবলিকে তিনি ও তাঁর রাসূল ﷺ যেভাবে বর্ণনা করেছেন সেভাবে বিশ্বাস।
+4. **চারটি "ছাড়া":** **তা'ওয়ীল** নয়, **তামসীল** নয়, **তাহরীফ** নয়, **তা'তীল** নয় (এবং **তাকয়ীফ** — "কেমন" — নয়)।
+5. গুণাবলি **প্রকৃত অর্থে বোঝা হয়, রূপক নয়**; "কেমন" জিজ্ঞাসা নয় (ইবনে আব্দুল বার)।
+6. কুরআনে সাব্যস্ত নাম/গুণের **অস্বীকারকারী (জাহিদ)** = **কুফর**; **ভুল ব্যাখ্যাকারী (মু'আওয়িল)** = ভুলকারী, মাত্রা অনুযায়ী বিদআতী, **কাফির নয়**, ক্ষমাযোগ্য হতে পারে।
+7. **তাফউয়ীদ** ("অর্থ কেবল আল্লাহই জানেন") ও **তা'ওয়ীল** দুটোই প্রত্যাখ্যাত (ইবনে বায); অর্থ জানা, *কেমন* অজানা।
+8. আশআরী: অধিকাংশ বিষয়ে আহলুস সুন্নাহ, গুণাবলির তা'ওয়ীলে নয়, **কাফির নয়** (ইবনে বায)।
+9. **পাঁচটি দিক:** তিনি যেভাবে বর্ণনা করেছেন সেভাবে বর্ণনা; নতুন নাম নয়; আল্লাহকে সৃষ্টির গুণ নয়; সৃষ্টিকে আল্লাহর গুণ নয়; নির্দিষ্ট রূপের নামে **'আব্দ'** লাগে (রাউফ/রহীমের মতো অনির্দিষ্ট রূপ ঠিক আছে)।
+10. **৪২:১১** — "তাঁর মতো কিছুই নেই, আর তিনি সর্বশ্রোতা, সর্বদ্রষ্টা।"
+
+#### মডিউল ৪-এ যাওয়ার আগে
+
+- চারটি "ছাড়া" বলে প্রতিটির একটি উদাহরণ দিতে পারো?
+- ১৩:৩০ ও ২০:৫ আয়াত দিয়ে অস্বীকার ও ভুল ব্যাখ্যার পার্থক্য বোঝাতে পারো?
+- কুইজে ৪ বা ৫ পেয়েছ? না পেলে স্লাইড ৭–১৮ আবার পড়ো।
+
+**পরবর্তী:** মডিউল ৪ — তাওহীদুল আসমা ওয়াস সিফাত আরও বিস্তারিত।
+
