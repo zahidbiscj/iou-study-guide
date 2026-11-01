@@ -333,3 +333,119 @@ raw('ped_extremes',
     + '<text x="190" y="198" text-anchor="middle" class="sm">vertical axis = Price · horizontal axis = Quantity</text></svg>',
     'The three special (extreme/unit) cases on slide 18: vertical D (E = 0), rectangular-hyperbola D (E = 1), horizontal D (E = ∞).',
     'স্লাইড ১৮-এর তিনটি বিশেষ ক্ষেত্র: খাড়া D (E = ০), আয়তাকার পরাবৃত্ত D (E = ১), আনুভূমিক D (E = ∞)।')
+
+# =====================================================================
+# Lecture 5 — PES, total revenue, cross and income elasticity
+# =====================================================================
+plot('es', 'Quantity supplied', 'Price (£)', [
+    ('area', [(0, 0), (0, 56), (20, 56), (20, 0)], 'fl'), ('area', [(0, 0), (0, 80), (48, 80), (48, 0)], 'fl2'),
+    ('ln', 12, 52, 60, 84, 'l2'), ('tx', 61, 85, 'S', 't2'), ('pt', 20, 56), ('pt', 48, 80), ('gd', 20, 56), ('gd', 48, 80),
+    ('yt', 80, '10'), ('yt', 56, '7'), ('xt', 20, '5'), ('xt', 48, '12'), ('tx', 55, 50, 'Flat S: elastic, E > 1', 't2')],
+    'Elastic supply (slide 8): price rises £7 → £10 (+43%), quantity supplied jumps 5 → 12 (+140%). Flat supply curve.',
+    'স্থিতিস্থাপক যোগান (স্লাইড ৮): দাম £৭ → £১০ (+৪৩%), যোগানের পরিমাণ ৫ → ১২ (+১৪০%)। চ্যাপ্টা যোগান রেখা।')
+plot('is_', 'Quantity supplied', 'Price (£)', [
+    ('area', [(0, 0), (0, 40), (20, 40), (20, 0)], 'fl'), ('area', [(0, 0), (0, 80), (28, 80), (28, 0)], 'fl2'),
+    ('ln', 16, 20, 31, 95, 'l2'), ('tx', 32, 92, 'S', 't2'), ('pt', 20, 40), ('pt', 28, 80), ('gd', 20, 40), ('gd', 28, 80),
+    ('yt', 80, '10'), ('yt', 40, '5'), ('xt', 20, '5'), ('xt', 28, '7'), ('tx', 40, 60, 'Steep S: inelastic, E < 1', 't2')],
+    'Inelastic supply (slide 9): price doubles £5 → £10 (+100%), quantity supplied rises only 5 → 7 (+40%). Steep supply curve.',
+    'অস্থিতিস্থাপক যোগান (স্লাইড ৯): দাম দ্বিগুণ £৫ → £১০ (+১০০%), যোগানের পরিমাণ মাত্র ৫ → ৭ (+৪০%)। খাড়া যোগান রেখা।')
+raw('pes_extremes',
+    '<svg viewBox="0 0 380 200" role="img" aria-label="Perfectly inelastic, unit elastic and perfectly elastic supply">'
+    + mini(0, '(a) Perfectly inelastic, E = 0', '<line class="l2" x1="60" y1="30" x2="60" y2="160"/><text x="64" y="36" class="t2">S</text>')
+    + mini(126, '(b) Unit elastic, E = 1', '<line class="l2" x1="14" y1="160" x2="104" y2="40"/><text x="106" y="44" class="t2">S</text>')
+    + mini(252, '(c) Perfectly elastic, E = ∞', '<line class="l2" x1="14" y1="80" x2="118" y2="80"/><text x="100" y="74" class="t2">S</text>')
+    + '<text x="190" y="198" text-anchor="middle" class="sm">vertical axis = Price · horizontal axis = Quantity</text></svg>',
+    'Slide 10: vertical S (E = 0, supply does not change), straight S through the origin (E = 1), horizontal S (E = ∞).',
+    'স্লাইড ১০: খাড়া S (E = ০, যোগান বদলায় না), মূলবিন্দু দিয়ে যাওয়া সরল S (E = ১), আনুভূমিক S (E = ∞)।')
+
+plot('tr_elastic', 'Quantity demanded (Qd)', 'Price', [
+    ('ln', 4, 84, 92, 44, 'l4'), ('tx', 93, 42, 'D', 't4'),
+    ('area', [(30, 72.2), (30, 58), (0, 58), (0, 72.2)], 'fl3'), ('area', [(30, 58), (62, 58), (62, 0), (30, 0)], 'fl'),
+    ('pt', 30, 72.2), ('pt', 62, 57.6), ('gd', 30, 72.2), ('gd', 62, 57.6), ('yt', 72, 'P'), ('yt', 57.6, 'P1'), ('xt', 30, 'Qd'), ('xt', 62, 'Qd1'),
+    ('tx', 4, 63, '(−) lost', 't3'), ('tx', 38, 30, '(+) gained', 't1')],
+    'Elastic demand (slide 14): cutting price P → P1 loses the small red area (−) but gains the big green area (+). Total revenue RISES, so to increase TR, decrease price.',
+    'স্থিতিস্থাপক চাহিদা (স্লাইড ১৪): দাম P → P1 কমালে ছোট লাল অংশ (−) হারায় কিন্তু বড় সবুজ অংশ (+) পায়। মোট আয় **বাড়ে** — তাই TR বাড়াতে দাম কমাও।')
+plot('tr_inelastic', 'Quantity demanded (Qd)', 'Price', [
+    ('ln', 30, 94, 50, 14, 'l4'), ('tx', 51, 12, 'D', 't4'),
+    ('area', [(0, 50), (0, 70), (36, 70), (36, 50)], 'fl'), ('area', [(36, 50), (41, 50), (41, 0), (36, 0)], 'fl3'),
+    ('pt', 36, 70), ('pt', 41, 50), ('gd', 36, 70), ('gd', 41, 50), ('yt', 70, 'P1'), ('yt', 50, 'P'), ('xt', 34, 'Qd1'), ('xt', 43, 'Qd'),
+    ('tx', 3, 59, '(+) gained', 't1'), ('tx', 44, 22, '(−) lost', 't3'), ('tx', 56, 84, 'Raise price → TR ↑', 't4')],
+    'Inelastic demand (slide 15): raising price P → P1 gains the big green area (+) and loses only the thin red strip (−). Total revenue RISES when price rises.',
+    'অস্থিতিস্থাপক চাহিদা (স্লাইড ১৫): দাম P → P1 বাড়ালে বড় সবুজ অংশ (+) পায়, হারায় শুধু সরু লাল ফালি (−)। দাম বাড়ালে মোট আয় **বাড়ে**।')
+
+def two(key, left, right, cap, capb, xl, yl):
+    def panel(ox, title, body):
+        return ('<g transform="translate(%d 0)"><line class="ax" x1="30" y1="170" x2="170" y2="170"/><line class="ax" x1="30" y1="170" x2="30" y2="30"/>'
+                '<text x="100" y="22" text-anchor="middle" font-weight="700">%s</text>%s<text x="100" y="190" text-anchor="middle" class="sm">%s</text>'
+                '<text x="12" y="100" transform="rotate(-90 12 100)" text-anchor="middle" class="sm">%s</text></g>') % (ox, title, body, xl, yl)
+    raw(key, '<svg viewBox="0 0 380 200" role="img" aria-label="%s">' % cap.replace('"', "'") + panel(0, *left) + panel(190, *right) + '</svg>', cap, capb)
+
+two('xed', ('Substitutes (XED +)', '<line class="l1" x1="40" y1="160" x2="160" y2="50"/>'),
+    ('Complements (XED −)', '<line class="l3" x1="40" y1="50" x2="160" y2="160"/>'),
+    'Cross elasticity (slide 22): for substitutes, a higher price of Y raises the quantity demanded of X (upward line); for complements it lowers it (downward line).',
+    'আড়াআড়ি স্থিতিস্থাপকতা (স্লাইড ২২): বিকল্প পণ্যে Y-এর দাম বাড়লে X-এর চাহিদার পরিমাণ বাড়ে (ঊর্ধ্বমুখী রেখা); পরিপূরকে কমে (নিম্নমুখী রেখা)।',
+    'Price of Y (Py)', 'Quantity of X (Qx)')
+two('yed', ('Normal good (YED +)', '<line class="l1" x1="40" y1="160" x2="160" y2="50"/>'),
+    ('Inferior good (YED −)', '<line class="l3" x1="40" y1="50" x2="160" y2="160"/>'),
+    'Income elasticity (slide 25): for a normal good, quantity demanded rises with income; for an inferior good it falls as income rises. (The slide puts income on the vertical axis; the direction of the relationship is what matters.)',
+    'আয় স্থিতিস্থাপকতা (স্লাইড ২৫): স্বাভাবিক পণ্যে আয় বাড়লে চাহিদার পরিমাণ বাড়ে; নিকৃষ্ট পণ্যে আয় বাড়লে কমে। (স্লাইডে আয় খাড়া অক্ষে; সম্পর্কের দিকটাই আসল।)',
+    'Quantity demanded', 'Income')
+
+# =====================================================================
+# Lecture 6 — production and short-run costs
+# =====================================================================
+TPd = [0, 10, 25, 45, 60, 70, 75, 75, 70]
+MPd = [10, 15, 20, 15, 10, 5, 0, -5]
+APd = [10, 12.5, 15, 15, 14, 12.5, 10.71, 8.75]
+def lx(l): return l * 11.0
+items = [('cu', [(lx(i), t * 1.15) for i, t in enumerate(TPd)], 'l1'), ('tx', lx(8) + 1, 70 * 1.15 - 6, 'TP', 't1')]
+for i, t in enumerate(TPd):
+    items += [('pt', lx(i), t * 1.15), ('xt', lx(i), str(i))]
+for v in (25, 50, 75): items.append(('yt', v * 1.15, str(v)))
+items += [('gx', lx(3), 45 * 1.15), ('gx', lx(6.5), 75 * 1.15),
+          ('tx', 2, 98, 'increasing MP', 't2'), ('tx', 36, 98, 'diminishing MP', 't2'), ('tx', 73, 98, 'negative MP', 't3')]
+plot('tp', 'Units of labour', 'Total product (TP)', items,
+     'Total product (McConnell & Brue Table 20.1): TP rises fast (workers 1–3), then more slowly (4–6), is maximum at 75 when MP = 0, then falls (worker 8).',
+     'মোট উৎপাদন (ম্যাককনেল ও ব্রু ছক ২০.১): TP দ্রুত বাড়ে (শ্রমিক ১–৩), তারপর ধীরে (৪–৬), MP = ০ হলে সর্বোচ্চ ৭৫, তারপর কমে (শ্রমিক ৮)।')
+
+def my(v): return (v + 6) * 3.6
+items = [('ln', 0, my(0), 98, my(0), 'gd'), ('yt', my(0), '0'), ('yt', my(10), '10'), ('yt', my(20), '20'),
+         ('cu', [(lx(i + 0.5) , my(m)) for i, m in enumerate(MPd)], 'l3'), ('cu', [(lx(i + 1), my(a)) for i, a in enumerate(APd)], 'l4'),
+         ('tx', lx(7.5) + 1, my(-5) + 2, 'MP', 't3'), ('tx', lx(8) + 1, my(8.75) + 2, 'AP', 't4'),
+         ('pt', lx(3.5), my(15)), ('tx', lx(3.5) + 1, my(15) + 4, 'MP = AP (AP max)', 't3')]
+for i in range(1, 9): items.append(('xt', lx(i), str(i)))
+plot('mpap', 'Units of labour', 'MP and AP', items,
+     'MP rises, peaks at the 3rd worker, then falls (diminishing returns) and becomes negative. AP rises while MP > AP and falls while MP < AP; MP cuts AP at AP\'s maximum.',
+     'MP বাড়ে, তৃতীয় শ্রমিকে সর্বোচ্চ, তারপর কমে (ক্রমহ্রাসমান প্রতিদান) ও ঋণাত্মক হয়। MP > AP থাকলে AP বাড়ে, MP < AP হলে কমে; AP-র সর্বোচ্চ বিন্দুতে MP, AP-কে কাটে।')
+
+plot('fvtc', 'Quantity / output', 'Costs', [
+    ('ln', 0, 30, 96, 30, 'l2'), ('tx', 85, 33, 'FC', 't2'),
+    ('cu', [(0, 0), (25, 18), (50, 30), (75, 46), (92, 68)], 'l4'), ('tx', 93, 66, 'VC', 't4'),
+    ('cu', [(0, 30), (25, 48), (50, 60), (75, 76), (92, 98)], 'l1'), ('tx', 70, 98, 'TC = FC+VC', 't1'),
+    ('ar', 60, 36, 60, 64, 'l3'), ('tx', 62, 50, 'gap = FC', 't3')],
+    'FC is flat (it does not change with output). VC starts at zero and rises. TC = FC + VC, so TC has the same shape as VC but starts at the level of FC; the vertical gap between TC and VC is always FC.',
+    'FC সমতল (উৎপাদনের সাথে বদলায় না)। VC শূন্য থেকে শুরু হয়ে বাড়ে। TC = FC + VC, তাই TC-র আকৃতি VC-র মতোই কিন্তু FC-র স্তর থেকে শুরু; TC ও VC-র মধ্যকার খাড়া দূরত্ব সবসময় FC।')
+
+AFCp = [(6, 92), (15, 40), (30, 20), (50, 12), (70, 8.5), (94, 6.5)]
+AVCp = [(8, 64), (30, 42), (50, 35), (70, 41), (92, 62)]
+ATCp = [(10, 96), (30, 62), (45, 53), (60, 50), (75, 56), (92, 70)]
+MCp = [(10, 52), (25, 34), (36, 30), (50, 35), (60, 50), (70, 68), (78, 92)]
+plot('afc', 'Quantity / output', 'Costs', [('cu', AFCp, 'l2'), ('tx', 86, 12, 'AFC', 't2'), ('tx', 30, 60, 'AFC = TFC ÷ Q keeps falling', 't2')],
+     'AFC = TFC ÷ Q falls continuously as output rises: the same overhead is spread over more units. It is the only short-run cost that always falls.',
+     'AFC = TFC ÷ Q উৎপাদন বাড়লে অবিরাম কমে: একই স্থির খরচ বেশি এককে ভাগ হয়। স্বল্পমেয়াদে এটাই একমাত্র ব্যয় যা সবসময় কমে।')
+plot('avc', 'Quantity / output', 'Costs', [('cu', AVCp, 'l4'), ('tx', 92, 64, 'AVC', 't4'), ('pt', 50, 35), ('tx', 42, 26, 'minimum AVC', 't4')],
+     'AVC is U-shaped: it falls while marginal product is rising (increasing returns), reaches a minimum, then rises when diminishing returns set in.',
+     'AVC ইংরেজি U আকৃতির: প্রান্তিক উৎপাদন বাড়ার সময় কমে (ক্রমবর্ধমান প্রতিদান), সর্বনিম্নে পৌঁছায়, তারপর ক্রমহ্রাসমান প্রতিদান শুরু হলে বাড়ে।')
+plot('atc_u', 'Quantity / output', 'Costs', [('cu', ATCp, 'l1'), ('tx', 92, 72, 'ATC', 't1'), ('pt', 60, 50), ('gx', 60, 50),
+     ('tx', 52, 40, 'optimum (lowest ATC)', 't3'), ('tx', 4, 76, '← falling ATC', 't1'), ('tx', 66, 80, 'rising ATC →', 't1')],
+     'ATC is U-shaped. Its lowest point is the optimum (most efficient) output. (Slide 30 labels the two sides "economies" and "diseconomies"; those words strictly belong to the long run, Lecture 7.)',
+     'ATC ইংরেজি U আকৃতির। এর সর্বনিম্ন বিন্দুই সর্বোত্তম (সবচেয়ে দক্ষ) উৎপাদন। (স্লাইড ৩০ দুই পাশকে "economies" ও "diseconomies" বলেছে; শব্দ দুটি আসলে দীর্ঘমেয়াদের, লেকচার ৭।)')
+plot('costs_all', 'Quantity / output', 'Costs per unit', [
+    ('cu', AFCp, 'l2'), ('cu', AVCp, 'l4'), ('cu', ATCp, 'l1'), ('cu', MCp, 'l3'),
+    ('tx', 88, 12, 'AFC', 't2'), ('tx', 92, 58, 'AVC', 't4'), ('tx', 92, 74, 'ATC', 't1'), ('tx', 79, 92, 'MC', 't3'),
+    ('pt', 50, 35), ('pt', 60, 50), ('ln', 84, 52, 84, 64, 'l3'), ('tx', 60, 28, 'gap ATC − AVC = AFC', 't3')],
+    'All four together (McConnell & Brue p. 386): ATC = AFC + AVC, so the gap between ATC and AVC is AFC and it shrinks as output grows. MC cuts AVC and ATC at their MINIMUM points.',
+    'চারটি একসাথে (ম্যাককনেল ও ব্রু পৃ. ৩৮৬): ATC = AFC + AVC, তাই ATC ও AVC-র মাঝের ফাঁক হলো AFC, যা উৎপাদন বাড়লে ছোট হয়। MC, AVC ও ATC-কে তাদের **সর্বনিম্ন** বিন্দুতে কাটে।')
+plot('mc', 'Quantity / output', 'Costs', [('cu', MCp, 'l3'), ('tx', 79, 92, 'MC', 't3'), ('pt', 36, 30), ('tx', 26, 20, 'MP is at its maximum here', 't3')],
+     'MC first falls (marginal product rising), reaches a minimum where MP is highest, then rises as diminishing returns set in: MC is the mirror image of MP.',
+     'MC প্রথমে কমে (প্রান্তিক উৎপাদন বাড়ছে), MP সর্বোচ্চ যেখানে সেখানে সর্বনিম্ন, তারপর ক্রমহ্রাসমান প্রতিদানে বাড়ে: MC হলো MP-র আয়নার প্রতিচ্ছবি।')
