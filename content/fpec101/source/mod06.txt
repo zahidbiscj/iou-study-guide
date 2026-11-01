@@ -1,0 +1,293 @@
+=== Slide 1
+- PRINCIPLES OF ECONOMICSSalimah Musharrif
+- FPEC 101 – LECTURE 6 															Unit 2
+[pics=0 charts=0 tables=0]
+=== Slide 2
+- PRINCIPLES OF ECONOMICSProduction Costs and Market Structures
+- FPEC 101 – LECTURE 6															Unit 2
+[pics=0 charts=0 tables=0]
+=== Slide 3
+- Lecture OutlineEconomic, Short and Long Run costs
+- Economic Costs
+- Short Run and Long run Costs
+[pics=0 charts=0 tables=0]
+=== Slide 4
+- Economic Costs
+- Explicit costs - monetary payments or cash expenditures made for labor, materials, fuel, transportation services, payments for use of resources owned by others.
+- Implicit costs are the opportunity costs of using self-owned, self-employed resources, money payments that self-employed resources could have earned in their best alternative use
+[pics=0 charts=0 tables=0]
+=== Slide 5
+- Economic Costs
+- Consider the following data:
+- A person earns $22,000.He decides to set up his own business.
+- He invests $20,000 of his savings The savings earned $1,000 annually
+- The person uses their own building for which they could earn $5,000
+- Staff is hired at the cost of $18,000
+- The person would earn $5,000 as an entrepreneur in any other venture
+[pics=0 charts=0 tables=0]
+=== Slide 6
+- Total sales revenue 						$120,000
+- Cost of material							$40,000 Labor salary 								$18,000 Utilities 									$5000
+- Total (explicit) costs 						$63,000 Accounting profit 						 57,000
+- Accounting Profit = Sales Revenue – Explicit costs
+[pics=0 charts=0 tables=0]
+=== Slide 7
+- Accounting profit 						$57,000
+- Foregone interest							$1,000 Foregone rent							$5,000 Foregone wages							$22,000
+- Foregone Entreprenuerial income 			$5,000
+- Total (implicit) costs 						$33,000 Economic profit 				      			 $24,000
+- Economic Profit = Sales Revenue – Economic Costs
+- Economic Profit = Sales revenue – Implicit Costs + Explicit Costs
+[pics=0 charts=0 tables=0]
+=== Slide 8
+- Normal profit and Economic profit
+- The $5000 implicit cost of the entrepreneurial talent is a normal profit.
+- Just like the forgone rent and wages, the payment that could be received for performing the functions of an entrepreneur is indeed an implicit cost. These are the payments necessary to retain a factor of production in the current endeavor. So a normal profit is a cost of doing business.
+- Economic profit or Pure profit thus is total revenue less economic costs (explicit and implicit costs, the latter including a normal profit to the entrepreneur).
+- Economic profit = total revenue - economic cost
+[pics=0 charts=0 tables=0]
+=== Slide 9
+- Short Run
+- Fixed Plant . It is a period where there is at least one fixed factor which may be the plant (firm) or production unit.  Production can be changed only by variable factors. The short run is a period too brief for a firm to alter its plant capacity, yet long enough to permit a change in the degree to which the fixed plant is used. The firm’s plant capacity is fixed in the short run. However, the firm can vary its output by applying larger or smaller amounts of labor, materials, and other resources to that plant. It can use its existing plant capacity more or less intensively in the short run.
+- Thus too short to change plant capacity but long enough to use fixed plant more or less intensively. In the short run, our farmer’s plant (land and farm machinery) is fixed. But he does have time in the short run to cultivate tomatoes more intensively by applying more labor and more fertilizer and pesticides to the crop.
+[pics=0 charts=0 tables=0]
+=== Slide 10
+- Long Run
+- This is that period of time when the production process is being started or extended and every cost becomes a variable cost.  Production can be increased by increasing any factor of production
+- Time period long enough for firms to adjust their plant sizes and for new firms to enter (or existing firms to leave) the industry. In the “tomato industry,” for example, our farmer has time to acquire additional land and buy more machinery and equipment.
+- Variable Plant .From the viewpoint of an existing firm, the long run is a period long enough for it to adjust the quantities of all the resources that it employs, including plant capacity. From the industry’s viewpoint, the long run also includes enough time for existing firms to dissolve and leave the industry or for new firms to be created and enter the industry.
+[pics=0 charts=0 tables=0]
+=== Slide 11
+- Short Run Production Relationships
+- Cost of output depends on cost of input
+- Cost of input depends on the supply and demand for it
+- In the short run, we consider relationship between input and output, specifically labor on fixed plant.
+[pics=0 charts=0 tables=0]
+=== Slide 12
+- Total Product (TP) = total quantity produced
+- Marginal Product (MP) = change in total product
+- change in labor input
+- Average Product (AP) =       total product
+- units of labor
+- Labor productivity or unit of output per input
+- In the short run, a firm can increase output for a certain time by adding units of labor to its fixed plant. We need to understand by how much will output rise when it adds the labor.
+- Total product refers to the total output that can be produced in a given period of time.
+- Average product is the total production divided by the number of workers, while
+- Marginal product refers to the additional amount of output produced.
+- Short-Run Production Relationships
+[pics=0 charts=0 tables=0]
+=== Slide 13
+- Law of Diminishing Returns
+- Assuming technology is fixed and techniques of production do not change.
+- As successive units of a variable resource (say, labor) are added to a fixed resource (say, capital or land), beyond some point the extra, or marginal, product that can be attributed to each additional unit of the variable resource will decline.
+- Output will eventually rise by smaller and smaller amounts as more workers are hired.
+[pics=0 charts=0 tables=0]
+=== Slide 14
+- Law of Diminishing Returns
+- Marginal output increases with increase in number of workers, reaches a maximum and then declines.
+- Assumed all units of labor are equally productive and have same quality.
+- Marginal product ultimately diminishes because more workers are being used relative to the amount of plant and equipment available.
+[pics=0 charts=0 tables=0]
+=== Slide 15
+- Chapter 6.3
+Units of labour | TP | MP | AP
+0 | 0 |  | 
+1 | 10 |  | 
+2 | 25 |  | 
+3 | 45 |  | 
+4 | 60 |  | 
+5 | 70 |  | 
+6 | 75 |  | 
+7 | 75 |  | 
+8 | 70 |  | 
+- change in total product
+- change in labour input
+- MP=
+- Law of Diminishing Returns
+- Table 20.1
+- Mc Connell & Brue
+[pics=0 charts=0 tables=1]
+=== Slide 16
+- Chapter 6.3
+Units of labour | TP | MP | AP
+0 | 0 |  | 
+1 | 10 |  | 
+2 | 25 |  | 
+3 | 45 |  | 
+4 | 60 |  | 
+5 | 70 |  | 
+6 | 75 |  | 
+7 | 75 |  | 
+8 | 70 |  | 
+- 10
+- 15
+- 20
+- 15
+- 10
+- 5
+- 0
+- -5
+- Increasing marginal     returns
+- Diminishing marginal returns
+- Negative marginal returns
+- Law of Diminishing Returns
+[pics=0 charts=0 tables=1]
+=== Slide 17
+- Chapter 6.3
+Units of labour | TP | MP | AP
+0 | 0 |  | 
+1 | 10 |  | 
+2 | 25 |  | 
+3 | 45 |  | 
+4 | 60 |  | 
+5 | 70 |  | 
+6 | 75 |  | 
+7 | 75 |  | 
+8 | 70 |  | 
+- 10
+- 15
+- 20
+- 15
+- 10
+- 5
+- 0
+- -5
+- 10.00
+- 12.50
+- 15.00
+- 15.00
+- 14.00
+- 12.50
+- 10.71
+- 8.75
+- total product
+- total labour input
+- AP=
+- Law of Diminishing Returns
+[pics=0 charts=0 tables=1]
+=== Slide 18
+- Chapter 6.3
+- AP
+- MP
+- TP
+- increasing
+- marginal
+- returns
+- diminishing
+- marginal returns
+- negative marginal returns
+- Fig 20.2
+- Mc Connell & Brue
+- MP rising , TP increases at an increasing rate.
+- MP + but falling, TP increases at decreasing rate
+- MP = 0, TP is max
+- MP negative, TP falls.
+- AP increasing, MP>AP
+- AP decreasing, MP<AP
+- MP = AP where AP is maximum.
+[pics=0 charts=0 tables=0]
+=== Slide 19
+- Chapter 6.3
+- Marginal and Average Values
+- AP
+- MP
+- MP
+- >AP
+- MP
+- <AP
+- AP rising
+- AP falling
+[pics=0 charts=0 tables=0]
+=== Slide 20
+- Relationships
+- MP rising , TP increases at an increasing rate.
+- MP + but falling, TP increases at decreasing rate
+- MP = 0, TP is max
+- MP negative, TP falls.
+- If AP increasing, MP>AP
+- When AP decreasing, MP<AP
+- MP = AP where AP is maximum.
+[pics=0 charts=0 tables=0]
+=== Slide 21
+- Short Run Costs- Fixed, Variable and Total Cost
+- Fixed Cost
+- A feature of the short run only, fixed costs are the indirect costs of production or overhead costs as they do not vary with output, but remained unchanged /fixed. These costs exist as the firm exists, even when the output level is zero. This is the interest on capital, rent on land, premium on insurance, depreciation cost on capital or salaries to the management.
+[pics=1 charts=0 tables=0]
+=== Slide 22
+- Short Run Costs- Fixed, Variable and Total Cost
+- Variable cost
+- Also known as the prime or direct cost of production as it changes directly with output.  This is the cost of the variable factors.  It includes wages of workers directly involved in the production of goods or services, cost of raw materials, cost of fuel, transportation etc.  It starts from zero and keeps increasing as output increases.  Thus the variable cost curve starts from the origin.
+- As production begins, variable cost will for a time increase by a decreasing amount, it then rises by increasing amounts for succeeding units of output
+- The reason lies in the shape of the marginal-product curve. Marginal product first increases, so smaller and smaller increases in the amounts of variable resources are needed to produce successive units of output. Hence the variable cost of successive units of output decreases.
+- With diminishing returns setting in, marginal product begins to decline, larger and larger additional amounts of variable resources are needed to produce successive units of output. Total variable cost therefore increases by increasing amounts.
+[pics=0 charts=0 tables=0]
+=== Slide 23
+- Short Run Costs- Fixed, Variable and Total Cost
+[pics=0 charts=0 tables=0]
+=== Slide 24
+- Short Run Costs- Fixed, Variable and Total Cost
+- Total cost
+- The sum of fixed costs and variable costs.
+- Formula for Total Costs= Fixed Costs + Variable Cost
+- Total Cost exists with the Fixed Cost and increases with the Variable Cost in the short run.  It is also known as the Total Monetary Cost Of Production
+- output is 0, Total Costs = Fixed Costs
+[pics=0 charts=0 tables=0]
+=== Slide 25
+- Short Run Costs- Fixed, Variable and Total Cost
+[pics=0 charts=0 tables=0]
+=== Slide 26
+- Short Run Costs- Average Costs
+[pics=0 charts=0 tables=0]
+=== Slide 27
+- Short Run Costs- Average Costs
+- Average fixed cost is known as spreading the overhead cost. it is important to remember that it is the only cost in the short run which keeps falling or diminishing as output increases.
+[pics=1 charts=0 tables=0]
+=== Slide 28
+- Short Run Costs- Average Costs
+- Average Variable Costs
+[pics=1 charts=0 tables=0]
+=== Slide 29
+- Short Run Costs- Average Costs
+- Average Variable Costs
+- The shape of this curve is the same as they are a ATC curve.  It initially decreases as output increases at an increasing rate, reaches a minimum, and then starts rising when the output increases at a decreasing rate
+- Since total variable cost reflects the law of diminishing returns, so does AVC. Marginal returns increase initially, fewer additional variable resources are needed to produce output and variable cost per unit declines.
+- AVC hits a minimum and then rises as diminishing returns require more and more variable resources to produce each additional unit of output.
+- At very low levels of output production is relatively inefficient and costly because the firm’s fixed plant is understaffed and so average variable cost is relatively high. As output expands, however, greater specialization and better use of the firm’s capital equipment yield more efficiency, and variable cost per unit of output declines. As still more variable resources are added, a point is reached where diminishing returns are incurred. The firm’s capital equipment is now staffed more intensively, and therefore each added input unit does not increase output by as much as preceding inputs. This means that AVC eventually increases.
+[pics=0 charts=0 tables=0]
+=== Slide 30
+- Short Run Costs- Average Costs
+- Average Total Costs In the short run as input increases, output may get increasing, constant or decreasing returns to scale, while in the long run it results in economies or diseconomies of scale.
+[pics=1 charts=0 tables=0]
+=== Slide 31
+- Short Run Costs- Average Costs
+- ATC can be found by adding vertically the AFC and AVC curves. Vertical distance between the ATC and AVC curves measures AFC at any level of output
+- Mc Connell & Brue pg. 386
+[pics=1 charts=0 tables=0]
+=== Slide 32
+- Short Run Costs- Average Costs
+- Marginal costs It is the cost of the extra unit produced.
+- MC = New Total Cost – Previous Total Cost
+- Marginal Cost =       ____Change in Total Costs________
+- Change in number of units produced
+[pics=1 charts=0 tables=0]
+=== Slide 33
+- Short Run Costs- Average Costs
+- Marginal Costs
+- The marginal-cost curve’s shape is a consequence of the law of diminishing returns . If all units of a variable resource (here labor) are hired at the same price, the marginal cost of each extra unit of output will fall as long as the marginal product of each additional worker is rising.
+- As long as marginal product is rising, marginal cost will fall, the as diminishing returns set in marginal cost begins to rise.
+- The MC curve is a mirror reflection of the marginal product curve. When marginal product is rising, marginal cost is falling. When marginal product is at its maximum, marginal cost is at its minimum. And when marginal product is falling, marginal cost is rising.
+[pics=0 charts=0 tables=0]
+=== Slide 34
+- Short Run Costs- Average Costs
+- Marginal Costs and Marginal Decisions
+- Marginal costs are costs the firm can control directly and immediately. Specifically, MC designates all the cost incurred in producing the last unit of output. Thus, it also designates the cost that can be “saved” by not producing that last unit. Average-cost figures do not provide this information.
+- A firm’s decisions as to what output level to produce are marginal decisions, that is, decisions to produce a few more or a few less units. It helps indicate with help of Marginal revenue, if it is profitable to expand or contract its production.
+[pics=0 charts=0 tables=0]
+=== Slide 35
+- SUMMARY
+- Economic Costs
+- Short Run Costs
+  - Concept of Total, Average and Marginal Products
+  - Concept of Fixed, Variable and Total Cost
+  - Average Costs
+[pics=0 charts=0 tables=0]

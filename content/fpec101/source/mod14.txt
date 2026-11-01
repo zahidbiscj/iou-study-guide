@@ -1,0 +1,170 @@
+=== Slide 1
+- PRINCIPLES OF ECONOMICSSalimah Musharrif
+- FPEC 101 – LECTURE 14										Unit 2
+[pics=0 charts=0 tables=0]
+=== Slide 2
+- PRINCIPLES OF ECONOMICSProduction Costs and Market Structures
+- FPEC 101 – LECTURE 14												Unit 2
+[pics=0 charts=0 tables=0]
+=== Slide 3
+- Income inequality, poverty and discrimination
+[pics=0 charts=0 tables=0]
+=== Slide 4
+- Outline
+- Facts about Income Inequality
+- Causes of Income Inequality
+- Trends of Income Inequality
+- Poverty
+- Discrimination
+[pics=0 charts=0 tables=0]
+=== Slide 5
+- Income Inequality
+- Income distribution is more important a study to find out about income inequalities
+- Distribution by Income - measure income inequality by looking at the percentages of households in a series of income categories
+- Distribution by Quintiles (Fifths) - measure income inequality by dividing the total number of individuals, households, or families into five numerically equal groups, or quintiles, and examine the percentage of total personal (before-tax) income received by each quintileExample, lowest 20%, second 20%, third, fourth and highest 20%Lowest income household to the household with the highest income
+[pics=0 charts=0 tables=0]
+=== Slide 6
+  - The quintile distribution of personal income is presented through a Lorenz curve
+  - Plot the cumulative percentage of households on the horizontal axis and the percentage of income they obtain on the vertical axis.
+  - Diagonal line 0e represents a perfectly equal distribution of income because each point along that line indicates that a particular percentage of households receive the same percentage of income. In other words, points representing 20 percent of all households receiving 20 percent of total income, 40 percent receiving 40 percent, 60 percent receiving 60 percent, and so on, all lie on the diagonal line.
+  - Lorenz curve shows actual distribution of income
+  - The area between the diagonal (the line of perfect equality of income distribution) and the Lorenz Curve shows inequality in the distribution of total income.
+  - Inequality is measured numerically by the Gini ratio—area A (shown in brown) divided by area A + B (the brown +green area).
+- The Lorenz Curve & Gini Ratio
+[pics=0 charts=0 tables=0]
+=== Slide 7
+- The Lorenz Curve & Gini Ratio
+- Mc Connell & Brue
+- We plot the quintile data
+- Get Lorenz curve
+- a-Bottom 20 % of householdsreceived 3.4 % of the income
+- b-bottom 40 % received 12.1 % ( 3.4 +8.7) so on
+- Brown area- degree of income inequality
+- If perfect equality, in income distribution,Lorenz curve and the diagonal would coincide and the brown area would disappear.
+[pics=0 charts=0 tables=0]
+=== Slide 8
+- The Lorenz Curve & Gini Ratio
+- Mc Connell & Brue
+- At the opposite extreme is complete inequality, where all households but one have zero income. Lorenz curve would coincide with the horizontal axis from 0 to point f (at 0 % of income) and then move immediately up from f to point e along the vertical axis (indicating that a single household has 100 % of the total income)
+- Area below the diagonal line (triangle 0ef ) would indicate this extreme degree of inequality.
+- Farther Lorenz curve sags away from the diagonal, the greater the degree of income inequality.
+[pics=0 charts=0 tables=0]
+=== Slide 9
+- The Lorenz Curve & Gini Ratio
+- Mc Connell & Brue
+- The income inequality described by the Lorenz curve can be transformed into a Gini ratio
+- Gini ratio =Area between Lorenz curve and diagonal
+- Total area below the diagonal      =          A (brown area)
+- A + B (brown + green area)
+- Lower Gini ratios denote less inequality
+- Higher ratios indicate more inequality.
+- Gini coefficient for complete income equality is 0
+- Gini coefficient for complete inequality is 1
+[pics=0 charts=0 tables=0]
+=== Slide 10
+- Income mobility
+- Income mobility or “churning around” in the distribution of income over time means movement of individuals or households from one income quintile to another over the period of their lives
+- Short time periods , say a year, may mean reflection of an unequal income distribution although with time, perhaps, it may get more or completely equal.
+- “ Low income’’ and “high income” are not permanent conditions. People move into different income quintiles with age, experience etc.
+- The longer the time period considered, the more equal the distribution of income becomes.
+[pics=0 charts=0 tables=0]
+=== Slide 11
+- Effect of Government Redistribution
+- Government redistributes income from higher- to lower-income households through taxes and transfers.
+- Personal income pre tax covers wages, salaries, dividends, interest income, cash transfer payments such as Social Security, unemployment compensation benefits, and welfare assistance to needy families.
+- It excludes the effects of personal income and payroll (Social Security) taxes that are levied directly on income receivers, noncash transfers ,which provide specific goods or services rather than cash such as medical benefits, housing subsidies, subsidized school lunches, and food stamps etc. These are like income because they enable recipients to in effect “purchase” goods and services.
+- After redistribution, more equal income distribution
+[pics=1 charts=0 tables=0]
+=== Slide 12
+- Causes of Income Inequality
+  - Ability
+  - Education and Training
+  - Discrimination
+  - Preferences and Risks
+  - Unequal Distribution of Wealth
+  - Market Power
+  - Luck, Connections, and Misfortune
+[pics=0 charts=0 tables=0]
+=== Slide 13
+- Trends of Income Inequality
+- In absolute dollar amounts, the entire distribution of income increased
+- The relative distribution of income, though, may become less equal, more equal, or remain unchanged. It has become more uneven.
+- Absolute income of both the rich and the poor are experiencing rise, however, while incomes have risen in all quintiles, income growth has been fastest in the top quintile
+- Causes
+  - Greater Demand for Highly Skilled Workers
+  - Demographic Changes
+  - International Trade, Immigration, and Decline in Unionism
+[pics=0 charts=0 tables=0]
+=== Slide 14
+- Poverty
+- Poverty is a condition in which a person or a family does not have the means to satisfy basic needs for food, clothing, shelter, and transportation. The means include currently earned income, transfer payments, past savings, and property owned. The basic needs have many determinants, including family size and the health and age of its members
+- poverty rate—the percentage of the population living in poverty
+- Incidence of poverty more prevalent in some groups than others
+- Mostly world over poverty on the rise
+- Measurement issues- income or consumption?
+- Income Maintenance System ( Entitlement programs)- social insurance , public assistance, or “welfare.”
+- Welfare Goals:
+  - Effective in getting individuals and families out of poverty.
+  - Provide adequate incentives for able-bodied, nonretired people to work.
+  - Its cost should be “reasonable.”
+- Reforms – time based, conditions changed etc
+[pics=0 charts=0 tables=0]
+=== Slide 15
+- Discrimination
+- When people with similar economic characteristics experience different economic outcomes because of their race, sex, or other noneconomic characteristics
+- Types
+  - Wage – less pay
+  - Occupation- prohibited from entering the more desirable, higher paying occupation
+  - Employment-inferior treatment in hiring, promotions, assignments, temporary layoffs, and permanent discharges, workplace harassment
+  - Human capital discrimination occurs when women or members of minorities do not have the same access to productivity-enhancing investments in education and training as white males
+[pics=0 charts=0 tables=0]
+=== Slide 16
+- Discrimination
+- Costs
+- Discriminator gets good job at cost of others
+- Reduces economy’s output and income acting as an artificial barrier to free competition, decreasing economic efficiency and reducing production as qualified groups of people are prevented from entering high-productivity (and thus high-wage) jobs
+- Decreases efficiency of economy moving point to further inside the PPC curve
+[pics=0 charts=0 tables=0]
+=== Slide 17
+- Discrimination
+- Anti discrimination policies
+- To promote a strong, growing economy so that more workers are needed and more efficient recruitment would take place, eliminating discrimination
+- Improve the education and training opportunities of women and minorities
+- Direct intervention - outlawed certain practices in hiring, promotion, and compensation
+- Views
+- + provide more training and education to close this gap
+- + drastic measures needed as discrimination has been long embedded
+- + endorse preferential treatment
+- - reverse discrimination
+[pics=0 charts=0 tables=0]
+=== Slide 18
+- SUMMARY
+- Facts about Income Inequality
+  - Income distribution by income category
+  - Income distribution by quintiles
+  - The Lorenz Curve & Gini Ratio
+  - Income mobility
+  - Effect of Government Redistribution
+- Causes of Income Inequality
+  - Ability
+  - Education and Training
+  - Discrimination
+  - Preferences and Risks
+  - Unequal Distribution of Wealth
+  - Market Power
+  - Luck, Connections, and Misfortune
+- Trends of Income Inequality
+[pics=0 charts=0 tables=0]
+=== Slide 19
+- SUMMARY
+- Poverty
+  - Incidence
+  - Trends
+  - Measurement issues
+  - Income Maintenance System
+- Discrimination
+  - Types
+  - Costs
+  - Prevention policies
+  - Views
+[pics=0 charts=0 tables=0]

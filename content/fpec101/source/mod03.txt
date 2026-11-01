@@ -1,0 +1,263 @@
+=== Slide 1
+- PRINCIPLES OF ECONOMICSSalimah Musharrif
+- FPEC 101 – LECTURE 3											Unit 1
+[pics=0 charts=0 tables=0]
+=== Slide 2
+- Demand and Supply Analysis
+[pics=0 charts=0 tables=0]
+=== Slide 3
+- Outline
+- Demand
+- Supply
+- Shifts
+- Equilibrium
+[pics=0 charts=0 tables=0]
+=== Slide 4
+- Market
+- The price mechanism refers to the determination of price through the market forces of demand and supply.  Prices act as signals for producers to show them what to produce and how to use their scarce resources.  Resources are diverted to the production of those goods which are in demand as they will earn a greater profit.
+- A market in the true economic sense is any effective arrangement where buyers and sellers come in contact with one another for the purpose of making transactions.
+[pics=0 charts=0 tables=0]
+=== Slide 5
+- Demand
+- Demand is the quantity of a product that consumers are
+  - Willing to buy
+  - Able to buy
+  - At a price
+  - Over a period of time
+[pics=0 charts=0 tables=0]
+=== Slide 6
+- The Law of Demand – inverse relation between price and Qd.
+- When goods are cheap, people buy more
+- When Price falls , quantity demanded increases
+- When goods are expensive, People buy less
+- When Price rises , quantity demanded falls
+[pics=0 charts=0 tables=0]
+=== Slide 7
+- Law of Demand
+- “The Law of demand states that price and quantity demanded have a negative or inverse relationship.  As price increases, quantity demanded decreases and vice Versa.” Ceteris paribus.
+- Consumption is subject to diminishing marginal utility. And because successive units of a particular product yield less and less marginal utility, consumers will buy additional units only if the price of those units is progressively reduced.
+- The income effect indicates that a lower price increases the purchasing power of a buyer’s money income, enabling the buyer to purchase more of the product than before. A higher price has the opposite effect.
+- The substitution effect suggests that at a lower price buyers have the incentive to substitute what is now a less expensive product for similar products that are now relatively more expensive. The product whose price has fallen is now “a better deal” relative to the other products.
+[pics=0 charts=0 tables=0]
+=== Slide 8
+- Demand schedule
+Price of computers | Quantity demanded per week
+2000 | 1000
+1800 | 2000
+1600 | 3000
+1400 | 4000
+1200 | 5000
+- The Demand Schedule shows quantities demanded at given price.
+[pics=0 charts=0 tables=1]
+=== Slide 9
+- The Demand Curve
+- D
+- 1000
+- 1200
+- 5000
+- 2000
+- 1800
+- 1200
+- Price ($)
+- Quantity
+- The demand curve shows the quantity demanded at any given price.
+- Q
+- P
+- R
+- D
+[pics=0 charts=0 tables=0]
+=== Slide 10
+- 0	1	2	3	4	5
+- 0       10       20       30       40       50       60
+- As the price changes, the quantity demanded will change. Movement along the curve.
+- Price
+- Quantity
+- D
+- D
+[pics=0 charts=0 tables=0]
+=== Slide 11
+- Individual Demand and Market Demand
+- Individual demand is the demand of just one consumer and is referred to as quantity demanded while the total demand for a product from all its consumers is known as market demand.
+- An important assumption that we make when discussing the factors that affect the demand is the ceteris paribus assumption. Under this assumption, we only discuss a change in one factor at a time.
+[pics=0 charts=0 tables=0]
+=== Slide 12
+- Individual Demand and Market Demand
+- Economics by Mc Connell & Brue pg 47
+- Difference between quantity demanded and demand
+- A change in price brings about a change in quantity demanded and is a movement along the curve.  A change in any other factor besides price will shift the curve so that more or less is demanded at the same price level. A change in price never brings about a movement or shift of the curve.
+[pics=0 charts=0 tables=0]
+=== Slide 13
+- Demand - Shift
+- Shift in the demand curve
+- A change in any factor besides price will bring about a parallel shift, or movement of the entire demand curve.  This means that more or less is demanded at each and every price level than they did before.
+- Factors affecting demand, conditions of demand, determinants of demand
+[pics=0 charts=0 tables=0]
+=== Slide 14
+- 0	      1	  2	     3      	4	   5         6      7
+- 0       10       20       30       40       50       60
+- At the same price, a different quantity is demanded.
+- Price
+- Quantity
+- D
+- D
+- D1
+- D1
+- D2
+- D2
+[pics=0 charts=0 tables=0]
+=== Slide 15
+[pics=0 charts=0 tables=0]
+=== Slide 16
+- LAW OF SUPPLY
+- “This is the producers willingness and ability to sell a product at a given price over a given period of time .” It refers to the amount producers are willing to create and sell at a given price level.  Existing stocks are not considered supply unless they are put up for sale.
+- A firm interested in profit will only make and sell a product if it can do so at a price over and above what it cost the firm to make. Hence, the higher the price, the more the firm is willing to supply because it expects more profits.
+- The Law of supply states that price and quantity supplied have a positive or direct relation.  As price increases quantity supplied increases and vice Versa.”
+[pics=0 charts=0 tables=0]
+=== Slide 17
+- LAW OF SUPPLY
+- Price increases, quantity Supplied increases
+- Price decreases, quantity Supplied decreases
+- S
+- S
+[pics=5 charts=0 tables=0]
+=== Slide 18
+- SUPPLY
+- Individual Supply - the supply of one Firm/ Producer
+- Market Supply is the total Supply of the Market
+- Difference between quantity Supplied and Supply
+- Just as we discussed for demand, it is important to remember that a change in quantity supplied is brought about by a change in price and is a movement along the curve.  Any other factor changing besides a change in price brings about a shift of the curve. A change in price never brings about a movement or shift of the curve
+[pics=0 charts=0 tables=0]
+=== Slide 19
+- SUPPLY
+- The Supply curve shows the quantity supplied at any given price.
+- 40
+- 80
+- 120
+- 160
+- 200
+- 10
+- 20
+- 30
+- 40
+- 500
+- 60
+- 70
+- S
+- Price
+- 0
+- Quantity
+[pics=0 charts=0 tables=0]
+=== Slide 20
+- Movement along Supply Curve
+- Price
+- Quantity
+- $15
+- A
+- 1,250
+- 1,500
+- B
+- $30
+- S
+- As the price changes, the quantity supplied will also change.
+[pics=0 charts=0 tables=0]
+=== Slide 21
+- Shift of Supply Curve
+- Price
+- Quantity
+- S
+- S1
+- $15
+- A
+- B
+- 1,250
+- 1,500
+- S2
+- At the same price, a different quantity is supplied.
+[pics=0 charts=0 tables=0]
+=== Slide 22
+[pics=0 charts=0 tables=0]
+=== Slide 23
+- Functions of Price Mechanism
+- Allocate: The market mechanism allocates scarce resources.
+- Ration : price serve to ration scarce resources when demand outstrips supply.
+- Signal : Market prices adjust to demonstrate where resources are required, and when they are not.
+- Incentive : When the price of a product rises, the quantity supplied increases, this is due to the incentive function.
+[pics=0 charts=0 tables=0]
+=== Slide 24
+- EQUILIBRIUM
+- Demand = Supply  Equilibrium
+- Demand ≠ Supply  Disequilibrium
+  - Surplus = Supply > Demand
+  - Deficit = Demand > Supply
+- The point of intersection shows the equilibrium point ‘E’.  At this point D=S=Qd=Qs=Q
+- It is also known as the market clearing price. At any other point the market will be in disequilibrium. This is the point where the market forces will come to rest and there is no tendency to change.
+[pics=0 charts=0 tables=0]
+=== Slide 25
+- Demand = Supply (Equilibrium Point)
+- EQUILIBRIUM
+- E
+- Q
+- P
+[pics=1 charts=0 tables=0]
+=== Slide 26
+- DISEQUILIBRIUM
+[pics=0 charts=0 tables=0]
+=== Slide 27
+- MARKET FAILURE AND GOVERNMENT INTERVENTION
+[pics=0 charts=0 tables=0]
+=== Slide 28
+- DISEQUILIBRIUM – EXCESS DEMAND
+- A price ceiling sets the maximum legal price a seller may charge for a product or service. A price at or below the ceiling is legal; a price above it is not.
+- When the ceiling price is below the equilibrium price, a persistent product shortage results.
+[pics=1 charts=0 tables=0]
+=== Slide 29
+- DISEQUILIBRIUM- ED / SHORTAGE
+- Price ceilings are imposed by government on specific products, mostly necessities, to enable consumers to afford. Examples are rent controls and usury laws, which specify maximum “prices” in the forms of rent and interest that can be charged to borrowers.
+- Rationing ProblemIssuing ration coupons authorizing bearers to purchase a fixed amount of product monthly. These are then equitably distributed so that the wealthy family of four and the poor family of four both receive the same number of coupons.
+- Black Markets Ration coupons may give rise to black marketing as many buyers are willing to pay more than the ceiling price and that is more profitable for the suppliers. A sizable enforcement bureaucracy would be required to ensure price controls.Counterfeiting of ration coupons will be a problem.Since government sets price, it might face political pressure to set an even lower price.Example ceiling on rent. It may result in demand to increase but inadequate supply.
+- Resource MisallocationIn brief, controls distort market signals and thus resources are misallocated. Too few resources are allocated and too many alternative uses, eventually being the primary cause of such shortages.
+[pics=0 charts=0 tables=0]
+=== Slide 30
+- DISEQUILIBRIUM- EXCESS SUPPLY
+- A price floor is a minimum price fixed by the government. A price at or above the price floor is legal; a price below it is not. Usually for agricultural products. When the price floor is above the equilibrium price, a persistent product surplus results.
+[pics=0 charts=0 tables=0]
+=== Slide 31
+- DISEQUILIBRIUM – ES/ SURPLUS
+- Price floors above equilibrium prices are usually invoked when society feels that the free functioning of the market system has not provided a sufficient income for certain groups of resource suppliers or producers. Supported prices for agricultural products and current minimum wages are two examples of price (or wage) floors
+- The government may cope with the surplus resulting from a price floor in two waysSupply restrictionIt can restrict supply or increase demand through alternative uses for the product, thus reducing the surplus.Purchase excess stockGovernment must purchase the surplus output at the adjusted price and store or otherwise dispose of it
+[pics=0 charts=0 tables=0]
+=== Slide 32
+- DISEQUILIBRIUM – ES/ SURPLUS
+- Additional Consequences Price floors also disrupt the rationing ability of prices as well as resource allocation. Without price floor producer would face losses and force high-cost wheat producers to plant other crops or abandon farming altogether. So society devotes too many of its scarce resources to wheat production and too few to producing other, more valuable, goods and services. It fails to achieve allocative efficiency.
+- Consumers of wheat-based products pay higher prices because of the price floor.
+- Taxpayers pay higher taxes to finance the government’s purchase of the surplus.
+- Price floor causes potential environmental damage through use of less suitable resources.
+- The higher price encourages imports but since such imports would increase the quantity of wheat supplied and thus undermine the price floor, the government needs to erect tariffs (taxes on imports) to keep the foreign wheat out. Such tariffs usually prompt other countries to retaliate.
+- Government controlled prices cause shortages or surpluses, distort resource allocation, and produce negative side effects.
+[pics=0 charts=0 tables=0]
+=== Slide 33
+- Why the Equilibrium Changes?
+  - Change in Demand
+  - Change in Supply
+  - Change in Demand & Supply
+[pics=0 charts=0 tables=0]
+=== Slide 34
+- SHIFT IN DEMAND - INCREASE
+[pics=0 charts=0 tables=0]
+=== Slide 35
+- SHIFT IN DEMAND - DECREASE
+[pics=0 charts=0 tables=0]
+=== Slide 36
+- SHIFT IN SUPPLY - INCREASE
+[pics=0 charts=0 tables=0]
+=== Slide 37
+- SHIFT IN SUPPLY - DECREASE
+[pics=0 charts=0 tables=0]
+=== Slide 38
+- Outline
+- Demand
+- Supply
+- Shifts
+- Equilibrium
+- Disequlibrium
+[pics=0 charts=0 tables=0]

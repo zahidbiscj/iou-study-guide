@@ -468,6 +468,15 @@ body.lang-bn .mq-en { display: none !important; }
 .fig .t1 { fill: var(--brand-2); font-weight: 700; }
 .fig .t2 { fill: var(--gold-ink); font-weight: 700; }
 .fig .t3 { fill: var(--red); font-weight: 700; }
+.fig .l4 { stroke: var(--blue); stroke-width: 2.5; fill: none; }
+.fig .t4 { fill: var(--blue); font-weight: 700; }
+.fig .fl { fill: var(--brand-2); fill-opacity: .15; stroke: none; }
+.fig .fl2 { fill: var(--gold); fill-opacity: .2; stroke: none; }
+.fig .fl3 { fill: var(--red); fill-opacity: .15; stroke: none; }
+.fig .bx { fill: var(--brand-soft); stroke: var(--brand-2); stroke-width: 1.5; }
+.fig .bx2 { fill: var(--gold-soft); stroke: var(--gold); stroke-width: 1.5; }
+.fig .tk { font-size: 10.5px; fill: var(--muted); }
+.fig .sm { font-size: 10.5px; }
 .fig figcaption { font-size: 13.5px; color: var(--muted); margin-top: 6px; line-height: 1.5; }
 .course-pick label { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 14px; flex-wrap: wrap; }
 .course-pick select { font: inherit; font-size: 14px; padding: 6px 10px; border-radius: 10px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); max-width: 100%; }
@@ -547,7 +556,7 @@ blockquote.slidetext p { margin: 5px 0; font-style: italic; }
           <a class="chooser-card" href="#subject-enes"><b>ENES 101 · English Language Studies</b><span>Study notes for this subject</span></a>
           <a class="chooser-card" href="#subject-bibs"><b>BIBS 101 · Introduction to Business</b><span>51 study questions, step-by-step answers &amp; quiz</span></a>
           <a class="chooser-card" href="#subject-isgs"><b>ISGS 101 · Islamic Studies 1</b><span>Modules (slide by slide), assignment guide, 40-question midterm Q&amp;A</span></a>
-          <a class="chooser-card" href="#subject-fpec"><b>FPEC 101 · Principles of Economics</b><span>Final-exam step-by-step course (18 lessons) &amp; midterm Q&amp;A</span></a>
+          <a class="chooser-card" href="#subject-fpec"><b>FPEC 101 · Principles of Economics</b><span>Midterm course: Lectures 1–15 slide by slide, midterm Q&amp;A &amp; final-exam course</span></a>
         </div>
       </section>
 
@@ -581,13 +590,13 @@ blockquote.slidetext p { margin: 5px 0; font-style: italic; }
 <section id="isgsmod" class="part" data-part="isgsmod">
 <a class="back-link" href="#isgs-modules">← All modules · সব মডিউল</a>
 <h1 class="chapter mod-title"></h1><div class="chapter-bn mod-title-bn"></div>
-<div class="mod-links"><a id="modPrev" href="#">← Previous module</a><a id="modNext" href="#">Next module →</a><a id="modPdf" href="#" target="_blank" rel="noopener">Open full PDF ↗</a><button id="modRestart" type="button">↺ Start over · শুরু থেকে</button></div>
+<div class="mod-links"><a id="modPrev" class="m-prev" href="#">← Previous module</a><a id="modNext" class="m-next" href="#">Next module →</a><a id="modPdf" class="m-pdf" href="#" target="_blank" rel="noopener">Open full PDF ↗</a><button id="modRestart" class="m-restart" type="button">↺ Start over · শুরু থেকে</button></div>
 <div class="wiz-top">
-  <div class="course-pick"><label>Go to · যান <select id="modJump" aria-label="Jump to a section or slide"></select></label></div>
-  <div class="mchips" id="modChips" aria-label="Slide numbers"></div>
+  <div class="course-pick"><label>Go to · যান <select id="modJump" class="m-jump" aria-label="Jump to a section or slide"></select></label></div>
+  <div class="mchips m-chips" id="modChips" aria-label="Slide numbers"></div>
   <div class="wiz-bar"><i></i></div><div class="wiz-meta"></div>
 </div>
-<div class="mod-body" id="modBody"></div>
+<div class="mod-body m-body" id="modBody"></div>
 <div class="wiz-nav"><button class="btn mod-back" type="button">← Back · পেছনে</button><button class="btn wiz-next mod-next" type="button">Next · পরবর্তী →</button></div>
 </section>
 
@@ -1755,6 +1764,49 @@ Write the first draft without looking at this guide. Then come back and check: d
       </section>
 </div>
 <div data-subject="fpec">
+<nav class="subtabs" aria-label="FPEC 101 sections">
+  <a href="#fpec-modules" data-menu="fpecmodules fpecmod">📚 Midterm modules 1–15 · মডিউল</a>
+  <a href="#fpec-midterm" data-menu="fpecmid">📝 Midterm Q&amp;A · মিডটার্ম প্রশ্ন</a>
+  <a href="#fpec-final" data-menu="fpecfinal">🎓 Final exam course · ফাইনাল</a>
+</nav>
+<section id="fpecmodules" class="part" data-part="fpecmodules">
+<h1 class="chapter">FPEC 101 — Midterm course, slide by slide<span class="chapter-bn" style="display:block">মিডটার্ম কোর্স — লেকচার ১–১৫, স্লাইড ধরে ধরে</span></h1>
+<p>Your midterm covers <b>Lectures 1–15</b> (Unit 1: Nature and Methods of Economics, Unit 2: Production Costs and Market Structures). Each module is one lecture. It opens as a step-by-step lesson: <b>tutor's big picture → key words → every slide (slide text, Bangla translation, simple explanation, real-life example, exam tip) → graphs and numbers put together → the midterm questions it answers → 5-question quiz → summary</b>.</p>
+<p class="bn-only">তোমার মিডটার্মে আছে <b>লেকচার ১–১৫</b> (ইউনিট ১: অর্থনীতির প্রকৃতি ও পদ্ধতি, ইউনিট ২: উৎপাদন ব্যয় ও বাজার কাঠামো)। প্রতিটি মডিউল একটি লেকচার। ধাপে ধাপে খুলবে: <b>টিউটরের বড় ছবি → মূল শব্দ → প্রতিটি স্লাইড (স্লাইডের লেখা, বাংলা অনুবাদ, সহজ ব্যাখ্যা, বাস্তব উদাহরণ, পরীক্ষার টিপস) → গ্রাফ ও হিসাব একসাথে → এই মডিউল থেকে আসা মিডটার্ম প্রশ্ন → ৫ প্রশ্নের কুইজ → সারসংক্ষেপ</b>।</p>
+<div class="tip"><span class="head">How to use this · কীভাবে পড়বে</span><br>
+Do one module a day. Read every step, press <b>Next</b>, and do the quick checks. If you miss a quiz answer, read the explanation and go back to that slide. The study plan at the bottom tells you which modules give which midterm question.
+<br>দিনে একটা মডিউল করো। প্রতিটি ধাপ পড়ো, <b>Next</b> চাপো, দ্রুত যাচাইগুলো করো। কুইজে ভুল হলে ব্যাখ্যা পড়ে ওই স্লাইডে ফিরে যাও। নিচের স্টাডি প্ল্যানে আছে কোন মডিউল থেকে কোন মিডটার্ম প্রশ্ন আসে।</div>
+<div class="mgrid" id="fmodGrid"></div>
+<h2>Midterm question → module map · কোন প্রশ্ন কোন মডিউলে</h2>
+<div class="tbl"><table><thead><tr><th>Midterm question</th><th>Read module</th></tr></thead><tbody>
+<tr><td>Q1 Micro vs Macro · Q2 Positive vs Normative · Q3 Basic economic problem &amp; PPC</td><td><a href="#fpec-mod-01">Module 1</a></td></tr>
+<tr><td>Q4 Economic systems · Q5 Circular flow of income</td><td><a href="#fpec-mod-02">Module 2</a></td></tr>
+<tr><td>Q6 Laws of demand &amp; supply, movement vs shift · Q7 Equilibrium, disequilibrium &amp; government intervention</td><td><a href="#fpec-mod-03">Module 3</a> (+ <a href="#fpec-mod-04">4</a>)</td></tr>
+<tr><td>Q8 Price elasticity of demand</td><td><a href="#fpec-mod-04">Module 4</a> + <a href="#fpec-mod-05">5</a></td></tr>
+<tr><td>Q9 Price elasticity of supply · Q10 Income &amp; cross elasticity</td><td><a href="#fpec-mod-05">Module 5</a></td></tr>
+<tr><td>Q11 Economic costs &amp; profits · Q12 Short run production &amp; costs</td><td><a href="#fpec-mod-06">Module 6</a></td></tr>
+<tr><td>Q13 Long-run costs &amp; economies of scale · Q14 Business growth &amp; legal forms</td><td><a href="#fpec-mod-07">Module 7</a></td></tr>
+<tr><td>Q15 Market structures (all aspects)</td><td><a href="#fpec-mod-08">Modules 8</a>, <a href="#fpec-mod-09">9</a>, <a href="#fpec-mod-10">10</a>, <a href="#fpec-mod-11">11</a></td></tr>
+<tr><td>Q16 Anti-trust, competition policy, regulation &amp; deregulation</td><td><a href="#fpec-mod-12">Module 12</a></td></tr>
+<tr><td>Q17 Real &amp; nominal wage, productivity, wage determination, minimum wage · Q18 Why wages differ, pay for performance</td><td><a href="#fpec-mod-13">Module 13</a></td></tr>
+<tr><td>Q19 Income inequality, poverty &amp; discrimination</td><td><a href="#fpec-mod-14">Module 14</a></td></tr>
+<tr><td>Q20 Market failure &amp; government</td><td><a href="#fpec-mod-15">Module 15</a> (+ <a href="#fpec-mod-03">3</a>)</td></tr>
+</tbody></table></div>
+<p class="wiz-meta">Original slides: <code>slides/Principles of Economics (FPEC 101)/</code> · Printable notes: <code>content/fpec101/</code></p>
+</section>
+
+<section id="fpecmod" class="part" data-part="fpecmod">
+<a class="back-link" href="#fpec-modules">← All modules · সব মডিউল</a>
+<h1 class="chapter mod-title"></h1><div class="chapter-bn mod-title-bn"></div>
+<div class="mod-links"><a class="m-prev" href="#">← Previous module</a><a class="m-next" href="#">Next module →</a><a class="m-pdf" href="#" target="_blank" rel="noopener">Open lecture slides (PDF) ↗</a><button class="m-restart" type="button">↺ Start over · শুরু থেকে</button></div>
+<div class="wiz-top">
+  <div class="course-pick"><label>Go to · যান <select class="m-jump" aria-label="Jump to a section or slide"></select></label></div>
+  <div class="mchips m-chips" aria-label="Slide numbers"></div>
+  <div class="wiz-bar"><i></i></div><div class="wiz-meta"></div>
+</div>
+<div class="mod-body m-body"></div>
+<div class="wiz-nav"><button class="btn mod-back" type="button">← Back · পেছনে</button><button class="btn wiz-next mod-next" type="button">Next · পরবর্তী →</button></div>
+</section>
 <section id="fpecfinal" class="part" data-part="fpecfinal">
 <div class="course" id="course">
 <a class="back-link" href="#fpec-midterm">Midterm Q&amp;A (20 questions) → · মিডটার্ম প্রশ্ন</a>
@@ -4671,6 +4723,7 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
 
 
 <script src="isgs/index.js" charset="utf-8"></script>
+<script src="fpec/index.js" charset="utf-8"></script>
 <script>
 /* ISGS 101 Study Guide — script.js */
 (function () {
@@ -5017,20 +5070,20 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
   })();
 
   /* ---------- ISGS modules: slide-by-slide course ---------- */
-  var modData = {};
-  window.ISGS_REG = function (n, d) { modData[n] = d; };
-  var mods = (function () {
-    var LIST = window.ISGS_MODS || [];
-    var root = $('#isgsmod'), gridEl = $('#modGrid');
-    var titleEl = $('.mod-title', root), titleBn = $('.mod-title-bn', root), jump = $('#modJump'), chipsEl = $('#modChips');
-    var barEl = $('.wiz-bar i', root), metaEl = $('.wiz-meta', root), body = $('#modBody');
+  function makeMods(cfg) {
+    var modData = {};
+    window[cfg.reg] = function (n, d) { modData[n] = d; };
+    var P = cfg.prefix, LIST = window[cfg.list] || [];
+    var root = $(cfg.root), gridEl = $(cfg.grid);
+    var titleEl = $('.mod-title', root), titleBn = $('.mod-title-bn', root), jump = $('.m-jump', root), chipsEl = $('.m-chips', root);
+    var barEl = $('.wiz-bar i', root), metaEl = $('.wiz-meta', root), body = $('.m-body', root);
     var backBtn = $('.mod-back', root), nextBtn = $('.mod-next', root);
-    var prevA = $('#modPrev'), nextA = $('#modNext'), pdfA = $('#modPdf'), restartBtn = $('#modRestart');
+    var prevA = $('.m-prev', root), nextA = $('.m-next', root), pdfA = $('.m-pdf', root), restartBtn = $('.m-restart', root);
     var BND = '০১২৩৪৫৬৭৮৯';
     function bnum(n) { return String(n).replace(/\d/g, function (d) { return BND.charAt(+d); }); }
     function pad(n) { return (n < 10 ? '0' : '') + n; }
     function meta(n) { for (var i = 0; i < LIST.length; i++) { if (LIST[i].n === n) return LIST[i]; } return null; }
-    var pos = store.get('isgs-mod-pos', {}), seen = store.get('isgs-mod-seen', {});
+    var pos = store.get(P + '-mod-pos', {}), seen = store.get(P + '-mod-seen', {});
     var cur = 0, steps = [], els = [], idx = 0, slideStep = {};
 
     function paintGrid() {
@@ -5038,7 +5091,7 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
       LIST.forEach(function (m) {
         var sv = seen[m.n], pct = sv && sv.t ? Math.min(100, Math.round(sv.v.length / sv.t * 100)) : 0;
         var a = document.createElement(m.ready ? 'a' : 'div'); a.className = 'mcard' + (m.ready ? '' : ' soon');
-        if (m.ready) a.href = '#isgs-mod-' + pad(m.n);
+        if (m.ready) a.href = '#' + P + '-mod-' + pad(m.n);
         a.innerHTML = '<span class="mnum"></span><b></b><span class="mbn"></span><span class="mmeta"></span><i class="mprog"><u></u></i>';
         $('.mnum', a).textContent = m.n; $('b', a).textContent = m.t; $('.mbn', a).textContent = m.tb;
         $('.mmeta', a).textContent = m.slides + ' slides · ' + (m.ready ? (pct ? pct + '% done · ' + pct + '% সম্পন্ন' : 'not started · শুরু হয়নি') : 'coming soon · শীঘ্রই আসছে');
@@ -5050,9 +5103,9 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
     function setHeader(n) {
       var m = meta(n);
       titleEl.textContent = 'Module ' + n + ' — ' + m.t; titleBn.textContent = 'মডিউল ' + bnum(n) + ' — ' + m.tb;
-      prevA.hidden = n <= 1; prevA.href = '#isgs-mod-' + pad(n - 1); prevA.textContent = '← Module ' + (n - 1);
-      nextA.hidden = n >= LIST.length; nextA.href = '#isgs-mod-' + pad(n + 1); nextA.textContent = 'Module ' + (n + 1) + ' →';
-      pdfA.href = 'slides/Islamic%20Studies%201%20(ISGS%20101)/Islamic(mod' + pad(n) + ').pdf';
+      prevA.hidden = n <= 1; prevA.href = '#' + P + '-mod-' + pad(n - 1); prevA.textContent = '← Module ' + (n - 1);
+      nextA.hidden = n >= LIST.length; nextA.href = '#' + P + '-mod-' + pad(n + 1); nextA.textContent = 'Module ' + (n + 1) + ' →';
+      pdfA.href = cfg.pdf(n, pad(n));
     }
 
     function fail(msg) {
@@ -5063,15 +5116,15 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
 
     function open(n, where) {
       var m = meta(n);
-      if (!m) { location.hash = '#isgs-modules'; return; }
+      if (!m) { location.hash = '#' + P + '-modules'; return; }
       var same = cur === n && els.length;
       cur = n; setHeader(n);
-      $$('[data-mod]').forEach(function (a) { a.classList.toggle('on', +a.getAttribute('data-mod') === n); });
+      $$('[data-' + P + 'mod]').forEach(function (a) { a.classList.toggle('on', +a.getAttribute('data-' + P + 'mod') === n); });
       if (same) { show(resolve(where), true); return; }
       if (!m.ready) { fail('This module is being prepared — it will appear here soon. · এই মডিউলটি তৈরি হচ্ছে, শীঘ্রই এখানে আসবে।'); return; }
       body.innerHTML = '<p class="mod-loading">Loading… · লোড হচ্ছে…</p>';
       if (modData[n]) { build(n, where); return; }
-      var s = document.createElement('script'); s.charset = 'utf-8'; s.src = 'isgs/mod' + pad(n) + '.js';
+      var s = document.createElement('script'); s.charset = 'utf-8'; s.src = cfg.dir + '/mod' + pad(n) + '.js';
       s.onload = function () { if (modData[n]) build(n, where); else if (cur === n) fail('Could not load this module. · মডিউলটি লোড হয়নি।'); };
       s.onerror = function () { if (cur === n) fail('Could not load this module — check your connection and reload. · মডিউলটি লোড হয়নি, ইন্টারনেট দেখে আবার চেষ্টা করো।'); };
       document.head.appendChild(s);
@@ -5146,8 +5199,8 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
       jump.value = String(idx);
       var v = seen[cur] && seen[cur].v ? seen[cur].v : [];
       if (v.indexOf(st.id) === -1) v.push(st.id);
-      seen[cur] = { v: v, t: steps.length }; store.set('isgs-mod-seen', seen);
-      pos[cur] = st.id; store.set('isgs-mod-pos', pos);
+      seen[cur] = { v: v, t: steps.length }; store.set(P + '-mod-seen', seen);
+      pos[cur] = st.id; store.set(P + '-mod-pos', pos);
       $$('.wiz-chip', chipsEl).forEach(function (c) {
         var si = +c.getAttribute('data-step'), sid = steps[si].id;
         c.classList.toggle('cur', si === idx); c.classList.toggle('done', si !== idx && v.indexOf(sid) !== -1);
@@ -5157,25 +5210,29 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
       var last = idx === els.length - 1, nm = meta(cur + 1);
       if (last) { nextBtn.disabled = false; nextBtn.textContent = nm ? 'Next: Module ' + (cur + 1) + ' →' : 'All modules · সব মডিউল'; }
       else { nextBtn.disabled = false; nextBtn.textContent = 'Next · পরবর্তী →'; }
-      try { history.replaceState(null, '', '#isgs-mod-' + pad(cur) + '-' + st.id); } catch (e) { /* ignore */ }
+      try { history.replaceState(null, '', '#' + P + '-mod-' + pad(cur) + '-' + st.id); } catch (e) { /* ignore */ }
       if (scroll) window.scrollTo({ top: Math.max(0, root.getBoundingClientRect().top + window.pageYOffset - 70), behavior: 'auto' });
     }
 
     backBtn.addEventListener('click', function () { show(idx - 1, true); });
     nextBtn.addEventListener('click', function () {
       if (idx < els.length - 1) { show(idx + 1, true); return; }
-      location.hash = meta(cur + 1) ? '#isgs-mod-' + pad(cur + 1) + '-concept' : '#isgs-modules';
+      location.hash = meta(cur + 1) ? '#' + P + '-mod-' + pad(cur + 1) + '-concept' : '#' + P + '-modules';
     });
     jump.addEventListener('change', function () { show(+jump.value, true); });
     restartBtn.addEventListener('click', function () { show(0, true); });
     document.addEventListener('keydown', function (e) {
-      if (current !== 'isgs' || part !== 'isgsmod' || e.altKey || e.ctrlKey || e.metaKey) return;
+      if (current !== P || part !== P + 'mod' || e.altKey || e.ctrlKey || e.metaKey) return;
       var t = e.target && e.target.tagName; if (t === 'INPUT' || t === 'SELECT' || t === 'TEXTAREA') return;
       if (e.key === 'ArrowRight') { nextBtn.click(); } else if (e.key === 'ArrowLeft') { if (!backBtn.disabled) backBtn.click(); }
     });
     paintGrid();
     return { open: open, paintGrid: paintGrid, count: LIST.length };
-  })();
+  }
+  var mods = makeMods({ prefix: 'isgs', reg: 'ISGS_REG', list: 'ISGS_MODS', root: '#isgsmod', grid: '#modGrid', dir: 'isgs',
+    pdf: function (n, p) { return 'slides/Islamic%20Studies%201%20(ISGS%20101)/Islamic(mod' + p + ').pdf'; } });
+  var fmods = makeMods({ prefix: 'fpec', reg: 'FPEC_REG', list: 'FPEC_MODS', root: '#fpecmod', grid: '#fmodGrid', dir: 'fpec',
+    pdf: function (n, p) { return 'slides/Principles%20of%20Economics%20(FPEC%20101)/pdf/FPEC(mod' + p + ').pdf'; } });
 
   /* ---------- Sidebar ---------- */
   var nav = $('#toc');
@@ -5194,7 +5251,7 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
   sideHead('Modules', 'isgs', 'modules isgsmod');
   (window.ISGS_MODS || []).forEach(function (m) {
     var a = sideLink('Module ' + m.n + ' · ' + m.t + (m.ready ? '' : ' (soon)'), '#isgs-mod-' + (m.n < 10 ? '0' : '') + m.n, 'isgs', 'modules isgsmod');
-    a.setAttribute('data-mod', m.n);
+    a.setAttribute('data-isgsmod', m.n);
   });
   sideHead('Assignment · steps', 'isgs', 'assignment');
   [['L1', '1 · Understand the assignment'], ['choose', '2 · Choose your topic'], ['L2', 'A · Tawheed essay'], ['L3', 'B · Messengers essay'], ['L4', '3 · Write the essay'], ['L5', '4 · Submission checklist']].forEach(function (l) {
@@ -5209,8 +5266,14 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
   });
   nav.appendChild(tag(grid, 'isgs')); grid.setAttribute('data-part', 'midterm');
   sideHead('FPEC 101 · Menu', 'fpec');
-  sideLink('Final exam course · ফাইনাল কোর্স', '#fpec-final', 'fpec').setAttribute('data-menu', 'fpecfinal');
+  sideLink('Midterm modules 1–15 · মডিউল', '#fpec-modules', 'fpec').setAttribute('data-menu', 'fpecmodules fpecmod');
   sideLink('Midterm Q&A · মিডটার্ম', '#fpec-midterm', 'fpec').setAttribute('data-menu', 'fpecmid');
+  sideLink('Final exam course · ফাইনাল কোর্স', '#fpec-final', 'fpec').setAttribute('data-menu', 'fpecfinal');
+  sideHead('Midterm modules', 'fpec', 'fpecmodules fpecmod');
+  (window.FPEC_MODS || []).forEach(function (m) {
+    var a = sideLink('Module ' + m.n + ' · ' + m.t + (m.ready ? '' : ' (soon)'), '#fpec-mod-' + (m.n < 10 ? '0' : '') + m.n, 'fpec', 'fpecmodules fpecmod');
+    a.setAttribute('data-fpecmod', m.n);
+  });
   sideHead('Final exam · lessons', 'fpec', 'fpecfinal');
   COURSE.forEach(function (m) {
     sideLink(m.key === 'F0' ? '0 · Start here' : m.key.slice(1) + ' · ' + m.title, '#course-' + m.key, 'fpec', 'fpecfinal').setAttribute('data-course', m.key);
@@ -5284,10 +5347,13 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
   function route() {
     var id = decodeURIComponent(location.hash.slice(1));
     var m = /^subject-(\w+)$/.exec(id);
-    if (m) { part = m[1] === 'isgs' ? 'midterm' : m[1] === 'fpec' ? 'fpecfinal' : 'menu'; applySubject(m[1]); window.scrollTo(0, 0); return; }
+    if (m) { part = m[1] === 'isgs' ? 'midterm' : m[1] === 'fpec' ? 'fpecmodules' : 'menu'; applySubject(m[1]); window.scrollTo(0, 0); return; }
     if (id === 'isgs-modules') { part = 'modules'; applySubject('isgs'); mods.paintGrid(); window.scrollTo(0, 0); return; }
     var mm = /^isgs-mod-(\d+)(?:-(\w+))?$/.exec(id);
     if (mm) { part = 'isgsmod'; applySubject('isgs'); mods.open(parseInt(mm[1], 10), mm[2]); return; }
+    if (id === 'fpec-modules') { part = 'fpecmodules'; applySubject('fpec'); fmods.paintGrid(); window.scrollTo(0, 0); return; }
+    var fm = /^fpec-mod-(\d+)(?:-(\w+))?$/.exec(id);
+    if (fm) { part = 'fpecmod'; applySubject('fpec'); fmods.open(parseInt(fm[1], 10), fm[2]); return; }
     var mp = /^isgs-(assignment|midterm)$/.exec(id);
     if (mp) { part = mp[1]; applySubject('isgs'); window.scrollTo(0, 0); return; }
     var mf = /^fpec-(final|midterm)$/.exec(id);

@@ -1,0 +1,214 @@
+=== Slide 1
+- PRINCIPLES OF ECONOMICSSalimah Musharrif
+- FPEC 101 – LECTURE 10										Unit 2
+[pics=0 charts=0 tables=0]
+=== Slide 2
+- PRINCIPLES OF ECONOMICSProduction Costs and Market Structures
+- FPEC 101 – LECTURE 10												Unit 2
+[pics=0 charts=0 tables=0]
+=== Slide 3
+- Market Structures- Monopoly. Monopolistic Competition
+[pics=0 charts=0 tables=0]
+=== Slide 4
+- Outline
+- Monopoly
+  - Price Discrimination
+- Monopolistic Competition
+[pics=0 charts=0 tables=0]
+=== Slide 5
+- Price Discrimination
+- Under certain conditions the monopolist can increase its profit by charging different prices to different buyers based on the elasticity of demand.
+  - Charging each customer in a single market the maximum price she or he is willing to pay
+  - Charging each customer one price for the first set of units purchased and a lower price for subsequent units purchased.
+  - Charging some customers one price and other customers another price.
+[pics=0 charts=0 tables=0]
+=== Slide 6
+- Price Discrimination
+- Necessary Conditions.…
+  - Monopoly Power
+  - Market Segregation
+  - No Resale
+[pics=0 charts=0 tables=0]
+=== Slide 7
+- Price Discrimination
+- It then produces and sells the MR =MC output in each market segment.
+- Assuming ATC constant and MC=ATC at all output levels.
+- The firm charges a higher price in the inelastic market
+- A lower price in the more elastic market.
+- Total profit is larger than it would be with no discrimination and single price
+- McConnell & Brue pg. 438
+- The price-discriminating monopolist maximizes total profit by dividing the market into two segments, inelastic and elastic
+[pics=0 charts=0 tables=0]
+=== Slide 8
+- Public vs Private Monopoly
+Feature | Public | Private
+Finance | Government | By selling shares, savings
+Motive | Provision of welfare services and not profit | To produce what ever is demanded
+Prices | Affordable | Higher prices as profit is the motive
+Administration | Board formed by government ministry | Board formed by private investors
+Investment | Greater investment | Lesser investment
+Efficiency | Less efficient | Greater efficiency
+Payment | By paying taxes | Paying for product bought
+Functioning | Cannot run smoothly for long run plans because of inflation Etc | Runs smoothly
+Burden | On taxpayer | On private investors
+Shut down | Supported by government in case of losses | May be shut down or nationalized
+[pics=0 charts=0 tables=1]
+=== Slide 9
+- Perfect Competition vs Monopoly
+- Efficiency :
+- Under perfect competition the firm is forced to produce as efficiently as possible due to high competitiveness and the same price per unit.  If costs are high and prices cannot be raised, the high-cost producer will receive a lower profit per unit and inefficient firms will have to leave the industry
+- In monopoly if economies of scale are achieved, it is most beneficial for the 	monopolist because he can charge as high a price as possible
+- Prices :
+- Under perfect competition prices are kept low to attract customers.
+- A monopolist can charge a low price to earn a profit since they produce on a 	large scale and this price may be lower than that under perfect competition.  	Alternatively 	they may charge a much higher price especially if the firm is 	inefficient to cover its costs.
+[pics=0 charts=0 tables=0]
+=== Slide 10
+- Perfect Competition vs Monopoly
+- Retained profit
+- In perfect competition there’s no profit left over for investments and research
+- In monopoly if economies of scale are achieved, it is most beneficial for the              	monopolist because he can charge as high a price as possible
+- Supplier
+- In perfect competition the consumer can switch to an alternative supplier if not satisfied
+- A monopolist is a single supplier offering no such choice to the consumer.
+[pics=0 charts=0 tables=0]
+=== Slide 11
+- Perfect Competition vs Monopoly
+- Production
+- Under perfect competition, those firms that produce products requiring huge investments and capital equipment need at least the entire home market to cater to, to operate at full capacity. If there is more than one firm it has to operate below capacity with higher costs so that there are poor prospects in export markets.
+- In monopoly since the whole market is guaranteed prices are more competitive 	and huge outputs can be produced owing to benefits of economies of scale.
+- Response
+- Under perfect competition producers respond in an expected manner so that if demand increases and price increases they increase production. When all competitors increase production, supply exceeds demand and price falls so that in the next production period there will probably be a shortage.
+- Monopolists on the other hand react to changes more effectively as they are single 	suppliers and can therefore estimate the market trend more accurately.
+[pics=0 charts=0 tables=0]
+=== Slide 12
+- Perfect Competition vs Monopoly
+- Price
+- Under perfect competition the same price is charged by all competitors based on most efficient production, that is, where price=average cost=marginal cost.
+- A monopolist charges a higher price much greater than average cost or 	Marginal cost by restricting output.
+- Consumer sovereignty
+- Under perfect competition the consumer is the king and whatever he demands is supplied. There is also a variety of suppliers and producers to choose from.
+- Under monopoly consumers sovereignty is less as there’s only one supplier 	and the producer is in a stronger position.
+[pics=0 charts=0 tables=0]
+=== Slide 13
+- Monopolistic Competition
+[pics=0 charts=0 tables=0]
+=== Slide 14
+- Monopolistic Competition
+- A market structure characterized by
+- A relatively large number of sellers
+- differentiated products (often promoted by heavy advertising)
+- easy entry to, and exit from, the industry.
+- The first and third characteristics provide the “competitive” aspect of monopolistic competition; the second characteristic provides the “monopolistic” aspect.
+[pics=0 charts=0 tables=0]
+=== Slide 15
+- Monopolistic Competition - Features
+- A relatively large number of sellers
+  - Small Market Shares
+  - No Collusion
+  - Independent Action
+- Differentiated products (often promoted by heavy advertising)
+  - Product Attributes
+  - Service
+  - Location
+  - Brand Names and Packaging
+  - Some Control Over Price
+- Easy entry to, and exit from, the industry.
+[pics=0 charts=0 tables=0]
+=== Slide 16
+- Monopolistic Competition- Features
+- Heavy AdvertisingMonopolistic competitors advertise their products, often heavily to achieve successful product differentiation
+- Goal of differentiation and advertising, referred to as nonprice competition is to increase product appeal and price less of a factor for consumer purchase. Successful measures will increase demand shifting it to the right and making it relatively less elastic.
+[pics=0 charts=0 tables=0]
+=== Slide 17
+- Price and Output Determination
+- Highly elastic Demand curve- Distinguishing feature from Perfect competition and monopolyThe monopolistic competitor’s demand is more elastic than the demand faced by a pure monopolist because the monopolistically competitive seller has many competitors producing closely substitutable goods. The pure monopolist has no rivals at all. Demand is not perfectly elastic like that of the pure competitor because of fewer rivals and that products are differentiated, so they are not perfect substitutes.
+- The price elasticity of demand faced by the monopolistically competitive firm depends on the number of rivals and the degree of product differentiation. The larger the number of rivals and the weaker the product differentiation, the greater the price elasticity of each seller’s demand, that is, the closer monopolistic competition will be to pure competition
+- Short run, profits and losses
+- Long run profit or loss – normal profit
+[pics=0 charts=0 tables=0]
+=== Slide 18
+- Price and Output Determination
+- ProfitsIn short term, if profit, other firms are attracted, firms enter, demand for business falls, shifts left, each firm has a smaller share of total demand, larger number of close-substitute products, economic profit reduced. When entry of new firms has reduced demand to the extent that the demand curve is tangent to the average-total-cost curve at the profit-maximizing output, the firm is just making a normal profit. (long run)
+- LossWith short term loss, fewer substitute products and expanded share of total demand, the surviving firms face demand increase,  curves shift to the right, Their losses will disappear and give way to normal profits in long run.
+[pics=0 charts=0 tables=0]
+=== Slide 19
+- Q
+- D
+- MR
+- MC
+- P
+- Price and Costs
+- Q
+- p
+- Elastic Demand Curve
+- ATC
+- Economic profit
+- Competitors enter
+- Price and Output Determination
+[pics=0 charts=0 tables=0]
+=== Slide 20
+- Q
+- D
+- MR
+- MC
+- P
+- ATC
+- Price and Costs
+- Q
+- p
+- Economic
+- profits
+- decrease
+- Demand curve shifts left
+- In the long run, profits are zero
+- Price and Output Determination
+[pics=0 charts=0 tables=0]
+=== Slide 21
+- Q
+- D
+- MR
+- MC
+- P
+- ATC
+- Price and Costs
+- Q
+- p
+- Loss
+- Competitors leave
+- Price and Output Determination
+[pics=0 charts=0 tables=0]
+=== Slide 22
+- Q
+- D
+- MR
+- MC
+- P
+- ATC
+- Price and Costs
+- Q
+- p
+- Some firms exit
+- - D shifts right
+- - Losses get smaller
+- In the long run, profits are zero
+- Price and Output Determination
+[pics=0 charts=0 tables=0]
+=== Slide 23
+- Exceptions to normal profit in long run
+- Product differentiation that other firms cannot duplicate even over time
+- Product differentiation requires large finance becoming a barrier to entry compared to if products were standardized. This suggests some monopoly power, with small economic profits to continue even in long run.
+[pics=0 charts=0 tables=0]
+=== Slide 24
+- SUMMARY
+- Monopoly
+  - Price Discrimination
+    - Conditions
+    - Output Determination
+    - Public vs Private Monopoly
+- Perfect Competition vs Monopoly
+- Monopolistic Competition
+  - Definition
+  - Features
+  - Price-Output Determination
+  - Exceptions to normal profit in long run
+[pics=0 charts=0 tables=0]
