@@ -1,6 +1,6 @@
 # BIBS 101 — Introduction to Business: Midterm Course Plan
 
-**Status: PLAN v1. Nothing is built yet. On your "go" I start the Module 1 pilot.**
+**Status: DONE — all 9 modules built (see `content/bibs101/COVERAGE.md`).**
 
 Goal: turn the BIBS 101 slides into a complete **English + Bangla** midterm course, taught the way a tutor would teach it. Every slide is covered, every hard idea gets an example, every study question gets a model answer, and every module ends with a quiz. It follows the same method as the ISGS 101 rebuild ([PLAN-ISGS101-REORGANIZE.md](PLAN-ISGS101-REORGANIZE.md)).
 
