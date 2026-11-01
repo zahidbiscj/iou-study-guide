@@ -632,3 +632,30 @@ plot('mono_vs_pc', 'Quantity', 'Price', [
     ('tx', 30, 80, 'Monopoly: fewer units, higher price', 't3')],
     'Slides 24–25: a competitive industry would produce Qc at Pc, where P = MC. The monopolist produces only Qm (where MR = MC) and charges the higher Pm. Pm > MC and Pm > minimum ATC: inefficient.',
     'স্লাইড ২৪–২৫: প্রতিযোগী শিল্প P = MC-তে Pc দামে Qc উৎপাদন করত। একচেটিয়া ফার্ম শুধু Qm (MR = MC যেখানে) উৎপাদন করে, বেশি দাম Pm নেয়। Pm > MC ও Pm > সর্বনিম্ন ATC: অদক্ষ।')
+
+# =====================================================================
+# Lectures 10-11 — price discrimination, monopolistic competition, oligopoly
+# =====================================================================
+plot2('price_disc', [
+    ('Inelastic market', 'Q', 'P', [('ln', 10, 92, 50, 8, 'l4'), ('tx', 46, 14, 'D', 't4'), ('ln', 10, 92, 30, 8, 'l2'), ('tx', 26, 4, 'MR', 't2'),
+        ('ln', 0, 30, 94, 30, 'l3'), ('tx', 70, 34, 'MC = ATC', 't3'), ('pt', 24.7, 61.3), ('gd', 24.7, 61.3), ('yt', 61.3, 'high P')]),
+    ('Elastic market', 'Q', 'P', [('ln', 0, 60, 90, 8, 'l4'), ('tx', 84, 14, 'D', 't4'), ('ln', 0, 60, 45, 8, 'l2'), ('tx', 40, 4, 'MR', 't2'),
+        ('ln', 0, 30, 94, 30, 'l3'), ('pt', 51.9, 30), ('pt', 26, 45), ('gd', 26, 45), ('yt', 45, 'low P')])],
+    'Price discrimination (slide 7): with MC = ATC constant, the firm sets MR = MC in each market. It charges a HIGHER price where demand is inelastic and a LOWER price where demand is elastic; total profit is larger than with one price.',
+    'দাম-বৈষম্য (স্লাইড ৭): MC = ATC স্থির ধরে ফার্ম প্রতিটি বাজারে MR = MC করে। অস্থিতিস্থাপক চাহিদার বাজারে **বেশি** দাম, স্থিতিস্থাপক বাজারে **কম** দাম নেয়; এক দামের চেয়ে মোট মুনাফা বেশি।', h=230)
+
+def mcpanel(dx, profit):
+    d = [(4 + dx, 88), (90 + dx * 0.4, 20)]
+    it = [('cu', [(10, 90), (30, 60), (50, 50), (70, 56), (92, 74)], 'l1'), ('tx', 86, 80, 'ATC', 't1'), ('ln', d[0][0], d[0][1], d[1][0], d[1][1], 'l4'), ('tx', d[1][0] - 4, 26, 'D', 't4')]
+    return it + ([('area', [(0, 66), (40, 66), (40, 52), (0, 52)], 'fl'), ('tx', 2, 70, 'profit', 't1')] if profit else [('pt', 36, 54), ('tx', 20, 42, 'P = ATC (tangent)', 't3')])
+plot2('mc_lr', [('Short run: profit', 'Q', 'P', mcpanel(10, True)), ('Long run: normal profit', 'Q', 'P', mcpanel(-6, False))],
+    'Monopolistic competition (slides 19–22): short-run economic profit attracts new firms; each firm\'s demand shifts left until it just touches ATC: P = ATC, normal profit in the long run. (Losses work in reverse: firms leave, demand shifts right.)',
+    'একচেটিয়া প্রতিযোগিতা (স্লাইড ১৯–২২): স্বল্পমেয়াদি অর্থনৈতিক মুনাফা নতুন ফার্ম টানে; প্রতিটি ফার্মের চাহিদা বাঁয়ে সরে ATC-কে শুধু ছোঁয়া পর্যন্ত: দীর্ঘমেয়াদে P = ATC, স্বাভাবিক মুনাফা। (লোকসানে উল্টো: ফার্ম চলে যায়, চাহিদা ডানে সরে।)', h=230)
+
+plot('kinked', 'Quantity', 'Price', [
+    ('ln', 4, 90, 50, 60, 'l4'), ('ln', 50, 60, 70, 10, 'l4'), ('tx', 8, 92, 'D (rivals ignore a rise: elastic)', 't4'), ('tx', 60, 20, 'D (rivals match a cut: inelastic)', 't4'),
+    ('ln', 4, 86, 50, 56, 'l2'), ('ln', 50, 30, 62, 0, 'l2'), ('ln', 50, 56, 50, 30, 'l2', True), ('tx', 52, 44, 'gap in MR', 't2'),
+    ('cu', [(30, 30), (50, 40), (64, 60)], 'l3'), ('tx', 64, 62, 'MC1', 't3'), ('cu', [(30, 38), (50, 50), (64, 70)], 'l3', True), ('tx', 64, 72, 'MC2', 't3'),
+    ('pt', 50, 60), ('gd', 50, 60), ('yt', 60, 'P (sticky)')],
+    'Kinked demand (McConnell & Brue p. 456): above the current price demand is elastic (rivals ignore increases); below it, inelastic (rivals match cuts). The kink creates a gap in MR, so MC can move (MC1 → MC2) without changing price or output: sticky prices.',
+    'বাঁকানো চাহিদা (ম্যাককনেল ও ব্রু পৃ. ৪৫৬): বর্তমান দামের ওপরে চাহিদা স্থিতিস্থাপক (দাম বাড়ালে প্রতিদ্বন্দ্বী মানে না); নিচে অস্থিতিস্থাপক (দাম কমালে প্রতিদ্বন্দ্বীও কমায়)। বাঁকে MR-এ ফাঁক তৈরি হয়, তাই MC বদলালেও (MC1 → MC2) দাম-উৎপাদন একই: অনমনীয় দাম।')
