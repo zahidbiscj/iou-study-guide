@@ -233,7 +233,7 @@ def build(n):
                     errors.append('slide %d appears twice' % s)
                 seen[s] = True
             kv = dict(keyed(b['body']))
-            for need in ('BN', 'T', 'TB'):
+            for need in ('T', 'TB'):
                 if not kv.get(need):
                     errors.append('slide %s missing %s' % (sl, need))
             for a, bb in (('E', 'EB'), ('K', 'KB')):
@@ -260,7 +260,7 @@ def build(n):
                 en += labelled('lab-E', 'Example:', kv['E'])
             if kv.get('K'):
                 en += labelled('lab-K', 'Exam tip:', kv['K'])
-            bn = '<blockquote class="slidetext"><span class="sl">স্লাইডের লেখা (বাংলা অনুবাদ)</span>%s</blockquote>' % md(kv['BN'])
+            bn = ('<blockquote class="slidetext"><span class="sl">স্লাইডের লেখা (বাংলা অনুবাদ)</span>%s</blockquote>' % md(kv['BN'])) if kv.get('BN') else ''
             bn += labelled('lab-T', 'টিউটর বুঝিয়ে বলছেন:', kv['TB'])
             if kv.get('EB'):
                 bn += labelled('lab-E', 'উদাহরণ:', kv['EB'])
@@ -269,7 +269,7 @@ def build(n):
             h = bar + '<div class="slideimgs">' + imgs + '</div>' + pair(en, bn)
             steps.append({'id': 's%02d' % first, 'k': 'slide', 't': b['t'], 'tb': b['tb'], 'sl': sl, 'h': h})
             mdout.append('### %s · %s\n*%s*\n\n> %s\n\n%s\n\n%s\n\n%s\n\n%s\n' % (
-                lab, b['t'], b['tb'], plain(txt_en).replace('\n', '\n> '), plain(md(kv['BN'])),
+                lab, b['t'], b['tb'], plain(txt_en).replace('\n', '\n> '), plain(md(kv.get('BN', ''))),
                 plain(labelled('lab-T', 'Tutor explains:', kv['T'])) + ('\n\n' + plain(labelled('', 'Example:', kv['E'])) if kv.get('E') else '') + ('\n\n' + plain(labelled('', 'Exam tip:', kv['K'])) if kv.get('K') else ''),
                 plain(labelled('lab-T', 'টিউটর বুঝিয়ে বলছেন:', kv['TB'])) + ('\n\n' + plain(labelled('', 'উদাহরণ:', kv['EB'])) if kv.get('EB') else '') + ('\n\n' + plain(labelled('', 'পরীক্ষার টিপস:', kv['KB'])) if kv.get('KB') else ''),
                 ''))
