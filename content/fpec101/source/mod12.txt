@@ -1,0 +1,125 @@
+=== Slide 1
+- PRINCIPLES OF ECONOMICSSalimah Musharrif
+- FPEC 101 – LECTURE12										Unit 2
+[pics=0 charts=0 tables=0]
+=== Slide 2
+- PRINCIPLES OF ECONOMICSProduction Costs and Market Structures
+- FPEC 101 – LECTURE 12												Unit 2
+[pics=0 charts=0 tables=0]
+=== Slide 3
+- Competition Policy and Regulation
+[pics=0 charts=0 tables=0]
+=== Slide 4
+- Outline
+- Competition Policy and Regulation
+- Anti trust Laws
+[pics=0 charts=0 tables=0]
+=== Slide 5
+- Competition Policy and Regulation
+- Antitrust policy consists of the laws and government actions designed to prevent monopoly and promote competition.
+- Industrial regulation consists of government regulation of firms’ prices (or “rates”) within selected industries.
+- Social regulation is government regulation of the conditions under which goods are produced, the physical characteristics of goods, and the impact of the production and consumption of goods on society
+[pics=0 charts=0 tables=0]
+=== Slide 6
+- The Antitrust Laws
+- Antitrust policy or antimonopoly policy created to prevent monopolization, promote competition, and achieve allocative efficiency.
+- Questionable appropriateness and effectiveness of these policies.
+- Historical Background Mc Connell & Brue pgs. 583-584
+[pics=0 charts=0 tables=0]
+=== Slide 7
+- The Antitrust Policy- Issues and impact
+- Issues of interpretation
+- Issues of enforcement by government
+- Effectiveness- Inconsistent interpretation of antitrust laws by courts
+[pics=0 charts=0 tables=0]
+=== Slide 8
+- The Antitrust Laws – Issues of interpretation
+- Mc Connell & Brue pgs. 584-585
+- Monopoly Behavior versus Monopoly Structure
+  - Courts have returned to the rule of reason
+- Relevant Market
+  - 90-60-30 rule
+  - Market share will depend on how the market is defined. If defined broadly to include a wide range of somewhat similar products, the firm’s market share will appear small. If the market is defined narrowly to exclude such products, the market share will seem large
+[pics=0 charts=0 tables=0]
+=== Slide 9
+- The Antitrust Laws – Issues of enforcement
+- Federal antitrust enforcement makes a difference in the overall degree of antitrust action in the economy.
+- Major antitrust suits often last years and are highly expensive so injured parties often look to the Federal government to initiate and litigate such cases. Once the Federal government gains a conviction, the injured parties no longer need to prove guilt and can simply sue the violator to obtain treble damages.
+- In many cases, lack of Federal antitrust action therefore means diminished legal action by firms.
+[pics=0 charts=0 tables=0]
+=== Slide 10
+- The Antitrust Laws – Issues of enforcement
+- There are two contrasting general perspectives on antitrust policy
+- Active antitrust perspectiveCompetition is insufficient in some circumstances to achieve allocative efficiency and ensure fairness to consumers and competing firms.
+- Laissez-faire perspective Antitrust intervention is largely unnecessary, particularly as it relates to monopoly.
+[pics=0 charts=0 tables=0]
+=== Slide 11
+- The Antitrust Laws – Effectiveness
+- Analyze impact on
+- MonopolyA firm will be sued by the Federal government only if it has a very high market share and there is evidence of abusive conduct in achieving, maintaining, or extending its market dominance.
+- Mergers
+  - Block horizontal mergers that substantially lessen competitionPost merger Herfindahl index  high (above 1800) Merger increased the index (added 100 or more points)Accruing of economies of scale, the degree of foreign competition, and the ease of entry of new firmsUsually allowed if one of the merging firms is suffering major and continuing losses
+  - Vertical mergers do not substantially lessen competition in either of the two markets unless large firms in highly concentrated industries
+  - Conglomerate mergers are generally permitted.
+[pics=0 charts=0 tables=0]
+=== Slide 12
+- The Antitrust Laws – Effectiveness
+- Price fixingConsidered illegal and draw strict action
+- Price discriminationRarely reduces competition, rarely challenged
+- Tying contractsProhibited particularly when practiced by dominant firms such as Kodak camera film makers requiring consumers to process their film only through Kodak.
+[pics=0 charts=0 tables=0]
+=== Slide 13
+- The Antitrust Laws – Effectiveness
+- Relatively ineffective in restricting the rise of or in breaking up monopolies or oligopolies resulting from legally undertaken internal expansions of firms.
+- Effective against predatory or abusive monopoly though hindered by slow legal process and the implementation of remedies.
+- Effective in blocking blatantly anticompetitive mergers and in identifying and prosecuting price fixing and tying contracts.
+  - Overall, moderately effective in achieving its goal of promoting competition and efficiency
+[pics=0 charts=0 tables=0]
+=== Slide 14
+- Industrial Regulation- Natural monopoly
+- Situation when there is an economic reason for an industry to be organized monopolistically- natural monopoly.
+- Alternatives for promoting better economic outcomes where Natural Monopoly exists.
+  - Public ownership
+  - Public regulation – price regulationpublic interest theory of regulation , firms able to get normal profit. Price = ATC
+[pics=0 charts=0 tables=0]
+=== Slide 15
+- Industrial Regulation- Problems
+- Costs and Inefficiency
+- Perpetuating Monopoly
+[pics=0 charts=0 tables=0]
+=== Slide 16
+- Industrial Regulation-Legal Cartel theory
+- These firms desire regulation because it yields a legal monopoly that can virtually guarantee a profit. Specifically, the regulatory commission performs such functions as blocking entry, the commission divides up the market much like an illegal cartel, may also restrict potential competition by enlarging it.
+- While private cartels are illegal and unstable and often break down, the special attraction of a government sponsored cartel under the guise of regulation is that it endures.
+[pics=0 charts=0 tables=0]
+=== Slide 17
+- Deregulation
+- Process of removing restrictions and regulations.
+- Enabled private firms to compete
+- Has yielded large annual efficiency gains for society.
+- Too soon to declare deregulation either a success or a failure.
+[pics=0 charts=0 tables=0]
+=== Slide 18
+- Social Regulation
+- Concerned with the conditions under which goods and services are produced, the impact of production on society, and the physical qualities of the goods themselves.
+- Distinguishing Features
+- The Optimal Level of Social Regulation
+  - Support of Social Regulation
+  - Criticisms of Social Regulation
+- Two Reminders
+  - There Is No Free Lunch
+  - Less Government Is Not Always Better than More
+[pics=0 charts=0 tables=0]
+=== Slide 19
+- Summary
+- Competition Policy and Regulation
+- Anti trust laws
+  - Issues of interpretation
+  - Issues of enforcement by government
+  - Effectiveness- Inconsistent interpretation of antitrust laws by courts
+- Industrial Regulation and its problems
+  - Natural Monopoly
+  - Legal Cartel Theory
+- Deregulation
+- Social Regulation
+[pics=0 charts=0 tables=0]

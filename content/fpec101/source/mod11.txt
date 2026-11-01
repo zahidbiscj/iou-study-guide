@@ -1,0 +1,198 @@
+=== Slide 1
+- PRINCIPLES OF ECONOMICSSalimah Musharrif
+- FPEC 101 – LECTURE 11										Unit 2
+[pics=0 charts=0 tables=0]
+=== Slide 2
+- PRINCIPLES OF ECONOMICSProduction Costs and Market Structures
+- FPEC 101 – LECTURE 11												Unit 2
+[pics=0 charts=0 tables=0]
+=== Slide 3
+- Market Structures- Oligopoly
+[pics=0 charts=0 tables=0]
+=== Slide 4
+- Outline
+- Oligopoly
+[pics=0 charts=0 tables=0]
+=== Slide 5
+- Oligopoly
+- A market dominated by a few large producers of a homogeneous or differentiated product. Because of their “fewness,” oligopolists have considerable control over their prices, but each must consider the possible reaction of rivals to its own pricing, output, and advertising decisions
+[pics=0 charts=0 tables=0]
+=== Slide 6
+- The Characteristics of Oligopoly
+- A Few Large Producers
+- Homogeneous or Differentiated Products thus homogeneous (usually industrial)or differentiated (usually consumer).
+- Control Over Price, but Mutual InterdependenceEach firm is a “price maker”, like the monopolist, able to set its price and output levels to maximize its profit. But since it has rivals, oligopolist must consider how they will react to any change in its price, output, product characteristics, or advertisingCharacterized by
+  - strategic behavior- taking into account the reactions of others
+  - mutual interdependence-each firm’s profit depends not entirely on its own price and sales strategies but also on those of the other firms
+[pics=0 charts=0 tables=0]
+=== Slide 7
+- The Characteristics of Oligopoly
+- Entry Barriers – same as monopolist
+  - Economies of scale
+  - High capital costs
+  - Ownership of raw materials - can prevent entry of new competitors through preemptive and retaliatory pricing and advertising strategies.
+- Mergers
+  - Two or more competing firms combining to increase market share
+  - Allows greater economies of scale.
+  - More monopoly power
+  - Larger the firm, greater the control over market supply and thus product price.
+  - Also, since it is a larger buyer of inputs, it will probably be able to demand and obtain lower prices (costs) on its production inputs.
+[pics=0 charts=0 tables=0]
+=== Slide 8
+- Measures of Industry concentration
+- Concentration ratio
+- Percentage of total output produced and sold by an industry’s largest firms with respect to total output.
+- Formula: Output of firm ÷ Total output In industry
+- Lower the ratio, lower the concentration as firms have a small market share
+- Higher in oligopoly and pure monopoly
+- Industry considered oligopolistic if four-firm concentration ratio > 40%
+- Considered monopolistically competitive if four-firm ratio is < 40%
+[pics=0 charts=0 tables=0]
+=== Slide 9
+- Measures of Industry concentration
+- Herfindahl Index
+- Sum of the squared percentage market shares of all firms in the industry
+- Formula: (%S1)2 + (%S2)2 + (%S3)2 + … + (%Sn)2 where %S1 is the percentage market share of firm 1%S2 is the percentage market share of firm 2 …..
+- Squared to give greater weight to larger and more powerful firms than smaller ones
+- In purely competitive market the index would approach zero as market shares are really small, thus small %S1
+- In a monopoly it would be 10,000 i.e. (100)2
+[pics=0 charts=0 tables=0]
+=== Slide 10
+- Oligopoly pricing models
+- Kinked-demand curve
+- Collusive pricing
+- Price leadership
+- Reasons for different models
+- Diversity of oligopolies
+- Complications of interdependence
+[pics=0 charts=0 tables=0]
+=== Slide 11
+- Oligopoly pricing models
+- Kinked-demand curve – Non collusive oligopoly
+- The kinked demand curve illustrates the interdependence of firms in an oligopoly market.
+- Match price changes
+  - If a firm decreases price, other firms will also follow resulting in a price war. Total revenue will decrease, and over time, there will be not much change in market share. The small increase in sales, would be at the expense of other industries.
+  - If firm increases price and other firms follow suit, firm will only face a small loss in terms of revenue and lost sales because other firms will match price increase. The industry will then lose sales to other industries.
+- Ignore price changes
+  - If a firm decreases its price and other firms do not follow, the firm’s sales will significantly increase at the expense of its rivals.
+  - If a firm increases price, market share falls because of the loss in quantity demanded, and this will also decrease its total revenue, as other firms will not follow suit. Sales will not fall to zero, however, as some customers may still continue to pay the higher price based on their preference for the firm’s products.
+[pics=0 charts=0 tables=0]
+=== Slide 12
+- Oligopoly pricing models
+- Kinked-demand curve – Non collusive oligopoly
+- The kinked demand curve illustrates the interdependence of firms in an oligopoly market.
+- There is a kink in the demand curve because of the elasticity of demand being different at high and low prices. Inelastic for low and elastic for high. The kink occurs when both portions of demand curves meet.
+- Any change in MC will still determine price-output combination at same level.
+- Sticky prices or price inflexibility
+[pics=0 charts=0 tables=0]
+=== Slide 13
+- Oligopoly pricing models – kinked Demand curve
+- Mc Connell & Brue pg. 456
+[pics=1 charts=0 tables=0]
+=== Slide 14
+- Chapter 9.5
+- Cartels and Collusion
+- Collusion: any agreement to fix prices, divide up the market, or otherwise restrict competition
+- Each firm acts as if it were a pure monopolist
+- If oligopolistic firms face identical or highly similar demand and cost conditions, they may collude to limit their joint output and to set a single, common price.
+[pics=0 charts=0 tables=0]
+=== Slide 15
+- Economic profit
+- Chapter 9.5
+- Q
+- D
+- MC
+- ATC
+- MR
+- P
+- MR=MC
+- Price and Costs
+- Q0
+- A0
+- P0
+- Collusion and Joint-Profit Maximization
+[pics=0 charts=0 tables=0]
+=== Slide 16
+- Cartels and Collusion
+- If prices are charged higher than rivals, firm loses out on demand and hence total revenue, especially if rivals don’t match price increase.
+- If Price is set below equilibrium by rivals, firm may retaliate by cutting its price too, but this will move all three firms down their demand curves, lowering their profits. It may even drive them to a point where average total cost exceeds price and losses are incurred.
+- Faced with the same demand and cost circumstances, each firm will find it most profitable to charge the same price.
+- To ensure the above outcomes do not occur , firms may agree to collude and set the same price to get maximum profit.
+[pics=0 charts=0 tables=0]
+=== Slide 17
+- Cartels and Collusion
+- Overt collusionCartel , a group of producers that typically creates a formal written agreement specifying how much each member will produce and charge. Output must be controlled—the market must be divided up—in order to maintain the agreed-upon price. The collusion is overt, or open to view.
+- Covert collusionWhere s Cartels are illegal, collusion that exists is covert or secret. Informal agreement to fix the prices and sales volume
+  - Tacit understandings (historically called “gentlemen’s agreements”) frequently made through informal associations and in social gatherings. A verbal agreement between competing firms on product price, leaving market shares to be decided by nonprice competition. Because they are not proper legal agreements, they are difficult to detect.
+[pics=0 charts=0 tables=0]
+=== Slide 18
+- Cartels and Collusion
+- Obstacles to Collusive pricing
+- Demand and Cost Differences lead to disagreements on price. Particularly in industries where products are differentiated and change frequently. Even with highly standardized products, firms usually have somewhat different market shares and operate with differing degrees of productive efficiency. Therefore, even if they are homogeneous oligopolists it is likely that they would not have the same demand and cost curves, thus profit-maximizing price will differ among firms and no single price will be readily acceptable to all.
+- Number of Firms the larger the number of firms, the more difficult it is to create a cartel or some other form of price collusion. Agreement is difficult to achieve when some smaller firms outside of the collusion may well be competitive.
+[pics=0 charts=0 tables=0]
+=== Slide 19
+- Cartels and Collusion
+- Obstacles to Collusive pricing
+- Cheating Collusive oligopolists may secretly engage in price cutting to increase sales and profit. When buyers paying a high price for a product become aware of the lower-priced sales, they demand the same. Some buyers receiving a price concession from one producer may use the concession as a wedge to get even larger price concessions from a rival producer. Buyers’ attempts to play producers against one another may precipitate price wars among the producers. Although secret price concessions are potentially profitable, they threaten collusive oligopolies over time. Collusion is more likely to succeed when cheating is easy to detect and punish.
+[pics=0 charts=0 tables=0]
+=== Slide 20
+- Cartels and Collusion
+- Obstacles to Collusive pricing
+- Recession Long-lasting recession results in increase average total cost. As demand decreases, revenues fall. Average total cost increases as firms face excess production capacity, and profits fall. Businesses may cut prices to minimize loss or too much profit reductions and thus gain sales at the expense of rivals
+- Potential Entry The greater prices and profits that result from collusion may attract new entrants, including foreign firms, increase market supply and reduce prices and profits, successful collusion requires that colluding oligopolists block the entry of new producers.
+- Legal Obstacles: Antitrust Law U.S. antitrust laws prohibit cartels and price-fixing collusion. So less obvious means of price control have evolved in this country
+[pics=0 charts=0 tables=0]
+=== Slide 21
+- Chapter 9.5
+- Price Leadership Model
+- Dominant firm leads the wayImplicit understanding by which oligopolists can coordinate prices without engaging in outright collusion based on formal agreements and secret meetings. Dominant firm, usually largest or most efficient in industry initiates price changes and all other firms more or less automatically follow the leader
+  - Leadership Tactics
+  - Breakdowns in Price Leadership: Price Wars
+[pics=0 charts=0 tables=0]
+=== Slide 22
+- Chapter 9.5
+- Price Leadership Model
+- Leadership tactics
+  - Infrequent Price ChangesSince price changes are risky that rivals will not follow the lead, price adjustments are made only infrequently, most likely when cost and demand conditions have been altered significantly and on an industrywide basis.
+  - CommunicationsInformal communication of need for price changes so that competitors follow the lead. Through trade publication interviews etc.
+  - Limit PricingTo discourage new competitors and maintain the current oligopolistic structure of the industry, the price leader may keep price below the short-run profit-maximizing level acting as a barrier to entry of new firms which may be inefficient or unable to charge low price.
+[pics=0 charts=0 tables=0]
+=== Slide 23
+- Chapter 9.5
+- Price Leadership Model
+- Breakdowns in price leadership: price warsMost price wars eventually run their course. When all firms recognize that low prices are severely reducing their profits, they again yield price leadership to one of the industry's leading firms. That firm then begins to raise prices, and the other firms willingly follow suit.
+[pics=0 charts=0 tables=0]
+=== Slide 24
+- Chapter 9.6
+- Oligopoly and Advertising
+- Oligopolists prefer not to compete on price so focus is on non price competition
+  - Product development and advertising preferred as it gives more permanent gains in market share and cannot be duplicated as quickly and completely as price reduction
+  - Oligopolists have sufficient financial resourcesEconomic profits earned in the past can help finance current advertising and product development.
+[pics=0 charts=0 tables=0]
+=== Slide 25
+- Chapter 9.6
+- Positive Effects of Advertising
+- Low cost source of information for consumers
+- Can diminish monopoly power
+- Introduction of new products designed to compete with existing brands.
+- Impact on oligopoly It is an inexpensive means of providing useful information to consumers, lowering their search costs. As competition is enhanced, advertising results in greater economic efficiency. This facilitates the introduction of new products, encourages technological advancements. As output increases, long-run average total cost falls enabling firms to obtain economies of scale.
+[pics=0 charts=0 tables=0]
+=== Slide 26
+- Chapter 9.6
+- Negative Effects of Advertising
+- Only persuasion, not information regarding productMay persuade consumers to pay high prices for much-acclaimed but inferior products, forgoing better but unadvertised products selling at lower prices.
+- Barrier to entryFirms with better advertising may capture greater market share, reap higher profits, in turn do even better advertising and get even greater market shares, leading to a monopolized market and disadvantage for customers of losing out on competition.
+- Self-cancelling advertisingEntails large expenditures on advertising by firm but when competitors do the same, it contributes little to stimulate demand
+[pics=0 charts=0 tables=0]
+=== Slide 27
+- SUMMARY
+- Oligopoly
+  - Characteristics
+  - Industrial concentration
+  - Pricing models
+    - Kinked-demand curve
+    - Collusive pricing
+    - Price leadership
+  - Oligopoly and advertising
+[pics=0 charts=0 tables=0]

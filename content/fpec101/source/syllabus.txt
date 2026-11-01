@@ -1,0 +1,252 @@
+FPEC101                   PRINCIPLES OF ECONOMICS
+
+1.    Module Title        Principles of Economics
+2.    Module Code         FPEC 101
+3.    Programme           B.Sc. Islamic Economics, Banking and Finance
+4.    Department          Islamic Economics, Banking and Finance
+5.    Module Credits      12
+6.    Module Level        HEQF L5
+7.    Year of Study       1
+8.    Semester            1
+9.    Module                   Term                X Semester                 Year
+      Duration                 (8 weeks)               (16 weeks)             (32 weeks)
+10.   Prerequisite(s)     None
+11.   Co-requisite(s)     None
+12.   Module Context      X Core                                  Elective
+13.   Audit Course        No
+14.   Alignment     to
+      Programme
+                              PLO         PLO         PLO         PLO        PLO           PLO
+      Learning            X          X
+                              1           2           3           4          5             6
+      Outcomes
+      (PLOs)
+15.   Mode           of        ODeL (Open, Distant, e-             Blended (online + face-to-
+                          X
+      Delivery                 Learning)                           face)
+16.   Module              This course is an introductory course to Economics and covers both
+      Description,        microeconomics and macroeconomics. The course also introduces
+      Purpose      and    students to economics and makes them appreciate the functions of
+      Aim(s)/             the economy as a whole thereby enhancing their participation in
+      Objective(s)        economic decision making. It is designed to introduce key economics
+                          concepts and techniques applicable as tools for rational economic
+                          decision-making.
+                          Aim(s)/ Objective(s)
+                          To equip students with:
+                                   How to describe the nature of the economic problem
+                                     and the categories of scarce resources
+                                   Differentiating between the economic systems in the
+                                     world.
+                                   Understanding the theories of demand and supply
+                                   Appreciate the costs of production and market
+                                     structures.
+                                   Describing government intervention and market failure.
+                                Understanding the macroeconomic side of economics
+                                 like aggregate demand, aggregate supply, inflation, and
+                                 unemployment, fiscal and monetary policies.
+                              Application of the economic perspective and to reason
+                                 accurately and objectively about economic matters.
+17.   Module          Upon completion of this module, students will be able to:
+      Learning                Understand the Economic problem of allocation and
+      Outcomes                   distribution of resources.
+                              Analyze factors that determine demand and supply
+                              Understand the concept of elasticity of demand and supply
+                              Evaluate effect of market structure on firm behavior
+                              Analyze concept of derived demand for labor and capital
+                              Analyse existence of impact of externalities
+                              Understand mechanism of Income distribution.
+18.   Module          Module Themes / Core Content:
+      Content         Basics of Economics and its categorization into Micro and Macro
+      (to be assessed Economics Economic costs, short run and long run costs, Fiscal and
+      in assessment Monetary Policy, Functions of money, Components of Money,
+      activities)     Introduction to Economic growth, exchange rates, the balance of
+                      payments
+19.   Topics of Study Unit 1
+                      Nature and Methods of Economics
+
+                       Lecture 1- Reading: Pp 4-18
+                       Definitions and concepts, Limits, alternatives and choices,
+                       production possibility curves, opportunity costs
+
+                       Lecture 2- Reading: Pp 29-41
+                       The market systems and circular flow of income
+
+                       Lecture 3- Reading: Pp 45-55, 57-61
+                       Demand and Supply analysis, Market failure and Government
+                       Intervention
+
+                       Lecture 4- Reading: Pp56, 340-348
+                       Demand and Supply analysis, Elasticity of Demand
+
+                       Lecture 5- Reading: Pp 342-345,348-351
+                       PED and Total Revenue, Elasticityof Supply, Income and Cross
+                       Elasticity
+Unit 2
+Production Costs and Market Structures
+
+Lecture 6- Reading: Pp 349,379-387
+Economic costs, short run and long run costs
+
+Lecture 7- Reading: Pp 387-396, 68-69, 586-587
+Economic costs, short run and long run costs
+
+Lecture 8- Reading: Pp 400-416
+Perfect Competition
+
+Lecture 9- Reading: Pp 424-436
+Pure Monopoly
+
+Lecture10- Reading: Pp436- 438, 445-448,
+Pure Monopoly
+Monopolistic Competition
+
+Lecture 11- Reading: 451-464
+Oligopoly
+
+Lecture 12- Reading: Pp583-595
+Competition Policy and Regulation
+
+Lecture 13- Reading: Pp 505-510,516-523
+Wage determination
+
+Lecture 14- Reading: Pp 615-621, 623-629, 659-661, 665-666
+Income inequality, poverty and discrimination
+
+Lecture 15- Reading: Pp 543-559
+Government and market failure
+Unit 3
+Macroeconomic Economic Measurement, Models and Fiscal Policy
+
+Lecture 16- Reading: Pp146-162
+Aggregate Expenditure Model, Equilibrium GDP – Basic Macro
+Economic relationships
+
+Lecture 17- Reading: Pp167- 172
+Aggregate Expenditure Model, Equilibrium GDP
+Lecture 18- Reading: Pp173-183
+Aggregate Expenditure Model, Equilibrium GDP
+
+Lecture 19- Reading: Pp188- 206
+Aggregate Demand and Aggregate Supply, Changes in Aggregate
+Demand, Changes in Aggregate Supply
+
+Lecture 20- Reading: Pp208-213
+Fiscal policy and the AD-AS Model, Fiscal Policy, Deficit and Debt
+Public Debt
+
+Lecture21- Reading: Pp213-222
+Fiscal policy and the AD-AS Model, Fiscal Policy, Deficit and Debt
+Public Debt
+Unit 4
+Money, Banking and Monetary Policy
+
+Lecture22- Reading: Pp 229-234
+Functions of money, Components of Money
+
+Lecture23- Reading: Pp 234-249
+Recent developments in money and banking, Fractional Reserve
+System,Commercial banking transactions
+
+Lecture24- Reading: Pp 249-263
+Money Creation transactions, loans and government securities,
+banking system, Monetary policy
+
+Lecture25- Reading: Pp 263-278
+Monetary policy
+Unit 5
+Economic Growth and International Economics
+
+Lecture 26 – Reading Pp 85-92, 676-681
+International Trade, Absolute advantage, comparative advantage
+
+Lecture 27 – Reading Pp 681-692, 96-99
+International Trade, Absolute advantage, comparative advantage
+
+Lecture 28 – Reading Pp 125-129, 303-317
+Introduction to Economic growth
+                        Lecture 29 – Reading Pp 92-94, 700-711
+                        Exchange rates
+
+                        Lecture 30 – Reading Pp 697-700, 711-714
+                        The balance of payments
+20.   Instructional     PowerPoint slides, Videos, Reading Material.
+      Materials
+21.   Credit Overview Type of Learning                                             Credits
+                       Disciplinary learning                                       5
+                       Fundamental learning                                        5
+                       Pedagogical learning
+                       Situational learning
+                       Practical learning                                          2
+                       Total Credits                                               12
+22.   Notional Hours Lectures & tutorials (asynchronous): 2 hours
+                                                                        32 hours   26.67 %
+      (teaching,       x 16 weeks
+      learning,        Tutorials & revision sessions (synchronous):
+      research     and 1.5-hour x 2 terms                               3 hours    2 .5%
+      assessment)      Online learning (online resources -
+                       asynchronous learning) and self-study
+                                                                        32 hours   26.67 %
+                       (guided, prescribed readings): 2 hours x 16
+                       weeks
+                       Formative assessments - unit tests
+                       (studying, revision and completion of online
+                                                                        20hours    16.7 %
+                       quizzes): 1.25-hour x 16 weeks
+
+                        Summative     assessment      -   semester
+                                                                   10 hours        8.3 %
+                        assignment (researching/drafting)
+                        Summative assessments - examinations
+                        (studying,   revision,   completion     of 23 hours        19.16 %
+                        examinations)
+                        Total                                      120 hours       100 %
+23.   Module
+                        X   Examination                      Continuous Assessment
+      Classification
+24.   Assessment        X Internal                           External
+      Moderation        Note:
+25.   Assessment                                                 Formative /
+                        Assessment Activity                                  Weight
+                                                                 Summative
+                        Unit tests (MCQ tests)                   F           15 %
+                        Research assignments (see Appendix 2 for S           15 %
+                        rubrics)
+                        Examination
+                        Mid Term Exam                              S              30%
+                        Final Term Exam                            S              40%
+                        Total                                                     100%
+26.   Envisaged         Expected average number of students per offering          50
+      Academic-to-      Lecturer(s)                                               1
+      Student Ratios
+                        Tutor(s)                                                  1
+27.   Name(s)      of   Salimah Musharrif- MA
+      Academic staff
+28.   Prescribed             1. McConnell, C. R., Brue, S. L., & Flynn, S. M. (2005).
+      Textbooks,                Economics: Principles, problems, and policies New York:
+      Readings      &           20th Edition, McGraw-Hill/Irwin, 978-1259450242
+      Reference              2. Mankiw, N. G. (2011). Study Guide for Mankiw's Principles
+      Materials                 of Macroeconomics. 7th Edition, Cengage Learning. 978-
+                                1285864259
+29.   Supplementary          1. Gregory, P. R., & Ruffin, R. (1997). Principles of economics.
+      Readings and              3rd Edition Addison-Wesley, 978-0067388822
+      Texts
+30.   Module            University of South Africa, Undergraduate studies in Economics,
+      Benchmarking /    Principles of Micro Economics and Principles of Macro Economics.
+      Module Mentor
+      (Institution)
+31.   Memoranda of         1. Bayero University, Kano (BUK)
+      Understanding
+      (MoUs)
+32.   Module            Type           Entity                 Date           Reference
+      Approval          Internal       Teaching and Learning
+                                       Committee
+                        External       External reviewer
+                        External       Professional body (if
+                                       applicable)
+                        Institutional  Senate
+                        QA       Body/ NAQAA / NCHE
+                        Accreditation
+                        Authority
+33.   Appendices            ● Appendix 1 – Senate Approval
+                            ● Appendix 2 – Rubric for Research/ Assignment Grading
+

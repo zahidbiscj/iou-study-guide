@@ -468,6 +468,15 @@ body.lang-bn .mq-en { display: none !important; }
 .fig .t1 { fill: var(--brand-2); font-weight: 700; }
 .fig .t2 { fill: var(--gold-ink); font-weight: 700; }
 .fig .t3 { fill: var(--red); font-weight: 700; }
+.fig .l4 { stroke: var(--blue); stroke-width: 2.5; fill: none; }
+.fig .t4 { fill: var(--blue); font-weight: 700; }
+.fig .fl { fill: var(--brand-2); fill-opacity: .15; stroke: none; }
+.fig .fl2 { fill: var(--gold); fill-opacity: .2; stroke: none; }
+.fig .fl3 { fill: var(--red); fill-opacity: .15; stroke: none; }
+.fig .bx { fill: var(--brand-soft); stroke: var(--brand-2); stroke-width: 1.5; }
+.fig .bx2 { fill: var(--gold-soft); stroke: var(--gold); stroke-width: 1.5; }
+.fig .tk { font-size: 10.5px; fill: var(--muted); }
+.fig .sm { font-size: 10.5px; }
 .fig figcaption { font-size: 13.5px; color: var(--muted); margin-top: 6px; line-height: 1.5; }
 .course-pick label { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 14px; flex-wrap: wrap; }
 .course-pick select { font: inherit; font-size: 14px; padding: 6px 10px; border-radius: 10px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); max-width: 100%; }
@@ -555,7 +564,7 @@ body.lang-en .bn-only-inline { display: none; }
           <a class="chooser-card" href="#subject-enes"><b>ENES 101 · English Language Studies</b><span>Midterm course: Modules 1–15, MCQ quizzes &amp; 59 study questions answered</span></a>
           <a class="chooser-card" href="#subject-bibs"><b>BIBS 101 · Introduction to Business</b><span>9 modules slide by slide with quizzes, plus 51 study questions</span></a>
           <a class="chooser-card" href="#subject-isgs"><b>ISGS 101 · Islamic Studies 1</b><span>Modules (slide by slide), assignment guide, 40-question midterm Q&amp;A</span></a>
-          <a class="chooser-card" href="#subject-fpec"><b>FPEC 101 · Principles of Economics</b><span>Final-exam step-by-step course (18 lessons) &amp; midterm Q&amp;A</span></a>
+          <a class="chooser-card" href="#subject-fpec"><b>FPEC 101 · Principles of Economics</b><span>Midterm course: Lectures 1–15 slide by slide, midterm Q&amp;A &amp; final-exam course</span></a>
         </div>
       </section>
 
@@ -589,13 +598,13 @@ body.lang-en .bn-only-inline { display: none; }
 <section id="isgsmod" class="part" data-part="isgsmod">
 <a class="back-link" href="#isgs-modules">← All modules · সব মডিউল</a>
 <h1 class="chapter mod-title"></h1><div class="chapter-bn mod-title-bn"></div>
-<div class="mod-links"><a id="modPrev" href="#">← Previous module</a><a id="modNext" href="#">Next module →</a><a id="modPdf" href="#" target="_blank" rel="noopener">Open full PDF ↗</a><button id="modRestart" type="button">↺ Start over · শুরু থেকে</button></div>
+<div class="mod-links"><a id="modPrev" class="m-prev" href="#">← Previous module</a><a id="modNext" class="m-next" href="#">Next module →</a><a id="modPdf" class="m-pdf" href="#" target="_blank" rel="noopener">Open full PDF ↗</a><button id="modRestart" class="m-restart" type="button">↺ Start over · শুরু থেকে</button></div>
 <div class="wiz-top">
-  <div class="course-pick"><label>Go to · যান <select id="modJump" aria-label="Jump to a section or slide"></select></label></div>
-  <div class="mchips" id="modChips" aria-label="Slide numbers"></div>
+  <div class="course-pick"><label>Go to · যান <select id="modJump" class="m-jump" aria-label="Jump to a section or slide"></select></label></div>
+  <div class="mchips m-chips" id="modChips" aria-label="Slide numbers"></div>
   <div class="wiz-bar"><i></i></div><div class="wiz-meta"></div>
 </div>
-<div class="mod-body" id="modBody"></div>
+<div class="mod-body m-body" id="modBody"></div>
 <div class="wiz-nav"><button class="btn mod-back" type="button">← Back · পেছনে</button><button class="btn wiz-next mod-next" type="button">Next · পরবর্তী →</button></div>
 </section>
 
@@ -1763,6 +1772,49 @@ Write the first draft without looking at this guide. Then come back and check: d
       </section>
 </div>
 <div data-subject="fpec">
+<nav class="subtabs" aria-label="FPEC 101 sections">
+  <a href="#fpec-modules" data-menu="fpecmodules fpecmod">📚 Midterm modules 1–15 · মডিউল</a>
+  <a href="#fpec-midterm" data-menu="fpecmid">📝 Midterm Q&amp;A · মিডটার্ম প্রশ্ন</a>
+  <a href="#fpec-final" data-menu="fpecfinal">🎓 Final exam course · ফাইনাল</a>
+</nav>
+<section id="fpecmodules" class="part" data-part="fpecmodules">
+<h1 class="chapter">FPEC 101 — Midterm course, slide by slide<span class="chapter-bn" style="display:block">মিডটার্ম কোর্স — লেকচার ১–১৫, স্লাইড ধরে ধরে</span></h1>
+<p>Your midterm covers <b>Lectures 1–15</b> (Unit 1: Nature and Methods of Economics, Unit 2: Production Costs and Market Structures). Each module is one lecture. It opens as a step-by-step lesson: <b>tutor's big picture → key words → every slide (slide text, Bangla translation, simple explanation, real-life example, exam tip) → graphs and numbers put together → the midterm questions it answers → 5-question quiz → summary</b>.</p>
+<p class="bn-only">তোমার মিডটার্মে আছে <b>লেকচার ১–১৫</b> (ইউনিট ১: অর্থনীতির প্রকৃতি ও পদ্ধতি, ইউনিট ২: উৎপাদন ব্যয় ও বাজার কাঠামো)। প্রতিটি মডিউল একটি লেকচার। ধাপে ধাপে খুলবে: <b>টিউটরের বড় ছবি → মূল শব্দ → প্রতিটি স্লাইড (স্লাইডের লেখা, বাংলা অনুবাদ, সহজ ব্যাখ্যা, বাস্তব উদাহরণ, পরীক্ষার টিপস) → গ্রাফ ও হিসাব একসাথে → এই মডিউল থেকে আসা মিডটার্ম প্রশ্ন → ৫ প্রশ্নের কুইজ → সারসংক্ষেপ</b>।</p>
+<div class="tip"><span class="head">How to use this · কীভাবে পড়বে</span><br>
+Do one module a day. Read every step, press <b>Next</b>, and do the quick checks. If you miss a quiz answer, read the explanation and go back to that slide. The study plan at the bottom tells you which modules give which midterm question.
+<br>দিনে একটা মডিউল করো। প্রতিটি ধাপ পড়ো, <b>Next</b> চাপো, দ্রুত যাচাইগুলো করো। কুইজে ভুল হলে ব্যাখ্যা পড়ে ওই স্লাইডে ফিরে যাও। নিচের স্টাডি প্ল্যানে আছে কোন মডিউল থেকে কোন মিডটার্ম প্রশ্ন আসে।</div>
+<div class="mgrid" id="fmodGrid"></div>
+<h2>Midterm question → module map · কোন প্রশ্ন কোন মডিউলে</h2>
+<div class="tbl"><table><thead><tr><th>Midterm question</th><th>Read module</th></tr></thead><tbody>
+<tr><td>Q1 Micro vs Macro · Q2 Positive vs Normative · Q3 Basic economic problem &amp; PPC</td><td><a href="#fpec-mod-01">Module 1</a></td></tr>
+<tr><td>Q4 Economic systems · Q5 Circular flow of income</td><td><a href="#fpec-mod-02">Module 2</a></td></tr>
+<tr><td>Q6 Laws of demand &amp; supply, movement vs shift · Q7 Equilibrium, disequilibrium &amp; government intervention</td><td><a href="#fpec-mod-03">Module 3</a> (+ <a href="#fpec-mod-04">4</a>)</td></tr>
+<tr><td>Q8 Price elasticity of demand</td><td><a href="#fpec-mod-04">Module 4</a> + <a href="#fpec-mod-05">5</a></td></tr>
+<tr><td>Q9 Price elasticity of supply · Q10 Income &amp; cross elasticity</td><td><a href="#fpec-mod-05">Module 5</a></td></tr>
+<tr><td>Q11 Economic costs &amp; profits · Q12 Short run production &amp; costs</td><td><a href="#fpec-mod-06">Module 6</a></td></tr>
+<tr><td>Q13 Long-run costs &amp; economies of scale · Q14 Business growth &amp; legal forms</td><td><a href="#fpec-mod-07">Module 7</a></td></tr>
+<tr><td>Q15 Market structures (all aspects)</td><td><a href="#fpec-mod-08">Modules 8</a>, <a href="#fpec-mod-09">9</a>, <a href="#fpec-mod-10">10</a>, <a href="#fpec-mod-11">11</a></td></tr>
+<tr><td>Q16 Anti-trust, competition policy, regulation &amp; deregulation</td><td><a href="#fpec-mod-12">Module 12</a></td></tr>
+<tr><td>Q17 Real &amp; nominal wage, productivity, wage determination, minimum wage · Q18 Why wages differ, pay for performance</td><td><a href="#fpec-mod-13">Module 13</a></td></tr>
+<tr><td>Q19 Income inequality, poverty &amp; discrimination</td><td><a href="#fpec-mod-14">Module 14</a></td></tr>
+<tr><td>Q20 Market failure &amp; government</td><td><a href="#fpec-mod-15">Module 15</a> (+ <a href="#fpec-mod-03">3</a>)</td></tr>
+</tbody></table></div>
+<p class="wiz-meta">Original slides: <code>slides/Principles of Economics (FPEC 101)/</code> · Printable notes: <code>content/fpec101/</code></p>
+</section>
+
+<section id="fpecmod" class="part" data-part="fpecmod">
+<a class="back-link" href="#fpec-modules">← All modules · সব মডিউল</a>
+<h1 class="chapter mod-title"></h1><div class="chapter-bn mod-title-bn"></div>
+<div class="mod-links"><a id="fmodPrev" class="m-prev" href="#">← Previous module</a><a id="fmodNext" class="m-next" href="#">Next module →</a><a id="fmodPdf" class="m-pdf" href="#" target="_blank" rel="noopener">Open lecture slides (PDF) ↗</a><button id="fmodRestart" class="m-restart" type="button">↺ Start over · শুরু থেকে</button></div>
+<div class="wiz-top">
+  <div class="course-pick"><label>Go to · যান <select id="fmodJump" class="m-jump" aria-label="Jump to a section or slide"></select></label></div>
+  <div class="mchips m-chips" id="fmodChips" aria-label="Slide numbers"></div>
+  <div class="wiz-bar"><i></i></div><div class="wiz-meta"></div>
+</div>
+<div class="mod-body m-body" id="fmodBody"></div>
+<div class="wiz-nav"><button class="btn mod-back" type="button">← Back · পেছনে</button><button class="btn wiz-next mod-next" type="button">Next · পরবর্তী →</button></div>
+</section>
 <section id="fpecfinal" class="part" data-part="fpecfinal">
 <div class="course" id="course">
 <a class="back-link" href="#fpec-midterm">Midterm Q&amp;A (20 questions) → · মিডটার্ম প্রশ্ন</a>
@@ -6676,6 +6728,7 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
 
 <script src="isgs/index.js" charset="utf-8"></script>
 <script src="bibs/index.js" charset="utf-8"></script>
+<script src="fpec/index.js" charset="utf-8"></script>
 <script>
 /* ISGS 101 Study Guide — script.js */
 (function () {
@@ -7258,6 +7311,9 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
   var bmods = makeMods({ key: 'bibs', ids: 'b', root: 'bibsmod', part: 'bibsmod', reg: 'BIBS_REG', list: 'BIBS_MODS',
     pdf: function (n, m) { return 'slides/Introduction%20to%20Business%20(BIBS%20101)/' + encodeURIComponent(m.pdf); },
     quizIntro: function (k) { return k + ' questions to test this whole module. Tap an answer — you get the explanation in English and Bangla. · পুরো মডিউল যাচাইয়ের ' + BNUM(k) + 'টি প্রশ্ন। উত্তরে ট্যাপ করো — ইংরেজি ও বাংলায় ব্যাখ্যা পাবে।'; } });
+  var fmods = makeMods({ key: 'fpec', ids: 'f', root: 'fpecmod', part: 'fpecmod', reg: 'FPEC_REG', list: 'FPEC_MODS',
+    pdf: function (n) { return 'slides/Principles%20of%20Economics%20(FPEC%20101)/pdf/FPEC(mod' + (n < 10 ? '0' : '') + n + ').pdf'; },
+    quizIntro: function (k) { return k + ' questions to test this whole module. Tap an answer — you get the explanation in English and Bangla. · পুরো মডিউল যাচাইয়ের ' + BNUM(k) + 'টি প্রশ্ন। উত্তরে ট্যাপ করো — ইংরেজি ও বাংলায় ব্যাখ্যা পাবে।'; } });
 
   /* ---------- Sidebar ---------- */
   var nav = $('#toc');
@@ -7291,8 +7347,14 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
   });
   nav.appendChild(tag(grid, 'isgs')); grid.setAttribute('data-part', 'midterm');
   sideHead('FPEC 101 · Menu', 'fpec');
-  sideLink('Final exam course · ফাইনাল কোর্স', '#fpec-final', 'fpec').setAttribute('data-menu', 'fpecfinal');
+  sideLink('Midterm modules 1–15 · মডিউল', '#fpec-modules', 'fpec').setAttribute('data-menu', 'fpecmodules fpecmod');
   sideLink('Midterm Q&A · মিডটার্ম', '#fpec-midterm', 'fpec').setAttribute('data-menu', 'fpecmid');
+  sideLink('Final exam course · ফাইনাল কোর্স', '#fpec-final', 'fpec').setAttribute('data-menu', 'fpecfinal');
+  sideHead('Midterm modules', 'fpec', 'fpecmodules fpecmod');
+  (window.FPEC_MODS || []).forEach(function (m) {
+    var a = sideLink('Module ' + m.n + ' · ' + m.t + (m.ready ? '' : ' (soon)'), '#fpec-mod-' + (m.n < 10 ? '0' : '') + m.n, 'fpec', 'fpecmodules fpecmod');
+    a.setAttribute('data-mod', m.n);
+  });
   sideHead('Final exam · lessons', 'fpec', 'fpecfinal');
   COURSE.forEach(function (m) {
     sideLink(m.key === 'F0' ? '0 · Start here' : m.key.slice(1) + ' · ' + m.title, '#course-' + m.key, 'fpec', 'fpecfinal').setAttribute('data-course', m.key);
@@ -7391,7 +7453,7 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
   function route() {
     var id = decodeURIComponent(location.hash.slice(1));
     var m = /^subject-(\w+)$/.exec(id);
-    if (m) { part = m[1] === 'isgs' ? 'midterm' : m[1] === 'fpec' ? 'fpecfinal' : m[1] === 'enes' ? 'enescourse' : m[1] === 'bibs' ? 'modules' : 'menu'; applySubject(m[1]); if (m[1] === 'bibs') bmods.paintGrid(); window.scrollTo(0, 0); return; }
+    if (m) { part = m[1] === 'isgs' ? 'midterm' : m[1] === 'fpec' ? 'fpecmodules' : m[1] === 'enes' ? 'enescourse' : m[1] === 'bibs' ? 'modules' : 'menu'; applySubject(m[1]); if (m[1] === 'bibs') bmods.paintGrid(); window.scrollTo(0, 0); return; }
     var me = /^enes-(course|midterm)$/.exec(id);
     if (me) { part = me[1] === 'course' ? 'enescourse' : 'enesmid'; applySubject('enes'); window.scrollTo(0, 0); return; }
     var mec = /^ecourse-(E\d+)$/.exec(id);
@@ -7403,6 +7465,9 @@ For every answer: (1) give a <b>definition</b>, (2) explain in <b>clear steps or
     if (id === 'isgs-modules') { part = 'modules'; applySubject('isgs'); mods.paintGrid(); window.scrollTo(0, 0); return; }
     var mm = /^isgs-mod-(\d+)(?:-(\w+))?$/.exec(id);
     if (mm) { part = 'isgsmod'; applySubject('isgs'); mods.open(parseInt(mm[1], 10), mm[2]); return; }
+    if (id === 'fpec-modules') { part = 'fpecmodules'; applySubject('fpec'); fmods.paintGrid(); window.scrollTo(0, 0); return; }
+    var fm = /^fpec-mod-(\d+)(?:-(\w+))?$/.exec(id);
+    if (fm) { part = 'fpecmod'; applySubject('fpec'); fmods.open(parseInt(fm[1], 10), fm[2]); return; }
     var mp = /^isgs-(assignment|midterm)$/.exec(id);
     if (mp) { part = mp[1]; applySubject('isgs'); window.scrollTo(0, 0); return; }
     var mf = /^fpec-(final|midterm)$/.exec(id);

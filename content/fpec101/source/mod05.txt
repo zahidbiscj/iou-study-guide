@@ -1,0 +1,190 @@
+=== Slide 1
+- PRINCIPLES OF ECONOMICSSalimah Musharrif
+- FPEC 101 – LECTURE 5											Unit 1
+[pics=0 charts=0 tables=0]
+=== Slide 2
+- Elasticity
+[pics=0 charts=0 tables=0]
+=== Slide 3
+- Outline
+- Elasticity of Supply
+- Income Elasticity
+- Cross Elasticity
+[pics=0 charts=0 tables=0]
+=== Slide 4
+- PRICE ELASTICITY OF SUPPLY
+- When price ↑, what happens to Supply?
+- Supply Increases
+- BUT!
+- How much does Supply Increase?
+- Eg:
+- If price rises by 10%
+- The supply will increase
+  - By more than 10%?    Or
+  - By less than 10%?
+[pics=0 charts=0 tables=0]
+=== Slide 5
+- Price Elasticity of Supply
+- “A responsive change in supply with a change in the price is called Price Elasticity of Supply (PES)”
+- If a small change in price, produce a bigger change in supply  Supply is elastic.
+- If a large change in price, produce a small change in supply  Supply is inelastic.
+[pics=0 charts=0 tables=0]
+=== Slide 6
+- PES - Formula
+- PES =
+- % change in quantity Supplied
+- % change in price
+- PES =
+- %△ Q
+- %△ P
+- PES is always Positive
+[pics=0 charts=0 tables=0]
+=== Slide 7
+- PES Formula, Calculation, Interpretation
+P | Qs
+3 | 10
+5 | 12
+- Q2-Q1/Q1
+- P2-P1/P1
+- 12-10 / 10       =  2/10   =  0.2       = 0.3 <1 Relatively inelastic
+- 5-3 / 3                 2/3           0.67
+- 0.3 x 100= 33%
+[pics=0 charts=0 tables=1]
+=== Slide 8
+- Elastic Supply
+- Price (£)
+- Quantity Supplied
+- 10
+- 5
+- 12
+- 7
+- This means that a change in price brings about a more than proportionate change in quantity supplied.
+- E>1
+- S
+- S
+[pics=0 charts=0 tables=0]
+=== Slide 9
+- Inelastic Supply
+- Price (£)
+- Quantity Supplied
+- 10
+- S
+- 5
+- 5
+- 7
+- This means that a change in price brings about a less than proportionate change in quantity supplied
+- E<1
+- S
+[pics=0 charts=0 tables=0]
+=== Slide 10
+- Elasticity of Supply
+- Supply does not change with change in price
+- Supply changes infinitely with a change in price
+- Change in Supply is same as change in price
+[NOTES] The unit elastic demand curve is a good one to use to emphasize that elasticity and slope are not equal. Have the students calculate the elasticity of supply on two linear demand curves that passes through the origin, one with a slope of 0.5 and the other with a slope of 2. They’ll get the message.
+[pics=6 charts=0 tables=0]
+=== Slide 11
+- Determinants of Elasticity of Supply
+- Industries operating below full capacityIf there are unemployed resources and factors of production can be quickly engaged to increase Supply if quantity demand increases, then supply is elastic and vice Versa.
+- If stocks held are largeIf large stocks are held or stored, supply is elastic. However when stocks have been used up it becomes inelastic.
+- Time factorThe supply of some products maybe inelastic in the short run such as the mining industry. It may become elastic in the long run. Supply is price inelastic in the short run because it can only be increased by increasing the variable factors.Supply of most goods will be inelastic at any one moment (immediately)
+- Agricultural productsIn the short run supply for agricultural products is inelastic. It may be elastic in the long run by which time the plants may have grown. Similarly supply maybe in elastic in an off-season for a plant.Some plants however take a very long time to grow such as rubber, coffee Etcetera so even in the long run the supply maybe in elastic
+[pics=0 charts=0 tables=0]
+=== Slide 12
+- Importance of Elasticity of Supply
+- If the Demand increases, a firm will know if it can meet the increased demand with/without changing prices
+  - If Supply is Elastic  Demand is met without increasing price.
+  - If Supply is Inelastic  Demand is met only with a sharp increase in price.
+[pics=0 charts=0 tables=0]
+=== Slide 13
+- ELASTICITY OF DEMAND & TOTAL REVENUE
+- TOTAL REVENUE = PRICE X QUANTITY
+- Total Revenue = Consumer expenditure
+- Perfectly Inelastic demand Simply increase price to increase Total Revenue
+- Perfectly Elastic demand If price is increased, Profit will decrease and if price is increased, the consumer will shift to another product, so to increase Total revenue, the producer should simply increase supply
+- Unitary Elasticity Since a change in price brings about a proportionate change in quantity, Total Revenue can be simply increased by increasing advertising.
+[pics=0 charts=0 tables=0]
+=== Slide 14
+- ELASTICITY OF DEMAND & TOTAL REVENUE – ELASTIC DEMAND
+[pics=0 charts=0 tables=0]
+=== Slide 15
+- ELASTICITY OF DEMAND & TOTAL REVENUE – INELASTIC DEMAND
+- Increase Price to increase TR
+[pics=0 charts=0 tables=0]
+=== Slide 16
+- THE USEFULNESS OF PRICE ELASTICITY FOR PRODUCERS
+- Firms can use price elasticity of demand (PED) estimates to predict:
+- The effect of a change in price on the total revenue & expenditure on a product.The likely price volatility in a market following unexpected changes in supply – this is important for commodity producers who may suffer big price movements from time to time.
+- The effect of a change in a government indirect tax on price and quantity demanded and also whether the business is able to pass on some or all of the tax onto the consumer.
+- Information on the price elasticity of demand can be used by a business as part of a policy of price discrimination (also known as yield management). This is where a monopoly supplier decides to charge different prices for the same product to different segments of the market e.g. peak and off peak rail travel or yield management by many of our domestic and international airlines.
+[pics=0 charts=0 tables=0]
+=== Slide 17
+- OTHER MEASURES OF ELASTICITY OF DEMAND
+- CROSS ELASTICITY OF DEMAND
+- INCOME ELASTCITY OF DEMAND
+[pics=0 charts=0 tables=0]
+=== Slide 18
+- Cross Elasticity of DemandThis measures how responsive is Qd to changes in price of other goods, i.e. if the price of good Y rises, how will it affect the Qd of good X.It is useful in finding out whether the goods are substitutes or complements
+[pics=1 charts=0 tables=0]
+=== Slide 19
+- CROSS ELASTICITY OF DEMAND - SUBSTITUTES.
+- Two goods that are substitutes have a positive cross elasticity of demand: as the price of good Y rises, the demand for good X rises
+- Example, price of Butter increases, demand of Margarine increases
+- The cross elasticity of substitute is positive and the higher the positive value, the closer the substitutes.
+[pics=0 charts=0 tables=0]
+=== Slide 20
+- CROSS ELASTICITY OF DEMAND – COMPLEMENTS
+- Two goods that complement each other show a negative cross elasticity of demand: as the price of good Y rises, the demand for good X falls
+- Example the Price of Cell Phone increases, the Demand of Sims decreases.
+- The cross elasticity of complements is negative and the lower the negative value, the closer the complements.
+[pics=0 charts=0 tables=0]
+=== Slide 21
+- CROSS ELASTICITY OF DEMAND – INDEPENDENT GOODS
+- A zero or near-zero cross elasticity
+- The two products being considered are unrelated or independent goods.
+- An example is walnuts and plums
+[pics=0 charts=0 tables=0]
+=== Slide 22
+- Cross Elasticity
+- Substitutes                                                                Complements
+- Qx
+- Qx
+- Py
+- Py
+[pics=0 charts=0 tables=0]
+=== Slide 23
+- Income Elasticity of Demand
+- Income is an important determinant of consumer demand, and YED shows precisely the extent to which changes in income lead to changes in demand. YED can be calculated using the following equation:
+[pics=1 charts=0 tables=0]
+=== Slide 24
+- Income Elasticity of Demand
+- Normal goods: As income increases, so does Qd, so Income Elasticity of Demand is positive
+- Inferior goods: As income increases, Qd decreases, so Income Elasticity of Demand is negative
+- Helps producers decide whether to increase production or not
+- Industries producing products for which demand is income-elastic have expanded their outputs.
+- Industries producing products for which income elasticity is low or negative have tended to grow less rapidly or to decline
+- Income elasticity of demand for food is relatively low, while for luxuries is high.
+[pics=0 charts=0 tables=0]
+=== Slide 25
+- Income Elasticity
+- Normal                                                                Inferior
+- Income
+- Income
+- Quantity
+- Quantity
+[pics=0 charts=0 tables=0]
+=== Slide 26
+- SUMMARY
+- Elasticity of Supply
+  - Definition
+  - Formula
+  - Interpretation
+  - Importance
+  - Determinants
+  - Diagrams
+- Cross Elasticity
+  - Substitutes
+  - Complements
+  - Independent goods
+- Income Elasticity
+[pics=0 charts=0 tables=0]

@@ -1,0 +1,175 @@
+=== Slide 1
+- PRINCIPLES OF ECONOMICSSalimah Musharrif
+- FPEC 101 – LECTURE 4											Unit 1
+[pics=0 charts=0 tables=0]
+=== Slide 2
+- Demand and Supply AnalysisElasticity
+[pics=0 charts=0 tables=0]
+=== Slide 3
+- Outline
+- Double Shifts
+- Elasticity of Demand and Supply
+[pics=0 charts=0 tables=0]
+=== Slide 4
+- DEMAND INCREASE ,SUPPLY INCREASE
+- If the increase in supply is greater than the increase in demand, the equilibrium price will fall. If the opposite holds, the equilibrium price will rise.
+- Equilibrium quantity will increase by an amount greater than that caused by either change alone.
+- E
+- E1
+[pics=0 charts=0 tables=0]
+=== Slide 5
+- DEMAND DECREASE, SUPPLY DECREASE
+- If the decrease in supply is greater than the decrease in demand, equilibrium price will rise. If the reverse is true, equilibrium price will fall.
+- Decreases in supply and in demand each reduce equilibrium quantity.
+- E
+- E1
+[pics=0 charts=0 tables=0]
+=== Slide 6
+- DEMAND INCREASE, SUPPLY DECREASE
+- Increase in equilibrium price.
+- Effect on equilibrium quantity is again indeterminate, depending on the relative sizes of the changes in supply and demand. If the decrease in supply is larger than the increase in demand, the equilibrium quantity will decrease.
+- If the increase in demand is greater than the decrease in supply, the equilibrium quantity will increase.
+- E
+- E1
+[pics=0 charts=0 tables=0]
+=== Slide 7
+- DEMAND DECREASE, SUPPLY INCREASE
+- The increase in supply increases equilibrium quantity, but the decrease in demand reduces it.
+- The direction of the change in quantity depends on the relative sizes of the changes in
+- supply and demand.
+- If the increase in supply is larger than the decrease in demand, the equilibrium quantity will increase. But if the decrease in demand is greater than the increase in supply,
+- the equilibrium quantity will decrease.
+- E
+- E1
+[pics=0 charts=0 tables=0]
+=== Slide 8
+- When price ↑, what happens to Q.d?
+- Quantity Demanded Decreases↓
+- BUT!
+- How much does demand decrease?
+- Eg:
+- If price rises by 10%
+- The demand will decrease
+  - By more than 10%?    Or
+  - By less than 10%?
+- ELASTICITY
+[pics=0 charts=0 tables=0]
+=== Slide 9
+- “Elasticity is the responsiveness of quantity to a change in price”
+- In simple terms, it is the extent to which quantity changes with a change in price.  It may also be said that it is a proportionate change in quantity due to a change in price.  It is denoted by ‘E’
+- ELASTICITY
+- PED – Price Elasticity of Demand
+- PES – Price Elasticity of Supply
+[pics=0 charts=0 tables=0]
+=== Slide 10
+- ELASTICITY
+- If a small change in price, produce a bigger change in demand  demand is elastic.
+- If a large change in price, produce a small change in demand  demand is inelastic.
+[pics=0 charts=0 tables=0]
+=== Slide 11
+- PED Formula
+- PED =
+- % change in quantity demanded of a product
+- % change in price  of that product
+- PED =
+- %△ Q
+- %△ P
+[pics=0 charts=0 tables=0]
+=== Slide 12
+- PED Formula
+- Elasticity is always expressed in a positive value or with the I  I  sign.
+- When calculated, the sign that comes in calculation simply shows the relationship between price and quantity
+- So Elasticity of demand would have a negative sign while elasticity of supply would have a positive sign
+- The final answer however is expressed as a percentage while the interpretation is made on the figure before it is multiplied by 100.
+[pics=0 charts=0 tables=0]
+=== Slide 13
+- PED Formula - Calculation
+P | Qd
+3 | 10
+5 | 7
+- Q2-Q1/Q1
+- P2-P1/P1
+- 7-10 / 10       = _ 3/10   = _   0.3       = - 0.45
+- 5-3 / 3                 2/3           0.67
+- I0.45I x 100= 45%
+[pics=0 charts=0 tables=1]
+=== Slide 14
+- PED Cases
+- There are five cases of Elasticity
+- E < 1		Relatively inelastic
+- E > 1		Relatively elastic               Normal Cases
+- E = 1		Unitary Elasticity
+- E = 0		Perfectly inelastic		Extreme Cases
+- E = ∞	Perfectly elastic
+[pics=0 charts=0 tables=0]
+=== Slide 15
+- PED Formula - Interpretation
+P | Qd
+3 | 10
+5 | 7
+- Q2-Q1/Q1
+- P2-P1/P1
+- 7-10 / 10       = _ 3/10   = _   0.3       = -0.45
+- 5-3 / 3                 2/3           0.67
+- Express _0.45 in modulus I-0.45I = 0.45 <1
+- Relatively inelastic demand
+[pics=0 charts=0 tables=1]
+=== Slide 16
+- Elastic Demand
+- Price (£)
+- Quantity Demanded
+- D
+- 10
+- 5
+- 20
+- 7
+- This means that a change in price brings about a more than proportionate change in quantity demanded.
+- E>1
+[pics=0 charts=0 tables=0]
+=== Slide 17
+- Inelastic Demand
+- Price (£)
+- Quantity Demanded
+- 10
+- D
+- 5
+- 5
+- 6
+- This means that a change in price brings about a less than proportionate change in quantity demanded
+- E<1
+[pics=0 charts=0 tables=0]
+=== Slide 18
+- Elasticity of Demand
+- Change in price brings about absolutely no change in quantity demanded.
+- This means that a change in price brings about an infinite change in quantity.  Even a small change in price will create a new demand curve and quantity demanded at the previous price would be zero
+- This means that a change in price brings about an equal or proportionate change in quantity demanded
+[NOTES] The unit elastic demand curve is a good one to use to emphasize that elasticity and slope are not equal. Have the students calculate the elasticity of supply on two linear demand curves that passes through the origin, one with a slope of 0.5 and the other with a slope of 2. They’ll get the message.
+[pics=3 charts=0 tables=0]
+=== Slide 19
+- Determinants of Elasticity of demand
+- Availability of close substitutesIf substitutes are available, demand is elastic because the consumer can shift to the other product
+- Necessity or luxury The demand for necessities is in elastic example fuel, salt.  Demand for luxuries is elastic example going on a vacation.
+- Income portion spent on commodityIf large, demand is elasticIf small, demand is in elastic as it does not form a major portion of income
+- Habit forming goods
+- Those which are addictive have inelastic demand
+- Time period
+- If long, or purchasing can be postponed there is a chance to look for substitute, so 	demand is elastic and vice Versa.
+[pics=0 charts=0 tables=0]
+=== Slide 20
+- Importance of PED
+  - If it is elastic
+    - It can decide to decrease the price, to maximize sales  maximum profit
+  - If it is inelastic
+    - It can increase the price and earn more profits
+    - Or can pass the tax to the consumer
+[pics=0 charts=0 tables=0]
+=== Slide 21
+- SUMMARY
+- Double Shifts
+- Elasticity of Demand
+  - Definition
+  - Formula
+  - Calculation
+  - Interpretation
+  - Factors / Determinants
+[pics=0 charts=0 tables=0]

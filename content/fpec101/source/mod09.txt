@@ -1,0 +1,339 @@
+=== Slide 1
+- PRINCIPLES OF ECONOMICSSalimah Musharrif
+- FPEC 101 – LECTURE 9								Unit 2
+[pics=0 charts=0 tables=0]
+=== Slide 2
+- PRINCIPLES OF ECONOMICSProduction Costs and Market Structures
+- FPEC 101 – LECTURE 9													Unit 2
+[pics=0 charts=0 tables=0]
+=== Slide 3
+- Market Structures- Monopoly
+[pics=0 charts=0 tables=0]
+=== Slide 4
+- Outline
+- Monopoly
+- Price Discrimination
+[pics=0 charts=0 tables=0]
+=== Slide 5
+- Monopoly
+- is a market structure in which one firm is the sole seller of a product or service. Since the entry of additional firms is blocked, one firm constitutes the entire industry. Because the monopolist produces a unique product, it makes no effort to differentiate its product.
+- In a pure monopoly the single firm controls the total supply of the whole industry and is able to exert a significant control over the price by changing the quantity supplied. In this way the monopoly is a price maker because it can restrict market supply to force up the market price.  This helps a monopoly to maximize its profits. These are often called abnormal or excess profits because they will be higher than if the market is competitive. However, if the monopoly wants to protect its market power and profits it must prevent new firms from entering its markets.
+- “Near-monopolies” A single firm has the bulk of sales in a specific market
+[pics=0 charts=0 tables=0]
+=== Slide 6
+- Monopoly- Features
+- Single seller - absolute
+- No close substitutes- don't want to buy, do without it
+- Monopolist is a price maker changes product price by changing quantity supplied
+- Abnormal profits
+- There are barriers to the entry of firms
+- Non price competition-Product may be either standardized or differentiated Those with Standardized products engage mainly in public relations advertising, whereas those with differentiated products sometimes advertise their products’ attributes.
+[pics=0 charts=0 tables=0]
+=== Slide 7
+- Monopoly- Barriers to entry
+- Natural monopoly If one large firm can produce and sell all of a particular product required in the market at a low average cost per product as compared to a number of smaller firms put together, this firm would be a natural monopoly. That is, ATC declines over the entire market demand.
+- Artificial monopoly This is an artificial barrier and such monopolies are created by creating their own artificial barriers to competition.
+- Natural barriers
+  - Control of supply : A firm or small group of firms may own most or all the supply of raw materials or cater to the whole market singly becoming the only supplier
+  - Economies of scale Some industries can achieve large economies of scale which small firms cannot compete with
+  - Capital size: Some industries example nuclear atomic plants need very expensive equipment which other firms cannot afford and so it forms a natural monopoly
+  - Legal considerations: it is illegal due to some government laws for firms to start businesses in the same industry example by the grant of patents or copyrights
+  - Historical Reasons A business may become a monopoly because it was the first to enter a market for a product and has an established customer base
+[pics=0 charts=0 tables=0]
+=== Slide 8
+- Economies of Scale in natural monopoly
+- Chapter 8.1
+- Quantity (millions)
+- $20
+- 15
+- 10
+- 0
+- 50
+- 100
+- 200
+- ATC
+- D
+- ATC declines over entire market demand, if
+- there is a natural monopoly, that gains economies of scale
+- Revenue/Cost
+[pics=0 charts=0 tables=0]
+=== Slide 9
+- Monopoly
+- Artificial barriers
+- Restriction on supplies: large monopoly firms can force suppliers to supply only to them otherwise threatening to no longer buying from them.
+- Predatory pricing: this is where a large firm cuts its prices to force competing firms out of the market.  It may mean losing money in the short run but once competitors have been driven out the firm may again increase prices resulting in a profit
+- Exclusive dealing : businesses that sell products made by a monopolist, rely on the monopolist for supplies.  The monopolist may threaten firms that sell its popular products to discontinue supply if products of other firms are sold. Thus it prevents competition and maintains the monopolist’s monopoly position.  Refusal to sell to shops that stock other firms’ brand of a similar product is known as exclusive dealing.
+- Full line forcing this is similar to exclusive dealing. It means a large multi product firm will only supply a retailer if they sell and stock their full range of products
+[pics=0 charts=0 tables=0]
+=== Slide 10
+- Monopoly
+- In a pure monopoly the firm and the industry are one and the same.
+- Monopoly Demand Assumptions
+  - Monopoly status secured whether through patents, resource ownership or economies of scale
+  - Not regulated by government
+  - The firm is a single-price monopolist; it charges the same price for all units of output.
+- Downward sloping Demand curve has three implications
+  - Marginal Revenue Is Less Than Price
+  - The Monopolist Is a Price Maker
+  - The Monopolist Sets Prices in the Elastic Region of Demand
+[pics=0 charts=0 tables=0]
+=== Slide 11
+- Implications- Marginal Revenue Is Less Than Price
+- The monopolist’s downward-sloping demand curve means that it can increase sales only by charging a lower price.
+- Thus MR < AR or MR < Price for every level of output except the first.
+- The lower price applies not only to the extra unit of output sold but also to all prior units of output because these could have been sold at a higher price if it had not produced and sold the extra output.
+- Each additional unit of output sold increases total revenue by an amount equal to its own price less the sum of the price cuts that apply to all prior units of output.
+[pics=0 charts=0 tables=0]
+=== Slide 12
+- Implications of downward sloping Demand curve - Marginal Revenue Is Less Than Price
+- Chapter 8.1
+- P
+- Q
+- D
+- 132
+- When price decreases
+- from $142 to $132, one
+- more unit is sold…
+- Gain = $132
+- $142
+- 1      2      3      4      5      6
+- Revenue will increase by $132
+- with the extra unit sold
+[pics=0 charts=0 tables=0]
+=== Slide 13
+- Chapter 8.1
+- 1      2      3      4      5      6
+- P
+- Q
+- D
+- but revenue loss
+- = $10 X 3 units
+- Loss = $30
+- When price decreases
+- from $142 to $132, one
+- more unit is sold
+- Gain = $132
+- Marginal revenue
+- = $132-30
+- = $102 < $132 (price)
+- MR<P
+- 132
+- $142
+- Marginal Revenue Is Less Than Price
+[pics=0 charts=0 tables=0]
+=== Slide 14
+- MR<P
+- Mc Connell & BrueFig. 22.3
+- MR curve lies below AR or Demand
+- Implies MR <P at every output quantity except first unit.
+- MR is the change in TR
+- MR is positive when TR is increasing- Elastic region
+- When TR is maximum, MR is 0
+- When TR falls, MR is negative- Inelastic region
+[pics=0 charts=0 tables=0]
+=== Slide 15
+- Implications-The Monopolist Is a Price Maker
+  - The Monopolist Is a Price Maker
+  - Where one firm controls total output, the monopolist faces a down sloping demand curve in which each output is associated with some unique price.
+  - Thus, in deciding on what volume of output to produce, the monopolist is also indirectly determining the price it will charge. Through control of output, it can “make the price
+[pics=0 charts=0 tables=0]
+=== Slide 16
+- Implications-Monopolist Sets Prices in the Elastic Region of Demand
+  - The Monopolist Sets Prices in the Elastic Region of Demand
+  - When demand is elastic, TR increases if prices are decreased, however whenit is inelastic, TR decreases when prices are decreased
+  - When TR increases with decrease in price, and MR is positive, it meansdemand is elastic in this price range.
+  - If TR decreases as prices decrease and MR is negative, it indicates that demand is inelastic in the price region.
+  - Thus a monopolist will not choose a price-quantity combination where price reductions cause TR to decrease and MR to be negative.
+  - The profit-maximizing monopolist will always want to avoid the inelastic segment of the demand curve in favor of some price-quantity combinationin the elastic region.
+  - Because, to get into the inelastic region, the monopolist must lower price and increase output. In the inelastic region a lower price means less total revenue and increased output always means increased total cost. Thus less total revenue and higher total cost yield lower profit.
+[pics=1 charts=0 tables=0]
+=== Slide 17
+- Cost Data
+- TR – TC at each possible level of production choosing the output with the greatest positive difference.
+- MC = MR Rule assuming efficient resource allocation under monopoly
+[pics=0 charts=0 tables=0]
+=== Slide 18
+- Profit Maximization by a Monopolist
+- Chapter 8.2
+- Q
+- D
+- MR
+- 200
+- 175
+- 150
+- 125
+- 100
+- 75
+- 50
+- 25
+- 0          1         2         3         4         5        6       7        8        9        10
+- P
+- MC
+- MR = MC
+[pics=0 charts=0 tables=0]
+=== Slide 19
+- Chapter 8.2
+- MC
+- $122= p
+- Q
+- D
+- MR
+- 200
+- 175
+- 150
+- 120
+- 100
+- 75
+- 50
+- 25
+- 0          1         2         3         4         5        6       7        8        9        10
+- P
+- Profit Maximization by a Monopolist
+[pics=0 charts=0 tables=0]
+=== Slide 20
+- Chapter 8.2
+- MC
+- Q
+- D = AR
+- MR
+- 200
+- 175
+- 150
+- 120
+- 100
+- 75
+- 50
+- 25
+- 0          1         2         3         4         5        6       7        8        9        10
+- P
+- ATC
+- $122= p
+- $94=ATC
+- Profit
+- Profit
+- =(P - ATC) X Q
+- =(122-94) X 5
+- =140
+- Profit Maximization by a Monopolist
+- Profit per unit
+[pics=0 charts=0 tables=0]
+=== Slide 21
+- Loss-Minimizing of a Monopolist
+- MC
+- Loss
+- z
+- Q
+- D= AR
+- MR
+- P
+- ATC
+- Qm
+- Pm
+- A
+- V
+- AVC
+- MR = MC
+- Changing tastes
+- ATC rising
+- Transfers resources to better industries if faces continued  losses in long run
+- Unit loss
+[pics=0 charts=0 tables=0]
+=== Slide 22
+- No Monopoly supply Curve
+- In a competitive market, supply curve of a firm is determined at MR = P = MC as the profit-maximizing rule. With price increase or decrease, the competitive firm produces more or less output. Thus, each market price is associated with a specific output, and all such price-output pairs define the supply curve which is the portion of the firm’s MC curve above the average-variable-cost curve.
+- The pure monopolist has no supply curve. There is no unique relationship between price and quantity supplied for a monopolist. It equates MR and MC to determine output, but for the monopolist MR < P . Because the monopolist does not equate marginal cost to price, it is possible for different demand conditions to bring about different prices for the same output.
+- There is no single, unique price associated with each output level , and so there is no supply curve for the pure monopolist
+[pics=0 charts=0 tables=0]
+=== Slide 23
+- Misconceptions Concerning Monopoly Pricing
+- Not Highest PriceThe monopolist seeks maximum profit, not highest price and so will not increase prices unless they give increased total profit
+- Total, Not Unit, Profit Monopolist accepts a lower-than-maximum per-unit profit because additional sales more than compensate for the lower unit profit. Aim is highest total profit.
+[pics=0 charts=0 tables=0]
+=== Slide 24
+- Economic effects of Monopoly- inefficiency
+- Chapter 8.3
+- Q
+- P
+- D=AR
+- Pc
+- Qc
+- S = MC
+- P=MC=minimum ATC
+- Price and output if the industry were competitive
+  - Inefficient relative to a purely competitive industry
+  - Pm > MC
+  - Pm > minimum ATC
+[pics=0 charts=0 tables=0]
+=== Slide 25
+- Q
+- P
+- D
+- MR
+- Pc
+- Qc
+- Pm
+- Qm
+- S = MC
+- Monopolist
+- will sell fewer
+- units at a
+- higher price
+- than in pure
+- competition
+- Inefficiency of Monopoly
+[pics=0 charts=0 tables=0]
+=== Slide 26
+- Economic Effects of monopoly
+- Price Output and Efficiency (Previous slides)
+- Income TransferUsing its market power, transfers income in the form of revenue from customers to the business owners. This, in effect is like a private tax levied on customers benefitting from barriers to entry for other firms and helps earn substantial profits.
+- Cost Complications
+  - Economies of scale
+  - X Inefficiency
+  - Rent seeking expenditures
+  - Technological advance
+[pics=0 charts=0 tables=0]
+=== Slide 27
+- Economic Effects of monopoly
+- Cost ComplicationsUnder pure monopoly, given identical costs, the business will charge a higher price, produce a smaller output, and allocate economic resources less efficiently than a purely competitive industry, again taking benefit from barriers to entry. However, costs may not be the same for purely competitive and monopolistic producers, being either greater or lesser, thus higher or lower unit costs.
+- This may be because of:
+  - Economies of scaleMarket demand may be low so that AC will be lower for one firm, getting economies of scale, rather than multiple firms catering to even smaller output.
+    - Simultaneous consumption
+    - Network effects
+[pics=0 charts=0 tables=0]
+=== Slide 28
+- Economic Effects of monopoly
+- Cost Complications
+  - X Inefficiency
+  - X-inefficiency occurs when a firm produces output, whatever its level, at higher 	than the lowest possible cost of producing.	This may be because managers may have goals, such as expanding power, an 	easier work life, etc or incur diseconomies of scale  that conflict with cost 	minimization.
+  - Rent seeking expendituresActivity designed to transfer income or wealth to a particular firm or resource supplier at someone else’s, or even society’s, expense. Monopolist may easily obtain an economic profit even in the long run and so would try to retain monopoly position even if through legislation or an exclusive license. Such rent-seeking expenditures do not add to firm’s output, but do increase its costs.
+[pics=0 charts=0 tables=0]
+=== Slide 29
+- Economic Effects of monopoly
+- Cost Complications
+  - Technological advanceSince there isn’t enough pressure to control prices, hence costs, technological advances would be less likely under a monopolist rather than in competitive firms.
+- To conclude, monopolies are most likely to be less cost effective and technologically advanced , or inefficient as compared to competitive markets.
+[pics=0 charts=0 tables=0]
+=== Slide 30
+- Monopoly Control & Policy Options
+- Monopoly control
+  - Alternative to product e.g. Email and Postal service
+  - Patents eventually expire
+  - Threat of future competition
+- Policy Options
+  - Anti trust lawsIf found guilty of monopoly abuse, the firm can either be expressly prohibited from engaging in certain business activities or be broken into two or more competing firms.
+  - Regulated MonopolyIf its a natural monopoly, society can allow it to continue to expand. If no competition emerges from new products, government may to regulate prices and operations
+  - Unsustainable Monopoly If the monopoly appears to be unsustainable over a long period of time, say, because of emerging new technology, society can simply choose to ignore it
+[pics=0 charts=0 tables=0]
+=== Slide 31
+- SUMMARY
+- Monopoly
+  - Definition
+  - Features
+  - Barriers
+  - Implications
+  - Cost Data
+  - Diagrams
+  - No Monopoly supply curve
+  - Economic effects
+  - Monopoly Control and policy options
+[pics=0 charts=0 tables=0]

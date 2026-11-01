@@ -1,0 +1,248 @@
+=== Slide 1
+- PRINCIPLES OF ECONOMICSSalimah Musharrif
+- FPEC 101 – LECTURE 15									Unit 2
+[pics=0 charts=0 tables=0]
+=== Slide 2
+- PRINCIPLES OF ECONOMICSProduction Costs and Market Structures
+- FPEC 101 – LECTURE 15												Unit 2
+[pics=0 charts=0 tables=0]
+=== Slide 3
+- Government and market failure
+[pics=0 charts=0 tables=0]
+=== Slide 4
+- Outline
+- Market failure
+- Optimal amount of public good
+- Government Role
+- Market based solution
+[pics=0 charts=0 tables=0]
+=== Slide 5
+- Market failure
+- Market failure  is a circumstance in which private markets do not bring about the allocation of resources that best satisfies society’s wants. Where private markets fail, an economic role for government may arise.
+- Market failure occurs when the market price of a good does not include the costs or benefits of the externality (a harmful or beneficial side effect that occurs in the production, consumption, or distribution of a particular good).
+- Thus, need for government intervention in markets where some form of market failure is taking place. Government can justify this by saying that intervention is in the public interest. Basically market failure occurs when markets do not bring about economic efficiency.
+- In simple terms, the market may not always allocate scarce resources efficiently in a way that achieves the highest total social welfare.
+[pics=0 charts=0 tables=0]
+=== Slide 6
+- Market failure
+- Market failure could be in the following forms
+- Under provision of public goods
+- Merit and Demerit goods
+- Externalities
+- Monopoly
+- Inadequate information
+- Factor immobility
+[pics=0 charts=0 tables=0]
+=== Slide 7
+- Public goods vs private goods
+- Private Goods Characteristics
+- Rivalry (in consumption) means that when one person buys and consumes a product, it is not available for another person to buy and consume
+- Excludability means that sellers can keep people who do not pay for a product from obtaining its benefits. Only people who are willing and able to pay the market price can obtain the product and benefit from it.
+- Consumers demand private goods, and profit-seeking suppliers produce them.
+- Consumers willing to pay the market price obtain the goods; nonpayers go without it.
+- A competitive market not only makes private goods available to consumers but also allocates society’s resources efficiently to the particular product.
+- There is neither underproduction nor overproduction of the product
+[pics=0 charts=0 tables=0]
+=== Slide 8
+- Public goods vs private goods
+- Public Goods Characteristic
+- Nonrivalry (in consumption) means that one person’s consumption of a good does not preclude consumption of the good by others. Everyone can simultaneously obtain the benefit from a public good such as national defense, street lighting, a global positioning system, or environmental protection.
+- Nonexcludability means there is no effective way of excluding individuals from the benefit of the good once it comes into existence. Once in place, you cannot exclude someone from benefiting from it.
+- These give rise to the problem of free-rider. Once a producer has provided a public good, everyone including nonpayers can obtain the benefit
+- The free rider problem occurs because the demand for the public good does not get expressed in the market, therefore, it is not produced by private producers and the government has to provide it. Government can finance the provision of such goods through taxation
+[pics=0 charts=0 tables=0]
+=== Slide 9
+- P
+- Q
+- 7
+- 5
+- 3
+- 1
+- 0       1       2       3       4       5
+- The good’s marginal cost as shown by S
+- DC
+- S
+- The Optimal Amount of a Public Good
+- Optimum amount
+- Marginal Benefit = Marginal Cost
+- MB = MC
+[pics=0 charts=0 tables=0]
+=== Slide 10
+- Optimal quantity of Public good
+- Demand for the public good – Marginal benefit
+- Due to law of diminishing marginal utility successive units of any good yield less and less added benefit. Thus downward sloping
+- Shown through a willingness-to-pay schedule.Instead of adding, quantities demanded at each possible price, we add the prices that people are willing to pay for the last unit of the public good at each possible quantity demanded.
+- Individual demand curves in the diagrams can be added vertically to get the collective demand for public good
+- Supply for the public good- Marginal Cost
+- The supply curve for any good, private or public, is its marginal-cost (MC) curve. Marginal cost rises as more of a good is produced. The reason is the law of diminishing returns.
+[pics=0 charts=0 tables=0]
+=== Slide 11
+- P
+- Q
+- 7
+- 5
+- 3
+- 1
+- 0       1       2       3       4       5
+- A’s
+- willingness
+- to pay
+- Optimal Amount of a Public Good
+- B’s
+- willingness
+- to pay
+- When vertically
+- added equals
+- collective
+- willingness
+- to pay
+- DC
+[pics=0 charts=0 tables=0]
+=== Slide 12
+- Cost Benefit Analysis
+- Due  to scarcity, using more resources in the public sector will mean fewer resources for the private sector- opportunity cost, as well as a benefit.
+- The cost is the loss of satisfaction resulting from the decrease in the production of private goods
+- The benefit is the extra satisfaction resulting from the output of more public goods.
+- Should the needed resources be shifted from the private to the public sector?
+- The answer is yes if the benefit from the extra public goods exceeds the cost that results from having fewer private goods. MB>MC
+- The answer is no if the cost of the forgone private goods is greater than the benefit associated with the extra public goods.MC > MB
+[pics=0 charts=0 tables=0]
+=== Slide 13
+- Merit vs Demerit goods
+- Merit good: A good which is socially desirable but would be underprovided/ under-consumed if left to the market mechanism – People lack information about the full private benefits that they derive from consuming them, consequently they do not allocate enough resources (i.e. money) to their consumption
+- Demerit goods: – A good which is socially undesirable but would be overprovided/ over-consumed if left to the market mechanism – People lack information about the full private costs associated with consuming them (usually long term)
+[pics=0 charts=0 tables=0]
+=== Slide 14
+- Externalities
+- Spillover effect
+- A cost or a benefit accruing to an individual or group—a third party—not directly involved with the act
+- Externalities of consumption and production
+- Negative externalities – external cost- overproduction and overallocation of resources to the product.
+- Positive externalities- external benefit - underproduction and underallocation of resources
+- Social cost = private cost + external cost
+- Negative externality in production = social cost (MSC) > private cost(MPC)Negative externality in consumption = private benefit (MPB) > social benefit (MSB)
+- Positive externality in production = MSC < MPCPositive externality in consumption = social benefit > private benefit
+[pics=0 charts=0 tables=0]
+=== Slide 15
+- Externalities
+- Negative Externalities
+- When producers shift some of their costs onto the community as external costs, producers’ marginal costs are lower than otherwise. So their supply curves do not include or “capture” all the costs legitimately associated with the production of their goods.
+- Equilibrium output Qe is larger than the optimal output Qo.
+- Resources are overallocated to the production of this commodity; too many units of it are produced.
+[pics=1 charts=0 tables=0]
+=== Slide 16
+- Externalities
+- Positive Externalities
+- D does not include the external benefits of the product, whereas Dt does.
+- The outcome is that the equilibrium output Qe is less than the optimal output Qo.
+- Resources are underallocated to this product.
+[pics=1 charts=0 tables=0]
+=== Slide 17
+- Correcting Negative externalities
+- Negative externalities result in an overallocation of resources.
+- Government can correct this overallocation in two ways: 1) using direct controls, which would shift the supply curve from S to St and reduce output from Q e to Q o2) imposing a specific tax T, which would also shift the supply curve from S to St , eliminating the overallocation of resources.
+[pics=0 charts=0 tables=0]
+=== Slide 18
+- Correcting Positive externalities
+- Positive externalities result in an underallocation of resources.
+- This underallocation can be corrected through a subsidy to consumers, which shifts market demand from D to Dt and increases output from Qe to Qo.
+- Alternatively, the underallocation can be eliminated by providing producers with a subsidy of U , which shifts their supply curve from St to St’ , increasing output from Qe to Qo .
+[pics=0 charts=0 tables=0]
+=== Slide 19
+- Monopoly
+- Power over pricing decisions i.e. price maker
+- Less incentive to keep costs low
+- Few or no substitutes - can restrict consumer choice e.g. limiting number of retailers who sell the good
+- High barriers to entry/exit
+[pics=0 charts=0 tables=0]
+=== Slide 20
+- Lack of adequate information- Asymmetric Information
+- Market failure may also result from the lack of appropriate information among the buyers or sellers. This means that the price of demand or supply does not reflect all the benefits or opportunity cost of a good. The lack of information on the buyer’s side may mean that the buyer may be willing to pay a higher or lower price for the product because they don’t know its actual benefits.
+- On the other hand, inadequate information on the seller’s side may mean that they may be willing to accept a higher or lower price for the product than the actual opportunity cost of producing it.
+- One party in a transaction (either the ‘buyer’ or the ‘seller’) has access to more information than the other, leading to a ‘misallocation of resources.
+- When one party has more information than the other, this often leads to ‘adverse selection’ (the uninformed often ends up paying too high or too low a price for the good/ service)
+[pics=0 charts=0 tables=0]
+=== Slide 21
+- Factor immobility
+- Occupational - lack of skill (& knowledge) to perform other jobs e.g. shipbuilders trying to perform IT jobs –
+- Geographical - financial cost (mortgages etc)/ family
+- Both ‘market failure’ - workers are under-utilised
+[pics=0 charts=0 tables=0]
+=== Slide 22
+- Non Government intervention- Correction
+- Individual bargaining-  Coase Theorem
+- Government is not needed to remedy external costs or benefits where
+  - Property ownership is clearly defined
+  - The number of people involved is small
+  - Bargaining costs are negligible.
+- Under these circumstances the government should confine its role to encouraging bargaining between affected individuals or groups
+- Unfortunately, many externalities involve large numbers of affected parties, high bargaining costs, and community property such as air and water. In such situations private bargaining cannot be used as a remedy
+- Clearly defined property rights and government liability laws help remedy some externality problems.
+  - Directly by forcing the perpetrator of the harmful externality to pay damages to those injured
+  - Indirectly by discouraging firms and individuals from generating negative externalities for fear of being sued.
+[pics=0 charts=0 tables=0]
+=== Slide 23
+- Government intervention-Direct Controls
+- Legislation limiting that activity. Such direct controls force the offending firms to incur the actual costs of the offending activity. Historically, direct controls in the form of uniform emission standards—limits on allowable pollution
+- Direct controls raise the marginal cost of production because the firms must operate and maintain pollution control equipment
+- The equilibrium price rises, and the equilibrium output declines
+- Overallocation of resources is corrected
+[pics=0 charts=0 tables=0]
+=== Slide 24
+- Government intervention-Specific taxes
+- Manufacturers must decide whether to pay the tax or expend additional funds to purchase or develop substitute products.
+- Tax raises the marginal cost of producing shifting the private supply curve for this product leftward
+- The equilibrium price rises, and the equilibrium output declines
+- Tax eliminates the initial overallocation of resources
+[pics=0 charts=0 tables=0]
+=== Slide 25
+- Government intervention-Subsidies & government provision
+- Subsidy to Producer
+  - Increased supply
+  - Reduced marginal cost
+  - Increased output
+  - Under allocation eliminated
+- Subsidy to consumer
+  - Increased demand
+  - Reduced price
+  - Increased output
+  - Under allocation eliminated
+- Direct provision
+  - Directly provide the product as a public good.
+[pics=0 charts=0 tables=0]
+=== Slide 26
+- Market-Based Approach to Negative Externalities
+- Pollution permits
+- Fixed limit to pollute
+- If there was no permit. Pollution would be much higher and be a full unpaid cost to society
+- With permit, cost of permit increases as demand for pollution increases (with increased need of production) .
+- Cost to society internalized by firm
+- Firms can trade permits, but each permit has only a perfectly inelastic supply of pollution rights (permits)
+[pics=0 charts=0 tables=0]
+=== Slide 27
+- SUMMARY
+- Market failure
+- Public goods vs private goods
+  - Optimal amount of public good
+  - Demand
+  - Supply
+  - Cost Benefit Analysis
+- Merit goods
+  - Under consumption and provision
+- Demerit goods
+  - Over consumed and provided
+- Externalities
+  - Negative
+  - Positive
+  - Correction
+- Monopoly
+- Information failure
+- Factor immobility
+- Non Government Intervention
+  - Individual bargaining- Coase Theorem
+- Government Intervention
+  - Direct Controls
+  - Specific taxes
+  - Subsidies and government provision
+- Market Based Approach to negative externalities
+[pics=0 charts=0 tables=0]

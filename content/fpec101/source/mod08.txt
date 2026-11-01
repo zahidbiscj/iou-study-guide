@@ -1,0 +1,383 @@
+=== Slide 1
+- PRINCIPLES OF ECONOMICSSalimah Musharrif
+- FPEC 101 – LECTURE 8									Unit 2
+[pics=0 charts=0 tables=0]
+=== Slide 2
+- PRINCIPLES OF ECONOMICSProduction Costs and Market Structures
+- FPEC 101 – LECTURE 8													Unit 2
+[pics=0 charts=0 tables=0]
+=== Slide 3
+- Market Structures- Perfect Competition
+[pics=0 charts=0 tables=0]
+=== Slide 4
+- Outline
+- Market Structures
+- Perfect Competition
+[pics=0 charts=0 tables=0]
+=== Slide 5
+- Market Structures
+- A market structure describes how the market is organized in terms of how much competition there is, usually on the supply side.
+- The amount of competition in a market may be examined by the following:
+- The amount of control the firm or a group of firms has over the market supply or output
+- The influence a firm or a group of firms has over the market  price
+- The freedom new suppliers have to enter a market
+- Barriers to entry that restrict competition
+[pics=0 charts=0 tables=0]
+=== Slide 6
+- Market Structures
+- Pure competition involves a very large number of firms producing a standardized product (that is, a product identical to that of other producers, such as corn or cucumbers). New firms can enter or exit the industry very easily.
+- Pure monopoly is a market structure in which one firm is the sole seller of a product or service (for example, a local electric utility). Since the entry of additional firms is blocked, one firm constitutes the entire industry. Because the monopolist produces a unique product, it makes no effort to differentiate its product.
+[pics=0 charts=0 tables=0]
+=== Slide 7
+- Market Structures
+- Monopolistic competition is characterized by a relatively large number of sellers producing differentiated products (clothing, furniture, books). There is widespread nonprice competition, a selling strategy in which one firm tries to distinguish its product or service from all competing products on the basis of attributes like design and workmanship (an approach called product differentiation). Either entry to or exit from monopolistically competitive industries is quite easy.
+- Oligopoly involves only a few sellers of a standardized or differentiated product; so each firm is affected by the decisions of its rivals and must take those decisions into account in determining its own price and output.
+[pics=0 charts=0 tables=0]
+=== Slide 8
+- Perfect Competition
+- Perfect competition is defined as “a market structure in which the decisions of buyers and sellers have no effect on the market price”. There are a large number of buyers and sellers producing standardized products.
+- Under the structure firms are encouraged to make the best possible use of resources and in order to make profit, to give consumers the best value for money.
+[pics=0 charts=0 tables=0]
+=== Slide 9
+- Perfect Competition - Features
+- All firms produce the same standardized product, so no buyer has any preference for any product)
+- The firm is a price taker (No buyer or seller can influence the price.  They have to accept the price given by the industry and so are price takers)
+- There’s free mobility of all resources (there’s no restriction on the movement of factors of production and production can be easy increased)
+- There’s free entry and exit of all firms (no barriers to firms joining in to produce a product the other firms are receiving a profit in, or to leave if they face a loss)
+- There is perfect knowledge about prices [All buyers know everything about the prices and products on sale while all sellers know everything about the latest production techniques and other competitors)
+- There are no barriers to the movement of buyers from one seller to another
+- An example of perfect competition, though not perfect, is wheat production. There is perfect knowledge among producers but none of them can affect the price.
+[pics=0 charts=0 tables=0]
+=== Slide 10
+- Perfect Competition
+- The demand schedule faced by the individual firm in a purely competitive industry is perfectly elastic at the market.
+- Market demand graphs as a downward sloping curve. An entire industry (all firms producing a particular product) can affect price by changing industry output. For example, all firms, acting independently but simultaneously, can increase price by reducing output.
+- But the individual competitive firm cannot do that
+[pics=0 charts=0 tables=0]
+=== Slide 11
+- Perfect Competition
+Price | Quantity Demanded | Total Revenue | Average Revenue | Marginal Revenue
+5 | 1 | 5 | 5 | -
+5 | 2 | 10 | 5 | 5
+5 | 3 | 15 | 5 | 5
+5 | 4 | 20 | 5 | 5
+5 | 5 | 25 | 5 | 5
+[pics=2 charts=0 tables=1]
+=== Slide 12
+- Profit Maximization in the Short Run
+- A purely competitive firm can maximize its profit (minimize its loss) only by adjusting output
+- Two Approaches:
+- total revenue-total cost approach
+- marginal revenue-marginal cost approach
+[pics=0 charts=0 tables=0]
+=== Slide 13
+- TC
+- TR
+- TR
+- Maximum economic profit
+- Break-even point (normal profit)
+- Break-even point
+- TR, TC Approach
+- Profit = TR – TC
+- BE = TR=TC
+- TR = PxQ
+- TC = Cost x Q
+- Maximum profit where vertical distance between TR and TC curves is greatest
+[pics=0 charts=0 tables=0]
+=== Slide 14
+  - Short Run Profit Maximization- MC, MR Approach
+- A firm shall continue production rather than shutting down as long as MR>MC
+- Profit maximization or loss minimization is where MC = MR or Price = MC since P=AR=MR
+- If marginal revenue does not equal or exceed average variable cost, the firm will shut down rather than produce the MR =MC output
+- The firm will produce so that it gets greatest amount of total profit, not its per-unit profit.
+- In the short run, firms may earn supernormal profit or an abnormal profit, which means average revenue is>average total cost.
+- In short, profit is maximized, or loss minimized, at the output at which marginal revenue (or price in pure competition) equals marginal cost, provided that price exceeds average variable cost.
+[pics=0 charts=0 tables=0]
+=== Slide 15
+- Perfect Competition – Loss Minimization
+- These occur when the firm’s costs are not met. The firm continues to run in the short run if its variable costs are being met because perhaps in the long run the fixed costs will be covered. So average avenue is greater than Average variable cost, but average revenue is less than average total cost
+- Why do firms under perfect competition continue to produce under a no profit, no loss situation?
+- When profits are equalized in the short run a firm under perfect competition will continue to produce because it may not be making a monetary profit or the accountants profit but profit in terms of opportunity cost is much greater, example at if it shuts down it will have to cover both fixed and variable costs but by continuing production it covers its variable cost and at least some part of the fixed cost
+[pics=0 charts=0 tables=0]
+=== Slide 16
+- Short Run Profit
+- Cost and Revenue
+- Q                         Output
+- MC
+- MC = MR
+- P=AR=MR
+- ATC
+- Economic Profit
+- Output where MR =MC
+- Profit as ATC is less than P=AR=MR
+[pics=0 charts=0 tables=0]
+=== Slide 17
+- Short Run Loss
+- Cost and Revenue
+- Q                         Output
+- MC
+- MC = MR
+- P=AR=MR
+- ATC
+- Loss
+- Output where MR =MC
+- Loss as ATC is more than P=AR=MR
+- AVC is less than AR so no shutdown
+- AVC
+[pics=0 charts=0 tables=0]
+=== Slide 18
+- Short Run Shutdown
+- Cost and Revenue
+- Q                         Output
+- MC
+- P=AR=MR
+- ATC
+- Shutdown as AVC is more than AR
+- AVC
+[pics=0 charts=0 tables=0]
+=== Slide 19
+- P
+- Q
+- MC
+- ATC
+- Costs and revenues (dollars)
+- P3
+- MR3
+- Q3
+- AVC
+- Marginal Cost and Short-Run Supply
+[pics=0 charts=0 tables=0]
+=== Slide 20
+- P
+- Q
+- MC
+- ATC
+- MR2
+- MR3
+- P2
+- P3
+- Q2
+- Q3
+- At a lower price
+- a lower quantity
+- will be supplied
+- Costs and revenues (dollars)
+- AVC
+- Marginal Cost and Short-Run Supply
+[pics=0 charts=0 tables=0]
+=== Slide 21
+- P
+- Q
+- MC
+- ATC
+- MR2
+- MR3
+- MR4
+- P2
+- P3
+- P4
+- Q3
+- Q4
+- At a higher price
+- a higher quantity
+- will be supplied
+- Q2
+- Costs and revenues (dollars)
+- AVC
+- Marginal Cost and Short-Run Supply
+[pics=0 charts=0 tables=0]
+=== Slide 22
+- Q
+- P
+- P1
+- MC
+- MR1
+- AVC
+- ATC
+- MR2
+- MR3
+- MR4
+- MR5
+- P2
+- P3
+- P4
+- P5
+- Q2
+- Q3
+- Q4
+- Q5
+- Firm should not
+- produce
+- below P2
+- Costs and revenues (dollars)
+- Marginal Cost and Short-Run Supply
+[pics=0 charts=0 tables=0]
+=== Slide 23
+- Q
+- P
+- P1
+- MC
+- MR1
+- AVC
+- ATC
+- MR2
+- MR3
+- MR4
+- MR5
+- P2
+- P3
+- P4
+- P5
+- Q2
+- Q3
+- Q4
+- Q5
+- Costs and revenues (dollars)
+- Short-run
+- supply curve
+- (Above AVC)
+- Marginal Cost and Short-Run Supply
+[NOTES] Quantity supplied would be zero at any price below the minimum average variable cost (AVC).
+[pics=0 charts=0 tables=0]
+=== Slide 24
+- Profit Maximization – Long Run
+- Assumptions
+- Free Entry and exit  of firms.
+- Identical costs All firms in industry are similarly affected by any long-run adjustments that occur.
+- Constant-cost industry Entry and exit of firms does not affect resource prices or, consequently, the locations of the average-total-cost curves of individual firms.
+- In the long run firm only earns normal profit. This means it is a no profit or no loss situation or the firm’s average total costs are met. That is, average revenue is >Average total cost.
+- Supernormal profit does not exist in the long run because there are no barriers to the entry and exit of firms.  Firms earning a supernormal profit attract other firms in the industry so that the total supply in the market increases and profit decreases.
+- Under subnormal or abnormal losses as losses accrue some of the firm’s leave the industry which decreases supply and increases prices so that costs are covered.
+[pics=0 charts=0 tables=0]
+=== Slide 25
+- P
+- Q
+- MC
+- P
+- Q
+- S1
+- Industry
+- 1000 firms
+- Firm
+- (price taker)
+- ATC
+- MR
+- $60
+- $50
+- $40
+- 100
+- $60
+- $50
+- $40
+- 100,000
+- D1
+- Entry Eliminates Economic Profits
+- D2
+- Economic Profits
+- Demand increases
+[pics=0 charts=0 tables=0]
+=== Slide 26
+- P
+- Q
+- MC
+- P
+- Q
+- D1
+- S1
+- ATC
+- MR
+- $60
+- $50
+- $40
+- 100
+- $60
+- $50
+- $40
+- D2
+- 100,000
+- S2
+- Industry
+- 110,000 firms
+- Firm
+- (price taker)
+- Entry Eliminates Economic Profits
+- 110,000
+- New Equilibrium with more firms
+- new firms enter, S increases, P falls
+[pics=0 charts=0 tables=0]
+=== Slide 27
+- P
+- Q
+- MC
+- P
+- Q
+- D1
+- S1
+- ATC
+- MR
+- $60
+- $50
+- $40
+- 100
+- $60
+- $50
+- $40
+- 100,000
+- Industry
+- 1000 firms
+- Firm
+- (price taker)
+- Exit Eliminates Losses
+- If product demand decreases...
+- D2
+- Economic Loss
+[pics=0 charts=0 tables=0]
+=== Slide 28
+- P
+- Q
+- MC
+- P
+- Q
+- D1
+- S1
+- ATC
+- MR
+- $60
+- $50
+- $40
+- 100
+- 90,000
+- D2
+- S3
+- 100,000
+- $60
+- $50
+- $40
+- Industry
+- 90,000 firms
+- Firm
+- (price taker)
+- firms exit, S decreases, P increases
+- Exit Eliminates Losses
+- New equilibrium with fewer firms
+[pics=0 charts=0 tables=0]
+=== Slide 29
+- Long Run- Constant, increasing and decreasing cost
+- The long-run supply curve for a constant-cost industry is horizontal because the entry or exit of firms does not affect resource prices or, therefore, unit costs. An increase in demand causes an increase in industry’s output without a change in price and vice versa.
+- In an increasing-cost industry the entry of new firms in response to an increase in demand will bid up resource prices and thereby increase unit costs. Thus there is an increased industry output but at higher prices.
+- In decreasing cost industry, the firm’s AC curves shift downward, and the market price of the product falls. The lower price and the lower AC of production induce a new long-run equilibrium with more firms, a lower price and more output. Thus, in a decreasing-cost industry, the long-run supply curve is downward-sloping. Also because expansion itself lowers input prices or firms can use scale economies to produce at lower cost.
+[pics=0 charts=0 tables=0]
+=== Slide 30
+- SUMMARY
+- Market Structures
+- Perfect Competition
+  - Definition
+  - Features
+  - Short Run Profit Maximization
+    - TR TC approach
+    - MR, MC Approach
+  - Long Run Approach
+    - Profit
+    - Loss
+    - Shutdown
+[pics=0 charts=0 tables=0]

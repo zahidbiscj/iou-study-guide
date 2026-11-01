@@ -1,0 +1,319 @@
+=== Slide 1
+- PRINCIPLES OF ECONOMICSSalimah Musharrif
+- FPEC 101 – LECTURE 7 															Unit 2
+[pics=0 charts=0 tables=0]
+=== Slide 2
+- PRINCIPLES OF ECONOMICSProduction Costs and Market Structures
+- FPEC 101 – LECTURE 7														Unit 2
+[pics=0 charts=0 tables=0]
+=== Slide 3
+- Lecture OutlineEconomic, Short and Long Run costs
+- Short Run and Long run Costs
+- Legal Forms of Business
+- Growth of Firms
+[pics=0 charts=0 tables=0]
+=== Slide 4
+- Short Run Costs- Average Costs
+- Mc Connell & Brue pg. 388
+- MC cuts ATC and AVC at minimum.
+- When MC is below ATC, ATC falls
+- When MC is above ATC, ATC rises.
+- Similarly, when MC is below AVC,AVC falls.
+- When MC is above AVC, AVC rises.
+[pics=0 charts=0 tables=0]
+=== Slide 5
+- Short Run Costs- Relation of MC to AVC and ATC
+- MC intersects cuts the AVC and the ATC curves at their minimum points.
+- When MC is added to total cost is less than the current average total cost, ATC will fall and vice versa.
+- As long as MC lies below ATC, ATC will fall, and whenever MC lies above ATC, ATC will rise.
+- Where MC equals ATC, ATC is constant and thus is the minimum point on the ATC curve.
+- MC cuts ATC at ATC curve’s minimum point
+- With the same logic MC curve cuts AVC at AVCs minimum’.
+- No such relationship exists between the MC curve and the average-fixed-cost curve, because the two are not related; marginal cost includes only those costs that change with output.
+[pics=0 charts=0 tables=0]
+=== Slide 6
+- Relation between productivity and cost curves
+- MC and AVC are mirror images of the MP and AP curves.
+- Assuming labor as only variable input and constant wage rate. when MP is rising, MC is falling, and when MP is falling, MC is rising.
+- Under the same assumptions, when AP is rising, AVC is falling, and when AP is falling, AVC is rising
+[pics=0 charts=0 tables=0]
+=== Slide 7
+- Chapter 6.4
+ |  |  |  |  |  |  | 
+ |  |  |  |  |  |  | 
+ | 100 |  |  |  |  |  | 
+ | 100 |  |  |  |  |  | 
+ | 100 |  |  |  |  |  | 
+ | 100 |  |  |  |  |  | 
+ | 100 |  |  |  |  |  | 
+ | 100 |  |  |  |  |  | 
+ | 100 |  |  |  |  |  | 
+ | 100 |  |  |  |  |  | 
+ | 100 |  |  |  |  |  | 
+ | 100 |  |  |  |  |  | 
+- 100
+Q | TFC | TVC | TC | AFC | AVC | ATC | MC
+0 |  |  |  |  |  |  | 
+1 |  |  |  |  |  |  | 
+2 |  |  |  |  |  |  | 
+3 |  |  |  |  |  |  | 
+4 |  |  |  |  |  |  | 
+5 |  |  |  |  |  |  | 
+6 |  |  |  |  |  |  | 
+7 |  |  |  |  |  |  | 
+8 |  |  |  |  |  |  | 
+9 |  |  |  |  |  |  | 
+10 |  |  |  |  |  |  | 
+ |  |  |  |  |  |  | 
+ | 100 | 0 |  |  |  |  | 
+ |  | 90 |  |  |  |  | 
+ |  | 170 |  |  |  |  | 
+ |  | 240 |  |  |  |  | 
+ |  | 300 |  |  |  |  | 
+ |  | 370 |  |  |  |  | 
+ |  | 450 |  |  |  |  | 
+ |  | 540 |  |  |  |  | 
+ |  | 650 |  |  |  |  | 
+ |  | 780 |  |  |  |  | 
+ |  | 930 |  |  |  |  | 
+- 100
+- 190
+- 270
+- 340
+- 400
+- 470
+- 550
+- 640
+- 750
+- 880
+- 1030
+[pics=0 charts=0 tables=3]
+=== Slide 8
+- Chapter 6.4
+Q | TFC | TVC | TC | AFC | AVC | ATC | MC
+0 | 100 | 0 |  |  |  |  | 
+1 | 100 | 90 |  |  |  |  | 
+2 | 100 | 170 |  |  |  |  | 
+3 | 100 | 240 |  |  |  |  | 
+4 | 100 | 300 |  |  |  |  | 
+5 | 100 | 370 |  |  |  |  | 
+6 | 100 | 450 |  |  |  |  | 
+7 | 100 | 540 |  |  |  |  | 
+8 | 100 | 650 |  |  |  |  | 
+9 | 100 | 780 |  |  |  |  | 
+10 | 100 | 930 |  |  |  |  | 
+- 100
+- 190
+- 270
+- 340
+- 400
+- 470
+- 550
+- 640
+- 750
+- 880
+- 1030
+- 100
+- 50
+- 33.33
+- 25
+- 20
+- 16.67
+- 14.29
+- 12.50
+- 11.11
+- 10
+- AFC=TFC / Q
+- 90
+- 85
+- 80
+- 75
+- 74
+- 75
+- 77.14
+- 81.25
+- 86.67
+- 93
+- AVC=TVC / Q
+- 190
+- 135
+- 113.33
+- 100
+- 94
+- 91.67
+- 91.43
+- 93.75
+- 97.78
+- 103
+- ATC=TC / Q
+[pics=0 charts=0 tables=1]
+=== Slide 9
+- Chapter 6.4
+Q | TFC | TVC | TC | AFC | AVC | ATC | MC
+0 | 100 | 0 |  |  |  |  | 
+1 | 100 | 90 |  |  |  |  | 
+2 | 100 | 170 |  |  |  |  | 
+3 | 100 | 240 |  |  |  |  | 
+4 | 100 | 300 |  |  |  |  | 
+5 | 100 | 370 |  |  |  |  | 
+6 | 100 | 450 |  |  |  |  | 
+7 | 100 | 540 |  |  |  |  | 
+8 | 100 | 650 |  |  |  |  | 
+9 | 100 | 780 |  |  |  |  | 
+10 | 100 | 930 |  |  |  |  | 
+- 100
+- 190
+- 270
+- 340
+- 400
+- 470
+- 550
+- 640
+- 750
+- 880
+- 1030
+- 100
+- 50
+- 33.33
+- 25
+- 20
+- 16.67
+- 14.29
+- 12.50
+- 11.11
+- 10
+- 90
+- 85
+- 80
+- 75
+- 74
+- 75
+- 77.14
+- 81.25
+- 86.67
+- 93
+- 190
+- 135
+- 113.33
+- 100
+- 94
+- 91.67
+- 91.43
+- 93.75
+- 97.78
+- 103
+- 90
+- 80
+- 70
+- 60
+- 70
+- 80
+- 90
+- 110
+- 130
+- 150
+- MC=TC / Q
+- MC is graphed at average Q
+- 2.5
+[pics=0 charts=0 tables=1]
+=== Slide 10
+- Chapter 6.4
+- Shifts of Cost Curves
+- Change in Factor Prices
+- If price of fixed input increases
+- AFC and ATC shift up
+- AVC and MC unchanged
+- If price of variable input increases
+- AVC, ATC, and MC shift up
+- AFC unchanged
+- If change in technology, curve shifts depends on whether technology affects FC, VC, or both
+[pics=0 charts=0 tables=0]
+=== Slide 11
+- Chapter 6.4
+- Since it is the Long run, we focus on Average Total Cost because all resources, and, therefore, costs are variable.
+- For a time, successively larger plants will lower average total cost. However, eventually the building of a still larger plant may cause ATC to rise.
+- Initially a business has a small plant size up to a certain level of output. When ATC reaches minimum and begins rising, firm should change plant size. For the next level of output, the firm attains lower costs with a bigger plant size. This continues as the firm expands and eventually reaches a minimum to rise again.
+- Tracing these adjustments, we find that the long-run ATC curve for the enterprise is made up of segments of the short-run ATC curves for the various plant sizes that can be constructed.
+- Long Run Production Costs
+[pics=0 charts=0 tables=0]
+=== Slide 12
+- Chapter 6.5
+- ATC-1
+- ATC-2
+- ATC-3
+- ATC-4
+- ATC-5
+- Choose the best plant for every output level
+- Long-Run Average-Total-Cost Curve
+- These choices determine the LRATC curve
+[pics=0 charts=0 tables=0]
+=== Slide 13
+- Chapter 6.5
+- The number of possible plant sizes is virtually unlimited
+- The Long-Run Average-Total-Cost Curve
+- The LRATC curve just envelops the short-run cost curves
+- LRATC
+- The long-run ATC curve is made up of all the points of tangency of the unlimited number of short-run ATC curves
+[pics=0 charts=0 tables=0]
+=== Slide 14
+- Long-Run Costs
+- Economies of large scale refer to the advantages a firm accrues from producing on a large scale which results in a fall in the long run average total cost or per unit cost.
+- Diseconomies of scale conversely refer to the rise in average costs as production is increased beyond the optimum scale.
+- Constant returns to scale is the point when economies of scale end and the output at which diseconomies of scale begin. However, there may be a range of constant returns to scale over which long-run average cost does not change
+- Minimum efficient scale (MES), which is the lowest level of output at which a firm can minimize long-run average costs.
+- The best or optimum size for a firm would be where it can reduce the average cost to their lowest point in the long run. At this point it can benefit from economies of scale and use the profits to improve their factory and their products or to lower prices to attract consumers away from competing firms.
+- .
+[pics=0 charts=0 tables=0]
+=== Slide 15
+- Long-Run Costs
+- Economies of scale .
+  - Technical economies :
+  - Financial economies
+  - Marketing economies
+  - Purchasing economies
+  - Managerial economies
+  - Risk bearing economies
+- .
+[pics=0 charts=0 tables=0]
+=== Slide 16
+- Long-Run Costs
+- Diseconomies of scale .
+  - Management problems
+  - Labor alienation
+  - Price of inputs
+  - Lack of personal contact
+- .
+[pics=0 charts=0 tables=0]
+=== Slide 17
+- Growth of Firms
+- Reasons
+- Growth
+  - Internal
+  - External
+    - Take over/ acquisition
+    - Merger / Amalgamation
+    - Conglomerate/ Lateral
+[pics=0 charts=0 tables=0]
+=== Slide 18
+- Legal Forms of Business
+- Sole Trader
+- Partnership
+- Joint stock companies- Public, private
+- Corporations
+[pics=0 charts=0 tables=0]
+=== Slide 19
+- SUMMARY
+- Short Run Costs
+  - Concept of Total, Average and Marginal Products
+  - Concept of Fixed, Variable and Total Cost
+  - Average Costs
+- Relationship between curves
+- Long run Costs
+  - Economies and diseconomies of scale
+- Legal forms of business
+  - Sole Trader
+  - Partnership
+  - Joint stock companies- Public, private
+  - Corporations
+- Growth of firms
+[pics=0 charts=0 tables=0]
