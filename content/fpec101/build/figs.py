@@ -580,3 +580,55 @@ plot2('lr_supply', [
     ('Decreasing cost', 'Q', 'P', [('ln', 4, 80, 94, 30, 'l1'), ('tx', 70, 40, 'LRS', 't1')])],
     'Long-run industry supply (slide 29): horizontal in a constant-cost industry, upward-sloping in an increasing-cost industry, downward-sloping in a decreasing-cost industry.',
     'দীর্ঘমেয়াদি শিল্প যোগান (স্লাইড ২৯): স্থির-ব্যয়ের শিল্পে আনুভূমিক, ক্রমবর্ধমান-ব্যয়ের শিল্পে ঊর্ধ্বমুখী, ক্রমহ্রাসমান-ব্যয়ের শিল্পে নিম্নমুখী।', h=200)
+
+# =====================================================================
+# Lecture 9 — pure monopoly (McConnell & Brue numbers)
+# =====================================================================
+def mx(q): return q * 9.0
+def my_(p): return p / 2.0
+Dm = [(mx(q), my_(172 - 10 * q)) for q in (0, 10)]
+MRm = [(mx(q), my_(172 - 20 * q)) for q in (0, 8.6)]
+MCm = [(mx(q - 0.5), my_(v)) for q, v in zip(range(1, 11), MCv)]
+ATCm = [(mx(q), my_(v)) for q, v in zip(range(1, 11), ATCv)]
+plot('mono_profit', 'Quantity (Q)', 'Price, costs ($)', [
+    ('area', [(0, my_(122)), (mx(5), my_(122)), (mx(5), my_(94)), (0, my_(94))], 'fl'),
+    ('ln', Dm[0][0], Dm[0][1], Dm[1][0], Dm[1][1], 'l4'), ('tx', mx(10) - 2, my_(72) + 3, 'D = AR', 't4'),
+    ('ln', MRm[0][0], MRm[0][1], MRm[1][0], MRm[1][1], 'l2'), ('tx', mx(8.2), 4, 'MR', 't2'),
+    ('cu', MCm, 'l3'), ('tx', mx(9.5) + 1, my_(150) - 3, 'MC', 't3'), ('cu', ATCm, 'l1'), ('tx', mx(10) + 1, my_(103) + 1, 'ATC', 't1'),
+    ('pt', mx(4.9), my_(76)), ('pt', mx(5), my_(122)), ('gd', mx(5), my_(122)), ('gy', mx(5), my_(94)),
+    ('yt', my_(122), '$122'), ('yt', my_(94), '$94'), ('xt', mx(5), '5'), ('tx', 3, my_(110), 'Profit $140', 't1')],
+    'Profit maximisation (slides 18–20): the monopolist produces Q = 5 where MR = MC, then goes UP to the demand curve to set the price, $122. ATC there is $94, so profit = (122 − 94) × 5 = $140.',
+    'মুনাফা সর্বোচ্চকরণ (স্লাইড ১৮–২০): একচেটিয়া ফার্ম MR = MC যেখানে সেই Q = ৫ উৎপাদন করে, তারপর চাহিদা রেখা পর্যন্ত **ওপরে** গিয়ে দাম ঠিক করে: $১২২। সেখানে ATC $৯৪, তাই মুনাফা = (১২২ − ৯৪) × ৫ = $১৪০।')
+
+plot2('mono_mr', [
+    ('Demand and MR', 'Q', 'Price', [('ln', 0, 90, 90, 0, 'l4'), ('tx', 70, 22, 'D = AR', 't4'), ('ln', 0, 90, 45, 0, 'l2'), ('tx', 40, 10, 'MR', 't2'),
+        ('gx', 45, 45), ('tx', 6, 60, 'elastic', 't1'), ('tx', 52, 50, 'inelastic', 't3'), ('tx', 30, 96, 'MR < P after 1st unit', 't2')]),
+    ('Total revenue', 'Q', 'TR', [('cu', [(0, 0), (22, 70), (45, 92), (68, 70), (90, 0)], 'l1'), ('gx', 45, 92), ('tx', 30, 98, 'TR max (MR = 0)', 't1'),
+        ('tx', 2, 40, 'MR +', 't1'), ('tx', 72, 40, 'MR −', 't3')])],
+    'McConnell & Brue Fig. 22.3: MR lies below demand. Where MR is positive, TR rises (elastic demand); where MR = 0, TR is at its maximum (unit elastic); where MR is negative, TR falls (inelastic demand). A monopolist always stays in the elastic part.',
+    'ম্যাককনেল ও ব্রু চিত্র ২২.৩: MR চাহিদার নিচে। যেখানে MR ধনাত্মক, TR বাড়ে (স্থিতিস্থাপক); MR = ০ হলে TR সর্বোচ্চ (একক); MR ঋণাত্মক হলে TR কমে (অস্থিতিস্থাপক)। একচেটিয়া ফার্ম সবসময় স্থিতিস্থাপক অংশে থাকে।', h=230)
+
+plot('natmono', 'Quantity (millions)', 'Revenue / cost ($)', [
+    ('cu', [(6, 92), (20, 55), (40, 36), (60, 28), (90, 22)], 'l1'), ('tx', 88, 26, 'ATC', 't1'),
+    ('ln', 4, 80, 70, 4, 'l4'), ('tx', 66, 10, 'D', 't4'), ('tx', 26, 92, 'ATC falls over all of demand', 't1')],
+    'Natural monopoly (slide 8): ATC keeps falling over the whole range of market demand, so one big firm can supply the market more cheaply than several small ones.',
+    'প্রাকৃতিক একচেটিয়া (স্লাইড ৮): পুরো বাজার চাহিদার পরিসরজুড়ে ATC কমতেই থাকে, তাই একটি বড় ফার্ম কয়েকটি ছোট ফার্মের চেয়ে সস্তায় পুরো বাজারে যোগান দিতে পারে।')
+
+plot('mono_loss', 'Quantity', 'Price, costs', [
+    ('area', [(0, 46), (40, 46), (40, 56), (0, 56)], 'fl3'),
+    ('ln', 0, 70, 90, 16, 'l4'), ('tx', 86, 20, 'D = AR', 't4'), ('ln', 0, 70, 58, 0, 'l2'), ('tx', 50, 6, 'MR', 't2'),
+    ('cu', [(8, 90), (25, 64), (40, 56), (60, 54), (80, 62), (92, 74)], 'l1'), ('tx', 92, 78, 'ATC', 't1'),
+    ('cu', [(10, 66), (30, 46), (45, 41), (65, 46), (85, 60)], 'l2', True), ('tx', 86, 62, 'AVC', 't2'),
+    ('cu', [(12, 44), (25, 30), (40, 22), (52, 30), (62, 50), (70, 76)], 'l3'), ('tx', 70, 80, 'MC', 't3'),
+    ('pt', 40, 46), ('gx', 40, 46), ('xt', 40, 'Qm'), ('yt', 46, 'Pm'), ('yt', 56, 'A'), ('tx', 4, 50, 'loss', 't3')],
+    'Loss minimisation (slide 21): if demand falls (changing tastes) or costs rise, P can be below ATC at the MR = MC output. The monopolist still produces in the short run if P > AVC; if losses continue in the long run it moves its resources to other industries.',
+    'লোকসান কমানো (স্লাইড ২১): চাহিদা কমলে (রুচি বদলালে) বা খরচ বাড়লে MR = MC উৎপাদনে P, ATC-র নিচে হতে পারে। P > AVC হলে একচেটিয়া ফার্ম স্বল্পমেয়াদে উৎপাদন চালায়; দীর্ঘমেয়াদে লোকসান চললে সম্পদ অন্য শিল্পে সরায়।')
+
+plot('mono_vs_pc', 'Quantity', 'Price', [
+    ('ln', 0, 90, 90, 0, 'l4'), ('tx', 86, 6, 'D', 't4'), ('ln', 0, 90, 45, 0, 'l2'), ('tx', 42, 4, 'MR', 't2'),
+    ('ln', 0, 20, 90, 65, 'l3'), ('tx', 82, 66, 'S = MC', 't3'),
+    ('pt', 46.7, 43.3), ('gd', 46.7, 43.3), ('xt', 46.7, 'Qc'), ('yt', 43.3, 'Pc'),
+    ('pt', 28, 62), ('gd', 28, 62), ('xt', 28, 'Qm'), ('yt', 62, 'Pm'), ('pt', 28, 34),
+    ('tx', 30, 80, 'Monopoly: fewer units, higher price', 't3')],
+    'Slides 24–25: a competitive industry would produce Qc at Pc, where P = MC. The monopolist produces only Qm (where MR = MC) and charges the higher Pm. Pm > MC and Pm > minimum ATC: inefficient.',
+    'স্লাইড ২৪–২৫: প্রতিযোগী শিল্প P = MC-তে Pc দামে Qc উৎপাদন করত। একচেটিয়া ফার্ম শুধু Qm (MR = MC যেখানে) উৎপাদন করে, বেশি দাম Pm নেয়। Pm > MC ও Pm > সর্বনিম্ন ATC: অদক্ষ।')
