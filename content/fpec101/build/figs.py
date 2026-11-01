@@ -37,6 +37,12 @@ def plot(key, xl, yl, items, cap, capb, label=None, ticks=None):
     o.append('<line class="ax" x1="%d" y1="%d" x2="%d" y2="%d"/><line class="ax" x1="%d" y1="%d" x2="%d" y2="%d"/>' % (X0, Y0, X1 + 8, Y0, X0, Y0, X0, Y1 - 8))
     o.append('<text x="%d" y="258" text-anchor="middle">%s</text>' % ((X0 + X1) // 2, xl))
     o.append('<text x="16" y="%d" transform="rotate(-90 16 %d)" text-anchor="middle">%s</text>' % ((Y0 + Y1) // 2, (Y0 + Y1) // 2, yl))
+    o += render(items)
+    o.append('</svg>')
+    FIGS[key] = (''.join(o), cap, capb)
+
+def render(items):
+    o = []
     for it in items:
         k = it[0]
         if k == 'ln':
@@ -65,7 +71,7 @@ def plot(key, xl, yl, items, cap, capb, label=None, ticks=None):
             _, x, y, s = it[:4]; cls = it[4] if len(it) > 4 else ''; anc = it[5] if len(it) > 5 else 'start'
             o.append('<text x="%s" y="%s"%s text-anchor="%s">%s</text>' % (f(px(x)), f(py(y)), (' class="%s"' % cls) if cls else '', anc, s))
         elif k == 'xt':  # tick label on x axis
-            o.append('<text x="%s" y="238" text-anchor="middle" class="tk">%s</text>' % (f(px(it[1])), it[2]))
+            o.append('<text x="%s" y="%s" text-anchor="middle" class="tk">%s</text>' % (f(px(it[1])), f(Y0 + 16), it[2]))
         elif k == 'yt':  # tick label on y axis
             o.append('<text x="%s" y="%s" text-anchor="end" class="tk">%s</text>' % (f(X0 - 5), f(py(it[1]) + 4), it[2]))
         elif k == 'ar':
@@ -73,6 +79,22 @@ def plot(key, xl, yl, items, cap, capb, label=None, ticks=None):
             o.append(arrow(px(x1), py(y1), px(x2), py(y2), cls))
         else:
             raise ValueError(k)
+    return o
+
+def plot2(key, panels, cap, capb, h=270):
+    """Side-by-side panels: each (title, xlabel, ylabel, items)."""
+    global X0, X1, Y0, Y1
+    save = (X0, X1, Y0, Y1)
+    o = ['<svg viewBox="0 0 380 %d" role="img" aria-label="%s">' % (h, cap.replace('"', "'"))]
+    w = 380 / len(panels)
+    for i, (title, xl, yl, items) in enumerate(panels):
+        X0, X1, Y0, Y1 = int(i * w + 42), int((i + 1) * w - 12), h - 48, 34
+        o.append('<text x="%d" y="16" text-anchor="middle" font-weight="700">%s</text>' % ((X0 + X1) // 2, title))
+        o.append('<line class="ax" x1="%d" y1="%d" x2="%d" y2="%d"/><line class="ax" x1="%d" y1="%d" x2="%d" y2="%d"/>' % (X0, Y0, X1 + 6, Y0, X0, Y0, X0, Y1 - 6))
+        o.append('<text x="%d" y="%d" text-anchor="middle" class="sm">%s</text>' % ((X0 + X1) // 2, h - 10, xl))
+        o.append('<text x="%d" y="%d" transform="rotate(-90 %d %d)" text-anchor="middle" class="sm">%s</text>' % (X0 - 32, (Y0 + Y1) // 2, X0 - 32, (Y0 + Y1) // 2, yl))
+        o += render(items)
+    X0, X1, Y0, Y1 = save
     o.append('</svg>')
     FIGS[key] = (''.join(o), cap, capb)
 
@@ -449,3 +471,112 @@ plot('costs_all', 'Quantity / output', 'Costs per unit', [
 plot('mc', 'Quantity / output', 'Costs', [('cu', MCp, 'l3'), ('tx', 79, 92, 'MC', 't3'), ('pt', 36, 30), ('tx', 26, 20, 'MP is at its maximum here', 't3')],
      'MC first falls (marginal product rising), reaches a minimum where MP is highest, then rises as diminishing returns set in: MC is the mirror image of MP.',
      'MC প্রথমে কমে (প্রান্তিক উৎপাদন বাড়ছে), MP সর্বোচ্চ যেখানে সেখানে সর্বনিম্ন, তারপর ক্রমহ্রাসমান প্রতিদানে বাড়ে: MC হলো MP-র আয়নার প্রতিচ্ছবি।')
+
+# =====================================================================
+# Lecture 7 — cost table plotted, long-run ATC, economies of scale
+# =====================================================================
+CQ = list(range(1, 11))
+AFCv = [100, 50, 33.33, 25, 20, 16.67, 14.29, 12.5, 11.11, 10]
+AVCv = [90, 85, 80, 75, 74, 75, 77.14, 81.25, 86.67, 93]
+ATCv = [190, 135, 113.33, 100, 94, 91.67, 91.43, 93.75, 97.78, 103]
+MCv = [90, 80, 70, 60, 70, 80, 90, 110, 130, 150]
+def cq(q): return q * 9.0
+def cc(c): return c / 2.0
+items = [('cu', [(cq(q), cc(v)) for q, v in zip(CQ, AFCv)], 'l2'), ('cu', [(cq(q), cc(v)) for q, v in zip(CQ, AVCv)], 'l4'),
+         ('cu', [(cq(q), cc(v)) for q, v in zip(CQ, ATCv)], 'l1'), ('cu', [(cq(q - 0.5), cc(v)) for q, v in zip(CQ, MCv)], 'l3'),
+         ('tx', cq(10) + 1, cc(10), 'AFC', 't2'), ('tx', cq(10) + 1, cc(93) - 4, 'AVC', 't4'), ('tx', cq(10) + 1, cc(103) + 1, 'ATC', 't1'), ('tx', cq(9.5) + 1, cc(150), 'MC', 't3'),
+         ('pt', cq(5), cc(74)), ('pt', cq(7), cc(91.43))]
+for q in CQ: items.append(('xt', cq(q), str(q)))
+for c in (50, 100, 150): items.append(('yt', cc(c), '$%d' % c))
+plot('mb_costs', 'Quantity (Q)', 'Costs ($)', items,
+     'The slide table plotted (McConnell & Brue p. 388): MC falls to $60 then rises; it cuts AVC at its minimum ($74 at Q = 5) and ATC at its minimum ($91.43 at Q = 7). AFC keeps falling. (MC is plotted between quantities.)',
+     'স্লাইডের ছক আঁকা (ম্যাককনেল ও ব্রু পৃ. ৩৮৮): MC নেমে $৬০, তারপর বাড়ে; AVC-কে সর্বনিম্নে কাটে (Q = ৫-এ $৭৪) আর ATC-কে সর্বনিম্নে (Q = ৭-এ $৯১.৪৩)। AFC কমতেই থাকে। (MC দুই পরিমাণের মাঝখানে আঁকা।)')
+
+def u(cx, cy, w=12, h=22):
+    return [(cx - w, cy + h), (cx - w / 2, cy + h * 0.3), (cx, cy), (cx + w / 2, cy + h * 0.3), (cx + w, cy + h)]
+centers = [(14, 62), (32, 50), (50, 44), (68, 50), (86, 62)]
+items = []
+for i, (cx, cy) in enumerate(centers, 1):
+    items += [('cu', u(cx, cy), 'l4'), ('tx', cx - 4, cy + 25, 'ATC-%d' % i, 't4')]
+items += [('cu', [(4, 70), (14, 62), (23, 58), (32, 50), (41, 49), (50, 44), (59, 49), (68, 50), (77, 58), (86, 62), (94, 70)], 'l1', True),
+          ('tx', 40, 14, 'dashed = LRATC', 't1')]
+plot('lratc_seg', 'Output', 'Average total cost', items,
+     'Five possible plant sizes, each with its own short-run ATC. For every output the firm picks the plant with the lowest cost; joining those lowest segments gives the long-run ATC curve.',
+     'পাঁচটি সম্ভাব্য কারখানার আকার, প্রত্যেকটির নিজস্ব স্বল্পমেয়াদি ATC। প্রতিটি উৎপাদনে ফার্ম সবচেয়ে কম ব্যয়ের কারখানা বেছে নেয়; সেই সর্বনিম্ন অংশগুলো জুড়লে দীর্ঘমেয়াদি ATC রেখা পাওয়া যায়।')
+
+plot('lratc_env', 'Output', 'Long-run average cost', [
+    ('cu', [(4, 88), (20, 60), (40, 42), (52, 40), (64, 40), (80, 52), (94, 76)], 'l1'), ('tx', 90, 80, 'LRATC', 't1'),
+    ('gx', 40, 42), ('gx', 64, 40), ('xt', 40, 'MES'), ('ar', 6, 24, 34, 24, 'l1'), ('tx', 2, 14, 'Economies of scale', 't1'),
+    ('tx', 43, 30, 'Constant', 't2'), ('tx', 43, 24, 'returns', 't2'), ('ar', 70, 24, 94, 24, 'l3'), ('tx', 70, 14, 'Diseconomies', 't3')],
+    'With unlimited plant sizes, LRATC is a smooth curve that "envelops" all the short-run ATCs. It falls (economies of scale), may stay flat (constant returns), then rises (diseconomies). MES = the smallest output at which LRATC reaches its minimum.',
+    'অসীম সংখ্যক কারখানার আকারে LRATC একটি মসৃণ রেখা যা সব স্বল্পমেয়াদি ATC-কে "ঘিরে" রাখে। এটা কমে (বৃহদায়তনের সুবিধা), সমতল থাকতে পারে (স্থির প্রতিদান), তারপর বাড়ে (অসুবিধা)। MES = সবচেয়ে কম যে উৎপাদনে LRATC সর্বনিম্নে পৌঁছায়।')
+
+# =====================================================================
+# Lecture 8 — perfect competition
+# =====================================================================
+plot2('pc_demand', [
+    ('Industry', 'Output', 'Price', ln(D0, 'l4', 'D') + ln(S0, 'l2', 'S') + [('pt', 50, 50), ('gy', 50, 50), ('yt', 50, 'P')]),
+    ('Firm (price taker)', 'Output', 'Price, AR, MR', [('ln', 0, 50, 94, 50, 'l1'), ('tx', 30, 56, 'D = P = AR = MR', 't1'), ('yt', 50, 'P')])],
+    'Slide 11: the industry\'s demand and supply set the price P. Each firm must accept P, so the firm\'s demand curve is a horizontal line: perfectly elastic, with P = AR = MR.',
+    'স্লাইড ১১: শিল্পের চাহিদা ও যোগান দাম P ঠিক করে। প্রতিটি ফার্মকে P মেনে নিতে হয়, তাই ফার্মের চাহিদা রেখা আনুভূমিক: পূর্ণ স্থিতিস্থাপক, P = AR = MR।')
+
+TCp = [(0, 18), (15, 28), (35, 36), (55, 44), (70, 58), (82, 76), (92, 96)]
+plot('trtc', 'Quantity', 'TR, TC ($)', [
+    ('ln', 0, 0, 96, 92, 'l1'), ('tx', 84, 86, 'TR', 't1'), ('cu', TCp, 'l3'), ('tx', 90, 97, 'TC', 't3'),
+    ('pt', 23, 22), ('tx', 25, 16, 'break-even (TR = TC)', 't2'), ('pt', 85, 81.5), ('tx', 50, 92, 'break-even', 't2'),
+    ('ln', 60, 57.5, 60, 47.5, 'l4'), ('tx', 26, 64, 'max profit: biggest gap', 't4'), ('ar', 46, 63, 58, 54, 'l4')],
+    'TR–TC approach (slide 13): TR is a straight line (constant price). Profit = TR − TC is greatest where the vertical gap between TR (above) and TC (below) is largest. Where the curves meet, TR = TC: break-even (normal profit).',
+    'TR–TC পদ্ধতি (স্লাইড ১৩): TR সরলরেখা (দাম স্থির)। মুনাফা = TR − TC সবচেয়ে বেশি যেখানে TR (ওপরে) আর TC (নিচে)-র খাড়া ফাঁক সবচেয়ে বড়। যেখানে রেখা মেলে সেখানে TR = TC: সমতা বিন্দু (স্বাভাবিক মুনাফা)।')
+
+def pcfig(key, p, q, atc_at, avc_at, area_cls, label, cap, capb, show_avc=True):
+    it = [('cu', ATCp, 'l1'), ('cu', MCp, 'l3'), ('ln', 0, p, 96, p, 'l4'), ('tx', 46, p + 3, 'P = AR = MR', 't4'),
+          ('tx', 92, 72, 'ATC', 't1'), ('tx', 79, 92, 'MC', 't3')]
+    if show_avc: it += [('cu', AVCp, 'l2'), ('tx', 92, 58, 'AVC', 't2')]
+    if area_cls: it.insert(0, ('area', [(0, p), (q, p), (q, atc_at), (0, atc_at)], area_cls))
+    if q: it += [('pt', q, p), ('gx', q, p), ('xt', q, 'Q (MR = MC)')]
+    if label: it.append(('tx', 6, (p + atc_at) / 2 - 2, label, 't3' if area_cls == 'fl3' else 't1'))
+    plot(key, 'Output', 'Cost and revenue', it, cap, capb)
+
+pcfig('pc_profit', 70, 69, 54, 41, 'fl', 'Economic profit',
+      'Short-run profit (slide 16): the firm produces where MR = MC. Price is above ATC there, so it earns an economic (supernormal) profit = the green rectangle (P − ATC) × Q.',
+      'স্বল্পমেয়াদি মুনাফা (স্লাইড ১৬): ফার্ম MR = MC-তে উৎপাদন করে। সেখানে দাম ATC-র ওপরে, তাই অর্থনৈতিক (অতিস্বাভাবিক) মুনাফা = সবুজ আয়তক্ষেত্র (P − ATC) × Q।')
+pcfig('pc_loss', 44, 56, 50.6, 36, 'fl3', 'Loss',
+      'Short-run loss (slide 17): at MR = MC, price is below ATC (loss = red area) but above AVC, so the firm keeps producing: it covers all variable cost and part of its fixed cost.',
+      'স্বল্পমেয়াদি লোকসান (স্লাইড ১৭): MR = MC-তে দাম ATC-র নিচে (লোকসান = লাল অংশ) কিন্তু AVC-র ওপরে, তাই ফার্ম উৎপাদন চালিয়ে যায়: সব পরিবর্তনশীল ব্যয় ও স্থির ব্যয়ের কিছু অংশ মেটে।')
+pcfig('pc_shutdown', 28, 0, 0, 0, None, None,
+      'Shutdown (slide 18): price is below the minimum of AVC, so the firm cannot even cover its variable costs. It loses less by closing (losing only its fixed costs).',
+      'বন্ধ (স্লাইড ১৮): দাম AVC-র সর্বনিম্নেরও নিচে, তাই ফার্ম পরিবর্তনশীল ব্যয়ও মেটাতে পারে না। বন্ধ করলে কম হারায় (শুধু স্থির ব্যয়)।')
+
+items = [('cu', ATCp, 'l1'), ('cu', AVCp, 'l2'), ('cu', MCp, 'l3', True), ('cu', [(50, 35), (60, 50), (70, 68), (78, 92)], 'l3'),
+         ('tx', 92, 72, 'ATC', 't1'), ('tx', 92, 58, 'AVC', 't2'), ('tx', 40, 96, 'MC above AVC = supply', 't3')]
+for i, (pp, qq) in enumerate([(35, 50), (50, 60), (62, 66.5), (80, 74)]):
+    items += [('ln', 0, pp, qq, pp, 'gd'), ('pt', qq, pp), ('yt', pp, 'P%d' % (i + 2)), ('xt', qq, 'Q%d' % (i + 2))]
+items += [('tx', 4, 26, 'below P2 (min AVC): produce nothing', 't3')]
+plot('pc_supply', 'Output', 'Costs and revenues ($)', items,
+     'Slides 19–23: at each price the firm produces where P = MC. So the part of the MC curve ABOVE minimum AVC is the firm\'s short-run supply curve; below P2 it shuts down.',
+     'স্লাইড ১৯–২৩: প্রতিটি দামে ফার্ম P = MC-তে উৎপাদন করে। তাই সর্বনিম্ন AVC-র **ওপরের** MC অংশই ফার্মের স্বল্পমেয়াদি যোগান রেখা; P2-এর নিচে বন্ধ।')
+
+def firm_panel(p_lines):
+    it = [('cu', [(10, 80), (25, 58), (40, 50), (55, 58), (70, 80)], 'l1'), ('cu', [(16, 30), (28, 36), (40, 50), (50, 64), (58, 82), (63, 94)], 'l3'),
+          ('tx', 4, 84, 'ATC', 't1'), ('tx', 66, 94, 'MC', 't3')]
+    for pp, lab, cls in p_lines: it += [('ln', 0, pp, 94, pp, cls), ('yt', pp, lab)]
+    return it
+plot2('pc_entry', [
+    ('Firm (price taker)', 'Q', 'P', firm_panel([(64, '$60', 'l4'), (50, '$50', 'gd')]) + [('area', [(0, 64), (50, 64), (50, 55), (0, 55)], 'fl'), ('tx', 3, 68, 'profit', 't1')]),
+    ('Industry', 'Q', 'P', ln(D0, 'l4', 'D1') + ln(D0, 'l4', 'D2', dx=14) + ln(S0, 'l2', 'S1') + ln(S0, 'l2', 'S2', dx=14, dash=True) +
+     [('pt', 50, 50), ('pt', 57, 57), ('pt', 64, 50), ('yt', 57, '$60'), ('yt', 50, '$50')])],
+    'Entry eliminates profit (slides 25–26): demand rises (D1 → D2), price rises to $60 and firms earn economic profit. New firms enter, supply rises (S1 → S2), and price falls back to $50 = minimum ATC: only normal profit remains.',
+    'প্রবেশ মুনাফা দূর করে (স্লাইড ২৫–২৬): চাহিদা বাড়ে (D1 → D2), দাম $৬০ হয়, ফার্মগুলো অর্থনৈতিক মুনাফা পায়। নতুন ফার্ম ঢোকে, যোগান বাড়ে (S1 → S2), দাম আবার $৫০ = সর্বনিম্ন ATC: শুধু স্বাভাবিক মুনাফা থাকে।')
+plot2('pc_exit', [
+    ('Firm (price taker)', 'Q', 'P', firm_panel([(36, '$40', 'l4'), (50, '$50', 'gd')]) + [('area', [(0, 56), (28, 56), (28, 36), (0, 36)], 'fl3'), ('tx', 3, 28, 'loss', 't3')]),
+    ('Industry', 'Q', 'P', ln(D0, 'l4', 'D1') + ln(D0, 'l4', 'D2', dx=-14) + ln(S0, 'l2', 'S1') + ln(S0, 'l2', 'S3', dx=-14, dash=True) +
+     [('pt', 50, 50), ('pt', 43, 43), ('pt', 36, 50), ('yt', 43, '$40'), ('yt', 50, '$50')])],
+    'Exit eliminates losses (slides 27–28): demand falls (D1 → D2), price falls to $40 and firms make losses. Some firms leave, supply falls (S1 → S3), and price returns to $50: the remaining firms earn normal profit.',
+    'প্রস্থান লোকসান দূর করে (স্লাইড ২৭–২৮): চাহিদা কমে (D1 → D2), দাম $৪০, ফার্মের লোকসান। কিছু ফার্ম বেরিয়ে যায়, যোগান কমে (S1 → S3), দাম আবার $৫০: বাকি ফার্মগুলো স্বাভাবিক মুনাফা পায়।')
+
+plot2('lr_supply', [
+    ('Constant cost', 'Q', 'P', [('ln', 4, 50, 94, 50, 'l1'), ('tx', 60, 56, 'LRS', 't1')]),
+    ('Increasing cost', 'Q', 'P', [('ln', 4, 30, 94, 80, 'l1'), ('tx', 70, 82, 'LRS', 't1')]),
+    ('Decreasing cost', 'Q', 'P', [('ln', 4, 80, 94, 30, 'l1'), ('tx', 70, 40, 'LRS', 't1')])],
+    'Long-run industry supply (slide 29): horizontal in a constant-cost industry, upward-sloping in an increasing-cost industry, downward-sloping in a decreasing-cost industry.',
+    'দীর্ঘমেয়াদি শিল্প যোগান (স্লাইড ২৯): স্থির-ব্যয়ের শিল্পে আনুভূমিক, ক্রমবর্ধমান-ব্যয়ের শিল্পে ঊর্ধ্বমুখী, ক্রমহ্রাসমান-ব্যয়ের শিল্পে নিম্নমুখী।', h=200)
