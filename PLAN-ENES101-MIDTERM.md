@@ -1,10 +1,18 @@
-# ENES 101 — English Language Studies: Midterm Course Plan (Modules 1–15)
+# ENES 101 — English Language Studies: Midterm Course (Modules 1–15)
 
-**Status: PLAN v1. Nothing is built yet. I can't start until the source files are uploaded (see Section 1).**
+**Status: BUILT (v1).** Open the site → **ENES 101 · English Language Studies**.
 
-Goal: make the ENES 101 part of the site (now just a "coming soon" page) into a full **English + Bangla** midterm course for **Modules 1–15**. Every slide of every module gets covered. I explain it like your local tutor, and the course ends with the official midterm questions answered and a mock exam.
+## What was built
+- **Source:** `slides/English Language Studies (ENES 101)/English Notes 1 to 15.pdf` (main), checked against the syllabus, curriculum outline, *Lecture 9–15 Notes*, Durrian Qadri's 231-page midterm notes and `ENES101Study questions.pdf`.
+- **Module course** (`#enes-course`, `#ecourse-E1` … `#ecourse-E15`): "Start here" + 15 modules, 64 teaching steps. Every heading and table from the notes is explained in English with **Bangla side by side**; True/False study-question traps are flagged in the lesson they belong to.
+- **MCQ quick check after every module**: 106 questions, each with a bilingual explanation for the right answer.
+- **Midterm Q&A** (`#enes-midterm`): all **25 short** (T/F, Yes/No) and **34 long** study questions answered (the English model answer to write + a Bangla explanation + a link to the module), with search, self-test, "learned" ticks and a 25-question T/F MCQ quiz.
+- Same look and controls as the other courses: EN+বাং / English / বাংলা switch, dark mode, progress saved, phone layout.
 
 ---
+
+## Original plan (kept for reference)
+
 
 ## 1. What I found and what I still need from you
 
