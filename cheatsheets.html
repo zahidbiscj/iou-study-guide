@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>One-Page Cheat Sheets</title>
+<style>
+:root{--bg:#fbfaf7;--card:#fff;--ink:#1d2330;--mut:#5b6474;--line:#e3e0d8;--acc:#0f6b5c;--acc2:#b4531a;--hi:#fff4d6;--c1:#0f6b5c;--c2:#b4531a;--c3:#3b5bab;--c4:#8a3b8f;--c5:#9a7a12;--c6:#b42318}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14171c;--card:#1c2027;--ink:#e8e9ec;--mut:#a3aab6;--line:#2e333c;--acc:#5cc8b2;--acc2:#f0a36b;--hi:#3a3220;--c1:#5cc8b2;--c2:#f0a36b;--c3:#8fa8f0;--c4:#d39ad6;--c5:#e0c45c;--c6:#ff8a80}}
+:root[data-theme="dark"]{--bg:#14171c;--card:#1c2027;--ink:#e8e9ec;--mut:#a3aab6;--line:#2e333c;--acc:#5cc8b2;--acc2:#f0a36b;--hi:#3a3220;--c1:#5cc8b2;--c2:#f0a36b;--c3:#8fa8f0;--c4:#d39ad6;--c5:#e0c45c;--c6:#ff8a80}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,"Noto Sans Bengali",sans-serif}
+.wrap{max-width:1000px;margin:0 auto;padding:16px}a{color:var(--acc)}header a{text-decoration:none;font-size:14px}
+h1{font-size:24px;margin:8px 0 2px}.sub{color:var(--mut);margin:0 0 8px}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;position:sticky;top:0;background:var(--bg);padding:8px 0;z-index:2;border-bottom:1px solid var(--line)}
+.tabs button,.pbtn{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:7px 12px;border-radius:999px;font:inherit;font-size:14px;cursor:pointer}
+.tabs button.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+section{display:none}section.on{display:block}
+h2{font-size:20px;color:var(--acc);margin:14px 0 4px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+h2 .pbtn{margin-left:auto;font-size:13px;padding:4px 10px}
+/* mind map */
+.mm{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;align-items:stretch;margin:8px 0 10px;position:relative}
+.mm .core{grid-column:2;grid-row:1 / span 3;width:100%;max-width:190px;justify-self:center;flex-direction:column;display:flex;align-items:center;justify-content:center;text-align:center;background:var(--acc);color:#fff;border-radius:50%;aspect-ratio:1;font-weight:800;font-size:17px;padding:14px;align-self:center;box-shadow:0 0 0 6px color-mix(in srgb,var(--acc) 20%,transparent)}
+.mm .core small{display:block;font-weight:500;font-size:12px;opacity:.9}
+.br{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--c);border-radius:10px;padding:7px 9px;font-size:13px;line-height:1.4}
+.br b.t{display:block;color:var(--c);font-size:14px;margin-bottom:2px}
+.br ul{margin:0;padding-left:16px}.br li{margin:1px 0}
+.mm .br:nth-of-type(1){--c:var(--c1)}.mm .br:nth-of-type(2){--c:var(--c2)}.mm .br:nth-of-type(3){--c:var(--c3)}
+.mm .br:nth-of-type(4){--c:var(--c4)}.mm .br:nth-of-type(5){--c:var(--c5)}.mm .br:nth-of-type(6){--c:var(--c6)}
+.notes{columns:2;column-gap:14px;font-size:13px;line-height:1.42}
+.notes .box{break-inside:avoid;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:7px 9px;margin:0 0 10px}
+.notes h3{font-size:14px;margin:0 0 3px;color:var(--acc2)}
+.notes ul{margin:0;padding-left:16px}.notes li{margin:1px 0}
+.k{background:var(--hi);padding:0 3px;border-radius:3px;font-weight:600}
+table{border-collapse:collapse;width:100%;font-size:12.5px}td,th{border:1px solid var(--line);padding:3px 5px;text-align:left;vertical-align:top}
+.bn{color:var(--mut);font-size:13px}
+@media (max-width:720px){.mm{grid-template-columns:1fr}.mm .core{grid-column:1;grid-row:auto;aspect-ratio:auto;border-radius:12px}.notes{columns:1}}
+@media print{
+ @page{size:A4;margin:8mm}
+ body{background:#fff;color:#000;font-size:10px}
+ header,.tabs,.sub,h1,.pbtn,.noprint{display:none!important}
+ .wrap{max-width:none;padding:0}
+ .mm{gap:5px;margin:4px 0 6px}.br{font-size:9px;padding:4px 6px}.br b.t{font-size:10px}
+ .mm .core{font-size:12px;padding:8px;box-shadow:none;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+ .br,.mm .core{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+ .notes{font-size:9px;line-height:1.3;column-gap:8px}.notes .box{padding:4px 6px;margin:0 0 5px}.notes h3{font-size:10px}
+ table{font-size:8.5px}h2{font-size:14px;margin:0 0 2px}
+}
+</style></head><body><div class="wrap">
+<header><a href="index.html">← Study guide home · হোম</a> · <a href="quick-notes.html">⚡ Quick notes</a></header>
+<h1>One-Page Cheat Sheets · এক পাতার নোট</h1>
+<p class="sub">Each subject on one page: a mind map plus the key notes for the midterm. Press <b>🖨 Print</b> to get that page as one A4 sheet or a PDF. · প্রতিটি বিষয় এক পাতায়: mind map আর মিডটার্মের মূল নোট। Print চাপলে এক পাতার A4/PDF পাবে।</p>
+<div class="tabs"><button data-t="isgs" class="on">ISGS 101</button><button data-t="fpec">FPEC 101</button><button data-t="bibs">BIBS 101</button><button data-t="enes">ENES 101</button><button data-t="asg">✍️ Assignments</button></div>
+
+<!-- ================= ISGS ================= -->
+<section id="isgs" class="on">
+<h2>ISGS 101 · Islamic Studies 1: ʿAqīdah <button class="pbtn" onclick="print()">🖨 Print</button></h2>
+<div class="mm">
+ <div class="br"><b class="t">1. Tawḥīd (M1, M3, M4)</b><ul><li><b>Rubūbiyyah</b>: Allah alone creates, owns, provides, controls</li><li><b>Ulūhiyyah / ʿIbādah</b>: all worship for Allah alone (51:56)</li><li><b>Asmāʾ waṣ-Ṣifāt</b>: affirm names/attributes with no taḥrīf, taʿṭīl, takyīf, tamthīl (42:11)</li></ul></div>
+ <div class="br"><b class="t">2. Lā ilāha illā Allāh: 7 conditions (M2–3)</b><ul><li>ʿIlm (knowledge) · Yaqīn (certainty)</li><li>Qabūl (acceptance) · Inqiyād (submission)</li><li>Ṣidq (truthfulness) · Ikhlāṣ (sincerity)</li><li>Maḥabbah (love)</li></ul></div>
+ <div class="core">Īmān<small>6 pillars (Hadith of Jibrīl)</small></div>
+ <div class="br"><b class="t">3. Angels · Books · Messengers (M6–10)</b><ul><li>Angels made of light; believe in existence, names, attributes, deeds</li><li>Books: Ṣuḥuf (Ibrāhīm), Tawrāh (Mūsā), Zabūr (Dāwūd), Injīl (ʿĪsā), Qur'an</li><li>Nabī vs Rasūl; Muḥammad ﷺ the last; prophets are human and protected from error in conveying the message</li></ul></div>
+ <div class="br"><b class="t">4. Last Day & Qadar (M11–12)</b><ul><li>Death → grave → resurrection → gathering → intercession → reckoning → scale → bridge → Paradise/Hell</li><li>Qadar 4 levels: <b>ʿIlm, Kitābah, Mashīʾah, Khalq</b></li><li>Humans still choose and are accountable</li></ul></div>
+ <div class="br"><b class="t">5. Shirk (M13–15)</b><ul><li><b>Major</b>: takes out of Islam, not forgiven without repentance (duʿāʾ to the dead, sacrifice to other than Allah)</li><li><b>Minor</b>: riyāʾ, swearing by other than Allah, "what Allah and you will"</li><li>Fortune-tellers and astrology are forbidden</li></ul></div>
+ <div class="br"><b class="t">6. Worship (M4–5)</b><ul><li>ʿIbādah = all that Allah loves, sayings and deeds, outward and inward</li><li>Heart: love, fear, hope, tawakkul</li><li>Accepted only with <b>ikhlāṣ</b> and following the Sunnah</li><li>Iḥsān: worship as if you see Him</li></ul></div>
+</div>
+<div class="notes">
+ <div class="box"><h3>Six pillars of Īmān</h3><ul><li>Belief in Allah, Angels, Books, Messengers, the Last Day, and Qadar (good and bad)</li><li>Hadith of Jibrīl: Islam (5 pillars) → Īmān (6 pillars) → Iḥsān</li><li>Belief in Allah covers 4 things: His existence, Rubūbiyyah, Ulūhiyyah, Names & Attributes</li></ul></div>
+ <div class="box"><h3>Angels: key names</h3><ul><li><b>Jibrīl</b>: revelation · <b>Mīkāʾīl</b>: rain and provision · <b>Isrāfīl</b>: blows the Trumpet</li><li>Angel of death · Munkar & Nakīr (questioning in the grave) · Kirāman Kātibīn (recorders)</li><li>They never disobey, need no food, and have wings</li></ul></div>
+ <div class="box"><h3>Messengers</h3><ul><li><b>Rasūl</b> brings a new law; a <b>Nabī</b> follows an earlier law</li><li>Believe 4 things: they were truly sent; believe in the ones named; accept authentic reports about them; follow the law of the final Prophet</li><li>Tasks include conveying the message, calling to Tawḥīd, giving good news and warnings, and being a role model</li></ul></div>
+ <div class="box"><h3>Four rules (al-Qawāʿid al-Arbaʿ)</h3><ul><li>1. The Makkan polytheists accepted Rubūbiyyah, but it did not make them Muslim</li><li>2. They said, "We only seek nearness and intercession"</li><li>3. They worshipped different things (angels, prophets, the righteous, trees, stones), and the Prophet ﷺ made no distinction</li><li>4. Later polytheists are worse: earlier ones were sincere to Allah in hardship</li></ul></div>
+ <div class="box"><h3>Major vs minor shirk</h3><table><tr><th></th><th>Major</th><th>Minor</th></tr><tr><td>Islam</td><td>takes the person out</td><td>does not</td></tr><tr><td>Deeds</td><td>all deeds void</td><td>only that deed affected</td></tr><tr><td>Hereafter</td><td>eternal Hell if unrepented</td><td>a grave sin</td></tr></table></div>
+ <div class="box"><h3>Fortune-tellers & graves</h3><ul><li>Asking a fortune-teller: prayer not accepted for 40 nights. Believing them is disbelief in what was revealed</li><li>Visiting graves is allowed: to remember death, greet the dead and make duʿāʾ <b>for</b> them</li><li>Shirk: calling on the dead, sacrifice or ṭawāf at graves</li></ul></div>
+</div>
+</section>
+
+<!-- ================= FPEC ================= -->
+<section id="fpec">
+<h2>FPEC 101 · Principles of Economics <button class="pbtn" onclick="print()">🖨 Print</button></h2>
+<div class="mm">
+ <div class="br"><b class="t">1. Basics (L1–2)</b><ul><li>Scarcity → choice → <b>opportunity cost</b></li><li>PPC: points on the curve are efficient, inside is unemployment, outside is unattainable; bowed out = increasing opportunity cost</li><li>Systems: command vs market; circular flow (households ↔ firms)</li></ul></div>
+ <div class="br"><b class="t">2. Demand & Supply (L3–4)</b><ul><li>Law of demand: P↑ → Qd↓; law of supply: P↑ → Qs↑</li><li>Own price = movement along the curve; other factors = a shift</li><li>Equilibrium at D = S; surplus above, shortage below</li></ul></div>
+ <div class="core">Markets & Firms<small>MR = MC</small></div>
+ <div class="br"><b class="t">3. Elasticity (L4–5)</b><ul><li>PED = %ΔQd ÷ %ΔP; above 1 is elastic</li><li>Total revenue test: elastic demand means P↓ raises TR</li><li>Income elasticity: positive = normal good, negative = inferior good</li><li>Cross elasticity: positive = substitutes, negative = complements</li></ul></div>
+ <div class="br"><b class="t">4. Costs (L6–7)</b><ul><li>TC = TFC + TVC; ATC = TC/Q; MC = ΔTC/ΔQ</li><li>Diminishing marginal returns in the short run</li><li>MC cuts AVC and ATC at their minimum</li><li>Long run: economies of scale, then constant returns, then diseconomies</li></ul></div>
+ <div class="br"><b class="t">5. Market structures (L8–11)</b><ul><li>Perfect competition: P = MR, earns normal profit in the long run</li><li>Monopoly: P > MR, P > MC, deadweight loss</li><li>Monopolistic competition: differentiated products, excess capacity</li><li>Oligopoly: few firms, interdependent, game theory</li></ul></div>
+ <div class="br"><b class="t">6. Policy (L12–15)</b><ul><li>Antitrust and regulation of natural monopoly</li><li>Wages: MRP = MRC; monopsony</li><li>Lorenz curve, Gini coefficient, poverty</li><li>Market failure: externalities, public goods; government failure</li></ul></div>
+</div>
+<div class="notes">
+ <div class="box"><h3>Revenue & profit formulas</h3><ul><li>TR = P × Q · AR = TR/Q = P · MR = ΔTR/ΔQ</li><li>π = TR − TC; maximise profit where <span class="k">MR = MC</span> with MC rising</li><li>Shut down in the short run if P < minimum AVC</li><li>Economic profit = TR − (explicit + implicit costs)</li></ul></div>
+ <div class="box"><h3>Demand and supply shifters</h3><ul><li>Demand: tastes, number of buyers, income, prices of related goods, expectations</li><li>Supply: input prices, technology, taxes and subsidies, prices of other goods, expectations, number of sellers</li><li>Both curves shift: the change in either P or Q is indeterminate</li></ul></div>
+ <div class="box"><h3>Comparing the four structures</h3><table><tr><th></th><th>Perfect</th><th>Monop. comp.</th><th>Oligopoly</th><th>Monopoly</th></tr><tr><td>Firms</td><td>very many</td><td>many</td><td>few</td><td>one</td></tr><tr><td>Product</td><td>identical</td><td>differentiated</td><td>either</td><td>unique</td></tr><tr><td>Entry</td><td>free</td><td>easy</td><td>hard</td><td>blocked</td></tr><tr><td>Demand curve</td><td>horizontal</td><td>downward, elastic</td><td>kinked</td><td>market demand</td></tr><tr><td>Long-run profit</td><td>normal</td><td>normal</td><td>can be economic</td><td>economic</td></tr><tr><td>Efficient?</td><td>yes (P = MC = min ATC)</td><td>no</td><td>no</td><td>no</td></tr></table></div>
+ <div class="box"><h3>Elasticity: quick rules</h3><ul><li>Elastic demand: many substitutes, luxuries, large share of the budget, long run</li><li>Unit elastic (PED = 1): TR is at its maximum</li><li>Supply is more elastic in the long run</li><li>Midpoint formula: ΔQ/[(Q1+Q2)/2] ÷ ΔP/[(P1+P2)/2]</li></ul></div>
+ <div class="box"><h3>Monopoly in detail</h3><ul><li>Barriers to entry: economies of scale, patents, licences, control of resources</li><li>Linear demand: the MR curve has twice the slope of demand</li><li>A monopoly operates only on the elastic part of demand</li><li>Price discrimination needs market power, segmented buyers, and no resale</li></ul></div>
+ <div class="box"><h3>Market failure</h3><ul><li>Negative externality (pollution): too much is produced → tax</li><li>Positive externality (education): too little → subsidy</li><li>Public goods are non-rival and non-excludable, so free riders appear</li><li>Gini coefficient: 0 = equal, 1 = completely unequal</li></ul></div>
+</div>
+</section>
+
+<!-- ================= BIBS ================= -->
+<section id="bibs">
+<h2>BIBS 101 · Introduction to Business <button class="pbtn" onclick="print()">🖨 Print</button></h2>
+<div class="mm">
+ <div class="br"><b class="t">1. Role of Business (M1)</b><ul><li>Business: provides goods and services for profit</li><li>Profit = revenue − expenses; risk brings reward</li><li>Stakeholders: owners, employees, customers, suppliers, community, government</li><li>Factors of production: land, labour, capital, entrepreneurship, knowledge</li></ul></div>
+ <div class="br"><b class="t">2. Economic Environment (M2)</b><ul><li>Micro vs macro; demand and supply</li><li>Systems: capitalism, socialism, communism, mixed</li><li>Measures: GDP, unemployment, inflation (CPI)</li><li>Business cycle: expansion, peak, contraction, trough</li><li>Fiscal policy (tax and spending) vs monetary policy (money supply, interest rates)</li></ul></div>
+ <div class="core">Business<small>& its environment</small></div>
+ <div class="br"><b class="t">3. Global Environment (M3)</b><ul><li>Exporting, importing, balance of trade and balance of payments</li><li>Entry modes: licensing, franchising, contract manufacturing, joint venture, FDI</li><li>Barriers: culture, law, tariffs, quotas, embargoes</li><li>Trade bodies: WTO, IMF, World Bank, regional blocs</li></ul></div>
+ <div class="br"><b class="t">4. Finance & Law (M4–5)</b><ul><li>Money: medium of exchange, store of value, unit of account</li><li>Central bank, commercial banks, stock market</li><li>Law: contracts (offer, acceptance, consideration, capacity, legality), torts, intellectual property, bankruptcy</li></ul></div>
+ <div class="br"><b class="t">5. Ethics & Ownership (M6–7)</b><ul><li>Ethics: right vs wrong; CSR toward stakeholders</li><li>Ownership: sole proprietorship, partnership, corporation, cooperative</li><li>Mergers: horizontal, vertical, conglomerate</li></ul></div>
+ <div class="br"><b class="t">6. Entrepreneurship & Management (M8–9)</b><ul><li>Entrepreneur: takes risk to start a business; small business and the business plan</li><li>Functions: planning, organising, leading, controlling</li><li>Management skills: technical, human, conceptual</li><li>SWOT analysis; mission, goals, objectives</li></ul></div>
+</div>
+<div class="notes">
+ <div class="box"><h3>Forms of ownership</h3><table><tr><th>Form</th><th>Advantages</th><th>Disadvantages</th></tr><tr><td>Sole proprietor</td><td>easy to start, owner keeps profit, full control</td><td>unlimited liability, limited funds</td></tr><tr><td>Partnership</td><td>more money and skills</td><td>unlimited liability (general partners), disputes</td></tr><tr><td>Corporation</td><td>limited liability, easy to raise capital</td><td>double taxation, regulation, costly to form</td></tr></table></div>
+ <div class="box"><h3>Global trade terms</h3><ul><li>Comparative advantage: produce what you give up least to make</li><li>Absolute advantage: produce more efficiently than others</li><li>Trade surplus = exports > imports; deficit = the reverse</li><li>Dumping: selling abroad below cost</li><li>Protectionism: tariffs, quotas, embargoes</li></ul></div>
+ <div class="box"><h3>Economic indicators</h3><ul><li>GDP = total value of final goods and services produced in a country</li><li>Inflation = general rise in prices; deflation = general fall</li><li>Unemployment types: frictional, structural, cyclical, seasonal</li><li>Recession = two or more quarters of falling GDP</li></ul></div>
+ <div class="box"><h3>Ethics & CSR</h3><ul><li>Levels: individual → managerial → organisational</li><li>CSR toward customers, investors, employees, society and the environment</li><li>Approaches: compliance-based vs integrity-based codes</li><li>Whistleblower: reports wrongdoing inside an organisation</li></ul></div>
+ <div class="box"><h3>Management</h3><ul><li>Planning: strategic → tactical → operational → contingency</li><li>Leadership styles: autocratic, participative, laissez-faire</li><li>Levels: top, middle, supervisory</li><li>SWOT = Strengths and Weaknesses (internal), Opportunities and Threats (external)</li></ul></div>
+ <div class="box"><h3>Finance basics</h3><ul><li>Money supply: M1 (cash and checking accounts), M2 (M1 plus savings)</li><li>Central bank tools: reserve requirement, discount rate, open market operations</li><li>Stocks = ownership; bonds = debt</li></ul></div>
+</div>
+</section>
+
+<!-- ================= ENES ================= -->
+<section id="enes">
+<h2>ENES 101 · English Language Studies <button class="pbtn" onclick="print()">🖨 Print</button></h2>
+<div class="mm">
+ <div class="br"><b class="t">1. Learning (M1–2)</b><ul><li>Learning styles: auditory, visual, kinesthetic (most people are a mix)</li><li>Critical thinking, creative thinking, meta-cognition</li><li>Vocabulary: context clues, word parts (prefix, root, suffix), dictionary, word lists</li></ul></div>
+ <div class="br"><b class="t">2. Reading (M3–4)</b><ul><li><b>Skimming</b>: for the main idea · <b>Scanning</b>: for a specific fact</li><li><b>SQ3R</b>: Survey, Question, Read, Recite, Review</li><li>Annotating: underline, write in margins, use symbols, summarise</li></ul></div>
+ <div class="core">Academic Skills<small>read → note → write</small></div>
+ <div class="br"><b class="t">3. Note Taking (M5–8)</b><ul><li>Methods: Cornell, outline, mind map, charting</li><li>Use abbreviations and symbols; record key words, not every word</li><li>Mind map: central idea, branches, key words, colours</li><li>Outline: I. → A. → 1. → a.</li></ul></div>
+ <div class="br"><b class="t">4. Arguments & Plagiarism (M9–10)</b><ul><li>Argument = claim + reasons + evidence</li><li>Fact vs opinion; watch for logical fallacies</li><li>Plagiarism = using another person's words or ideas without credit</li><li>Avoid it by quoting, paraphrasing, summarising and citing</li></ul></div>
+ <div class="br"><b class="t">5. Writing Process (M11–13)</b><ul><li>Prewriting → outlining → drafting → revising → editing</li><li>Prewriting methods: listing, freewriting, clustering, questioning</li><li>For an assignment: analyse the question, gather ideas, narrow the topic</li></ul></div>
+ <div class="br"><b class="t">6. Draft & Revise (M14–15)</b><ul><li>Thesis = topic + controlling idea (the whole essay)</li><li>Topic sentence = topic + controlling idea (one paragraph)</li><li>Revise content and organisation first, then edit grammar, spelling and punctuation</li></ul></div>
+</div>
+<div class="notes">
+ <div class="box"><h3>Paragraph & essay structure</h3><ul><li>Paragraph: topic sentence → supporting sentences (examples, facts) → concluding sentence</li><li>Essay: introduction (hook, background, thesis) → body paragraphs → conclusion (restate the thesis, summarise, give a final thought)</li><li>Unity: one idea per paragraph · Coherence: transitions and logical order</li></ul></div>
+ <div class="box"><h3>Paraphrase vs summary vs quote</h3><table><tr><th></th><th>Length</th><th>Wording</th></tr><tr><td>Quote</td><td>exact</td><td>the author's words, in quotation marks</td></tr><tr><td>Paraphrase</td><td>about the same</td><td>your own words</td></tr><tr><td>Summary</td><td>much shorter</td><td>main points only, your own words</td></tr></table>Every one of them still needs a citation.</div>
+ <div class="box"><h3>Note-taking tips</h3><ul><li>Before: preview the topic · During: key words, headings, examples · After: review within 24 hours</li><li>Cornell format: cue column, notes column, summary at the bottom</li><li>Presentations: note the main points, not every word on the slides</li></ul></div>
+ <div class="box"><h3>Thesis checklist</h3><ul><li>One sentence giving a clear position</li><li>Not a fact, a question, or too broad</li><li>Usually the last sentence of the introduction</li><li>Example: "Social media improves communication but harms students' time management."</li></ul></div>
+ <div class="box"><h3>APA 7 essentials</h3><ul><li>Times New Roman 12, double spacing, 1-inch margins, 0.5-inch first-line indent</li><li>In-text citation: (Author, Year) or (Author, Year, p. #)</li><li>References on a new page, alphabetical order, hanging indent</li><li>Student title page: title, name, university, course, instructor, date</li></ul></div>
+ <div class="box"><h3>Revising vs editing</h3><ul><li><b>Revising</b> = the big picture: ideas, order, unity, adding or cutting material</li><li><b>Editing</b> = the small things: grammar, spelling, punctuation, word choice</li><li>Read aloud; check against the rubric</li></ul></div>
+</div>
+</section>
+
+<!-- ================= ASSIGNMENTS (last) ================= -->
+<section id="asg">
+<h2>✍️ Assignments · অ্যাসাইনমেন্ট</h2>
+<div class="notes" style="columns:1">
+ <div class="box"><h3>Assignment guides for all four subjects</h3><p>Topic choice, paragraph plan, sources, APA format and a checklist for ISGS, FPEC, BIBS and ENES → <a href="assignments.html">Open Assignment Guides</a></p>
+ <p class="bn">চারটি বিষয়ের অ্যাসাইনমেন্ট গাইড: টপিক বাছাই, প্যারাগ্রাফ প্ল্যান, সূত্র, APA আর চেকলিস্ট।</p></div>
+ <div class="box"><h3>Remember · মনে রাখো</h3><p>IOU checks every assignment with a plagiarism checker and an AI detector, and you sign an Ethical AI Declaration. Write the sentences yourself using the guide, then get your draft checked for grammar, APA and the rubric.</p>
+ <p class="bn">IOU প্রতিটি অ্যাসাইনমেন্ট plagiarism ও AI detector দিয়ে পরীক্ষা করে। গাইড দেখে নিজের ভাষায় লেখো, তারপর খসড়া চেক করিয়ে নাও।</p></div>
+</div>
+</section>
+</div>
+<script>
+document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>{
+ document.querySelectorAll('.tabs button').forEach(x=>x.classList.toggle('on',x===b));
+ document.querySelectorAll('section').forEach(s=>s.classList.toggle('on',s.id===b.dataset.t));
+ try{localStorage.setItem('cs-tab',b.dataset.t)}catch(e){}
+});
+try{const t=localStorage.getItem('cs-tab');const b=t&&document.querySelector('.tabs button[data-t="'+t+'"]');if(b)b.click()}catch(e){}
+</script>
+</body></html>
