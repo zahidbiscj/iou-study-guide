@@ -1,7 +1,7 @@
-/* Study planner for the home page: 1 Nov – 30 Nov, one subject per day. Self-contained; uses only localStorage. */
+/* Study planner for the home page: 5 Nov – 11 Dec (midterm 12 Dec). Self-contained; uses only localStorage. */
 (function () {
   'use strict';
-  var START = '2026-11-01', END = '2026-11-30', REVISION_DAYS = 4, REST = ['2026-11-12', '2026-11-13', '2026-11-14'];
+  var START = '2026-11-05', END = '2026-12-11', REVISION_DAYS = 3, REST = ['2026-11-12', '2026-11-13', '2026-11-14'];
   var KEY = 'plan-done-v1';
   var SUBJ = {
     isgs: { name: 'ISGS 101', full: 'Islamic Studies 1', bn: 'ইসলামিক স্টাডিজ ১', icon: '☪️', color: '#2f7d5b' },
@@ -81,56 +81,38 @@
     var weights = [], sumW = 0;
     var activeIdx = [];
     for (i = 0; i < studyDays; i++) { var dd0 = iso(addDays(d0, i)), w = REST.indexOf(dd0) >= 0 ? 0 : (light(dd0) ? 0.4 : 1); weights.push(w); sumW += w; if (w) activeIdx.push(i); }
-    var plan = [], assigned = 0, cum = 0, prevPair = '';
-    function pre(x, n) { var t = 0; for (var j = 0; j < n; j++) t += left[x][j].mins; return t; }
+    /* Even spread: each study day gets about the same share of minutes (Fri/Sat lighter);
+       the subject that is furthest behind (by fraction done) gets the next module, so all four move together. */
+    var plan = [], assigned = 0, cum = 0, tot = {}, got = {};
+    ORDER.forEach(function (x) { tot[x] = rem(x) || 1; got[x] = 0; });
+    var lastActive = activeIdx[activeIdx.length - 1];
     for (i = 0; i < studyDays; i++) {
       var date = iso(addDays(d0, i)), lt = light(date);
       if (!weights[i]) { plan.push({ date: date, sub: 'isgs', parts: [], mods: [], rev: false, rest: true, light: false, mins: 0 }); continue; }
       cum += weights[i];
-      var cap = total * weights[i] / sumW, debt = total * (cum - weights[i]) / sumW - assigned;
-      var T = Math.max(0.3 * cap, cap + 0.35 * debt), last = i === activeIdx[activeIdx.length - 1], L = activeIdx.filter(function (x) { return x > i; }).length;
-      var have = ORDER.filter(function (x) { return left[x].length; }), pick = null;
-      if (last) {
-        pick = { parts: have.map(function (x) { return [x, left[x].length]; }) };
-      } else {
-        var maxRem = Math.max.apply(null, have.map(rem).concat([1])), best = 1e18;
-        have.forEach(function (x) {
-          have.concat(have.length === 1 ? [null] : []).forEach(function (y) {
-            if (y === x) return;
-            for (var na = 1; na <= (lt ? 1 : 3) && na <= left[x].length; na++) {
-              for (var nb = (y ? 1 : 0); nb <= (y ? (lt ? 1 : 2) : 0) && (!y || nb <= left[y].length); nb++) {
-                if (y && na < nb) continue;
-                var sx = pre(x, na), sy = y ? pre(y, nb) : 0, sum = sx + sy;
-                if (y && sx < sy * 0.9 && na === nb) continue;          /* main subject should carry more */
-                var cost = (lt ? 2.5 : 1) * Math.pow((sum - T) / 60, 2) + (sum - cap > 0 && lt ? 0 : 0) + 0.15 * Math.pow((maxRem - rem(x)) / 60, 2);
-                if (x + y === prevPair || y + x === prevPair) cost += 4;
-                var remAfter = ORDER.reduce(function (a, z) { return a + rem(z); }, 0) - sum, capAfter = total * (sumW - cum) / sumW;
-                if (remAfter < 0.9 * capAfter) cost += 0.8 * Math.pow((0.9 * capAfter - remAfter) / 60, 2);   /* do not run out of work before the last day */
-                /* every subject must still be finishable in the days that remain */
-                ORDER.forEach(function (z) {
-                  var r = left[z].length - (z === x ? na : 0) - (z === y ? nb : 0);
-                  if (r > L * 1.6) cost += 1e6 * (r - L * 1.6);
-                });
-                if (cost < best) { best = cost; pick = { parts: y ? [[x, na], [y, nb]] : [[x, na]] }; }
-              }
-            }
-          });
-        });
+      var target = total * cum / sumW, bySub = {}, order = [], flat = [];
+      while (true) {
+        var have = ORDER.filter(function (x) { return left[x].length; });
+        if (!have.length) break;
+        if (order.length >= 2) have = have.filter(function (x) { return bySub[x]; });   /* at most 2 subjects a day */
+        if (!have.length) break;
+        have.sort(function (p, q) { return got[p] / tot[p] - got[q] / tot[q]; });
+        if (lt && !flat.length) { var share = total * weights[i] / sumW, small = have.filter(function (z) { return left[z][0].mins <= share * 1.6; }); if (small.length) have = small; }
+        var x = have[0], m = left[x][0];
+        if (i !== lastActive && flat.length && assigned + m.mins / 2 > target) break;
+        left[x].shift(); got[x] += m.mins; assigned += m.mins; flat.push(m);
+        if (!bySub[x]) { bySub[x] = []; order.push(x); }
+        bySub[x].push(m);
+        if (i !== lastActive && assigned >= target) break;
       }
-      var parts = [], flat = [];
-      if (!pick) pick = { parts: [] };
-      pick.parts.forEach(function (pp) {
-        var mm = left[pp[0]].splice(0, pp[1]); parts.push({ sub: pp[0], mods: mm }); flat = flat.concat(mm);
-      });
-      var mins = flat.reduce(function (a, m) { return a + m.mins; }, 0); assigned += mins;
-      prevPair = parts.map(function (x) { return x.sub; }).join('');
-      plan.push({ date: date, sub: parts.length ? parts[0].sub : 'isgs', parts: parts, mods: flat, rev: false, light: lt, mins: mins });
+      var parts = order.map(function (x) { return { sub: x, mods: bySub[x] }; });
+      plan.push({ date: date, sub: parts.length ? parts[0].sub : 'isgs', parts: parts, mods: flat, rev: false, light: lt, mins: flat.reduce(function (a, m) { return a + m.mins; }, 0) });
     }
     var rev = [['isgs', 'fpec'], ['enes', 'bibs'], ['isgs', 'enes'], ['fpec', 'bibs']];
-    rev.forEach(function (pair, n) {
+    for (var rn = 0; rn < REVISION_DAYS; rn++) (function (pair, n) {
       var date = iso(addDays(d0, studyDays + n)), lt = light(date);
       plan.push({ date: date, sub: pair[0], parts: pair.map(function (x) { return { sub: x, mods: [] }; }), mods: [], rev: true, light: lt, mins: lt ? 90 : 150 });
-    });
+    })(rev[rn % rev.length], rn);
     return plan;
   }
 
@@ -220,12 +202,12 @@
     var status, cls;
     if (before) { status = '🗓 Plan starts on ' + nice(START) + '. Open any module to begin — progress is recorded automatically. · ' + nice(START) + ' থেকে শুরু'; cls = 'pl-ok'; }
     else if (doneN >= totalN) { status = '🎉 All ' + totalN + ' modules and quizzes finished! Use the last days for revision and the midterm Q&A.'; cls = 'pl-ok'; }
-    else if (after) { status = '⏰ The 30 November target has passed — ' + (totalN - doneN) + ' modules still open.'; cls = 'pl-bad'; }
+    else if (after) { status = '⏰ The 11 December target has passed — ' + (totalN - doneN) + ' modules still open.'; cls = 'pl-bad'; }
     else if (eq >= expEnd) { status = '✅ Ahead of plan' + (eq - expEnd >= 0.5 ? ' by ' + r1(eq - expEnd) + ' module(s)' : ' — today\'s target is met') + ' · পরিকল্পনার আগে'; cls = 'pl-ok'; }
     else if (eq >= expStart) { status = '🟢 On track — finish today\'s modules (' + r1(expEnd - eq) + ' module(s) to go). · ঠিক পথে'; cls = 'pl-ok'; }
     else {
       var behind = r1(expStart - eq), perDay = studyLeft ? r1((totalN - eq) / studyLeft) : 0;
-      status = (behind > 3 ? '🔴' : '🟠') + ' Behind by ' + behind + ' module(s). To finish by 30 Nov: about ' + perDay + ' modules/day (≈ ' + hrs(remMins / Math.max(1, studyLeft)) + ' a day). · ' + behind + 'টি মডিউল পিছিয়ে';
+      status = (behind > 3 ? '🔴' : '🟠') + ' Behind by ' + behind + ' module(s). To finish by 11 Dec: about ' + perDay + ' modules/day (≈ ' + hrs(remMins / Math.max(1, studyLeft)) + ' a day). · ' + behind + 'টি মডিউল পিছিয়ে';
       cls = behind > 3 ? 'pl-bad' : 'pl-warn';
     }
     var forecast = '';
@@ -265,7 +247,7 @@
     var ring = 'background:conic-gradient(var(--brand-2,#2f7d5b) ' + Math.round(gF * 360) + 'deg,var(--line) 0)';
     h += '<div class="pl-card" style="display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:center"><div style="width:84px;height:84px;border-radius:50%;' + ring + ';display:grid;place-items:center"><div style="width:62px;height:62px;border-radius:50%;background:var(--paper);display:grid;place-items:center;font-weight:800;color:var(--brand)">' + Math.round(gF * 100) + '%</div></div>' +
       '<div><b>🎯 Today\'s goal · আজকের লক্ষ্য</b><div style="font-size:14px;margin-top:4px">' + msg + '</div><div style="font-size:13px;margin-top:6px;color:var(--muted)">🔥 Streak: <b>' + streak + '</b> day' + (streak === 1 ? '' : 's') + ' · best ' + best + '</div></div></div>';
-    if (!before && !after) h += '<div class="pl-status ' + (urgent ? 'pl-bad' : 'pl-ok') + '" style="text-align:center">⏳ ' + daysLeft + ' day' + (daysLeft === 1 ? '' : 's') + ' left to 30 November · ' + (totalN - doneN) + ' module' + (totalN - doneN === 1 ? '' : 's') + ' to go' + (urgent ? ' — final sprint! 🏁' : '') + '</div>';
+    if (!before && !after) h += '<div class="pl-status ' + (urgent ? 'pl-bad' : 'pl-ok') + '" style="text-align:center">⏳ ' + daysLeft + ' day' + (daysLeft === 1 ? '' : 's') + ' left to 11 December (midterm 12 Dec) · ' + (totalN - doneN) + ' module' + (totalN - doneN === 1 ? '' : 's') + ' to go' + (urgent ? ' — final sprint! 🏁' : '') + '</div>';
     var BG = [['🌱', 'First module', doneN >= 1], ['📘', '5 modules', doneN >= 5], ['⭐', '25% done', overall >= 25], ['🔥', '50% done', overall >= 50], ['🚀', '75% done', overall >= 75], ['🏆', 'All 54 done', doneN >= totalN],
       ['🔥', '3-day streak', best >= 3], ['⚡', '7-day streak', best >= 7], ['💯', 'Perfect quiz', perfect], ['📚', 'Subject master', ORDER.some(function (k) { return mods[k].every(function (m) { return INFO[m.id].complete; }); })]];
     h += '<div class="pl-card"><b>🏅 Achievements · অর্জন</b> <span style="font-size:12px;color:var(--muted)">' + BG.filter(function (b) { return b[2]; }).length + '/' + BG.length + ' unlocked</span><div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:8px">' +
@@ -300,7 +282,7 @@
       '<p style="color:var(--muted);font-size:13px;margin:8px 0 0">Your daily activity will appear here after you study.</p>';
     h += '</div>';
     /* timetable */
-    h += '<!--PL:REST-->' + '<details class="pl-card"' + (after ? ' open' : '') + '><summary>Full 30-day timetable · সম্পূর্ণ সময়সূচি</summary><div class="pl-days" style="margin-top:10px">';
+    h += '<!--PL:REST-->' + '<details class="pl-card"' + (after ? ' open' : '') + '><summary>Full timetable (5 Nov – 11 Dec) · সম্পূর্ণ সময়সূচি</summary><div class="pl-days" style="margin-top:10px">';
     plan.forEach(function (d) {
       var dn = d.mods.filter(function (m) { return INFO[m.id].complete; }).length, st;
       if (d.rest) st = '😴 rest';
@@ -320,14 +302,14 @@
       '<button class="pl-go" id="plCard" type="button">🖼 Download progress card</button><button class="pl-go" id="plPrint" type="button">🖨 Print / Save PDF</button><button class="pl-go" id="plWa" type="button">💬 Share on WhatsApp</button></div>' +
       '<div style="margin-top:10px;display:flex;flex-wrap:wrap;gap:8px;align-items:center"><span style="font-size:13px">⏰ Daily reminder at</span><input id="plTime" type="time" value="' + rt + '" style="padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink);font:inherit">' +
       '<button class="pl-go" id="plIcs" type="button">📅 Add to phone calendar (.ics)</button><button class="pl-go" id="plNote" type="button">🔔 Notify me when I open the site</button></div>' +
-      '<p style="font-size:12px;color:var(--muted);margin:8px 0 0">The calendar file adds one reminder per study day (1–30 Nov, skipping rest days) with that day\'s subjects and modules — import it into Google/Apple Calendar and your phone will remind you. The browser notification works only when the site is open. · ক্যালেন্ডার ফাইল ইমপোর্ট করলে প্রতিদিন ফোনে রিমাইন্ডার আসবে।</p></div>';
+      '<p style="font-size:12px;color:var(--muted);margin:8px 0 0">The calendar file adds one reminder per study day (5 Nov – 11 Dec, skipping rest days) with that day\'s subjects and modules — import it into Google/Apple Calendar and your phone will remind you. The browser notification works only when the site is open. · ক্যালেন্ডার ফাইল ইমপোর্ট করলে প্রতিদিন ফোনে রিমাইন্ডার আসবে।</p></div>';
     h += '<p style="font-size:12px;color:var(--muted)">ℹ️ The report is saved in <b>this browser</b> and is private to whoever is using it — each student sees their own progress. Opening the site on another phone or computer starts a fresh report. · রিপোর্টটি এই ব্রাউজারে সংরক্ষিত।</p>';
     var seg = h.split(/<!--PL:(TOP|CHART|SUBJ|REST)-->/), out = { TOP: seg[0], CHART: '', SUBJ: '', REST: '' };
     for (var q = 1; q < seg.length; q += 2) out[seg[q]] += seg[q + 1];
     $('#plTop', root).innerHTML = out.TOP; $('#plChart', root).innerHTML = out.CHART;
     $('#plSubj', root).innerHTML = out.SUBJ; $('#plRest', root).innerHTML = out.REST;
     var nameEl = $('#plName', root), who = function () { return (nameEl && nameEl.value.trim()) || 'Student'; };
-    var summary = function () { return '📊 ' + who() + ' — IOU study progress\n' + overall + '% overall · ' + doneN + '/' + totalN + ' modules + quizzes done\n🔥 streak ' + streak + ' day(s) · ' + daysLeft + ' days left to 30 Nov\n' + (eq >= expEnd ? '✅ on/ahead of plan' : '⚠️ behind plan') + '\n' + location.origin + location.pathname; };
+    var summary = function () { return '📊 ' + who() + ' — IOU study progress\n' + overall + '% overall · ' + doneN + '/' + totalN + ' modules + quizzes done\n🔥 streak ' + streak + ' day(s) · ' + daysLeft + ' days left to 11 Dec\n' + (eq >= expEnd ? '✅ on/ahead of plan' : '⚠️ behind plan') + '\n' + location.origin + location.pathname; };
     nameEl.addEventListener('change', function () { try { localStorage.setItem('plan-name', nameEl.value.trim()); } catch (e) { /* storage unavailable */ } });
     $('#plWa', root).addEventListener('click', function () { window.open('https://wa.me/?text=' + encodeURIComponent(summary()), '_blank'); });
     $('#plPrint', root).addEventListener('click', function () { var ds = document.querySelectorAll('.plan details'); Array.prototype.forEach.call(ds, function (d) { d.open = true; }); window.print(); });

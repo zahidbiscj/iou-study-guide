@@ -2,203 +2,54 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Midterm Quick Notes</title>
 <style>
-:root{--bg:#fbfaf7;--card:#fff;--ink:#1d2330;--mut:#5b6474;--line:#e3e0d8;--acc:#0f6b5c;--acc2:#b4531a;--hi:#fff4d6}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14171c;--card:#1c2027;--ink:#e8e9ec;--mut:#a3aab6;--line:#2e333c;--acc:#5cc8b2;--acc2:#f0a36b;--hi:#3a3220}}
-:root[data-theme="dark"]{--bg:#14171c;--card:#1c2027;--ink:#e8e9ec;--mut:#a3aab6;--line:#2e333c;--acc:#5cc8b2;--acc2:#f0a36b;--hi:#3a3220}
+:root{--bg:#fbfaf7;--card:#fff;--ink:#1d2330;--mut:#5b6474;--line:#e3e0d8;--acc:#0f6b5c;--acc2:#b4531a;--hi:#fff4d6;--ok:#1d7a3a;--okb:#e5f5ea;--bad:#b42318;--badb:#fdecea}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14171c;--card:#1c2027;--ink:#e8e9ec;--mut:#a3aab6;--line:#2e333c;--acc:#5cc8b2;--acc2:#f0a36b;--hi:#3a3220;--ok:#6fd38f;--okb:#16301f;--bad:#ff8a80;--badb:#3a1c1a}}
+:root[data-theme="dark"]{--bg:#14171c;--card:#1c2027;--ink:#e8e9ec;--mut:#a3aab6;--line:#2e333c;--acc:#5cc8b2;--acc2:#f0a36b;--hi:#3a3220;--ok:#6fd38f;--okb:#16301f;--bad:#ff8a80;--badb:#3a1c1a}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,"Noto Sans Bengali",sans-serif}
-.wrap{max-width:900px;margin:0 auto;padding:16px}
-header a{color:var(--acc);text-decoration:none;font-size:14px}
-h1{font-size:24px;margin:8px 0 2px}.sub{color:var(--mut);margin:0 0 12px}
-.tabs{display:flex;flex-wrap:wrap;gap:6px;position:sticky;top:0;background:var(--bg);padding:8px 0;z-index:2;border-bottom:1px solid var(--line)}
-.tabs button{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:7px 12px;border-radius:999px;font:inherit;font-size:14px;cursor:pointer}
-.tabs button.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.wrap{max-width:960px;margin:0 auto;padding:16px}
+a{color:var(--acc)}header a{text-decoration:none;font-size:14px}
+h1{font-size:24px;margin:8px 0 2px}.sub{color:var(--mut);margin:0 0 10px}
+.bar{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.tabs{position:sticky;top:0;background:var(--bg);padding:8px 0;z-index:3;border-bottom:1px solid var(--line)}
+button,.btn{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:7px 12px;border-radius:999px;font:inherit;font-size:14px;cursor:pointer}
+button.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.views{margin:10px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}
+details.mod{background:var(--card);border:1px solid var(--line);border-radius:12px;margin:8px 0}
+details.mod>summary{cursor:pointer;padding:12px 14px;font-weight:700;list-style:none;display:flex;gap:8px;align-items:center}
+details.mod>summary::-webkit-details-marker{display:none}
+details.mod>summary .n{background:var(--acc);color:#fff;border-radius:8px;padding:0 8px;font-size:14px}
+details.mod>summary .tb{font-weight:400;color:var(--mut);font-size:14px}
+details.mod>summary .r{margin-left:auto;font-size:13px;font-weight:400;color:var(--mut);white-space:nowrap}
+.mb{padding:0 14px 12px}
+h3{font-size:16px;margin:14px 0 6px;color:var(--acc)}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.pair>div{min-width:0}.tag{display:inline-block;font-size:11px;font-weight:700;text-transform:uppercase;color:var(--mut);letter-spacing:.04em}
+.bn-box{border-left:3px solid var(--line);padding-left:10px}
+body.enonly .bn-box,body.enonly .qb,body.enonly .eb{display:none}body.enonly .pair{grid-template-columns:1fr}
+@media (max-width:700px){.pair{grid-template-columns:1fr}}
+.tbl{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px}td,th{border:1px solid var(--line);padding:5px 6px;text-align:left;vertical-align:top}
+ul,ol{padding-left:20px;margin:4px 0}li{margin:2px 0}
+.facts li{margin:6px 0}.facts .ans{color:var(--ok);font-weight:600}.qb,.eb{display:block;color:var(--mut);font-size:14px}
+.ex{color:var(--mut);font-size:14px}
+.tip{border-left:4px solid var(--acc2);padding:8px 12px;margin:10px 0;background:var(--card);border-radius:0 8px 8px 0}
+.read{display:flex;gap:6px;align-items:center;font-size:14px;margin-top:10px}
+.prog{height:8px;background:var(--line);border-radius:99px;overflow:hidden;margin:6px 0}.prog i{display:block;height:100%;background:var(--acc)}
+/* practice */
+.pq{font-size:17px;font-weight:600;margin:4px 0}
+.opt{display:block;width:100%;text-align:left;border-radius:10px;margin:6px 0;padding:10px 12px}
+.opt.good{background:var(--okb);border-color:var(--ok);color:var(--ink)}.opt.wrong{background:var(--badb);border-color:var(--bad);color:var(--ink)}
+.fb{margin-top:8px}.score{font-size:20px;font-weight:700}
+select{font:inherit;padding:6px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink);max-width:100%}
 section{display:none}section.on{display:block}
-.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:12px 0}
-h2{font-size:20px;margin:16px 0 4px;color:var(--acc)}h3{font-size:16px;margin:0 0 6px}
-.bn{color:var(--mut);font-size:15px}.bn::before{content:"বাংলা: ";font-weight:600}
-ul{margin:4px 0;padding-left:20px}li{margin:2px 0}
-.k{background:var(--hi);padding:0 3px;border-radius:3px}
-.tip{border-left:4px solid var(--acc2);padding:6px 10px;margin:8px 0;background:var(--card)}
-table{border-collapse:collapse;width:100%;font-size:14px}td,th{border:1px solid var(--line);padding:5px 6px;text-align:left;vertical-align:top}
-.tbl{overflow-x:auto}
-@media print{.tabs,header{display:none}section{display:block!important}.card{break-inside:avoid}}
+@media print{.tabs,header,.views,.read{display:none}details.mod{break-inside:auto}details.mod:not([open]) .mb{display:block}}
 </style></head><body><div class="wrap">
 <header><a href="index.html">← Study guide home · হোম</a></header>
 <h1>Midterm Quick Notes</h1>
-<p class="sub">Read this the night before / morning of the exam. One page per subject: the points that come up again and again. · পরীক্ষার আগে শুধু এটা পড়লেই মূল কমন বিষয়গুলো চোখ বুলানো হয়ে যাবে।</p>
-<div class="tabs" role="tablist">
-<button data-t="isgs" class="on">ISGS 101</button><button data-t="fpec">FPEC 101</button><button data-t="bibs">BIBS 101</button><button data-t="enes">ENES 101</button><button data-t="asg">✍️ Assignments</button><button onclick="print()">🖨 Print all</button>
-</div>
-
-<!-- ================= ISGS ================= -->
-<section id="isgs" class="on">
-<h2>ISGS 101 · Islamic Studies 1</h2>
-<div class="tip">Answer pattern: <b>definition → list/points → one Qur'an/hadith proof → short example</b>. · উত্তরের ধরন: সংজ্ঞা → পয়েন্ট → একটি দলিল → ছোট উদাহরণ।</div>
-<div class="card"><h3>1. Aqeedah &amp; Tawheed</h3><ul>
-<li><b>Aqeedah</b> = firm belief the heart is certain of, with no doubt.</li>
-<li><b>Tawheed</b> = singling out Allah alone in what is specific to Him. Three types:
-<ul><li><span class="k">Rububiyyah</span> – Lordship: Allah alone creates, owns, controls, provides.</li>
-<li><span class="k">Uluhiyyah / Ibadah</span> – all worship for Allah alone (the main message of every prophet).</li>
-<li><span class="k">Asma wa Sifat</span> – affirm His Names &amp; Attributes as in Qur'an/Sunnah.</li></ul></li></ul>
-<p class="bn">আকীদা = সন্দেহহীন দৃঢ় বিশ্বাস। তাওহীদ তিন প্রকার: রুবুবিয়্যাহ (সৃষ্টি-মালিকানা-পরিচালনায় এক), উলুহিয়্যাহ (সব ইবাদত শুধু আল্লাহর), আসমা ওয়াস সিফাত (নাম ও গুণাবলি)।</p></div>
-<div class="card"><h3>2. Seven conditions of Laa ilaaha illallaah</h3>
-<p><b>Knowledge</b> ('ilm) · <b>Certainty</b> (yaqeen) · <b>Acceptance</b> (qabool) · <b>Submission</b> (inqiyaad) · <b>Truthfulness</b> (sidq) · <b>Sincerity</b> (ikhlaas) · <b>Love</b> (mahabbah).</p>
-<p>Meaning: <i>none has the right to be worshipped except Allah</i> — negation (laa ilaaha) + affirmation (illallaah).</p>
-<p class="bn">সাত শর্ত: জ্ঞান, দৃঢ় বিশ্বাস, গ্রহণ, আনুগত্য, সত্যবাদিতা, একনিষ্ঠতা, ভালোবাসা। অর্থ: আল্লাহ ছাড়া সত্য কোনো উপাস্য নেই (অস্বীকার + স্বীকার)।</p></div>
-<div class="card"><h3>3. Names &amp; Attributes — Ahl as-Sunnah</h3>
-<p>Affirm them as they came, <b>without</b>: <span class="k">tahreef</span> (distorting meaning), <span class="k">ta'teel</span> (denying), <span class="k">takyeef</span> (asking "how"), <span class="k">tamtheel</span> (likening to creation). Proof: "There is nothing like Him, and He is the All-Hearing, All-Seeing" (42:11).</p>
-<p class="bn">বিকৃতি, অস্বীকার, ধরন নির্ধারণ ও সৃষ্টির সাথে তুলনা ছাড়া গুণাবলি মেনে নেওয়া (সূরা শূরা ৪২:১১)।</p></div>
-<div class="card"><h3>4. Ibadah (worship)</h3><ul>
-<li>Definition (Ibn Taymiyyah): everything Allah <b>loves and is pleased with</b> — sayings and actions, inward and outward.</li>
-<li>Accepted only with two conditions: <b>Ikhlaas</b> (for Allah alone) + <b>following the Sunnah</b>.</li>
-<li>Pillars of worship of the heart: <b>love, fear, hope</b>; also tawakkul (reliance).</li>
-<li><b>Hadith of Jibreel:</b> Islam (5 pillars) → Iman (6 pillars) → Ihsan (worship Allah as if you see Him) + signs of the Hour.</li></ul>
-<p class="bn">ইবাদত = আল্লাহ যা ভালোবাসেন ও পছন্দ করেন এমন সব কথা ও কাজ। কবুলের শর্ত: ইখলাস + সুন্নাহ অনুসরণ। হৃদয়ের ইবাদত: ভালোবাসা, ভয়, আশা। জিবরীলের হাদীস: ইসলাম, ঈমান, ইহসান।</p></div>
-<div class="card"><h3>5. Six pillars of Iman</h3><div class="tbl"><table>
-<tr><th>Pillar</th><th>Must-know points</th></tr>
-<tr><td>Allah</td><td>His existence, Lordship, Divinity, Names &amp; Attributes.</td></tr>
-<tr><td>Angels</td><td>Created from <b>light</b>; never disobey. Four things: believe in their existence, names we know (Jibreel – revelation, Mikaa'eel – rain, Israfeel – trumpet, Angel of death), their attributes, their actions. Recording angels <b>Kiraaman Kaatibeen</b> (Raqeeb &amp; 'Ateed); Munkar &amp; Nakeer question in the grave. Dwelling: the heavens; number known only to Allah.</td></tr>
-<tr><td>Books</td><td>Suhuf (Ibrahim, Musa), <b>Tawrah</b> – Musa, <b>Zabur</b> – Dawud, <b>Injeel</b> – 'Isa, <b>Qur'an</b> – Muhammad ﷺ (preserved, abrogates the rest). Four things: from Allah, believe named ones, affirm their true reports, act on the Qur'an.</td></tr>
-<tr><td>Messengers</td><td><b>Rasul</b> brings a new law to a disbelieving people; <b>Nabi</b> follows an earlier law. First messenger Nuh, last prophet Muhammad ﷺ. Ulul-'Azm: Nuh, Ibrahim, Musa, 'Isa, Muhammad. Human, not divine; <b>infallible in conveying</b> the message; tasks: convey, call to tawheed, give glad tidings &amp; warn, be an example.</td></tr>
-<tr><td>Last Day</td><td>Grave (questioning, reward/punishment) → trumpet → <b>resurrection</b> → <b>gathering</b> → <b>intercession</b> (greatest one by the Prophet ﷺ) → <b>reckoning</b> → book of deeds, scales, Hawd, Siraat → Jannah / Jahannam.</td></tr>
-<tr><td>Qadar</td><td>Four levels: <b>Knowledge</b> ('ilm) · <b>Writing</b> (kitaabah) · <b>Will</b> (mashee'ah) · <b>Creation</b> (khalq). Humans still have real <b>choice</b> and are accountable. Benefits: contentment, reliance on Allah, no arrogance in success, no despair in loss.</td></tr></table></div>
-<p class="bn">ঈমানের ছয় স্তম্ভ: আল্লাহ, ফেরেশতা (নূরের তৈরি), কিতাব (তাওরাত-মূসা, যাবুর-দাউদ, ইনজিল-ঈসা, কুরআন-মুহাম্মদ ﷺ), রাসূল (রাসূল নতুন শরীয়ত আনেন, নবী আগের শরীয়ত মানেন), আখিরাত (কবর, পুনরুত্থান, হাশর, শাফাআত, হিসাব), তাকদীর (জ্ঞান, লিখন, ইচ্ছা, সৃষ্টি — মানুষের ইচ্ছাশক্তি আছে)।</p></div>
-<div class="card"><h3>6. Shirk, fortune-tellers, graves</h3><ul>
-<li><b>Major shirk</b>: giving worship to other than Allah (du'a, sacrifice, vows to others) → takes a person out of Islam; not forgiven if one dies on it (4:48).</li>
-<li><b>Minor shirk</b>: a means to major shirk, does not expel — showing off (<i>riyaa'</i>), swearing by other than Allah, "what Allah wills and you will", wearing amulets believing they are a cause.</li>
-<li><b>Fortune-tellers</b>: whoever goes and asks → prayer not accepted 40 nights; whoever <b>believes</b> them → disbelieved in what was revealed to Muhammad ﷺ.</li>
-<li><b>Astrology</b>: using stars to predict events = forbidden; using them for direction/time = allowed.</li>
-<li><b>Graves</b>: visiting to remember death and making du'a <i>for</i> the dead = Sunnah; praying <i>to</i> the dead, tawaf, building mosques over graves = shirk / forbidden.</li></ul>
-<p class="bn">বড় শিরক ইসলাম থেকে বের করে দেয়; ছোট শিরক (রিয়া, আল্লাহ ছাড়া কসম) বের করে না কিন্তু বড় শিরকের দরজা। গণকের কাছে গেলে ৪০ রাত নামাজ কবুল হয় না; বিশ্বাস করলে কুফর। কবর জিয়ারত সুন্নাহ, কবরবাসীর কাছে চাওয়া শিরক।</p></div>
-</section>
-
-<!-- ================= FPEC ================= -->
-<section id="fpec">
-<h2>FPEC 101 · Principles of Economics</h2>
-<div class="tip">Draw a diagram whenever you can (label axes, curves, equilibrium). It earns marks fast. · যেখানে পারো চিত্র আঁকো — অক্ষ, রেখা, ভারসাম্য লেবেল করো।</div>
-<div class="card"><h3>L1–2 · Basics &amp; economic systems</h3><ul>
-<li><b>Economics</b> = how society uses <b>scarce</b> resources to meet <b>unlimited</b> wants. Scarcity → choice → <b>opportunity cost</b> (next best alternative given up).</li>
-<li>Micro (individual markets) vs Macro (whole economy); positive ("what is") vs normative ("what ought to be").</li>
-<li><b>PPC</b>: max combinations of two goods; points inside = unemployment, on = efficient, outside = unattainable; bowed out = increasing opportunity cost; shifts out with growth.</li>
-<li>Factors: land (rent), labour (wages), capital (interest), entrepreneurship (profit).</li>
-<li>Systems: <b>market</b> (price signals, efficient but inequality, public goods neglected), <b>command</b> (state plans), <b>mixed</b> (Bangladesh). Five questions: what, how, for whom, adapt to change, promote progress.</li></ul>
-<p class="bn">দুষ্প্রাপ্যতা → পছন্দ → সুযোগ ব্যয়। PPC-র ভেতরে বেকারত্ব, ওপরে দক্ষতা, বাইরে অসম্ভব। বাজার, নির্দেশিত ও মিশ্র অর্থনীতি।</p></div>
-<div class="card"><h3>L3–5 · Demand, supply, elasticity</h3><ul>
-<li><b>Law of demand</b>: P↑ → Qd↓ (income &amp; substitution effects, diminishing marginal utility). Shifters: income (normal/inferior), prices of substitutes/complements, tastes, number of buyers, expectations.</li>
-<li><b>Law of supply</b>: P↑ → Qs↑. Shifters: input prices, technology, taxes/subsidies, other goods' prices, expectations, number of sellers.</li>
-<li>Movement <i>along</i> a curve = own price change; <i>shift</i> = other factor.</li>
-<li><b>Equilibrium</b>: Qd = Qs. Surplus → price falls; shortage → price rises. <b>Price ceiling</b> (below eq.) → shortage; <b>price floor</b> (above) → surplus.</li>
-<li>Double shift: D↑ &amp; S↑ → Q↑, P ambiguous (and similar cases).</li>
-<li><b>PED</b> = %ΔQd / %ΔP (midpoint formula). |Ed| &gt;1 elastic, &lt;1 inelastic, =1 unit. Total revenue test: elastic → cut price raises TR. Determinants: substitutes, share of income, luxury vs necessity, time.</li>
-<li>Income elasticity: + normal, − inferior; cross elasticity: + substitutes, − complements. PES depends on time.</li></ul>
-<p class="bn">দাম বাড়লে চাহিদার পরিমাণ কমে, যোগানের পরিমাণ বাড়ে। ভারসাম্যে Qd = Qs। সর্বোচ্চ দাম → ঘাটতি, সর্বনিম্ন দাম → উদ্বৃত্ত। স্থিতিস্থাপকতা ১-এর বেশি হলে স্থিতিস্থাপক।</p></div>
-<div class="card"><h3>L6–7 · Consumer choice &amp; costs</h3><ul>
-<li>Diminishing marginal utility; utility max: MU<sub>A</sub>/P<sub>A</sub> = MU<sub>B</sub>/P<sub>B</sub>.</li>
-<li>Explicit + implicit cost = economic cost; economic profit = TR − economic cost; normal profit = 0 economic profit.</li>
-<li>Short run (some fixed inputs): law of diminishing returns. TC = TFC + TVC; AFC↓ always; AVC, ATC, MC U-shaped; <b>MC cuts AVC and ATC at their minimum</b>.</li>
-<li>Long run: economies of scale (LRATC falls) → constant → diseconomies.</li></ul>
-<p class="bn">প্রান্তিক উপযোগ কমে। স্বল্পমেয়াদে ক্রমহ্রাসমান প্রতিদান; MC রেখা AVC ও ATC-কে তাদের সর্বনিম্ন বিন্দুতে কাটে। দীর্ঘমেয়াদে মাত্রার ব্যয়সংকোচ।</p></div>
-<div class="card"><h3>L8–12 · Market structures</h3><div class="tbl"><table>
-<tr><th></th><th>Perfect comp.</th><th>Monopolistic comp.</th><th>Oligopoly</th><th>Monopoly</th></tr>
-<tr><td>Firms</td><td>Very many</td><td>Many</td><td>Few</td><td>One</td></tr>
-<tr><td>Product</td><td>Identical</td><td>Differentiated</td><td>Std/diff.</td><td>Unique</td></tr>
-<tr><td>Entry</td><td>Free</td><td>Easy</td><td>Barriers</td><td>Blocked</td></tr>
-<tr><td>Price power</td><td>Price taker</td><td>Some</td><td>Interdependent</td><td>Price maker</td></tr>
-<tr><td>Long run</td><td>P = MC = min ATC, zero econ. profit</td><td>Zero econ. profit, excess capacity</td><td>Kinked demand, collusion/cartel, game theory</td><td>Can keep profit; P &gt; MC</td></tr>
-<tr><td>BD example</td><td>Rice/vegetable sellers</td><td>Restaurants, salons</td><td>Mobile operators, cement</td><td>DESCO, WASA</td></tr></table></div>
-<p>All firms maximise profit at <b>MR = MC</b>. Shut down in short run if P &lt; min AVC. Competition policy/regulation controls monopoly.</p>
-<p class="bn">সব ফার্ম MR = MC-তে মুনাফা সর্বোচ্চ করে। পূর্ণ প্রতিযোগিতায় দাম গ্রহীতা, একচেটিয়ায় দাম নির্ধারক। P &lt; ন্যূনতম AVC হলে স্বল্পমেয়াদে বন্ধ।</p></div>
-<div class="card"><h3>L13–15 · Labour, inequality, market failure</h3><ul>
-<li>Wage set by demand (MRP) &amp; supply of labour; <b>minimum wage</b> above equilibrium → unemployment (but may help in monopsony).</li>
-<li>Inequality: <b>Lorenz curve</b> (further from 45° line = more unequal), <b>Gini</b> 0–1. Causes: ability, education, discrimination, inheritance, luck. Poverty line; transfers &amp; progressive taxes.</li>
-<li><b>Market failure</b>: public goods (non-rival, non-excludable, free riders), merit/demerit goods, externalities (negative → overproduction; positive → underproduction), monopoly, asymmetric info, factor immobility. Fixes: Coase bargaining, taxes, direct controls, subsidies, government provision, pollution permits.</li></ul>
-<p class="bn">ন্যূনতম মজুরি ভারসাম্যের ওপরে → বেকারত্ব। লরেঞ্জ রেখা ও জিনি সূচক বৈষম্য মাপে। বাজার ব্যর্থতা: জনদ্রব্য, বাহ্যিকতা, একচেটিয়া, অসম তথ্য — সমাধান কর, ভর্তুকি, নিয়ন্ত্রণ।</p></div>
-<p>Full answers: <a href="index.html#fpec-midterm">Midterm Q&amp;A (20 Qs)</a> · <a href="index.html#fpec-modules">Modules 1–15</a></p>
-</section>
-
-<!-- ================= BIBS ================= -->
-<section id="bibs">
-<h2>BIBS 101 · Introduction to Business</h2>
-<div class="card"><h3>1 · Role of Business</h3><ul>
-<li><b>Business</b> = organisation that provides goods/services to earn <b>profit</b> (reward for risk). Not-for-profit organisations use surplus for their mission.</li>
-<li>Stakeholders: owners, employees, customers, suppliers, community, government. Factors of production: natural resources, labour, capital, entrepreneurs, knowledge.</li>
-<li>Business environment: economic, technological, competitive, social, global (+ legal).</li></ul>
-<p class="bn">ব্যবসা = মুনাফার জন্য পণ্য/সেবা দেওয়া প্রতিষ্ঠান; মুনাফা ঝুঁকির পুরস্কার। অংশীজন: মালিক, কর্মী, ক্রেতা, সরবরাহকারী, সমাজ, সরকার।</p></div>
-<div class="card"><h3>2 · Economic Environment</h3><ul>
-<li>Systems: free-market capitalism, socialism, communism, mixed economy.</li>
-<li>Indicators: <b>GDP</b>, unemployment rate (frictional, structural, cyclical, seasonal), <b>inflation</b> (CPI), productivity. Business cycle: expansion → peak → recession → trough.</li>
-<li><b>Fiscal policy</b> (government tax &amp; spending) vs <b>monetary policy</b> (central bank — Bangladesh Bank — money supply &amp; interest rates).</li></ul>
-<p class="bn">জিডিপি, বেকারত্ব, মুদ্রাস্ফীতি অর্থনীতির সূচক। রাজস্বনীতি = সরকারের কর ও ব্যয়; মুদ্রানীতি = বাংলাদেশ ব্যাংকের অর্থ সরবরাহ ও সুদের হার।</p></div>
-<div class="card"><h3>3 · Global Environment</h3><ul>
-<li>Why trade: <b>comparative advantage</b> (produce what you give up least to make) vs absolute advantage.</li>
-<li>Balance of trade (exports − imports), balance of payments, trade deficit/surplus, exchange rates, dumping.</li>
-<li>Entry modes (low → high commitment): exporting, licensing, franchising, contract manufacturing, joint venture/strategic alliance, FDI (subsidiary).</li>
-<li>Forces: sociocultural, economic/financial, legal/regulatory, physical. Protectionism: tariffs, quotas, embargoes. WTO, trade blocs (EU, SAARC, ASEAN).</li></ul>
-<p class="bn">তুলনামূলক সুবিধা অনুযায়ী বাণিজ্য। বিদেশে প্রবেশ: রপ্তানি, লাইসেন্সিং, ফ্র্যাঞ্চাইজিং, যৌথ উদ্যোগ, সরাসরি বিদেশি বিনিয়োগ। সংরক্ষণ: শুল্ক, কোটা, নিষেধাজ্ঞা।</p></div>
-<div class="card"><h3>4 · Financial Markets &amp; System</h3><ul>
-<li>Money: medium of exchange, measure of value, store of value. Characteristics: portable, divisible, durable, hard to counterfeit, stable.</li>
-<li>Central bank (Bangladesh Bank): reserve requirement, policy/discount rate, open-market operations → controls money supply. Banks create money by lending (fractional reserve); a bank run = panic withdrawals.</li>
-<li>Financial institutions: commercial banks, NBFIs, insurance, stock exchanges (DSE/CSE).</li></ul>
-<p class="bn">অর্থের কাজ: বিনিময়ের মাধ্যম, মূল্যের পরিমাপ, সঞ্চয়ের মাধ্যম। বাংলাদেশ ব্যাংক রিজার্ভ, নীতি সুদহার ও খোলাবাজার কার্যক্রমে অর্থ সরবরাহ নিয়ন্ত্রণ করে।</p></div>
-<div class="card"><h3>5 · Legal Environment</h3><ul>
-<li>Sources of law: constitutional, statutory, common/case law, administrative.</li>
-<li><b>Contract</b> needs: offer &amp; acceptance, consideration, competent parties, legal purpose (+ proper form). Breach → damages / specific performance.</li>
-<li>Torts (negligence, product liability), intellectual property (patent, copyright, trademark), bankruptcy, consumer protection, competition law.</li></ul>
-<p class="bn">চুক্তির শর্ত: প্রস্তাব ও গ্রহণ, প্রতিদান, সক্ষম পক্ষ, বৈধ উদ্দেশ্য। মেধাস্বত্ব: পেটেন্ট, কপিরাইট, ট্রেডমার্ক।</p></div>
-<div class="card"><h3>6 · Business Ethics</h3><ul>
-<li>Ethics = standards of right and wrong. Legal ≠ always ethical.</li>
-<li>Ethical dilemmas; approaches: utilitarian, rights, justice. Code of ethics, whistle-blowing, ethical leadership.</li>
-<li><b>CSR</b>: responsibility to customers, employees, investors, society, environment. Pyramid: economic → legal → ethical → philanthropic.</li></ul>
-<p class="bn">নৈতিকতা = সঠিক-ভুলের মানদণ্ড; আইনসম্মত সবসময় নৈতিক নয়। কর্পোরেট সামাজিক দায়িত্ব: ক্রেতা, কর্মী, বিনিয়োগকারী, সমাজ ও পরিবেশের প্রতি।</p></div>
-<div class="card"><h3>7 · Business Ownership</h3><div class="tbl"><table>
-<tr><th>Form</th><th>Advantages</th><th>Disadvantages</th></tr>
-<tr><td>Sole proprietorship</td><td>Easy to start, keep all profit, control</td><td>Unlimited liability, limited funds, ends with owner</td></tr>
-<tr><td>Partnership</td><td>More money &amp; skills, shared risk</td><td>Unlimited liability (general), disputes</td></tr>
-<tr><td>Corporation (company)</td><td><b>Limited liability</b>, raise capital, continuity</td><td>Costly, regulated, double taxation</td></tr></table></div>
-<p>Also: cooperatives, franchising (franchisor/franchisee), mergers (horizontal, vertical, conglomerate) &amp; acquisitions.</p>
-<p class="bn">একক মালিকানা সহজ কিন্তু অসীম দায়; অংশীদারিতে বেশি মূলধন; কোম্পানিতে সীমিত দায় ও স্থায়িত্ব।</p></div>
-<div class="card"><h3>8 · Entrepreneurship</h3><ul>
-<li>Entrepreneur = takes risk to start/run a business. Traits: self-directed, energetic, tolerant of uncertainty, creative.</li>
-<li>Small business: independently owned, not dominant. Business plan; financing: personal savings, family, banks, venture capital, angels.</li>
-<li>Why small businesses fail: poor management, lack of funds, poor planning, rapid growth.</li></ul>
-<p class="bn">উদ্যোক্তা ঝুঁকি নিয়ে ব্যবসা শুরু করেন। ব্যর্থতার কারণ: দুর্বল ব্যবস্থাপনা, অর্থের অভাব, পরিকল্পনার ঘাটতি।</p></div>
-<div class="card"><h3>9 · Management</h3><ul>
-<li>Four functions <b>POLC</b>: Planning (mission, goals, SWOT), Organising, Leading, Controlling.</li>
-<li>Levels: top (strategic), middle (tactical), first-line/supervisory (operational). Skills: technical, human, conceptual.</li>
-<li>Leadership styles: autocratic, participative/democratic, free-rein (laissez-faire).</li></ul>
-<p class="bn">ব্যবস্থাপনার চার কাজ: পরিকল্পনা, সংগঠন, নেতৃত্ব, নিয়ন্ত্রণ। দক্ষতা: কারিগরি, মানবিক, ধারণাগত।</p></div>
-<p>Full answers: <a href="index.html#bibs-questions">51 study questions</a> · <a href="index.html#bibs-modules">Modules</a></p>
-</section>
-
-<!-- ================= ENES ================= -->
-<section id="enes">
-<h2>ENES 101 · English Language Studies</h2>
-<div class="card"><h3>Study skills (Modules 1–8)</h3><ul>
-<li><b>Learning styles</b> (VARK): Visual, Auditory, Read/Write, Kinesthetic. Academic study = independent, critical, uses sources.</li>
-<li><b>Vocabulary</b>: context clues (definition, example, contrast, synonym), word parts (prefix, root, suffix), dictionary &amp; word lists.</li>
-<li><b>Skimming</b> = fast read for the main idea; <b>Scanning</b> = searching for a specific fact. <b>SQ3R</b> = Survey, Question, Read, Recite, Review.</li>
-<li><b>Annotating</b>: underline main ideas, margin notes, question marks, summary in own words.</li>
-<li><b>Note taking</b>: key words, abbreviations, symbols; Cornell method (cue column, notes, summary).</li>
-<li><b>Mind map</b>: central topic in middle → branches → sub-branches (good for visual learners &amp; brainstorming).</li>
-<li><b>Outline notes</b>: I, A, 1, a — main ideas and supporting details in a hierarchy.</li></ul>
-<p class="bn">স্কিমিং = মূল ভাব দ্রুত বোঝা; স্ক্যানিং = নির্দিষ্ট তথ্য খোঁজা। SQ3R: সার্ভে, প্রশ্ন, পড়া, আবৃত্তি, রিভিউ। মাইন্ড ম্যাপ ও আউটলাইন নোট।</p></div>
-<div class="card"><h3>Arguments &amp; plagiarism (Modules 9–10)</h3><ul>
-<li><b>Argument</b> = claim (position) + reasons + evidence; recognise counter-arguments; facts vs opinions; watch for fallacies.</li>
-<li><b>Plagiarism</b> = using others' words/ideas without credit. Avoid by quoting ("…" + citation), <b>paraphrasing</b> (own words &amp; structure + citation) and summarising (shorter, main points + citation).</li>
-<li>Good paraphrase: read → hide original → write from memory → compare → cite.</li></ul>
-<p class="bn">যুক্তি = দাবি + কারণ + প্রমাণ। চৌর্যবৃত্তি এড়াতে উদ্ধৃতি, প্যারাফ্রেজ ও সারাংশ — সবসময় সূত্র উল্লেখ।</p></div>
-<div class="card"><h3>Writing process (Modules 11–15)</h3><ul>
-<li>Stages: <b>Pre-writing → Drafting → Revising → Editing/Proofreading → Publishing</b>.</li>
-<li>Pre-writing: brainstorming, freewriting, clustering/mind-map, questioning (5W1H), listing; analyse the assignment (task words: discuss, compare, explain), audience, purpose.</li>
-<li><b>Thesis statement</b> = one sentence with the main argument of the essay (not a title, an announcement or a plain fact). <b>Topic sentence</b> = main idea of a paragraph.</li>
-<li>Paragraph: topic sentence + supporting details + concluding sentence (unity &amp; coherence).</li>
-<li><b>Revising</b> = big changes: content, organisation, clarity (add, cut, move, replace). <b>Editing</b> = grammar, spelling, punctuation.</li></ul>
-<p class="bn">লেখার ধাপ: প্রি-রাইটিং → খসড়া → পরিমার্জন → সম্পাদনা → প্রকাশ। থিসিস = প্রবন্ধের মূল যুক্তি এক বাক্যে; টপিক সেন্টেন্স = অনুচ্ছেদের মূল ভাব।</p></div>
-<p>Full answers: <a href="index.html#enes-midterm">Midterm Q&amp;A</a> · <a href="index.html#enes-course">Course</a></p>
-</section>
-
-<!-- ================= ASSIGNMENTS ================= -->
-<section id="asg">
+<p class="sub">Every module in short + <b>all MCQs with answers</b>. Read the notes, then practise MCQs until you score 80%+. · প্রতিটি মডিউলের সংক্ষিপ্ত নোট + উত্তরসহ সব MCQ। নোট পড়ে MCQ প্র্যাকটিস করো, ৮০%+ না হওয়া পর্যন্ত।</p>
+<div class="tabs"><div class="bar" id="subj"></div></div>
+<div id="main"></div>
+<section id="asg" class="asgsec">
 <h2>Assignments · অ্যাসাইনমেন্ট</h2>
 <div class="card"><h3>ISGS 101</h3><p>The full step-by-step guide (choose topic, Tawheed or Messengers essay, checklist) is ready: <a href="index.html#isgs-assignment">Open the ISGS assignment guide →</a></p>
 <p class="bn">ISGS-এর সম্পূর্ণ অ্যাসাইনমেন্ট গাইড আগেই তৈরি — লিংকে যাও।</p></div>
@@ -218,13 +69,74 @@ table{border-collapse:collapse;width:100%;font-size:14px}td,th{border:1px solid 
 <p class="bn">বিষয় যা-ই হোক, এই কাঠামো মানো: প্রশ্ন বোঝা → শিরোনাম পাতা → ভূমিকা ও থিসিস → ৩–৪টি অনুচ্ছেদ (টপিক সেন্টেন্স, ব্যাখ্যা, সূত্রসহ প্রমাণ, বাংলাদেশি উদাহরণ) → উপসংহার → APA রেফারেন্স → নিজের ভাষায় লেখা ও প্রুফরিড। প্রশ্নটা পেলে আমাকে দিলে সেই বিষয়ের জন্য আলাদা গাইড বানিয়ে দেব।</p></div>
 </section>
 </div>
+<script src="qn/data.js" charset="utf-8"></script>
 <script>
-document.querySelectorAll('.tabs button[data-t]').forEach(function(b){b.onclick=function(){
-document.querySelectorAll('.tabs button').forEach(function(x){x.classList.toggle('on',x===b)});
-document.querySelectorAll('section').forEach(function(s){s.classList.toggle('on',s.id===b.dataset.t)});
-try{localStorage.setItem('qn-tab',b.dataset.t)}catch(e){}
-try{history.replaceState(null,'','#'+b.dataset.t)}catch(e){}}});
-var t=location.hash.slice(1);try{t=t||localStorage.getItem('qn-tab')}catch(e){}
-var b=t&&document.querySelector('.tabs button[data-t="'+t+'"]');if(b)b.click();
+(function(){
+var S=['isgs','fpec','bibs','enes'],LS={get:function(k,d){try{var v=localStorage.getItem('qn-'+k);return v==null?d:JSON.parse(v)}catch(e){return d}},set:function(k,v){try{localStorage.setItem('qn-'+k,JSON.stringify(v))}catch(e){}}};
+var $=function(s,r){return (r||document).querySelector(s)},main=$('#main'),asg=$('#asg');
+var state={s:LS.get('s','isgs'),v:LS.get('v','notes'),en:LS.get('en',false)};
+var readM=LS.get('read',{}),best=LS.get('best',{});
+function esc(t){return String(t).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function opt(o){return esc(o)}
+function subjBar(){var b=$('#subj');b.innerHTML='';
+ S.forEach(function(k){var x=document.createElement('button');x.textContent=QN[k].name.split(' · ')[0];x.className=state.s===k?'on':'';x.onclick=function(){state.s=k;LS.set('s',k);render()};b.appendChild(x)});
+ var a=document.createElement('button');a.textContent='✍️ Assignments';a.className=state.s==='asg'?'on':'';a.onclick=function(){state.s='asg';LS.set('s','asg');render()};b.appendChild(a);
+ var l=document.createElement('button');l.textContent=state.en?'Show বাংলা too':'English only';l.title='Toggle Bangla';l.onclick=function(){state.en=!state.en;LS.set('en',state.en);document.body.classList.toggle('enonly',state.en);subjBar()};b.appendChild(l);
+ document.body.classList.toggle('enonly',state.en);}
+function render(){subjBar();asg.classList.toggle('on',state.s==='asg');main.innerHTML='';if(state.s==='asg')return;
+ var d=QN[state.s],k=state.s,v=document.createElement('div');v.className='views bar';
+ [['notes','📖 Notes · নোট'],['prac','🎯 Practice MCQ · প্র্যাকটিস'],['ans','✅ All answers · সব উত্তর']].forEach(function(p){var b=document.createElement('button');b.textContent=p[1];b.className=state.v===p[0]?'on':'';b.onclick=function(){state.v=p[0];LS.set('v',p[0]);render()};v.appendChild(b)});
+ var pr=document.createElement('button');pr.textContent='🖨 Print';pr.onclick=function(){$$all('details.mod').forEach(function(x){x.open=true});print()};v.appendChild(pr);
+ main.appendChild(v);
+ var h=document.createElement('h2');h.textContent=d.name;h.style.margin='4px 0';main.appendChild(h);
+ if(state.v==='notes')notes(d,k);else if(state.v==='ans')answers(d,k);else practice(d,k);}
+function $$all(s){return Array.prototype.slice.call(document.querySelectorAll(s))}
+function stat(k,d){var r=readM[k]||{},n=d.mods.filter(function(m){return r[m.n]}).length;return n}
+function notes(d,k){
+ var n=stat(k,d),t=document.createElement('div');t.className='card';
+ t.innerHTML='<b>How to use (1 day plan):</b> open each module → read <b>Remember</b> → glance at <b>Key words</b> → read the <b>MCQ facts</b> → tick “I have read this”. Then go to 🎯 Practice. · প্রতিটি মডিউল খোলো → মনে রাখার পয়েন্ট → শব্দ → MCQ তথ্য → টিক দাও → তারপর প্র্যাকটিস।<div class="prog"><i style="width:'+Math.round(n/d.mods.length*100)+'%"></i></div><span class="ex">'+n+' / '+d.mods.length+' modules read</span>';
+ main.appendChild(t);
+ d.mods.forEach(function(m){var el=document.createElement('details');el.className='mod';
+  var b=best[k+m.n];
+  el.innerHTML='<summary><span class="n">'+(m.n>15?'★':m.n)+'</span><span>'+esc(m.t)+' <span class="tb">· '+esc(m.tb)+'</span></span><span class="r">'+((readM[k]||{})[m.n]?'✅ ':'')+(b!=null?'🎯 '+b+'%':m.q.length+' MCQ')+'</span></summary><div class="mb"></div>';
+  el.addEventListener('toggle',function(){if(!el.open||el._f)return;el._f=1;var mb=$('.mb',el),h='';
+   if(m.sum)h+='<h3>⭐ Remember · মনে রাখো</h3>'+m.sum;
+   if(m.words)h+='<details><summary style="cursor:pointer;font-weight:700;color:var(--acc);margin:12px 0 6px">🔤 Key words · মূল শব্দ (tap)</summary>'+m.words+'</details>';
+   if(m.q.length)h+='<h3>✅ MCQ facts · MCQ-র তথ্য ('+m.q.length+')</h3>'+factList(m.q);
+   h+='<label class="read"><input type="checkbox"'+((readM[k]||{})[m.n]?' checked':'')+'> I have read this module · পড়া শেষ</label> <button class="btn pm">🎯 Practise this module</button>';
+   mb.innerHTML=h;
+   mb.querySelector('.read input').onchange=function(e){readM[k]=readM[k]||{};readM[k][m.n]=e.target.checked;LS.set('read',readM)};
+   mb.querySelector('.pm').onclick=function(){state.v='prac';LS.set('v','prac');LS.set('pm-'+k,m.n);render();window.scrollTo(0,0)};
+  });
+  main.appendChild(el);});}
+function factList(q){return '<ol class="facts">'+q.map(function(x){return '<li>'+esc(x.q)+(x.qb?'<span class="qb">'+esc(x.qb)+'</span>':'')+'<br><span class="ans">→ '+opt(x.o[x.a])+'</span>'+(x.e?'<span class="ex"> — '+esc(x.e)+'</span>':'')+'</li>'}).join('')+'</ol>'}
+function answers(d,k){var c=document.createElement('div');c.className='tip';c.innerHTML='Fast revision: every MCQ of every module with the correct answer only. Read this on exam morning. · পরীক্ষার সকালে শুধু এটা পড়ো।';main.appendChild(c);
+ d.mods.forEach(function(m){var x=document.createElement('div');x.className='card';x.innerHTML='<h3 style="margin-top:0">'+(m.n>15?'★':'Module '+m.n)+' · '+esc(m.t)+'</h3><ol class="facts">'+m.q.map(function(q){return '<li>'+esc(q.q)+' <span class="ans">→ '+opt(q.o[q.a])+'</span></li>'}).join('')+'</ol>';main.appendChild(x)});}
+function shuffle(a){for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t}return a}
+function practice(d,k){
+ var box=document.createElement('div');box.className='card';
+ var sel='<select id="pmod"><option value="0">All modules (mixed) · সব মডিউল</option>'+d.mods.map(function(m){return '<option value="'+m.n+'">'+(m.n>15?'★ ':'Module '+m.n+' · ')+esc(m.t)+' ('+m.q.length+')</option>'}).join('')+'<option value="-1">❌ My wrong answers · আমার ভুলগুলো</option></select>';
+ box.innerHTML='<div class="bar">'+sel+'<select id="pcount"><option value="10">10 questions</option><option value="20" selected>20 questions</option><option value="40">40 questions</option><option value="999">All</option></select><button class="on" id="pgo">Start · শুরু</button></div><p class="ex" style="margin:8px 0 0">Wrong answers are saved so you can retry them later. · ভুল উত্তরগুলো পরে আবার চেষ্টার জন্য জমা থাকে।</p>';
+ main.appendChild(box);var area=document.createElement('div');main.appendChild(area);
+ var pm=LS.get('pm-'+k,0);$('#pmod').value=String(pm);
+ $('#pgo').onclick=function(){var mv=+$('#pmod').value,cnt=+$('#pcount').value,pool=[],wr=LS.get('wrong-'+k,{});
+  d.mods.forEach(function(m){m.q.forEach(function(q,i){var id=m.n+'.'+i;if(mv===0||mv===m.n||(mv===-1&&wr[id]))pool.push({q:q,id:id,m:m.n})})});
+  LS.set('pm-'+k,mv);if(!pool.length){area.innerHTML='<div class="card">No questions here yet — great job! · এখানে কোনো প্রশ্ন নেই।</div>';return}
+  run(shuffle(pool).slice(0,cnt),area,k,mv,d)};
+ $('#pgo').click();}
+function run(list,area,k,mv,d){var i=0,score=0,wr=LS.get('wrong-'+k,{});
+ function show(){if(i>=list.length)return end();var it=list[i],q=it.q,ord=shuffle(q.o.map(function(_,j){return j}));
+  area.innerHTML='<div class="card"><div class="ex">Question '+(i+1)+' / '+list.length+' · Module '+(it.m>15?'★':it.m)+' · Score '+score+'</div><div class="prog"><i style="width:'+Math.round(i/list.length*100)+'%"></i></div><div class="pq">'+esc(q.q)+'</div>'+(q.qb?'<span class="qb">'+esc(q.qb)+'</span>':'')+'<div class="opts">'+ord.map(function(j){return '<button class="opt" data-j="'+j+'">'+opt(q.o[j])+'</button>'}).join('')+'</div><div class="fb"></div></div>';
+  Array.prototype.forEach.call(area.querySelectorAll('.opt'),function(b){b.onclick=function(){if(area._done)return;area._done=1;var j=+b.dataset.j,ok=j===q.a;
+   Array.prototype.forEach.call(area.querySelectorAll('.opt'),function(x){if(+x.dataset.j===q.a)x.classList.add('good')});if(!ok)b.classList.add('wrong');
+   if(ok){score++;delete wr[it.id]}else wr[it.id]=1;LS.set('wrong-'+k,wr);
+   $('.fb',area).innerHTML='<b>'+(ok?'✅ Correct! · সঠিক!':'❌ Not quite · ভুল')+'</b>'+(q.e?'<div>'+esc(q.e)+'</div>':'')+(q.eb?'<span class="eb">'+esc(q.eb)+'</span>':'')+'<div style="margin-top:8px"><button class="on" id="nx">'+(i+1<list.length?'Next · পরবর্তী →':'See score · ফলাফল')+'</button></div>';
+   $('#nx',area).onclick=function(){i++;area._done=0;show();};$('#nx',area).focus();}});}
+ function end(){var p=Math.round(score/list.length*100);if(mv>0){var key=k+mv;if(best[key]==null||p>best[key]){best[key]=p;LS.set('best',best)}}
+  area.innerHTML='<div class="card"><div class="score">'+score+' / '+list.length+' · '+p+'%</div><p>'+(p>=80?'🎉 Excellent — exam ready for this part! · চমৎকার!':p>=50?'👍 Good — read the notes of your wrong ones and try again. · ভালো, ভুলগুলোর নোট পড়ে আবার চেষ্টা করো।':'📖 Read the module notes first, then try again. · আগে নোট পড়ো, তারপর আবার।')+'</p><button class="on" id="again">Try again · আবার</button></div>';
+  $('#again',area).onclick=function(){$('#pgo').click()};}
+ area._done=0;show();}
+render();
+})();
 </script>
 </body></html>
